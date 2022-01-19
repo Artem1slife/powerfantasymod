@@ -1,0 +1,17 @@
+state={
+	id=360
+	name="STATE_360"
+	provinces={
+		370 613 1178 1347 1532 2090 2094 2909 2995 3671 3729 3736 3998 4330 4343 4500 5225 5278 5519 5524 7436 7444 7471 7486 7513 7542 7576 7641 
+	}
+	manpower=1
+	history={
+		owner = TST
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = TST
+	}
+	state_category = rural
+	local_supplies=0.0 
+}

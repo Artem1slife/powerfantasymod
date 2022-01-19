@@ -1,0 +1,17 @@
+state={
+	id=443
+	name="STATE_443"
+	provinces={
+		550 1656 2142 2469 3259 3492 3737 3784 3852 4151 4233 5147 5320 5577 8141 
+	}
+	manpower=1
+	history={
+		owner = TST
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = TST
+	}
+	state_category = rural
+	local_supplies=0.0 
+}

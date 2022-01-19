@@ -1,0 +1,17 @@
+state={
+	id=399
+	name="STATE_399"
+	provinces={
+		524 716 1166 2212 2610 2676 4119 5493 7793 7860 
+	}
+	manpower=1
+	history={
+		owner = TST
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = TST
+	}
+	state_category = rural
+	local_supplies=0.0 
+}

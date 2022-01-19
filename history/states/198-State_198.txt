@@ -1,0 +1,17 @@
+state={
+	id=198
+	name="STATE_198"
+	provinces={
+		171 317 1037 1049 1063 1230 1494 1712 1938 1948 1980 2014 2258 2445 2667 2880 3009 3579 3677 4140 4171 4465 4573 4592 4802 5249 5671 6158 6207 6212 6263 6276 6286 6322 
+	}
+	manpower=1
+	history={
+		owner = TST
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = TST
+	}
+	state_category = rural
+	local_supplies=0.0 
+}

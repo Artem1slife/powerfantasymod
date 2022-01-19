@@ -1,0 +1,17 @@
+state={
+	id=486
+	name="STATE_486"
+	provinces={
+		91 424 811 887 1322 1678 2004 2011 2118 2198 2540 2925 3226 4920 5197 5825 8290 8298 
+	}
+	manpower=1
+	history={
+		owner = TST
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = TST
+	}
+	state_category = rural
+	local_supplies=0.0 
+}

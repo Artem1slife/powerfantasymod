@@ -1,0 +1,11 @@
+#reload countrycolors
+
+TST = {
+	color = rgb { 50 50 50 }
+	color_ui = rgb { 50 50 50 }
+}
+TS2 = {
+	color = rgb { 50 50 50 }
+	color_ui = rgb { 50 50 50 }
+}
+

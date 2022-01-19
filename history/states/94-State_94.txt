@@ -1,0 +1,17 @@
+state={
+	id=94
+	name="STATE_94"
+	provinces={
+		129 3147 4008 5656 7239 7319 7326 7343 
+	}
+	manpower=1
+	history={
+		owner = TST
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = TST
+	}
+	state_category = rural
+	local_supplies=0.0 
+}

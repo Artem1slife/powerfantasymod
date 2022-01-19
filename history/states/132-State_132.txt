@@ -1,0 +1,17 @@
+state={
+	id=132
+	name="STATE_132"
+	provinces={
+		299 311 351 488 676 722 911 1557 1574 1802 1853 2408 4551 4642 4967 5923 5927 5933 5936 
+	}
+	manpower=1
+	history={
+		owner = TST
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = TST
+	}
+	state_category = rural
+	local_supplies=0.0 
+}

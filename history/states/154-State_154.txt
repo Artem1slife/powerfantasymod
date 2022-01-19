@@ -1,0 +1,17 @@
+state={
+	id=154
+	name="STATE_154"
+	provinces={
+		174 268 332 391 569 736 1148 1255 1321 1389 1564 1593 1664 1755 1943 1964 2008 2186 2370 2458 2468 2633 3253 3918 3985 4238 4467 4507 4553 4623 5457 5984 5998 6004 6030 6034 6037 6057 6071 8965 8964 8966 8967 8970 8972 8968 8971 8975 8976 8974
+	}
+	manpower=1
+	history={
+		owner = TST
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = TST
+	}
+	state_category = rural
+	local_supplies=0.0 
+}
