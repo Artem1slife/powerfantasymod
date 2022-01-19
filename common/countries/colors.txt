@@ -8,4 +8,51 @@ TS2 = {
 	color = rgb { 50 50 50 }
 	color_ui = rgb { 50 50 50 }
 }
-
+NAG = {
+	color = rgb { 138 43 226 }
+	color_ui = rgb { 138 43 226 }
+}
+GAM = {
+	color = rgb { 153 50 204 }
+	color_ui = rgb { 153 50 204 }
+}
+APO = {
+	color = rgb { 208 32 144 }
+	color_ui = rgb { 208 32 144 }
+}
+ROI = {
+	color = rgb { 205 92 92 }
+	color_ui = rgb { 205 92 92 }
+}
+IPO = {
+	color = rgb { 39 64 139 }
+	color_ui = rgb { 39 64 139 }
+}
+FIS = {
+	color = rgb { 135 206 255 }
+	color_ui = rgb { 135 206 255 }
+}
+CHI = {
+	color = rgb { 84 255 159 }
+	color_ui = rgb { 84 255 159 }
+}
+HAB = {
+	color = rgb { 238 207 161 }
+	color_ui = rgb { 238 207 161 }
+}
+PIR = {
+	color = rgb { 245 245 220 }
+	color_ui = rgb { 245 245 220 }
+}
+IND = {
+	color = rgb { 238 154 73 }
+	color_ui = rgb { 238 154 73 }
+}
+TEG = {
+	color = rgb { 69 139 0 }
+	color_ui = rgb { 69 139 0 }
+}
+MAD = {
+	color = rgb { 255 236 139 }
+	color_ui = rgb { 255 236 139 }
+}
