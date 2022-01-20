@@ -13,10 +13,11 @@ set_politics = {
 }
 
 set_popularities = {
+	darkness = 50
+	order = 0
 	neutrality = 25
-	fascism = 25
-	democratic = 25
-	communism = 25
+	destruction = 25
+	communism = 0
 }
 
 recruit_character = TST_test_testovich

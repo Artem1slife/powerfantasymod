@@ -13,9 +13,10 @@ set_politics = {
 }
 
 set_popularities = {
-	neutrality = 25
-	fascism = 25
-	democratic = 25
+	darkness = 25
+	order = 25
+	neutrality = 15
+	destruction = 10
 	communism = 25
 }
 
