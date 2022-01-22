@@ -1,0 +1,26 @@
+ideas = {
+
+	artifacts = {
+		law = yes
+		use_list_view = yes
+
+		mapgen_2_2 = {
+			available = {
+				political_power_daily > 0
+			}
+			
+			allowed = {
+				tag = TST
+			}
+			
+			removal_cost = -1
+			cost = 75
+
+			modifier = {
+				political_power_gain = 0.01
+			}
+
+			cancel_if_invalid = yes
+		}
+	}
+}

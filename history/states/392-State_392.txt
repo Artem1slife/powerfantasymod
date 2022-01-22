@@ -6,11 +6,11 @@ state={
 	}
 	manpower=1
 	history={
-		owner = TST
+		owner = IEL
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = TST
+		add_core_of = IEL
 	}
 	state_category = rural
 	local_supplies=0.0 

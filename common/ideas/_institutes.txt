@@ -1,0 +1,26 @@
+ideas = {
+
+	institutes = {
+		law = yes
+		use_list_view = yes
+
+		test_institute = {
+			available = {
+				political_power_daily > 0
+			}
+			
+			removal_cost = -1
+			cost = 0 #БЕСПЛАТНО
+
+			modifier = {
+				custom_modifier_tooltip = test_modifier
+			}
+			
+			allowed_to_remove = {
+				always = no				#институты нельзя снять, только поменять, лол
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+}

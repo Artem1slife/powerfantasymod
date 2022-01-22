@@ -6,7 +6,7 @@ set_stability = 0.5
 add_command_power = 20
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = order
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no

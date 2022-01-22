@@ -56,3 +56,7 @@ MAD = {
 	color = rgb { 255 236 139 }
 	color_ui = rgb { 255 236 139 }
 }
+STR = {
+	color = rgb {120  115  187}
+	color_ui = rgb { 139 20 20 }
+}

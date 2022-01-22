@@ -1,0 +1,381 @@
+ideas = {
+	
+	progressivism_level = {
+		law = yes
+		use_list_view = yes
+		progressive_sosaiti = {
+			
+			available = {
+				has_stability > 0.75
+			}
+			
+			removal_cost = -1
+			cost = 300
+			level = 3
+
+			modifier = {
+				monthly_population = -0.25
+				industrialisation_level_cost_factor = -0.50
+				education_level_cost_factor = -0.50
+				poorness_level_cost_factor = -0.50
+				salary_level_cost_factor = -0.50
+				healthness_level_cost_factor = -0.50
+			}
+
+			cancel_if_invalid = no
+		}
+		some_progressive_sosaiti = {
+			
+			removal_cost = -1
+			cost = 300
+			level = 2
+			default = yes
+
+			modifier = {
+				monthly_population = -0.15
+				industrialisation_level_cost_factor = 0.25
+				education_level_cost_factor = 0.25
+				poorness_level_cost_factor = 0.25
+				democracy_level_cost_factor = 0.25
+				personality_level_cost_factor = 0.25
+			}
+
+			cancel_if_invalid = no
+		}
+		not_progressive_sosaiti = {
+			
+			removal_cost = -1
+			cost = 300
+			level = 1
+
+			modifier = {
+				monthly_population = 0.25
+				industrialisation_level_cost_factor = 1
+				education_level_cost_factor = 1
+				poorness_level_cost_factor = 1
+				democracy_level_cost_factor = 1
+				personality_level_cost_factor = 1
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+
+	industrialisation_level = {
+		law = yes
+		use_list_view = yes
+
+		hight_industrialisated = {
+			available = {
+				num_of_factories > 50
+			}
+			
+			removal_cost = -1
+			cost = 150
+			level = 4
+
+			modifier = {
+				political_power_gain = 1
+				consumer_goods_factor = 0.1
+				research_speed_factor = 0.15
+				monthly_population = -0.30
+				nuclear_production_factor = 0.1
+				stability_factor = -0.3
+				production_speed_buildings_factor = -0.5
+			}
+
+			cancel_if_invalid = no
+		}
+		low_industrialisated = {
+			available = {
+				num_of_factories > 25
+			}
+			
+			removal_cost = -1
+			cost = 150
+			level = 3
+
+			modifier = {
+				political_power_gain = 0.5
+				consumer_goods_factor = 0.05
+				research_speed_factor = 0.05
+				monthly_population = -0.15
+				nuclear_production_factor = -0.25
+				stability_factor = -0.15
+				production_speed_buildings_factor = -0.25
+			}
+
+			cancel_if_invalid = no
+		}
+		not_industrialisated = {
+			available = {
+				num_of_factories > 5
+			}
+			
+			removal_cost = -1
+			cost = 150
+			level = 2
+			default = yes
+
+			modifier = {
+				political_power_gain = 0.25
+				consumer_goods_factor = -0.05
+				research_speed_factor = 0.05
+				monthly_population = 0.15
+				nuclear_production_factor = -0.50
+			}
+
+			cancel_if_invalid = no
+		}
+		no_industrialisated = {
+			available = {
+				num_of_factories < 5
+			}
+			
+			removal_cost = -1
+			cost = 150
+			level = 1
+
+			modifier = {
+				political_power_gain = -0.5
+				consumer_goods_factor = -0.1
+				research_speed_factor = -0.3
+				monthly_population = 0.50
+				nuclear_production_factor = -1
+				stability_factor = 0.3
+				production_speed_buildings_factor = -0.5
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+	
+	education_level = {
+		law = yes
+		use_list_view = yes
+		educated_sosaiti = {
+			
+			removal_cost = -1
+			cost = 300
+			level = 4
+
+			modifier = {
+				political_power_factor = -0.15
+				research_speed_factor = 0.3
+				monthly_population = -0.3
+			}
+
+			cancel_if_invalid = no
+		}
+		more_50_educated_sosaiti = {
+			
+			removal_cost = -1
+			cost = 300
+			level = 3
+
+			modifier = {
+				political_power_factor = -0.1
+				research_speed_factor = 0.15
+				monthly_population = -0.15
+			}
+
+			cancel_if_invalid = no
+		}
+		more_25_educated_sosaiti = {
+			
+			removal_cost = -1
+			cost = 300
+			level = 2
+			default = yes
+
+			modifier = {
+				political_power_factor = 0.05
+				research_speed_factor = 0.05
+			}
+
+			cancel_if_invalid = no
+		}
+		not_educated_sosaiti = {
+			
+			removal_cost = -1
+			cost = 300
+			level = 1
+
+			modifier = {
+				political_power_factor = 0.15
+				research_speed_factor = -0.3
+				monthly_population = 0.25
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+	
+	poorness_level = {
+		law = yes
+		use_list_view = yes
+		
+		not_poor_sosaiti = {
+			
+			removal_cost = -1
+			cost = 300
+			level = 3
+
+			modifier = {
+				political_power_factor = 0.1
+			}
+
+			cancel_if_invalid = no
+		}
+		
+		more_50_poor = {
+			
+			removal_cost = -1
+			cost = 300
+			level = 2
+			default = yes
+
+			modifier = {
+				research_speed_factor = -0.15
+				monthly_population = 0.15
+			}
+
+			cancel_if_invalid = no
+		}
+		
+		more_75_poor = {
+			
+			removal_cost = -1
+			cost = 300
+			level = 1
+
+			modifier = {
+				political_power_factor = -0.15
+				research_speed_factor = -0.3
+				monthly_population = 0.3
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+	
+	salary_level = {
+		law = yes
+		use_list_view = yes
+		
+		very_money = {
+			
+			removal_cost = -1
+			cost = 150
+			level = 3
+			
+			available = {
+				num_of_civilian_factories_available_for_projects > 1
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.15
+				industrial_capacity_dockyard = 0.25
+				industrial_capacity_factory = 0.25
+				line_change_production_efficiency_factor = 0.25
+				production_speed_buildings_factor = 0.25
+			}
+
+			cancel_if_invalid = no
+		}
+		
+		some_money = {
+			
+			removal_cost = -1
+			cost = 150
+			level = 2
+			default = yes
+			
+			available = {
+				num_of_civilian_factories_available_for_projects > 1
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				industrial_capacity_dockyard = 0.1
+				industrial_capacity_factory = 0.1
+				line_change_production_efficiency_factor = 0.1
+				production_speed_buildings_factor = 0.1
+			}
+
+			cancel_if_invalid = no
+		}
+		
+		no_money = {
+			
+			removal_cost = -1
+			cost = 150
+			level = 1
+
+			modifier = {
+				industrial_capacity_dockyard = -0.15
+				industrial_capacity_factory = -0.15
+				line_change_production_efficiency_factor = -0.15
+				production_speed_buildings_factor = -0.15
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+	
+	healthness_level = {
+		law = yes
+		use_list_view = yes
+		
+		good_medicine = {
+			
+			removal_cost = -1
+			cost = 150
+			level = 3
+			
+			available = {
+				num_of_civilian_factories_available_for_projects > 1
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				stability_factor = 0.1
+				monthly_population = 0.15
+				political_power_gain = 0.15
+			}
+
+			cancel_if_invalid = no
+		}
+		yes_medicine = {
+			
+			removal_cost = -1
+			cost = 150
+			level = 2
+			default = yes
+			
+			available = {
+				num_of_civilian_factories_available_for_projects > 1
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.02
+				stability_factor = 0.05
+			}
+
+			cancel_if_invalid = no
+		}
+		no_medicine = {
+			
+			removal_cost = -1
+			cost = 150
+			level = 1
+
+			modifier = {
+				stability_factor = -0.05
+				monthly_population = -0.05
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+}

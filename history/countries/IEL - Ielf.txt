@@ -1,0 +1,22 @@
+﻿capital = 16
+
+
+set_research_slots = 3
+set_stability = 0.5
+add_command_power = 20
+
+set_politics = {
+	ruling_party = order
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	darkness = 20
+	order = 40
+	neutrality = 20
+	destruction = 20
+}
+
+recruit_character = TST_test_testovich
