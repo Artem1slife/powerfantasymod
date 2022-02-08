@@ -15,9 +15,9 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	order = 95
+	democratic = 95
 	communism = 0
-	darkness = 0
+	fascism = 0
 	destruction = 5
 }
 

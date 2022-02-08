@@ -12,14 +12,14 @@ defined_text = { # Country
 	name = GetKdfWagenName
 	text = {
 		trigger = {
-			original_tag = GER
+			original_tag = TST
 			has_government = neutrality
 		}
 		localization_key = GER_KAISER_WAGEN_NAME
 	}
 	text = {
 		trigger = {
-			original_tag = GER
+			original_tag = TST
 			OR = {
 				has_government = communism
 				has_government = democratic
@@ -36,21 +36,21 @@ defined_text = { # Country
 	name = GetHermannGoringWerkeName
 	text = {
 		trigger = {
-			original_tag = GER
+			original_tag = TST
 			has_government = neutrality
 		}
 		localization_key = GER_HERMANN_GORING_WERKE_NAME_KAISER
 	}
 	text = {
 		trigger = {
-			original_tag = GER
+			original_tag = TST
 			has_government = communism
 		}
 		localization_key = GER_HERMANN_GORING_WERKE_NAME_COMMIE
 	}
 	text = {
 		trigger = {
-			original_tag = GER
+			original_tag = TST
 			has_government = fascism
 		}
 		localization_key = GER_HERMANN_GORING_WERKE_NAME_FASCIST
@@ -99,7 +99,7 @@ defined_text = { # Country
 		trigger = {
 			original_tag = RAJ
 			is_in_faction_with = JAP
-			NOT = { is_in_faction_with = GER }
+			NOT = { is_in_faction_with = TST }
 		}
 		localization_key = RAJ_german_technology_japan
 	}
@@ -113,7 +113,7 @@ defined_text = { # Country
 	text = {
 		trigger = {
 			original_tag = RAJ
-			is_in_faction_with = GER
+			is_in_faction_with = TST
 			NOT = { is_in_faction_with = JAP }
 		}
 		localization_key = RAJ_japanese_army_air_force_academy_german
@@ -127,7 +127,7 @@ defined_text = { #
 	name = GetWehrmachtAngerLevel
 	text = {
 		trigger = {
-			original_tag = GER
+			original_tag = TST
 			check_variable = { var = wehrmacht_anger value = 0 compare = less_than }
 
 		}
@@ -135,7 +135,7 @@ defined_text = { #
 	}
 	text = {
 		trigger = {
-			original_tag = GER
+			original_tag = TST
 			check_variable = { var = wehrmacht_anger value = 0 compare = greater_than_or_equals }
 			check_variable = { var = wehrmacht_anger value = 10 compare = less_than }
 
@@ -144,7 +144,7 @@ defined_text = { #
 	}
 	text = {
 		trigger = {
-			original_tag = GER
+			original_tag = TST
 			check_variable = { var = wehrmacht_anger value = 10 compare = greater_than_or_equals }
 			check_variable = { var = wehrmacht_anger value = 20 compare = less_than }
 
@@ -153,7 +153,7 @@ defined_text = { #
 	}
 	text = {
 		trigger = {
-			original_tag = GER
+			original_tag = TST
 			check_variable = { var = wehrmacht_anger value = 20 compare = greater_than_or_equals }
 			check_variable = { var = wehrmacht_anger value = 30 compare = less_than }
 
@@ -162,7 +162,7 @@ defined_text = { #
 	}
 	text = {
 		trigger = {
-			original_tag = GER
+			original_tag = TST
 			check_variable = { var = wehrmacht_anger value = 30 compare = greater_than_or_equals }
 			check_variable = { var = wehrmacht_anger value = 40 compare = less_than }
 
@@ -171,7 +171,7 @@ defined_text = { #
 	}
 	text = {
 		trigger = {
-			original_tag = GER
+			original_tag = TST
 			check_variable = { var = wehrmacht_anger value = 40 compare = greater_than_or_equals }
 		}
 		localization_key = SS_rebellious
@@ -182,7 +182,7 @@ defined_text = { #
 	name = GetSSAngerLevel
 	text = {
 		trigger = {
-			original_tag = GER
+			original_tag = TST
 			check_variable = { var = SS_anger value = 0 compare = less_than }
 
 		}
@@ -190,7 +190,7 @@ defined_text = { #
 	}
 	text = {
 		trigger = {
-			original_tag = GER
+			original_tag = TST
 			check_variable = { var = SS_anger value = 0 compare = greater_than_or_equals }
 			check_variable = { var = SS_anger value = 10 compare = less_than }
 
@@ -199,7 +199,7 @@ defined_text = { #
 	}
 	text = {
 		trigger = {
-			original_tag = GER
+			original_tag = TST
 			check_variable = { var = SS_anger value = 10 compare = greater_than_or_equals }
 			check_variable = { var = SS_anger value = 20 compare = less_than }
 
@@ -208,7 +208,7 @@ defined_text = { #
 	}
 	text = {
 		trigger = {
-			original_tag = GER
+			original_tag = TST
 			check_variable = { var = SS_anger value = 20 compare = greater_than_or_equals }
 			check_variable = { var = SS_anger value = 30 compare = less_than }
 
@@ -217,7 +217,7 @@ defined_text = { #
 	}
 	text = {
 		trigger = {
-			original_tag = GER
+			original_tag = TST
 			check_variable = { var = SS_anger value = 30 compare = greater_than_or_equals }
 			check_variable = { var = SS_anger value = 40 compare = less_than }
 
@@ -226,7 +226,7 @@ defined_text = { #
 	}
 	text = {
 		trigger = {
-			original_tag = GER
+			original_tag = TST
 			check_variable = { var = SS_anger value = 40 compare = greater_than_or_equals }
 		}
 		localization_key = SS_rebellious
@@ -266,16 +266,16 @@ defined_text = {
 	name = GET_AUSTRALIA_NEW_ZEALAND_STATUS
 	text = {
 		trigger = {
-			AST = { is_subject_of = ENG }
-			NZL = { is_subject_of = ENG }
+			AST = { is_subject_of = TST }
+			NZL = { is_subject_of = TST }
 		}
 		localization_key = AST_NZL_PUPPET
 	}
 	text = {
 		trigger = {
 			AND = {
-				AST = { is_subject_of = ENG }
-				NZL = { not = { is_subject_of = ENG } }
+				AST = { is_subject_of = TST }
+				NZL = { not = { is_subject_of = TST } }
 			}
 		}
 		localization_key = AST_democratic
@@ -283,8 +283,8 @@ defined_text = {
 	text = {
 		trigger = {
 			AND = {
-				NZL = { is_subject_of = ENG }
-				AST = { not = { is_subject_of = ENG } }
+				NZL = { is_subject_of = TST }
+				AST = { not = { is_subject_of = TST } }
 			}
 		}
 		localization_key = NZL_democratic
@@ -348,14 +348,14 @@ defined_text = {
 	name = GetLimitedRearmamentDesc
 	text = {
 		trigger = {
-			original_tag = ENG
+			original_tag = TST
 			NOT = { has_completed_focus = ENG_a_change_in_course }
 		}
 		localization_key = ENG_LIMITED_REARMAMENT_HISTORICAL
 	}
 	text = {
 		trigger = {
-			original_tag = ENG
+			original_tag = TST
 			has_completed_focus = ENG_a_change_in_course
 		}
 		localization_key = ENG_LIMITED_REARMAMENT_AHISTORICAL
@@ -366,7 +366,7 @@ defined_text = {
 	name = GetRoyalTankRegimentName
 	text = {
 		trigger = {
-			original_tag = ENG
+			original_tag = TST
 			OR = {
 				has_government = democratic
 				has_government = fascism
@@ -377,7 +377,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = ENG
+			original_tag = TST
 			has_government = communism
 		}
 		localization_key = ENG_ROYAL_TANK_REGIMENT_NAME_COMMUNIST
@@ -388,7 +388,7 @@ defined_text = {
 	name = GetRoyalTankRegimentDesc
 	text = {
 		trigger = {
-			original_tag = ENG
+			original_tag = TST
 			OR = {
 				has_government = democratic
 				has_government = fascism
@@ -399,7 +399,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = ENG
+			original_tag = TST
 			has_government = communism
 		}
 		localization_key = ENG_ROYAL_TANK_REGIMENT_DESC_COMMUNIST
@@ -410,7 +410,7 @@ defined_text = {
 	name = GetRoyalOrdnanceFactoriesName
 	text = {
 		trigger = {
-			original_tag = ENG
+			original_tag = TST
 			OR = {
 				has_government = democratic
 				has_government = fascism
@@ -421,7 +421,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = ENG
+			original_tag = TST
 			has_government = communism
 		}
 		localization_key = ENG_ROYAL_ORDNANCE_FACTORIES_NAME_COMMUNIST
@@ -432,7 +432,7 @@ defined_text = {
 	name = GetRoyalOrdnanceFactoriesDesc
 	text = {
 		trigger = {
-			original_tag = ENG
+			original_tag = TST
 			OR = {
 				has_government = democratic
 				has_government = fascism
@@ -443,7 +443,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = ENG
+			original_tag = TST
 			has_government = communism
 		}
 		localization_key = ENG_ROYAL_ORDNANCE_FACTORIES_DESC_COMMUNIST
@@ -454,7 +454,7 @@ defined_text = {
 	name = GetBSACompanyDesc
 	text = {
 		trigger = {
-			original_tag = ENG
+			original_tag = TST
 			OR = {
 				has_government = democratic
 				has_government = fascism
@@ -465,7 +465,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = ENG
+			original_tag = TST
 			has_government = communism
 		}
 		localization_key = ENG_BSA_COMPANY_DESC_COMMUNIST
@@ -476,14 +476,14 @@ defined_text = {
 	name = GetGeneralRearmamentDesc
 	text = {
 		trigger = {
-			original_tag = ENG
+			original_tag = TST
 			NOT = { has_completed_focus = ENG_a_change_in_course }
 		}
 		localization_key = ENG_GENERAL_REARMAMENT_DESC_HISTORICAL
 	}
 	text = {
 		trigger = {
-			original_tag = ENG
+			original_tag = TST
 			has_completed_focus = ENG_a_change_in_course
 		}
 		localization_key = ENG_GENERAL_REARMAMENT_DESC_AHISTORICAL
@@ -494,7 +494,7 @@ defined_text = {
 	name = GetAirRearmamentDesc
 	text = {
 		trigger = {
-			original_tag = ENG
+			original_tag = TST
 			OR = {
 				has_government = democratic
 				has_government = fascism
@@ -505,7 +505,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = ENG
+			original_tag = TST
 			has_government = communism
 		}
 		localization_key = ENG_AIR_REARMAMENT_DESC_COMMUNIST
@@ -516,7 +516,7 @@ defined_text = {
 	name = GetNavalRearmamentDesc
 	text = {
 		trigger = {
-			original_tag = ENG
+			original_tag = TST
 			OR = {
 				has_government = democratic
 				has_government = fascism
@@ -527,7 +527,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = ENG
+			original_tag = TST
 			has_government = communism
 		}
 		localization_key = ENG_NAVAL_REARMAMENT_DESC_COMMUNIST
@@ -538,7 +538,7 @@ defined_text = {
 	name = GetCoastalCommandDesc
 	text = {
 		trigger = {
-			original_tag = ENG
+			original_tag = TST
 			OR = {
 				has_government = democratic
 				has_government = fascism
@@ -549,7 +549,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = ENG
+			original_tag = TST
 			has_government = communism
 		}
 		localization_key = ENG_COASTAL_COMMAND_DESC_COMMUNIST
@@ -560,7 +560,7 @@ defined_text = {
 	name = GetBritanniaRulesTheWavesDesc
 	text = {
 		trigger = {
-			original_tag = ENG
+			original_tag = TST
 			OR = {
 				has_government = democratic
 				has_government = fascism
@@ -571,7 +571,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = ENG
+			original_tag = TST
 			has_government = communism
 		}
 		localization_key = ENG_BRITANNIA_RULES_THE_WAVES_DESC_COMMUNIST
@@ -582,7 +582,7 @@ defined_text = {
 	name = GetVanguardDesc
 	text = {
 		trigger = {
-			original_tag = ENG
+			original_tag = TST
 			OR = {
 				has_government = democratic
 				has_government = fascism
@@ -593,7 +593,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = ENG
+			original_tag = TST
 			has_government = communism
 		}
 		localization_key = ENG_VANGUARD_DESC_COMMUNIST
@@ -605,14 +605,14 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = HOL
-			GER = { has_government = fascism }
+			TST = { has_government = fascism }
 		}
 		localization_key = HOL_WILHELMINISM_FASCISM
 	}
 	text = {
 		trigger = {
 			original_tag = HOL
-			NOT = { GER = { has_government = fascism } }
+			NOT = { TST = { has_government = fascism } }
 		}
 		localization_key = HOL_WILHELMINISM_NEUTRALITY
 	}
@@ -649,9 +649,9 @@ defined_text = { # Country
 	text = {
 		trigger = {
 			if = {
-				limit = { ENG = { has_naval_treaty_trigger = yes } }
+				limit = { TST = { has_naval_treaty_trigger = yes } }
 				naval_strength_comparison = {
-					other = ENG
+					other = TST
 					ratio < 1
 					sub_unit_def_weights = {
 						carrier = 0.5
@@ -661,7 +661,7 @@ defined_text = { # Country
 					}
 				}
 				naval_strength_comparison = {
-					other = ENG
+					other = TST
 					ratio > 0.9
 					sub_unit_def_weights = {
 						carrier = 0.5
@@ -700,9 +700,9 @@ defined_text = { # Country
 	text = {
 		trigger = {
 			if = {
-				limit = { ENG = { has_naval_treaty_trigger = yes } }
+				limit = { TST = { has_naval_treaty_trigger = yes } }
 				naval_strength_comparison = {
-					other = ENG
+					other = TST
 					ratio < 0.9
 					sub_unit_def_weights = {
 						carrier = 0.5
@@ -712,7 +712,7 @@ defined_text = { # Country
 					}
 				}
 				naval_strength_comparison = {
-					other = ENG
+					other = TST
 					ratio > 0.75
 					sub_unit_def_weights = {
 						carrier = 0.5
@@ -751,9 +751,9 @@ defined_text = { # Country
 	text = {
 		trigger = {
 			if = {
-				limit = { ENG = { has_naval_treaty_trigger = yes } }
+				limit = { TST = { has_naval_treaty_trigger = yes } }
 				naval_strength_comparison = {
-					other = ENG
+					other = TST
 					ratio < 0.75
 					sub_unit_def_weights = {
 						carrier = 0.5
@@ -763,7 +763,7 @@ defined_text = { # Country
 					}
 				}
 				naval_strength_comparison = {
-					other = ENG
+					other = TST
 					ratio > 0.5
 					sub_unit_def_weights = {
 						carrier = 0.5
@@ -802,9 +802,9 @@ defined_text = { # Country
 	text = {
 		trigger = {
 			if = {
-				limit = { ENG = { has_naval_treaty_trigger = yes } }
+				limit = { TST = { has_naval_treaty_trigger = yes } }
 				naval_strength_comparison = {
-					other = ENG
+					other = TST
 					ratio < 0.5
 					sub_unit_def_weights = {
 						carrier = 0.5
@@ -833,9 +833,9 @@ defined_text = { # Country
 	text = {
 		trigger = {
 			if = {
-				limit = { ENG = { has_naval_treaty_trigger = yes } }
+				limit = { TST = { has_naval_treaty_trigger = yes } }
 				naval_strength_comparison = {
-					other = ENG
+					other = TST
 					ratio > 1
 					sub_unit_def_weights = {
 						carrier = 0.5
@@ -866,7 +866,7 @@ defined_text = { # Country
 	name = GetRelevantNavalTreatyNation
 	text = {
 		trigger = {
-			ENG = {
+			TST = {
 				has_naval_treaty_trigger = yes
 			}
 		}
@@ -874,7 +874,7 @@ defined_text = { # Country
 	}
 	text = {
 		trigger = {
-			ENG = {
+			TST = {
 				not = { has_naval_treaty_trigger = yes }
 			}
 			USA = {
@@ -986,7 +986,7 @@ defined_text = {
 
 defined_text = {
 	name = GetPortugueseShipsBuilder
-	text = { #ENG builder
+	text = { #TST builder
 		trigger = {
 			OR = {
 				has_country_flag = POR_purchase_british_submarines_flag
@@ -1024,7 +1024,7 @@ defined_text = {
 defined_text = {
 	name = GetOperationName
 	text = {
-		trigger = { original_tag = GER }
+		trigger = { original_tag = TST }
 		random_list = {
 			25 = { localization_key = GER_operation_1}
 			25 = { localization_key = GER_operation_2}
@@ -1042,7 +1042,7 @@ defined_text = {
 		}
 	}
 	text = {
-		trigger = { original_tag = ENG }
+		trigger = { original_tag = TST }
 		random_list = {
 			25 = { localization_key = ENG_operation_1 }
 			25 = { localization_key = ENG_operation_2 }
@@ -1085,7 +1085,7 @@ defined_text = {
 	name = GetChurchCandidatesName
 	text = {
 		trigger = {
-			original_tag = SOV
+			original_tag = TST
 			NOT = {
 				has_completed_focus = SOV_dismantle_the_zemsky_sobor
 			}
@@ -1094,7 +1094,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SOV
+			original_tag = TST
 			has_completed_focus = SOV_dismantle_the_zemsky_sobor
 		}
 		localization_key = SOV_CHURCH_CANDIDATES_NAME_FASCIST
@@ -1105,7 +1105,7 @@ defined_text = {
 	name = GetChurchCandidatesDesc
 	text = {
 		trigger = {
-			original_tag = SOV
+			original_tag = TST
 			NOT = {
 				has_completed_focus = SOV_dismantle_the_zemsky_sobor
 			}
@@ -1114,7 +1114,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SOV
+			original_tag = TST
 			has_completed_focus = SOV_dismantle_the_zemsky_sobor
 		}
 		localization_key = SOV_CHURCH_CANDIDATES_DESC_FASCIST
@@ -1125,7 +1125,7 @@ defined_text = {
 	name = GetLonelyIslandName
 	text = {
 		trigger = {
-			original_tag = SOV
+			original_tag = TST
 			OR = {
 				NOT = { has_completed_focus = SOV_request_imperial_protection }
 				NOT = { is_subject_of = JAP }
@@ -1135,7 +1135,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SOV
+			original_tag = TST
 			has_completed_focus = SOV_request_imperial_protection
 			is_subject_of = JAP
 		}
@@ -1147,7 +1147,7 @@ defined_text = {
 	name = GetLonelyIslandDesc
 	text = {
 		trigger = {
-			original_tag = SOV
+			original_tag = TST
 			OR = {
 				NOT = { has_completed_focus = SOV_request_imperial_protection }
 				NOT = { is_subject_of = JAP }
@@ -1157,7 +1157,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SOV
+			original_tag = TST
 			has_completed_focus = SOV_request_imperial_protection
 			is_subject_of = JAP
 		}
@@ -1169,14 +1169,14 @@ defined_text = {
 	name = GetArticle124Desc
 	text = {
 		trigger = {
-			original_tag = SOV
+			original_tag = TST
 			has_government = communism
 		}
 		localization_key = SOV_ARTICLE_124_DESC_COMMUNIST
 	}
 	text = {
 		trigger = {
-			original_tag = SOV
+			original_tag = TST
 			NOT = { has_government = communism }
 		}
 		localization_key = SOV_ARTICLE_124_DESC_EXILES
@@ -1187,14 +1187,14 @@ defined_text = {
 	name = GetRebuildtheSaviorCathedralDesc
 	text = {
 		trigger = {
-			original_tag = SOV
+			original_tag = TST
 			has_government = communism
 		}
 		localization_key = SOV_REBUILD_THE_SAVIOR_CATHEDRAL_DESC_COMMUNIST
 	}
 	text = {
 		trigger = {
-			original_tag = SOV
+			original_tag = TST
 			NOT = { has_government = communism }
 		}
 		localization_key = SOV_REBUILD_THE_SAVIOR_CATHEDRAL_DESC_EXILES
@@ -1205,14 +1205,14 @@ defined_text = {
 	name = GetReformalizetheRoleofthePatriarchateDesc
 	text = {
 		trigger = {
-			original_tag = SOV
+			original_tag = TST
 			has_government = communism
 		}
 		localization_key = SOV_REFORMALIZE_THE_ROLE_OF_THE_PATRIARCHATE_DESC_COMMUNIST
 	}
 	text = {
 		trigger = {
-			original_tag = SOV
+			original_tag = TST
 			NOT = { has_government = communism }
 		}
 		localization_key = SOV_REFORMALIZE_THE_ROLE_OF_THE_PATRIARCHATE_DESC_EXILES
@@ -1223,14 +1223,14 @@ defined_text = {
 	name = GetTheDeclarationDesc
 	text = {
 		trigger = {
-			original_tag = SOV
+			original_tag = TST
 			has_government = communism
 		}
 		localization_key = SOV_THE_DECLARATION_DESC_COMMUNIST
 	}
 	text = {
 		trigger = {
-			original_tag = SOV
+			original_tag = TST
 			NOT = { has_government = communism }
 		}
 		localization_key = SOV_THE_DECLARATION_DESC_EXILES
@@ -1241,7 +1241,7 @@ defined_text = {
 	name = GetTheUSSRName
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				has_government = communism
 			}
 		}
@@ -1249,7 +1249,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				NOT = { has_government = communism }
 			}
 		}
@@ -1261,7 +1261,7 @@ defined_text = {
 	name = GetMolotovRibbentropName
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				has_government = communism
 			}
 		}
@@ -1269,7 +1269,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				NOT = { has_government = communism }
 			}
 		}
@@ -1281,7 +1281,7 @@ defined_text = {
 	name = GetUSSRAllianceDesc
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				NOT = { has_government = fascism }
 			}
 		}
@@ -1289,7 +1289,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				has_government = fascism
 			}
 		}
@@ -1301,7 +1301,7 @@ defined_text = {
 	name = GetBulwarkName
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				has_government = communism
 			}
 		}
@@ -1309,7 +1309,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				has_government = fascism
 			}
 		}
@@ -1317,7 +1317,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				OR = {
 					has_government = neutrality
 					has_government = democratic
@@ -1332,7 +1332,7 @@ defined_text = {
 	name = GetBulwarkBolshevismDesc
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				has_government = communism
 			}
 		}
@@ -1340,7 +1340,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				has_government = fascism
 			}
 		}
@@ -1348,7 +1348,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				OR = {
 					has_government = neutrality
 					has_government = democratic
@@ -1363,7 +1363,7 @@ defined_text = {
 	name = GetBulwarkCommunismDesc
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				has_government = communism
 			}
 		}
@@ -1371,7 +1371,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				has_government = fascism
 			}
 		}
@@ -1379,7 +1379,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				OR = {
 					has_government = neutrality
 					has_government = democratic
@@ -1394,7 +1394,7 @@ defined_text = {
 	name = GetDanzigGuaranteesBolsheviksDesc
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				has_government = communism
 			}
 		}
@@ -1402,7 +1402,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				has_government = fascism
 			}
 		}
@@ -1410,7 +1410,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				OR = {
 					has_government = neutrality
 					has_government = democratic
@@ -1425,7 +1425,7 @@ defined_text = {
 	name = GetDanzigGuaranteesRedsDesc
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				has_government = communism
 			}
 		}
@@ -1433,7 +1433,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				NOT = { has_government = communism }
 			}
 		}
@@ -1445,7 +1445,7 @@ defined_text = {
 	name = GetRussiansDemonym
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				has_government = communism
 			}
 		}
@@ -1453,7 +1453,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				NOT = { has_government = communism }
 			}
 		}
@@ -1465,7 +1465,7 @@ defined_text = {
 	name = GetTackleCommunistThreatName
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				has_government = communism
 			}
 		}
@@ -1473,7 +1473,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				NOT = { has_government = communism }
 			}
 		}
@@ -1485,7 +1485,7 @@ defined_text = {
 	name = GetGreatRedMenaceName
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				has_government = communism
 			}
 		}
@@ -1493,7 +1493,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				NOT = { has_government = communism }
 			}
 		}
@@ -1505,7 +1505,7 @@ defined_text = {
 	name = GetGreatRedMenaceDesc
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				has_government = communism
 			}
 		}
@@ -1513,7 +1513,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				NOT = { has_government = communism }
 			}
 		}
@@ -1525,7 +1525,7 @@ defined_text = {
 	name = GetGreatRedMenaceEventDesc1
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				has_government = communism
 			}
 		}
@@ -1533,7 +1533,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				NOT = { has_government = communism }
 			}
 		}
@@ -1545,7 +1545,7 @@ defined_text = {
 	name = GetGreatRedMenaceEventDesc2
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				has_government = communism
 			}
 		}
@@ -1553,7 +1553,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				NOT = { has_government = communism }
 			}
 		}
@@ -1565,7 +1565,7 @@ defined_text = {
 	name = GetDanubianMembershipDesc
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				has_government = communism
 			}
 		}
@@ -1573,7 +1573,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				NOT = { has_government = communism }
 			}
 		}
@@ -1585,7 +1585,7 @@ defined_text = {
 	name = GetBalticMembershipDesc
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				has_government = communism
 			}
 		}
@@ -1593,7 +1593,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				NOT = { has_government = communism }
 			}
 		}
@@ -1605,7 +1605,7 @@ defined_text = {
 	name = GetFinnishMembershipDesc
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				has_government = communism
 			}
 		}
@@ -1613,7 +1613,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				NOT = { has_government = communism }
 			}
 		}
@@ -1625,7 +1625,7 @@ defined_text = {
 	name = GetStrikeAtTheSourceDesc
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				has_government = communism
 			}
 		}
@@ -1633,7 +1633,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			SOV = {
+			TST = {
 				NOT = { has_government = communism }
 			}
 		}

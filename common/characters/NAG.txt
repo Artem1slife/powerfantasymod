@@ -1,12 +1,12 @@
 characters = {
-	TST_test_testovich = {
+	NAG_Queen_of_Nagas = {
 		portraits={
 			civilian={
-				large="gfx/leaders/TST/testo.dds"
+				large="gfx/leaders/NAG/QueenofNagZhalgara.dds"
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=monarchy
 			expire="1965.1.1.1"
 			id=-1
 		}

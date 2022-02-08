@@ -1,0 +1,64 @@
+ideas = {
+	country = {
+		black_market_1_idea = {
+			picture = SPR_seize_the_gold_reserves
+			allowed = {
+				always = no
+			}
+			modifier = {
+				industrial_factory_donations = 1
+				political_power_gain = 0.1
+			}
+		}
+		black_market_2_idea = {
+			picture = SPR_seize_the_gold_reserves
+			allowed = {
+				always = no
+			}
+			modifier = {
+				industrial_factory_donations = 5
+				political_power_gain = 0.25
+			}
+		}
+		black_market_3_idea = {
+			picture = SPR_seize_the_gold_reserves
+			allowed = {
+				always = no
+			}
+			modifier = {
+				industrial_factory_donations = 10
+				political_power_gain = 0.5
+			}
+		}
+		black_market_1_idea_buy = {
+			picture = SPR_seize_the_gold_reserves
+			allowed = {
+				always = no
+			}
+			modifier = {
+				industrial_factory_donations = -2
+				political_power_gain = -0.1
+			}
+		}
+		black_market_2_idea_buy = {
+			picture = SPR_seize_the_gold_reserves
+			allowed = {
+				always = no
+			}
+			modifier = {
+				industrial_factory_donations = -10
+				political_power_gain = -0.25
+			}
+		}
+		black_market_3_idea_buy = {
+			picture = SPR_seize_the_gold_reserves
+			allowed = {
+				always = no
+			}
+			modifier = {
+				industrial_factory_donations = -20
+				political_power_gain = -0.5
+			}
+		}
+	}
+}

@@ -9,15 +9,15 @@ set_stability = 0.6
 set_war_support = 0.5
 set_oob = "FRA_1936"
 set_politics = {
-	ruling_party = order
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	order = 5
+	democratic = 5
 	destruction = 20
-	darkness = 65
+	fascism = 65
 }
 
 

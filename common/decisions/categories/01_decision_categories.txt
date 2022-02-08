@@ -1,0 +1,8 @@
+TST_black_market = {
+	icon = generic_arms_trade
+	visible = {
+		NOT = {
+			tag = PIR
+		}
+	}
+}

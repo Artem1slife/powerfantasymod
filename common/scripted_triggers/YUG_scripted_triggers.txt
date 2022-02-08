@@ -1,0 +1,105 @@
+#scripted trigger for Yugoslavia
+
+is_available_fighter_YUG = {
+	OR = {
+		AND = {
+			has_tech = fighter1
+			TST = { 
+				NOT = { has_tech = fighter1}
+			}
+		}
+		AND = {
+			has_tech = fighter2
+			TST = { 
+				NOT = { has_tech = fighter2}
+			}
+		}
+		AND = {
+			has_tech = fighter3
+			TST = { 
+				NOT = { has_tech = fighter3}
+			}
+		}
+	}
+	NOT = {
+		has_war_with = TST
+	}
+}
+
+is_available_heavy_fighter_YUG = {
+	OR = {
+		AND = {
+			has_tech = heavy_fighter1
+			TST = { 
+				NOT = { has_tech = heavy_fighter1}
+			}
+		}
+		AND = {
+			has_tech = heavy_fighter2
+			TST = { 
+				NOT = { has_tech = heavy_fighter2}
+			}
+		}
+		AND = {
+			has_tech = heavy_fighter3
+			TST = { 
+				NOT = { has_tech = heavy_fighter3}
+			}
+		}
+	}
+	NOT = {
+		has_war_with = TST
+	}
+}
+
+is_available_cas_YUG = {
+	OR = {
+		AND = {
+			has_tech = CAS1
+			TST = { 
+				NOT = { has_tech = CAS1}
+			}
+		}
+		AND = {
+			has_tech = CAS2
+			TST = { 
+				NOT = { has_tech = CAS2}
+			}
+		}
+		AND = {
+			has_tech = CAS3
+			TST = { 
+				NOT = { has_tech = CAS3}
+			}
+		}
+	}
+	NOT = {
+		has_war_with = TST
+	}
+}
+
+is_available_tac_YUG = {
+	OR = {
+		AND = {
+			has_tech = tactical_bomber1
+			TST = { 
+				NOT = { has_tech = tactical_bomber1}
+			}
+		}
+		AND = {
+			has_tech = tactical_bomber2
+			TST = { 
+				NOT = { has_tech = tactical_bomber2}
+			}
+		}
+		AND = {
+			has_tech = tactical_bomber3
+			TST = { 
+				NOT = { has_tech = tactical_bomber3}
+			}
+		}
+	}
+	NOT = {
+		has_war_with = TST
+	}
+}

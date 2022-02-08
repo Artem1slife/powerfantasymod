@@ -60,31 +60,7 @@ STR = {
 	color = rgb {120  115  187}
 	color_ui = rgb { 139 20 20 }
 }
-WEL = {
-	color = rgb {168  214  245}
-	color_ui = rgb { 139 20 20 }
-}
-FEL = {
-	color = rgb {145  13  65}
-	color_ui = rgb { 139 20 20 }
-}
-ITL = {
-	color = rgb {111  196  109}
-	color_ui = rgb { 139 20 20 }
-}
-PLD = {
-	color = rgb {41  80  129}
-	color_ui = rgb { 139 20 20 }
-}
-AVR = {
-	color = rgb {226  255  255}
-	color_ui = rgb { 139 20 20 }
-}
-NAV = {
-	color = rgb {128  144  255}
-	color_ui = rgb { 139 20 20 }
-}
-CNF = {
-	color = rgb {7  12  22}
-	color_ui = rgb { 139 20 20 }
+ZTC = {
+	color = rgb {255  50  150}
+	color_ui = rgb { 255  50  150 }
 }

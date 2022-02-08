@@ -1,0 +1,532 @@
+TST_black_market = {
+	TST_sell_infantry_equipment_1 = {
+		icon = ger_military_buildup
+		available = {
+			country_exists = PIR
+			NOT = {
+				has_war_with = PIR
+				has_idea = black_market_1_idea
+			}
+			has_equipment = {
+				infantry_equipment > 9999
+			}
+			custom_trigger_tooltip = {
+				tooltip = PIR_empty
+				PIR = {
+					infantry_equipment < 20000000
+				}
+			}
+		}
+		days_re_enable = 1
+		days_remove = 14
+		cost = 25
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 100
+				has_equipment = {
+					infantry_equipment > 500000
+				}
+			}
+		}
+		remove_effect = {
+			PIR = { country_event = { id = black_market.1 hours = 6 } }
+		}
+	}
+	TST_sell_infantry_equipment_2 = {
+		icon = ger_military_buildup
+		available = {
+			country_exists = PIR
+			NOT = {
+				has_war_with = PIR
+				has_idea = black_market_2_idea
+			}
+			has_equipment = {
+				infantry_equipment > 49999
+			}
+			custom_trigger_tooltip = {
+				tooltip = PIR_empty
+				PIR = {
+					infantry_equipment < 20000000
+				}
+			}
+		}
+		days_re_enable = 1
+		days_remove = 14
+		cost = 25
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 100
+				has_equipment = {
+					infantry_equipment > 150000
+				}
+			}
+		}
+		remove_effect = {
+			PIR = { country_event = { id = black_market.2 hours = 12 } }
+		}
+	}
+	TST_sell_infantry_equipment_3 = {
+		icon = ger_military_buildup
+		available = {
+			country_exists = PIR
+			NOT = {
+				has_war_with = PIR
+				has_idea = black_market_3_idea
+			}
+			has_equipment = {
+				infantry_equipment > 99999
+			}
+			custom_trigger_tooltip = {
+				tooltip = PIR_empty
+				PIR = {
+					infantry_equipment < 20000000
+				}
+			}
+		}
+		days_re_enable = 1
+		days_remove = 14
+		cost = 25
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 100
+				has_equipment = {
+					infantry_equipment > 150000
+				}
+			}
+		}
+		remove_effect = {
+			PIR = { country_event = { id = black_market.3 hours = 12 } }
+		}
+	}
+	TST_sell_artillery_equipment_1 = {
+		icon = ger_military_buildup
+		available = {
+			country_exists = PIR
+			NOT = {
+				has_war_with = PIR
+				has_idea = black_market_1_idea
+			}
+			has_equipment = {
+				artillery_equipment > 149
+			}
+			custom_trigger_tooltip = {
+				tooltip = PIR_empty
+				PIR = {
+					artillery_equipment < 9999
+				}
+			}
+		}
+		days_re_enable = 1
+		days_remove = 14
+		cost = 25
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 100
+				has_equipment = {
+					artillery_equipment > 20000000
+				}
+			}
+		}
+		remove_effect = {
+			PIR = { country_event = { id = black_market.7 hours = 12 } }
+		}
+	}
+	TST_sell_artillery_equipment_2 = {
+		icon = ger_military_buildup
+		available = {
+			country_exists = PIR
+			NOT = {
+				has_war_with = PIR
+				has_idea = black_market_1_idea
+			}
+			has_equipment = {
+				artillery_equipment > 499
+			}
+			custom_trigger_tooltip = {
+				tooltip = PIR_empty
+				PIR = {
+					artillery_equipment < 9999
+				}
+			}
+		}
+		days_re_enable = 1
+		days_remove = 14
+		cost = 25
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 100
+				has_equipment = {
+					artillery_equipment > 20000000
+				}
+			}
+		}
+		remove_effect = {
+			PIR = { country_event = { id = black_market.8 hours = 12 } }
+		}
+	}
+	TST_sell_artillery_equipment_3 = {
+		icon = ger_military_buildup
+		available = {
+			country_exists = PIR
+			NOT = {
+				has_war_with = PIR
+				has_idea = black_market_1_idea
+			}
+			has_equipment = {
+				artillery_equipment > 999
+			}
+			custom_trigger_tooltip = {
+				tooltip = PIR_empty
+				PIR = {
+					artillery_equipment < 9999
+				}
+			}
+		}
+		days_re_enable = 1
+		days_remove = 14
+		cost = 25
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 100
+				has_equipment = {
+					artillery_equipment > 20000000
+				}
+			}
+		}
+		remove_effect = {
+			PIR = { country_event = { id = black_market.9 hours = 12 } }
+		}
+	}
+	TST_sell_motorized_equipment_1 = {
+		icon = ger_military_buildup
+		available = {
+			country_exists = PIR
+			NOT = {
+				has_war_with = PIR
+				has_idea = black_market_1_idea
+			}
+			has_equipment = {
+				motorized_equipment > 149
+			}
+			custom_trigger_tooltip = {
+				tooltip = PIR_empty
+				PIR = {
+					motorized_equipment < 9999
+				}
+			}
+		}
+		days_re_enable = 1
+		days_remove = 14
+		cost = 25
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 100
+				has_equipment = {
+					motorized_equipment > 20000000
+				}
+			}
+		}
+		remove_effect = {
+			PIR = { country_event = { id = black_market.4 hours = 12 } }
+		}
+	}
+	TST_sell_motorized_equipment_2 = {
+		icon = ger_military_buildup
+		available = {
+			country_exists = PIR
+			NOT = {
+				has_war_with = PIR
+				has_idea = black_market_1_idea
+			}
+			has_equipment = {
+				motorized_equipment > 499
+			}
+			custom_trigger_tooltip = {
+				tooltip = PIR_empty
+				PIR = {
+					motorized_equipment < 9999
+				}
+			}
+		}
+		days_re_enable = 1
+		days_remove = 14
+		cost = 25
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 100
+				has_equipment = {
+					motorized_equipment > 20000000
+				}
+			}
+		}
+		remove_effect = {
+			PIR = { country_event = { id = black_market.5 hours = 12 } }
+		}
+	}
+	TST_sell_motorized_equipment_3 = {
+		icon = ger_military_buildup
+		available = {
+			country_exists = PIR
+			NOT = {
+				has_war_with = PIR
+				has_idea = black_market_1_idea
+			}
+			has_equipment = {
+				motorized_equipment > 999
+			}
+			custom_trigger_tooltip = {
+				tooltip = PIR_empty
+				PIR = {
+					motorized_equipment < 9999
+				}
+			}
+		}
+		days_re_enable = 1
+		days_remove = 14
+		cost = 25
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 100
+				has_equipment = {
+					motorized_equipment > 20000000
+				}
+			}
+		}
+		remove_effect = {
+			PIR = { country_event = { id = black_market.6 hours = 12 } }
+		}
+	}
+	TST_sell_support_equipment_1 = {
+		icon = ger_military_buildup
+		available = {
+			country_exists = PIR
+			NOT = {
+				has_war_with = PIR
+				has_idea = black_market_1_idea
+			}
+			has_equipment = {
+				support_equipment > 149
+			}
+			custom_trigger_tooltip = {
+				tooltip = PIR_empty
+				PIR = {
+					support_equipment < 9999
+				}
+			}
+		}
+		days_re_enable = 1
+		days_remove = 14
+		cost = 25
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 100
+				has_equipment = {
+					support_equipment > 20000000
+				}
+			}
+		}
+		remove_effect = {
+			PIR = { country_event = { id = black_market.7 hours = 12 } }
+		}
+	}
+	TST_sell_support_equipment_2 = {
+		icon = ger_military_buildup
+		available = {
+			country_exists = PIR
+			NOT = {
+				has_war_with = PIR
+				has_idea = black_market_1_idea
+			}
+			has_equipment = {
+				support_equipment > 499
+			}
+			custom_trigger_tooltip = {
+				tooltip = PIR_empty
+				PIR = {
+					support_equipment < 9999
+				}
+			}
+		}
+		days_re_enable = 1
+		days_remove = 14
+		cost = 25
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 100
+				has_equipment = {
+					support_equipment > 20000000
+				}
+			}
+		}
+		remove_effect = {
+			PIR = { country_event = { id = black_market.8 hours = 12 } }
+		}
+	}
+	TST_sell_support_equipment_3 = {
+		icon = ger_military_buildup
+		available = {
+			country_exists = PIR
+			NOT = {
+				has_war_with = PIR
+				has_idea = black_market_1_idea
+			}
+			has_equipment = {
+				support_equipment > 999
+			}
+			custom_trigger_tooltip = {
+				tooltip = PIR_empty
+				PIR = {
+					support_equipment < 9999
+				}
+			}
+		}
+		days_re_enable = 1
+		days_remove = 14
+		cost = 25
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 100
+				has_equipment = {
+					support_equipment > 20000000
+				}
+			}
+		}
+		remove_effect = {
+			PIR = { country_event = { id = black_market.9 hours = 12 } }
+		}
+	}
+	TST_sell_fighter_equipment_1 = {
+		icon = ger_military_buildup
+		available = {
+			country_exists = PIR
+			NOT = {
+				has_war_with = PIR
+				has_idea = black_market_1_idea
+			}
+			has_equipment = {
+				fighter_equipment > 99
+			}
+			custom_trigger_tooltip = {
+				tooltip = PIR_empty
+				PIR = {
+					fighter_equipment < 9999
+				}
+			}
+		}
+		days_re_enable = 1
+		days_remove = 14
+		cost = 25
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 100
+				has_equipment = {
+					fighter_equipment > 20000000
+				}
+			}
+		}
+		remove_effect = {
+			PIR = { country_event = { id = black_market.13 hours = 12 } }
+		}
+	}
+	TST_sell_fighter_equipment_2 = {
+		icon = ger_military_buildup
+		available = {
+			country_exists = PIR
+			NOT = {
+				has_war_with = PIR
+				has_idea = black_market_1_idea
+			}
+			has_equipment = {
+				fighter_equipment > 299
+			}
+			custom_trigger_tooltip = {
+				tooltip = PIR_empty
+				PIR = {
+					fighter_equipment < 9999
+				}
+			}
+		}
+		days_re_enable = 1
+		days_remove = 14
+		cost = 25
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 100
+				has_equipment = {
+					fighter_equipment > 20000000
+				}
+			}
+		}
+		remove_effect = {
+			PIR = { country_event = { id = black_market.14 hours = 12 } }
+		}
+	}
+	TST_sell_fighter_equipment_3 = {
+		icon = ger_military_buildup
+		available = {
+			country_exists = PIR
+			NOT = {
+				has_war_with = PIR
+				has_idea = black_market_1_idea
+			}
+			has_equipment = {
+				fighter_equipment > 599
+			}
+			custom_trigger_tooltip = {
+				tooltip = PIR_empty
+				PIR = {
+					fighter_equipment < 9999
+				}
+			}
+		}
+		days_re_enable = 1
+		days_remove = 14
+		cost = 25
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 100
+				has_equipment = {
+					fighter_equipment > 20000000
+				}
+			}
+		}
+		remove_effect = {
+			PIR = { country_event = { id = black_market.15 hours = 12 } }
+		}
+	}
+	#####################
+	#					#
+	#	ПОКУПКА ОРУЖИЯ	#
+	#					#
+	#####################
+}

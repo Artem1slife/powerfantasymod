@@ -20,7 +20,7 @@ set_technology = {
 
 #Politics for 1936.1.1
 set_politics = {
-	ruling_party = order
+	ruling_party = democratic
 	last_election = "1935.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -35,7 +35,7 @@ set_popularities = {
 #Politics for 1939.1.1
 1939.1.1 = {
 	set_politics = {
-		ruling_party = order
+		ruling_party = democratic
 		last_election = "1936.2.1"
 		election_frequency = 48
 		elections_allowed = no

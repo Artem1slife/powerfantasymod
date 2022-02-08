@@ -1,0 +1,6 @@
+﻿l_russian:
+ FACTION_NAME_1:0 "$LEADER_COUNTRY_ADJ$ блок"
+ FACTION_NAME_2:0 "$LEADER_COUNTRY_ADJ$ коалиция"
+ FACTION_NAME_3:0 "Ось"
+ FACTION_NAME_4:0 "Союзники"
+ FACTION_NAME_5:0 "Антанта"

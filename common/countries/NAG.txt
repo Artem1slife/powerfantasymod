@@ -1,17 +1,14 @@
 characters = {
-	NAG_Shokir_Oraels = {
-		name = NAG_Shokir_Oraels
+	TST_test_testovich = {
 		portraits={
 			civilian={
-				large="gfx/leaders/NAG/QueenofNagZhalgara.dds"
+				large="gfx/leaders/TST/testo.dds"
 			}
 		}
 		country_leader={
-			desc="NAG_SHOKIR_DESC"
-			expire = "1999.9.9"
-			ideology = order
-			traits = { human_leader }
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
 		}
-		
 	}
 }

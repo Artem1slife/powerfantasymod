@@ -6,18 +6,19 @@ set_stability = 0.5
 add_command_power = 20
 
 set_politics = {
-	ruling_party = order
+	ruling_party = democratic
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	darkness = 30
-	order = 40
+	fascism = 30
+	democratic = 40
 	neutrality = 20
 	destruction = 10
 	communism = 0
 }
 
-recruit_character = NAG_Shokir_Oraels
+recruit_character = NAG_Queen_of_Nagas
+

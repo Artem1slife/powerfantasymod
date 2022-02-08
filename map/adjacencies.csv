@@ -1,0 +1,53 @@
+From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+8307;1528;sea;8620;-1;-1;-1;-1;;Cursed Islands 1
+8305;8309;sea;8901;-1;-1;-1;-1;;Cursed Islands 2
+8309;8308;sea;8476;-1;-1;-1;-1;;Cursed Islands 3
+8310;8308;sea;8901;-1;-1;-1;-1;;Cursed Islands 4
+6284;6273;sea;8794;-1;-1;-1;-1;;Escho bolsche asii 1
+5414;5263;sea;8737;-1;-1;-1;-1;;Escho bolsche asii 2
+6928;1317;sea;8535;-1;-1;-1;-1;;Escho bolsche asii 3
+3054;7044;sea;8501;-1;-1;-1;-1;;Escho bolsche asii 4
+5347;7639;sea;8686;-1;-1;-1;-1;;Escho bolsche asii 5
+5563;7639;sea;8686;-1;-1;-1;-1;;Escho bolsche asii 6
+4249;7639;sea;8686;-1;-1;-1;-1;;Escho bolsche asii 7
+1901;8342;sea;8698;-1;-1;-1;-1;;Escho bolsche asii 8
+672;8348;sea;8724;-1;-1;-1;-1;;Escho bolsche asii 9
+8347;8348;sea;8724;-1;-1;-1;-1;;Escho bolsche asii 10
+8347;8346;sea;8724;-1;-1;-1;-1;;Escho bolsche asii 11
+672;8347;sea;8724;-1;-1;-1;-1;;Escho bolsche asii 12
+672;8346;sea;8724;-1;-1;-1;-1;;Escho bolsche asii 13
+2126;8348;sea;8724;-1;-1;-1;-1;;Escho bolsche asii 9
+2126;8347;sea;8724;-1;-1;-1;-1;;Escho bolsche asii 12
+2126;8346;sea;8724;-1;-1;-1;-1;;Escho bolsche asii 13
+844;8349;sea;8724;-1;-1;-1;-1;;Escho bolsche asii 14
+739;8364;sea;8492;-1;-1;-1;-1;;Escho bolsche asii 15
+8363;8362;sea;8466;-1;-1;-1;-1;;Escho bolsche asii 16
+8356;8359;sea;8612;-1;-1;-1;-1;;Escho bolsche asii 17
+8361;8359;sea;8539;-1;-1;-1;-1;;Escho bolsche asii 18
+8358;8357;sea;8392;-1;-1;-1;-1;;Asia 1
+8358;821;sea;8392;-1;-1;-1;-1;;Asia 2
+8340;5793;sea;8948;-1;-1;-1;-1;;Asia 3
+2244;5394;sea;8615;-1;-1;-1;-1;;Asia 4
+3147;7199;sea;8566;-1;-1;-1;-1;;Asia 5
+7178;7199;sea;8566;-1;-1;-1;-1;;Asia 6
+7155;7199;sea;8566;-1;-1;-1;-1;;Asia 7
+6303;4701;sea;8837;-1;-1;-1;-1;;Islamskaya Respublica Aserbaidzhan 1
+2419;4701;sea;8837;-1;-1;-1;-1;;Islamskaya Respublica Aserbaidzhan 2
+2555;8316;sea;8904;-1;-1;-1;-1;;Islamskaya Respublica Aserbaidzhan 3
+1452;8316;sea;8904;-1;-1;-1;-1;;Islamskaya Respublica Aserbaidzhan 4
+3388;8312;sea;8402;-1;-1;-1;-1;;Islamskaya Respublica Aserbaidzhan 5
+8312;1019;sea;8402;-1;-1;-1;-1;;Islamskaya Respublica Aserbaidzhan 6
+5885;8313;sea;8630;-1;-1;-1;-1;;Islamskaya Respublica Aserbaidzhan 7
+3577;5663;sea;8474;-1;-1;-1;-1;;Islamskaya Respublica Aserbaidzhan 8
+2586;8330;sea;8655;-1;-1;-1;-1;;Islamskaya Respublica Aserbaidzhan 9
+8324;8330;sea;8640;-1;-1;-1;-1;;Islamskaya Respublica Aserbaidzhan 10
+8324;4557;sea;8655;-1;-1;-1;-1;;Islamskaya Respublica Aserbaidzhan 11
+728;3305;sea;8410;-1;-1;-1;-1;;Islamskaya Respublica Aserbaidzhan 12
+5886;3305;sea;8905;-1;-1;-1;-1;;Islamskaya Respublica Aserbaidzhan 13
+1346;8306;sea;8435;-1;-1;-1;-1;;Islamskaya Respublica Aserbaidzhan 14
+8304;50;sea;8811;-1;-1;-1;-1;;Islamskaya Respublica Aserbaidzhan 15
+8317;2623;sea;8784;-1;-1;-1;-1;;Islamskaya Respublica Aserbaidzhan 16
+4738;5325;sea;8567;-1;-1;-1;-1;;Islamskaya Respublica Aserbaidzhan 17
+8302;8301;sea;8899;-1;-1;-1;-1;;Islamskaya Respublica Aserbaidzhan 18
+8301;8303;sea;8899;-1;-1;-1;-1;;Islamskaya Respublica Aserbaidzhan 19
+8302;8303;sea;8899;-1;-1;-1;-1;;Islamskaya Respublica Aserbaidzhan 20

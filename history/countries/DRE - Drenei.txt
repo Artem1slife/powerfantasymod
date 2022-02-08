@@ -6,17 +6,16 @@ set_stability = 0.5
 add_command_power = 20
 
 set_politics = {
-	ruling_party = order
+	ruling_party = democratic
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	darkness = 25
-	order = 40
+	fascism = 25
+	democratic = 40
 	neutrality = 15
 	destruction = 20
 }
 
-recruit_character = TST_test_testovich

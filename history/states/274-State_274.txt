@@ -4,14 +4,20 @@ state={
 	provinces={
 		832 5517 6895 6956 
 	}
-	manpower=1
+	manpower=1336173
 	history={
-		owner = TST
+		owner = ZTC
+		victory_points = { 6895 10 }
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			arms_factory = 5
+			industrial_complex = 1
+			6895 = {
+				naval_base = 4
+			}
 		}
-		add_core_of = TST
+		add_core_of = ZTC
 	}
-	state_category = rural
+	state_category = city
 	local_supplies=0.0 
 }

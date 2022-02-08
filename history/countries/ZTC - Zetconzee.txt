@@ -1,0 +1,23 @@
+﻿capital = 274
+
+
+set_research_slots = 3
+set_stability = 0.5
+add_command_power = 20
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascism = 85
+	democratic = 2
+	neutrality = 3
+	destruction = 5
+	communism = 5
+}
+
+recruit_character = ZTC_saratov_nazbol

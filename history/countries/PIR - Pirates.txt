@@ -1,4 +1,4 @@
-﻿capital = 16
+﻿capital = 327
 
 
 set_research_slots = 3
@@ -13,11 +13,11 @@ set_politics = {
 }
 
 set_popularities = {
-	darkness = 10
-	order = 0
-	neutrality = 20
-	destruction = 70
-	communism = 0
+	fascism = 10
+	democratic = 7
+	neutrality = 60
+	destruction = 20
+	communism = 3
 }
 
-recruit_character = TST_test_testovich
+
