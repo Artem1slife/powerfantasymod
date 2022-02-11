@@ -1,0 +1,17 @@
+state={
+	id=495
+	name="STATE_495"
+	provinces={
+		1148 1664 2468 1389 332 
+	}
+	manpower=1000000
+	history={
+		owner = IPO
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = IPO
+	}
+	state_category = rural
+	local_supplies=0.000
+}
