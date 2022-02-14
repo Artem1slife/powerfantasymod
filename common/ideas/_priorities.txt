@@ -8,7 +8,6 @@ ideas = {
 			available = {
 				political_power_daily > 0
 			}
-			
 			removal_cost = -1
 			cost = 75
 
@@ -25,7 +24,6 @@ ideas = {
 			available = {
 				political_power_daily > 0
 			}
-			
 			removal_cost = -1
 			cost = 75
 
@@ -44,7 +42,6 @@ ideas = {
 			available = {
 				political_power_daily > 0
 			}
-			
 			removal_cost = -1
 			cost = 75
 
@@ -63,7 +60,6 @@ ideas = {
 			available = {
 				political_power_daily > 0
 			}
-			
 			removal_cost = -1
 			cost = 75
 
@@ -84,7 +80,6 @@ ideas = {
 			available = {
 				political_power_daily > 0
 			}
-			
 			removal_cost = -1
 			cost = 75
 
