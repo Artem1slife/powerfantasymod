@@ -1,0 +1,577 @@
+focus_tree = {
+	id = 1
+	continuous_focus_position = { x = 0 y = 1000 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = APO
+		}
+	}
+	#Долгие годы
+	focus = {
+		id = APO_dolgiegody
+		icon = GFX_APO_dolgiegody-59
+		x = 5
+		y = 0
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 100 }
+		available = {
+			add_political_power = 50
+			
+		}
+	}
+
+	#Рыболовство и кромпир
+	focus = {
+		id = APO_rybolovstvoikrompir
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 6
+		y = 3
+		cost = 20
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = APO_reshenievoprosagoloda  } prerequisite = { focus = APO_nalazhivaniekontaktov  }
+		select_effect = {
++
+random_owned_controlled_state = { add_building_construction = { тип = уровень инфраструктуры = 5 instant_build = да } } 
+}
+	}
+
+	#Созыв РевВоенСовета
+	focus = {
+		id = APO_sozyvrevvoensoveta
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		x = 6
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_rybolovstvoikrompir  }
+	}
+
+	#Решение вопроса голода
+	focus = {
+		id = APO_reshenievoprosagoloda
+		icon = GFX_focus_hol_abandon_the_gold_standard
+		x = 5
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = APO_nashakommuna  }
+		available = {
+			add_stability = 0.05
+			
+		}
+	}
+
+	#Налаживание контактов
+	focus = {
+		id = APO_nalazhivaniekontaktov
+		icon = GFX_APO_nalazhivaniekontaktov-155659
+		x = 7
+		y = 2
+		cost = 20
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_nashakommuna  }
+		select_effect = {
+add_political_power = 50
+
+}
+	}
+
+	#Наша коммуна
+	focus = {
+		id = APO_nashakommuna
+		icon = GFX_focus_BUL_support_macedonian_organizations
+		x = 5
+		y = 1
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_dolgiegody  }
+	}
+
+	#Иллегализм
+	focus = {
+		id = APO_illegalizm
+		icon = GFX_APO_illegalizm-155658
+		x = 7
+		y = 0
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = APO_dolgiegody  }
+		ai_will_do = { factor = 100 }
+		available = {
+			add_stability = 0.05
+			
+		}
+	}
+
+	#Остановить бандитизм
+	focus = {
+		id = APO_ostanovitbanditizm
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = APO_sozyvrevvoensoveta  }
+	}
+
+	#Социальная реформа
+	focus = {
+		id = APO_socialnayareforma
+		icon = GFX_focus_spa_the_spanish_miracle
+		x = 4
+		y = 5
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = APO_sozyvrevvoensoveta  }
+	}
+
+	#Хватит бойни!
+	focus = {
+		id = APO_hvatitboyni
+		icon = GFX_focus_generic_little_entente
+		x = 1
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = APO_ostanovitbanditizm  } prerequisite = { focus = APO_socialnayareforma  }
+	}
+
+	#Медицинские бригады
+	focus = {
+		id = APO_medicinskiebrigady
+		icon = GFX_focus_mex_restore_the_army_of_christ
+		x = 4
+		y = 6
+		cost = 14
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_socialnayareforma  }
+	}
+
+	#Железные дороги коммуны
+	focus = {
+		id = APO_zheleznyedorogikommuny
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 3
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = APO_medicinskiebrigady  }
+	}
+
+	#Образовательная бригада
+	focus = {
+		id = APO_obrazovatelnayabrigada
+		icon = GFX_focus_research
+		x = 5
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = APO_medicinskiebrigady  }
+	}
+
+	#Культура коммунны
+	focus = {
+		id = APO_kulturakommunny
+		icon = GFX_focus_spa_save_the_alcazar
+		x = 4
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = APO_zheleznyedorogikommuny  } prerequisite = { focus = APO_obrazovatelnayabrigada  }
+	}
+
+	#Большая коммуна!
+	focus = {
+		id = APO_bolshayakommuna
+		icon = GFX_APO_bolshayakommuna-156420
+		x = 1
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = APO_hvatitboyni  }
+	}
+
+	#Земельная реформа
+	focus = {
+		id = APO_zemelnayareforma
+		icon = GFX_APO_zemelnayareforma-251
+		x = 8
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_sozyvrevvoensoveta  }
+	}
+
+	#Денежная реформа 
+	focus = {
+		id = APO_denezhnayareforma
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		x = 7
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = APO_zemelnayareforma  }
+	}
+
+	#Местное самоуправление
+	focus = {
+		id = APO_mestnoesamoupravlenie
+		icon = GFX_focus_focus_fra_liberte_egalite_solidarite
+		x = 9
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_zemelnayareforma  }
+	}
+
+	#Общественные работы
+	focus = {
+		id = APO_obshchestvennyeraboty
+		icon = GFX_focus_eng_crush_the_dream
+		x = 8
+		y = 7
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = APO_denezhnayareforma  } prerequisite = { focus = APO_mestnoesamoupravlenie  }
+	}
+
+	#Создание народной милиции
+	focus = {
+		id = APO_sozdanienarodnoymilicii
+		icon = GFX_focus_eng_expose_the_belly_of_the_bear
+		x = 8
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = APO_obshchestvennyeraboty  }
+	}
+
+	#Триумф анархизма!
+	focus = {
+		id = APO_triumfanarhizma
+		icon = GFX_APO_triumfanarhizma-156465
+		x = 6
+		y = 9
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_kulturakommunny  } prerequisite = { focus = APO_sozdanienarodnoymilicii  }
+	}
+
+	#Военные реформы
+	focus = {
+		id = APO_voennyereformy
+		icon = GFX_APO_voennyereformy-157719
+		x = 12
+		y = 5
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = APO_sozyvrevvoensoveta  }
+	}
+
+	#Опора на металл и порох
+	focus = {
+		id = APO_oporanametalliporoh
+		icon = GFX_APO_oporanametalliporoh-157721
+		x = 11
+		y = 6
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = APO_voennyereformy  }
+	}
+
+	#Друг винтовка
+	focus = {
+		id = APO_drugvintovka
+		icon = GFX_APO_drugvintovka-157724
+		x = 10
+		y = 7
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = APO_oporanametalliporoh  }
+	}
+
+	#Пушки
+	focus = {
+		id = APO_pushki
+		icon = GFX_APO_pushki-157725
+		x = 12
+		y = 7
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = APO_oporanametalliporoh  }
+	}
+
+	#Механика
+	focus = {
+		id = APO_mehanika
+		icon = GFX_APO_mehanika-157732
+		x = 10
+		y = 8
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = APO_drugvintovka  }
+	}
+
+	#Снаряжение
+	focus = {
+		id = APO_snaryazhenie
+		icon = GFX_focus_chi_army_reform
+		x = 12
+		y = 8
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = APO_pushki  }
+	}
+
+	#Опора на магию
+	focus = {
+		id = APO_oporanamagiyu
+		icon = GFX_APO_oporanamagiyu-157737
+		x = 15
+		y = 6
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = APO_voennyereformy  }
+	}
+
+	#Аккумулятивная магия
+	focus = {
+		id = APO_akkumulyativnayamagiya
+		icon = GFX_APO_akkumulyativnayamagiya-157738
+		x = 14
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = APO_oporanamagiyu  }
+	}
+
+	#Квалдовство
+	focus = {
+		id = APO_kvaldovstvo
+		icon = GFX_APO_kvaldovstvo-157742
+		x = 16
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = APO_oporanamagiyu  }
+	}
+
+	#Открытие первой школы магии
+	focus = {
+		id = APO_otkrytiepervoyshkolymagii
+		icon = GFX_APO_otkrytiepervoyshkolymagii-157743
+		x = 15
+		y = 8
+		cost = 14
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = APO_kvaldovstvo  } prerequisite = { focus = APO_akkumulyativnayamagiya  }
+	}
+
+	#Ставка на темную магию
+	focus = {
+		id = APO_stavkanatemnuyumagiyu
+		icon = GFX_APO_stavkanatemnuyumagiyu-157746
+		x = 14
+		y = 9
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = APO_otkrytiepervoyshkolymagii  }
+	}
+
+	#Ставка на ментальную магию
+	focus = {
+		id = APO_stavkanamentalnuyumagiyu
+		icon = GFX_APO_stavkanamentalnuyumagiyu-157747
+		x = 16
+		y = 9
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = APO_otkrytiepervoyshkolymagii  }
+	}
+
+	#Некромантия
+	focus = {
+		id = APO_nekromantiya
+		icon = GFX_APO_nekromantiya-157748
+		x = 12
+		y = 10
+		cost = 14
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = APO_stavkanatemnuyumagiyu  }
+	}
+
+	#Беспорядок
+	focus = {
+		id = APO_besporyadok
+		icon = GFX_APO_besporyadok-157750
+		x = 14
+		y = 10
+		cost = 14
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = APO_stavkanatemnuyumagiyu  }
+	}
+
+	#Магия духа
+	focus = {
+		id = APO_magiyaduha
+		icon = GFX_APO_magiyaduha-157751
+		x = 16
+		y = 10
+		cost = 14
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = APO_stavkanamentalnuyumagiyu  }
+	}
+
+	#Магия иллюзий
+	focus = {
+		id = APO_magiyaillyuziy
+		icon = GFX_APO_magiyaillyuziy-157752
+		x = 18
+		y = 10
+		cost = 14
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = APO_stavkanamentalnuyumagiyu  }
+	}
+
+	#Магия как часть быта
+	focus = {
+		id = APO_magiyakakchastbyta
+		icon = GFX_APO_magiyakakchastbyta-157754
+		x = 15
+		y = 11
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = APO_magiyaillyuziy  } prerequisite = { focus = APO_nekromantiya  } prerequisite = { focus = APO_magiyaduha  } prerequisite = { focus = APO_besporyadok  }
+	}
+
+	#Истинное предназначение магии
+	focus = {
+		id = APO_istinnoeprednaznacheniemagii
+		icon = GFX_APO_istinnoeprednaznacheniemagii-157758
+		x = 15
+		y = 12
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = APO_magiyakakchastbyta  }
+	}
+
+	#Сделка со Смертью
+	focus = {
+		id = APO_sdelkasosmertyu
+		icon = GFX_APO_sdelkasosmertyu-157767
+		x = 15
+		y = 13
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = APO_istinnoeprednaznacheniemagii  }
+	}
+
+	#Еще одна сделка
+	focus = {
+		id = APO_eshcheodnasdelka
+		icon = GFX_APO_eshcheodnasdelka-157769
+		x = 15
+		y = 14
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = APO_sdelkasosmertyu  }
+	}
+
+	#И еще одна сделка...
+	focus = {
+		id = APO_ieshcheodnasdelka
+		icon = GFX_APO_ieshcheodnasdelka-157773
+		x = 15
+		y = 15
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = APO_eshcheodnasdelka  }
+	}
+
+}
