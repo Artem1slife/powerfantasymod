@@ -1,8 +1,11 @@
-﻿capital = 16
+﻿capital = 492
 
-
-set_research_slots = 3
-set_stability = 0.5
+set_technology = {
+	infantry_weapons = 1
+}
+set_oob = ROI
+set_research_slots = 2
+set_stability = 0.2
 add_command_power = 20
 
 set_politics = {
@@ -20,4 +23,5 @@ set_popularities = {
 	communism = 0
 }
 
-
+recruit_character = ROI_roy
+add_ideas = { ROI_death_live_conflict ROI_death_tsardoom ROI_vykhukhol ROI_zombie_revolt }

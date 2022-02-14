@@ -1,14 +1,14 @@
 state={
 	id=494
-	name="STATE_492"
+	name="STATE_494"
 	provinces={
 		653 1028 1104 1359 2123 3283 5944 
 	}
-	manpower=250000
+	manpower=78311
 	history={
 		owner = ROI
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 		}
 		add_core_of = ROI
 	}

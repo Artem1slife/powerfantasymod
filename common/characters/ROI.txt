@@ -1,0 +1,15 @@
+characters = {
+	ROI_roy = {
+		portraits={
+			civilian={
+				large="gfx/leaders/ROI/ROY_picture.dds"
+			}
+		}
+		country_leader={
+			ideology=swarm
+			traits = { ROI_reznya }
+			expire="8000.1.1.1"
+			id=-1
+		}
+	}
+}

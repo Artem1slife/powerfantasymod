@@ -4,14 +4,14 @@ state={
 	provinces={
 		1069 1528 3248 3254
 	}
-	manpower=250000
+	manpower=13278
 	history={
 		owner = ROI
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 		}
 		add_core_of = ROI
 	}
-	state_category = rural
+	state_category = wasteland
 	local_supplies=0.0 
 }

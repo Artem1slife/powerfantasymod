@@ -1,0 +1,68 @@
+ideas = {
+	country = {
+		ROI_death_live_conflict = {
+			picture = ztcnz
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				max_surrender_limit_offset = 0.05
+				political_power_factor = 0.15
+				conscription = 0.3
+				weekly_manpower = 700
+				army_core_defence_factor = 0.25
+				monthly_population = -0.8
+			}
+		}
+		ROI_death_tsardoom = {
+			picture = ztcnz
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				research_speed_factor = -0.5
+				max_command_power = -100
+				military_leader_cost_factor = 10
+				army_morale_factor = -0.25
+				army_org_factor = -0.25
+			}
+		}
+		ROI_vykhukhol = {
+			picture = ztcnz
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				max_command_power = 25
+				army_morale_factor = 0.05
+				army_org_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.2
+				production_factory_max_efficiency_factor = 0.2
+				encryption_factor = 0.5
+				special_forces_min = 30
+			}
+		}
+		ROI_zombie_revolt = {
+			picture = ztcnz
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = -0.5
+				max_surrender_limit_offset = -0.05
+				equipment_capture_factor = 0.15
+				conscription_factor = -0.25
+				consumer_goods_factor = 0.1
+				special_forces_min = 5
+			}
+		}
+	}
+}
