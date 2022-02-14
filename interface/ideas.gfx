@@ -6367,4 +6367,8 @@ spriteTypes = {
 		name = "GFX_idea_ztcnz"
 		texturefile = "gfx/interface/ideas/idea_ztcnz.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_ztcnz_2"
+		texturefile = "gfx/interface/ideas/idea_ztcnz_2.dds"
+	}
 }
