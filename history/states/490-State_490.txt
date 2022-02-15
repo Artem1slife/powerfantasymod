@@ -1,16 +1,17 @@
 state={
 	id=490
-	name="STATE_490"
+	name="Black land"
 	provinces={
 		202 4471 5093 6059 
 	}
 	manpower=500000
 	history={
 		owner = APO
+		victory_points = { 202 5 }
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = APO
+		add_core_of = BBT
 	}
 	state_category = rural
 	local_supplies=0.0 

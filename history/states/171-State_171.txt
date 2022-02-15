@@ -7,6 +7,7 @@ state={
 	manpower=2000000
 	history={
 		owner = APO
+		victory_points = { 2912 10 }
 		buildings = {
 			infrastructure = 2
 		}

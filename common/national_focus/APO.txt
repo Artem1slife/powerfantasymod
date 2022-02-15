@@ -100,6 +100,10 @@ add_political_power = 50
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = APO_dolgiegody  }
+		completion_reward = { release = BBM }
+		completion_reward = { release = BBT }
+		completion_reward = { release = BBB }
+		completion_reward = { release = BBC }
 	}
 
 	#Иллегализм
