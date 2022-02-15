@@ -1,8 +1,8 @@
-﻿capital = 16
+﻿capital = 171
 
 
-set_research_slots = 3
-set_stability = 0.5
+set_research_slots = 1
+set_stability = 0.2
 add_command_power = 20
 
 set_politics = {
