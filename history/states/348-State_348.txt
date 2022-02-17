@@ -7,11 +7,15 @@ state={
 	manpower=1
 	history={
 		owner = PIR
+		victory_points = { 93 5 }
 		buildings = {
 			infrastructure = 2
+			dockyard = 1
+			arms_factory = 1
+			industrial_complex = 1
 		}
 		add_core_of = PIR
 	}
-	state_category = rural
+	state_category = town
 	local_supplies=0.0 
 }

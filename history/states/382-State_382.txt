@@ -1,14 +1,16 @@
 state={
 	id=382
-	name="STATE_382"
+	name="Import-port"
 	provinces={
 		2143 5292 7658 
 	}
-	manpower=1
+	manpower=69792
 	history={
 		owner = PIR
+		victory_points = { 5292 5 }
 		buildings = {
 			infrastructure = 2
+			dockyard = 1
 		}
 		add_core_of = PIR
 	}

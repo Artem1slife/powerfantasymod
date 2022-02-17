@@ -1,14 +1,15 @@
 state={
 	id=359
-	name="STATE_359"
+	name="Farm zone"
 	provinces={
 		809 1196 2817 3704 4318 4819 5601 7593 7659 
 	}
-	manpower=1
+	manpower=46043
 	history={
 		owner = PIR
 		buildings = {
 			infrastructure = 2
+			dockyard = 1
 		}
 		add_core_of = PIR
 	}
