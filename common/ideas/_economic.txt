@@ -36,17 +36,6 @@ ideas = {
 					has_completed_focus = USA_limited_intervention
 				}
 			}
-			
-			visible = {
-					if = {
-						limit = {
-							original_tag = ROI
-						}
-						NOT = {
-							original_tag = ROI
-						}
-					}
-				}
 
 			cancel_if_invalid = no
 		}
@@ -90,17 +79,6 @@ ideas = {
 			cost = 150
 			removal_cost = -1
 
-			visible = {
-					if = {
-						limit = {
-							original_tag = ROI
-						}
-						NOT = {
-							original_tag = ROI
-						}
-					}
-				}
-
 			modifier = {
 				consumer_goods_factor = 0.35
 				production_speed_industrial_complex_factor = -0.3
@@ -114,6 +92,13 @@ ideas = {
 			default = yes
 
 			cancel_if_invalid = no
+			
+			allowed = {
+				NOT = {
+					tag = ROI
+					has_government = destruction
+				}
+			}
 		}
 
 		low_economic_mobilisation = {
@@ -145,16 +130,6 @@ ideas = {
 							has_active_mission = TUR_etatism_crisis_2
 							has_active_mission = TUR_etatism_crisis_3
 							has_active_mission = TUR_etatism_crisis_4
-						}
-					}
-				}
-				visible = {
-					if = {
-						limit = {
-							original_tag = ROI
-						}
-						NOT = {
-							original_tag = ROI
 						}
 					}
 				}
@@ -201,6 +176,13 @@ ideas = {
 					factor = 0
 				}
    			}
+			
+			allowed = {
+				NOT = {
+					tag = ROI
+					has_government = destruction
+				}
+			}
 		}
 
 		partial_economic_mobilisation = {
@@ -273,16 +255,12 @@ ideas = {
 				}
    			}
 			
-			visible = {
-					if = {
-						limit = {
-							original_tag = ROI
-						}
-						NOT = {
-							original_tag = ROI
-						}
-					}
+			allowed = {
+				NOT = {
+					tag = ROI
+					has_government = destruction
 				}
+			}
 		}
 
 		war_economy = {
@@ -292,6 +270,7 @@ ideas = {
 				has_war_support > 0.5
 				OR = {
 					has_government = fascism
+					has_government = destruction
 					has_government = communism
 					custom_trigger_tooltip = { tooltip = or_clarification_tooltip always = no }
 					AND = {
@@ -389,16 +368,12 @@ ideas = {
 				}
    			}
 			
-			visible = {
-					if = {
-						limit = {
-							original_tag = ROI
-						}
-						NOT = {
-							original_tag = ROI
-						}
-					}
+			allowed = {
+				NOT = {
+					tag = ROI
+					has_government = destruction
 				}
+			}
 		}
 
 		tot_economic_mobilisation = {
@@ -443,18 +418,6 @@ ideas = {
 					}
 				}
 			}
-			
-			visible = {
-					if = {
-						limit = {
-							original_tag = ROI
-						}
-						NOT = {
-							original_tag = ROI
-						}
-					}
-				}
-				
 			on_add = {
 				if = {
 					limit = {
@@ -528,6 +491,13 @@ ideas = {
 			}
 
 			cancel_if_invalid = no
+			
+			allowed = {
+				NOT = {
+					tag = ROI
+					has_government = destruction
+				}
+			}
 		}
 
 		new_economic_policy = {
@@ -587,17 +557,6 @@ ideas = {
    				factor = 0
    			}
 		}
-		
-		visible = {
-					if = {
-						limit = {
-							original_tag = ROI
-						}
-						NOT = {
-							original_tag = ROI
-						}
-					}
-				}
 	}
 
 	trade_laws = {
@@ -658,18 +617,14 @@ ideas = {
 				}
 			}
 			
-			visible = {
-					if = {
-						limit = {
-							original_tag = ROI
-						}
-						NOT = {
-							original_tag = ROI
-						}
-					}
-				}
-			
 			cancel_if_invalid = no
+			
+			allowed = {
+				NOT = {
+					tag = ROI
+					has_government = destruction
+				}
+			}
 		}
 
 		free_trade = {
@@ -727,16 +682,12 @@ ideas = {
 				}
    			}
 			
-			visible = {
-					if = {
-						limit = {
-							original_tag = ROI
-						}
-						NOT = {
-							original_tag = ROI
-						}
-					}
+			allowed = {
+				NOT = {
+					tag = ROI
+					has_government = destruction
 				}
+			}
 		}
 
 		export_focus = {
@@ -802,13 +753,12 @@ ideas = {
 				}
    			}
 			
-			visible = {
-					if = {
-						NOT = {
-							original_tag = ROI
-						}
-					}
+			allowed = {
+				NOT = {
+					tag = ROI
+					has_government = destruction
 				}
+			}
 		}
 
 		limited_exports = {
@@ -894,16 +844,12 @@ ideas = {
 				}
    			}
 			
-			visible = {
-					if = {
-						limit = {
-							original_tag = ROI
-						}
-						NOT = {
-							original_tag = ROI
-						}
-					}
+			allowed = {
+				NOT = {
+					tag = ROI
+					has_government = destruction
 				}
+			}
 		}
 
 		closed_economy = {
@@ -913,6 +859,7 @@ ideas = {
 				has_war = yes
 				OR = {
 					has_government = fascism
+					has_government = destruction
 					has_government = communism
 				}
 				OR = {
@@ -974,16 +921,13 @@ ideas = {
 					has_large_ally_not_pick_closed_economy = yes
 				}
    			}
-			visible = {
-					if = {
-						limit = {
-							original_tag = ROI
-						}
-						NOT = {
-							original_tag = ROI
-						}
-					}
+			
+			allowed = {
+				NOT = {
+					tag = ROI
+					has_government = destruction
 				}
+			}
 		}
 	}
 }

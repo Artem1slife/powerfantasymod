@@ -65,4 +65,149 @@ ideas = {
 			}
 		}
 	}
+	mobilization_laws = {
+		law = yes
+		use_list_view = yes
+		mobilization_locked = {
+			removal_cost = -1
+			cost = 0
+			picture = ztcnz_2
+			
+			modifier = {
+				conscription = 0
+			}
+
+			cancel_if_invalid = no
+			
+			allowed = {
+				tag = ROI
+				has_government = destruction
+			}
+		}
+	}
+	trade_laws = {
+		law = yes
+		use_list_view = yes
+		trade_locked = {
+			removal_cost = -1
+			cost = 0
+			picture = ztcnz_2
+
+			modifier = {
+				min_export = 0
+			}
+
+			cancel_if_invalid = no
+			
+			allowed = {
+				tag = ROI
+				has_government = destruction
+			}
+		}
+	}
+	economy = {
+		law = yes
+		use_list_view = yes
+		ROI_10 = {
+			removal_cost = -1
+			cost = 150
+			picture = ztcnz_2
+
+			modifier = {
+				conscription = 0.1
+				production_speed_buildings_factor = 0.15
+				research_speed_factor = 0.10
+				political_power_gain = 2 
+			}
+
+			cancel_if_invalid = no
+			
+			allowed = {
+				tag = ROI
+			}
+		}
+		ROI_25 = {
+			removal_cost = -1
+			cost = 300
+			picture = ztcnz_2
+
+			modifier = {
+				conscription = 0.25
+				production_speed_buildings_factor = 0.05
+				political_power_gain = 0.5
+				training_time_factor = 0.1
+			}
+
+			cancel_if_invalid = no
+			
+			allowed = {
+				tag = ROI
+			}
+		}
+		ROI_50 = {
+			removal_cost = -1
+			cost = 600
+			picture = ztcnz_2
+
+			modifier = {
+				conscription = 0.50
+				production_speed_industrial_complex_factor = -0.10
+				production_speed_arms_factory_factor = -0.10
+				production_speed_dockyard_factor = -0.10
+				production_speed_buildings_factor = -0.05
+				training_time_factor = 0.25
+			}
+
+			cancel_if_invalid = no
+			
+			allowed = {
+				tag = ROI
+			}
+		}
+		ROI_75 = {
+			removal_cost = -1
+			cost = 900
+			picture = ztcnz_2
+
+			modifier = {
+				conscription = 0.75
+				production_speed_industrial_complex_factor = -0.25
+				production_speed_arms_factory_factor = -0.25
+				production_speed_dockyard_factor = -0.25
+				production_speed_buildings_factor = -0.10
+				training_time_factor = 0.50
+				research_speed_factor = -0.10
+			}
+
+			cancel_if_invalid = no
+			
+			allowed = {
+				tag = ROI
+			}
+		}
+		ROI_100 = {
+			removal_cost = -1
+			cost = 1200
+			picture = ztcnz_2
+			available = {
+				####
+			}
+
+			modifier = {
+				conscription = 1.00
+				production_speed_industrial_complex_factor = -0.50
+				production_speed_arms_factory_factor = -0.50
+				production_speed_dockyard_factor = -0.50
+				production_speed_buildings_factor = -0.25
+				training_time_factor = 0.50
+				research_speed_factor = -0.50
+			}
+
+			cancel_if_invalid = no
+			
+			allowed = {
+				tag = ROI
+			}
+		}
+	}
 }
