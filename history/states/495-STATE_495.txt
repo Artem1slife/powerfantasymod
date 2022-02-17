@@ -13,6 +13,6 @@ state={
 		}
 		add_core_of = IPO
 	}
-	state_category = rural
+	state_category = town
 	local_supplies=0.000
 }

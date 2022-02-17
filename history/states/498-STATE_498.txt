@@ -4,7 +4,7 @@ state={
 	provinces={
 		1593 5998 4507 6034 2458 2633  
 	}
-	manpower=500000
+	manpower=1000000
 	history={
 		owner = IPO
 		victory_points = { 1593 15 }
@@ -13,6 +13,6 @@ state={
 		}
 		add_core_of = IPO
 	}
-	state_category = rural
+	state_category = city
 	local_supplies=0.000
 }
