@@ -1,4 +1,21 @@
 ﻿l_russian:
-IPO:0 "Империя Проклятого острова"
-IPO_DEF:0 "Империи Проклятого острова"
-IPO_ADJ:0 "Имперцы Проклятого острова"
+ IPO_ADJ:0 "Имперск."
+ IPO_democratic:0 "Новая Империя"
+ IPO_democratic_DEF:0 "Империя Проклятого острова"
+ IPO_communism:0 "Соеденённые Коллектии"
+ IPO_communism_DEF:0 "Соеденённые Коллектии Проклятого острова"
+ IPO_fascism:0 "Истинная Империя"
+ IPO_fascism_DEF:0 "Истинная Империя Проклятого острова"
+ IPO_neutrality:0 "Империя"
+ IPO_neutrality_DEF:0 "Империя Проклятого острова"
+ IPO_destruction:0 "Великий Проклятый остров"
+ IPO_destruction_DEF:0 "Великий Проклятый остров"
+ 
+ IPO_neutrality_party:0 "СПО"
+ IPO_neutrality_party_long:0 "Союз Проклятого Острова"
+ 
+ IPO_desert_lands:0 "Пустынные земли"
+ IPO_kingdom_of_sin:0 "Царство Греха"
+ IPO_wartime:0 "Форсированная мобилизация"
+ 
+ VICTORY_POINTS_174:0 "Велстираиз"

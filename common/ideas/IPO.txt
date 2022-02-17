@@ -1,0 +1,50 @@
+ideas = {
+	country = {
+		IPO_desert_lands = {
+			picture = ztcnz
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				max_surrender_limit_offset = -0.05
+				army_core_defence_factor = 0.05
+				acclimatization_hot_climate_gain_factor = 0.5
+				global_building_slots_factor = -0.1
+				industrial_capacity_factory = -0.15
+				industrial_capacity_dockyard = -0.15
+			}
+		}
+		IPO_kingdom_of_sin = {
+			picture = ztcnz
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				justify_war_goal_time = 2
+				lend_lease_tension = 1
+				guarantee_tension = 1
+				trade_opinion_factor = -0.75
+				min_export = -0.2
+			}
+		}
+		IPO_wartime = {
+			picture = ztcnz
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_factor = -0.1
+				conscription = 0.1
+				monthly_population = 0.25
+				consumer_goods_factor = 0.1
+				special_forces_min = 20
+			}
+		}
+	}
+}

@@ -4,12 +4,13 @@ state={
 	provinces={
 		421 673 1284 1623 1795 1844 2064 2201 2297 2349 2865 3386 3400 3525 3614 4033 4412 5160 5405 5660 5808 6073 6092 6095 6113 6127 6134 8973 8978 
 	}
-	manpower=2000000
+	manpower=148599
 	history={
 		owner = APO
 		buildings = {
 			infrastructure = 2
 		}
+		add_core_of = APO
 		add_core_of = BBM
 	}
 	state_category = wasteland

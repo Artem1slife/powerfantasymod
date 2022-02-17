@@ -27,6 +27,9 @@ ideas = {
 				max_fuel_factor = -0.45
 				fuel_gain_factor = -0.6
 				agency_upgrade_time = 1.0
+				hidden_modifier = {
+					special_forces_min = 36
+				}
 			}
 
 			allowed_to_remove = {
@@ -61,6 +64,9 @@ ideas = {
 				max_fuel_factor = -0.35
 				fuel_gain_factor = -0.5
 				agency_upgrade_time = 0.8
+				hidden_modifier = {
+					special_forces_min = 36
+				}
 			}
 			allowed_to_remove = {
 				OR = {
@@ -87,6 +93,9 @@ ideas = {
 				conversion_cost_mil_to_civ_factor = 0.3
 				max_fuel_factor = -0.25
 				fuel_gain_factor = -0.4
+				hidden_modifier = {
+					special_forces_min = 36
+				}
 			}
 
 			default = yes
@@ -153,6 +162,9 @@ ideas = {
 				production_speed_industrial_complex_factor = -0.1
 				production_speed_arms_factory_factor = -0.1
 				fuel_gain_factor = -0.25
+				hidden_modifier = {
+					special_forces_min = 36
+				}
 			}
 
 			cancel_if_invalid = no
@@ -232,6 +244,9 @@ ideas = {
 				conversion_cost_civ_to_mil_factor= -0.1
 				conversion_cost_mil_to_civ_factor = -0.1
 				fuel_gain_factor = -0.1
+				hidden_modifier = {
+					special_forces_min = 36
+				}
 			}
 
 			cancel_if_invalid = no
@@ -322,6 +337,9 @@ ideas = {
 				production_speed_arms_factory_factor = 0.2
 				conversion_cost_civ_to_mil_factor= -0.2
 				conversion_cost_mil_to_civ_factor = -0.2
+				hidden_modifier = {
+					special_forces_min = 36
+				}
 			}
 
 			cancel_if_invalid = no
@@ -488,6 +506,9 @@ ideas = {
 				production_speed_arms_factory_factor = 0.3
 				conversion_cost_civ_to_mil_factor= -0.3
 				conversion_cost_mil_to_civ_factor = -0.3
+				hidden_modifier = {
+					special_forces_min = 36
+				}
 			}
 
 			cancel_if_invalid = no
@@ -519,6 +540,9 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = 0.15
 				production_speed_buildings_factor = -0.15
+				hidden_modifier = {
+					special_forces_min = 36
+				}
 
 			}
 
@@ -549,6 +573,9 @@ ideas = {
 				consumer_goods_factor = 0.10
 				production_speed_buildings_factor = -0.2
 				global_building_slots_factor = 0.1
+				hidden_modifier = {
+					special_forces_min = 36
+				}
 			}
 
 			cancel_if_invalid = no
@@ -578,6 +605,9 @@ ideas = {
 				civilian_intel_to_others = 40.0
 				navy_intel_to_others = 40.0
 				agency_upgrade_time = 0.15
+				hidden_modifier = {
+					special_forces_min = 36
+				}
 			}
 
 			allowed_to_remove = {
@@ -650,6 +680,9 @@ ideas = {
 				research_speed_factor = 0.10
 				civilian_intel_to_others = 40.0
 				navy_intel_to_others = 20.0
+				hidden_modifier = {
+					special_forces_min = 36
+				}
 			}
 
 			cancel_if_invalid = no
@@ -722,6 +755,9 @@ ideas = {
 				research_speed_factor = 0.05
 				civilian_intel_to_others = 20.0
 				navy_intel_to_others = 10.0
+				hidden_modifier = {
+					special_forces_min = 36
+				}
 			}
 
 			default = yes
@@ -812,6 +848,9 @@ ideas = {
 				research_speed_factor = 0.01
 				civilian_intel_to_others = 10.0
 				navy_intel_to_others = 5
+				hidden_modifier = {
+					special_forces_min = 36
+				}
 			}
 
 			cancel_if_invalid = no
@@ -886,6 +925,9 @@ ideas = {
 			modifier = {
 				min_export = 0
 				#civilian_intel_to_others = 0.0
+				hidden_modifier = {
+					special_forces_min = 36
+				}
 			}
 
 			on_add = {

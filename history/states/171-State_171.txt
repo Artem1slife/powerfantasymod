@@ -4,12 +4,15 @@ state={
 	provinces={
 		2912 3010 3016 6124
 	}
-	manpower=2000000
+	manpower=893340
 	history={
 		owner = APO
-		victory_points = { 2912 10 }
+		victory_points = { 2912 15 }
 		buildings = {
 			infrastructure = 2
+			2912 = {
+				naval_base = 4
+			}
 		}
 		add_core_of = APO
 	}

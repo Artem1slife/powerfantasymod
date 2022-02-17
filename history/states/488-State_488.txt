@@ -4,13 +4,14 @@ state={
 	provinces={
 		1482 4133 5251 6157
 	}
-	manpower=1
+	manpower=427233
 	history={
 		owner = APO
 		victory_points = { 5251 5 }
 		buildings = {
 			infrastructure = 2
 		}
+		add_core_of = APO
 		add_core_of = BBC
 	}
 	state_category = town

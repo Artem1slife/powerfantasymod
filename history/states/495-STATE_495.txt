@@ -4,12 +4,13 @@ state={
 	provinces={
 		1148 1664 2468 1389 332 
 	}
-	manpower=1000000
+	manpower=989560
 	history={
 		owner = IPO
 		victory_points = { 1148 5 }
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 1
 		}
 		add_core_of = IPO
 	}

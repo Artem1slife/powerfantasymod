@@ -2,16 +2,17 @@ state={
 	id=154
 	name="STATE_154"
 	provinces={
-		268 391 1255 1321 1564 1964 2008 2186 3253 3918 3985 4238 4623 5457 5984 6004 6037 6071 8965 8964 8966 8967 8970 8972 8968 8971 8975 8976
+		268 391 1255 1321 1564 1964 2008 2186 3253 3918 3985 4238 4623 5457 5984 6004 6071 8965 8964 8966 8967 8970 8972 8968 8971 8975 8976
 	}
-	manpower=700000
+	manpower=1118289
 	history={
 		owner = IPO
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 2
 		}
 		add_core_of = IPO
 	}
-	state_category = wasteland
+	state_category = town
 	local_supplies=0.0 
 }

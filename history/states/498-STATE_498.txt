@@ -2,14 +2,19 @@ state={
 	id=498
 	name="STATE_498"
 	provinces={
-		1593 5998 4507 6034 2458 2633  
+		1593 5998 4507 6034 2458 2633 6037
 	}
-	manpower=1000000
+	manpower=1753126
 	history={
 		owner = IPO
-		victory_points = { 1593 15 }
+		victory_points = { 1593 20 }
 		buildings = {
 			infrastructure = 2
+			arms_factory = 3
+			industrial_complex = 2
+			1593 = {
+				naval_base = 6
+			}
 		}
 		add_core_of = IPO
 	}

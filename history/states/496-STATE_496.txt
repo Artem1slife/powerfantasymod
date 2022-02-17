@@ -4,9 +4,10 @@ state={
 	provinces={
 		6057 6030 1755 2370 174 4553 
 	}
-	manpower=600000
+	manpower=602413
 	history={
 		owner = IPO
+		victory_points = { 174 3 }
 		buildings = {
 			infrastructure = 2
 		}

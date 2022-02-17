@@ -20,4 +20,12 @@ set_popularities = {
 	communism = 75
 }
 
+declare_war_on = {
+	target = ROI
+	type = civil_war
+}
+declare_war_on = {
+	target = IPO
+	type = civil_war
+}
 
