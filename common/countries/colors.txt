@@ -80,3 +80,47 @@ BBС = {
 	color = rgb {163  124  160}
 	color_ui = rgb { 139 20 20 }
 }
+OСL = {
+	color = rgb {137  137  174}
+	color_ui = rgb { 139 20 20 }
+}
+FCL = {
+	color = rgb {80  112  128}
+	color_ui = rgb { 139 20 20 }
+}
+OCL = {
+	color = rgb {114  79  69}
+	color_ui = rgb { 139 20 20 }
+}
+ICL = {
+	color = rgb {136  199  152}
+	color_ui = rgb { 139 20 20 }
+}
+PCL = {
+	color = rgb {224  255  152}
+	color_ui = rgb { 139 20 20 }
+}
+PCL = {
+	color = rgb {224  255  152}
+	color_ui = rgb { 139 20 20 }
+}
+KCL = {
+	color = rgb {174  55  152}
+	color_ui = rgb { 139 20 20 }
+}
+ACL = {
+	color = rgb {99  55  152}
+	color_ui = rgb { 139 20 20 }
+}
+CCL = {
+	color = rgb {99  55  152}
+	color_ui = rgb { 139 20 20 }
+}
+СKL = {
+	color = rgb {99  55  152}
+	color_ui = rgb { 139 20 20 }
+}
+RCL = {
+	color = rgb {55  55  152}
+	color_ui = rgb { 139 20 20 }
+}
