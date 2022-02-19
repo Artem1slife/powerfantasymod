@@ -1,0 +1,24 @@
+capital = 20
+set_technology = {
+	infantry_weapons = 1
+}
+set_convoys = 150
+add_political_power = 150
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.5
+set_oob = "FRA_1936"
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 25
+	communism = 5
+	democratic = 20
+	neutrality = 50
+}
+
+
