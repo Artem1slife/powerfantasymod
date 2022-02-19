@@ -1,5 +1,12 @@
 ﻿capital = 171
 
+set_oob = APO
+
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	basic_train = 1
+}
 
 set_research_slots = 1
 set_stability = 0.2
@@ -29,3 +36,4 @@ declare_war_on = {
 	type = civil_war
 }
 
+add_ideas = { APO_band_power APO_economic_pizdets APO_mobilisation }
