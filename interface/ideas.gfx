@@ -6343,6 +6343,7 @@ spriteTypes = {
 		name = "GFX_idea_sov_blyukher"
 		texturefile = "gfx/interface/ideas/idea_sov_blyukher.dds"
 	}
+	###
 	spriteType = {
 		name = "GFX_idea_priority_on_population"
 		texturefile = "gfx/interface/ideas/idea_PF_demography.dds"
@@ -6363,6 +6364,7 @@ spriteTypes = {
 		name = "GFX_idea_priority_on_propaganda"
 		texturefile = "gfx/interface/ideas/idea_PF_propaganda.dds"
 	}
+	###
 	spriteType = {
 		name = "GFX_idea_ztcnz"
 		texturefile = "gfx/interface/ideas/idea_ztcnz.dds"
@@ -6370,5 +6372,52 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_ztcnz_2"
 		texturefile = "gfx/interface/ideas/idea_ztcnz_2.dds"
+	}
+	###
+	spriteType = {
+		name = "GFX_idea_educated_sosaiti"
+		texturefile = "gfx/interface/ideas/idea_PF_educated_sosaiti.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_more_50_educated_sosaiti"
+		texturefile = "gfx/interface/ideas/idea_PF_more_50_educated_sosaiti.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_more_25_educated_sosaiti"
+		texturefile = "gfx/interface/ideas/idea_PF_more_25_educated_sosaiti.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_not_educated_sosaiti"
+		texturefile = "gfx/interface/ideas/idea_PF_not_educated_sosaiti.dds"
+	}
+	###
+	spriteType = {
+		name = "GFX_idea_hight_industrialisated"
+		texturefile = "gfx/interface/ideas/idea_PF_hight_industrialisated.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_low_industrialisated"
+		texturefile = "gfx/interface/ideas/idea_PF_low_industrialisated.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_not_industrialisated"
+		texturefile = "gfx/interface/ideas/idea_PF_not_industrialisated.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_no_industrialisated"
+		texturefile = "gfx/interface/ideas/idea_PF_no_industrialisated.dds"
+	}
+	###
+	spriteType = {
+		name = "GFX_idea_good_medicine"
+		texturefile = "gfx/interface/ideas/idea_PF_good_medicine.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_yes_medicine"
+		texturefile = "gfx/interface/ideas/idea_PF_yes_medicine.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_no_medicine"
+		texturefile = "gfx/interface/ideas/idea_PF_no_medicine.dds"
 	}
 }

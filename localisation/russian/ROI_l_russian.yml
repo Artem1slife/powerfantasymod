@@ -52,3 +52,11 @@
  ROI_destruction_party_long:0 "Рой Проклятого Острова"
  ROI_fascism_party:0 "Союз нежити"
  ROI_fascism_party_long:0 "Союз нежити Проклятого Острова"
+ 
+ mobilization_locked:0 "§RНедоступно§!"
+ trade_locked:0 "§RНедоступно§!"
+ ROI_10:0 "10% Контроль"
+ ROI_25:0 "25% Контроль"
+ ROI_50:0 "50% Контроль"
+ ROI_75:0 "75% Контроль"
+ ROI_100:0 "100% Контроль"
