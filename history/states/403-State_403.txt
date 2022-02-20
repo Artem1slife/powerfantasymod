@@ -4,11 +4,12 @@ state={
 	provinces={
 		242 308 1282 1335 1354 1627 1797 2231 2249 2475 2592 2793 2808 3026 3377 3444 3519 3957 4035 4047 4111 4251 5301 5322 5369 7796 7816 7849 7850 7857 7880 7898 7914 7918 7924 7926 7931 7957 7968 7970 8000 
 	}
-	manpower=1
+	manpower=472659
 	history={
 		owner = LAD
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 1
 		}
 		add_core_of = LAD
 	}

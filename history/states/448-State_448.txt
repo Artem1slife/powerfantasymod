@@ -4,11 +4,13 @@ state={
 	provinces={
 		57 341 405 973 1260 1398 1763 1785 2148 2213 2509 2518 2664 2821 3429 3715 3738 3793 4461 4585 4814 5084 5302 5575 8095 8101 8102 8118 8147 8163 
 	}
-	manpower=1
+	manpower=892638
 	history={
 		owner = JDR
+		victory_points = { 2664 10 }
 		buildings = {
 			infrastructure = 2
+			arms_factory = 1
 		}
 		add_core_of = JDR
 	}

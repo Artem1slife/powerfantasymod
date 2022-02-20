@@ -4,13 +4,15 @@ state={
 	provinces={
 		35 56 197 261 343 415 506 678 711 980 990 1072 1136 1164 1194 1202 1332 1353 1487 1499 1651 1689 1852 1878 2001 2100 2115 2516 2660 2769 3111 3153 3229 3616 3815 4385 4453 4558 5330 5483 5515 5619 5667 5911 8132 8176 8195 8221 8245 8247 8249 8264 8274 
 	}
-	manpower=1
+	manpower=1467495
 	history={
-		owner = TST
+		owner = TRC
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 3
 		}
-		add_core_of = TST
+		add_core_of = TRC
 	}
 	state_category = rural
 	local_supplies=0.0 

@@ -4,7 +4,7 @@ state={
 	provinces={
 		524 716 1166 2212 2610 2676 4119 5493 7793 7860 
 	}
-	manpower=1
+	manpower=639142
 	history={
 		owner = OCL
 		buildings = {

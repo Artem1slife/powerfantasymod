@@ -124,3 +124,47 @@ RCL = {
 	color = rgb {55  55  152}
 	color_ui = rgb { 139 20 20 }
 }
+VNL = {
+	color = rgb {177  102  102}
+	color_ui = rgb { 139 20 20 }
+}
+ARM = {
+	color = rgb {24  55  106}
+	color_ui = rgb { 139 20 20 }
+}
+BET = {
+	color = rgb {24  55  106}
+	color_ui = rgb { 139 20 20 }
+}
+TRC = {
+	color = rgb {250  181  58}
+	color_ui = rgb { 139 20 20 }
+}
+ORS = {
+	color = rgb {31  23  58}
+	color_ui = rgb { 139 20 20 }
+}
+NAC = {
+	color = rgb {81  148  133}
+	color_ui = rgb { 139 20 20 }
+}
+ITR = {
+	color = rgb {81  148  133}
+	color_ui = rgb { 139 20 20 }
+}
+MTR = {
+	color = rgb {81  148  133}
+	color_ui = rgb { 139 20 20 }
+}
+STR = {
+	color = rgb {81  148  133}
+	color_ui = rgb { 139 20 20 }
+}
+MTR = {
+	color = rgb {81  148  133}
+	color_ui = rgb { 139 20 20 }
+}
+HTR = {
+	color = rgb {102  127  127}
+	color_ui = rgb { 139 20 20 }
+}
