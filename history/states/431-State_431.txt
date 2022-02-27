@@ -4,11 +4,12 @@ state={
 	provinces={
 		244 996 1292 1315 1425 1462 1998 2330 3239 3602 3868 4298 4543 4652 4658 7962 8011 8014 8028 8057 
 	}
-	manpower=1
+	manpower=689406
 	history={
 		owner = JTR
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 1
 		}
 		add_core_of = JTR
 	}

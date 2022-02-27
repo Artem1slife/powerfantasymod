@@ -4,14 +4,19 @@ state={
 	provinces={
 		78 230 290 397 468 588 714 721 877 895 1002 1498 1558 1829 1870 2795 3102 3207 3693 3804 3993 4056 5626 8191 8199 8207 8215 8235 8242 8250 8257 8258 9031 
 	}
-	manpower=1
+	manpower=3594989
 	history={
 		owner = IND
+		victory_points = { 712 10 }
 		buildings = {
 			infrastructure = 2
+			dockyard = 1
+			arms_factory = 1
+			industrial_complex = 1
+			fuel_silo = 1
 		}
 		add_core_of = IND
 	}
-	state_category = rural
+	state_category = town
 	local_supplies=0.0 
 }

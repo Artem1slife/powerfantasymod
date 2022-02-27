@@ -3,6 +3,35 @@ set_technology = {
 	infantry_weapons = 1
 }
 set_convoys = 150
+
+# DIPLOMACY
+
+set_autonomy = {
+		target = MTR
+		autonomous_state = autonomy_colony
+		freedom_level = 0.2
+	}
+set_autonomy = {
+		target = ITR
+		autonomous_state = autonomy_colony
+		freedom_level = 0.2
+	}
+set_autonomy = {
+		target = HTR
+		autonomous_state = autonomy_colony
+		freedom_level = 0.2
+	}
+set_autonomy = {
+		target = MIR
+		autonomous_state = autonomy_colony
+		freedom_level = 0.2
+	}
+set_autonomy = {
+		target = STR
+		autonomous_state = autonomy_colony
+		freedom_level = 0.2
+	}
+
 add_political_power = 150
 set_research_slots = 3
 set_stability = 0.6
@@ -20,4 +49,9 @@ set_popularities = {
 	darkness = 15
 }
 
-
+create_faction = Allies
+add_to_faction = MTR
+add_to_faction = ITR
+add_to_faction = HTR
+add_to_faction = MIR
+add_to_faction = STR
