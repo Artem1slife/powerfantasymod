@@ -6420,4 +6420,17 @@ spriteTypes = {
 		name = "GFX_idea_no_medicine"
 		texturefile = "gfx/interface/ideas/idea_PF_no_medicine.dds"
 	}
+	###
+	spriteType = {
+		name = "GFX_idea_not_poor_sosaiti"
+		texturefile = "gfx/interface/ideas/idea_PF_not_poor_sosaiti.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_more_50_poor"
+		texturefile = "gfx/interface/ideas/idea_PF_more_50_poor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_more_75_poor"
+		texturefile = "gfx/interface/ideas/idea_PF_more_75_poor.dds"
+	}
 }
