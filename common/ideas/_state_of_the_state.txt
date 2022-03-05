@@ -3,61 +3,172 @@ ideas = {
 	progressivism_level = {
 		law = yes
 		use_list_view = yes
-		progressive_sosaiti = {
+		pf_great_power = {
 			
 			available = {
-				has_stability > 0.75
+				has_civil_war = no
+				num_of_factories > 150
+				OR = {
+					is_in_faction = no
+					is_faction_leader = yes
+				}
+				is_subject = no
+				is_government_in_exile = no
 			}
 			
 			removal_cost = -1
-			cost = 300
+			cost = 500
+			level = 5
+
+			modifier = {
+				research_speed_factor = 0.15
+				trade_opinion_factor = 0.5
+				surrender_limit = -0.1
+				stability_factor = 0.3
+				war_support_factor = 0.3
+				drift_defence_factor = -0.5
+				enemy_declare_war_tension = 0.25
+				enemy_justify_war_goal_time = 0.25
+				generate_wargoal_tension = 0.25
+				guarantee_cost = -0.5
+				join_faction_tension = 0.25
+				lend_lease_tension = -0.5
+				annex_cost_factor = 1
+				puppet_cost_factor = -0.25
+				conscription_factor = -0.3
+				max_command_power = 100
+				air_volunteer_cap = 200
+				send_volunteer_factor = 0.5
+				send_volunteers_tension = -0.5
+				land_doctrine_cost_factor = 0.5
+				air_doctrine_cost_factor = 0.5
+				naval_doctrine_cost_factor = 0.5
+				encryption_factor = -0.25
+				operative_slot = 2
+			}
+
+			cancel_if_invalid = yes
+		}
+		pf_poten_great_power = {
+			
+			available = {
+				has_civil_war = no
+				num_of_factories > 75
+				is_subject = no
+				is_government_in_exile = no
+			}
+			
+			removal_cost = -1
+			cost = 500
+			level = 4
+
+			modifier = {
+				research_speed_factor = 0.1
+				trade_opinion_factor = 0.25
+				surrender_limit = -0.05
+				stability_factor = 0.15
+				war_support_factor = 0.15
+				drift_defence_factor = -0.25
+				enemy_declare_war_tension = 0.1
+				enemy_justify_war_goal_time = 0.1
+				generate_wargoal_tension = 0.1
+				guarantee_cost = -0.25
+				join_faction_tension = 0.1
+				lend_lease_tension = -0.25
+				annex_cost_factor = 0.5
+				puppet_cost_factor = 0.1
+				conscription_factor = -0.15
+				max_command_power = 50
+				air_volunteer_cap = 100
+				send_volunteer_factor = 0.25
+				send_volunteers_tension = -0.25
+				land_doctrine_cost_factor = 0.25
+				air_doctrine_cost_factor = 0.25
+				naval_doctrine_cost_factor = 0.25
+				encryption_factor = -0.1
+				operative_slot = 1
+			}
+
+			cancel_if_invalid = yes
+		}
+		pf_large_power = {
+			
+			available = {
+				num_of_factories > 30
+				is_government_in_exile = no
+			}
+			
+			removal_cost = -1
+			cost = 500
 			level = 3
 
 			modifier = {
-				monthly_population = -0.25
-				industrialisation_level_cost_factor = -0.50
-				education_level_cost_factor = -0.50
-				poorness_level_cost_factor = -0.50
-				salary_level_cost_factor = -0.50
-				healthness_level_cost_factor = -0.50
+				research_speed_factor = 0.05
+				trade_opinion_factor = 0.1
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				drift_defence_factor = -0.1
+				guarantee_cost = -0.1
+				join_faction_tension = -0.1
+				lend_lease_tension = 0.25
+				annex_cost_factor = -0.5
+				puppet_cost_factor = 0.5
+				max_command_power = 25
+				air_volunteer_cap = 50
 			}
 
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
-		some_progressive_sosaiti = {
+		pf_awesome_power = {
+			
+			available = {
+				num_of_factories > 5
+				is_government_in_exile = no
+			}
 			
 			removal_cost = -1
-			cost = 300
+			cost = 500
 			level = 2
-			default = yes
 
 			modifier = {
-				monthly_population = -0.15
-				industrialisation_level_cost_factor = 0.25
-				education_level_cost_factor = 0.25
-				poorness_level_cost_factor = 0.25
-				democracy_level_cost_factor = 0.25
-				personality_level_cost_factor = 0.25
+				#бонусов нет хехехе))))
 			}
 
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
+			default = yes
 		}
-		not_progressive_sosaiti = {
+		pf_poten_power = {
+			
+			available = {
+				num_of_factories < 5
+			}
 			
 			removal_cost = -1
-			cost = 300
+			cost = 500
 			level = 1
 
 			modifier = {
-				monthly_population = 0.25
-				industrialisation_level_cost_factor = 1
-				education_level_cost_factor = 1
-				poorness_level_cost_factor = 1
-				democracy_level_cost_factor = 1
-				personality_level_cost_factor = 1
+				research_speed_factor = -0.25
+				trade_opinion_factor = -0.5
+				surrender_limit = 0.15
+				stability_factor = -0.3
+				war_support_factor = -0.3
+				drift_defence_factor = 0.5
+				enemy_declare_war_tension = -0.5
+				enemy_justify_war_goal_time = -0.5
+				generate_wargoal_tension = -0.5
+				guarantee_cost = 0.5
+				join_faction_tension = 1
+				lend_lease_tension = 1
+				annex_cost_factor = -1
+				puppet_cost_factor = 1
+				conscription_factor = 0.3
+				land_doctrine_cost_factor = -0.75
+				air_doctrine_cost_factor = -0.75
+				naval_doctrine_cost_factor = -0.75
 			}
 
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 	}
 
