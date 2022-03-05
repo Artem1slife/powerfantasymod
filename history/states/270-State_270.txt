@@ -4,14 +4,17 @@ state={
 	provinces={
 		43 875 1386 1595 2081 2333 2827 3824 4117 4276 4903 5749 6590 6672 6745 6772 6798 6862 
 	}
-	manpower=1
+	manpower=2453137
 	history={
-		owner = TST
+		owner = ASP
+		victory_points = { 6798 5 }
 		buildings = {
 			infrastructure = 2
+			arms_factory = 3
+			industrial_complex = 1
 		}
-		add_core_of = TST
+		add_core_of = ASP
 	}
-	state_category = rural
+	state_category = city
 	local_supplies=0.0 
 }

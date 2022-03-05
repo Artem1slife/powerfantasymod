@@ -172,3 +172,75 @@ COB = {
 	color = rgb {102  127  152}
 	color_ui = rgb { 139 20 20 }
 }
+OAS = {
+	color = rgb {176  165  124}
+	color_ui = rgb { 139 20 20 }
+}
+EPI = {
+	color = rgb {210  165  124}
+	color_ui = rgb { 139 20 20 }
+}
+NMY = {
+	color = rgb {155  190  174}
+	color_ui = rgb { 139 20 20 }
+}
+NUG = {
+	color = rgb {80  190  174}
+	color_ui = rgb { 139 20 20 }
+}
+SRA = {
+	color = rgb {80  115  174}
+	color_ui = rgb { 139 20 20 }
+}
+KRF = {
+	color = rgb {180  190  174}
+	color_ui = rgb { 139 20 20 }
+}
+LND = {
+	color = rgb {155  115  124}
+	color_ui = rgb { 139 20 20 }
+}
+MRV = {
+	color = rgb {105  65  124}
+	color_ui = rgb { 139 20 20 }
+}
+HIM = {
+	color = rgb {105  165  124}
+	color_ui = rgb { 139 20 20 }
+}
+SAB = {
+	color = rgb {105  115  124}
+	color_ui = rgb { 139 20 20 }
+}
+DGP = {
+	color = rgb {145  237  255}
+	color_ui = rgb { 139 20 20 }
+}
+DMT = {
+	color = rgb {145  237  255}
+	color_ui = rgb { 139 20 20 }
+}
+IST = {
+	color = rgb {145  237  255}
+	color_ui = rgb { 139 20 20 }
+}
+EMF = {
+	color = rgb {145  237  255}
+	color_ui = rgb { 139 20 20 }
+}
+ASP = {
+	color = rgb {145  237  255}
+	color_ui = rgb { 139 20 20 }
+}
+DKC = {
+	color = rgb {145  237  255}
+	color_ui = rgb { 139 20 20 }
+}
+BRZ = {
+	color = rgb {145  237  255}
+	color_ui = rgb { 139 20 20 }
+}
+FPT = {
+	color = rgb {102  102  112}
+	color_ui = rgb { 139 20 20 }
+}

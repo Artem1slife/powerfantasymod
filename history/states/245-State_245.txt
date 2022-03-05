@@ -4,14 +4,17 @@ state={
 	provinces={
 		20 456 1368 3166 3354 3412 3502 4236 4296 4449 4516 4526 4648 5081 5331 5840 6476 6491 6524 6568 
 	}
-	manpower=1
+	manpower=1726043
 	history={
 		owner = GAM
+		victory_points = { 4516 5 }
 		buildings = {
 			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 1
 		}
 		add_core_of = GAM
 	}
-	state_category = rural
+	state_category = town
 	local_supplies=0.0 
 }
