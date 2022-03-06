@@ -4,7 +4,7 @@ state={
 	provinces={
 		8312 
 	}
-	manpower=1887234
+	manpower=6872
 	history={
 		owner = GAM
 		victory_points = { 8312 15 }
@@ -12,6 +12,7 @@ state={
 			infrastructure = 2
 			arms_factory = 3
 			industrial_complex = 3
+			8312 = { bunker = 5 }
 		}
 		add_core_of = GAM
 	}

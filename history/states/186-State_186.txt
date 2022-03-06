@@ -8,11 +8,13 @@ state={
 	history={
 		owner = GAM
 		victory_points = { 215 5 }
+		victory_points = { 2291 5 }
+		victory_points = { 5813 5 }
 		buildings = {
 			infrastructure = 2
 			dockyard = 1
 			arms_factory = 2
-			industrial_complex = 5
+			industrial_complex = 3
 		}
 		add_core_of = GAM
 	}
