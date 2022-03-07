@@ -6433,4 +6433,25 @@ spriteTypes = {
 		name = "GFX_idea_more_75_poor"
 		texturefile = "gfx/interface/ideas/idea_PF_more_75_poor.dds"
 	}
+	###
+	spriteType = {
+		name = "GFX_idea_pf_great_power"
+		texturefile = "gfx/interface/ideas/pf_great_power.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pf_poten_great_power"
+		texturefile = "gfx/interface/ideas/pf_poten_great_power.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pf_large_power"
+		texturefile = "gfx/interface/ideas/pf_large_power.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pf_awesome_power"
+		texturefile = "gfx/interface/ideas/pf_awesome_power.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pf_poten_power"
+		texturefile = "gfx/interface/ideas/pf_poten_power.dds"
+	}
 }
