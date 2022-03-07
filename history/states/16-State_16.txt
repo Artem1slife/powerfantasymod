@@ -4,21 +4,24 @@ state={
 	provinces={
 		1019 1350 1452 1567 2668 3388 5240 5885 
 	}
-	manpower=9912423
+	resources={
+		steel=17
+	}
+	manpower=3912423
 	history={
-		owner = GAM
+		owner = GAD
 		victory_points = { 5885 50 }
 		5885 = {
 			naval_base = 4
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
 			dockyard = 3
 			arms_factory = 2
 			industrial_complex = 5
 		}
-		add_core_of = GAM
+		add_core_of = GAD
 	}
 	state_category = metropolis
-	local_supplies=0.0 
+	local_supplies=6.0 
 }

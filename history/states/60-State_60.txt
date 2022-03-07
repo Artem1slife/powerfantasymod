@@ -6,11 +6,11 @@ state={
 	}
 	manpower=1
 	history={
-		owner = GAM
+		owner = GAD
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = GAM
+		add_core_of = GAD
 	}
 	state_category = rural
 	local_supplies=0.0 

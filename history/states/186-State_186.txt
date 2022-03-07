@@ -6,13 +6,17 @@ state={
 	}
 	manpower=7193657
 	history={
-		owner = GAM
-		victory_points = { 2731 20 }
+		owner = GAD
+		victory_points = { 215 5 }
+		victory_points = { 2291 5 }
+		victory_points = { 5813 5 }
 		buildings = {
 			infrastructure = 2
+			dockyard = 1
+			arms_factory = 2
 			industrial_complex = 5
 		}
-		add_core_of = GAM
+		add_core_of = GAD
 	}
 	state_category = city
 	local_supplies=0.0 

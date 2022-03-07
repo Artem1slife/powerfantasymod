@@ -1,7 +1,7 @@
 TST = "countries/Test.txt"
 TS2 = "countries/Test2.txt"
 NAG = "countries/Naga.txt"
-GAM = "countries/Gamaldon.txt"
+GAD = "countries/Gamaldon.txt"
 APO = "countries/AnarchyProklatiiOstrov.txt"
 ROI = "countries/Roi.txt"
 IPO = "countries/ImperiaProklatiiOstrov.txt"

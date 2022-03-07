@@ -4,9 +4,14 @@ state={
 	provinces={
 		153 508 1500 2061 2097 2423 2429 2696 2973 4099 4293 4361 4560 4594 5472 5510 5902 6200 6230 6245 6257 6292 6293 6342 6378 6420 6424 6462 6463 6528 8985 
 	}
+	resources = {
+		tungsten = 10
+		steel = 8
+		oil = 8
+	}
 	manpower=11295563
 	history={
-		owner = GAM
+		owner = GAD
 		victory_points = { 2423 25 }
 		victory_points = { 4293 10 }
 		buildings = {
@@ -17,7 +22,7 @@ state={
 			dockyard = 3
 			industrial_complex = 1
 		}
-		add_core_of = GAM
+		add_core_of = GAD
 	}
 	state_category = large_town
 	local_supplies=0.0 

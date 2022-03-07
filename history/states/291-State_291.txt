@@ -4,11 +4,14 @@ state={
 	provinces={
 		267 409 
 	}
-	manpower=1
+	resources={
+		rubber = 13 
+	}
+	manpower=19032
 	history={
 		owner = CCL
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 		}
 		add_core_of = CCL
 	}
