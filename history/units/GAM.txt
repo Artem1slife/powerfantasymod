@@ -1,0 +1,317 @@
+﻿division_template = {
+	name = "Royal Troops Division"
+	template_counter = 61
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+		priority = 2
+	}
+}
+division_template = {
+	name = "Division «Trident»"
+	template_counter = 34
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+	}
+	is_locked = yes
+}
+division_template = {
+	name = "Division «Black Man»"
+	template_counter = 33
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+	}
+	is_locked = yes
+}
+division_template = {
+	name = "Division «Shadows»"
+	template_counter = 22
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+	}
+	is_locked = yes
+}
+division_template = {
+	name = "Division «Right Bank»"
+	template_counter = 23
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+	}
+	is_locked = yes
+}
+division_template = {
+	name = "Division «Saint Martha»"
+	template_counter = 8
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+	}
+	is_locked = yes
+}
+division_template = {
+	name = "Division «Golden Gate»"
+	template_counter = 39
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+	}
+	is_locked = yes
+}
+division_template = {
+	name = "Division «Peacemaker»"
+	template_counter = 16
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+	}
+	is_locked = yes
+}
+division_template = {
+	name = "Division «Phoenix»"
+	template_counter = 26
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+	}
+	is_locked = yes
+}
+division_template = {
+	name = "Division «OWKUNS»"
+	template_counter = 10
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+	}
+	is_locked = yes
+}
+division_template = {
+	name = "Division «Arena 10»"
+	template_counter = 38
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+	}
+	is_locked = yes
+}
+
+units = {
+	division = {
+		name = "1. Royal Troops Division"
+		location = 5885
+		division_template = "Royal Troops Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.89
+	}
+	division = {
+		name = "2. Royal Troops Division"
+		location = 933
+		division_template = "Royal Troops Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.92
+	}
+	division = {
+		name = "3. Royal Troops Division"
+		location = 8312
+		division_template = "Royal Troops Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.68
+	}
+	division = {
+		name = "4. Royal Troops Division"
+		location = 8313
+		division_template = "Royal Troops Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.77
+	}
+	division = {
+		name = "5. Royal Troops Division"
+		location = 2423
+		division_template = "Royal Troops Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.88
+	}
+	division = {
+		name = "6. Royal Troops Division"
+		location = 5599
+		division_template = "Royal Troops Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "7. Royal Troops Division"
+		location = 6518
+		division_template = "Royal Troops Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "8. Royal Troops Division"
+		location = 6400
+		division_template = "Royal Troops Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.93
+	}
+	division = {
+		name = "9. Royal Troops Division"
+		location = 1103
+		division_template = "Royal Troops Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "10. Royal Troops Division"
+		location = 6551
+		division_template = "Royal Troops Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.98
+	}
+	division = {
+		name = "11. Royal Troops Division"
+		location = 6568
+		division_template = "Royal Troops Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.89
+	}
+	division = {
+		name = "12. Royal Troops Division"
+		location = 7118
+		division_template = "Royal Troops Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "13. Royal Troops Division"
+		location = 2731
+		division_template = "Royal Troops Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Division «Trident»"
+		location = 1578
+		division_template = "Division «Trident»"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.89
+	}
+	division = {
+		name = "Division «Black Man»"
+		location = 5663
+		division_template = "Division «Black Man»"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Division «Shadows»"
+		location = 6551
+		division_template = "Division «Shadows»"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.87
+	}
+	division = {
+		name = "Division «Right Bank»"
+		location = 5885
+		division_template = "Division «Right Bank»"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.99
+	}
+	division = {
+		name = "Division «Saint Martha»"
+		location = 1245
+		division_template = "Division «Saint Martha»"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.37
+	}
+	division = {
+		name = "Division «Golden Gate»"
+		location = 6309
+		division_template = "Division «Golden Gate»"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Division «Peacemaker»"
+		location = 4293
+		division_template = "Division «Peacemaker»"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.77
+	}
+	division = {
+		name = "Division «Phoenix»"
+		location = 6518
+		division_template = "Division «Phoenix»"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.78
+	}
+	division = {
+		name = "Division «OWKUNS»"
+		location = 5599
+		division_template = "Division «OWKUNS»"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.77
+	}
+	division = {
+		name = "Division «Arena 10»"
+		location = 5885
+		division_template = "Division «Arena 10»"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.69
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "ROOT"
+		}
+		requested_factories = 1
+		progress = 0.28
+		efficiency = 100
+	}
+}

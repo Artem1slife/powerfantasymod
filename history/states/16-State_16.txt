@@ -4,18 +4,19 @@ state={
 	provinces={
 		1019 1350 1452 1567 2668 3388 5240 5885 
 	}
-	manpower=3912423
+	manpower=9912423
 	history={
 		owner = GAM
-		victory_points = { 5885 30 }
-		buildings = {
-			infrastructure = 5
-			dockyard = 1
-			arms_factory = 4
-			industrial_complex = 5
-			5885 = { bunker = 5 }
+		victory_points = { 5885 50 }
+		5885 = {
+			naval_base = 4
 		}
-		
+		buildings = {
+			infrastructure = 3
+			dockyard = 3
+			arms_factory = 2
+			industrial_complex = 5
+		}
 		add_core_of = GAM
 	}
 	state_category = metropolis

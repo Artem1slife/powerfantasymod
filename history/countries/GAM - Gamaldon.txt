@@ -1,5 +1,12 @@
 ﻿capital = 16
 
+set_oob = GAM
+
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	basic_train = 1
+}
 
 set_research_slots = 3
 set_stability = 0.5
@@ -13,9 +20,9 @@ set_politics = {
 }
 
 set_popularities = {
-	fascism = 100
+	fascism = 0
 	democratic = 0
-	neutrality = 0
+	neutrality = 100
 	destruction = 0
 	communism = 0
 }

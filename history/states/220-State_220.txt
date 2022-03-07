@@ -4,14 +4,17 @@ state={
 	provinces={
 		153 508 1500 2061 2097 2423 2429 2696 2973 4099 4293 4361 4560 4594 5472 5510 5902 6200 6230 6245 6257 6292 6293 6342 6378 6420 6424 6462 6463 6528 8985 
 	}
-	manpower=10290560
+	manpower=11295563
 	history={
 		owner = GAM
-		victory_points = { 6378 5 }
+		victory_points = { 2423 25 }
+		victory_points = { 4293 10 }
 		buildings = {
-			infrastructure = 2
-			dockyard = 1
-			arms_factory = 1
+			2423 = {
+				naval_base = 4
+			}
+			infrastructure = 3
+			dockyard = 3
 			industrial_complex = 1
 		}
 		add_core_of = GAM

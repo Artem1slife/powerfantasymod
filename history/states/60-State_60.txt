@@ -4,7 +4,7 @@ state={
 	provinces={
 		2419 6252 
 	}
-	manpower=15012
+	manpower=1
 	history={
 		owner = GAM
 		buildings = {
