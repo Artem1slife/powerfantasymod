@@ -1,9 +1,19 @@
 ﻿capital = 16
 
 
-set_research_slots = 3
+set_research_slots = 1
 set_stability = 0.5
 add_command_power = 20
+
+add_ideas = {
+	tradition_isolitionalism
+	tradition_beast
+	tradition_destroyers
+	tradition_chiefdom
+	tot_economic_mobilisation
+	scraping_the_barrel
+	closed_economy
+}
 
 set_politics = {
 	ruling_party = fascism

@@ -1,9 +1,19 @@
-﻿capital = 16
+﻿capital = 483
 
+add_ideas = {
+	disarmed_nation
+	free_trade
+	civilian_economy
+	no_industrialisated
+	not_educated_sosaiti
+	no_medicine
+	tradition_habvits_society
+	tradition_free_harbor
+}
 
-set_research_slots = 3
-set_stability = 0.5
-add_command_power = 20
+set_research_slots = 1
+set_stability = 1.0
+add_command_power = 0
 
 set_politics = {
 	ruling_party = neutrality

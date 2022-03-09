@@ -4,14 +4,22 @@ state={
 	provinces={
 		705 2083 2531 5076 
 	}
-	manpower=1
+	resources={
+		rubber=5
+		oil = 5
+	}
+	manpower=15980
 	history={
-		owner = TST
+		owner = LIS
+		victory_points = { 2083 50 }
 		buildings = {
 			infrastructure = 2
+			dockyard = 1
+			arms_factory = 1
+			industrial_complex = 1
 		}
-		add_core_of = TST
+		add_core_of = LIS
 	}
-	state_category = rural
+	state_category = town
 	local_supplies=0.0 
 }

@@ -1,8 +1,21 @@
-﻿capital = 16
+﻿capital = 385
 
+add_ideas = {
+	volunteer_only
+	free_trade
+	civilian_economy
+	no_industrialisated
+	not_poor_sosaiti
+	yes_medicine
+	tradition_powerful_center
+	tradition_moon_worship
+	tradition_lizard_society
+	tradition_syncretic_evolution
+	artifact_bunch_of_classified_materials
+}
 
-set_research_slots = 3
-set_stability = 0.5
+set_research_slots = 2
+set_stability = 0.7
 add_command_power = 20
 
 set_politics = {

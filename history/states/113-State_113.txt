@@ -4,13 +4,19 @@ state={
 	provinces={
 		3592 
 	}
-	manpower=1
+	resources={
+		steel=4
+	}
+	manpower=1031
 	history={
-		owner = TST
+		owner = MBA
+		victory_points = { 3592 5 }
 		buildings = {
 			infrastructure = 2
+			dockyard = 1
+			industrial_complex = 1
 		}
-		add_core_of = TST
+		add_core_of = MBA
 	}
 	state_category = rural
 	local_supplies=0.0 

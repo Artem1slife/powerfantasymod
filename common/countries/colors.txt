@@ -244,3 +244,19 @@ FPT = {
 	color = rgb {102  102  112}
 	color_ui = rgb { 139 20 20 }
 }
+CSA = {
+	color = rgb {102  102  127}
+	color_ui = rgb { 139 20 20 }
+}
+MBA = {
+	color = rgb {127  102  177}
+	color_ui = rgb { 139 20 20 }
+}
+LIS = {
+	color = rgb {127  102  52}
+	color_ui = rgb { 139 20 20 }
+}
+IIS = {
+	color = rgb {127  181  227}
+	color_ui = rgb { 139 20 20 }
+}

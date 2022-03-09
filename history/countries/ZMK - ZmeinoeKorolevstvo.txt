@@ -1,8 +1,19 @@
-﻿capital = 16
+﻿capital = 411
 
+add_ideas = {
+	tradition_high_kingdom
+	tradition_snake_society
+	tradition_magic_blades
+	tradition_homeland_ancients
+	artifact_infinity_blade
+	service_by_requirement
+	limited_exports
+	low_economic_mobilisation
+	not_educated_sosaiti
+}
 
-set_research_slots = 3
-set_stability = 0.5
+set_research_slots = 2
+set_stability = 1.0
 add_command_power = 20
 
 set_politics = {

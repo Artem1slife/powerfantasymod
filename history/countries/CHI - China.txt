@@ -1,7 +1,22 @@
-﻿capital = 16
+﻿capital = 313
 
+# DIPLOMACY
 
-set_research_slots = 3
+set_autonomy = {
+		target = LAD
+		autonomous_state = autonomy_colony
+		freedom_level = 0.5
+	}
+
+add_ideas = {
+	volunteer_only
+	
+	yes_medicine
+	tradition_powerful_center
+	
+}
+
+set_research_slots = 4
 set_stability = 0.5
 add_command_power = 20
 
