@@ -163,7 +163,7 @@ ideas = {
 				production_speed_arms_factory_factor = -0.1
 				fuel_gain_factor = -0.25
 				hidden_modifier = {
-					special_forces_min = 36
+					special_forces_min = 46
 				}
 			}
 
@@ -245,7 +245,7 @@ ideas = {
 				conversion_cost_mil_to_civ_factor = -0.1
 				fuel_gain_factor = -0.1
 				hidden_modifier = {
-					special_forces_min = 36
+					special_forces_min = 56
 				}
 			}
 
@@ -338,7 +338,7 @@ ideas = {
 				conversion_cost_civ_to_mil_factor= -0.2
 				conversion_cost_mil_to_civ_factor = -0.2
 				hidden_modifier = {
-					special_forces_min = 36
+					special_forces_min = 66
 				}
 			}
 
@@ -507,7 +507,7 @@ ideas = {
 				conversion_cost_civ_to_mil_factor= -0.3
 				conversion_cost_mil_to_civ_factor = -0.3
 				hidden_modifier = {
-					special_forces_min = 36
+					special_forces_min = 76
 				}
 			}
 

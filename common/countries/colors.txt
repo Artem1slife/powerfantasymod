@@ -12,7 +12,7 @@ NAG = {
 	color = rgb { 138 43 226 }
 	color_ui = rgb { 138 43 226 }
 }
-GAM = {
+GAD = {
 	color = rgb { 153 50 204 }
 	color_ui = rgb { 153 50 204 }
 }
