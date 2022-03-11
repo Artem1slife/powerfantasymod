@@ -1,0 +1,31 @@
+### Names generation for aces ###
+# Surnames can be male/female dependent or general. Fe. in Polish some surnames has different endings depending on the gender.
+# Names and Surnames are randomly picked and will sometimes repeat, but will never repeat in combinations for example there will never be generated another "John Smith".
+# Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
+# Picking up a gender is random, and is influenced by the amount of names scripted.
+
+default = {
+	male = {
+		names = { "Имя1" "Имя2" "Имя3" "Имя4" "Имя5" "Имя6" }
+		surnames = { "Фамилия1" "Фамилия2" "Фамилия3" "Фамилия4" "Фамилия5" "Фамилия6" }
+	}
+	female = {
+		names = { "Вумен" }
+		surnames = { "Не нужны" }
+		callsigns = { "Посудомойка" }
+	}
+	callsigns = { "Изи" "Молния" "Чёртила" "Травонюх" "Крос" "Музя" "Мыша" "Пебля" "Солнцежуй" "Демон" }
+}
+
+GAD = {
+	male = {
+		names = { "ГамадронИмя1" "ГамадронИмя2" "ГамадронИмя3" "ГамадронИмя4" "ГамадронИмя5" "ГамадронИмя6" }
+		surnames = { "ГамадронФамилия1" "ГамадронФамилия2" "Гамадрон фон Фамилия3" "ГамадронФамилия4" "ГамадронФамилия5" "ГамадронФамилия6" }
+	}
+	female = {
+		names = { "ГамадронВумен" }
+		surnames = { "ГамадронНе нужны" }
+		callsigns = { "ГамадронПосудомойка" }
+	}
+	callsigns = { "ГамадронИзи" "ГамадронМолния" "ГамадронЧёртила" "ГамадронТравонюх" "ГамадронКрос" "ГамадронМузя" "ГамадронМыша" "ГамадронПебля" "ГамадронСолнцежуй" "ГамадронДемон" }
+}
