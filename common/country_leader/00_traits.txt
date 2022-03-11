@@ -484,7 +484,7 @@ leader_traits = {
 	}
 
 	dealbroker = {
-		random = yes
+		random = no
 
 		trade_laws_cost_factor = -0.25
 		mobilization_laws_cost_factor = -0.25
@@ -496,7 +496,7 @@ leader_traits = {
 	}
 
 	hawk = {
-		random = yes
+		random = no
 		sprite = 13
 		war_support_factor = 0.1
 		stability_factor = -0.05
@@ -760,7 +760,7 @@ leader_traits = {
 		}
 	}
 	appeaser = {
-		random = yes
+		random = no
 		sprite = 13
 		war_support_factor = -0.05
 		stability_factor = 0.1
@@ -771,14 +771,14 @@ leader_traits = {
 	}
 
 	tenacious_negotiator = {
-		random = yes
+		random = no
 		political_power_factor = 0.1
 		trade_opinion_factor = 0.25
 	}
 
 	national_integralist = {
 		sprite = 13
-		random = yes
+		random = no
 		political_power_factor = 0.15
 		stability_weekly = 0.001
 
@@ -788,7 +788,7 @@ leader_traits = {
 	}
 
 	retired_officer = {
-		random = yes
+		random = no
 		war_support_factor = 0.05
 		high_command_cost_factor = -0.25
 		air_chief_cost_factor = -0.25
@@ -800,7 +800,7 @@ leader_traits = {
 		}
 	}
 	eager_collaborator = {
-		random = yes
+		random = no
 		send_volunteer_size = 2
 		improve_relations_maintain_cost_factor = -1
 		fascism_acceptance = 75
@@ -2738,7 +2738,7 @@ leader_traits = {
 	}
 	
 	silent_workhorse = {
-		random = yes
+		random = no
 		sprite = 13
 		political_power_factor = 0.15
 		
@@ -2759,7 +2759,7 @@ leader_traits = {
 	}
 	
 	compassionate_gentleman = {
-		random = yes
+		random = no
 		sprite = 13
 		opinion_gain_monthly_factor = 0.15
 		resistance_damage_to_garrison = -0.15 
@@ -2780,7 +2780,7 @@ leader_traits = {
 	}
 	
 	smooth_talking_charmer = {
-		random = yes
+		random = no
 		sprite = 13
 		improve_relations_maintain_cost_factor = -0.5
 		trade_opinion_factor = 0.10
@@ -2791,7 +2791,7 @@ leader_traits = {
 	}
 	
 	ideological_crusader = {
-		random = yes
+		random = no
 		sprite = 13
 		opinion_gain_monthly_same_ideology_factor = 1.0
 		party_popularity_stability_factor = 0.1
@@ -2803,7 +2803,7 @@ leader_traits = {
 	
 	fortification_engineer = {
 		sprite = 10
-		random = yes
+		random = no
 		production_speed_bunker_factor = 0.2
 		production_speed_coastal_bunker_factor = 0.2
 		production_speed_anti_air_building_factor = 0.2
@@ -2815,7 +2815,7 @@ leader_traits = {
 	
 	war_industrialist = {
 		sprite = 10
-		random = yes
+		random = no
 		production_speed_arms_factory_factor = 0.1
 		production_speed_dockyard_factor = 0.1		
 		production_speed_fuel_silo_factor = 0.1
@@ -2827,7 +2827,7 @@ leader_traits = {
 	
 	captain_of_industry = {
 		sprite = 10
-		random = yes
+		random = no
 		production_speed_industrial_complex_factor = 0.1
 		production_speed_infrastructure_factor = 0.1
 		production_speed_rail_way_factor = 0.1
@@ -2840,7 +2840,7 @@ leader_traits = {
 
 	financial_expert = {
 		sprite = 10
-		random = yes
+		random = no
 		consumer_goods_factor = -0.05
 		
 		ai_will_do = {
@@ -2849,7 +2849,7 @@ leader_traits = {
 	}
 	economist = {
 		sprite = 10
-		random = yes
+		random = no
 		production_factory_max_efficiency_factor = 0.05
 		
 		ai_will_do = {
@@ -2859,7 +2859,7 @@ leader_traits = {
 
 	editor = {
 		sprite = 10
-		random = yes
+		random = no
 		political_power_factor = 0.05
 		stability_factor = 0.05
 		
@@ -2870,7 +2870,7 @@ leader_traits = {
 	
 	armaments_organizer = {
 		sprite = 10
-		random = yes
+		random = no
 		conversion_cost_civ_to_mil_factor = -0.2
 		production_speed_supply_node_factor = 0.1
 		# civ_to_mil_industry_conversion_rate = -1
@@ -2880,7 +2880,7 @@ leader_traits = {
 		}
 	}
 	reluctant_interventionist = {
-		random = yes
+		random = no
 		stability_factor = 0.05
 		lend_lease_tension = -0.2
 		request_lease_tension = -0.2
@@ -2891,7 +2891,7 @@ leader_traits = {
 	}
 	quartermaster_general = {
 		sprite = 10
-		random = yes
+		random = no
 		production_speed_air_base_factor = 0.15
 		production_speed_naval_base_factor = 0.15
 		production_speed_rocket_site_factor = 0.15

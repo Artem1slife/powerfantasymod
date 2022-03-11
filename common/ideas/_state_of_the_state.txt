@@ -140,7 +140,7 @@ ideas = {
 		pf_poten_power = {
 			
 			available = {
-				num_of_factories < 5
+				num_of_factories < 6
 			}
 			
 			removal_cost = -1

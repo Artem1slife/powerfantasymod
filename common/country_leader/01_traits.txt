@@ -22,4 +22,82 @@ leader_traits = {
 		}
 	}
 	
+	###Рандомногенерирующиеся
+	
+	PF_executioner = {
+		random = yes
+		political_power_factor = 0.1
+		stability_factor = 0.2
+		war_support_factor = -0.2
+		consumer_goods_factor = -0.05
+		monthly_population = -0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	PF_national_hero = {
+		random = yes
+		war_support_factor = 0.25
+		conscription_factor = 0.15
+		military_leader_cost_factor = -0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	PF_bureaucrat = {
+		random = yes
+		stability_factor = 0.25
+		political_power_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	PF_securitocrat = {
+		random = yes
+		stability_factor = 0.15
+		political_power_factor = 0.25
+		encryption = 5
+		encryption_factor = 0.5
+		conscription_factor = -0.15
+		military_leader_cost_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	PF_industrialist = {
+		random = yes
+		global_building_slots = 1
+		consumer_goods_factor = -0.2
+		stability_factor = -0.15
+		war_support_factor = -0.15
+		production_speed_buildings_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	PF_nervous = {
+		random = yes
+		political_power_factor = -0.05
+		stability_factor = -0.05
+		ai_focus_aggressive_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	PF_architect = {
+		random = yes
+		production_speed_buildings_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	###
 }

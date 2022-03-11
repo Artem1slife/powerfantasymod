@@ -62,3 +62,11 @@
  artifact_ring_spirit:0 "Кольцо духа Ама Ома"
  artifact_ring_time:0 "Кольцо времени Ама Ома"
  artifact_ring_space:0 "Кольцо пространства Ама Ома"
+ 
+ ###Трейтики
+ PF_executioner:0 "Палач"
+ PF_national_hero:0 "Национальный герой"
+ PF_bureaucrat:0 "Бюрократ"
+ PF_securitocrat:0 "Секьюритократ"
+ PF_industrialist:0 "Индустриалист"
+ PF_nervous:0 "Нервный"
