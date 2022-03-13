@@ -14,6 +14,7 @@ ideas = {
 				}
 				is_subject = no
 				is_government_in_exile = no
+				has_idea = { hight_industrialisated }
 			}
 			
 			removal_cost = -1
@@ -45,6 +46,7 @@ ideas = {
 				naval_doctrine_cost_factor = 0.5
 				encryption_factor = -0.25
 				operative_slot = 2
+				special_forces_min = 80
 			}
 
 			cancel_if_invalid = yes
@@ -56,6 +58,10 @@ ideas = {
 				num_of_factories > 75
 				is_subject = no
 				is_government_in_exile = no
+				OR = {
+					has_idea = { hight_industrialisated }
+					has_idea = { low_industrialisated }
+				}
 			}
 			
 			removal_cost = -1
@@ -87,6 +93,7 @@ ideas = {
 				naval_doctrine_cost_factor = 0.25
 				encryption_factor = -0.1
 				operative_slot = 1
+				special_forces_min = 60
 			}
 
 			cancel_if_invalid = yes
@@ -96,6 +103,11 @@ ideas = {
 			available = {
 				num_of_factories > 30
 				is_government_in_exile = no
+				OR = {
+					has_idea = { hight_industrialisated }
+					has_idea = { low_industrialisated }
+					has_idea = { not_industrialisated }
+				}
 			}
 			
 			removal_cost = -1
@@ -115,6 +127,7 @@ ideas = {
 				puppet_cost_factor = 0.5
 				max_command_power = 25
 				air_volunteer_cap = 50
+				special_forces_min = 40
 			}
 
 			cancel_if_invalid = yes
@@ -166,6 +179,7 @@ ideas = {
 				land_doctrine_cost_factor = -0.75
 				air_doctrine_cost_factor = -0.75
 				naval_doctrine_cost_factor = -0.75
+				special_forces_min = 20
 			}
 
 			cancel_if_invalid = yes
