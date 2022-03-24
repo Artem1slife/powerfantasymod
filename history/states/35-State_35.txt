@@ -1,12 +1,12 @@
 state={
 	id=35
-	name="STATE_35"
+	name="Остров Свободы"
 	provinces={
 		8319 
 	}
 	manpower=1
 	history={
-		owner = TST
+		owner = FPT
 		buildings = {
 			infrastructure = 2
 		}

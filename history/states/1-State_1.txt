@@ -5,7 +5,7 @@ state={
 		270 2492 3949 
 	}
 	history={
-		owner = TS2
+		owner = EGO
 		victory_points = { 270 1 }
 		buildings = {
 			infrastructure = 2

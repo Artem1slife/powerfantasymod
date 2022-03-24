@@ -260,3 +260,47 @@ IIS = {
 	color = rgb {127  181  227}
 	color_ui = rgb { 139 20 20 }
 }
+FLY = {
+	color = rgb {1  173  255}
+	color_ui = rgb { 139 20 20 }
+}
+REY = {
+	color = rgb {80  75  74}
+	color_ui = rgb { 139 20 20 }
+}
+QIO = {
+	color = rgb {190  100  70}
+	color_ui = rgb { 139 20 20 }
+}
+HIG = {
+	color = rgb {128  41  32}
+	color_ui = rgb { 139 20 20 }
+}
+KHA = {
+	color = rgb {190  147  37}
+	color_ui = rgb { 139 20 20 }
+}
+NIF = {
+	color = rgb {72  255  176}
+	color_ui = rgb { 139 20 20 }
+}
+AUR = {
+	color = rgb {218  129  176}
+	color_ui = rgb { 139 20 20 }
+}
+EVO = {
+	color = rgb {175  255  255}
+	color_ui = rgb { 139 20 20 }
+}
+EGO = {
+	color = rgb {255  204  255}
+	color_ui = rgb { 139 20 20 }
+}
+RAV = {
+	color = rgb {217  207  88}
+	color_ui = rgb { 139 20 20 }
+}
+HAR = {
+	color = rgb {139  125  255}
+	color_ui = rgb { 139 20 20 }
+}
