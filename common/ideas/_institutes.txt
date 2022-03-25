@@ -743,6 +743,66 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		
+		tradition_colony_of_desert = {
+			available = {
+				political_power_daily > 0
+				always = no
+			}
+			
+			removal_cost = 250
+			cost = 500
+
+			modifier = {
+				
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		
+		tradition_education_nation = {
+			available = {
+				political_power_daily > 0
+				always = no
+			}
+			
+			removal_cost = 250
+			cost = 500
+
+			modifier = {
+				
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		
+		tradition_rossland_world = {
+			available = {
+				political_power_daily > 0
+				always = no
+			}
+			
+			removal_cost = 250
+			cost = 500
+
+			modifier = {
+				
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		
 		tradition_pharaohship = {
 			available = {
 				political_power_daily > 0
@@ -764,6 +824,26 @@ ideas = {
 		}
 		
 		tradition_belief_ether_animals = {
+			available = {
+				political_power_daily > 0
+				always = no
+			}
+			
+			removal_cost = 250
+			cost = 500
+
+			modifier = {
+				
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		
+		tradition_big_mana_continent_family = {
 			available = {
 				political_power_daily > 0
 				always = no
