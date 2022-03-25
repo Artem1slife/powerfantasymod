@@ -1,6 +1,6 @@
 state={
 	id=176
-	name="STATE_176"
+	name="Шираль"
 	provinces={
 		2529 2845 4010 
 	}

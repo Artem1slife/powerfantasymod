@@ -1,6 +1,6 @@
 state={
 	id=73
-	name="STATE_73"
+	name="Золотой остров"
 	provinces={
 		5870 
 	}

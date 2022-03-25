@@ -1,6 +1,6 @@
 state={
 	id=137
-	name="STATE_137"
+	name="Северные просторы"
 	provinces={
 		272 3669 
 	}
