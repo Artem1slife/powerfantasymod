@@ -1,6 +1,6 @@
 state={
 	id=380
-	name="Пилмонт"
+	name="STATE_380"
 	provinces={
 		2284 3209 4210 4955 5114 5907 
 	}

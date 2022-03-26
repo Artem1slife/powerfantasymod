@@ -1,6 +1,6 @@
 state={
 	id=68
-	name="Винхау"
+	name="STATE_68"
 	provinces={
 		4774 5222 6456 6488 
 	}

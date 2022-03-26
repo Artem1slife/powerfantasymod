@@ -1,6 +1,6 @@
 state={
 	id=58
-	name="Поросячий Остров"
+	name="STATE_58"
 	provinces={
 		6243 6268 6294 
 	}

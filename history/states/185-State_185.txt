@@ -1,6 +1,6 @@
 state={
 	id=185
-	name="Карвин"
+	name="STATE_185"
 	provinces={
 		181 425 888 4277 4924 6185 6241 
 	}
