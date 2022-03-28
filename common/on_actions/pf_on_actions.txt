@@ -1,0 +1,15 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			274 = {
+				add_dynamic_modifier = { modifier = nation_russian }
+			}
+			278 = {
+				add_dynamic_modifier = { modifier = nation_russian }
+			}
+			307 = {
+				add_dynamic_modifier = { modifier = nation_russian }
+			}
+		}
+	}
+}

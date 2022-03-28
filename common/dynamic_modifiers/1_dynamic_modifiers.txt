@@ -1,0 +1,7 @@
+
+nation_russian = {
+	enable = { always = yes }
+	icon = GFX_russians
+	local_non_core_manpower = -0.2
+	recruitable_population_factor = 0.1
+}
