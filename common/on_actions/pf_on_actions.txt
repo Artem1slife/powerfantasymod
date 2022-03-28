@@ -1,6 +1,7 @@
 on_actions = {
 	on_startup = {
 		effect = {
+			###Русиш
 			274 = {
 				add_dynamic_modifier = { modifier = nation_russian }
 			}
@@ -9,6 +10,57 @@ on_actions = {
 			}
 			307 = {
 				add_dynamic_modifier = { modifier = nation_russian }
+			}
+			###Гамальдор###
+			16 = {
+				add_dynamic_modifier = { modifier = nation_north_gamaldorian }
+			}
+			23 = {
+				add_dynamic_modifier = { modifier = nation_north_gamaldorian }
+			}
+			22 = {
+				add_dynamic_modifier = { modifier = nation_north_gamaldorian }
+			}
+			30 = {
+				add_dynamic_modifier = { modifier = nation_north_gamaldorian }
+			}
+			31 = {
+				add_dynamic_modifier = { modifier = nation_north_gamaldorian }
+			}
+			###
+			194 = {
+				add_dynamic_modifier = { modifier = nation_center_gamaldorian }
+			}
+			186 = {
+				add_dynamic_modifier = { modifier = nation_center_gamaldorian }
+			}
+			220 = {
+				add_dynamic_modifier = { modifier = nation_center_gamaldorian }
+			}
+			208 = {
+				add_dynamic_modifier = { modifier = nation_center_gamaldorian }
+			}
+			63 = {
+				add_dynamic_modifier = { modifier = nation_center_gamaldorian }
+			}
+			60 = {
+				add_dynamic_modifier = { modifier = nation_center_gamaldorian }
+			}
+			###
+			255 = {
+				add_dynamic_modifier = { modifier = nation_south_gamaldorian }
+			}
+			245 = {
+				add_dynamic_modifier = { modifier = nation_south_gamaldorian }
+			}
+			240 = {
+				add_dynamic_modifier = { modifier = nation_south_gamaldorian }
+			}
+			248 = {
+				add_dynamic_modifier = { modifier = nation_south_gamaldorian }
+			}
+			285 = {
+				add_dynamic_modifier = { modifier = nation_south_gamaldorian }
 			}
 		}
 	}

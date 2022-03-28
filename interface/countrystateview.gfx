@@ -648,6 +648,10 @@ spriteTypes = {
 	}
 	#####Национальности#####
 	spriteType = {
+		name = "GFX_unkown_nation"
+		textureFile = "gfx/interface/state_modifiers/unkown_nation.dds"
+	}
+	spriteType = {
 		name = "GFX_russians"
 		textureFile = "gfx/interface/state_modifiers/russians.dds"
 	}

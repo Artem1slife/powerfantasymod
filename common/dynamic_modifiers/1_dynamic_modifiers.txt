@@ -5,3 +5,19 @@ nation_russian = {
 	local_non_core_manpower = -0.2
 	recruitable_population_factor = 0.1
 }
+nation_north_gamaldorian = {
+	enable = { always = yes }
+	icon = GFX_unkown_nation
+	recruitable_population_factor = -0.05
+}
+nation_center_gamaldorian = {
+	enable = { always = yes }
+	icon = GFX_unkown_nation
+	mobilization_speed = 0.1
+}
+nation_south_gamaldorian = {
+	enable = { always = yes }
+	icon = GFX_unkown_nation
+	army_speed_factor_for_controller = 0.15
+}
+
