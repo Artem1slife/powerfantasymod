@@ -10,7 +10,7 @@ state={
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = TST
+		add_core_of = REY
 	}
 	state_category = rural
 	local_supplies=0.0 

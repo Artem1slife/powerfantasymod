@@ -10,7 +10,7 @@ state={
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = TS2
+		add_core_of = EGO
 	}
 	manpower=1
 	state_category = rural
