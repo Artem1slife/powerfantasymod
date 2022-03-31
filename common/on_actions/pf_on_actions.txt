@@ -62,6 +62,51 @@ on_actions = {
 			285 = {
 				add_dynamic_modifier = { modifier = nation_south_gamaldorian }
 			}
+			###ТеГорт###
+			183 = { add_dynamic_modifier = { modifier = nation_bretts } }
+			55 = { add_dynamic_modifier = { modifier = nation_bretts } }
+			54 = { add_dynamic_modifier = { modifier = nation_bretts } }
+			44 = { add_dynamic_modifier = { modifier = nation_bretts } }
+			61 = { add_dynamic_modifier = { modifier = nation_bretts } }
+			###
+			188 = { add_dynamic_modifier = { modifier = nation_elctes } }
+			###
+			39 = { add_dynamic_modifier = { modifier = nation_scotts } }
+			38 = { add_dynamic_modifier = { modifier = nation_scotts } }
+			36 = { add_dynamic_modifier = { modifier = nation_scotts } }
+			42 = { add_dynamic_modifier = { modifier = nation_scotts } }
+			45 = { add_dynamic_modifier = { modifier = nation_scotts } }
+			43 = { add_dynamic_modifier = { modifier = nation_scotts } }
+			48 = { add_dynamic_modifier = { modifier = nation_scotts } }
+			46 = { add_dynamic_modifier = { modifier = nation_scotts } }
+			49 = { add_dynamic_modifier = { modifier = nation_scotts } }
+			50 = { add_dynamic_modifier = { modifier = nation_scotts } }
+			52 = { add_dynamic_modifier = { modifier = nation_scotts } }
+			53 = { add_dynamic_modifier = { modifier = nation_scotts } }
+			57 = { add_dynamic_modifier = { modifier = nation_scotts } }
+			56 = { add_dynamic_modifier = { modifier = nation_scotts } }
+			###Чукчи###
+			1 = { add_dynamic_modifier = { modifier = nation_eski_go } }
+			131 = { add_dynamic_modifier = { modifier = nation_eski_go } }
+			148 = { add_dynamic_modifier = { modifier = nation_eski_go } }
+			132 = { add_dynamic_modifier = { modifier = nation_eski_go } }
+			###
+			136 = { add_dynamic_modifier = { modifier = nation_eski_vo } }
+			138 = { add_dynamic_modifier = { modifier = nation_eski_vo } }
+			137 = { add_dynamic_modifier = { modifier = nation_eski_vo } }
+			###Бразилия###
+			99 = { add_dynamic_modifier = { modifier = nation_eski_soera } }
+			432 = { add_dynamic_modifier = { modifier = nation_eski_mi } }
+			437 = { add_dynamic_modifier = { modifier = nation_eski_ingi } }
+			420 = { add_dynamic_modifier = { modifier = nation_eski_khara } }
+			442 = { add_dynamic_modifier = { modifier = nation_eski_mana } }
+			433 = { add_dynamic_modifier = { modifier = nation_navigatuum } }
+			106 = { add_dynamic_modifier = { modifier = nation_navigatuum } }
+			117 = { add_dynamic_modifier = { modifier = nation_navigatuum } }
+			116 = { add_dynamic_modifier = { modifier = nation_navigatuum } }
+			118 = { add_dynamic_modifier = { modifier = nation_navigatuum } }
+			119 = { add_dynamic_modifier = { modifier = nation_navigatuum } }
+			######
 		}
 	}
 }

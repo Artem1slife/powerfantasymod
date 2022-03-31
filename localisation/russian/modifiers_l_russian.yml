@@ -1046,6 +1046,11 @@
  MODIFIER_ENEMY_OPERATIVE_INTEL_EXTRACTION_RATE:0 "Скорость сбора разведданных вражеским агентом"
  MODIFIER_STATE_RESOURCES_FACTOR:0 "Местные доступные ресурсы"
  MODIFIER_STATE_PRODUCTION_SPEED_BUILDINGS_FACTOR:0 "Местная скорость строительства"
+ 
+ modifier_state_production_speed_arms_factory_factor:0 "§Y$arms_factory$§! — скорость строительства"
+ modifier_state_production_speed_infrastructure_factor:0 "§Y$infrastructure$§! — скорость строительства"
+ modifier_state_production_speed_dockyard_factor:0 "§Y$dockyard$§! — скорость строительства"
+ 
  modifier_state_production_speed_bunker_factor:1 "Скорость строительства §Yукреплений§!"
  modifier_state_production_speed_bunker_factor_desc:1 "Изменяет скорость строительства бункеров в этом регионе."
  modifier_state_production_speed_coastal_bunker_factor:1 "Скорость строительства §Yбереговых укреплений§!"

@@ -2,22 +2,80 @@
 nation_russian = {
 	enable = { always = yes }
 	icon = GFX_russians
-	local_non_core_manpower = -0.2
-	recruitable_population_factor = 0.1
 }
 nation_north_gamaldorian = {
 	enable = { always = yes }
 	icon = GFX_unkown_nation
-	recruitable_population_factor = -0.05
 }
 nation_center_gamaldorian = {
 	enable = { always = yes }
 	icon = GFX_unkown_nation
-	mobilization_speed = 0.1
 }
 nation_south_gamaldorian = {
 	enable = { always = yes }
 	icon = GFX_unkown_nation
-	army_speed_factor_for_controller = 0.15
 }
-
+###
+nation_bretts = {
+	enable = { always = yes }
+	icon = GFX_unkown_nation
+	recruitable_population_factor = 0.2
+	mobilization_speed = 0.3
+}
+nation_elctes = {
+	enable = { always = yes }
+	icon = GFX_unkown_nation
+	local_building_slots_factor = 0.15
+}
+nation_scotts = {
+	enable = { always = yes }
+	icon = GFX_unkown_nation
+	local_building_slots_factor = 0.15
+}
+###
+nation_eski_vo = {
+	enable = { always = yes }
+	icon = GFX_unkown_nation
+	state_production_speed_infrastructure_factor = -0.5
+	state_production_speed_arms_factory_factor = -0.5
+	state_production_speed_industrial_complex_factor = -0.5
+	state_production_speed_dockyard_factor = -0.5
+	recruitable_population_factor = 0.5
+}
+nation_eski_go = {
+	enable = { always = yes }
+	icon = GFX_unkown_nation
+	recruitable_population_factor = 0.5
+	state_production_speed_infrastructure_factor = -0.5
+	state_production_speed_arms_factory_factor = -0.5
+	state_production_speed_industrial_complex_factor = -0.5
+	state_production_speed_dockyard_factor = -0.5
+	recruitable_population_factor = 0.5
+}
+###
+nation_eski_soera = {
+	enable = { always = yes }
+	icon = GFX_unkown_nation
+}
+nation_eski_mi = {
+	enable = { always = yes }
+	icon = GFX_unkown_nation
+}
+nation_eski_ingi = {
+	enable = { always = yes }
+	icon = GFX_unkown_nation
+}
+nation_eski_khara = {
+	enable = { always = yes }
+	icon = GFX_unkown_nation
+}
+nation_eski_mana = {
+	enable = { always = yes }
+	icon = GFX_unkown_nation
+}
+nation_navigatuum = {
+	enable = { always = yes }
+	icon = GFX_unkown_nation
+	recruitable_population_factor = -0.25
+}
+###
