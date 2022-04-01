@@ -304,3 +304,71 @@ HAR = {
 	color = rgb {139  125  255}
 	color_ui = rgb { 139 20 20 }
 }
+ROM = {
+	color = rgb {177  102  102}
+	color_ui = rgb { 139 20 20 }
+}
+FRA = {
+	color = rgb {96  181  87}
+	color_ui = rgb { 139 20 20 }
+}
+DOM = {
+	color = rgb {137  111  87}
+	color_ui = rgb { 139 20 20 }
+}
+BBC = {
+	color = rgb {137  111  62}
+	color_ui = rgb { 139 20 20 }
+}
+PTB = {
+	color = rgb {137  61  62}
+	color_ui = rgb { 139 20 20 }
+}
+TLE = {
+	color = rgb {137  178  62}
+	color_ui = rgb { 139 20 20 }
+}
+KKU = {
+	color = rgb {137  103  62}
+	color_ui = rgb { 139 20 20 }
+}
+GIL = {
+	color = rgb {137  103  150}
+	color_ui = rgb { 139 20 20 }
+}
+KNO = {
+	color = rgb {137  187  150}
+	color_ui = rgb { 139 20 20 }
+}
+TGU = {
+	color = rgb {137  162  150}
+	color_ui = rgb { 139 20 20 }
+}
+KTH = {
+	color = rgb {137  216  150}
+	color_ui = rgb { 139 20 20 }
+}
+GTU = {
+	color = rgb {210  249  150}
+	color_ui = rgb { 139 20 20 }
+}
+KAN = {
+	color = rgb {210  99  150}
+	color_ui = rgb { 139 20 20 }
+}
+KUV = {
+	color = rgb {185  99  150}
+	color_ui = rgb { 139 20 20 }
+}
+KLS = {
+	color = rgb {60  1  150}
+	color_ui = rgb { 139 20 20 }
+}
+NIM = {
+	color = rgb {127  102  127}
+	color_ui = rgb { 139 20 20 }
+}
+OSI = {
+	color = rgb {127  177  127}
+	color_ui = rgb { 139 20 20 }
+}

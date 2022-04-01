@@ -1,19 +1,23 @@
-capital = 20
+capital = 147
+
 set_technology = {
 	infantry_weapons = 1
 }
+
 set_convoys = 150
 add_political_power = 150
 set_research_slots = 3
 set_stability = 0.6
 set_war_support = 0.5
-set_oob = "FRA_1936"
+
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
 	fascism = 1
 	communism = 0
@@ -21,4 +25,15 @@ set_popularities = {
 	neutrality = 99
 }
 
-
+create_faction = Our_Homeland
+add_to_faction = FLY
+add_to_faction = FPT
+add_to_faction = VNL
+add_to_faction = EGO
+add_to_faction = ARM
+add_to_faction = EVO
+add_to_faction = QIO
+add_to_faction = REY
+add_to_faction = HIG
+add_to_faction = KHA
+add_to_faction = AUR
