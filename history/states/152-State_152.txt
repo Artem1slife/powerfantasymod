@@ -7,7 +7,10 @@ state={
 	manpower=1
 	history={
 		owner = FLY
-		buildings = {
+                victory_points = { 116 10 }
+                victory_points = { 6000 25 }
+                victory_points = { 422 25 }
+		buildings = { 
 			infrastructure = 2
 		}
 		add_core_of = FLY

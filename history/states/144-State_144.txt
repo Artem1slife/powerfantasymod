@@ -7,6 +7,9 @@ state={
 	manpower=1
 	history={
 		owner = FLY
+                victory_points = { 2947 20 }
+                victory_points = { 945 20 }
+                victory_points = { 5947 25 }
 		buildings = {
 			infrastructure = 2
 		}
