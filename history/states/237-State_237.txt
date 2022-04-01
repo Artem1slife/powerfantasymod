@@ -4,11 +4,15 @@ state={
 	provinces={
 		1038 2172 2474 2864 3357 4164 4253 4602 5183 5651 5824 6514 6521 6535 6620 6701 
 	}
-	manpower=1
+        resources = {
+		steel = 6
+	}
+	manpower=713020
 	history={
 		owner = CHI
 		buildings = {
 			infrastructure = 2
+                        industrial_complex = 1
 		}
 		add_core_of = CHI
 	}

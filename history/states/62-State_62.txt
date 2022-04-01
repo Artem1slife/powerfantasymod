@@ -4,11 +4,17 @@ state={
 	provinces={
 		1278 2020 2193 2221 2802 2882 3474 4411 4830 4879 5049 5640 5789 6256 6284 6299 6316 6324 6332 6354 6372 
 	}
-	manpower=1
+        resources = {
+		steel = 3
+        }
+	manpower=1299110
 	history={
 		owner = TST
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+                        dockyard = 1
+			arms_factory = 2
+                        industrial_complex = 1
 		}
 		add_core_of = TST
 	}
