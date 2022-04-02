@@ -4,11 +4,13 @@ state={
 	provinces={
 		1941 5056 
 	}
-	manpower=1
+	manpower=1321009
 	history={
 		owner = TST
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+                        arms_factory = 1
+                        industrial_complex = 2
 		}
 		add_core_of = TST
 	}

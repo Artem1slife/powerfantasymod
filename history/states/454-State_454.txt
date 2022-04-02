@@ -4,11 +4,12 @@ state={
 	provinces={
 		298 1440 1817 2252 2382 2788 3845 4061 4883 8084 8112 8117 8136 8153 
 	}
-	manpower=1
+	manpower=678932
 	history={
 		owner = FEL
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+                        industrial_complex = 1
 		}
 		add_core_of = FEL
 	}
