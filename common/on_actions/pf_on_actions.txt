@@ -106,7 +106,40 @@ on_actions = {
 			116 = { add_dynamic_modifier = { modifier = nation_navigatuum } }
 			118 = { add_dynamic_modifier = { modifier = nation_navigatuum } }
 			119 = { add_dynamic_modifier = { modifier = nation_navigatuum } }
-			######
+			###bruh###
+			158 = { add_dynamic_modifier = { modifier = nation_kolkhari } }
+			180 = { add_dynamic_modifier = { modifier = nation_apachanian } }
+			195 = { add_dynamic_modifier = { modifier = nation_apachanian } }
+			149 = { add_dynamic_modifier = { modifier = nation_farlorian } }
+			168 = { add_dynamic_modifier = { modifier = nation_scarian } }
+			170 = { add_dynamic_modifier = { modifier = nation_scarian } }
+			169 = { add_dynamic_modifier = { modifier = nation_scarian } }
+			167 = { add_dynamic_modifier = { modifier = nation_scarian } }
+			151 = { add_dynamic_modifier = { modifier = nation_scarian } }
+			173 = { add_dynamic_modifier = { modifier = nation_hohols } }
+			187 = { add_dynamic_modifier = { modifier = nation_hohols } }
+			206 = { add_dynamic_modifier = { modifier = nation_hohols } }
+			###Cursed###
+			498 = { add_dynamic_modifier = { modifier = nation_imperian } }
+			154 = { add_dynamic_modifier = { modifier = nation_imperian } }
+			495 = { add_dynamic_modifier = { modifier = nation_imperian } }
+			496 = { add_dynamic_modifier = { modifier = nation_imperian } }
+			488 = { add_dynamic_modifier = { modifier = nation_imperian } }
+			171 = { add_dynamic_modifier = { modifier = nation_imperian } }
+			492 = { add_dynamic_modifier = { modifier = nation_monneran } }
+			493 = { add_dynamic_modifier = { modifier = nation_monneran } }
+			7 = { add_dynamic_modifier = { modifier = nation_monneran } }
+			494 = { add_dynamic_modifier = { modifier = nation_monneran } }
+			497 = { add_dynamic_modifier = { modifier = nation_onimperian } }
+			12 = { add_dynamic_modifier = { modifier = nation_onimperian } }
+			10 = { add_dynamic_modifier = { modifier = nation_onimperian } }
+			14 = { add_dynamic_modifier = { modifier = nation_onimperian } }
+			13 = { add_dynamic_modifier = { modifier = nation_onimperian } }
+			15 = { add_dynamic_modifier = { modifier = nation_onimperian } }
+			490 = { add_dynamic_modifier = { modifier = nation_darken } }
+			489 = { add_dynamic_modifier = { modifier = nation_darken } }
+			491 = { add_dynamic_modifier = { modifier = nation_darken } }
+			###
 		}
 	}
 }
