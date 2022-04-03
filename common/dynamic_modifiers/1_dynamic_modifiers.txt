@@ -79,3 +79,41 @@ nation_navigatuum = {
 	recruitable_population_factor = -0.25
 }
 ###
+nation_farlorian = {
+	enable = { always = yes }
+	icon = GFX_unkown_nation
+}
+nation_kolkhari = {
+	enable = { always = yes }
+	icon = GFX_unkown_nation
+}
+nation_apachanian = {
+	enable = { always = yes }
+	icon = GFX_unkown_nation
+}
+nation_scarian = {
+	enable = { always = yes }
+	icon = GFX_unkown_nation
+}
+nation_hohols = {
+	enable = { always = yes }
+	icon = GFX_unkown_nation
+}
+###cursed
+nation_monneran = {
+	enable = { always = yes }
+	icon = GFX_unkown_nation
+}
+nation_onimperian = {
+	enable = { always = yes }
+	icon = GFX_unkown_nation
+}
+nation_imperian = {
+	enable = { always = yes }
+	icon = GFX_unkown_nation
+}
+nation_darken = {
+	enable = { always = yes }
+	icon = GFX_unkown_nation
+}
+###
