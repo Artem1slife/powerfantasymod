@@ -14,7 +14,6 @@ ideas = {
 				}
 				is_subject = no
 				is_government_in_exile = no
-				has_idea = { hight_industrialisated }
 			}
 			
 			removal_cost = -1
@@ -58,10 +57,6 @@ ideas = {
 				num_of_factories > 75
 				is_subject = no
 				is_government_in_exile = no
-				OR = {
-					has_idea = { hight_industrialisated }
-					has_idea = { low_industrialisated }
-				}
 			}
 			
 			removal_cost = -1
@@ -103,11 +98,6 @@ ideas = {
 			available = {
 				num_of_factories > 30
 				is_government_in_exile = no
-				OR = {
-					has_idea = { hight_industrialisated }
-					has_idea = { low_industrialisated }
-					has_idea = { not_industrialisated }
-				}
 			}
 			
 			removal_cost = -1
