@@ -1,0 +1,15 @@
+characters = {
+	ZTC_saratov_nazbol = {
+		portraits={
+			civilian={
+				large="gfx/leaders/ZTC/huyurer.dds"
+			}
+		}
+		country_leader={
+			ideology = militcollectivism
+			traits = { militcollectivism_ideolog }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

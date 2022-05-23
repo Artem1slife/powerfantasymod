@@ -6,11 +6,11 @@ state={
 	}
 	manpower=968321
 	history={
-		owner = ZTC
+		owner = GIL
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = ZTC
+		add_core_of = GIL
 	}
 	state_category = rural
 	local_supplies=0.0 

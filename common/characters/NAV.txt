@@ -1,0 +1,15 @@
+characters = {
+	NAV_monarch_of_navigatum = {
+		portraits={
+			civilian={
+				large="gfx/leaders/TST/testo.dds"
+			}
+		}
+		country_leader={
+			ideology = monarchy
+			traits = {  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

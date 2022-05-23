@@ -6,7 +6,7 @@ state={
 	}
 	manpower=1336173
 	history={
-		owner = ZTC
+		owner = TLE
 		victory_points = { 6895 10 }
 		buildings = {
 			infrastructure = 3
@@ -16,7 +16,7 @@ state={
 				naval_base = 6
 			}
 		}
-		add_core_of = ZTC
+		add_core_of = TLE
 	}
 	state_category = city
 	local_supplies=0.0 
