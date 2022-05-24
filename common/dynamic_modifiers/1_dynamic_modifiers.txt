@@ -102,18 +102,18 @@ nation_hohols = {
 ###cursed
 nation_monneran = {
 	enable = { always = yes }
-	icon = GFX_unkown_nation
+	icon = GFX_monneran
 }
 nation_onimperian = {
 	enable = { always = yes }
-	icon = GFX_unkown_nation
+	icon = GFX_onimperian
 }
 nation_imperian = {
 	enable = { always = yes }
-	icon = GFX_unkown_nation
+	icon = GFX_imperian
 }
 nation_darken = {
 	enable = { always = yes }
-	icon = GFX_unkown_nation
+	icon = GFX_darken
 }
 ###

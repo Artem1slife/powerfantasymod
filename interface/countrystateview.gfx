@@ -655,5 +655,21 @@ spriteTypes = {
 		name = "GFX_russians"
 		textureFile = "gfx/interface/state_modifiers/russians.dds"
 	}
+	spriteType = {
+		name = "GFX_imperian"
+		textureFile = "gfx/interface/state_modifiers/imperian.dds"
+	}
+	spriteType = {
+		name = "GFX_onimperian"
+		textureFile = "gfx/interface/state_modifiers/onimperian.dds"
+	}
+	spriteType = {
+		name = "GFX_monneran"
+		textureFile = "gfx/interface/state_modifiers/monneran.dds"
+	}
+	spriteType = {
+		name = "GFX_darken"
+		textureFile = "gfx/interface/state_modifiers/darken.dds"
+	}
 	#####
 }
