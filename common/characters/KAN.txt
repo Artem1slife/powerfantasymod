@@ -1,21 +1,23 @@
 characters = {
-	ROI_roy = {
+	### LEADER ###
+	KAN_leader = {
 		portraits={
 			civilian={
-				large="gfx/leaders/ROI/ROY_picture.dds"
+				large="gfx/leaders/ZTC/huyurer.dds"
 			}
 		}
 		country_leader={
-			ideology=swarm
-			traits = { ROI_reznya }
-			expire="8000.1.1.1"
+			ideology = despotism
+			traits = { Dealbroker Dictator Hedonist }
+			expire="1965.1.1.1"
 			id=-1
+			desc = desc_KAN_leader
 		}
 	}
 	
 	### POLITICAL ADVISORS ###
 	
-	ROI_left_brain = {
+	KAN_Kalei_Vongvilay = {
 		portraits={
 			civilian={
 				large="gfx/leaders/ZTC/huyurer.dds"
@@ -23,21 +25,21 @@ characters = {
 		}
 		advisor = {
 			slot = political_advisor
-			idea_token = ROI_Kalei_Vongvilay
+			idea_token = KAN_Kalei_Vongvilay
 			allowed  = {
-				original_tag  = ROI
+				original_tag  = KAN
 			}
-			name = ROI_Kalei_Vongvilay
+			name = KAN_Kalei_Vongvilay
 			cost = 100
 			removal_cost = 100
 			available  = {
 				has_country_leader  = {
 					ruling_only  = yes 
-					character  = ROI_roy
+					character  = KAN_leader
 				}
 			}
 			traits = {
-				war_industrialist 
+				backroom_backstabber
 			}
 		}
 		country_leader={
@@ -45,11 +47,11 @@ characters = {
 			traits = { Hawk Headstrong }
 			expire="1965.1.1.1"
 			id=-1
-			desc = desc_ROI_leader
+			desc = desc_KAN_leader
 		}
 	}
-	ROI_center_brain={
-		name=ROI_first_lady
+	KAN_first_lady={
+		name=KAN_first_lady
 		portraits={
 			civilian={
 				small="GFX_idea_CHI_soong_mei_ling"
@@ -58,24 +60,23 @@ characters = {
 		gender = female
 		advisor={
 			slot = political_advisor
-			idea_token = ROI_first_lady
+			idea_token = KAN_first_lady
 			available  = {
 				has_country_leader  = {
 					ruling_only  = yes 
-					character  = ROI_roy
+					character  = KAN_leader
 				}
 			}
 			allowed  = {
-				original_tag  = ROI
+				original_tag  = KAN
 			}
 			traits  = {
-				silent_workhorse
-				first_lady
+				first_lady 
 			}
 		}
 	}
-	ROI_right_brain={
-		name=ROI_Anauli_Keomany
+	KAN_Anauli_Keomany={
+		name=KAN_Anauli_Keomany
 		portraits={
 			civilian={
 				small="GFX_idea_CHI_lin_sen"
@@ -83,19 +84,18 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ROI_Anauli_Keomany
+			idea_token = KAN_Anauli_Keomany
 			available  = {
 				has_country_leader  = {
 					ruling_only  = yes 
-					character  = ROI_roy
+					character  = KAN_leader
 				}
 			}
 			allowed  = {
-				original_tag  = ROI
+				original_tag  = KAN
 			}
 			traits  = {
-				
-				ideological_crusader
+				popular_figurehead 
 			}
 		}
 	}

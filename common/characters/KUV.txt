@@ -1,0 +1,75 @@
+characters = {
+	### LEADER ###
+	KUV_leader = {
+		portraits={
+			civilian={
+				large="gfx/leaders/ZTC/huyurer.dds"
+			}
+		}
+		country_leader={
+			ideology = despotism
+			traits = { Dictator Economist }
+			expire="1965.1.1.1"
+			id=-1
+			desc = desc_KUV_leader
+		}
+	}
+	
+	### POLITICAL ADVISORS ###
+	KUV_Lani_Bouphavanh={
+		name=KUV_Lani_Bouphavanh
+		portraits={
+			civilian={
+				small="GFX_idea_KUV_chiang_ching_kuo"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = KUV_Lani_Bouphavanh
+			allowed  = {
+				original_tag  = KUV
+			}
+			traits  = {
+				silent_workhorse 
+			}
+		}
+	}
+
+	KUV_Ulani_Soulignavong={
+		name = KUV_Ulani_Soulignavong
+		portraits = {
+			civilian = {
+				small = "GFX_idea_KUV_h_h_kung"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = KUV_Ulani_Soulignavong
+			allowed  = {
+				original_tag  = KUV
+			}
+			traits  = {
+				captain_of_industry 
+			}
+		}
+	}
+
+	KUV_Songkram_Khotpanya={
+		name=KUV_Songkram_Khotpanya
+		portraits={
+			civilian={
+				small="GFX_idea_KUV_chen_yi"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = KUV_Songkram_Khotpanya
+			allowed  = {
+				original_tag  = KUV
+			}
+			traits  = {
+				compassionate_gentleman 
+			}
+		}
+	}
+}

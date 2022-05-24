@@ -35,3 +35,7 @@ declare_war_on = {
 	target = IPO
 	type = civil_war
 }
+
+recruit_character = ROI_left_brain
+recruit_character = ROI_center_brain
+recruit_character = ROI_right_brain
