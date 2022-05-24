@@ -1,0 +1,18 @@
+characters = {
+	
+	BBC_Tyran = {
+		portraits={
+			civilian={
+				large="gfx/leaders/ROI/ROY_picture.dds"
+			}
+		}
+		country_leader={
+			ideology=beast
+			traits = {  }
+			expire="8000.1.1.1"
+			id=-1
+		}
+	}
+	### POLITICAL ADVISORS ###
+	
+}

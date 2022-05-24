@@ -1,4 +1,4 @@
-capital = 20
+capital = 333
 set_technology = {
 	infantry_weapons = 1
 }
@@ -28,3 +28,4 @@ create_faction = Alliance_for_Good_and_Prosperity
 add_to_faction = KLS
 add_to_faction = KAN
 add_to_faction = KUV
+add_to_faction = KNO

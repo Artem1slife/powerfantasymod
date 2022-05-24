@@ -18,16 +18,16 @@ characters = {
 	ROI_left_brain = {
 		portraits={
 			civilian={
-				large="gfx/leaders/ZTC/huyurer.dds"
+				large="GFX_idea_CHI_soong_mei_ling"
 			}
 		}
 		advisor = {
 			slot = political_advisor
-			idea_token = ROI_Kalei_Vongvilay
+			idea_token = ROI_left_brain
 			allowed  = {
 				original_tag  = ROI
 			}
-			name = ROI_Kalei_Vongvilay
+			name = ROI_left_brain
 			cost = 100
 			removal_cost = 100
 			available  = {
@@ -49,7 +49,7 @@ characters = {
 		}
 	}
 	ROI_center_brain={
-		name=ROI_first_lady
+		name=ROI_center_brain
 		portraits={
 			civilian={
 				small="GFX_idea_CHI_soong_mei_ling"
@@ -58,7 +58,7 @@ characters = {
 		gender = female
 		advisor={
 			slot = political_advisor
-			idea_token = ROI_first_lady
+			idea_token = ROI_center_brain
 			available  = {
 				has_country_leader  = {
 					ruling_only  = yes 
@@ -75,7 +75,7 @@ characters = {
 		}
 	}
 	ROI_right_brain={
-		name=ROI_Anauli_Keomany
+		name=ROI_right_brain
 		portraits={
 			civilian={
 				small="GFX_idea_CHI_lin_sen"
@@ -83,7 +83,7 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ROI_Anauli_Keomany
+			idea_token = ROI_right_brain
 			available  = {
 				has_country_leader  = {
 					ruling_only  = yes 
@@ -91,7 +91,7 @@ characters = {
 				}
 			}
 			allowed  = {
-				original_tag  = ROI
+				original_tag = ROI
 			}
 			traits  = {
 				

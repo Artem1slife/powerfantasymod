@@ -1,0 +1,42 @@
+characters = {
+	### LEADER ###
+	KNO_leader = {
+		portraits={
+			civilian={
+				large="gfx/leaders/ZTC/huyurer.dds"
+			}
+		}
+		country_leader={
+			ideology = despotism
+			traits = { great_war_hero }
+			expire="1965.1.1.1"
+			id=-1
+			desc = desc_KNO_leader
+		}
+	}
+	
+	### POLITICAL ADVISORS ###
+	
+	KNO_Sonxai_Oudomphonh={
+		name=KNO_Sonxai_Oudomphonh
+		portraits={
+			army={
+				small="GFX_idea_takuo_godo"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = KNO_Sonxai_Oudomphonh
+			allowed = {
+				original_tag = KNO
+			}
+			traits = {
+				war_industrialist 
+			}
+			ai_will_do = {
+				factor = 3.000
+			}
+		}
+	}
+	
+}

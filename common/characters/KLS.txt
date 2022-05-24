@@ -1,0 +1,61 @@
+characters = {
+	KLS_Sommai_Chanthanane={
+		name=KLS_Sommai_Chanthanane
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_asia_2"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = KLS_Sommai_Chanthanane
+			allowed = {
+				original_tag = KLS
+			}
+			traits = {
+				silent_workhorse 
+			}
+		}
+	}
+
+	KLS_Malo_Sonexarth={
+		name=KLS_Malo_Sonexarth
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_asia_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = KLS_Malo_Sonexarth
+			allowed = {
+				original_tag = KLS
+			}
+			traits = {
+				prince_of_terror 
+			}
+			ai_will_do = {
+				factor = 0.300
+			}
+		}
+	}
+
+	KLS_Xaisomboun_Phankham={
+		name=KLS_Xaisomboun_Phankham
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_asia_3"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = KLS_Xaisomboun_Phankham
+			allowed = {
+				original_tag = KLS
+			}
+			traits = {
+				compassionate_gentleman 
+			}
+		}		
+	}
+}
