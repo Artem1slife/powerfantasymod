@@ -8,7 +8,23 @@ add_political_power = 150
 set_research_slots = 2
 set_stability = 0.6
 set_war_support = 0.5
-set_oob = "FRA_1936"
+
+add_ideas = {
+	tradition_powerful_center
+	tradition_klick
+	tradition_young_state
+	tradition_military_stratification
+	extensive_conscription
+	free_trade
+	low_economic_mobilisation
+	yes_medicine
+	more_50_poor
+	more_25_educated_sosaiti
+	hight_industrialisated
+	KUV_Lani_Bouphavanh
+	KUV_Ulani_Soulignavong
+	KUV_Songkram_Khotpanya
+}
 
 set_politics = {
 	ruling_party = neutrality

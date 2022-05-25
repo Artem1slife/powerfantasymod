@@ -8,7 +8,23 @@ add_political_power = 150
 set_research_slots = 2
 set_stability = 0.6
 set_war_support = 0.5
-set_oob = "FRA_1936"
+
+add_ideas = {
+	tradition_powerful_center
+	tradition_klick
+	tradition_young_state
+	tradition_military_stratification
+	limited_conscription
+	free_trade
+	partial_economic_mobilisation
+	good_medicine
+	more_75_poor
+	educated_sosaiti
+	hight_industrialisated
+	KLS_Sommai_Chanthanane
+	KLS_Malo_Sonexarth
+	KLS_Xaisomboun_Phankham
+}
 
 set_politics = {
 	ruling_party = neutrality
@@ -23,5 +39,9 @@ set_popularities = {
 	democratic = 30
 	neutrality = 50
 }
+
+recruit_character = KLS_Sommai_Chanthanane
+recruit_character = KLS_Malo_Sonexarth
+recruit_character = KLS_Xaisomboun_Phankham
 
 

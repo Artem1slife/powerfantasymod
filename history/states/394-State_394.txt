@@ -4,14 +4,26 @@ state={
 	provinces={
 		502 632 838 900 1106 2047 2279 2371 2544 2967 3286 3367 4003 4041 4091 4290 4362 4432 4781 5194 5282 5286 5346 7714 7753 7759 7782 7795 7799 7829 7833 7836 7842 7869 7884 7893 7912 7929 
 	}
-	manpower=1
+	manpower=1581333
+	resources = {
+		tungsten = 1
+		aluminium = 1
+		rubber = 4
+		chromium = 5
+		steel = 3
+	}
 	history={
 		owner = KAN
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
 		}
 		add_core_of = KAN
+		add_core_of = GIL
+		add_claim_by = KHA
+		add_claim_by = GIL
 	}
-	state_category = rural
+	state_category = city
 	local_supplies=0.0 
 }
