@@ -862,5 +862,65 @@ ideas = {
 
 			cancel_if_invalid = no
 		}
+		
+		tradition_klick = {
+			available = {
+				political_power_daily > 0
+				always = no
+			}
+			
+			removal_cost = 250
+			cost = 500
+
+			modifier = {
+				
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		
+		tradition_young_state  = {
+			available = {
+				political_power_daily > 0
+				always = no
+			}
+			
+			removal_cost = 250
+			cost = 500
+
+			modifier = {
+				
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		
+		tradition_military_stratification  = {
+			available = {
+				political_power_daily > 0
+				always = no
+			}
+			
+			removal_cost = 250
+			cost = 500
+
+			modifier = {
+				
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
 	}
 }
