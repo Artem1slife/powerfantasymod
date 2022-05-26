@@ -6,23 +6,18 @@ state={
 	}
 	manpower=407676
 	resources = {
-		rubber = 2
-		tungsten = 3
-		steel = 3
-		chromium = 2
+		tungsten = 9
 	}
 	history={
 		owner = KLS
 		victory_points = { 3136 5 }
 		buildings = {
-			infrastructure = 3
-			arms_factory = 4
+			infrastructure = 2
 			industrial_complex = 1
 		}
 		add_core_of = KLS
 		add_core_of = GIL
 		add_claim_by = KHA
-		add_claim_by = GIL
 	}
 	state_category = city
 	local_supplies=0.0 

@@ -5,22 +5,15 @@ state={
 		406 798 1876 1899 2205 2389 2629 2813 3103 3547 3660 4081 4086 4183 4811 5219 8145 8150 
 	}
 	manpower=835103
-	resources = {
-		oil = 5
-		aluminium = 5
-		steel = 1
-	}
 	history={
 		owner = KUV
 		buildings = {
-			infrastructure = 3
-			arms_factory = 2
-			industrial_complex = 3
+			infrastructure = 2
+			industrial_complex = 1
 		}
 		add_core_of = KUV
 		add_core_of = KHA
 		add_claim_by = GIL
-		add_claim_by = KHA
 	}
 	
 	state_category = city
