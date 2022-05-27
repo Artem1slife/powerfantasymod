@@ -1,0 +1,14 @@
+characters = {
+	RAV_fallan_heckmann = {
+		portraits={
+			civilian={
+				large="gfx/leaders/RAV/fallan_heckmann.dds"
+			}
+		}
+		country_leader={
+			ideology = monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

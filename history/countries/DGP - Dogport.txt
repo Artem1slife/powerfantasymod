@@ -15,11 +15,12 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 5
-	communism = 19
+	fascism = 20
+	communism = 5
 	democratic = 65
 	neutrality = 10
-	destruction = 1
 }
 
+recruit_character = DGP_general_senate
+recruit_character = DGP_randal_serrano
 

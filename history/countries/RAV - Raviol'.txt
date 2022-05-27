@@ -1,8 +1,12 @@
-capital = 301
+capital = 329
 
 set_technology = {
 	infantry_weapons = 1
+	gw_artillery = 1
+	basic_train = 1
 }
+
+set_oob = RAV
 
 add_ideas = {
 	tradition_free_harbor
@@ -69,3 +73,4 @@ set_autonomy = {
 	freedom_level = 0
 }
 
+recruit_character = RAV_fallan_heckmann

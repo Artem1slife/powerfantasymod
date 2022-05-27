@@ -1,0 +1,26 @@
+characters = {
+	DGP_general_senate = {
+		portraits={
+			civilian={
+				large="gfx/leaders/RAV/general_senate.dds"
+			}
+		}
+		country_leader={
+			ideology = monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	DGP_randal_serrano = {
+		portraits={
+			civilian={
+				large="gfx/leaders/RAV/randal_serrano.dds"
+			}
+		}
+		country_leader={
+			ideology = neorespublican
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

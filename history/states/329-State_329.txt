@@ -4,14 +4,21 @@ state={
 	provinces={
 		467 1400 2554 2681 3351 3895 4234 4567 4805 5199 5275 7238 7403 
 	}
-	manpower=1
+	manpower=3555623
 	history={
 		owner = RAV
+		victory_points = { 5199 30 }
 		buildings = {
 			infrastructure = 2
+			dockyard = 1
+			industrial_complex = 3
+			arms_factory = 1
+			5199 = {
+				naval_base = 5
+			}
 		}
 		add_core_of = RAV
 	}
-	state_category = rural
+	state_category = large_city 
 	local_supplies=0.0 
 }

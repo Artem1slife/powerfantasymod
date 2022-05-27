@@ -1,0 +1,14 @@
+characters = {
+	DMT_general_senate = {
+		portraits={
+			civilian={
+				large="gfx/leaders/RAV/general_senate.dds"
+			}
+		}
+		country_leader={
+			ideology = monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

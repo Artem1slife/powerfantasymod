@@ -7,14 +7,14 @@ state={
 	manpower=4234184
 	history={
 		owner = IST
-		victory_points = { 6821 5 }
+		victory_points = { 5747 3 }
+		victory_points = { 5148 10 }
 		buildings = {
 			infrastructure = 2
-			arms_factory = 2
-			industrial_complex = 5
+			industrial_complex = 2
 		}
 		add_core_of = IST
 	}
-	state_category = city
+	state_category = town 
 	local_supplies=0.0 
 }

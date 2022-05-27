@@ -22,4 +22,5 @@ set_popularities = {
 	destruction = 1
 }
 
+recruit_character = ASP_general_senate
 

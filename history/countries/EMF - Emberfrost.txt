@@ -22,4 +22,5 @@ set_popularities = {
 	destruction = 1
 }
 
+recruit_character = EMF_general_senate
 
