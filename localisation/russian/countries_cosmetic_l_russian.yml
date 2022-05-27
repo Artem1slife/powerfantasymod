@@ -1,0 +1,18 @@
+﻿l_russian:
+ INS_HOL_democratic:0 "Голландская Ост-Индия"
+ INS_HOL_democratic_DEF:0 "Голландская Ост-Индия"
+ INS_subject:0 "$OVERLORDADJ$ Ост-Индия"
+ INS_subject_DEF:0 "$OVERLORDADJ$ Ост-Индия"
+ 
+ EMF_RAV_democratic_autonomy_autonomous_province:0 "А.П. Эмберфрост"
+ EMF_RAV_democratic_autonomy_autonomous_province_DEF:0 "Автономная Провинция Эмберфрост"
+ IST_RAV_democratic_autonomy_autonomous_province:0 "А.П. Айронсаммит"
+ IST_RAV_democratic_autonomy_autonomous_province_DEF:0 "Автономная Провинция Айронсаммит"
+ DKC_RAV_democratic_autonomy_autonomous_province:0 "А.П. Даcккрест"
+ DKC_RAV_democratic_autonomy_autonomous_province_DEF:0 "Автономная Провинция Даcккрест"
+ DMT_RAV_democratic_autonomy_autonomous_province:0 "А.П. Дьюмаунт"
+ DMT_RAV_democratic_autonomy_autonomous_province_DEF:0 "Автономная Провинция Дьюмаунт"
+ ASP_RAV_democratic_autonomy_autonomous_province:0 "А.П. Эрроуспелл"
+ ASP_RAV_democratic_autonomy_autonomous_province_DEF:0 "Автономная Провинция Эрроуспелл"
+ DGP_RAV_democratic_autonomy_autonomous_province:0 "А.П. Догпорт"
+ DGP_RAV_democratic_autonomy_autonomous_province_DEF:0 "Автономная Провинция Догпорт"

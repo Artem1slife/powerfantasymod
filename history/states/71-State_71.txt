@@ -7,7 +7,6 @@ state={
 	manpower=1
 	history={
 		owner = NIF
-                victory_points = { 8339 15 }
 		buildings = {
 			infrastructure = 2
 		}

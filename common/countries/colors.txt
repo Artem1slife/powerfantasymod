@@ -109,28 +109,28 @@ SAB = {
 	color_ui = rgb { 139 20 20}
 }
 DGP = {
-	color = rgb { 145 237 255}
-	color_ui = rgb { 139 20 20}
+	color = rgb { 60 60 160}
+	color_ui = rgb { 60 60 160}
 }
 DMT = {
-	color = rgb { 145 237 255}
-	color_ui = rgb { 139 20 20}
+	color = rgb { 60 60 160}
+	color_ui = rgb { 60 60 160}
 }
 IST = {
-	color = rgb { 145 237 255}
-	color_ui = rgb { 139 20 20}
+	color = rgb { 60 60 160}
+	color_ui = rgb { 60 60 160}
 }
 EMF = {
-	color = rgb { 145 237 255}
-	color_ui = rgb { 139 20 20}
+	color = rgb { 60 60 160}
+	color_ui = rgb { 60 60 160}
 }
 ASP = {
-	color = rgb { 145 237 255}
-	color_ui = rgb { 139 20 20}
+	color = rgb { 60 60 160}
+	color_ui = rgb { 60 60 160}
 }
 DKC = {
-	color = rgb { 145 237 255}
-	color_ui = rgb { 139 20 20}
+	color = rgb { 60 60 160}
+	color_ui = rgb { 60 60 160}
 }
 BRZ = {
 	color = rgb { 145 237 255}
@@ -193,8 +193,8 @@ EGO = {
 	color_ui = rgb { 139 20 20}
 }
 RAV = {
-	color = rgb { 217 207 88}
-	color_ui = rgb { 139 20 20}
+	color = rgb { 60 60 160}
+	color_ui = rgb { 60 60 160}
 }
 HAR = {
 	color = rgb { 139 125 255}
@@ -261,12 +261,12 @@ GTU = {
 	color_ui = rgb { 160 60 60}
 }
 KAN = {
-	color = rgb { 60 130 60}
-	color_ui = rgb { 60 130 60}
+	color = rgb { 30 100 30}
+	color_ui = rgb { 30 100 30}
 }
 KUV = {
-	color = rgb { 60 130 60}
-	color_ui = rgb { 60 130 60}
+	color = rgb { 30 100 30}
+	color_ui = rgb { 30 100 30}
 }
 KLS = {
 	color = rgb { 30 100 30}
@@ -379,4 +379,28 @@ ITR = {
 FEL = {
 	color = rgb { 200 100 100}
 	color_ui = rgb { 200 100 100}
+}
+JDR = {
+	color = rgb { 60 150 60}
+	color_ui = rgb { 60 150 60}
+}
+KTR = {
+	color = rgb { 160 60 60}
+	color_ui = rgb { 160 60 60}
+}
+DRE = {
+	color = rgb { 200 150 0}
+	color_ui = rgb { 200 150 0}
+}
+JTR = {
+	color = rgb { 0 150 50}
+	color_ui = rgb { 0 150 50}
+}
+IEL = {
+	color = rgb { 50 150 50}
+	color_ui = rgb { 50 150 50}
+}
+ZMK = {
+	color = rgb { 100 150 50}
+	color_ui = rgb { 100 150 50}
 }

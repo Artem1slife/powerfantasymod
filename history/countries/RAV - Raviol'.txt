@@ -23,13 +23,11 @@ set_politics = {
 }
 
 set_popularities = {
-	fascism = 5
-	communism = 5
+	fascism = 0
+	communism = 15
 	democratic = 75
-	neutrality = 5
-	 liberal democratic = 5
-	conservative democratic = 5
-	corporatism = 0
+	neutrality = 10
+	destruction = 0
 }
 
 create_faction = Union_pact
@@ -40,4 +38,34 @@ add_to_faction = DKC
 add_to_faction = DMT
 add_to_faction = DGP
 
+set_autonomy = {
+	target = IST
+	autonomous_state = autonomy_autonomous_province
+	freedom_level = 0
+}
+set_autonomy = {
+	target = EMF
+	autonomous_state = autonomy_autonomous_province
+	freedom_level = 0
+}
+set_autonomy = {
+	target = ASP
+	autonomous_state = autonomy_autonomous_province
+	freedom_level = 0
+}
+set_autonomy = {
+	target = DKC
+	autonomous_state = autonomy_autonomous_province
+	freedom_level = 0
+}
+set_autonomy = {
+	target = DMT
+	autonomous_state = autonomy_autonomous_province
+	freedom_level = 0
+}
+set_autonomy = {
+	target = DGP
+	autonomous_state = autonomy_autonomous_province
+	freedom_level = 0
+}
 
