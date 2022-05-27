@@ -24,3 +24,4 @@ set_popularities = {
 
 recruit_character = EMF_general_senate
 
+add_ideas = { UP_democratic UP_separatism UP_agrarian_province }

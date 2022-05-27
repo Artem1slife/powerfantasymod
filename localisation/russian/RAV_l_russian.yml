@@ -47,6 +47,9 @@
  DGP_general_senate:0 "Генеральный Сенат"
  DGP_randal_serrano:0 "Рандал Серрано"
  
+ graf_serrano:0 "Граф"
+ probably_puppet:0 "Марионетка?"
+ 
  RAV_democratic_party:0 "Сенат"
  RAV_democratic_party_long:0 "Сенат"
  IST_democratic_party:0 "Сенат"
@@ -72,3 +75,10 @@
  ASP_fascism_party:0 "Сепаратистское Движение"
  DGP_fascism_party:0 "Сепаратистское Движение"
  
+ UP_agrarian_province:0 "Аграрная провинция"
+ UP_corruption:0 "Всепоглощающая коррупция"
+ UP_death_of_bur:0 "Смерть бюрократического аппарата"
+ UP_center_is_far:0 "Центр далеко"
+ UP_center_is_far_desc:0 "Единственное, что спасает эту провинцию от уничтожающей руки Центра - её удалённость."
+ UP_democratic:0 "Дух демократии"
+ UP_separatism:0 "Сепаратистские настроения"

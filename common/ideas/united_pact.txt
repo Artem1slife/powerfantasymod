@@ -1,0 +1,85 @@
+ideas = {
+	country = {
+		UP_agrarian_province = {
+			picture = generic_agrarian_society
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				max_surrender_limit_offset = -0.1
+				industrial_capacity_factory = -0.15
+				industrial_capacity_dockyard = -0.15
+				special_forces_min = 50
+			}
+		}
+		UP_corruption = {
+			picture = ROM_king_carol_ii_hedonist
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				research_speed_factor = -0.25
+				local_resources_factor = -0.15
+				stability_factor = -0.25
+				war_support_factor = -0.25
+				democratic_drift = -0.05
+			}
+		}
+		UP_death_of_bur = {
+			picture = SOV_organize_wreckers
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				disabled_ideas = 1
+				political_power_cost = 0.25
+			}
+		}
+		UP_center_is_far = {
+			picture = generic_agrarian_reform
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.05
+				democratic_drift = -0.05
+			}
+		}
+		UP_democratic = {
+			picture = generic_victors_of_ww1
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = 0.1
+				fascism_drift = -0.05
+				destruction_drift = -0.05
+				neutrality_drift = -0.05
+			}
+		}
+		UP_separatism = {
+			picture = generic_purge
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = 0.1
+				fascism_drift = 0.05
+				neutrality_drift = 0.05
+			}
+		}
+	}
+}

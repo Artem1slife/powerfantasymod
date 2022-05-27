@@ -24,3 +24,4 @@ set_popularities = {
 
 recruit_character = ASP_general_senate
 
+add_ideas = { UP_democratic UP_separatism UP_center_is_far }

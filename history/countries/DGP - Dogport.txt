@@ -24,3 +24,4 @@ set_popularities = {
 recruit_character = DGP_general_senate
 recruit_character = DGP_randal_serrano
 
+add_ideas = { UP_democratic UP_separatism UP_center_is_far }

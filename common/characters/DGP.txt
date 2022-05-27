@@ -16,11 +16,36 @@ characters = {
 			civilian={
 				large="gfx/leaders/RAV/randal_serrano.dds"
 			}
+			army = {
+				small = "GFX_idea_GER_hilter_f"
+			}
 		}
 		country_leader={
 			ideology = neorespublican
+			traits = { popular_figurehead probably_puppet }
 			expire="1965.1.1.1"
 			id=-1
+		}
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = DGP
+			}
+			traits = {
+				graf_serrano
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		field_marshal = {
+			traits = { career_officer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}
 }
