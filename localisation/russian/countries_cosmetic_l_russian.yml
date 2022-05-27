@@ -12,6 +12,8 @@
  APO_IPO_subject_DEF:0 "Даркенский Моват"
  APO_IPO_subject_ADJ:0 "Меннёрск."
  
+ RAV_subject:0 "Равиоль"
+ RAV_subject_DEF:0 "Равиоль"
  EMF_RAV_democratic_autonomy_autonomous_province:0 "А.П. Эмберфрост"
  EMF_RAV_democratic_autonomy_autonomous_province_DEF:0 "Автономная Провинция Эмберфрост"
  IST_RAV_democratic_autonomy_autonomous_province:0 "А.П. Айронсаммит"

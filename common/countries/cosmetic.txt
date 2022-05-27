@@ -1,0 +1,8 @@
+RAV_confederate = {
+	color = rgb { 150 150 150  }
+	color_ui = rgb { 150 150 150 }
+}
+RAV_centralized = {
+	color = rgb { 50 50 150  }
+	color_ui = rgb { 50 50 150 }
+}
