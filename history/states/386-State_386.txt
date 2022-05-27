@@ -4,14 +4,19 @@ state={
 	provinces={
 		585 697 1399 1690 1764 2313 2368 2432 2519 2866 3780 4687 5024 5713 7739 7774 7810 7821 7879 
 	}
-	manpower=1
+	manpower=430417
+	resources={
+		aluminium=8
+	}
 	history={
-		owner = TST
+		owner = FSE
 		buildings = {
 			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
 		}
-		add_core_of = TST
+		add_core_of = FSE
 	}
-	state_category = rural
+	state_category = town
 	local_supplies=0.0 
 }

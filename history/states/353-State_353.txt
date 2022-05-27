@@ -4,13 +4,19 @@ state={
 	provinces={
 		479 639 1930 3139 3155 3578 3912 3937 4005 5112 7556 7595 7636 7646 7705 7766 
 	}
-	manpower=1
+	manpower=422003
+	resources={
+		chromium=4
+		steel=6
+	}
 	history={
-		owner = TST
+		owner = CKB
+		victory_points = { 4005 5 }
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
+			arms_factory = 2
 		}
-		add_core_of = TST
+		add_core_of = CKB
 	}
 	state_category = rural
 	local_supplies=0.0 

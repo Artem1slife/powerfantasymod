@@ -4,13 +4,17 @@ state={
 	provinces={
 		285 475 1385 1695 1895 2003 2983 3419 3435 3505 3534 4404 7969 8047 8052 8075 
 	}
-	manpower=1
+	manpower=135489
+	resources={
+		tungsten=8
+	}
 	history={
-		owner = TST
+		owner = FSE
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
+			industrial_complex = 1
 		}
-		add_core_of = TST
+		add_core_of = FSE
 	}
 	state_category = rural
 	local_supplies=0.0 
