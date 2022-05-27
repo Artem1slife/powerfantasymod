@@ -404,3 +404,27 @@ ZMK = {
 	color = rgb { 100 150 50}
 	color_ui = rgb { 100 150 50}
 }
+VIA = {
+	color = rgb {102  102  152}
+	color_ui = rgb { 139 20 20 }
+}
+TOS = {
+	color = rgb {102  102  152}
+	color_ui = rgb { 139 20 20 }
+}
+CKB = {
+	color = rgb {102  102  152}
+	color_ui = rgb { 139 20 20 }
+}
+AMZ = {
+	color = rgb {102  102  127}
+	color_ui = rgb { 139 20 20 }
+}
+AGA = {
+	color = rgb {102  102  152}
+	color_ui = rgb { 139 20 20 }
+}
+FSE = {
+	color = rgb {152  102  152}
+	color_ui = rgb { 139 20 20 }
+}
