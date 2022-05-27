@@ -4,6 +4,14 @@
  INS_subject:0 "$OVERLORDADJ$ Ост-Индия"
  INS_subject_DEF:0 "$OVERLORDADJ$ Ост-Индия"
  
+ ROI_IPO_subject:0 "Мённерский Моват"
+ ROI_IPO_subject_DEF:0 "Мённерский Моват"
+ ROI_IPO_subject_ADJ:0 "Меннёрск."
+ 
+ APO_IPO_subject:0 "Даркенский Моват"
+ APO_IPO_subject_DEF:0 "Даркенский Моват"
+ APO_IPO_subject_ADJ:0 "Меннёрск."
+ 
  EMF_RAV_democratic_autonomy_autonomous_province:0 "А.П. Эмберфрост"
  EMF_RAV_democratic_autonomy_autonomous_province_DEF:0 "Автономная Провинция Эмберфрост"
  IST_RAV_democratic_autonomy_autonomous_province:0 "А.П. Айронсаммит"
