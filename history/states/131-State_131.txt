@@ -4,11 +4,17 @@ state={
 	provinces={
 		38 131 323 333 482 495 683 726 837 1020 1238 1412 3481 3587 3657 4733 5941 
 	}
-	manpower=1
+	manpower=124748
+	resources={
+		oil=6
+		steel=1
+	}
 	history={
 		owner = EGO
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
 		}
 		add_core_of = EGO
 	}

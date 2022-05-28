@@ -4,15 +4,22 @@ state={
 	provinces={
 		270 2492 3949 
 	}
+	manpower=108136
+	resources={
+		tungsten=5
+		steel=2
+	}
 	history={
 		owner = EGO
 		victory_points = { 270 1 }
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 2
 		}
 		add_core_of = EGO
 	}
-	manpower=1
-	state_category = rural
+	
+	state_category = town
 	local_supplies=0.0 
 }

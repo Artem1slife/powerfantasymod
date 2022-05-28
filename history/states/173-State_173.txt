@@ -4,14 +4,19 @@ state={
 	provinces={
 		103 499 1210 1600 1787 1801 2037 2173 2295 2342 2394 2481 2619 2780 3240 3325 3853 3974 4054 4413 4710 4744 4892 5174 5299 5452 6084 6121 6131 6148 6159 6169 6178 6197 6205 
 	}
-	manpower=1
+	manpower=611451
+	resources={
+		chromium=8
+	}
 	history={
 		owner = HIG
 		buildings = {
 			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
 		}
 		add_core_of = HIG
 	}
-	state_category = rural
+	state_category = town
 	local_supplies=0.0 
 }
