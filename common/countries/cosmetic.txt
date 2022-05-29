@@ -6,3 +6,7 @@ RAV_centralized = {
 	color = rgb { 50 50 150  }
 	color_ui = rgb { 50 50 150 }
 }
+RAV_empire = {
+	color = rgb { 100 20 20  }
+	color_ui = rgb { 100 20 20 }
+}

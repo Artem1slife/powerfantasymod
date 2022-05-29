@@ -9,7 +9,7 @@ country_event = {
 	picture = GFX_report_event_generic_conference
 	is_triggered_only = yes
 	option = {
-		name = up.a
+		name = up.1.a
 		ai_chance = { factor = 90 }
 		add_political_power = -5
 	}
@@ -17,13 +17,13 @@ country_event = {
 country_event = {
 	id = up.2
 	title = up.2.t
-	desc = up.d
+	desc = up.2.d
 	picture = GFX_report_event_generic_conference
 	is_triggered_only = yes
 	option = {
 		name = up.2.a
 		ai_chance = { factor = 90 }
-		RAV = { remove_ideas = UP_death_of_bur country_event = { id = up.1 hours = 24 } }
+		RAV = { remove_ideas = UP_death_of_bur country_event = { id = up.1 hours = 24 } end_puppet = DGP }
 		leave_faction = yes
 		create_faction = DGP_new_pact
 		set_cosmetic_tag = RAV_confederate
@@ -54,5 +54,21 @@ country_event = {
 		DGP = { annex_country = { target = ASP transfer_troops = yes } }
 		DGP = { annex_country = { target = DKC transfer_troops = yes } }
 		DGP = { annex_country = { target = DMT transfer_troops = yes } }
+	}
+}
+country_event = {
+	id = up.3
+	title = up.3.t
+	desc = up.3.d
+	picture = GFX_report_event_fascist_gathering
+	is_triggered_only = yes
+	option = {
+		name = up.3.a
+		ai_chance = { factor = 90 }
+		set_cosmetic_tag = RAV_empire
+		add_political_power = -200
+		add_popularity = { ideology = destruction popularity = 0.5 }
+		set_politics = { ruling_party = destruction elections_allowed = no }
+		remove_ideas = { UP_democratic }
 	}
 }
