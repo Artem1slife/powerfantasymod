@@ -4,13 +4,16 @@ ideologies = {
 	
 		types = {
 		
-			religion_of_light = {
+			teocratic = {
+			}
+			
+			ab_monarchy = {
 			}
 			
 			monarchy = {
 			}
 			
-			ancestral_pantheon = {
+			sub_democratic = {
 			}
 			
 			conservatism = {
@@ -70,9 +73,6 @@ ideologies = {
 	communism = {
 		
 		types = {
-		
-			collectivism = {
-			}
 			
 			avangardian_collectivism = {
 			}
@@ -143,14 +143,36 @@ ideologies = {
 	
 		types = {
 		
-			dark_elves = {
+			just_dark = {
+			}
+			lich = {
 				can_be_randomly_selected = no
 			}
-			illegalists = {
+			pharaoh = {
+				can_be_randomly_selected = no
 			}
-			neorespublican = {
+			total_state = {
 			}
-			militcollectivism = {
+			sect = {
+			}
+			
+			nazism = {
+				can_be_randomly_selected = no
+			}
+
+			gen_nazism = {
+				can_be_randomly_selected = no
+			}
+			
+			fascism_ideology = {
+				can_be_randomly_selected = no
+			}
+			
+			falangism = {
+				can_be_randomly_selected = no
+			}
+			
+			rexism = {
 				can_be_randomly_selected = no
 			}
 			
@@ -196,8 +218,6 @@ ideologies = {
 		
 			swarm = {
 				can_be_randomly_selected = no
-			}
-			balance = {
 			}
 			spark_cult = {
 			}
@@ -249,13 +269,30 @@ ideologies = {
 	neutrality = {
 	
 		types = {
-		
-			religion_of_moon = {
+			
+			lunar_theocracy = {
+				can_be_randomly_selected = no
 			}
 			
-			new_pantheon = {
+			authoritarianism = {
 			}
-		
+			
+			gray_democracy = {
+			}
+			
+			order = {
+				can_be_randomly_selected = no
+			}
+			
+			balance = {
+			}
+			
+			conspiracy = {
+			}
+			
+			collectivist_reformism = {
+			}
+			
 			despotism  = {
 				can_be_randomly_selected = no
 			}
