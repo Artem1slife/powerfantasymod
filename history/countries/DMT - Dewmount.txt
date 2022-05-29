@@ -7,7 +7,7 @@ add_political_power = 150
 set_research_slots = 3
 set_stability = 0.6
 set_war_support = 0.5
-set_oob = "FRA_OBB"
+set_oob = "RAV_AP"
 set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"
@@ -24,4 +24,4 @@ set_popularities = {
 
 recruit_character = DMT_general_senate
 
-add_ideas = { UP_democratic UP_separatism UP_center_is_far UP_agrarian_province }
+add_ideas = { UP_democratic UP_separatism UP_center_is_far UP_agrarian_province UP_influence_low }

@@ -23,7 +23,7 @@
  DGP_DEF:0 "Догпорт"
  DGP_ADJ:0 "Равиольск."
  
- RAV_confederate:0 "Конфедерация Союзных Провинций"
+ RAV_confederate:0 "Конфедерация Провинций"
  RAV_confederate_DEF:0 "Конфедерация Союзных Провинций"
  RAV_confederate_ADJ:0 "Конфедератск."
  
@@ -82,3 +82,33 @@
  UP_center_is_far_desc:0 "Единственное, что спасает эту провинцию от уничтожающей руки Центра - её удалённость."
  UP_democratic:0 "Дух демократии"
  UP_separatism:0 "Сепаратистские настроения"
+ UP_confederation:0 "Да здравствует Конфедерация!"
+ UP_influence_low:0 "Низкое влияние Центра"
+ UP_influence_medium:0 "Среднее влияние Центра"
+ UP_influence_hight:0 "Высокое влияние Центра"
+ UP_influence_stabilized:0 "Влияние Центра стабильно"
+ 
+ RAV_centralization:0 "Союзный Пакт" #[IST.GetAdjective]
+ RAV_IST:0 "Подавление сепаратизма в [IST.GetNameDef]"
+ RAV_EMF:0 "Подавление сепаратизма в [EMF.GetNameDef]"
+ RAV_ASP:0 "Подавление сепаратизма в [ASP.GetNameDef]"
+ RAV_DKC:0 "Подавление сепаратизма в [DKC.GetNameDef]"
+ RAV_DMT:0 "Подавление сепаратизма в [DMT.GetNameDef]"
+ RAV_DGP:0 "Подавление сепаратизма в [DGP.GetNameDef]"
+ RAV_IST_separatists_turn:0 "Ход сепаратистов в [IST.GetNameDef]"
+ RAV_EMF_separatists_turn:0 "Ход сепаратистов в [EMF.GetNameDef]"
+ RAV_ASP_separatists_turn:0 "Ход сепаратистов в [ASP.GetNameDef]"
+ RAV_DKC_separatists_turn:0 "Ход сепаратистов в [DKC.GetNameDef]"
+ RAV_DMT_separatists_turn:0 "Ход сепаратистов в [DMT.GetNameDef]"
+ RAV_DGP_separatists_turn:0 "Ход сепаратистов в [DGP.GetNameDef]"
+ RAV_separatist_crisis:0 "Сепаратистский Кризис"
+ 
+ up.1.t:0 "[FROM.GetName] покидает Союзный Пакт"
+ up.1.d:0 "Государство [FROM.GetName] заявило о бессмысленности существования Союзного Пакта и своей необходимости покинуть его. Пока неизвестна дальнейшая линия действий государства [FROM.GetName], но, очевидно, раскол Пакта не пройдёт для нас бесследно."
+ up.1.a:0 "Мы им покажем!"
+ 
+ up.2.t:0 "Новый порядок"
+ up.2.d:0 "После провала Равиольской политики централизации Союзного Пакта, мы окончательно поняли, что необходимы перемены. В связи с этим, было объявлено о создании Конфедерации Независимых Провинций. Новое государство будет централизовано и слажено, теперь мы не потерпим разгула коррупции и бандитизма!"
+ up.2.a:0 "Слава Конфедерации!"
+ 
+ DGP_new_pact:0 "Новый Порядок"

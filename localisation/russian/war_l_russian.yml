@@ -9,5 +9,6 @@
  WAR_TAKE_CLAIM_NAME:0 "$ORDER$$FIRST$ нападение с целью захвата региона $STATE$"
  WAR_NAME_ITA_ETH:0 "Война Италии против Эфиопии"
  WAR_NAME_RAV_DGP:0 "Великий Сепаратистский Кризис"
+ WAR_NAME_DGP_RAV:0 "Великий Сепаратистский Кризис"
  INDEPENDENCE_WAR_NAME:0 "$ORDER$$FIRST$ Война за независимость"
  create_puppet_wargoal_usa:0 "Цель войны §HМарионетка (фокус)§! получена державой §Y[ROOT.GetNameDef]§!"

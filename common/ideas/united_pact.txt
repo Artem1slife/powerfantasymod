@@ -65,6 +65,7 @@ ideas = {
 				fascism_drift = -0.05
 				destruction_drift = -0.05
 				neutrality_drift = -0.05
+				communism_drift = -0.05
 			}
 		}
 		UP_separatism = {
@@ -79,6 +80,79 @@ ideas = {
 				war_support_factor = 0.1
 				fascism_drift = 0.05
 				neutrality_drift = 0.05
+			}
+		}
+		UP_influence_low = {
+			picture = generic_neutrality_drift_bonus
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = -0.15
+				war_support_factor = 0.15
+				#democratic_drift = 0.05
+			}
+		}
+		UP_influence_medium = {
+			picture = generic_neutrality_drift_bonus
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = 0.05
+				democratic_drift = 0.05
+			}
+		}
+		UP_influence_hight = {
+			picture = generic_neutrality_drift_bonus
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.15
+				war_support_factor = -0.15
+				democratic_drift = 0.1
+			}
+		}
+		UP_influence_stabilized = {
+			picture = generic_neutrality_drift_bonus
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.2
+				war_support_factor = -0.2
+				democratic_drift = 0.1
+			}
+		}
+		UP_confederation = {
+			picture = generic_license_production
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = 0.2
+				army_leader_start_level = 1
+				military_leader_cost_factor = -0.5
+				special_forces_min = 250
+				political_power_gain = 0.5
+				conscription = 0.05
+			}
+			targeted_modifier = {
+				tag = RAV
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.15
 			}
 		}
 	}

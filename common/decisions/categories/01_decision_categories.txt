@@ -6,3 +6,9 @@ TST_black_market = {
 		}
 	}
 }
+RAV_centralization = {
+	icon = GRE_faction_management
+	visible = {
+		tag = RAV
+	}
+}

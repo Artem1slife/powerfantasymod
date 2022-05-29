@@ -1,0 +1,881 @@
+RAV_centralization = {
+	RAV_IST = {
+		available = {
+			country_exists = IST
+			IST = {
+				NOT = {
+					has_idea = UP_influence_stabilized
+				}
+				is_puppet_of = RAV
+			}
+		}
+		days_re_enable = 1
+		days_remove = 14
+		cost = 50
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = {
+			#PIR = { country_event = { id = black_market.1 hours = 6 } }
+			IST = {
+				if = {
+					limit = {
+						has_idea = UP_influence_hight
+					}
+					swap_ideas = {
+						remove_idea = UP_influence_hight
+						add_idea = UP_influence_stabilized
+					}
+					remove_ideas = UP_separatism
+				}
+			}
+			IST = {
+				if = {
+					limit = {
+						has_idea = UP_influence_medium
+					}
+					swap_ideas = {
+						remove_idea = UP_influence_medium
+						add_idea = UP_influence_hight
+					}
+				}
+			}
+			IST = {
+				if = {
+					limit = {
+						has_idea = UP_influence_low
+					}
+					swap_ideas = {
+						remove_idea = UP_influence_low
+						add_idea = UP_influence_medium
+					}
+				}
+			}
+		}
+	}
+    RAV_IST_separatists_turn = {
+        allowed = {
+			IST = {
+				OR = {
+					has_idea = UP_influence_low
+					has_idea = UP_influence_medium
+					has_idea = UP_influence_hight
+				}
+			}
+		}
+        available = {
+			IST = {
+				has_idea = UP_influence_stabilized
+			}
+        }
+        activation = {
+			IST = {
+				OR = {
+					has_idea = UP_influence_low
+					has_idea = UP_influence_medium
+					has_idea = UP_influence_hight
+				}
+				is_puppet_of = RAV
+			}
+        }
+        is_good = no
+        #selectable_mission = yes
+        days_mission_timeout = 100
+        timeout_effect = {
+			IST = {
+				if = {
+					limit = {
+						has_idea = UP_influence_medium
+					}
+					swap_ideas = {
+						remove_idea = UP_influence_medium
+						add_idea = UP_influence_low
+					}
+				}
+			}
+			IST = {
+				if = {
+					limit = {
+						has_idea = UP_influence_hight
+					}
+					swap_ideas = {
+						remove_idea = UP_influence_hight
+						add_idea = UP_influence_medium
+					}
+				}
+			}
+        }
+        complete_effect = {
+			#add_political_power = 50
+        }
+    }
+	
+	RAV_EMF = {
+		available = {
+			country_exists = EMF
+			EMF = {
+				NOT = {
+					has_idea = UP_influence_stabilized
+				}
+				is_puppet_of = RAV
+			}
+		}
+		days_re_enable = 1
+		days_remove = 14
+		cost = 50
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = {
+			#PIR = { country_event = { id = black_market.1 hours = 6 } }
+			EMF = {
+				if = {
+					limit = {
+						has_idea = UP_influence_hight
+					}
+					swap_ideas = {
+						remove_idea = UP_influence_hight
+						add_idea = UP_influence_stabilized
+					}
+					remove_ideas = UP_separatism
+				}
+			}
+			EMF = {
+				if = {
+					limit = {
+						has_idea = UP_influence_medium
+					}
+					swap_ideas = {
+						remove_idea = UP_influence_medium
+						add_idea = UP_influence_hight
+					}
+				}
+			}
+			EMF = {
+				if = {
+					limit = {
+						has_idea = UP_influence_low
+					}
+					swap_ideas = {
+						remove_idea = UP_influence_low
+						add_idea = UP_influence_medium
+					}
+				}
+			}
+		}
+	}
+    RAV_EMF_separatists_turn = {
+        allowed = {
+			EMF = {
+				OR = {
+					has_idea = UP_influence_low
+					has_idea = UP_influence_medium
+					has_idea = UP_influence_hight
+				}
+			}
+		}
+        available = {
+			EMF = {
+				has_idea = UP_influence_stabilized
+			}
+        }
+        activation = {
+			EMF = {
+				OR = {
+					has_idea = UP_influence_low
+					has_idea = UP_influence_medium
+					has_idea = UP_influence_hight
+				}
+				is_puppet_of = RAV
+			}
+        }
+        is_good = no
+        #selectable_mission = yes
+        days_mission_timeout = 100
+        timeout_effect = {
+			EMF = {
+				if = {
+					limit = {
+						has_idea = UP_influence_medium
+					}
+					swap_ideas = {
+						remove_idea = UP_influence_medium
+						add_idea = UP_influence_low
+					}
+				}
+			}
+			EMF = {
+				if = {
+					limit = {
+						has_idea = UP_influence_hight
+					}
+					swap_ideas = {
+						remove_idea = UP_influence_hight
+						add_idea = UP_influence_medium
+					}
+				}
+			}
+        }
+        complete_effect = {
+			#add_political_power = 50
+        }
+    }
+	
+	RAV_ASP = {
+		available = {
+			country_exists = ASP
+			ASP = {
+				NOT = {
+					has_idea = UP_influence_stabilized
+				}
+				is_puppet_of = RAV
+			}
+		}
+		days_re_enable = 1
+		days_remove = 14
+		cost = 50
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = {
+			#PIR = { country_event = { id = black_market.1 hours = 6 } }
+			ASP = {
+				if = {
+					limit = {
+						has_idea = UP_influence_hight
+					}
+					swap_ideas = {
+						remove_idea = UP_influence_hight
+						add_idea = UP_influence_stabilized
+					}
+					remove_ideas = UP_separatism
+				}
+			}
+			ASP = {
+				if = {
+					limit = {
+						has_idea = UP_influence_medium
+					}
+					swap_ideas = {
+						remove_idea = UP_influence_medium
+						add_idea = UP_influence_hight
+					}
+				}
+			}
+			ASP = {
+				if = {
+					limit = {
+						has_idea = UP_influence_low
+					}
+					swap_ideas = {
+						remove_idea = UP_influence_low
+						add_idea = UP_influence_medium
+					}
+				}
+			}
+		}
+	}
+    RAV_ASP_separatists_turn = {
+        allowed = {
+			ASP = {
+				OR = {
+					has_idea = UP_influence_low
+					has_idea = UP_influence_medium
+					has_idea = UP_influence_hight
+				}
+			}
+		}
+        available = {
+			ASP = {
+				has_idea = UP_influence_stabilized
+			}
+        }
+        activation = {
+			ASP = {
+				OR = {
+					has_idea = UP_influence_low
+					has_idea = UP_influence_medium
+					has_idea = UP_influence_hight
+				}
+				is_puppet_of = RAV
+			}
+        }
+        is_good = no
+        #selectable_mission = yes
+        days_mission_timeout = 100
+        timeout_effect = {
+			ASP = {
+				if = {
+					limit = {
+						has_idea = UP_influence_medium
+					}
+					swap_ideas = {
+						remove_idea = UP_influence_medium
+						add_idea = UP_influence_low
+					}
+				}
+			}
+			ASP = {
+				if = {
+					limit = {
+						has_idea = UP_influence_hight
+					}
+					swap_ideas = {
+						remove_idea = UP_influence_hight
+						add_idea = UP_influence_medium
+					}
+				}
+			}
+        }
+        complete_effect = {
+			#add_political_power = 50
+        }
+    }
+	
+	RAV_DKC = {
+		available = {
+			country_exists = DKC
+			DKC = {
+				NOT = {
+					has_idea = UP_influence_stabilized
+				}
+				is_puppet_of = RAV
+			}
+		}
+		days_re_enable = 1
+		days_remove = 14
+		cost = 50
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = {
+			#PIR = { country_event = { id = black_market.1 hours = 6 } }
+			DKC = {
+				if = {
+					limit = {
+						has_idea = UP_influence_hight
+					}
+					swap_ideas = {
+						remove_idea = UP_influence_hight
+						add_idea = UP_influence_stabilized
+					}
+					remove_ideas = UP_separatism
+				}
+			}
+			DKC = {
+				if = {
+					limit = {
+						has_idea = UP_influence_medium
+					}
+					swap_ideas = {
+						remove_idea = UP_influence_medium
+						add_idea = UP_influence_hight
+					}
+				}
+			}
+			DKC = {
+				if = {
+					limit = {
+						has_idea = UP_influence_low
+					}
+					swap_ideas = {
+						remove_idea = UP_influence_low
+						add_idea = UP_influence_medium
+					}
+				}
+			}
+		}
+	}
+    RAV_DKC_separatists_turn = {
+        allowed = {
+			DKC = {
+				OR = {
+					has_idea = UP_influence_low
+					has_idea = UP_influence_medium
+					has_idea = UP_influence_hight
+				}
+			}
+		}
+        available = {
+			DKC = {
+				has_idea = UP_influence_stabilized
+			}
+        }
+        activation = {
+			DKC = {
+				OR = {
+					has_idea = UP_influence_low
+					has_idea = UP_influence_medium
+					has_idea = UP_influence_hight
+				}
+				is_puppet_of = RAV
+			}
+        }
+        is_good = no
+        #selectable_mission = yes
+        days_mission_timeout = 100
+        timeout_effect = {
+			DKC = {
+				if = {
+					limit = {
+						has_idea = UP_influence_medium
+					}
+					swap_ideas = {
+						remove_idea = UP_influence_medium
+						add_idea = UP_influence_low
+					}
+				}
+			}
+			DKC = {
+				if = {
+					limit = {
+						has_idea = UP_influence_hight
+					}
+					swap_ideas = {
+						remove_idea = UP_influence_hight
+						add_idea = UP_influence_medium
+					}
+				}
+			}
+        }
+        complete_effect = {
+			#add_political_power = 50
+        }
+    }
+	
+	RAV_DMT = {
+		available = {
+			country_exists = DMT
+			DMT = {
+				NOT = {
+					has_idea = UP_influence_stabilized
+				}
+				is_puppet_of = RAV
+			}
+		}
+		days_re_enable = 1
+		days_remove = 14
+		cost = 50
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = {
+			#PIR = { country_event = { id = black_market.1 hours = 6 } }
+			DMT = {
+				if = {
+					limit = {
+						has_idea = UP_influence_hight
+					}
+					swap_ideas = {
+						remove_idea = UP_influence_hight
+						add_idea = UP_influence_stabilized
+					}
+					remove_ideas = UP_separatism
+				}
+			}
+			DMT = {
+				if = {
+					limit = {
+						has_idea = UP_influence_medium
+					}
+					swap_ideas = {
+						remove_idea = UP_influence_medium
+						add_idea = UP_influence_hight
+					}
+				}
+			}
+			DMT = {
+				if = {
+					limit = {
+						has_idea = UP_influence_low
+					}
+					swap_ideas = {
+						remove_idea = UP_influence_low
+						add_idea = UP_influence_medium
+					}
+				}
+			}
+		}
+	}
+    RAV_DMT_separatists_turn = {
+        allowed = {
+			DMT = {
+				OR = {
+					has_idea = UP_influence_low
+					has_idea = UP_influence_medium
+					has_idea = UP_influence_hight
+				}
+			}
+		}
+        available = {
+			DMT = {
+				has_idea = UP_influence_stabilized
+			}
+        }
+        activation = {
+			DMT = {
+				OR = {
+					has_idea = UP_influence_low
+					has_idea = UP_influence_medium
+					has_idea = UP_influence_hight
+				}
+				is_puppet_of = RAV
+			}
+        }
+        is_good = no
+        #selectable_mission = yes
+        days_mission_timeout = 100
+        timeout_effect = {
+			DMT = {
+				if = {
+					limit = {
+						has_idea = UP_influence_medium
+					}
+					swap_ideas = {
+						remove_idea = UP_influence_medium
+						add_idea = UP_influence_low
+					}
+				}
+			}
+			DMT = {
+				if = {
+					limit = {
+						has_idea = UP_influence_hight
+					}
+					swap_ideas = {
+						remove_idea = UP_influence_hight
+						add_idea = UP_influence_medium
+					}
+				}
+			}
+        }
+        complete_effect = {
+			#add_political_power = 50
+        }
+    }
+	
+	RAV_DGP = {
+		available = {
+			country_exists = DGP
+			DGP = {
+				NOT = {
+					has_idea = UP_influence_stabilized
+				}
+				is_puppet_of = RAV
+			}
+		}
+		days_re_enable = 1
+		days_remove = 14
+		cost = 50
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = {
+			#PIR = { country_event = { id = black_market.1 hours = 6 } }
+			DGP = {
+				if = {
+					limit = {
+						has_idea = UP_influence_hight
+					}
+					swap_ideas = {
+						remove_idea = UP_influence_hight
+						add_idea = UP_influence_stabilized
+					}
+					remove_ideas = UP_separatism
+				}
+			}
+			DGP = {
+				if = {
+					limit = {
+						has_idea = UP_influence_medium
+					}
+					swap_ideas = {
+						remove_idea = UP_influence_medium
+						add_idea = UP_influence_hight
+					}
+				}
+			}
+			DGP = {
+				if = {
+					limit = {
+						has_idea = UP_influence_low
+					}
+					swap_ideas = {
+						remove_idea = UP_influence_low
+						add_idea = UP_influence_medium
+					}
+				}
+			}
+		}
+	}
+    RAV_DGP_separatists_turn = {
+        allowed = {
+			DGP = {
+				OR = {
+					has_idea = UP_influence_low
+					has_idea = UP_influence_medium
+					has_idea = UP_influence_hight
+				}
+			}
+		}
+        available = {
+			DGP = {
+				has_idea = UP_influence_stabilized
+			}
+        }
+        activation = {
+			DGP = {
+				OR = {
+					has_idea = UP_influence_low
+					has_idea = UP_influence_medium
+					has_idea = UP_influence_hight
+				}
+				is_puppet_of = RAV
+			}
+        }
+        is_good = no
+        #selectable_mission = yes
+        days_mission_timeout = 100
+        timeout_effect = {
+			DGP = {
+				if = {
+					limit = {
+						has_idea = UP_influence_medium
+					}
+					swap_ideas = {
+						remove_idea = UP_influence_medium
+						add_idea = UP_influence_low
+					}
+				}
+			}
+			DGP = {
+				if = {
+					limit = {
+						has_idea = UP_influence_hight
+					}
+					swap_ideas = {
+						remove_idea = UP_influence_hight
+						add_idea = UP_influence_medium
+					}
+				}
+			}
+        }
+        complete_effect = {
+			#add_political_power = 50
+        }
+    }
+	
+    RAV_separatist_crisis = {
+        allowed = {
+			tag = RAV
+		}
+        available = {
+			IST = { OR = { AND = { is_puppet_of = RAV has_idea = UP_influence_stabilized } is_puppet = no } }
+			EMF = { OR = { AND = { is_puppet_of = RAV has_idea = UP_influence_stabilized } is_puppet = no } }
+			ASP = { OR = { AND = { is_puppet_of = RAV has_idea = UP_influence_stabilized } is_puppet = no } }
+			DKC = { OR = { AND = { is_puppet_of = RAV has_idea = UP_influence_stabilized } is_puppet = no } }
+			DMT = { OR = { AND = { is_puppet_of = RAV has_idea = UP_influence_stabilized } is_puppet = no } }
+			DGP = { OR = { AND = { is_puppet_of = RAV has_idea = UP_influence_stabilized } is_puppet = no } }
+        }
+        activation = {
+			NOT = {
+				AND = {
+			IST = { OR = { AND = { is_puppet_of = RAV has_idea = UP_influence_stabilized } is_puppet = no } }
+			EMF = { OR = { AND = { is_puppet_of = RAV has_idea = UP_influence_stabilized } is_puppet = no } }
+			ASP = { OR = { AND = { is_puppet_of = RAV has_idea = UP_influence_stabilized } is_puppet = no } }
+			DKC = { OR = { AND = { is_puppet_of = RAV has_idea = UP_influence_stabilized } is_puppet = no } }
+			DMT = { OR = { AND = { is_puppet_of = RAV has_idea = UP_influence_stabilized } is_puppet = no } }
+			DGP = { OR = { AND = { is_puppet_of = RAV has_idea = UP_influence_stabilized } is_puppet = no } }
+				}
+			}
+        }
+        is_good = no
+        #selectable_mission = yes
+        days_mission_timeout = 1000
+        timeout_effect = {
+			set_cosmetic_tag = RAV_centralized
+			every_state = {
+				if = {
+					limit = {
+						is_core_of = RAV
+						is_core_of = IST
+						is_core_of = EMF
+						is_core_of = ASP
+						is_core_of = DMT
+						is_core_of = DGP
+					}
+					add_core_of = DGP
+				}
+			}
+			IST = {
+				if = {
+					limit = {
+						is_puppet_of = RAV
+						NOT = {
+							has_idea = UP_influence_stabilized
+						}
+					}
+					set_autonomy = {
+						target = IST
+						autonomy_state = autonomy_free
+						end_wars = no
+						end_civil_wars = no
+					}
+					remove_ideas = { UP_center_is_far UP_separatism UP_influence_low UP_influence_medium UP_influence_hight }
+					RAV = { create_wargoal = { type = annex_everything target = IST } }
+				}
+				if = {
+					limit = {
+						is_puppet_of = RAV
+						has_idea = UP_influence_stabilized
+					}
+					RAV = {
+						annex_country = { target = IST transfer_troops = yes }
+					}
+				}
+			}
+			EMF = {
+				if = {
+					limit = {
+						is_puppet_of = RAV
+						NOT = {
+							has_idea = UP_influence_stabilized
+						}
+					}
+					set_autonomy = {
+						target = EMF
+						autonomy_state = autonomy_free
+						end_wars = no
+						end_civil_wars = no
+					}
+					remove_ideas = { UP_center_is_far UP_separatism UP_influence_low UP_influence_medium UP_influence_hight }
+					RAV = { create_wargoal = { type = annex_everything target = EMF } }
+				}
+				if = {
+					limit = {
+						is_puppet_of = RAV
+						has_idea = UP_influence_stabilized
+					}
+					RAV = {
+						annex_country = { target = EMF transfer_troops = yes }
+					}
+				}
+			}
+			ASP = {
+				if = {
+					limit = {
+						is_puppet_of = RAV
+						NOT = {
+							has_idea = UP_influence_stabilized
+						}
+					}
+					set_autonomy = {
+						target = ASP
+						autonomy_state = autonomy_free
+						end_wars = no
+						end_civil_wars = no
+					}
+					remove_ideas = { UP_center_is_far UP_separatism UP_influence_low UP_influence_medium UP_influence_hight }
+					RAV = { create_wargoal = { type = annex_everything target = ASP } }
+				}
+				if = {
+					limit = {
+						is_puppet_of = RAV
+						has_idea = UP_influence_stabilized
+					}
+					RAV = {
+						annex_country = { target = ASP transfer_troops = yes }
+					}
+				}
+			}
+			DKC = {
+				if = {
+					limit = {
+						is_puppet_of = RAV
+						NOT = {
+							has_idea = UP_influence_stabilized
+						}
+					}
+					set_autonomy = {
+						target = DKC
+						autonomy_state = autonomy_free
+						end_wars = no
+						end_civil_wars = no
+					}
+					remove_ideas = { UP_center_is_far UP_separatism UP_influence_low UP_influence_medium UP_influence_hight }
+					RAV = { create_wargoal = { type = annex_everything target = DKC } }
+				}
+				if = {
+					limit = {
+						is_puppet_of = RAV
+						has_idea = UP_influence_stabilized
+					}
+					RAV = {
+						annex_country = { target = DKC transfer_troops = yes }
+					}
+				}
+			}
+			DMT = {
+				if = {
+					limit = {
+						is_puppet_of = RAV
+						NOT = {
+							has_idea = UP_influence_stabilized
+						}
+					}
+					set_autonomy = {
+						target = DMT
+						autonomy_state = autonomy_free
+						end_wars = no
+						end_civil_wars = no
+					}
+					remove_ideas = { UP_center_is_far UP_separatism UP_influence_low UP_influence_medium UP_influence_hight }
+					RAV = { create_wargoal = { type = annex_everything target = DMT } }
+				}
+				if = {
+					limit = {
+						is_puppet_of = RAV
+						has_idea = UP_influence_stabilized
+					}
+					RAV = {
+						annex_country = { target = DMT transfer_troops = yes }
+					}
+				}
+			}
+			DGP = {
+				if = {
+					limit = {
+						is_puppet_of = RAV
+						NOT = {
+							has_idea = UP_influence_stabilized
+						}
+					}
+					set_autonomy = {
+						target = DGP
+						autonomy_state = autonomy_free
+						end_wars = no
+						end_civil_wars = no
+					}
+					country_event = { id = up.2 hours = 90 }
+					remove_ideas = { UP_center_is_far UP_separatism UP_influence_low UP_influence_medium UP_influence_hight }
+					RAV = { create_wargoal = { type = annex_everything target = DGP } }
+				}
+				if = {
+					limit = {
+						is_puppet_of = RAV
+						has_idea = UP_influence_stabilized
+					}
+					RAV = {
+						annex_country = { target = DGP transfer_troops = yes }
+					}
+				}
+			}
+        }
+    }
+}
