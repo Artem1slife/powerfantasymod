@@ -4,13 +4,78 @@ bookmarks = {
 		desc = "SHIZOPHRENIA_DESC"
 		date = 7256.01.01.12
 		picture = "GFX_select_date_1936"
-		default_country = "TST"
+		default_country = "GAD"
 		default = yes
 		
-
-		"TST"={
+		"GAD"={
+			history = "TST_BOOKMARK_DESC"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}	
+		}
+		
+		"IPO"={
+			history = "TST_BOOKMARK_DESC"
+			ideology = neutrality
+			ideas = {
+				IPO_desert_lands
+				IPO_kingdom_of_sin
+				IPO_wartime
+			}
+			focuses = {
+			}	
+		}
+		
+		"ROI"={
+			history = "TST_BOOKMARK_DESC"
+			ideology = destruction
+			ideas = {
+				ROI_death_live_conflict
+				ROI_death_tsardoom
+				ROI_vykhukhol
+			}
+			focuses = {
+			}	
+		}
+		
+		"APO"={
 			history = "TST_BOOKMARK_DESC"
 			ideology = communism
+			ideas = {
+				ROI_death_live_conflict
+				ROI_death_tsardoom
+				ROI_vykhukhol
+			}
+			focuses = {
+			}	
+		}
+
+		"RAV"={
+			history = "TST_BOOKMARK_DESC"
+			ideology = democratic
+			ideas = {
+				UP_democratic
+				UP_senate
+				UP_death_of_bur
+			}
+			focuses = {
+			}	
+		}
+		
+		"GIL"={
+			history = "TST_BOOKMARK_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}	
+		}
+		
+		"CHI"={
+			history = "TST_BOOKMARK_DESC"
+			ideology = democratic
 			ideas = {
 			}
 			focuses = {
