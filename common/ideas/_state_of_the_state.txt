@@ -191,12 +191,13 @@ ideas = {
 
 			modifier = {
 				political_power_gain = 1
-				consumer_goods_factor = 0.1
+				#consumer_goods_factor = 0.1
 				research_speed_factor = 0.15
 				monthly_population = -0.30
 				nuclear_production_factor = 0.1
 				stability_factor = -0.3
 				production_speed_buildings_factor = -0.5
+				supply_node_range = 0.5
 			}
 
 			cancel_if_invalid = no
@@ -212,12 +213,15 @@ ideas = {
 
 			modifier = {
 				political_power_gain = 0.5
-				consumer_goods_factor = 0.05
+				#consumer_goods_factor = 0.05
 				research_speed_factor = 0.05
 				monthly_population = -0.15
 				nuclear_production_factor = -0.25
 				stability_factor = -0.15
 				production_speed_buildings_factor = -0.25
+				industrial_capacity_dockyard = -0.15
+				industrial_capacity_factory = -0.15
+				supply_node_range = 0.3
 			}
 
 			cancel_if_invalid = no
@@ -234,10 +238,13 @@ ideas = {
 
 			modifier = {
 				political_power_gain = 0.25
-				consumer_goods_factor = -0.05
+				#consumer_goods_factor = -0.05
 				research_speed_factor = 0.05
 				monthly_population = 0.15
 				nuclear_production_factor = -0.50
+				industrial_capacity_dockyard = -0.25
+				industrial_capacity_factory = -0.25
+				supply_node_range = 0.3
 			}
 
 			cancel_if_invalid = no
@@ -253,12 +260,15 @@ ideas = {
 
 			modifier = {
 				political_power_gain = -0.5
-				consumer_goods_factor = -0.1
+				#consumer_goods_factor = -0.1
 				research_speed_factor = -0.3
 				monthly_population = 0.50
 				nuclear_production_factor = -1
 				stability_factor = 0.3
 				production_speed_buildings_factor = -0.5
+				industrial_capacity_dockyard = -0.5
+				industrial_capacity_factory = -0.5
+				supply_node_range = 0.15
 			}
 
 			cancel_if_invalid = no

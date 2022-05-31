@@ -41,6 +41,20 @@ ideas = {
 				political_power_cost = 0.25
 			}
 		}
+		UP_senate = {
+			picture = senate
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_gain = 0.5
+				war_support_factor = 0.15
+				stability_factor = 0.15
+				democratic_drift = 0.05
+			}
+		}
 		UP_center_is_far = {
 			picture = generic_agrarian_reform
 			

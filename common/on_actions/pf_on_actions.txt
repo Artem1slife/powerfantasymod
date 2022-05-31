@@ -139,6 +139,16 @@ on_actions = {
 			490 = { add_dynamic_modifier = { modifier = nation_darken } }
 			489 = { add_dynamic_modifier = { modifier = nation_darken } }
 			491 = { add_dynamic_modifier = { modifier = nation_darken } }
+			###Соеденённые Провинции
+			270 = { add_dynamic_modifier = { modifier = nation_raviol } }
+			286 = { add_dynamic_modifier = { modifier = nation_raviol } }
+			292 = { add_dynamic_modifier = { modifier = nation_raviol } }
+			301 = { add_dynamic_modifier = { modifier = nation_raviol } }
+			303 = { add_dynamic_modifier = { modifier = nation_raviol } }
+			304 = { add_dynamic_modifier = { modifier = nation_raviol } }
+			318 = { add_dynamic_modifier = { modifier = nation_raviol } }
+			321 = { add_dynamic_modifier = { modifier = nation_raviol } }
+			329 = { add_dynamic_modifier = { modifier = nation_raviol } }
 			###
 		}
 	}

@@ -9,10 +9,12 @@ set_technology = {
 set_oob = RAV
 
 add_ideas = {
-	tradition_free_harbor
 	UP_democratic
+	UP_senate
 	UP_death_of_bur
 	UP_corruption
+	tradition_free_harbor
+	low_industrialisated
 }
 
 set_convoys = 50

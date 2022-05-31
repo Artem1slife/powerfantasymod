@@ -67,8 +67,10 @@ country_event = {
 		ai_chance = { factor = 90 }
 		set_cosmetic_tag = RAV_empire
 		add_political_power = -200
-		add_popularity = { ideology = destruction popularity = 0.5 }
-		set_politics = { ruling_party = destruction elections_allowed = no }
+		add_popularity = { ideology = fascism popularity = 0.5 }
+		set_politics = { ruling_party = fascism elections_allowed = no }
 		remove_ideas = { UP_democratic }
+		set_country_leader_ideology = total_state
+		DGP = { kill_ideology_leader = fascism }
 	}
 }

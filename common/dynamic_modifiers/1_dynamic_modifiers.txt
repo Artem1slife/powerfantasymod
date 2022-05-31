@@ -117,3 +117,7 @@ nation_darken = {
 	icon = GFX_darken
 }
 ###
+nation_raviol = {
+	enable = { always = yes }
+	icon = GFX_raviol
+}

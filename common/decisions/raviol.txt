@@ -14,7 +14,7 @@ RAV_centralization = {
 		cost = 50
 		fire_only_once = no
 		ai_will_do = {
-			factor = 1
+			factor = 50
 		}
 		remove_effect = {
 			#PIR = { country_event = { id = black_market.1 hours = 6 } }
@@ -126,7 +126,7 @@ RAV_centralization = {
 		cost = 50
 		fire_only_once = no
 		ai_will_do = {
-			factor = 1
+			factor = 50
 		}
 		remove_effect = {
 			#PIR = { country_event = { id = black_market.1 hours = 6 } }
@@ -238,7 +238,7 @@ RAV_centralization = {
 		cost = 50
 		fire_only_once = no
 		ai_will_do = {
-			factor = 1
+			factor = 50
 		}
 		remove_effect = {
 			#PIR = { country_event = { id = black_market.1 hours = 6 } }
@@ -350,7 +350,7 @@ RAV_centralization = {
 		cost = 50
 		fire_only_once = no
 		ai_will_do = {
-			factor = 1
+			factor = 0
 		}
 		remove_effect = {
 			#PIR = { country_event = { id = black_market.1 hours = 6 } }
@@ -462,7 +462,7 @@ RAV_centralization = {
 		cost = 50
 		fire_only_once = no
 		ai_will_do = {
-			factor = 1
+			factor = 0
 		}
 		remove_effect = {
 			#PIR = { country_event = { id = black_market.1 hours = 6 } }
@@ -574,7 +574,7 @@ RAV_centralization = {
 		cost = 50
 		fire_only_once = no
 		ai_will_do = {
-			factor = 1
+			factor = 0
 		}
 		remove_effect = {
 			#PIR = { country_event = { id = black_market.1 hours = 6 } }

@@ -671,5 +671,9 @@ spriteTypes = {
 		name = "GFX_darken"
 		textureFile = "gfx/interface/state_modifiers/darken.dds"
 	}
+	spriteType = {
+		name = "GFX_raviol"
+		textureFile = "gfx/interface/state_modifiers/raviol.dds"
+	}
 	#####
 }
