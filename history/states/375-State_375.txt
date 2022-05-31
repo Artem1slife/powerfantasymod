@@ -4,12 +4,15 @@ state={
 	provinces={
 		196 369 893 909 936 1291 1456 1831 1834 1884 1912 2038 2044 2208 2440 2465 2749 2964 3157 3230 3322 3373 3594 3623 3837 3933 4184 4424 4463 4487 4754 4784 4792 4950 5103 5111 5128 5336 5679 5759 5862 5883 5887 7564 7596 7631 7662 7664 7711 7733 7775 7806 7817 7855 7870 7871 7908 
 	}
-	manpower=1303471
+	manpower=203471
+	resources={
+		steel=10
+	}
 	history={
 		owner = BBC
 		buildings = {
-			infrastructure = 2
-                        arms_factory = 1
+			infrastructure = 1
+            arms_factory = 1
 		}
 		add_core_of = BBC
 	}

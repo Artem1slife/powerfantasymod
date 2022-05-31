@@ -2,23 +2,34 @@ capital = 20
 set_technology = {
 	infantry_weapons = 1
 }
-set_convoys = 150
-add_political_power = 150
-set_research_slots = 3
-set_stability = 0.6
-set_war_support = 0.5
-set_oob = "FRA_1936"
+
+add_political_power = 50
+set_research_slots = 0
+set_stability = 0.4
+set_war_support = 0.9
+
+add_ideas = {
+	tradition_isolitionalism
+	tradition_beast
+	tradition_destroyers
+	tradition_chiefdom
+	tot_economic_mobilisation
+	scraping_the_barrel
+	closed_economy
+}
+
 set_politics = {
-	ruling_party = fascism
-	last_election = "1936.1.1"
+	ruling_party = destruction
+	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	fascism = 5
-	communism = 20
-	democratic = 65
+	fascism = 30
+	democratic = 0
 	neutrality = 10
+	destruction = 60
 }
 
 

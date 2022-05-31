@@ -4,7 +4,10 @@ state={
 	provinces={
 		130 1294 1729 2025 2182 2226 2403 3177 3891 4012 4228 4485 5265 5363 5425 5695 5727 7615 7677 7736 7757 
 	}
-	manpower=84336
+	manpower=284336
+	resources={
+		steel=20
+	}
 	history={
 		owner = BKJ
 		victory_points = { 130 10 }

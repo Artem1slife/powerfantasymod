@@ -20,17 +20,16 @@ add_ideas = {
 
 set_politics = {
 	ruling_party = destruction
-	last_election = "1936.1.1"
+	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	fascism = 0
+	fascism = 30
 	democratic = 0
-	neutrality = 0
-	destruction = 100
-	communism = 0
+	neutrality = 10
+	destruction = 60
 }
 
 

@@ -4,11 +4,15 @@ state={
 	provinces={
 		1273 1566 1810 2824 2904 3089 4114 4865 5566 5606 7553 7590 7630 7685 
 	}
-	manpower=450190
+	manpower=100190
+	resources={
+		oil=5
+		сhromium = 5
+	}
 	history={
 		owner = BBC
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 		}
 		add_core_of = BBC
 	}
