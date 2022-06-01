@@ -1,0 +1,18 @@
+state={
+	id=507
+	name="STATE_507"
+	provinces={
+		28 219 3550 3834 6033 6050 
+	}
+	manpower=1
+	history={
+		owner = TST
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = TST
+	}
+	state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

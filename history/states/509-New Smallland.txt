@@ -1,0 +1,18 @@
+state={
+	id=509
+	name="STATE_509"
+	provinces={
+		771 896 992 1858 4322 
+	}
+	manpower=1
+	history={
+		owner = TST
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = TST
+	}
+	state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
