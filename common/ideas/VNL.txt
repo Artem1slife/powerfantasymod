@@ -1,0 +1,196 @@
+ideas = {
+	country = {
+		
+		VNL_good_neighbor_policy = {
+			allowed = {
+				original_tag = VNL
+			}
+			modifier = {
+				guarantee_tension = -0.5
+				guarantee_cost = -0.7
+			}
+			picture = ztcnz
+		}
+		
+		VNL_infrastructurereform = {
+			allowed = {
+				original_tag = VNL
+			}
+			modifier = {
+				production_speed_buildings_factor = 0.05
+			}
+			picture = ztcnz
+		}
+	}
+	
+	tank_manufacturer = {
+
+		designer = yes
+	
+		VNL_Irida = {
+		
+			picture = ztcnz
+						
+			allowed = {
+				original_tag = VNL
+			}
+						
+			research_bonus = {
+				armor = 0.1
+			}
+			
+			traits = { heavy_tank_manufacturer }
+		}
+	
+		VNL_Bob_Ross = {
+		
+			picture = ztcnz
+
+						
+			allowed = {
+				original_tag = VNL
+			}
+						
+			research_bonus = {
+				armor = 0.1
+			}
+			
+			traits = { fast_tank_manufacturer }
+		}
+	}
+	
+	materiel_manufacturer = {
+			
+		designer = yes
+		
+		VNL_mas = {
+						
+			allowed = {
+				original_tag = VNL
+			}
+						
+			research_bonus = {
+				infantry_weapons = 0.1
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+	
+		VNL_big_boom = {
+						
+			allowed = {
+				original_tag = VNL
+			}		
+			
+			research_bonus = {
+				artillery = 0.1
+			}
+			
+			traits = { artillery_manufacturer }
+		}
+	}
+	
+	naval_manufacturer = {
+			
+		designer = yes
+		VNL_whater_and_land = {
+						
+			allowed = {
+				original_tag = VNL
+			}
+						
+			research_bonus = {
+				naval_equipment = 0.1
+			}
+			
+			traits = { naval_manufacturer }
+		}
+	}
+
+	#### Air ####
+	aircraft_manufacturer = {
+		designer = yes
+		VNL_destroyer_meter = {
+			
+			allowed = {
+				original_tag = VNL
+			}
+			
+			research_bonus = {
+				air_equipment = 0.1
+			}
+			
+			traits = { light_aircraft_manufacturer }
+		}
+		
+		VNL_PostAir = {
+						
+			allowed = {
+				original_tag = VNL
+			}
+						
+			research_bonus = {
+				air_equipment = 0.1
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+		}
+		
+		VNL_Line = {
+						
+			allowed = {
+				original_tag = VNL
+			}
+						
+			research_bonus = {
+				air_equipment = 0.1
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}
+		
+		VNL_FlotInc = {
+						
+			allowed = {
+				original_tag = VNL
+			}
+						
+			research_bonus = {
+				air_equipment = 0.1
+			}
+			
+			traits = { naval_aircraft_manufacturer }
+		}
+		
+
+	}
+	
+	industrial_concern = {	
+		
+		VNL_FastArrow = {
+						
+			allowed = {
+				original_tag = VNL
+			}
+						
+			research_bonus = {
+				industry = 0.1
+			}
+			
+			traits = { industrial_concern }
+		}
+		
+		VNL_Lamp = {
+			picture = generic_electronics_concern_1		
+			allowed = {
+				original_tag = VNL
+			}
+						
+			research_bonus = {
+				electronics = 0.1
+			}
+			
+			traits = { electronics_concern }
+		}
+	}
+}

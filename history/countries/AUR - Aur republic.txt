@@ -11,6 +11,12 @@ set_war_support = 0.5
 add_ideas = {
 	tradition_moon_law
 	tradition_government_religion
+	
+	AUR_ilton_instructors
+	AUR_brave_republic
+	AUR_apologeticsrepublic
+	AUR_seafarers_travelers
+	AUR_purgebureaucracy
 }
 
 set_politics = {

@@ -1,0 +1,53 @@
+ideas = {
+	country = {
+		QIO_overseers_from_orderstate = {
+			removal_cost = -1
+			allowed = {
+				original_tag = QIO
+			}
+			modifier = {
+				political_power_gain = -0.7
+				stability_factor = 0.1
+			}
+			picture = ztcnz
+		}
+		
+		QIO_unificationcouncil = {
+			allowed = {
+				original_tag = QIO
+			}
+			modifier = {
+				non_core_manpower = 0.05
+				resistance_target = -0.1
+			}
+			picture = ztcnz
+		}
+		
+		QIO_complex_hierarchy = {
+			allowed = {
+				original_tag = QIO
+			}
+			modifier = {
+				stability_factor = -0.5
+				war_support_factor -0.5
+				political_power_gain = -0.25
+				training_time_factor = 3
+				industrial_capacity_factory = -1
+				army_org_factor = -0.9
+			}
+			picture = ztcnz
+		}
+		
+		QIO_new_citizen = {
+			removal_cost = -1
+			allowed = {
+				original_tag = QIO
+			}
+			modifier = {
+				conscription = 0.03
+				MONTHLY_POPULATION = 0.15
+			}
+			picture = ztcnz
+		}
+	}
+}

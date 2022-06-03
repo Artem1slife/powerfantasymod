@@ -12,6 +12,10 @@ set_war_support = 0.5
 add_ideas = {
 	tradition_moon_law
 	tradition_religion_basis
+	
+	QIO_complex_hierarchy
+	QIO_unificationcouncil
+	QIO_overseers_from_orderstate
 }
 
 set_politics = {

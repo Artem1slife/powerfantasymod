@@ -1,0 +1,195 @@
+ideas = {
+	country = {
+		
+		KTH_discussion_about_polygamy = {
+			removal_cost = -1
+			allowed = {
+				original_tag = KTH
+			}
+			modifier = {
+				political_power_gain = -0.1
+				stability_factor = -0.05
+			}
+			picture = ztcnz
+		}
+		
+	}
+	
+	industrial_concern = {
+		KTH_Institute_for_Study_Religion_and_Science = {
+			allowed = {
+				original_tag = KTH
+			}
+			available = {
+				original_tag = KTH
+			}
+			traits = {
+				electronics_manufacturer
+			}
+			modifier = {
+				production_speed_radar_station_factor = 0.05
+				production_speed_industrial_complex_factor = 0.1
+			}
+			equipment_bonus = {
+
+			}
+			research_bonus = {
+				electronics = 0.1
+			}
+		}
+		
+		KTH_Institute_for_Study_Science_and_Religion = {
+			allowed = {
+				original_tag = KTH
+			}
+			available = {
+				original_tag = KTH
+			}
+			traits = {
+				industrial_manufacturer
+			}
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+				production_speed_infrastructure_factor = 0.05
+			}
+			equipment_bonus = {
+
+			}
+			research_bonus = {
+				industry = 0.1
+			}
+		}
+	}
+
+	materiel_manufacturer = {
+		designer = yes
+		KTH_WarProducer = {
+			allowed = {
+				original_tag = KTH
+			}
+			available = {
+				original_tag = KTH
+			}
+			traits = {
+				artillery_producer_mass_1
+			}
+			modifier = {
+				
+			}
+			research_bonus = {
+				artillery = 0.1
+			}
+		}
+	}
+
+	tank_manufacturer = {
+		designer = yes
+		KTH_Tank_Research_Institute_of_Mandella = {
+			allowed = {
+				original_tag = KTH
+			}
+			available = {
+				original_tag = KTH
+			}
+			traits = {
+				small_tank_producer_offense_1
+			}
+			modifier = {
+				
+			}
+			research_bonus = {
+				armor = 0.1
+			}
+		}
+		
+		KTH_Gandis_company = {
+			allowed = {
+				original_tag = KTH
+			}
+			available = {
+				original_tag = KTH
+			}
+			traits = {
+				motorised_equipment_producer_offense_1
+			}
+			modifier = {
+				
+			}
+			research_bonus = {
+				motorized_equipment = 0.1
+			}
+		}
+	}
+
+	naval_manufacturer = {
+		designer = yes
+		KTH_Shipyards = {
+			allowed = {
+				original_tag = KTH
+			}
+			available = {
+				original_tag = KTH
+			}
+			traits = {
+				cruiser_producer_defense_1
+			}
+			modifier = {
+				
+			}
+			equipment_bonus = {
+				
+			}
+			research_bonus = {
+				dd_tech = 0.1
+				ss_tech = 0.1
+				bb_tech = 0.1
+			}
+		}
+	}
+	
+	#### Air ####
+	aircraft_manufacturer = {
+		designer = yes
+		KTH_Aircraft_Factory = {
+			allowed = {
+				original_tag = KTH
+			}
+			available = {
+				original_tag = KTH
+			}
+			traits = {
+				fighter_producer_offense_1
+			}
+			modifier = {
+				
+			}
+			equipment_bonus = {
+				
+			}
+			research_bonus = {
+				light_fighter = 0.1
+			}
+		}
+		
+		KTH_WarAirAce_Club = {
+			allowed = {
+				original_tag = KTH
+			}
+			available = {
+				original_tag = KTH
+			}
+			traits = {
+				nav_cas_producer_offense_1
+			}
+			modifier = {
+				
+			}
+			equipment_bonus = {
+				
+			}
+			research_bonus = {
+				naval_bomber = 0.15
+			}
+		}
+	}
+}

@@ -8,7 +8,11 @@ add_political_power = 150
 set_research_slots = 2
 set_stability = 0.7
 set_war_support = 0.6
-set_oob = "FRA_1936"
+
+add_ideas = {
+	KTH_discussion_about_polygamy
+}
+
 
 set_politics = {
 	ruling_party = democratic

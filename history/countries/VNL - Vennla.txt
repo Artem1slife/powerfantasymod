@@ -11,6 +11,8 @@ set_war_support = 0.5
 add_ideas = {
 	tradition_moon_law
 	tradition_government_religion
+	
+	VNL_good_neighbor_policy
 }
 
 

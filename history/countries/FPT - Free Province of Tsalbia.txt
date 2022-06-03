@@ -10,6 +10,10 @@ set_war_support = 0.5
 
 add_ideas = {
 	tradition_moon_law
+	
+	FPT_region_equality
+	FPT_council
+	FPT_welfare_state
 }
 
 set_politics = {

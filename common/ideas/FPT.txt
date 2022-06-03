@@ -1,0 +1,284 @@
+ideas = {
+	country = {
+		
+		FPT_council = {
+			removal_cost = -1
+			allowed = {
+				original_tag = FTP
+			}
+			modifier = {
+				political_power_gain = 0.15
+			}
+			picture = ztcnz
+		}
+		
+		FPT_population = {
+			removal_cost = -1
+			picture = ztcnz
+			allowed = {
+				original_tag = FPT
+			}
+			modifier = {
+				monthly_population = 0.4
+			}
+		}
+		
+		FPT_region_equality = {
+			removal_cost = -1
+			picture = ztcnz
+			allowed = {
+				original_tag = FPT
+			}
+			modifier = {
+				consumer_goods_factor = -0.075
+			}
+		}
+		
+		FPT_welfare_state = {
+			allowed = {
+				original_tag = FPT
+			}
+			modifier = {
+				consumer_goods_factor = -0.1
+			}
+			picture = ztcnz
+		}
+		
+		FPT_human_rights_court = {
+			allowed = {
+				original_tag = FPT
+			}
+			modifier = {
+				resistance_target = -0.1
+				stability_weekly = 0.01
+			}
+			picture = ztcnz
+		}
+		
+		FPT_deregulation = {
+			allowed = {
+				original_tag = FPT
+			}
+			modifier = {
+				conversion_cost_civ_to_mil_factor = -0.1
+				conversion_cost_mil_to_civ_factor = -0.1
+			}
+			picture = ztcnz
+		}
+		
+		FPT_patriotic_education = {
+			allowed = {
+				original_tag = FPT
+			}
+			modifier = {
+				conscription_factor = 0.1
+			}
+			picture = ztcnz
+		}
+		
+		FPT_free_press = {
+			allowed = {
+				original_tag = FPT
+			}
+			modifier = {
+				political_power_factor = 0.1
+				drift_defence_factor = -0.15
+			}
+			picture = ztcnz
+		}
+
+		FPT_agrsoc = {
+			allowed = {
+				original_tag = FPT
+			}
+			modifier = {
+				consumer_goods_factor = -0.07
+				production_speed_industrial_complex_factor = 0.1
+				stability_factor = 0.05	
+			}
+			picture = ztcnz
+		}
+		
+		FPT_black_market = {
+			allowed = {
+				original_tag = FPT
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.1 instant = yes
+					reliability = 0.01
+				}
+				artillery_equipment = {
+					build_cost_ic = -0.1 instant = yes
+					reliability = 0.01
+				}
+			}
+			modifier = {
+				trade_opinion_factor = 0.1
+			}
+			picture = ztcnz
+		}
+		
+		FPT_new_education = {
+			allowed = {
+				original_tag = FPT
+			}
+			modifier = {
+				research_speed_factor = 0.05
+			}
+			picture = ztcnz
+		}
+		
+		FPT_new_education_1 = {
+			allowed = {
+				original_tag = FPT
+			}
+			modifier = {
+				research_speed_factor = 0.05
+				accelerationism_drift = 0.07
+			}
+			picture = ztcnz
+		}
+		
+		FPT_new_education_2 = {
+			allowed = {
+				original_tag = FPT
+			}
+			modifier = {
+				research_speed_factor = 0.08
+				accelerationism_drift = 0.07
+				license_purchase_cost = -0.2
+			}
+			picture = ztcnz
+		}
+	}
+	
+	naval_manufacturer = {
+		designer = yes
+		FPT_Government_Shipyard = {
+			picture = ztcnz
+			allowed = {
+				original_tag = FPT
+			}
+			available = {
+				any_state = {
+					is_coastal = yes
+					is_owned_and_controlled_by = ROOT
+				}
+			}
+			traits = {
+				capital_ship_producer_offense_0
+			}
+			research_bonus = {
+				naval_equipment = 0.05
+			}
+		}
+	}
+	
+	aircraft_manufacturer = {
+		FPT_RadarControl = {
+			picture = ztcnz
+			allowed = {
+				original_tag = FPT
+			}
+			available = {
+				any_state = {
+					is_coastal = yes
+					is_owned_and_controlled_by = ROOT
+				}
+			}
+			traits = {
+				nav_cas_producer_offense_1
+			}
+			research_bonus = {
+				naval_bomber = 0.15
+			}
+		}
+		
+		FPT_Aerograd = {
+			picture = ztcnz
+			allowed = {
+				original_tag = FPT
+			}
+			traits = {
+				fighter_producer_offense_0
+			}
+			research_bonus = {
+				light_fighter = 0.1
+			}
+		}
+		
+		FPT_Strategic_Aircraft = {
+			picture = ztcnz
+			allowed = {
+				original_tag = FPT
+			}
+			traits = {
+				bomber_producer_offense_0
+			}
+			research_bonus = {
+				air_equipment = 0.05
+			}
+		}
+	}
+	
+	materiel_manufacturer = {
+		designer = yes
+
+		FPT_Arsenal = {
+			picture = ztcnz
+			allowed = {
+				original_tag = FPT
+			}
+			traits = {
+				infantry_equipment_producer_offense_0
+			}
+			research_bonus = {
+				infantry_weapons = 0.1
+			}
+		}
+
+		FPT_SensorHead = {
+			picture = ztcnz
+			allowed = {
+				original_tag = FPT
+			}
+			traits = {
+				artillery_producer_offense_0
+			}
+			research_bonus = {
+				artillery = 0.05
+			}
+		}
+	}
+
+	tank_manufacturer = {
+		designer = yes
+
+		FPT_Lenon_Tankmaker = {
+			picture = ztcnz
+			allowed = {
+				original_tag = FPT
+			}
+			traits = {
+				small_tank_producer_offense_0
+			}
+			research_bonus = {
+				armor = 0.1
+			}
+		}
+		
+		FPT_Tolstoy_LionTanks = {
+			picture = FPT
+			allowed = {
+				original_tag = FPT
+			}
+			traits = {
+				motorised_equipment_producer_mass_0
+			}
+			research_bonus = {
+				motorized_equipment = 0.1
+			}
+		}
+	}
+}
