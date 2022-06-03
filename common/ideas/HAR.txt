@@ -1,0 +1,143 @@
+ideas = {
+	country = {
+		HAR_volunteer_detachments_professional_1 = {
+			picture = ztcnz
+			allowed = {
+				original_tag = HAR
+			}
+			modifier = {
+				conscription = 0.05
+				conscription_factor = -0.6
+				training_time_army_factor = 0.5
+				army_org_factor = 0.2
+				planning_speed = 0.2
+				army_morale_factor = 0.15
+				army_defence_factor = 0.05
+				army_attack_factor = 0.05
+			}
+		}
+		
+		HAR_volunteer_detachments_professional_2 = {
+			picture = ztcnz
+			allowed = {
+				original_tag = HAR
+			}
+			modifier = {
+				conscription = 0.05
+				conscription_factor = -0.5
+				training_time_army_factor = 0.55
+				army_org_factor = 0.2
+				planning_speed = 0.2
+				army_morale_factor = 0.15
+				army_defence_factor = 0.15
+				army_attack_factor = 0.15
+				experience_loss_factor = -0.25
+			}
+		}
+		
+		HAR_volunteer_detachments_professional_3 = {
+			picture = ztcnz
+			allowed = {
+				original_tag = HAR
+			}
+			modifier = {
+				conscription = 0.05
+				conscription_factor = -0.5
+				training_time_army_factor = 0.6
+				army_org_factor = 0.4
+				planning_speed = 0.2
+				army_morale_factor = 0.25
+				army_defence_factor = 0.25
+				army_attack_factor = 0.25
+				army_speed_factor = 0.10
+				experience_loss_factor = -0.25
+			}
+		}
+		
+		HAR_militant_atheism = {
+			removal_cost = -1
+			picture = ztcnz
+			allowed = {
+				original_tag = HAR
+			}
+			modifier = {
+				research_speed_factor = 0.05
+				war_support_factor = 0.1
+				army_artillery_attack_factor = 0.1
+			}
+		}
+		
+		HAR_trade_union = {
+			removal_cost = -1
+			picture = ztcnz
+			allowed = {
+				original_tag = HAR
+			}
+			modifier = {
+				industrial_capacity_dockyard = 0.1
+				industrial_capacity_factory = 0.1
+				conversion_cost_civ_to_mil_factor = -0.15
+				political_power_factor = 0.2
+			}
+		}
+		
+		HAR_prometheus_unboud = {
+			removal_cost = -1
+			picture = ztcnz
+			allowed = {
+				original_tag = HAR
+			}
+			modifier = {
+				research_speed_factor = 0.15
+				production_speed_buildings_factor = 0.2
+			}
+		}
+		
+		HAR_reach_for_the_stars = {
+			removal_cost = -1
+			picture = ztcnz
+			allowed = {
+				original_tag = HAR
+			}
+			modifier = {
+				war_support_factor = 0.25
+				army_morale_factor = 0.3
+				army_speed_factor = 0.2
+			}
+		}
+		
+		HAR_poetic_education = {
+			removal_cost = -1
+			picture = ztcnz
+			allowed = {
+				original_tag = HAR
+			}
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				political_power_factor = 0.15
+				justify_war_goal_time = -0.1
+				research_speed_factor = 0.05
+				trade_opinion_factor = 0.1
+			}
+		}
+		
+		HAR_innovative_spirit = {
+			removal_cost = -1
+            picture = ztcnz
+            allowed = {
+                original_tag = HAR
+            }
+            modifier = {
+				research_speed_factor = 0.1
+            }
+			equipment_bonus = {
+				infantry_equipment = {
+					reliability = 0.1
+				}
+				artillery_equipment = {
+					reliability = 0.1
+				}
+			}
+        }
+	}
+}
