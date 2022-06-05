@@ -1,0 +1,101 @@
+focus_tree = {
+	id = HAB
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = HAB
+		}
+	}
+	default = no
+	focus = {
+		id = HAB_farmers
+		icon = GFX_goal_unknown
+		cost = 5
+		x = 6
+		y = 0
+		completion_reward = {
+			add_offsite_building = { 
+			    type = industrial_complex 
+				level = 1 
+			}
+		}
+	}
+	
+	focus = {
+		id = HAB_cook
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = HAB_farmers
+		}
+		x = 6
+		y = 1
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = HAB_mukkbang
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = HAB_cook
+		}
+		x = 6
+		y = 2
+		completion_reward = {
+			add_political_power = 50
+		}
+
+	}
+	focus = {
+		id = HAB_storytellers
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = HAB_mukkbang
+		}
+		x = 4
+		y = 3
+		completion_reward = {
+			add_political_power = 50
+		}
+
+	}
+	focus = {
+		id = HAB_guards_sleep
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = HAB_mukkbang
+		}
+		x = 8
+		y = 3
+		completion_reward = {
+			add_manpower = 550
+		}
+
+	}
+	focus = {
+		id = HAB_forever
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = HAB_guards_sleep
+		}
+		prerequisite = {
+			focus = HAB_storytellers
+		}
+		prerequisite = {
+			focus = HAB_mukkbang
+		}
+		x = 6
+		y = 4
+		completion_reward = {
+			add_political_power = 50
+		}
+
+	}
+}

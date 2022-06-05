@@ -1,0 +1,77 @@
+add_namespace = GAM_gamaldor
+
+#Гладиаторская арена Гластерон
+country_event = {
+	id = GAM_gamaldor.1
+	title = GAM_gamaldor.1.t
+	desc = GAM_gamaldor.1.d
+
+	picture = GAM_HTvbhxfE-1
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+
+	}
+	option = {
+		name = GAM_gamaldor.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Правило двора
+country_event = {
+	id = GAM_gamaldor.2
+	title = GAM_gamaldor.2.t
+	desc = GAM_gamaldor.2.d
+	trigger = {
+		tag = GAM
+		date > 10.01.7258
+	}
+	picture = GAM__-1
+}
+
+#Новый наследник
+country_event = {
+	id = GAM_gamaldor.3
+	title = GAM_gamaldor.3.t
+	desc = GAM_gamaldor.3.d
+	trigger = {
+		tag = GAM
+		date > 20.01.7258
+	}
+	picture = GAM__-1
+}
+
+#Хитрый план
+country_event = {
+	id = GAM_gamaldor.4
+	title = GAM_gamaldor.4.t
+	desc = GAM_gamaldor.4.d
+
+	picture = GAM__-1
+}
+
+#Свет истины
+country_event = {
+	id = GAM_gamaldor.5
+	title = GAM_gamaldor.5.t
+	desc = GAM_gamaldor.5.d
+
+	picture = GAM__-1
+}
+
+#Поиски во тьме
+country_event = {
+	id = GAM_gamaldor.6
+	title = GAM_gamaldor.6.t
+	desc = GAM_gamaldor.6.d
+
+	picture = GAM_KwNepGqS-1
+}

@@ -1,0 +1,125 @@
+add_namespace = APO_anarchy_events
+
+#Куда бегут за счастьем?
+country_event = {
+	id = APO_anarchy_events.1
+	title = APO_anarchy_events.1.t
+	desc = APO_anarchy_events.1.d
+	picture = APO_xmsWYZap-448
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = APO
+		has_completed_focus = APO_dolgiegody
+	}
+	
+	option = {
+		name = APO_anarchy_events.1.a
+		
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Казнить нельзя помиловать
+country_event = {
+	id = APO_anarchy_events.2
+	title = APO_anarchy_events.2.t
+	desc = APO_anarchy_events.2.d
+
+	picture = APO_gtkJfHZT-449
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = APO_anarchy_events.2.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		name = APO_anarchy_events.2.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Сделка со Смертью
+country_event = {
+	id = APO_anarchy_events.3
+	title = APO_anarchy_events.3.t
+	desc = APO_anarchy_events.3.d
+
+	picture = APO_OBrDhSjn-452
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = APO_anarchy_events.3.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Еще одна сделка
+country_event = {
+	id = APO_anarchy_events.4
+	title = APO_anarchy_events.4.t
+	desc = APO_anarchy_events.4.d
+
+	picture = APO_NoAQkKiy-452
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = APO_anarchy_events.4.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#И еще одна сделка...
+country_event = {
+	id = APO_anarchy_events.5
+	title = APO_anarchy_events.5.t
+	desc = APO_anarchy_events.5.d
+
+	picture = APO_oUWrPxcI-1
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = APO_anarchy_events.5.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}

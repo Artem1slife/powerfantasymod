@@ -2,18 +2,37 @@ capital = 20
 set_technology = {
 	infantry_weapons = 1
 }
-set_convoys = 150
-add_political_power = 150
-set_research_slots = 2
-set_stability = 0.6
+
+set_research_slots = 1
+set_stability = 0.2
 set_war_support = 0.5
-set_oob = "FRA_1936"
+
+add_ideas = {
+	tradition_isolitionalism
+	tradition_criminal_bands
+	tradition_anarhist_culture
+	tradition_exhaustion
+	
+	not_educated_sosaiti
+	no_industrialisated
+	more_75_poor
+	slavery_allowed
+	no_medicine
+	civilian_economy
+	closed_economy
+	
+	APO_band_power
+	APO_economic_pizdets3
+	APO_political_pizdets3
+}
+
 set_politics = {
 	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
 	fascism = 30
 	destruction = 25
@@ -21,4 +40,4 @@ set_popularities = {
 	democratic = 20
 }
 
-
+recruit_character = APO_Burov

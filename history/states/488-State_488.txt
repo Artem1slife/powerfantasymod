@@ -1,6 +1,6 @@
 state={
 	id=488
-	name="Left Fang"
+	name="STATE_488"
 	provinces={
 		1482 4133 5251 6157
 	}
@@ -12,7 +12,7 @@ state={
 			infrastructure = 2
 		}
 		add_core_of = APO
-		add_core_of = BBC
+		add_core_of = BEC
 	}
 	state_category = town
 	local_supplies=0.0 

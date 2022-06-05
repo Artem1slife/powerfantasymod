@@ -1,9 +1,11 @@
-﻿capital = 171
+capital = 20
+set_technology = {
+	infantry_weapons = 1
+}
 
 set_research_slots = 1
 set_stability = 0.2
-add_command_power = 20
-set_oob = APO
+set_war_support = 0.5
 
 add_ideas = {
 	tradition_isolitionalism
@@ -25,27 +27,16 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = communism
-	last_election = "1930.11.9"
+	ruling_party = fascism
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
-
 set_popularities = {
-	fascism = 5
-	democratic = 5
-	neutrality = 5
-	destruction = 10
-	communism = 75
+	fascism = 30
+	destruction = 25
+	neutrality = 25
+	democratic = 20
 }
 
-declare_war_on = {
-	target = ROI
-	type = civil_war
-}
-declare_war_on = {
-	target = IPO
-	type = civil_war
-}
-
-recruit_character = APO_Kromer_Freeman
+recruit_character = APO_Rafael_Aba

@@ -14,6 +14,44 @@ ideas = {
 				stability_factor = -0.2
 			}
 		}
+		
+		APO_economic_pizdets3 = {
+			picture = ztcnz
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				industrial_capacity_factory = -0.9
+				industrial_capacity_dockyard = -0.9
+				consumer_goods_factor = 0.9
+				production_speed_buildings_factor = -0.9
+				stability_factor = -0.9
+				refit_speed = -0.5
+				industry_free_repair_factor = -0.3
+				fuel_gain_factor = -100
+			}
+		}
+		
+		APO_economic_pizdets2 = {
+			picture = ztcnz
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				industrial_capacity_factory = -0.3
+				industrial_capacity_dockyard = -0.3
+				consumer_goods_factor = 0.4
+				production_speed_buildings_factor = -0.7
+				stability_factor = -0.5
+				refit_speed = -0.2
+				fuel_gain_factor = -30
+			}
+		}
+		
 		APO_economic_pizdets = {
 			picture = ztcnz
 			
@@ -29,6 +67,94 @@ ideas = {
 				stability_factor = -0.3
 			}
 		}
+		
+		APO_anarhyst_economic = {
+			picture = ztcnz
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				
+			}
+		}
+		
+		APO_political_pizdets3 = {
+			picture = ztcnz
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = -0.7
+				war_support_factor = -0.9
+				neutrality_drift = 0.1
+				destruction_drift = 0.1
+				fascism_drift = 0.1
+				political_power_factor = -0.8
+				political_power_cost = 0.3
+				conscription = 0.15
+				weekly_manpower = -100
+				command_power_gain = -0.5
+			}
+		}
+		
+		APO_political_pizdets2 = {
+			picture = ztcnz
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = -0.3
+				war_support_factor = -0.6
+				neutrality_drift = 0.05
+				destruction_drift = 0.05
+				fascism_drift = 0.05
+				political_power_factor = -0.4
+				political_power_cost = 0.1
+				conscription = 0.15
+				weekly_manpower = -50
+				command_power_gain = -0.3
+			}
+		}
+		
+		APO_political_pizdets1 = {
+			picture = ztcnz
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = -0.2
+				war_support_factor = -0.3
+				neutrality_drift = 0.05
+				destruction_drift = 0.05
+				fascism_drift = 0.05
+				political_power_factor = -0.2
+				conscription = 0.15
+				weekly_manpower = -10
+			}
+		}
+		
+		APO_community_politics = {
+			picture = ztcnz
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.2
+				weekly_manpower = 10
+				conscription_factor = 0.2
+			}
+		}
+		
 		APO_mobilisation = {
 			picture = ztcnz
 			
@@ -46,5 +172,66 @@ ideas = {
 				conscription = 0.15
 			}
 		}
+		
+		APO_rev_soviet = {
+			picture = ztcnz
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_core_defence_factor = 0.15
+			}
+		}
+		
+		APO_battle_with_famine = {
+			picture = ztcnz
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				
+			}
+		}
+		
+		APO_medicine_brigade = {
+			picture = ztcnz
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				
+			}
+		}
+		
+		APO_education_brigade = {
+			picture = ztcnz
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				
+			}
+		}
+		
+		APO_triumph = {
+			picture = ztcnz
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				trade_opinion_factor = 0.1
+			}
+		}
+		
 	}
 }

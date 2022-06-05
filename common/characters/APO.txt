@@ -1,0 +1,74 @@
+characters = {
+	APO_Kromer_Freeman = {
+		portraits={
+			civilian={
+				large="gfx/leaders/RAV/fallan_heckmann.dds"
+			}
+		}
+		country_leader={
+			ideology=anarkho_collectivism
+			traits = {  }
+			expire="8000.1.1.1"
+			id=-1
+		}
+	}
+	
+	### POLITICAL LEADER OF BAD GUYS ###
+	
+	APO_Keith_Mashego = {
+		portraits={
+			civilian={
+				large="gfx/leaders/RAV/fallan_heckmann.dds"
+			}
+		}
+		country_leader={
+			ideology=criminal
+			traits = {  }
+			expire="8000.1.1.1"
+			id=-1
+		}
+	}
+	
+	APO_Rafael_Aba = {
+		portraits={
+			civilian={
+				large="gfx/leaders/RAV/fallan_heckmann.dds"
+			}
+		}
+		country_leader={
+			ideology=criminal
+			traits = {  }
+			expire="8000.1.1.1"
+			id=-1
+		}
+	}
+	
+	APO_Zhan_Zheng = {
+		portraits={
+			civilian={
+				large="gfx/leaders/RAV/fallan_heckmann.dds"
+			}
+		}
+		country_leader={
+			ideology=criminal
+			traits = {  }
+			expire="8000.1.1.1"
+			id=-1
+		}
+	}
+	
+	APO_Burov = {
+		portraits={
+			civilian={
+				large="gfx/leaders/RAV/fallan_heckmann.dds"
+			}
+		}
+		country_leader={
+			ideology=criminal
+			traits = {  }
+			expire="8000.1.1.1"
+			id=-1
+		}
+	}
+	
+}

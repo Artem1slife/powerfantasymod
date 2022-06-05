@@ -176,6 +176,10 @@ ideologies = {
 				can_be_randomly_selected = no
 			}
 			
+			criminal = {
+				can_be_randomly_selected = no
+			}
+			
 		}
 		
 		dynamic_faction_names = {

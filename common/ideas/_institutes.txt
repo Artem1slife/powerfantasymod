@@ -862,5 +862,85 @@ ideas = {
 
 			cancel_if_invalid = no
 		}
+		
+		tradition_criminal_bands= {
+			available = {
+				political_power_daily > 0
+				always = no
+			}
+			
+			removal_cost = 250
+			cost = 500
+
+			modifier = {
+				
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		
+		tradition_anarhist_culture = {
+			available = {
+				political_power_daily > 0
+				always = no
+			}
+			
+			removal_cost = 250
+			cost = 500
+
+			modifier = {
+				
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		
+		tradition_exhaustion = {
+			available = {
+				political_power_daily > 0
+				always = no
+			}
+			
+			removal_cost = 250
+			cost = 500
+
+			modifier = {
+				
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		
+		tradition_culture_of_help = {
+			available = {
+				political_power_daily > 0
+				always = no
+			}
+			
+			removal_cost = 250
+			cost = 500
+
+			modifier = {
+				
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
 	}
 }
