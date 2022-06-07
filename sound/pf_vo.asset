@@ -1,0 +1,116 @@
+
+category = 
+{
+ name = "Voices"
+ soundeffects = {
+	IPO_infantry_idle
+	IPO_infantry_neutral_combat
+	IPO_infantry_positive_combat
+	IPO_infantry_retreat
+	IPO_infantry_move_out
+ }
+  compressor = 
+ {
+	enabled = yes
+	pregain = 0.0
+	postgain = 2.0
+	ratio = 10.0
+	threshold = -10.0
+	attacktime = 0.030
+	releasetime = 1.2
+ }
+}
+
+########## IPO
+
+soundeffect = 
+{
+    name = "IPO_infantry_idle"
+    sounds = {
+		sound = im_sound_13
+		sound = im_sound_18
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect = 
+{
+    name = "IPO_infantry_neutral_combat"
+    sounds = {
+        sound = im_sound_1
+        sound = im_sound_10
+		sound = im_sound_12
+		sound = im_sound_14
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "IPO_infantry_positive_combat"
+    sounds = {
+        sound = im_sound_4
+        sound = im_sound_5
+        sound = im_sound_1
+        sound = im_sound_3
+        sound = im_sound_9
+		sound = im_sound_16
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "IPO_infantry_retreat"
+    sounds = {
+        sound = im_sound_10
+        sound = im_sound_6
+		sound = im_sound_11
+		sound = im_sound_15
+		sound = im_sound_17
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "IPO_infantry_move_out"
+    sounds = {
+		sound = im_sound_8
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+sound = { name = "im_sound_1" file = "ipo/im_sound_1.wav" }
+sound = { name = "im_sound_2" file = "ipo/im_sound_2.wav" } #я готов отдать жизнь за вас, сэ
+sound = { name = "im_sound_3" file = "ipo/im_sound_3.wav" }
+sound = { name = "im_sound_4" file = "ipo/im_sound_4.wav" }
+sound = { name = "im_sound_5" file = "ipo/im_sound_5.wav" }
+sound = { name = "im_sound_6" file = "ipo/im_sound_6.wav" }
+sound = { name = "im_sound_7" file = "ipo/im_sound_7.wav" } #во славу империи
+sound = { name = "im_sound_8" file = "ipo/im_sound_8.wav" }
+sound = { name = "im_sound_9" file = "ipo/im_sound_9.wav" }
+sound = { name = "im_sound_10" file = "ipo/im_sound_10.wav" }
+sound = { name = "im_sound_11" file = "ipo/im_sound_11.wav" }
+sound = { name = "im_sound_12" file = "ipo/im_sound_12.wav" }
+sound = { name = "im_sound_13" file = "ipo/im_sound_13.wav" }
+sound = { name = "im_sound_14" file = "ipo/im_sound_14.wav" }
+sound = { name = "im_sound_15" file = "ipo/im_sound_15.wav" }
+sound = { name = "im_sound_16" file = "ipo/im_sound_16.wav" }
+sound = { name = "im_sound_17" file = "ipo/im_sound_17.wav" }
+sound = { name = "im_sound_18" file = "ipo/im_sound_18.wav" }
