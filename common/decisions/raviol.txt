@@ -70,6 +70,7 @@ RAV_centralization = {
 			}
         }
         activation = {
+			tag = RAV
 			IST = {
 				OR = {
 					has_idea = UP_influence_low
@@ -182,6 +183,7 @@ RAV_centralization = {
 			}
         }
         activation = {
+			tag = RAV
 			EMF = {
 				OR = {
 					has_idea = UP_influence_low
@@ -294,6 +296,7 @@ RAV_centralization = {
 			}
         }
         activation = {
+			tag = RAV
 			ASP = {
 				OR = {
 					has_idea = UP_influence_low
@@ -406,6 +409,7 @@ RAV_centralization = {
 			}
         }
         activation = {
+			tag = RAV
 			DKC = {
 				OR = {
 					has_idea = UP_influence_low
@@ -518,6 +522,7 @@ RAV_centralization = {
 			}
         }
         activation = {
+			tag = RAV
 			DMT = {
 				OR = {
 					has_idea = UP_influence_low
@@ -630,6 +635,7 @@ RAV_centralization = {
 			}
         }
         activation = {
+			tag = RAV
 			DGP = {
 				OR = {
 					has_idea = UP_influence_low

@@ -29,6 +29,9 @@ soundeffect =
     sounds = {
 		sound = im_sound_13
 		sound = im_sound_18
+		sound = im_sound_19
+		sound = im_sound_22
+		sound = im_sound_26
     }
 	max_audible = 1
 	max_audible_behaviour = fail
@@ -41,9 +44,8 @@ soundeffect =
     name = "IPO_infantry_neutral_combat"
     sounds = {
         sound = im_sound_1
-        sound = im_sound_10
-		sound = im_sound_12
 		sound = im_sound_14
+		sound = im_sound_21
     }
 	max_audible = 1
 	max_audible_behaviour = fail
@@ -57,10 +59,8 @@ soundeffect =
     sounds = {
         sound = im_sound_4
         sound = im_sound_5
-        sound = im_sound_1
-        sound = im_sound_3
-        sound = im_sound_9
-		sound = im_sound_16
+		sound = im_sound_24
+		sound = im_sound_25
     }
 	max_audible = 1
 	max_audible_behaviour = fail
@@ -72,11 +72,9 @@ soundeffect =
 {
     name = "IPO_infantry_retreat"
     sounds = {
-        sound = im_sound_10
         sound = im_sound_6
-		sound = im_sound_11
-		sound = im_sound_15
 		sound = im_sound_17
+		sound = im_sound_15
     }
 	max_audible = 1
 	max_audible_behaviour = fail
@@ -89,6 +87,8 @@ soundeffect =
     name = "IPO_infantry_move_out"
     sounds = {
 		sound = im_sound_8
+		sound = im_sound_20
+		sound = im_sound_23
     }
 	max_audible = 1
 	max_audible_behaviour = fail
@@ -97,12 +97,12 @@ soundeffect =
 	playbackrate_random_offset = { 0.0 -0.15}
 }
 sound = { name = "im_sound_1" file = "ipo/im_sound_1.wav" }
-sound = { name = "im_sound_2" file = "ipo/im_sound_2.wav" } #я готов отдать жизнь за вас, сэ
+sound = { name = "im_sound_2" file = "ipo/im_sound_2.wav" }
 sound = { name = "im_sound_3" file = "ipo/im_sound_3.wav" }
 sound = { name = "im_sound_4" file = "ipo/im_sound_4.wav" }
 sound = { name = "im_sound_5" file = "ipo/im_sound_5.wav" }
 sound = { name = "im_sound_6" file = "ipo/im_sound_6.wav" }
-sound = { name = "im_sound_7" file = "ipo/im_sound_7.wav" } #во славу империи
+sound = { name = "im_sound_7" file = "ipo/im_sound_7.wav" }
 sound = { name = "im_sound_8" file = "ipo/im_sound_8.wav" }
 sound = { name = "im_sound_9" file = "ipo/im_sound_9.wav" }
 sound = { name = "im_sound_10" file = "ipo/im_sound_10.wav" }
@@ -114,3 +114,12 @@ sound = { name = "im_sound_15" file = "ipo/im_sound_15.wav" }
 sound = { name = "im_sound_16" file = "ipo/im_sound_16.wav" }
 sound = { name = "im_sound_17" file = "ipo/im_sound_17.wav" }
 sound = { name = "im_sound_18" file = "ipo/im_sound_18.wav" }
+sound = { name = "im_sound_19" file = "ipo/im_sound_19.wav" }
+sound = { name = "im_sound_20" file = "ipo/im_sound_20.wav" }
+sound = { name = "im_sound_21" file = "ipo/im_sound_21.wav" }
+sound = { name = "im_sound_22" file = "ipo/im_sound_22.wav" }
+sound = { name = "im_sound_23" file = "ipo/im_sound_23.wav" }
+sound = { name = "im_sound_24" file = "ipo/im_sound_24.wav" }
+sound = { name = "im_sound_25" file = "ipo/im_sound_25.wav" }
+sound = { name = "im_sound_26" file = "ipo/im_sound_26.wav" }
+
