@@ -2,7 +2,7 @@ characters = {
 	APO_Kromer_Freeman = {
 		portraits={
 			civilian={
-				large="gfx/leaders/RAV/fallan_heckmann.dds"
+				large="gfx/leaders/APO/APO_leader.dds"
 			}
 		}
 		country_leader={
@@ -18,7 +18,7 @@ characters = {
 	APO_Keith_Mashego = {
 		portraits={
 			civilian={
-				large="gfx/leaders/RAV/fallan_heckmann.dds"
+				large="gfx/leaders/BEC/BEC_leader.dds"
 			}
 		}
 		country_leader={
@@ -32,7 +32,7 @@ characters = {
 	APO_Rafael_Aba = {
 		portraits={
 			civilian={
-				large="gfx/leaders/RAV/fallan_heckmann.dds"
+				large="gfx/leaders/BBM/BBM_leader.dds"
 			}
 		}
 		country_leader={
