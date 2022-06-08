@@ -12,7 +12,7 @@ focus_tree = {
 	#Долгие годы
 	focus = {
 		id = APO_dolgiegody
-		icon = GFX_APO_dolgiegody-59
+		icon = GFX_APO_dolgiegody
 		x = 5
 		y = 0
 		cost = 2
@@ -86,7 +86,7 @@ focus_tree = {
 	#Налаживание контактов
 	focus = {
 		id = APO_nalazhivaniekontaktov
-		icon = GFX_APO_nalazhivaniekontaktov-155659
+		icon = GFX_APO_nalazhivaniekontaktov
 		x = 7
 		y = 2
 		cost = 20
@@ -122,7 +122,7 @@ focus_tree = {
 	#Иллегализм
 	focus = {
 		id = APO_illegalizm
-		icon = GFX_APO_illegalizm-155658
+		icon = GFX_APO_illegalizm
 		x = 7
 		y = 0
 		cost = 2
@@ -279,7 +279,7 @@ focus_tree = {
 	#Большая коммуна!
 	focus = {
 		id = APO_bolshayakommuna
-		icon = GFX_APO_bolshayakommuna-156420
+		icon = GFX_APO_bolshayakommuna
 		x = 1
 		y = 7
 		cost = 10
@@ -292,7 +292,7 @@ focus_tree = {
 	#Земельная реформа
 	focus = {
 		id = APO_zemelnayareforma
-		icon = GFX_APO_zemelnayareforma-251
+		icon = GFX_APO_zemelnayareforma
 		x = 8
 		y = 5
 		cost = 10
@@ -373,7 +373,7 @@ focus_tree = {
 	#Триумф анархизма!
 	focus = {
 		id = APO_triumfanarhizma
-		icon = GFX_APO_triumfanarhizma-156465
+		icon = GFX_APO_triumfanarhizma
 		x = 6
 		y = 9
 		cost = 1
@@ -389,7 +389,7 @@ focus_tree = {
 	#Военные реформы
 	focus = {
 		id = APO_voennyereformy
-		icon = GFX_APO_voennyereformy-157719
+		icon = GFX_APO_voennyereformy
 		x = 12
 		y = 5
 		cost = 7
@@ -407,7 +407,7 @@ focus_tree = {
 	#Опора на металл и порох
 	focus = {
 		id = APO_oporanametalliporoh
-		icon = GFX_APO_oporanametalliporoh-157721
+		icon = GFX_APO_oporanametalliporoh
 		x = 11
 		y = 6
 		cost = 1
@@ -424,7 +424,7 @@ focus_tree = {
 	#Друг винтовка
 	focus = {
 		id = APO_drugvintovka
-		icon = GFX_APO_drugvintovka-157724
+		icon = GFX_APO_drugvintovka
 		x = 10
 		y = 7
 		cost = 7
@@ -437,7 +437,7 @@ focus_tree = {
 	#Пушки
 	focus = {
 		id = APO_pushki
-		icon = GFX_APO_pushki-157725
+		icon = GFX_APO_pushki
 		x = 12
 		y = 7
 		cost = 7
@@ -450,7 +450,7 @@ focus_tree = {
 	#Механика
 	focus = {
 		id = APO_mehanika
-		icon = GFX_APO_mehanika-157732
+		icon = GFX_APO_mehanika
 		x = 10
 		y = 8
 		cost = 7
@@ -476,7 +476,7 @@ focus_tree = {
 	#Опора на магию
 	focus = {
 		id = APO_oporanamagiyu
-		icon = GFX_APO_oporanamagiyu-157737
+		icon = GFX_APO_oporanamagiyu
 		x = 15
 		y = 6
 		cost = 1
@@ -489,7 +489,7 @@ focus_tree = {
 	#Аккумулятивная магия
 	focus = {
 		id = APO_akkumulyativnayamagiya
-		icon = GFX_APO_akkumulyativnayamagiya-157738
+		icon = GFX_APO_akkumulyativnayamagiya
 		x = 14
 		y = 7
 		cost = 3
@@ -502,7 +502,7 @@ focus_tree = {
 	#Квалдовство
 	focus = {
 		id = APO_kvaldovstvo
-		icon = GFX_APO_kvaldovstvo-157742
+		icon = GFX_APO_kvaldovstvo
 		x = 16
 		y = 7
 		cost = 3
@@ -515,7 +515,7 @@ focus_tree = {
 	#Открытие первой школы магии
 	focus = {
 		id = APO_otkrytiepervoyshkolymagii
-		icon = GFX_APO_otkrytiepervoyshkolymagii-157743
+		icon = GFX_APO_otkrytiepervoyshkolymagii
 		x = 15
 		y = 8
 		cost = 14
@@ -528,7 +528,7 @@ focus_tree = {
 	#Ставка на темную магию
 	focus = {
 		id = APO_stavkanatemnuyumagiyu
-		icon = GFX_APO_stavkanatemnuyumagiyu-157746
+		icon = GFX_APO_stavkanatemnuyumagiyu
 		x = 14
 		y = 9
 		cost = 1
@@ -541,7 +541,7 @@ focus_tree = {
 	#Ставка на ментальную магию
 	focus = {
 		id = APO_stavkanamentalnuyumagiyu
-		icon = GFX_APO_stavkanamentalnuyumagiyu-157747
+		icon = GFX_APO_stavkanamentalnuyumagiyu
 		x = 16
 		y = 9
 		cost = 1
@@ -554,7 +554,7 @@ focus_tree = {
 	#Некромантия
 	focus = {
 		id = APO_nekromantiya
-		icon = GFX_APO_nekromantiya-157748
+		icon = GFX_APO_nekromantiya
 		x = 12
 		y = 10
 		cost = 14
@@ -567,7 +567,7 @@ focus_tree = {
 	#Беспорядок
 	focus = {
 		id = APO_besporyadok
-		icon = GFX_APO_besporyadok-157750
+		icon = GFX_APO_besporyadok
 		x = 14
 		y = 10
 		cost = 14
@@ -580,7 +580,7 @@ focus_tree = {
 	#Магия духа
 	focus = {
 		id = APO_magiyaduha
-		icon = GFX_APO_magiyaduha-157751
+		icon = GFX_APO_magiyaduha
 		x = 16
 		y = 10
 		cost = 14
@@ -593,7 +593,7 @@ focus_tree = {
 	#Магия иллюзий
 	focus = {
 		id = APO_magiyaillyuziy
-		icon = GFX_APO_magiyaillyuziy-157752
+		icon = GFX_APO_magiyaillyuziy
 		x = 18
 		y = 10
 		cost = 14
@@ -606,7 +606,7 @@ focus_tree = {
 	#Магия как часть быта
 	focus = {
 		id = APO_magiyakakchastbyta
-		icon = GFX_APO_magiyakakchastbyta-157754
+		icon = GFX_APO_magiyakakchastbyta
 		x = 15
 		y = 11
 		cost = 7
@@ -619,7 +619,7 @@ focus_tree = {
 	#Истинное предназначение магии
 	focus = {
 		id = APO_istinnoeprednaznacheniemagii
-		icon = GFX_APO_istinnoeprednaznacheniemagii-157758
+		icon = GFX_APO_istinnoeprednaznacheniemagii
 		x = 15
 		y = 12
 		cost = 3
@@ -632,7 +632,7 @@ focus_tree = {
 	#Сделка со Смертью
 	focus = {
 		id = APO_sdelkasosmertyu
-		icon = GFX_APO_sdelkasosmertyu-157767
+		icon = GFX_APO_sdelkasosmertyu
 		x = 15
 		y = 13
 		cost = 3
@@ -645,7 +645,7 @@ focus_tree = {
 	#Еще одна сделка
 	focus = {
 		id = APO_eshcheodnasdelka
-		icon = GFX_APO_eshcheodnasdelka-157769
+		icon = GFX_APO_eshcheodnasdelka
 		x = 15
 		y = 14
 		cost = 1
@@ -658,7 +658,7 @@ focus_tree = {
 	#И еще одна сделка...
 	focus = {
 		id = APO_ieshcheodnasdelka
-		icon = GFX_APO_ieshcheodnasdelka-157773
+		icon = GFX_APO_ieshcheodnasdelka
 		x = 15
 		y = 15
 		cost = 1
