@@ -46,7 +46,7 @@ characters = {
 	APO_Zhan_Zheng = {
 		portraits={
 			civilian={
-				large="gfx/leaders/RAV/fallan_heckmann.dds"
+				large="gfx/leaders/BBT/triada_leader.dds"
 			}
 		}
 		country_leader={
@@ -60,7 +60,7 @@ characters = {
 	APO_Burov = {
 		portraits={
 			civilian={
-				large="gfx/leaders/RAV/fallan_heckmann.dds"
+				large="gfx/leaders/BBB/burov_leader.dds"
 			}
 		}
 		country_leader={
