@@ -4,13 +4,13 @@ state={
 	provinces={
 		999 1345 1480 1546 1570 1913 2601 3257 4089 4194 4583 4706 4912 4949 5854 6562 6589 6608 6663 6705 6720 
 	}
-	manpower=1
+	manpower=10858912
 	history={
-		owner = TST
+		owner = OSI
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = TST
+		add_core_of = OSI
 	}
 	state_category = rural
 	local_supplies=0.0 

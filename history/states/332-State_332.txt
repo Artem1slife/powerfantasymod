@@ -4,13 +4,13 @@ state={
 	provinces={
 		416 1775 1779 1990 2546 2559 2787 2891 3011 3223 4408 4596 4855 5079 5132 5272 5386 5399 7174 7260 7265 7282 7302 7313 7346 7371 7374 7383 7388 
 	}
-	manpower=1
+	manpower=1825239
 	history={
-		owner = TST
+		owner = NIM
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = TST
+		add_core_of = NIM
 	}
 	state_category = rural
 	local_supplies=0.0 
