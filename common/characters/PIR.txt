@@ -1,0 +1,599 @@
+characters = {
+PIR_char_id_0={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =PIR
+}
+name =PIR0
+cost =100
+removal_cost =150
+traits = {
+cornered_fox
+}
+}
+}
+PIR_char_id_1={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =PIR
+}
+name =PIR1
+cost =100
+removal_cost =150
+traits = {
+stammer
+}
+}
+}
+PIR_char_id_2={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =PIR
+}
+name =PIR2
+cost =100
+removal_cost =150
+traits = {
+hawk
+}
+}
+}
+PIR_char_id_3={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =PIR
+}
+name =PIR3
+cost =100
+removal_cost =150
+traits = {
+face_licker
+warmonger
+}
+}
+}
+PIR_char_id_4={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =PIR
+}
+name =PIR4
+cost =100
+removal_cost =150
+traits = {
+humble
+hawk
+}
+}
+}
+PIR_char_id_5={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =PIR
+}
+name =PIR5
+cost =100
+removal_cost =150
+traits = {
+dealbroker
+}
+}
+}
+PIR_char_id_6={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =PIR
+}
+name =PIR6
+cost =100
+removal_cost =150
+traits = {
+snuggler
+}
+}
+}
+PIR_char_id_7={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =PIR
+}
+name =PIR7
+cost =100
+removal_cost =150
+traits = {
+railroad_enthusiast
+conservative_grandee
+}
+}
+}
+PIR_char_id_8={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =PIR
+}
+name =PIR8
+cost =100
+removal_cost =150
+traits = {
+railroad_enthusiast
+}
+}
+}
+PIR_char_id_9={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =air_chief
+allowed  = {
+original_tag =PIR
+}
+name =PIR9
+cost =100
+removal_cost =150
+traits = {
+humble
+}
+}
+}
+PIR_char_id_10={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =army_chief
+allowed  = {
+original_tag =PIR
+}
+name =PIR10
+cost =100
+removal_cost =150
+traits = {
+hawk
+}
+}
+}
+PIR_char_id_11={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =navy_chief
+allowed  = {
+original_tag =PIR
+}
+name =PIR11
+cost =100
+removal_cost =150
+traits = {
+stammer
+}
+}
+}
+PIR_char_id_12={
+portraits={
+civilian={
+large="gfx/leaders/RAV/fallan_heckmann.dds"
+}
+}
+country_leader={
+ideology =monarchy
+traits = {}
+expire="8000.1.1.1"
+id=-1
+}
+}
+PIR_char_id_13={
+name =PIR13
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+trait_reckless
+career_officer
+politically_connected
+}
+skill = 5
+attack_skill = 4
+defense_skill = 3
+planning_skill = 5
+logistics_skill = 3
+}
+}
+PIR_char_id_14={
+name =PIR14
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+armor_officer
+war_hero
+trait_cautious
+career_officer
+politically_connected
+}
+skill = 1
+attack_skill = 5
+defense_skill = 5
+planning_skill = 4
+logistics_skill = 2
+}
+}
+PIR_char_id_15={
+name =PIR15
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+bearer_of_artillery
+cavalry_officer
+}
+skill = 5
+attack_skill = 3
+defense_skill = 5
+planning_skill = 1
+logistics_skill = 1
+}
+}
+PIR_char_id_16={
+name =PIR16
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+politically_connected
+inflexible_strategist
+old_guard
+}
+skill = 3
+attack_skill = 3
+defense_skill = 3
+planning_skill = 3
+logistics_skill = 5
+}
+}
+PIR_char_id_17={
+name =PIR17
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+infantry_officer
+old_guard
+bearer_of_artillery
+war_hero
+trait_cautious
+}
+skill = 2
+attack_skill = 4
+defense_skill = 5
+planning_skill = 3
+logistics_skill = 5
+}
+}
+PIR_char_id_18={
+name =PIR18
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+trait_reckless
+cavalry_officer
+}
+skill = 5
+attack_skill = 3
+defense_skill = 2
+planning_skill = 5
+logistics_skill = 4
+}
+}
+PIR_char_id_19={
+name =PIR19
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+brilliant_strategist
+old_guard
+}
+skill = 2
+attack_skill = 5
+defense_skill = 3
+planning_skill = 3
+logistics_skill = 3
+}
+}
+PIR_char_id_20={
+name =PIR20
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+armor_officer
+old_guard
+engineer_officer
+infantry_officer
+}
+skill = 1
+attack_skill = 1
+defense_skill = 1
+planning_skill = 4
+logistics_skill = 5
+}
+}
+PIR_char_id_21={
+name =PIR21
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+brilliant_strategist
+trait_cautious
+}
+skill = 1
+attack_skill = 4
+defense_skill = 2
+planning_skill = 5
+logistics_skill = 4
+}
+}
+PIR_char_id_22={
+name =PIR22
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+armor_officer
+media_personality
+}
+skill = 4
+attack_skill = 4
+defense_skill = 1
+planning_skill = 5
+logistics_skill = 2
+}
+}
+PIR_char_id_23={
+name =PIR_char_id_23
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+blockade_runner
+hunter_killer
+superior_tactician
+}
+skill = 3
+attack_skill = 5
+defense_skill = 1
+maneuvering_skill = 5
+coordination_skill = 1
+}
+}
+PIR_char_id_24={
+name =PIR_char_id_24
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+ironside
+loading_drill_master
+seawolf
+}
+skill = 2
+attack_skill = 1
+defense_skill = 4
+maneuvering_skill = 2
+coordination_skill = 1
+}
+}
+PIR_char_id_25={
+name =PIR_char_id_25
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+blockade_runner
+}
+skill = 3
+attack_skill = 2
+defense_skill = 1
+maneuvering_skill = 2
+coordination_skill = 5
+}
+}
+PIR_char_id_26={
+name =PIR_char_id_26
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+fleet_protector
+spotter
+}
+skill = 4
+attack_skill = 1
+defense_skill = 4
+maneuvering_skill = 2
+coordination_skill = 5
+}
+}
+PIR_char_id_27={
+name =PIR_char_id_27
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+seawolf
+superior_tactician
+ironside
+}
+skill = 4
+attack_skill = 1
+defense_skill = 4
+maneuvering_skill = 4
+coordination_skill = 2
+}
+}
+PIR_char_id_28={
+name =PIR_char_id_28
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+silent_hunter
+spotter
+fleet_protector
+}
+skill = 1
+attack_skill = 2
+defense_skill = 2
+maneuvering_skill = 4
+coordination_skill = 3
+}
+}
+PIR_char_id_29={
+name =PIR_char_id_29
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+hunter_killer
+seawolf
+}
+skill = 4
+attack_skill = 2
+defense_skill = 1
+maneuvering_skill = 4
+coordination_skill = 5
+}
+}
+}

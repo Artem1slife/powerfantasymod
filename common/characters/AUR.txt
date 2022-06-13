@@ -1,0 +1,621 @@
+characters = {
+AUR_char_id_0={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =AUR
+}
+name =AUR0
+cost =100
+removal_cost =150
+traits = {
+cornered_fox
+warmonger
+}
+}
+}
+AUR_char_id_1={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =AUR
+}
+name =AUR1
+cost =100
+removal_cost =150
+traits = {
+conservative_grandee
+dealbroker
+}
+}
+}
+AUR_char_id_2={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =AUR
+}
+name =AUR2
+cost =100
+removal_cost =150
+traits = {
+warrior_code
+face_licker
+}
+}
+}
+AUR_char_id_3={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =AUR
+}
+name =AUR3
+cost =100
+removal_cost =150
+traits = {
+stammer
+dealbroker
+}
+}
+}
+AUR_char_id_4={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =AUR
+}
+name =AUR4
+cost =100
+removal_cost =150
+traits = {
+hawk
+}
+}
+}
+AUR_char_id_5={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =AUR
+}
+name =AUR5
+cost =100
+removal_cost =150
+traits = {
+humble
+}
+}
+}
+AUR_char_id_6={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =AUR
+}
+name =AUR6
+cost =100
+removal_cost =150
+traits = {
+snuggler
+snuggler
+}
+}
+}
+AUR_char_id_7={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =AUR
+}
+name =AUR7
+cost =100
+removal_cost =150
+traits = {
+hawk
+}
+}
+}
+AUR_char_id_8={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =AUR
+}
+name =AUR8
+cost =100
+removal_cost =150
+traits = {
+cornered_fox
+dealbroker
+}
+}
+}
+AUR_char_id_9={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =air_chief
+allowed  = {
+original_tag =AUR
+}
+name =AUR9
+cost =100
+removal_cost =150
+traits = {
+face_licker
+face_licker
+}
+}
+}
+AUR_char_id_10={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =army_chief
+allowed  = {
+original_tag =AUR
+}
+name =AUR10
+cost =100
+removal_cost =150
+traits = {
+face_licker
+humble
+}
+}
+}
+AUR_char_id_11={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =navy_chief
+allowed  = {
+original_tag =AUR
+}
+name =AUR11
+cost =100
+removal_cost =150
+traits = {
+hawk
+}
+}
+}
+AUR_char_id_12={
+portraits={
+civilian={
+large="gfx/leaders/RAV/fallan_heckmann.dds"
+}
+}
+country_leader={
+ideology =monarchy
+traits = {}
+expire="8000.1.1.1"
+id=-1
+}
+}
+AUR_char_id_13={
+name =AUR13
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+infantry_officer
+engineer_officer
+politically_connected
+trait_reckless
+}
+skill = 3
+attack_skill = 4
+defense_skill = 1
+planning_skill = 3
+logistics_skill = 4
+}
+}
+AUR_char_id_14={
+name =AUR14
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+trait_cautious
+harsh_leader
+harsh_leader
+}
+skill = 1
+attack_skill = 2
+defense_skill = 5
+planning_skill = 5
+logistics_skill = 4
+}
+}
+AUR_char_id_15={
+name =AUR15
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+trait_reckless
+engineer_officer
+bearer_of_artillery
+engineer_officer
+war_hero
+}
+skill = 5
+attack_skill = 4
+defense_skill = 1
+planning_skill = 3
+logistics_skill = 1
+}
+}
+AUR_char_id_16={
+name =AUR16
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+trait_cautious
+inflexible_strategist
+}
+skill = 2
+attack_skill = 5
+defense_skill = 4
+planning_skill = 2
+logistics_skill = 5
+}
+}
+AUR_char_id_17={
+name =AUR17
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+infantry_officer
+infantry_officer
+old_guard
+trait_reckless
+}
+skill = 3
+attack_skill = 2
+defense_skill = 5
+planning_skill = 3
+logistics_skill = 3
+}
+}
+AUR_char_id_18={
+name =AUR18
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+engineer_officer
+old_guard
+}
+skill = 3
+attack_skill = 1
+defense_skill = 1
+planning_skill = 4
+logistics_skill = 2
+}
+}
+AUR_char_id_19={
+name =AUR19
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+inflexible_strategist
+armor_officer
+}
+skill = 4
+attack_skill = 2
+defense_skill = 2
+planning_skill = 3
+logistics_skill = 1
+}
+}
+AUR_char_id_20={
+name =AUR20
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+armor_officer
+politically_connected
+trait_reckless
+brilliant_strategist
+}
+skill = 1
+attack_skill = 5
+defense_skill = 4
+planning_skill = 3
+logistics_skill = 5
+}
+}
+AUR_char_id_21={
+name =AUR21
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+old_guard
+armor_officer
+career_officer
+}
+skill = 5
+attack_skill = 1
+defense_skill = 4
+planning_skill = 2
+logistics_skill = 3
+}
+}
+AUR_char_id_22={
+name =AUR22
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+armor_officer
+engineer_officer
+}
+skill = 1
+attack_skill = 2
+defense_skill = 1
+planning_skill = 1
+logistics_skill = 3
+}
+}
+AUR_char_id_23={
+name =AUR_char_id_23
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+seawolf
+}
+skill = 4
+attack_skill = 3
+defense_skill = 5
+maneuvering_skill = 5
+coordination_skill = 2
+}
+}
+AUR_char_id_24={
+name =AUR_char_id_24
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+blockade_runner
+fly_swatter
+loading_drill_master
+}
+skill = 2
+attack_skill = 2
+defense_skill = 5
+maneuvering_skill = 1
+coordination_skill = 4
+}
+}
+AUR_char_id_25={
+name =AUR_char_id_25
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+silent_hunter
+fleet_protector
+}
+skill = 3
+attack_skill = 3
+defense_skill = 2
+maneuvering_skill = 3
+coordination_skill = 3
+}
+}
+AUR_char_id_26={
+name =AUR_char_id_26
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+seawolf
+superior_tactician
+}
+skill = 1
+attack_skill = 4
+defense_skill = 5
+maneuvering_skill = 4
+coordination_skill = 2
+}
+}
+AUR_char_id_27={
+name =AUR_char_id_27
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+superior_tactician
+loading_drill_master
+}
+skill = 5
+attack_skill = 1
+defense_skill = 4
+maneuvering_skill = 1
+coordination_skill = 2
+}
+}
+AUR_char_id_28={
+name =AUR_char_id_28
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+spotter
+lancer
+seawolf
+}
+skill = 4
+attack_skill = 5
+defense_skill = 1
+maneuvering_skill = 4
+coordination_skill = 2
+}
+}
+AUR_char_id_29={
+name =AUR_char_id_29
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+lancer
+}
+skill = 4
+attack_skill = 3
+defense_skill = 5
+maneuvering_skill = 3
+coordination_skill = 3
+}
+}
+AUR_char_id_30={
+name =AUR_char_id_30
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+silent_hunter
+}
+skill = 5
+attack_skill = 3
+defense_skill = 2
+maneuvering_skill = 2
+coordination_skill = 3
+}
+}
+}

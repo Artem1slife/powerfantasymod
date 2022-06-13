@@ -1,0 +1,578 @@
+characters = {
+FLY_char_id_0={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =FLY
+}
+name =FLY0
+cost =100
+removal_cost =150
+traits = {
+dealbroker
+}
+}
+}
+FLY_char_id_1={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =FLY
+}
+name =FLY1
+cost =100
+removal_cost =150
+traits = {
+cornered_fox
+}
+}
+}
+FLY_char_id_2={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =FLY
+}
+name =FLY2
+cost =100
+removal_cost =150
+traits = {
+conservative_grandee
+stammer
+}
+}
+}
+FLY_char_id_3={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =FLY
+}
+name =FLY3
+cost =100
+removal_cost =150
+traits = {
+humble
+snuggler
+}
+}
+}
+FLY_char_id_4={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =FLY
+}
+name =FLY4
+cost =100
+removal_cost =150
+traits = {
+snuggler
+}
+}
+}
+FLY_char_id_5={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =FLY
+}
+name =FLY5
+cost =100
+removal_cost =150
+traits = {
+dealbroker
+dealbroker
+}
+}
+}
+FLY_char_id_6={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =FLY
+}
+name =FLY6
+cost =100
+removal_cost =150
+traits = {
+humble
+}
+}
+}
+FLY_char_id_7={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =FLY
+}
+name =FLY7
+cost =100
+removal_cost =150
+traits = {
+warmonger
+}
+}
+}
+FLY_char_id_8={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =FLY
+}
+name =FLY8
+cost =100
+removal_cost =150
+traits = {
+dealbroker
+hawk
+}
+}
+}
+FLY_char_id_9={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =air_chief
+allowed  = {
+original_tag =FLY
+}
+name =FLY9
+cost =100
+removal_cost =150
+traits = {
+warmonger
+}
+}
+}
+FLY_char_id_10={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =army_chief
+allowed  = {
+original_tag =FLY
+}
+name =FLY10
+cost =100
+removal_cost =150
+traits = {
+dealbroker
+stammer
+}
+}
+}
+FLY_char_id_11={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =navy_chief
+allowed  = {
+original_tag =FLY
+}
+name =FLY11
+cost =100
+removal_cost =150
+traits = {
+conservative_grandee
+}
+}
+}
+FLY_char_id_12={
+portraits={
+civilian={
+large="gfx/leaders/RAV/fallan_heckmann.dds"
+}
+}
+country_leader={
+ideology =monarchy
+traits = {}
+expire="8000.1.1.1"
+id=-1
+}
+}
+FLY_char_id_13={
+name =FLY13
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+media_personality
+infantry_officer
+media_personality
+}
+skill = 1
+attack_skill = 2
+defense_skill = 2
+planning_skill = 2
+logistics_skill = 3
+}
+}
+FLY_char_id_14={
+name =FLY14
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+old_guard
+politically_connected
+bearer_of_artillery
+engineer_officer
+}
+skill = 2
+attack_skill = 4
+defense_skill = 1
+planning_skill = 2
+logistics_skill = 1
+}
+}
+FLY_char_id_15={
+name =FLY15
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+war_hero
+brilliant_strategist
+}
+skill = 5
+attack_skill = 5
+defense_skill = 5
+planning_skill = 1
+logistics_skill = 3
+}
+}
+FLY_char_id_16={
+name =FLY16
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+trait_reckless
+trait_reckless
+armor_officer
+}
+skill = 4
+attack_skill = 1
+defense_skill = 5
+planning_skill = 2
+logistics_skill = 3
+}
+}
+FLY_char_id_17={
+name =FLY17
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+infantry_officer
+infantry_officer
+brilliant_strategist
+politically_connected
+}
+skill = 2
+attack_skill = 4
+defense_skill = 1
+planning_skill = 4
+logistics_skill = 1
+}
+}
+FLY_char_id_18={
+name =FLY18
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+inflexible_strategist
+brilliant_strategist
+}
+skill = 4
+attack_skill = 3
+defense_skill = 4
+planning_skill = 1
+logistics_skill = 4
+}
+}
+FLY_char_id_19={
+name =FLY19
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+trait_cautious
+trait_reckless
+}
+skill = 5
+attack_skill = 1
+defense_skill = 2
+planning_skill = 5
+logistics_skill = 1
+}
+}
+FLY_char_id_20={
+name =FLY20
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+engineer_officer
+media_personality
+}
+skill = 3
+attack_skill = 3
+defense_skill = 4
+planning_skill = 3
+logistics_skill = 1
+}
+}
+FLY_char_id_21={
+name =FLY21
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+engineer_officer
+engineer_officer
+bearer_of_artillery
+}
+skill = 5
+attack_skill = 2
+defense_skill = 2
+planning_skill = 2
+logistics_skill = 1
+}
+}
+FLY_char_id_22={
+name =FLY_char_id_22
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+lancer
+ironside
+}
+skill = 3
+attack_skill = 5
+defense_skill = 4
+maneuvering_skill = 2
+coordination_skill = 5
+}
+}
+FLY_char_id_23={
+name =FLY_char_id_23
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+silent_hunter
+hunter_killer
+}
+skill = 1
+attack_skill = 3
+defense_skill = 1
+maneuvering_skill = 3
+coordination_skill = 2
+}
+}
+FLY_char_id_24={
+name =FLY_char_id_24
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+blockade_runner
+}
+skill = 1
+attack_skill = 5
+defense_skill = 4
+maneuvering_skill = 2
+coordination_skill = 4
+}
+}
+FLY_char_id_25={
+name =FLY_char_id_25
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+blockade_runner
+seawolf
+fly_swatter
+}
+skill = 5
+attack_skill = 4
+defense_skill = 3
+maneuvering_skill = 1
+coordination_skill = 5
+}
+}
+FLY_char_id_26={
+name =FLY_char_id_26
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+silent_hunter
+fleet_protector
+loading_drill_master
+}
+skill = 1
+attack_skill = 3
+defense_skill = 5
+maneuvering_skill = 1
+coordination_skill = 5
+}
+}
+FLY_char_id_27={
+name =FLY_char_id_27
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+hunter_killer
+spotter
+seawolf
+}
+skill = 1
+attack_skill = 3
+defense_skill = 1
+maneuvering_skill = 1
+coordination_skill = 5
+}
+}
+FLY_char_id_28={
+name =FLY_char_id_28
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+seawolf
+loading_drill_master
+blockade_runner
+}
+skill = 4
+attack_skill = 1
+defense_skill = 5
+maneuvering_skill = 2
+coordination_skill = 2
+}
+}
+}

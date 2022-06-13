@@ -1,0 +1,599 @@
+characters = {
+ISO_char_id_0={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =ISO
+}
+name =ISO0
+cost =100
+removal_cost =150
+traits = {
+stammer
+stammer
+}
+}
+}
+ISO_char_id_1={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =ISO
+}
+name =ISO1
+cost =100
+removal_cost =150
+traits = {
+stammer
+railroad_enthusiast
+}
+}
+}
+ISO_char_id_2={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =ISO
+}
+name =ISO2
+cost =100
+removal_cost =150
+traits = {
+stammer
+snuggler
+}
+}
+}
+ISO_char_id_3={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =ISO
+}
+name =ISO3
+cost =100
+removal_cost =150
+traits = {
+snuggler
+stammer
+}
+}
+}
+ISO_char_id_4={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =ISO
+}
+name =ISO4
+cost =100
+removal_cost =150
+traits = {
+conservative_grandee
+hawk
+}
+}
+}
+ISO_char_id_5={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =ISO
+}
+name =ISO5
+cost =100
+removal_cost =150
+traits = {
+railroad_enthusiast
+cornered_fox
+}
+}
+}
+ISO_char_id_6={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =ISO
+}
+name =ISO6
+cost =100
+removal_cost =150
+traits = {
+snuggler
+}
+}
+}
+ISO_char_id_7={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =ISO
+}
+name =ISO7
+cost =100
+removal_cost =150
+traits = {
+humble
+}
+}
+}
+ISO_char_id_8={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =ISO
+}
+name =ISO8
+cost =100
+removal_cost =150
+traits = {
+dealbroker
+}
+}
+}
+ISO_char_id_9={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =air_chief
+allowed  = {
+original_tag =ISO
+}
+name =ISO9
+cost =100
+removal_cost =150
+traits = {
+face_licker
+}
+}
+}
+ISO_char_id_10={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =army_chief
+allowed  = {
+original_tag =ISO
+}
+name =ISO10
+cost =100
+removal_cost =150
+traits = {
+snuggler
+railroad_enthusiast
+}
+}
+}
+ISO_char_id_11={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =navy_chief
+allowed  = {
+original_tag =ISO
+}
+name =ISO11
+cost =100
+removal_cost =150
+traits = {
+dealbroker
+hawk
+}
+}
+}
+ISO_char_id_12={
+portraits={
+civilian={
+large="gfx/leaders/RAV/fallan_heckmann.dds"
+}
+}
+country_leader={
+ideology =monarchy
+traits = {}
+expire="8000.1.1.1"
+id=-1
+}
+}
+ISO_char_id_13={
+name =ISO13
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+media_personality
+armor_officer
+brilliant_strategist
+media_personality
+}
+skill = 1
+attack_skill = 3
+defense_skill = 3
+planning_skill = 3
+logistics_skill = 2
+}
+}
+ISO_char_id_14={
+name =ISO14
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+armor_officer
+old_guard
+}
+skill = 1
+attack_skill = 3
+defense_skill = 1
+planning_skill = 1
+logistics_skill = 4
+}
+}
+ISO_char_id_15={
+name =ISO15
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+trait_reckless
+war_hero
+}
+skill = 3
+attack_skill = 2
+defense_skill = 4
+planning_skill = 1
+logistics_skill = 3
+}
+}
+ISO_char_id_16={
+name =ISO16
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+war_hero
+bearer_of_artillery
+}
+skill = 1
+attack_skill = 3
+defense_skill = 1
+planning_skill = 2
+logistics_skill = 2
+}
+}
+ISO_char_id_17={
+name =ISO17
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+harsh_leader
+old_guard
+brilliant_strategist
+infantry_officer
+}
+skill = 2
+attack_skill = 4
+defense_skill = 4
+planning_skill = 4
+logistics_skill = 3
+}
+}
+ISO_char_id_18={
+name =ISO18
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+politically_connected
+career_officer
+infantry_officer
+}
+skill = 4
+attack_skill = 2
+defense_skill = 5
+planning_skill = 4
+logistics_skill = 5
+}
+}
+ISO_char_id_19={
+name =ISO19
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+armor_officer
+infantry_officer
+brilliant_strategist
+}
+skill = 2
+attack_skill = 4
+defense_skill = 5
+planning_skill = 5
+logistics_skill = 1
+}
+}
+ISO_char_id_20={
+name =ISO_char_id_20
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+silent_hunter
+hunter_killer
+ironside
+}
+skill = 1
+attack_skill = 5
+defense_skill = 4
+maneuvering_skill = 4
+coordination_skill = 5
+}
+}
+ISO_char_id_21={
+name =ISO_char_id_21
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+seawolf
+superior_tactician
+}
+skill = 5
+attack_skill = 1
+defense_skill = 4
+maneuvering_skill = 1
+coordination_skill = 2
+}
+}
+ISO_char_id_22={
+name =ISO_char_id_22
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+blockade_runner
+}
+skill = 3
+attack_skill = 4
+defense_skill = 5
+maneuvering_skill = 5
+coordination_skill = 4
+}
+}
+ISO_char_id_23={
+name =ISO_char_id_23
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+ironside
+spotter
+spotter
+}
+skill = 4
+attack_skill = 4
+defense_skill = 3
+maneuvering_skill = 2
+coordination_skill = 5
+}
+}
+ISO_char_id_24={
+name =ISO_char_id_24
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+ironside
+fleet_protector
+}
+skill = 2
+attack_skill = 5
+defense_skill = 3
+maneuvering_skill = 2
+coordination_skill = 4
+}
+}
+ISO_char_id_25={
+name =ISO_char_id_25
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+superior_tactician
+spotter
+seawolf
+}
+skill = 4
+attack_skill = 3
+defense_skill = 2
+maneuvering_skill = 1
+coordination_skill = 4
+}
+}
+ISO_char_id_26={
+name =ISO_char_id_26
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+spotter
+silent_hunter
+}
+skill = 2
+attack_skill = 5
+defense_skill = 4
+maneuvering_skill = 2
+coordination_skill = 1
+}
+}
+ISO_char_id_27={
+name =ISO_char_id_27
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+fly_swatter
+}
+skill = 3
+attack_skill = 4
+defense_skill = 1
+maneuvering_skill = 4
+coordination_skill = 1
+}
+}
+ISO_char_id_28={
+name =ISO_char_id_28
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+lancer
+fly_swatter
+superior_tactician
+}
+skill = 5
+attack_skill = 1
+defense_skill = 2
+maneuvering_skill = 1
+coordination_skill = 2
+}
+}
+ISO_char_id_29={
+name =ISO_char_id_29
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+fleet_protector
+loading_drill_master
+}
+skill = 5
+attack_skill = 2
+defense_skill = 5
+maneuvering_skill = 1
+coordination_skill = 5
+}
+}
+}

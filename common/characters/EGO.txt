@@ -1,0 +1,572 @@
+characters = {
+EGO_char_id_0={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =EGO
+}
+name =EGO0
+cost =100
+removal_cost =150
+traits = {
+railroad_enthusiast
+}
+}
+}
+EGO_char_id_1={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =EGO
+}
+name =EGO1
+cost =100
+removal_cost =150
+traits = {
+face_licker
+dealbroker
+}
+}
+}
+EGO_char_id_2={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =EGO
+}
+name =EGO2
+cost =100
+removal_cost =150
+traits = {
+face_licker
+}
+}
+}
+EGO_char_id_3={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =EGO
+}
+name =EGO3
+cost =100
+removal_cost =150
+traits = {
+cornered_fox
+}
+}
+}
+EGO_char_id_4={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =EGO
+}
+name =EGO4
+cost =100
+removal_cost =150
+traits = {
+face_licker
+}
+}
+}
+EGO_char_id_5={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =EGO
+}
+name =EGO5
+cost =100
+removal_cost =150
+traits = {
+dealbroker
+}
+}
+}
+EGO_char_id_6={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =EGO
+}
+name =EGO6
+cost =100
+removal_cost =150
+traits = {
+stammer
+warrior_code
+}
+}
+}
+EGO_char_id_7={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =EGO
+}
+name =EGO7
+cost =100
+removal_cost =150
+traits = {
+conservative_grandee
+}
+}
+}
+EGO_char_id_8={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =EGO
+}
+name =EGO8
+cost =100
+removal_cost =150
+traits = {
+stammer
+cornered_fox
+}
+}
+}
+EGO_char_id_9={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =air_chief
+allowed  = {
+original_tag =EGO
+}
+name =EGO9
+cost =100
+removal_cost =150
+traits = {
+snuggler
+}
+}
+}
+EGO_char_id_10={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =army_chief
+allowed  = {
+original_tag =EGO
+}
+name =EGO10
+cost =100
+removal_cost =150
+traits = {
+cornered_fox
+}
+}
+}
+EGO_char_id_11={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =navy_chief
+allowed  = {
+original_tag =EGO
+}
+name =EGO11
+cost =100
+removal_cost =150
+traits = {
+stammer
+stammer
+}
+}
+}
+EGO_char_id_12={
+portraits={
+civilian={
+large="gfx/leaders/RAV/fallan_heckmann.dds"
+}
+}
+country_leader={
+ideology =monarchy
+traits = {}
+expire="8000.1.1.1"
+id=-1
+}
+}
+EGO_char_id_13={
+name =EGO13
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+politically_connected
+cavalry_officer
+armor_officer
+}
+skill = 2
+attack_skill = 4
+defense_skill = 3
+planning_skill = 2
+logistics_skill = 1
+}
+}
+EGO_char_id_14={
+name =EGO14
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+engineer_officer
+armor_officer
+bearer_of_artillery
+}
+skill = 5
+attack_skill = 4
+defense_skill = 1
+planning_skill = 4
+logistics_skill = 4
+}
+}
+EGO_char_id_15={
+name =EGO15
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+armor_officer
+trait_cautious
+}
+skill = 3
+attack_skill = 5
+defense_skill = 1
+planning_skill = 4
+logistics_skill = 1
+}
+}
+EGO_char_id_16={
+name =EGO16
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+infantry_officer
+harsh_leader
+engineer_officer
+}
+skill = 3
+attack_skill = 3
+defense_skill = 2
+planning_skill = 3
+logistics_skill = 4
+}
+}
+EGO_char_id_17={
+name =EGO17
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+inflexible_strategist
+career_officer
+}
+skill = 1
+attack_skill = 4
+defense_skill = 1
+planning_skill = 4
+logistics_skill = 2
+}
+}
+EGO_char_id_18={
+name =EGO18
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+armor_officer
+infantry_officer
+}
+skill = 1
+attack_skill = 5
+defense_skill = 3
+planning_skill = 2
+logistics_skill = 2
+}
+}
+EGO_char_id_19={
+name =EGO19
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+war_hero
+harsh_leader
+trait_reckless
+}
+skill = 3
+attack_skill = 4
+defense_skill = 5
+planning_skill = 3
+logistics_skill = 1
+}
+}
+EGO_char_id_20={
+name =EGO20
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+brilliant_strategist
+infantry_officer
+career_officer
+war_hero
+engineer_officer
+}
+skill = 4
+attack_skill = 3
+defense_skill = 2
+planning_skill = 2
+logistics_skill = 2
+}
+}
+EGO_char_id_21={
+name =EGO_char_id_21
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+hunter_killer
+}
+skill = 1
+attack_skill = 4
+defense_skill = 4
+maneuvering_skill = 3
+coordination_skill = 1
+}
+}
+EGO_char_id_22={
+name =EGO_char_id_22
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+fly_swatter
+}
+skill = 3
+attack_skill = 3
+defense_skill = 4
+maneuvering_skill = 4
+coordination_skill = 4
+}
+}
+EGO_char_id_23={
+name =EGO_char_id_23
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+fleet_protector
+blockade_runner
+seawolf
+}
+skill = 5
+attack_skill = 5
+defense_skill = 4
+maneuvering_skill = 5
+coordination_skill = 1
+}
+}
+EGO_char_id_24={
+name =EGO_char_id_24
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+hunter_killer
+fly_swatter
+}
+skill = 3
+attack_skill = 4
+defense_skill = 5
+maneuvering_skill = 3
+coordination_skill = 1
+}
+}
+EGO_char_id_25={
+name =EGO_char_id_25
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+hunter_killer
+ironside
+}
+skill = 4
+attack_skill = 4
+defense_skill = 3
+maneuvering_skill = 4
+coordination_skill = 3
+}
+}
+EGO_char_id_26={
+name =EGO_char_id_26
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+lancer
+fly_swatter
+silent_hunter
+}
+skill = 2
+attack_skill = 2
+defense_skill = 5
+maneuvering_skill = 5
+coordination_skill = 1
+}
+}
+EGO_char_id_27={
+name =EGO_char_id_27
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+lancer
+}
+skill = 4
+attack_skill = 4
+defense_skill = 1
+maneuvering_skill = 1
+coordination_skill = 2
+}
+}
+EGO_char_id_28={
+name =EGO_char_id_28
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+fleet_protector
+}
+skill = 5
+attack_skill = 2
+defense_skill = 1
+maneuvering_skill = 5
+coordination_skill = 2
+}
+}
+}

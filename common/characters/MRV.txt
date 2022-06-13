@@ -1,0 +1,615 @@
+characters = {
+MRV_char_id_0={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =MRV
+}
+name =MRV0
+cost =100
+removal_cost =150
+traits = {
+hawk
+}
+}
+}
+MRV_char_id_1={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =MRV
+}
+name =MRV1
+cost =100
+removal_cost =150
+traits = {
+warmonger
+}
+}
+}
+MRV_char_id_2={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =MRV
+}
+name =MRV2
+cost =100
+removal_cost =150
+traits = {
+dealbroker
+face_licker
+}
+}
+}
+MRV_char_id_3={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =MRV
+}
+name =MRV3
+cost =100
+removal_cost =150
+traits = {
+railroad_enthusiast
+face_licker
+}
+}
+}
+MRV_char_id_4={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =MRV
+}
+name =MRV4
+cost =100
+removal_cost =150
+traits = {
+humble
+}
+}
+}
+MRV_char_id_5={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =MRV
+}
+name =MRV5
+cost =100
+removal_cost =150
+traits = {
+humble
+hawk
+}
+}
+}
+MRV_char_id_6={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =MRV
+}
+name =MRV6
+cost =100
+removal_cost =150
+traits = {
+dealbroker
+}
+}
+}
+MRV_char_id_7={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =MRV
+}
+name =MRV7
+cost =100
+removal_cost =150
+traits = {
+snuggler
+}
+}
+}
+MRV_char_id_8={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =MRV
+}
+name =MRV8
+cost =100
+removal_cost =150
+traits = {
+railroad_enthusiast
+snuggler
+}
+}
+}
+MRV_char_id_9={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =air_chief
+allowed  = {
+original_tag =MRV
+}
+name =MRV9
+cost =100
+removal_cost =150
+traits = {
+snuggler
+}
+}
+}
+MRV_char_id_10={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =army_chief
+allowed  = {
+original_tag =MRV
+}
+name =MRV10
+cost =100
+removal_cost =150
+traits = {
+dealbroker
+hawk
+}
+}
+}
+MRV_char_id_11={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =navy_chief
+allowed  = {
+original_tag =MRV
+}
+name =MRV11
+cost =100
+removal_cost =150
+traits = {
+snuggler
+}
+}
+}
+MRV_char_id_12={
+portraits={
+civilian={
+large="gfx/leaders/RAV/fallan_heckmann.dds"
+}
+}
+country_leader={
+ideology =monarchy
+traits = {}
+expire="8000.1.1.1"
+id=-1
+}
+}
+MRV_char_id_13={
+name =MRV13
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+armor_officer
+armor_officer
+engineer_officer
+}
+skill = 4
+attack_skill = 5
+defense_skill = 3
+planning_skill = 1
+logistics_skill = 3
+}
+}
+MRV_char_id_14={
+name =MRV14
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+media_personality
+inflexible_strategist
+infantry_officer
+politically_connected
+}
+skill = 1
+attack_skill = 4
+defense_skill = 3
+planning_skill = 3
+logistics_skill = 3
+}
+}
+MRV_char_id_15={
+name =MRV15
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+trait_reckless
+harsh_leader
+trait_reckless
+cavalry_officer
+}
+skill = 4
+attack_skill = 3
+defense_skill = 1
+planning_skill = 2
+logistics_skill = 1
+}
+}
+MRV_char_id_16={
+name =MRV16
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+harsh_leader
+media_personality
+}
+skill = 1
+attack_skill = 3
+defense_skill = 2
+planning_skill = 3
+logistics_skill = 2
+}
+}
+MRV_char_id_17={
+name =MRV17
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+engineer_officer
+brilliant_strategist
+}
+skill = 4
+attack_skill = 2
+defense_skill = 2
+planning_skill = 3
+logistics_skill = 1
+}
+}
+MRV_char_id_18={
+name =MRV18
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+politically_connected
+trait_reckless
+}
+skill = 5
+attack_skill = 3
+defense_skill = 3
+planning_skill = 2
+logistics_skill = 5
+}
+}
+MRV_char_id_19={
+name =MRV19
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+cavalry_officer
+cavalry_officer
+politically_connected
+infantry_officer
+}
+skill = 4
+attack_skill = 5
+defense_skill = 1
+planning_skill = 4
+logistics_skill = 4
+}
+}
+MRV_char_id_20={
+name =MRV20
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+old_guard
+engineer_officer
+engineer_officer
+}
+skill = 1
+attack_skill = 5
+defense_skill = 5
+planning_skill = 3
+logistics_skill = 4
+}
+}
+MRV_char_id_21={
+name =MRV21
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+brilliant_strategist
+inflexible_strategist
+media_personality
+media_personality
+}
+skill = 2
+attack_skill = 4
+defense_skill = 2
+planning_skill = 4
+logistics_skill = 2
+}
+}
+MRV_char_id_22={
+name =MRV_char_id_22
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+hunter_killer
+}
+skill = 1
+attack_skill = 1
+defense_skill = 2
+maneuvering_skill = 5
+coordination_skill = 4
+}
+}
+MRV_char_id_23={
+name =MRV_char_id_23
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+blockade_runner
+blockade_runner
+}
+skill = 2
+attack_skill = 3
+defense_skill = 1
+maneuvering_skill = 3
+coordination_skill = 1
+}
+}
+MRV_char_id_24={
+name =MRV_char_id_24
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+blockade_runner
+}
+skill = 1
+attack_skill = 4
+defense_skill = 4
+maneuvering_skill = 4
+coordination_skill = 2
+}
+}
+MRV_char_id_25={
+name =MRV_char_id_25
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+fleet_protector
+spotter
+}
+skill = 5
+attack_skill = 2
+defense_skill = 3
+maneuvering_skill = 1
+coordination_skill = 4
+}
+}
+MRV_char_id_26={
+name =MRV_char_id_26
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+blockade_runner
+silent_hunter
+}
+skill = 5
+attack_skill = 2
+defense_skill = 3
+maneuvering_skill = 4
+coordination_skill = 4
+}
+}
+MRV_char_id_27={
+name =MRV_char_id_27
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+lancer
+blockade_runner
+hunter_killer
+}
+skill = 4
+attack_skill = 4
+defense_skill = 1
+maneuvering_skill = 1
+coordination_skill = 3
+}
+}
+MRV_char_id_28={
+name =MRV_char_id_28
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+hunter_killer
+ironside
+}
+skill = 5
+attack_skill = 4
+defense_skill = 3
+maneuvering_skill = 2
+coordination_skill = 3
+}
+}
+MRV_char_id_29={
+name =MRV_char_id_29
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+hunter_killer
+}
+skill = 3
+attack_skill = 5
+defense_skill = 1
+maneuvering_skill = 5
+coordination_skill = 1
+}
+}
+MRV_char_id_30={
+name =MRV_char_id_30
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+lancer
+}
+skill = 4
+attack_skill = 2
+defense_skill = 1
+maneuvering_skill = 5
+coordination_skill = 5
+}
+}
+}

@@ -1,0 +1,583 @@
+characters = {
+MAD_char_id_0={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =MAD
+}
+name =MAD0
+cost =100
+removal_cost =150
+traits = {
+railroad_enthusiast
+}
+}
+}
+MAD_char_id_1={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =MAD
+}
+name =MAD1
+cost =100
+removal_cost =150
+traits = {
+stammer
+warmonger
+}
+}
+}
+MAD_char_id_2={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =MAD
+}
+name =MAD2
+cost =100
+removal_cost =150
+traits = {
+dealbroker
+warrior_code
+}
+}
+}
+MAD_char_id_3={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =MAD
+}
+name =MAD3
+cost =100
+removal_cost =150
+traits = {
+stammer
+hawk
+}
+}
+}
+MAD_char_id_4={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =MAD
+}
+name =MAD4
+cost =100
+removal_cost =150
+traits = {
+conservative_grandee
+}
+}
+}
+MAD_char_id_5={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =MAD
+}
+name =MAD5
+cost =100
+removal_cost =150
+traits = {
+face_licker
+}
+}
+}
+MAD_char_id_6={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =MAD
+}
+name =MAD6
+cost =100
+removal_cost =150
+traits = {
+railroad_enthusiast
+}
+}
+}
+MAD_char_id_7={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =MAD
+}
+name =MAD7
+cost =100
+removal_cost =150
+traits = {
+humble
+}
+}
+}
+MAD_char_id_8={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =MAD
+}
+name =MAD8
+cost =100
+removal_cost =150
+traits = {
+conservative_grandee
+snuggler
+}
+}
+}
+MAD_char_id_9={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =air_chief
+allowed  = {
+original_tag =MAD
+}
+name =MAD9
+cost =100
+removal_cost =150
+traits = {
+hawk
+railroad_enthusiast
+}
+}
+}
+MAD_char_id_10={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =army_chief
+allowed  = {
+original_tag =MAD
+}
+name =MAD10
+cost =100
+removal_cost =150
+traits = {
+hawk
+snuggler
+}
+}
+}
+MAD_char_id_11={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =navy_chief
+allowed  = {
+original_tag =MAD
+}
+name =MAD11
+cost =100
+removal_cost =150
+traits = {
+conservative_grandee
+railroad_enthusiast
+}
+}
+}
+MAD_char_id_12={
+portraits={
+civilian={
+large="gfx/leaders/RAV/fallan_heckmann.dds"
+}
+}
+country_leader={
+ideology =monarchy
+traits = {}
+expire="8000.1.1.1"
+id=-1
+}
+}
+MAD_char_id_13={
+name =MAD13
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+infantry_officer
+trait_reckless
+brilliant_strategist
+trait_reckless
+}
+skill = 2
+attack_skill = 4
+defense_skill = 3
+planning_skill = 5
+logistics_skill = 3
+}
+}
+MAD_char_id_14={
+name =MAD14
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+armor_officer
+brilliant_strategist
+cavalry_officer
+war_hero
+}
+skill = 3
+attack_skill = 5
+defense_skill = 2
+planning_skill = 3
+logistics_skill = 2
+}
+}
+MAD_char_id_15={
+name =MAD15
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+cavalry_officer
+media_personality
+harsh_leader
+inflexible_strategist
+trait_reckless
+}
+skill = 2
+attack_skill = 3
+defense_skill = 4
+planning_skill = 3
+logistics_skill = 5
+}
+}
+MAD_char_id_16={
+name =MAD16
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+armor_officer
+trait_reckless
+}
+skill = 5
+attack_skill = 3
+defense_skill = 2
+planning_skill = 5
+logistics_skill = 1
+}
+}
+MAD_char_id_17={
+name =MAD17
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+war_hero
+infantry_officer
+old_guard
+inflexible_strategist
+media_personality
+}
+skill = 2
+attack_skill = 1
+defense_skill = 4
+planning_skill = 4
+logistics_skill = 5
+}
+}
+MAD_char_id_18={
+name =MAD18
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+inflexible_strategist
+infantry_officer
+brilliant_strategist
+armor_officer
+}
+skill = 2
+attack_skill = 3
+defense_skill = 1
+planning_skill = 3
+logistics_skill = 2
+}
+}
+MAD_char_id_19={
+name =MAD19
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+trait_reckless
+infantry_officer
+media_personality
+brilliant_strategist
+}
+skill = 2
+attack_skill = 3
+defense_skill = 3
+planning_skill = 3
+logistics_skill = 3
+}
+}
+MAD_char_id_20={
+name =MAD_char_id_20
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+lancer
+blockade_runner
+fly_swatter
+}
+skill = 5
+attack_skill = 4
+defense_skill = 3
+maneuvering_skill = 4
+coordination_skill = 2
+}
+}
+MAD_char_id_21={
+name =MAD_char_id_21
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+blockade_runner
+}
+skill = 1
+attack_skill = 4
+defense_skill = 5
+maneuvering_skill = 1
+coordination_skill = 2
+}
+}
+MAD_char_id_22={
+name =MAD_char_id_22
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+seawolf
+fly_swatter
+seawolf
+}
+skill = 2
+attack_skill = 5
+defense_skill = 3
+maneuvering_skill = 1
+coordination_skill = 5
+}
+}
+MAD_char_id_23={
+name =MAD_char_id_23
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+blockade_runner
+}
+skill = 1
+attack_skill = 1
+defense_skill = 5
+maneuvering_skill = 2
+coordination_skill = 1
+}
+}
+MAD_char_id_24={
+name =MAD_char_id_24
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+seawolf
+loading_drill_master
+}
+skill = 4
+attack_skill = 4
+defense_skill = 1
+maneuvering_skill = 2
+coordination_skill = 3
+}
+}
+MAD_char_id_25={
+name =MAD_char_id_25
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+silent_hunter
+blockade_runner
+}
+skill = 5
+attack_skill = 5
+defense_skill = 4
+maneuvering_skill = 1
+coordination_skill = 2
+}
+}
+MAD_char_id_26={
+name =MAD_char_id_26
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+ironside
+hunter_killer
+spotter
+}
+skill = 5
+attack_skill = 2
+defense_skill = 5
+maneuvering_skill = 1
+coordination_skill = 4
+}
+}
+MAD_char_id_27={
+name =MAD_char_id_27
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+spotter
+}
+skill = 5
+attack_skill = 2
+defense_skill = 4
+maneuvering_skill = 4
+coordination_skill = 1
+}
+}
+MAD_char_id_28={
+name =MAD_char_id_28
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+fly_swatter
+}
+skill = 5
+attack_skill = 5
+defense_skill = 5
+maneuvering_skill = 1
+coordination_skill = 3
+}
+}
+}

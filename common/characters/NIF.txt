@@ -1,0 +1,581 @@
+characters = {
+NIF_char_id_0={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =NIF
+}
+name =NIF0
+cost =100
+removal_cost =150
+traits = {
+hawk
+snuggler
+}
+}
+}
+NIF_char_id_1={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =NIF
+}
+name =NIF1
+cost =100
+removal_cost =150
+traits = {
+railroad_enthusiast
+}
+}
+}
+NIF_char_id_2={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =NIF
+}
+name =NIF2
+cost =100
+removal_cost =150
+traits = {
+warmonger
+stammer
+}
+}
+}
+NIF_char_id_3={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =NIF
+}
+name =NIF3
+cost =100
+removal_cost =150
+traits = {
+conservative_grandee
+humble
+}
+}
+}
+NIF_char_id_4={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =NIF
+}
+name =NIF4
+cost =100
+removal_cost =150
+traits = {
+cornered_fox
+stammer
+}
+}
+}
+NIF_char_id_5={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =NIF
+}
+name =NIF5
+cost =100
+removal_cost =150
+traits = {
+dealbroker
+}
+}
+}
+NIF_char_id_6={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =NIF
+}
+name =NIF6
+cost =100
+removal_cost =150
+traits = {
+hawk
+}
+}
+}
+NIF_char_id_7={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =NIF
+}
+name =NIF7
+cost =100
+removal_cost =150
+traits = {
+warrior_code
+warrior_code
+}
+}
+}
+NIF_char_id_8={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =NIF
+}
+name =NIF8
+cost =100
+removal_cost =150
+traits = {
+cornered_fox
+}
+}
+}
+NIF_char_id_9={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =air_chief
+allowed  = {
+original_tag =NIF
+}
+name =NIF9
+cost =100
+removal_cost =150
+traits = {
+humble
+}
+}
+}
+NIF_char_id_10={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =army_chief
+allowed  = {
+original_tag =NIF
+}
+name =NIF10
+cost =100
+removal_cost =150
+traits = {
+hawk
+snuggler
+}
+}
+}
+NIF_char_id_11={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =navy_chief
+allowed  = {
+original_tag =NIF
+}
+name =NIF11
+cost =100
+removal_cost =150
+traits = {
+conservative_grandee
+conservative_grandee
+}
+}
+}
+NIF_char_id_12={
+portraits={
+civilian={
+large="gfx/leaders/RAV/fallan_heckmann.dds"
+}
+}
+country_leader={
+ideology =monarchy
+traits = {}
+expire="8000.1.1.1"
+id=-1
+}
+}
+NIF_char_id_13={
+name =NIF13
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+armor_officer
+war_hero
+inflexible_strategist
+trait_cautious
+career_officer
+}
+skill = 5
+attack_skill = 5
+defense_skill = 3
+planning_skill = 5
+logistics_skill = 4
+}
+}
+NIF_char_id_14={
+name =NIF14
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+trait_cautious
+brilliant_strategist
+war_hero
+infantry_officer
+}
+skill = 4
+attack_skill = 4
+defense_skill = 5
+planning_skill = 5
+logistics_skill = 2
+}
+}
+NIF_char_id_15={
+name =NIF15
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+trait_reckless
+trait_cautious
+}
+skill = 1
+attack_skill = 4
+defense_skill = 2
+planning_skill = 4
+logistics_skill = 3
+}
+}
+NIF_char_id_16={
+name =NIF16
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+armor_officer
+politically_connected
+trait_cautious
+bearer_of_artillery
+}
+skill = 4
+attack_skill = 1
+defense_skill = 3
+planning_skill = 1
+logistics_skill = 2
+}
+}
+NIF_char_id_17={
+name =NIF17
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+brilliant_strategist
+old_guard
+}
+skill = 3
+attack_skill = 2
+defense_skill = 3
+planning_skill = 4
+logistics_skill = 5
+}
+}
+NIF_char_id_18={
+name =NIF18
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+engineer_officer
+harsh_leader
+trait_reckless
+}
+skill = 1
+attack_skill = 2
+defense_skill = 3
+planning_skill = 5
+logistics_skill = 3
+}
+}
+NIF_char_id_19={
+name =NIF19
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+infantry_officer
+armor_officer
+trait_cautious
+armor_officer
+war_hero
+}
+skill = 3
+attack_skill = 4
+defense_skill = 4
+planning_skill = 3
+logistics_skill = 1
+}
+}
+NIF_char_id_20={
+name =NIF20
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+career_officer
+armor_officer
+inflexible_strategist
+harsh_leader
+}
+skill = 5
+attack_skill = 3
+defense_skill = 1
+planning_skill = 1
+logistics_skill = 3
+}
+}
+NIF_char_id_21={
+name =NIF21
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+engineer_officer
+engineer_officer
+}
+skill = 3
+attack_skill = 5
+defense_skill = 5
+planning_skill = 4
+logistics_skill = 3
+}
+}
+NIF_char_id_22={
+name =NIF_char_id_22
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+fleet_protector
+hunter_killer
+}
+skill = 3
+attack_skill = 4
+defense_skill = 1
+maneuvering_skill = 2
+coordination_skill = 4
+}
+}
+NIF_char_id_23={
+name =NIF_char_id_23
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+blockade_runner
+lancer
+}
+skill = 1
+attack_skill = 5
+defense_skill = 2
+maneuvering_skill = 4
+coordination_skill = 1
+}
+}
+NIF_char_id_24={
+name =NIF_char_id_24
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+fly_swatter
+fly_swatter
+}
+skill = 5
+attack_skill = 3
+defense_skill = 5
+maneuvering_skill = 5
+coordination_skill = 4
+}
+}
+NIF_char_id_25={
+name =NIF_char_id_25
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+fleet_protector
+}
+skill = 3
+attack_skill = 1
+defense_skill = 5
+maneuvering_skill = 5
+coordination_skill = 4
+}
+}
+NIF_char_id_26={
+name =NIF_char_id_26
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+superior_tactician
+}
+skill = 4
+attack_skill = 5
+defense_skill = 3
+maneuvering_skill = 5
+coordination_skill = 2
+}
+}
+NIF_char_id_27={
+name =NIF_char_id_27
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+spotter
+fleet_protector
+ironside
+}
+skill = 1
+attack_skill = 2
+defense_skill = 4
+maneuvering_skill = 5
+coordination_skill = 4
+}
+}
+NIF_char_id_28={
+name =NIF_char_id_28
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+blockade_runner
+}
+skill = 3
+attack_skill = 4
+defense_skill = 1
+maneuvering_skill = 5
+coordination_skill = 5
+}
+}
+}

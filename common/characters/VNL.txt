@@ -1,0 +1,600 @@
+characters = {
+VNL_char_id_0={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =VNL
+}
+name =VNL0
+cost =100
+removal_cost =150
+traits = {
+snuggler
+}
+}
+}
+VNL_char_id_1={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =VNL
+}
+name =VNL1
+cost =100
+removal_cost =150
+traits = {
+stammer
+}
+}
+}
+VNL_char_id_2={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =VNL
+}
+name =VNL2
+cost =100
+removal_cost =150
+traits = {
+dealbroker
+railroad_enthusiast
+}
+}
+}
+VNL_char_id_3={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =VNL
+}
+name =VNL3
+cost =100
+removal_cost =150
+traits = {
+snuggler
+}
+}
+}
+VNL_char_id_4={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =VNL
+}
+name =VNL4
+cost =100
+removal_cost =150
+traits = {
+railroad_enthusiast
+snuggler
+}
+}
+}
+VNL_char_id_5={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =VNL
+}
+name =VNL5
+cost =100
+removal_cost =150
+traits = {
+hawk
+warmonger
+}
+}
+}
+VNL_char_id_6={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =VNL
+}
+name =VNL6
+cost =100
+removal_cost =150
+traits = {
+hawk
+}
+}
+}
+VNL_char_id_7={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =VNL
+}
+name =VNL7
+cost =100
+removal_cost =150
+traits = {
+hawk
+snuggler
+}
+}
+}
+VNL_char_id_8={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =VNL
+}
+name =VNL8
+cost =100
+removal_cost =150
+traits = {
+cornered_fox
+snuggler
+}
+}
+}
+VNL_char_id_9={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =air_chief
+allowed  = {
+original_tag =VNL
+}
+name =VNL9
+cost =100
+removal_cost =150
+traits = {
+snuggler
+}
+}
+}
+VNL_char_id_10={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =army_chief
+allowed  = {
+original_tag =VNL
+}
+name =VNL10
+cost =100
+removal_cost =150
+traits = {
+hawk
+railroad_enthusiast
+}
+}
+}
+VNL_char_id_11={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =navy_chief
+allowed  = {
+original_tag =VNL
+}
+name =VNL11
+cost =100
+removal_cost =150
+traits = {
+hawk
+}
+}
+}
+VNL_char_id_12={
+portraits={
+civilian={
+large="gfx/leaders/RAV/fallan_heckmann.dds"
+}
+}
+country_leader={
+ideology =monarchy
+traits = {}
+expire="8000.1.1.1"
+id=-1
+}
+}
+VNL_char_id_13={
+name =VNL13
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+infantry_officer
+engineer_officer
+career_officer
+cavalry_officer
+}
+skill = 1
+attack_skill = 5
+defense_skill = 2
+planning_skill = 3
+logistics_skill = 5
+}
+}
+VNL_char_id_14={
+name =VNL14
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+engineer_officer
+old_guard
+}
+skill = 3
+attack_skill = 2
+defense_skill = 2
+planning_skill = 3
+logistics_skill = 3
+}
+}
+VNL_char_id_15={
+name =VNL15
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+harsh_leader
+inflexible_strategist
+old_guard
+}
+skill = 3
+attack_skill = 3
+defense_skill = 4
+planning_skill = 3
+logistics_skill = 1
+}
+}
+VNL_char_id_16={
+name =VNL16
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+media_personality
+harsh_leader
+career_officer
+trait_cautious
+cavalry_officer
+}
+skill = 1
+attack_skill = 4
+defense_skill = 1
+planning_skill = 2
+logistics_skill = 5
+}
+}
+VNL_char_id_17={
+name =VNL17
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+inflexible_strategist
+armor_officer
+war_hero
+media_personality
+}
+skill = 1
+attack_skill = 5
+defense_skill = 2
+planning_skill = 2
+logistics_skill = 3
+}
+}
+VNL_char_id_18={
+name =VNL18
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+bearer_of_artillery
+armor_officer
+infantry_officer
+trait_cautious
+}
+skill = 1
+attack_skill = 3
+defense_skill = 5
+planning_skill = 3
+logistics_skill = 4
+}
+}
+VNL_char_id_19={
+name =VNL19
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+infantry_officer
+career_officer
+}
+skill = 4
+attack_skill = 3
+defense_skill = 1
+planning_skill = 4
+logistics_skill = 3
+}
+}
+VNL_char_id_20={
+name =VNL20
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+bearer_of_artillery
+armor_officer
+harsh_leader
+old_guard
+}
+skill = 4
+attack_skill = 1
+defense_skill = 5
+planning_skill = 3
+logistics_skill = 5
+}
+}
+VNL_char_id_21={
+name =VNL21
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+infantry_officer
+infantry_officer
+}
+skill = 1
+attack_skill = 5
+defense_skill = 2
+planning_skill = 1
+logistics_skill = 5
+}
+}
+VNL_char_id_22={
+name =VNL_char_id_22
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+seawolf
+hunter_killer
+blockade_runner
+}
+skill = 2
+attack_skill = 4
+defense_skill = 4
+maneuvering_skill = 3
+coordination_skill = 3
+}
+}
+VNL_char_id_23={
+name =VNL_char_id_23
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+seawolf
+lancer
+}
+skill = 5
+attack_skill = 5
+defense_skill = 1
+maneuvering_skill = 1
+coordination_skill = 2
+}
+}
+VNL_char_id_24={
+name =VNL_char_id_24
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+fly_swatter
+superior_tactician
+ironside
+}
+skill = 4
+attack_skill = 5
+defense_skill = 5
+maneuvering_skill = 5
+coordination_skill = 5
+}
+}
+VNL_char_id_25={
+name =VNL_char_id_25
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+fleet_protector
+}
+skill = 1
+attack_skill = 4
+defense_skill = 2
+maneuvering_skill = 3
+coordination_skill = 2
+}
+}
+VNL_char_id_26={
+name =VNL_char_id_26
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+lancer
+}
+skill = 4
+attack_skill = 3
+defense_skill = 5
+maneuvering_skill = 5
+coordination_skill = 2
+}
+}
+VNL_char_id_27={
+name =VNL_char_id_27
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+hunter_killer
+loading_drill_master
+}
+skill = 1
+attack_skill = 1
+defense_skill = 4
+maneuvering_skill = 1
+coordination_skill = 1
+}
+}
+VNL_char_id_28={
+name =VNL_char_id_28
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+silent_hunter
+}
+skill = 2
+attack_skill = 2
+defense_skill = 1
+maneuvering_skill = 3
+coordination_skill = 4
+}
+}
+VNL_char_id_29={
+name =VNL_char_id_29
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+blockade_runner
+blockade_runner
+}
+skill = 3
+attack_skill = 2
+defense_skill = 4
+maneuvering_skill = 4
+coordination_skill = 1
+}
+}
+}

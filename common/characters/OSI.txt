@@ -1,0 +1,439 @@
+characters = {
+OSI_char_id_0={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =OSI
+}
+name =OSI0
+cost =100
+removal_cost =150
+traits = {
+dealbroker
+}
+}
+}
+OSI_char_id_1={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =OSI
+}
+name =OSI1
+cost =100
+removal_cost =150
+traits = {
+dealbroker
+}
+}
+}
+OSI_char_id_2={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =OSI
+}
+name =OSI2
+cost =100
+removal_cost =150
+traits = {
+cornered_fox
+}
+}
+}
+OSI_char_id_3={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =air_chief
+allowed  = {
+original_tag =OSI
+}
+name =OSI3
+cost =100
+removal_cost =150
+traits = {
+snuggler
+dealbroker
+}
+}
+}
+OSI_char_id_4={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =army_chief
+allowed  = {
+original_tag =OSI
+}
+name =OSI4
+cost =100
+removal_cost =150
+traits = {
+warmonger
+cornered_fox
+}
+}
+}
+OSI_char_id_5={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =navy_chief
+allowed  = {
+original_tag =OSI
+}
+name =OSI5
+cost =100
+removal_cost =150
+traits = {
+railroad_enthusiast
+}
+}
+}
+char_id_OSI6={
+portraits={
+civilian={
+large="gfx/leaders/RAV/fallan_heckmann.dds"
+}
+}
+country_leader={
+ideology =monarchy
+traits = {}
+expire="8000.1.1.1"
+id=-1
+}
+}
+}
+char_id_OSI7={
+portraits={
+army={
+small = "GFX_idea_pavel_zhigarev"
+}
+}
+traits = {
+armor_officer
+media_personality
+}
+corps_commander = {
+skill = 1
+attack_skill = 4
+defense_skill = 1
+planning_skill = 5
+logistics_skill = 1
+visible = { original_tag =OSI}}
+}
+char_id_OSI8={
+portraits={
+army={
+small = "GFX_idea_pavel_zhigarev"
+}
+}
+traits = {
+media_personality
+brilliant_strategist
+harsh_leader
+}
+corps_commander = {
+skill = 3
+attack_skill = 1
+defense_skill = 5
+planning_skill = 5
+logistics_skill = 1
+visible = { original_tag =OSI}}
+}
+char_id_OSI9={
+portraits={
+army={
+small = "GFX_idea_pavel_zhigarev"
+}
+}
+traits = {
+politically_connected
+trait_cautious
+}
+corps_commander = {
+skill = 3
+attack_skill = 5
+defense_skill = 5
+planning_skill = 3
+logistics_skill = 3
+visible = { original_tag =OSI}}
+}
+char_id_OSI10={
+portraits={
+army={
+small = "GFX_idea_pavel_zhigarev"
+}
+}
+traits = {
+harsh_leader
+armor_officer
+cavalry_officer
+media_personality
+infantry_officer
+}
+corps_commander = {
+skill = 3
+attack_skill = 4
+defense_skill = 5
+planning_skill = 2
+logistics_skill = 2
+visible = { original_tag =OSI}}
+}
+char_id_OSI11={
+portraits={
+army={
+small = "GFX_idea_pavel_zhigarev"
+}
+}
+traits = {
+inflexible_strategist
+trait_cautious
+brilliant_strategist
+war_hero
+cavalry_officer
+}
+corps_commander = {
+skill = 5
+attack_skill = 4
+defense_skill = 2
+planning_skill = 5
+logistics_skill = 4
+visible = { original_tag =OSI}}
+}
+char_id_OSI12={
+portraits={
+army={
+small = "GFX_idea_pavel_zhigarev"
+}
+}
+traits = {
+bearer_of_artillery
+bearer_of_artillery
+bearer_of_artillery
+brilliant_strategist
+}
+corps_commander = {
+skill = 2
+attack_skill = 2
+defense_skill = 2
+planning_skill = 2
+logistics_skill = 5
+visible = { original_tag =OSI}}
+}
+char_id_OSI13={
+portraits={
+army={
+small = "GFX_idea_pavel_zhigarev"
+}
+}
+traits = {
+armor_officer
+inflexible_strategist
+}
+corps_commander = {
+skill = 3
+attack_skill = 1
+defense_skill = 3
+planning_skill = 3
+logistics_skill = 1
+visible = { original_tag =OSI}}
+}
+char_id_OSI14={
+portraits={
+army={
+small = GFX_portrait_SOV_filipp_oktyabrsky_small
+large = GFX_portrait_SOV_filipp_oktyabrsky
+}
+}
+traits = {
+seawolf
+superior_tactician
+}
+corps_commander = {
+skill = 3
+attack_skill = 2
+defense_skill = 1
+maneuvering_skill = 3
+coordination_skill = 4
+visible = { original_tag =OSI}}
+}
+char_id_OSI15={
+portraits={
+army={
+small = GFX_portrait_SOV_filipp_oktyabrsky_small
+large = GFX_portrait_SOV_filipp_oktyabrsky
+}
+}
+traits = {
+superior_tactician
+silent_hunter
+ironside
+}
+corps_commander = {
+skill = 4
+attack_skill = 3
+defense_skill = 3
+maneuvering_skill = 1
+coordination_skill = 3
+visible = { original_tag =OSI}}
+}
+char_id_OSI16={
+portraits={
+army={
+small = GFX_portrait_SOV_filipp_oktyabrsky_small
+large = GFX_portrait_SOV_filipp_oktyabrsky
+}
+}
+traits = {
+ironside
+}
+corps_commander = {
+skill = 4
+attack_skill = 1
+defense_skill = 5
+maneuvering_skill = 1
+coordination_skill = 2
+visible = { original_tag =OSI}}
+}
+char_id_OSI17={
+portraits={
+army={
+small = GFX_portrait_SOV_filipp_oktyabrsky_small
+large = GFX_portrait_SOV_filipp_oktyabrsky
+}
+}
+traits = {
+fleet_protector
+ironside
+blockade_runner
+}
+corps_commander = {
+skill = 3
+attack_skill = 5
+defense_skill = 3
+maneuvering_skill = 2
+coordination_skill = 2
+visible = { original_tag =OSI}}
+}
+char_id_OSI18={
+portraits={
+army={
+small = GFX_portrait_SOV_filipp_oktyabrsky_small
+large = GFX_portrait_SOV_filipp_oktyabrsky
+}
+}
+traits = {
+superior_tactician
+}
+corps_commander = {
+skill = 3
+attack_skill = 2
+defense_skill = 2
+maneuvering_skill = 5
+coordination_skill = 3
+visible = { original_tag =OSI}}
+}
+char_id_OSI19={
+portraits={
+army={
+small = GFX_portrait_SOV_filipp_oktyabrsky_small
+large = GFX_portrait_SOV_filipp_oktyabrsky
+}
+}
+traits = {
+loading_drill_master
+}
+corps_commander = {
+skill = 5
+attack_skill = 3
+defense_skill = 4
+maneuvering_skill = 5
+coordination_skill = 4
+visible = { original_tag =OSI}}
+}
+char_id_OSI20={
+portraits={
+army={
+small = GFX_portrait_SOV_filipp_oktyabrsky_small
+large = GFX_portrait_SOV_filipp_oktyabrsky
+}
+}
+traits = {
+loading_drill_master
+ironside
+fleet_protector
+}
+corps_commander = {
+skill = 2
+attack_skill = 5
+defense_skill = 1
+maneuvering_skill = 1
+coordination_skill = 5
+visible = { original_tag =OSI}}
+}
+char_id_OSI21={
+portraits={
+army={
+small = GFX_portrait_SOV_filipp_oktyabrsky_small
+large = GFX_portrait_SOV_filipp_oktyabrsky
+}
+}
+traits = {
+loading_drill_master
+fly_swatter
+}
+corps_commander = {
+skill = 2
+attack_skill = 2
+defense_skill = 4
+maneuvering_skill = 1
+coordination_skill = 5
+visible = { original_tag =OSI}}
+}
+char_id_OSI22={
+portraits={
+army={
+small = GFX_portrait_SOV_filipp_oktyabrsky_small
+large = GFX_portrait_SOV_filipp_oktyabrsky
+}
+}
+traits = {
+fleet_protector
+ironside
+fly_swatter
+}
+corps_commander = {
+skill = 2
+attack_skill = 3
+defense_skill = 3
+maneuvering_skill = 1
+coordination_skill = 5
+visible = { original_tag =OSI}}
+}
+}

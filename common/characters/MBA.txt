@@ -1,0 +1,610 @@
+characters = {
+MBA_char_id_0={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =MBA
+}
+name =MBA0
+cost =100
+removal_cost =150
+traits = {
+warrior_code
+}
+}
+}
+MBA_char_id_1={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =MBA
+}
+name =MBA1
+cost =100
+removal_cost =150
+traits = {
+snuggler
+}
+}
+}
+MBA_char_id_2={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =MBA
+}
+name =MBA2
+cost =100
+removal_cost =150
+traits = {
+warrior_code
+conservative_grandee
+}
+}
+}
+MBA_char_id_3={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =MBA
+}
+name =MBA3
+cost =100
+removal_cost =150
+traits = {
+humble
+dealbroker
+}
+}
+}
+MBA_char_id_4={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =MBA
+}
+name =MBA4
+cost =100
+removal_cost =150
+traits = {
+railroad_enthusiast
+}
+}
+}
+MBA_char_id_5={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =MBA
+}
+name =MBA5
+cost =100
+removal_cost =150
+traits = {
+hawk
+conservative_grandee
+}
+}
+}
+MBA_char_id_6={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =MBA
+}
+name =MBA6
+cost =100
+removal_cost =150
+traits = {
+dealbroker
+}
+}
+}
+MBA_char_id_7={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =MBA
+}
+name =MBA7
+cost =100
+removal_cost =150
+traits = {
+hawk
+}
+}
+}
+MBA_char_id_8={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =MBA
+}
+name =MBA8
+cost =100
+removal_cost =150
+traits = {
+snuggler
+}
+}
+}
+MBA_char_id_9={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =air_chief
+allowed  = {
+original_tag =MBA
+}
+name =MBA9
+cost =100
+removal_cost =150
+traits = {
+conservative_grandee
+}
+}
+}
+MBA_char_id_10={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =army_chief
+allowed  = {
+original_tag =MBA
+}
+name =MBA10
+cost =100
+removal_cost =150
+traits = {
+warrior_code
+cornered_fox
+}
+}
+}
+MBA_char_id_11={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =navy_chief
+allowed  = {
+original_tag =MBA
+}
+name =MBA11
+cost =100
+removal_cost =150
+traits = {
+warmonger
+humble
+}
+}
+}
+MBA_char_id_12={
+portraits={
+civilian={
+large="gfx/leaders/RAV/fallan_heckmann.dds"
+}
+}
+country_leader={
+ideology =monarchy
+traits = {}
+expire="8000.1.1.1"
+id=-1
+}
+}
+MBA_char_id_13={
+name =MBA13
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+media_personality
+career_officer
+war_hero
+politically_connected
+inflexible_strategist
+}
+skill = 5
+attack_skill = 4
+defense_skill = 1
+planning_skill = 5
+logistics_skill = 5
+}
+}
+MBA_char_id_14={
+name =MBA14
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+infantry_officer
+bearer_of_artillery
+bearer_of_artillery
+inflexible_strategist
+}
+skill = 2
+attack_skill = 2
+defense_skill = 3
+planning_skill = 2
+logistics_skill = 3
+}
+}
+MBA_char_id_15={
+name =MBA15
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+harsh_leader
+inflexible_strategist
+infantry_officer
+}
+skill = 3
+attack_skill = 5
+defense_skill = 3
+planning_skill = 3
+logistics_skill = 2
+}
+}
+MBA_char_id_16={
+name =MBA16
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+cavalry_officer
+armor_officer
+bearer_of_artillery
+trait_cautious
+}
+skill = 4
+attack_skill = 3
+defense_skill = 1
+planning_skill = 1
+logistics_skill = 5
+}
+}
+MBA_char_id_17={
+name =MBA17
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+brilliant_strategist
+old_guard
+cavalry_officer
+war_hero
+politically_connected
+}
+skill = 5
+attack_skill = 3
+defense_skill = 5
+planning_skill = 1
+logistics_skill = 5
+}
+}
+MBA_char_id_18={
+name =MBA18
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+harsh_leader
+politically_connected
+armor_officer
+bearer_of_artillery
+brilliant_strategist
+}
+skill = 2
+attack_skill = 3
+defense_skill = 5
+planning_skill = 4
+logistics_skill = 4
+}
+}
+MBA_char_id_19={
+name =MBA19
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+trait_reckless
+brilliant_strategist
+inflexible_strategist
+}
+skill = 2
+attack_skill = 2
+defense_skill = 4
+planning_skill = 1
+logistics_skill = 3
+}
+}
+MBA_char_id_20={
+name =MBA20
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+inflexible_strategist
+engineer_officer
+trait_reckless
+}
+skill = 4
+attack_skill = 3
+defense_skill = 5
+planning_skill = 3
+logistics_skill = 1
+}
+}
+MBA_char_id_21={
+name =MBA21
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+inflexible_strategist
+media_personality
+cavalry_officer
+armor_officer
+trait_reckless
+}
+skill = 5
+attack_skill = 4
+defense_skill = 4
+planning_skill = 2
+logistics_skill = 3
+}
+}
+MBA_char_id_22={
+name =MBA22
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+politically_connected
+armor_officer
+career_officer
+}
+skill = 5
+attack_skill = 4
+defense_skill = 2
+planning_skill = 3
+logistics_skill = 2
+}
+}
+MBA_char_id_23={
+name =MBA_char_id_23
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+superior_tactician
+fly_swatter
+blockade_runner
+}
+skill = 1
+attack_skill = 2
+defense_skill = 5
+maneuvering_skill = 5
+coordination_skill = 5
+}
+}
+MBA_char_id_24={
+name =MBA_char_id_24
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+hunter_killer
+}
+skill = 2
+attack_skill = 3
+defense_skill = 5
+maneuvering_skill = 5
+coordination_skill = 1
+}
+}
+MBA_char_id_25={
+name =MBA_char_id_25
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+superior_tactician
+lancer
+}
+skill = 1
+attack_skill = 3
+defense_skill = 2
+maneuvering_skill = 3
+coordination_skill = 2
+}
+}
+MBA_char_id_26={
+name =MBA_char_id_26
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+seawolf
+superior_tactician
+spotter
+}
+skill = 5
+attack_skill = 2
+defense_skill = 2
+maneuvering_skill = 5
+coordination_skill = 3
+}
+}
+MBA_char_id_27={
+name =MBA_char_id_27
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+lancer
+}
+skill = 3
+attack_skill = 4
+defense_skill = 5
+maneuvering_skill = 3
+coordination_skill = 5
+}
+}
+MBA_char_id_28={
+name =MBA_char_id_28
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+loading_drill_master
+fly_swatter
+fleet_protector
+}
+skill = 2
+attack_skill = 3
+defense_skill = 4
+maneuvering_skill = 2
+coordination_skill = 2
+}
+}
+MBA_char_id_29={
+name =MBA_char_id_29
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+superior_tactician
+fly_swatter
+hunter_killer
+}
+skill = 3
+attack_skill = 1
+defense_skill = 1
+maneuvering_skill = 1
+coordination_skill = 5
+}
+}
+}

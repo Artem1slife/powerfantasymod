@@ -22,3 +22,31 @@ set_popularities = {
 }
 
 
+recruit_character = OSI_char_id_0
+recruit_character = OSI_char_id_1
+recruit_character = OSI_char_id_2
+recruit_character = OSI_char_id_3
+recruit_character = OSI_char_id_4
+recruit_character = OSI_char_id_5
+recruit_character = char_id_OSI6
+recruit_character = char_id_OSI7
+recruit_character = char_id_OSI8
+recruit_character = char_id_OSI9
+recruit_character = char_id_OSI10
+recruit_character = char_id_OSI11
+recruit_character = char_id_OSI12
+recruit_character = char_id_OSI13
+recruit_character = char_id_OSI14
+recruit_character = char_id_OSI15
+recruit_character = char_id_OSI16
+recruit_character = char_id_OSI17
+recruit_character = char_id_OSI18
+recruit_character = char_id_OSI19
+recruit_character = char_id_OSI20
+recruit_character = char_id_OSI21
+recruit_character = char_id_OSI22
+
+
+
+
+

@@ -1,0 +1,578 @@
+characters = {
+SRA_char_id_0={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =SRA
+}
+name =SRA0
+cost =100
+removal_cost =150
+traits = {
+dealbroker
+}
+}
+}
+SRA_char_id_1={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =SRA
+}
+name =SRA1
+cost =100
+removal_cost =150
+traits = {
+warmonger
+}
+}
+}
+SRA_char_id_2={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =SRA
+}
+name =SRA2
+cost =100
+removal_cost =150
+traits = {
+warrior_code
+conservative_grandee
+}
+}
+}
+SRA_char_id_3={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =SRA
+}
+name =SRA3
+cost =100
+removal_cost =150
+traits = {
+face_licker
+}
+}
+}
+SRA_char_id_4={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =SRA
+}
+name =SRA4
+cost =100
+removal_cost =150
+traits = {
+hawk
+}
+}
+}
+SRA_char_id_5={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =SRA
+}
+name =SRA5
+cost =100
+removal_cost =150
+traits = {
+warrior_code
+humble
+}
+}
+}
+SRA_char_id_6={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =SRA
+}
+name =SRA6
+cost =100
+removal_cost =150
+traits = {
+hawk
+warmonger
+}
+}
+}
+SRA_char_id_7={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =SRA
+}
+name =SRA7
+cost =100
+removal_cost =150
+traits = {
+cornered_fox
+humble
+}
+}
+}
+SRA_char_id_8={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =SRA
+}
+name =SRA8
+cost =100
+removal_cost =150
+traits = {
+snuggler
+}
+}
+}
+SRA_char_id_9={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =air_chief
+allowed  = {
+original_tag =SRA
+}
+name =SRA9
+cost =100
+removal_cost =150
+traits = {
+humble
+stammer
+}
+}
+}
+SRA_char_id_10={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =army_chief
+allowed  = {
+original_tag =SRA
+}
+name =SRA10
+cost =100
+removal_cost =150
+traits = {
+warmonger
+}
+}
+}
+SRA_char_id_11={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =navy_chief
+allowed  = {
+original_tag =SRA
+}
+name =SRA11
+cost =100
+removal_cost =150
+traits = {
+dealbroker
+stammer
+}
+}
+}
+SRA_char_id_12={
+portraits={
+civilian={
+large="gfx/leaders/RAV/fallan_heckmann.dds"
+}
+}
+country_leader={
+ideology =monarchy
+traits = {}
+expire="8000.1.1.1"
+id=-1
+}
+}
+SRA_char_id_13={
+name =SRA13
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+harsh_leader
+inflexible_strategist
+}
+skill = 3
+attack_skill = 5
+defense_skill = 3
+planning_skill = 4
+logistics_skill = 4
+}
+}
+SRA_char_id_14={
+name =SRA14
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+trait_cautious
+armor_officer
+media_personality
+}
+skill = 2
+attack_skill = 4
+defense_skill = 1
+planning_skill = 1
+logistics_skill = 1
+}
+}
+SRA_char_id_15={
+name =SRA15
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+harsh_leader
+media_personality
+armor_officer
+}
+skill = 1
+attack_skill = 2
+defense_skill = 1
+planning_skill = 5
+logistics_skill = 2
+}
+}
+SRA_char_id_16={
+name =SRA16
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+bearer_of_artillery
+armor_officer
+war_hero
+}
+skill = 5
+attack_skill = 4
+defense_skill = 5
+planning_skill = 5
+logistics_skill = 4
+}
+}
+SRA_char_id_17={
+name =SRA17
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+trait_reckless
+trait_cautious
+}
+skill = 4
+attack_skill = 4
+defense_skill = 5
+planning_skill = 3
+logistics_skill = 2
+}
+}
+SRA_char_id_18={
+name =SRA18
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+politically_connected
+bearer_of_artillery
+cavalry_officer
+trait_reckless
+}
+skill = 2
+attack_skill = 1
+defense_skill = 4
+planning_skill = 3
+logistics_skill = 2
+}
+}
+SRA_char_id_19={
+name =SRA19
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+old_guard
+brilliant_strategist
+harsh_leader
+trait_reckless
+}
+skill = 4
+attack_skill = 1
+defense_skill = 3
+planning_skill = 4
+logistics_skill = 5
+}
+}
+SRA_char_id_20={
+name =SRA20
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+bearer_of_artillery
+inflexible_strategist
+inflexible_strategist
+trait_cautious
+}
+skill = 2
+attack_skill = 2
+defense_skill = 5
+planning_skill = 5
+logistics_skill = 2
+}
+}
+SRA_char_id_21={
+name =SRA_char_id_21
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+fly_swatter
+}
+skill = 2
+attack_skill = 2
+defense_skill = 4
+maneuvering_skill = 3
+coordination_skill = 5
+}
+}
+SRA_char_id_22={
+name =SRA_char_id_22
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+superior_tactician
+spotter
+lancer
+}
+skill = 3
+attack_skill = 5
+defense_skill = 5
+maneuvering_skill = 4
+coordination_skill = 4
+}
+}
+SRA_char_id_23={
+name =SRA_char_id_23
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+fleet_protector
+}
+skill = 2
+attack_skill = 4
+defense_skill = 2
+maneuvering_skill = 2
+coordination_skill = 2
+}
+}
+SRA_char_id_24={
+name =SRA_char_id_24
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+superior_tactician
+blockade_runner
+blockade_runner
+}
+skill = 5
+attack_skill = 3
+defense_skill = 1
+maneuvering_skill = 5
+coordination_skill = 2
+}
+}
+SRA_char_id_25={
+name =SRA_char_id_25
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+fleet_protector
+ironside
+lancer
+}
+skill = 1
+attack_skill = 3
+defense_skill = 3
+maneuvering_skill = 1
+coordination_skill = 5
+}
+}
+SRA_char_id_26={
+name =SRA_char_id_26
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+lancer
+}
+skill = 3
+attack_skill = 3
+defense_skill = 3
+maneuvering_skill = 2
+coordination_skill = 5
+}
+}
+SRA_char_id_27={
+name =SRA_char_id_27
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+seawolf
+}
+skill = 3
+attack_skill = 4
+defense_skill = 3
+maneuvering_skill = 4
+coordination_skill = 3
+}
+}
+SRA_char_id_28={
+name =SRA_char_id_28
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+fly_swatter
+seawolf
+fleet_protector
+}
+skill = 5
+attack_skill = 1
+defense_skill = 2
+maneuvering_skill = 3
+coordination_skill = 1
+}
+}
+}

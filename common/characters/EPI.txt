@@ -1,0 +1,643 @@
+characters = {
+EPI_char_id_0={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =EPI
+}
+name =EPI0
+cost =100
+removal_cost =150
+traits = {
+dealbroker
+}
+}
+}
+EPI_char_id_1={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =EPI
+}
+name =EPI1
+cost =100
+removal_cost =150
+traits = {
+warmonger
+railroad_enthusiast
+}
+}
+}
+EPI_char_id_2={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =EPI
+}
+name =EPI2
+cost =100
+removal_cost =150
+traits = {
+warrior_code
+}
+}
+}
+EPI_char_id_3={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =EPI
+}
+name =EPI3
+cost =100
+removal_cost =150
+traits = {
+warmonger
+cornered_fox
+}
+}
+}
+EPI_char_id_4={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =EPI
+}
+name =EPI4
+cost =100
+removal_cost =150
+traits = {
+conservative_grandee
+hawk
+}
+}
+}
+EPI_char_id_5={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =EPI
+}
+name =EPI5
+cost =100
+removal_cost =150
+traits = {
+dealbroker
+}
+}
+}
+EPI_char_id_6={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =EPI
+}
+name =EPI6
+cost =100
+removal_cost =150
+traits = {
+humble
+}
+}
+}
+EPI_char_id_7={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =EPI
+}
+name =EPI7
+cost =100
+removal_cost =150
+traits = {
+warmonger
+}
+}
+}
+EPI_char_id_8={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =EPI
+}
+name =EPI8
+cost =100
+removal_cost =150
+traits = {
+warmonger
+}
+}
+}
+EPI_char_id_9={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =air_chief
+allowed  = {
+original_tag =EPI
+}
+name =EPI9
+cost =100
+removal_cost =150
+traits = {
+warmonger
+face_licker
+}
+}
+}
+EPI_char_id_10={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =army_chief
+allowed  = {
+original_tag =EPI
+}
+name =EPI10
+cost =100
+removal_cost =150
+traits = {
+hawk
+}
+}
+}
+EPI_char_id_11={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =navy_chief
+allowed  = {
+original_tag =EPI
+}
+name =EPI11
+cost =100
+removal_cost =150
+traits = {
+railroad_enthusiast
+}
+}
+}
+EPI_char_id_12={
+portraits={
+civilian={
+large="gfx/leaders/RAV/fallan_heckmann.dds"
+}
+}
+country_leader={
+ideology =monarchy
+traits = {}
+expire="8000.1.1.1"
+id=-1
+}
+}
+EPI_char_id_13={
+name =EPI13
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+cavalry_officer
+bearer_of_artillery
+trait_reckless
+engineer_officer
+brilliant_strategist
+}
+skill = 4
+attack_skill = 5
+defense_skill = 5
+planning_skill = 4
+logistics_skill = 5
+}
+}
+EPI_char_id_14={
+name =EPI14
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+politically_connected
+trait_cautious
+politically_connected
+}
+skill = 5
+attack_skill = 2
+defense_skill = 3
+planning_skill = 1
+logistics_skill = 4
+}
+}
+EPI_char_id_15={
+name =EPI15
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+bearer_of_artillery
+armor_officer
+brilliant_strategist
+armor_officer
+}
+skill = 3
+attack_skill = 5
+defense_skill = 4
+planning_skill = 5
+logistics_skill = 5
+}
+}
+EPI_char_id_16={
+name =EPI16
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+inflexible_strategist
+old_guard
+}
+skill = 4
+attack_skill = 1
+defense_skill = 3
+planning_skill = 3
+logistics_skill = 2
+}
+}
+EPI_char_id_17={
+name =EPI17
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+trait_cautious
+career_officer
+}
+skill = 5
+attack_skill = 4
+defense_skill = 4
+planning_skill = 3
+logistics_skill = 5
+}
+}
+EPI_char_id_18={
+name =EPI18
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+trait_cautious
+harsh_leader
+engineer_officer
+career_officer
+infantry_officer
+}
+skill = 5
+attack_skill = 4
+defense_skill = 2
+planning_skill = 2
+logistics_skill = 1
+}
+}
+EPI_char_id_19={
+name =EPI19
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+cavalry_officer
+politically_connected
+}
+skill = 4
+attack_skill = 1
+defense_skill = 5
+planning_skill = 3
+logistics_skill = 3
+}
+}
+EPI_char_id_20={
+name =EPI20
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+trait_cautious
+bearer_of_artillery
+}
+skill = 5
+attack_skill = 3
+defense_skill = 3
+planning_skill = 3
+logistics_skill = 3
+}
+}
+EPI_char_id_21={
+name =EPI21
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+career_officer
+bearer_of_artillery
+trait_reckless
+infantry_officer
+brilliant_strategist
+}
+skill = 3
+attack_skill = 2
+defense_skill = 3
+planning_skill = 4
+logistics_skill = 5
+}
+}
+EPI_char_id_22={
+name =EPI_char_id_22
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+loading_drill_master
+silent_hunter
+ironside
+}
+skill = 5
+attack_skill = 5
+defense_skill = 3
+maneuvering_skill = 4
+coordination_skill = 2
+}
+}
+EPI_char_id_23={
+name =EPI_char_id_23
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+blockade_runner
+blockade_runner
+loading_drill_master
+}
+skill = 4
+attack_skill = 2
+defense_skill = 1
+maneuvering_skill = 5
+coordination_skill = 5
+}
+}
+EPI_char_id_24={
+name =EPI_char_id_24
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+hunter_killer
+fleet_protector
+ironside
+}
+skill = 1
+attack_skill = 2
+defense_skill = 3
+maneuvering_skill = 1
+coordination_skill = 5
+}
+}
+EPI_char_id_25={
+name =EPI_char_id_25
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+blockade_runner
+seawolf
+}
+skill = 3
+attack_skill = 1
+defense_skill = 3
+maneuvering_skill = 3
+coordination_skill = 4
+}
+}
+EPI_char_id_26={
+name =EPI_char_id_26
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+fly_swatter
+}
+skill = 1
+attack_skill = 5
+defense_skill = 3
+maneuvering_skill = 4
+coordination_skill = 4
+}
+}
+EPI_char_id_27={
+name =EPI_char_id_27
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+ironside
+}
+skill = 1
+attack_skill = 5
+defense_skill = 3
+maneuvering_skill = 1
+coordination_skill = 3
+}
+}
+EPI_char_id_28={
+name =EPI_char_id_28
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+fly_swatter
+silent_hunter
+}
+skill = 1
+attack_skill = 2
+defense_skill = 4
+maneuvering_skill = 4
+coordination_skill = 2
+}
+}
+EPI_char_id_29={
+name =EPI_char_id_29
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+lancer
+loading_drill_master
+ironside
+}
+skill = 2
+attack_skill = 1
+defense_skill = 3
+maneuvering_skill = 5
+coordination_skill = 3
+}
+}
+EPI_char_id_30={
+name =EPI_char_id_30
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+fly_swatter
+blockade_runner
+fleet_protector
+}
+skill = 1
+attack_skill = 1
+defense_skill = 2
+maneuvering_skill = 5
+coordination_skill = 5
+}
+}
+EPI_char_id_31={
+name =EPI_char_id_31
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+hunter_killer
+loading_drill_master
+seawolf
+}
+skill = 2
+attack_skill = 4
+defense_skill = 5
+maneuvering_skill = 2
+coordination_skill = 4
+}
+}
+}

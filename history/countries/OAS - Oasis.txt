@@ -20,4 +20,34 @@ set_popularities = {
 	democratic = 65
 }
 
-
+recruit_character = OAS_char_id_0
+recruit_character = OAS_char_id_1
+recruit_character = OAS_char_id_2
+recruit_character = OAS_char_id_3
+recruit_character = OAS_char_id_4
+recruit_character = OAS_char_id_5
+recruit_character = OAS_char_id_6
+recruit_character = OAS_char_id_7
+recruit_character = OAS_char_id_8
+recruit_character = OAS_char_id_9
+recruit_character = OAS_char_id_10
+recruit_character = OAS_char_id_11
+recruit_character = OAS_char_id_12
+recruit_character = OAS_char_id_13
+recruit_character = OAS_char_id_14
+recruit_character = OAS_char_id_15
+recruit_character = OAS_char_id_16
+recruit_character = OAS_char_id_17
+recruit_character = OAS_char_id_18
+recruit_character = OAS_char_id_19
+recruit_character = OAS_char_id_20
+recruit_character = OAS_char_id_21
+recruit_character = OAS_char_id_22
+recruit_character = OAS_char_id_23
+recruit_character = OAS_char_id_24
+recruit_character = OAS_char_id_25
+recruit_character = OAS_char_id_26
+recruit_character = OAS_char_id_27
+recruit_character = OAS_char_id_28
+recruit_character = OAS_char_id_29
+recruit_character = OAS_char_id_30

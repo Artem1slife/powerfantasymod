@@ -1,0 +1,586 @@
+characters = {
+QIO_char_id_0={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =QIO
+}
+name =QIO0
+cost =100
+removal_cost =150
+traits = {
+snuggler
+}
+}
+}
+QIO_char_id_1={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =QIO
+}
+name =QIO1
+cost =100
+removal_cost =150
+traits = {
+stammer
+face_licker
+}
+}
+}
+QIO_char_id_2={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =QIO
+}
+name =QIO2
+cost =100
+removal_cost =150
+traits = {
+hawk
+}
+}
+}
+QIO_char_id_3={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =QIO
+}
+name =QIO3
+cost =100
+removal_cost =150
+traits = {
+railroad_enthusiast
+dealbroker
+}
+}
+}
+QIO_char_id_4={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =QIO
+}
+name =QIO4
+cost =100
+removal_cost =150
+traits = {
+face_licker
+}
+}
+}
+QIO_char_id_5={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =QIO
+}
+name =QIO5
+cost =100
+removal_cost =150
+traits = {
+warmonger
+cornered_fox
+}
+}
+}
+QIO_char_id_6={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =QIO
+}
+name =QIO6
+cost =100
+removal_cost =150
+traits = {
+snuggler
+}
+}
+}
+QIO_char_id_7={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =QIO
+}
+name =QIO7
+cost =100
+removal_cost =150
+traits = {
+warmonger
+}
+}
+}
+QIO_char_id_8={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =QIO
+}
+name =QIO8
+cost =100
+removal_cost =150
+traits = {
+conservative_grandee
+}
+}
+}
+QIO_char_id_9={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =air_chief
+allowed  = {
+original_tag =QIO
+}
+name =QIO9
+cost =100
+removal_cost =150
+traits = {
+dealbroker
+cornered_fox
+}
+}
+}
+QIO_char_id_10={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =army_chief
+allowed  = {
+original_tag =QIO
+}
+name =QIO10
+cost =100
+removal_cost =150
+traits = {
+warmonger
+}
+}
+}
+QIO_char_id_11={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =navy_chief
+allowed  = {
+original_tag =QIO
+}
+name =QIO11
+cost =100
+removal_cost =150
+traits = {
+conservative_grandee
+warrior_code
+}
+}
+}
+QIO_char_id_12={
+portraits={
+civilian={
+large="gfx/leaders/RAV/fallan_heckmann.dds"
+}
+}
+country_leader={
+ideology =monarchy
+traits = {}
+expire="8000.1.1.1"
+id=-1
+}
+}
+QIO_char_id_13={
+name =QIO13
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+bearer_of_artillery
+trait_reckless
+war_hero
+infantry_officer
+}
+skill = 5
+attack_skill = 4
+defense_skill = 4
+planning_skill = 3
+logistics_skill = 3
+}
+}
+QIO_char_id_14={
+name =QIO14
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+inflexible_strategist
+career_officer
+war_hero
+war_hero
+engineer_officer
+}
+skill = 1
+attack_skill = 5
+defense_skill = 3
+planning_skill = 4
+logistics_skill = 2
+}
+}
+QIO_char_id_15={
+name =QIO15
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+cavalry_officer
+infantry_officer
+trait_reckless
+}
+skill = 3
+attack_skill = 5
+defense_skill = 4
+planning_skill = 4
+logistics_skill = 4
+}
+}
+QIO_char_id_16={
+name =QIO16
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+infantry_officer
+politically_connected
+infantry_officer
+war_hero
+bearer_of_artillery
+}
+skill = 1
+attack_skill = 5
+defense_skill = 2
+planning_skill = 1
+logistics_skill = 2
+}
+}
+QIO_char_id_17={
+name =QIO17
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+engineer_officer
+trait_cautious
+trait_reckless
+bearer_of_artillery
+infantry_officer
+}
+skill = 3
+attack_skill = 2
+defense_skill = 5
+planning_skill = 2
+logistics_skill = 3
+}
+}
+QIO_char_id_18={
+name =QIO18
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+trait_reckless
+harsh_leader
+}
+skill = 1
+attack_skill = 2
+defense_skill = 4
+planning_skill = 1
+logistics_skill = 1
+}
+}
+QIO_char_id_19={
+name =QIO19
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+harsh_leader
+politically_connected
+war_hero
+bearer_of_artillery
+}
+skill = 1
+attack_skill = 4
+defense_skill = 2
+planning_skill = 1
+logistics_skill = 4
+}
+}
+QIO_char_id_20={
+name =QIO_char_id_20
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+seawolf
+hunter_killer
+superior_tactician
+}
+skill = 4
+attack_skill = 5
+defense_skill = 3
+maneuvering_skill = 2
+coordination_skill = 5
+}
+}
+QIO_char_id_21={
+name =QIO_char_id_21
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+loading_drill_master
+ironside
+loading_drill_master
+}
+skill = 4
+attack_skill = 3
+defense_skill = 2
+maneuvering_skill = 4
+coordination_skill = 2
+}
+}
+QIO_char_id_22={
+name =QIO_char_id_22
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+ironside
+superior_tactician
+}
+skill = 5
+attack_skill = 2
+defense_skill = 2
+maneuvering_skill = 1
+coordination_skill = 4
+}
+}
+QIO_char_id_23={
+name =QIO_char_id_23
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+silent_hunter
+spotter
+ironside
+}
+skill = 3
+attack_skill = 4
+defense_skill = 2
+maneuvering_skill = 4
+coordination_skill = 1
+}
+}
+QIO_char_id_24={
+name =QIO_char_id_24
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+blockade_runner
+fly_swatter
+}
+skill = 5
+attack_skill = 3
+defense_skill = 2
+maneuvering_skill = 2
+coordination_skill = 2
+}
+}
+QIO_char_id_25={
+name =QIO_char_id_25
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+seawolf
+spotter
+blockade_runner
+}
+skill = 1
+attack_skill = 1
+defense_skill = 3
+maneuvering_skill = 3
+coordination_skill = 2
+}
+}
+QIO_char_id_26={
+name =QIO_char_id_26
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+loading_drill_master
+hunter_killer
+superior_tactician
+}
+skill = 4
+attack_skill = 4
+defense_skill = 5
+maneuvering_skill = 4
+coordination_skill = 2
+}
+}
+QIO_char_id_27={
+name =QIO_char_id_27
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+ironside
+}
+skill = 4
+attack_skill = 4
+defense_skill = 5
+maneuvering_skill = 4
+coordination_skill = 2
+}
+}
+QIO_char_id_28={
+name =QIO_char_id_28
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+seawolf
+fleet_protector
+}
+skill = 5
+attack_skill = 1
+defense_skill = 1
+maneuvering_skill = 5
+coordination_skill = 5
+}
+}
+}

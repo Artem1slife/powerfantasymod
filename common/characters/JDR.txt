@@ -1,0 +1,582 @@
+characters = {
+JDR_char_id_0={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =JDR
+}
+name =JDR0
+cost =100
+removal_cost =150
+traits = {
+face_licker
+humble
+}
+}
+}
+JDR_char_id_1={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =JDR
+}
+name =JDR1
+cost =100
+removal_cost =150
+traits = {
+cornered_fox
+}
+}
+}
+JDR_char_id_2={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =JDR
+}
+name =JDR2
+cost =100
+removal_cost =150
+traits = {
+cornered_fox
+}
+}
+}
+JDR_char_id_3={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =JDR
+}
+name =JDR3
+cost =100
+removal_cost =150
+traits = {
+humble
+humble
+}
+}
+}
+JDR_char_id_4={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =JDR
+}
+name =JDR4
+cost =100
+removal_cost =150
+traits = {
+warrior_code
+face_licker
+}
+}
+}
+JDR_char_id_5={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =JDR
+}
+name =JDR5
+cost =100
+removal_cost =150
+traits = {
+stammer
+}
+}
+}
+JDR_char_id_6={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =JDR
+}
+name =JDR6
+cost =100
+removal_cost =150
+traits = {
+warrior_code
+dealbroker
+}
+}
+}
+JDR_char_id_7={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =JDR
+}
+name =JDR7
+cost =100
+removal_cost =150
+traits = {
+hawk
+}
+}
+}
+JDR_char_id_8={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =JDR
+}
+name =JDR8
+cost =100
+removal_cost =150
+traits = {
+face_licker
+}
+}
+}
+JDR_char_id_9={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =air_chief
+allowed  = {
+original_tag =JDR
+}
+name =JDR9
+cost =100
+removal_cost =150
+traits = {
+humble
+humble
+}
+}
+}
+JDR_char_id_10={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =army_chief
+allowed  = {
+original_tag =JDR
+}
+name =JDR10
+cost =100
+removal_cost =150
+traits = {
+hawk
+}
+}
+}
+JDR_char_id_11={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =navy_chief
+allowed  = {
+original_tag =JDR
+}
+name =JDR11
+cost =100
+removal_cost =150
+traits = {
+stammer
+railroad_enthusiast
+}
+}
+}
+JDR_char_id_12={
+portraits={
+civilian={
+large="gfx/leaders/RAV/fallan_heckmann.dds"
+}
+}
+country_leader={
+ideology =monarchy
+traits = {}
+expire="8000.1.1.1"
+id=-1
+}
+}
+JDR_char_id_13={
+name =JDR13
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+politically_connected
+cavalry_officer
+}
+skill = 1
+attack_skill = 4
+defense_skill = 5
+planning_skill = 4
+logistics_skill = 1
+}
+}
+JDR_char_id_14={
+name =JDR14
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+trait_cautious
+cavalry_officer
+brilliant_strategist
+}
+skill = 2
+attack_skill = 5
+defense_skill = 5
+planning_skill = 5
+logistics_skill = 2
+}
+}
+JDR_char_id_15={
+name =JDR15
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+old_guard
+old_guard
+armor_officer
+brilliant_strategist
+cavalry_officer
+}
+skill = 2
+attack_skill = 4
+defense_skill = 4
+planning_skill = 2
+logistics_skill = 4
+}
+}
+JDR_char_id_16={
+name =JDR16
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+harsh_leader
+media_personality
+brilliant_strategist
+infantry_officer
+cavalry_officer
+}
+skill = 3
+attack_skill = 4
+defense_skill = 5
+planning_skill = 4
+logistics_skill = 2
+}
+}
+JDR_char_id_17={
+name =JDR17
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+trait_reckless
+armor_officer
+}
+skill = 1
+attack_skill = 2
+defense_skill = 1
+planning_skill = 1
+logistics_skill = 5
+}
+}
+JDR_char_id_18={
+name =JDR18
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+media_personality
+trait_cautious
+engineer_officer
+armor_officer
+politically_connected
+}
+skill = 5
+attack_skill = 3
+defense_skill = 2
+planning_skill = 1
+logistics_skill = 2
+}
+}
+JDR_char_id_19={
+name =JDR19
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+trait_cautious
+inflexible_strategist
+trait_reckless
+engineer_officer
+media_personality
+}
+skill = 1
+attack_skill = 3
+defense_skill = 2
+planning_skill = 1
+logistics_skill = 4
+}
+}
+JDR_char_id_20={
+name =JDR_char_id_20
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+hunter_killer
+seawolf
+lancer
+}
+skill = 2
+attack_skill = 4
+defense_skill = 1
+maneuvering_skill = 1
+coordination_skill = 3
+}
+}
+JDR_char_id_21={
+name =JDR_char_id_21
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+loading_drill_master
+ironside
+fly_swatter
+}
+skill = 3
+attack_skill = 3
+defense_skill = 3
+maneuvering_skill = 5
+coordination_skill = 1
+}
+}
+JDR_char_id_22={
+name =JDR_char_id_22
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+hunter_killer
+}
+skill = 4
+attack_skill = 4
+defense_skill = 4
+maneuvering_skill = 4
+coordination_skill = 3
+}
+}
+JDR_char_id_23={
+name =JDR_char_id_23
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+seawolf
+lancer
+loading_drill_master
+}
+skill = 2
+attack_skill = 4
+defense_skill = 2
+maneuvering_skill = 2
+coordination_skill = 3
+}
+}
+JDR_char_id_24={
+name =JDR_char_id_24
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+lancer
+}
+skill = 1
+attack_skill = 3
+defense_skill = 5
+maneuvering_skill = 4
+coordination_skill = 3
+}
+}
+JDR_char_id_25={
+name =JDR_char_id_25
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+superior_tactician
+}
+skill = 4
+attack_skill = 1
+defense_skill = 3
+maneuvering_skill = 3
+coordination_skill = 1
+}
+}
+JDR_char_id_26={
+name =JDR_char_id_26
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+fleet_protector
+blockade_runner
+lancer
+}
+skill = 1
+attack_skill = 3
+defense_skill = 3
+maneuvering_skill = 1
+coordination_skill = 1
+}
+}
+JDR_char_id_27={
+name =JDR_char_id_27
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+lancer
+fleet_protector
+}
+skill = 4
+attack_skill = 5
+defense_skill = 3
+maneuvering_skill = 5
+coordination_skill = 2
+}
+}
+JDR_char_id_28={
+name =JDR_char_id_28
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+ironside
+}
+skill = 5
+attack_skill = 3
+defense_skill = 4
+maneuvering_skill = 4
+coordination_skill = 5
+}
+}
+}

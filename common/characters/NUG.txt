@@ -1,0 +1,561 @@
+characters = {
+NUG_char_id_0={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =NUG
+}
+name =NUG0
+cost =100
+removal_cost =150
+traits = {
+railroad_enthusiast
+}
+}
+}
+NUG_char_id_1={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =NUG
+}
+name =NUG1
+cost =100
+removal_cost =150
+traits = {
+railroad_enthusiast
+warrior_code
+}
+}
+}
+NUG_char_id_2={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =NUG
+}
+name =NUG2
+cost =100
+removal_cost =150
+traits = {
+humble
+snuggler
+}
+}
+}
+NUG_char_id_3={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =NUG
+}
+name =NUG3
+cost =100
+removal_cost =150
+traits = {
+snuggler
+hawk
+}
+}
+}
+NUG_char_id_4={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =NUG
+}
+name =NUG4
+cost =100
+removal_cost =150
+traits = {
+stammer
+conservative_grandee
+}
+}
+}
+NUG_char_id_5={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =NUG
+}
+name =NUG5
+cost =100
+removal_cost =150
+traits = {
+warrior_code
+warrior_code
+}
+}
+}
+NUG_char_id_6={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =NUG
+}
+name =NUG6
+cost =100
+removal_cost =150
+traits = {
+face_licker
+}
+}
+}
+NUG_char_id_7={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =NUG
+}
+name =NUG7
+cost =100
+removal_cost =150
+traits = {
+humble
+}
+}
+}
+NUG_char_id_8={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =NUG
+}
+name =NUG8
+cost =100
+removal_cost =150
+traits = {
+snuggler
+warmonger
+}
+}
+}
+NUG_char_id_9={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =air_chief
+allowed  = {
+original_tag =NUG
+}
+name =NUG9
+cost =100
+removal_cost =150
+traits = {
+dealbroker
+}
+}
+}
+NUG_char_id_10={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =army_chief
+allowed  = {
+original_tag =NUG
+}
+name =NUG10
+cost =100
+removal_cost =150
+traits = {
+warmonger
+dealbroker
+}
+}
+}
+NUG_char_id_11={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =navy_chief
+allowed  = {
+original_tag =NUG
+}
+name =NUG11
+cost =100
+removal_cost =150
+traits = {
+cornered_fox
+conservative_grandee
+}
+}
+}
+NUG_char_id_12={
+portraits={
+civilian={
+large="gfx/leaders/RAV/fallan_heckmann.dds"
+}
+}
+country_leader={
+ideology =monarchy
+traits = {}
+expire="8000.1.1.1"
+id=-1
+}
+}
+NUG_char_id_13={
+name =NUG13
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+engineer_officer
+trait_reckless
+media_personality
+}
+skill = 2
+attack_skill = 3
+defense_skill = 1
+planning_skill = 3
+logistics_skill = 1
+}
+}
+NUG_char_id_14={
+name =NUG14
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+politically_connected
+infantry_officer
+trait_cautious
+trait_reckless
+brilliant_strategist
+}
+skill = 1
+attack_skill = 1
+defense_skill = 3
+planning_skill = 2
+logistics_skill = 3
+}
+}
+NUG_char_id_15={
+name =NUG15
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+infantry_officer
+bearer_of_artillery
+}
+skill = 4
+attack_skill = 5
+defense_skill = 2
+planning_skill = 4
+logistics_skill = 5
+}
+}
+NUG_char_id_16={
+name =NUG16
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+cavalry_officer
+bearer_of_artillery
+brilliant_strategist
+}
+skill = 5
+attack_skill = 4
+defense_skill = 4
+planning_skill = 3
+logistics_skill = 4
+}
+}
+NUG_char_id_17={
+name =NUG17
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+engineer_officer
+infantry_officer
+bearer_of_artillery
+old_guard
+inflexible_strategist
+}
+skill = 1
+attack_skill = 5
+defense_skill = 2
+planning_skill = 1
+logistics_skill = 5
+}
+}
+NUG_char_id_18={
+name =NUG18
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+inflexible_strategist
+bearer_of_artillery
+trait_cautious
+trait_cautious
+}
+skill = 4
+attack_skill = 3
+defense_skill = 3
+planning_skill = 2
+logistics_skill = 4
+}
+}
+NUG_char_id_19={
+name =NUG19
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+politically_connected
+war_hero
+inflexible_strategist
+}
+skill = 1
+attack_skill = 3
+defense_skill = 4
+planning_skill = 3
+logistics_skill = 3
+}
+}
+NUG_char_id_20={
+name =NUG_char_id_20
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+ironside
+}
+skill = 4
+attack_skill = 1
+defense_skill = 1
+maneuvering_skill = 2
+coordination_skill = 1
+}
+}
+NUG_char_id_21={
+name =NUG_char_id_21
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+ironside
+superior_tactician
+}
+skill = 5
+attack_skill = 2
+defense_skill = 1
+maneuvering_skill = 1
+coordination_skill = 2
+}
+}
+NUG_char_id_22={
+name =NUG_char_id_22
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+loading_drill_master
+hunter_killer
+blockade_runner
+}
+skill = 4
+attack_skill = 2
+defense_skill = 3
+maneuvering_skill = 2
+coordination_skill = 5
+}
+}
+NUG_char_id_23={
+name =NUG_char_id_23
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+blockade_runner
+fleet_protector
+}
+skill = 1
+attack_skill = 4
+defense_skill = 2
+maneuvering_skill = 1
+coordination_skill = 2
+}
+}
+NUG_char_id_24={
+name =NUG_char_id_24
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+silent_hunter
+}
+skill = 1
+attack_skill = 2
+defense_skill = 3
+maneuvering_skill = 5
+coordination_skill = 1
+}
+}
+NUG_char_id_25={
+name =NUG_char_id_25
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+lancer
+superior_tactician
+lancer
+}
+skill = 4
+attack_skill = 2
+defense_skill = 3
+maneuvering_skill = 3
+coordination_skill = 1
+}
+}
+NUG_char_id_26={
+name =NUG_char_id_26
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+blockade_runner
+blockade_runner
+}
+skill = 2
+attack_skill = 3
+defense_skill = 5
+maneuvering_skill = 2
+coordination_skill = 1
+}
+}
+NUG_char_id_27={
+name =NUG_char_id_27
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+hunter_killer
+}
+skill = 1
+attack_skill = 4
+defense_skill = 1
+maneuvering_skill = 1
+coordination_skill = 3
+}
+}
+}

@@ -1,0 +1,573 @@
+characters = {
+TLE_char_id_0={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =TLE
+}
+name =TLE0
+cost =100
+removal_cost =150
+traits = {
+conservative_grandee
+}
+}
+}
+TLE_char_id_1={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =TLE
+}
+name =TLE1
+cost =100
+removal_cost =150
+traits = {
+stammer
+}
+}
+}
+TLE_char_id_2={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =TLE
+}
+name =TLE2
+cost =100
+removal_cost =150
+traits = {
+stammer
+}
+}
+}
+TLE_char_id_3={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =TLE
+}
+name =TLE3
+cost =100
+removal_cost =150
+traits = {
+warrior_code
+}
+}
+}
+TLE_char_id_4={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =TLE
+}
+name =TLE4
+cost =100
+removal_cost =150
+traits = {
+stammer
+stammer
+}
+}
+}
+TLE_char_id_5={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =TLE
+}
+name =TLE5
+cost =100
+removal_cost =150
+traits = {
+warrior_code
+}
+}
+}
+TLE_char_id_6={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =TLE
+}
+name =TLE6
+cost =100
+removal_cost =150
+traits = {
+humble
+dealbroker
+}
+}
+}
+TLE_char_id_7={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =TLE
+}
+name =TLE7
+cost =100
+removal_cost =150
+traits = {
+conservative_grandee
+conservative_grandee
+}
+}
+}
+TLE_char_id_8={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =TLE
+}
+name =TLE8
+cost =100
+removal_cost =150
+traits = {
+snuggler
+}
+}
+}
+TLE_char_id_9={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =air_chief
+allowed  = {
+original_tag =TLE
+}
+name =TLE9
+cost =100
+removal_cost =150
+traits = {
+snuggler
+railroad_enthusiast
+}
+}
+}
+TLE_char_id_10={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =army_chief
+allowed  = {
+original_tag =TLE
+}
+name =TLE10
+cost =100
+removal_cost =150
+traits = {
+dealbroker
+railroad_enthusiast
+}
+}
+}
+TLE_char_id_11={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =navy_chief
+allowed  = {
+original_tag =TLE
+}
+name =TLE11
+cost =100
+removal_cost =150
+traits = {
+humble
+}
+}
+}
+TLE_char_id_12={
+portraits={
+civilian={
+large="gfx/leaders/RAV/fallan_heckmann.dds"
+}
+}
+country_leader={
+ideology =monarchy
+traits = {}
+expire="8000.1.1.1"
+id=-1
+}
+}
+TLE_char_id_13={
+name =TLE13
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+armor_officer
+harsh_leader
+brilliant_strategist
+}
+skill = 2
+attack_skill = 2
+defense_skill = 1
+planning_skill = 1
+logistics_skill = 4
+}
+}
+TLE_char_id_14={
+name =TLE14
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+inflexible_strategist
+war_hero
+infantry_officer
+old_guard
+}
+skill = 2
+attack_skill = 4
+defense_skill = 5
+planning_skill = 2
+logistics_skill = 2
+}
+}
+TLE_char_id_15={
+name =TLE15
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+infantry_officer
+trait_reckless
+}
+skill = 1
+attack_skill = 3
+defense_skill = 1
+planning_skill = 2
+logistics_skill = 5
+}
+}
+TLE_char_id_16={
+name =TLE16
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+trait_reckless
+armor_officer
+}
+skill = 2
+attack_skill = 1
+defense_skill = 2
+planning_skill = 3
+logistics_skill = 5
+}
+}
+TLE_char_id_17={
+name =TLE17
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+harsh_leader
+brilliant_strategist
+war_hero
+}
+skill = 5
+attack_skill = 3
+defense_skill = 2
+planning_skill = 4
+logistics_skill = 1
+}
+}
+TLE_char_id_18={
+name =TLE18
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+cavalry_officer
+politically_connected
+cavalry_officer
+}
+skill = 5
+attack_skill = 2
+defense_skill = 3
+planning_skill = 2
+logistics_skill = 1
+}
+}
+TLE_char_id_19={
+name =TLE19
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+bearer_of_artillery
+infantry_officer
+trait_cautious
+inflexible_strategist
+war_hero
+}
+skill = 4
+attack_skill = 2
+defense_skill = 1
+planning_skill = 3
+logistics_skill = 5
+}
+}
+TLE_char_id_20={
+name =TLE_char_id_20
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+fleet_protector
+}
+skill = 4
+attack_skill = 4
+defense_skill = 5
+maneuvering_skill = 1
+coordination_skill = 3
+}
+}
+TLE_char_id_21={
+name =TLE_char_id_21
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+blockade_runner
+fly_swatter
+}
+skill = 4
+attack_skill = 4
+defense_skill = 3
+maneuvering_skill = 2
+coordination_skill = 1
+}
+}
+TLE_char_id_22={
+name =TLE_char_id_22
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+lancer
+silent_hunter
+ironside
+}
+skill = 4
+attack_skill = 4
+defense_skill = 4
+maneuvering_skill = 4
+coordination_skill = 5
+}
+}
+TLE_char_id_23={
+name =TLE_char_id_23
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+hunter_killer
+}
+skill = 2
+attack_skill = 4
+defense_skill = 3
+maneuvering_skill = 3
+coordination_skill = 5
+}
+}
+TLE_char_id_24={
+name =TLE_char_id_24
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+silent_hunter
+}
+skill = 2
+attack_skill = 3
+defense_skill = 5
+maneuvering_skill = 4
+coordination_skill = 4
+}
+}
+TLE_char_id_25={
+name =TLE_char_id_25
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+ironside
+}
+skill = 4
+attack_skill = 2
+defense_skill = 3
+maneuvering_skill = 4
+coordination_skill = 5
+}
+}
+TLE_char_id_26={
+name =TLE_char_id_26
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+blockade_runner
+}
+skill = 5
+attack_skill = 1
+defense_skill = 1
+maneuvering_skill = 4
+coordination_skill = 4
+}
+}
+TLE_char_id_27={
+name =TLE_char_id_27
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+silent_hunter
+superior_tactician
+}
+skill = 3
+attack_skill = 2
+defense_skill = 5
+maneuvering_skill = 2
+coordination_skill = 4
+}
+}
+TLE_char_id_28={
+name =TLE_char_id_28
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+blockade_runner
+silent_hunter
+hunter_killer
+}
+skill = 3
+attack_skill = 5
+defense_skill = 3
+maneuvering_skill = 5
+coordination_skill = 4
+}
+}
+}

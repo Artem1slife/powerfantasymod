@@ -1,0 +1,662 @@
+characters = {
+ROM_char_id_0={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =ROM
+}
+name =ROM0
+cost =100
+removal_cost =150
+traits = {
+snuggler
+}
+}
+}
+ROM_char_id_1={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =ROM
+}
+name =ROM1
+cost =100
+removal_cost =150
+traits = {
+face_licker
+}
+}
+}
+ROM_char_id_2={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =ROM
+}
+name =ROM2
+cost =100
+removal_cost =150
+traits = {
+stammer
+}
+}
+}
+ROM_char_id_3={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =ROM
+}
+name =ROM3
+cost =100
+removal_cost =150
+traits = {
+warrior_code
+conservative_grandee
+}
+}
+}
+ROM_char_id_4={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =ROM
+}
+name =ROM4
+cost =100
+removal_cost =150
+traits = {
+warmonger
+cornered_fox
+}
+}
+}
+ROM_char_id_5={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =ROM
+}
+name =ROM5
+cost =100
+removal_cost =150
+traits = {
+conservative_grandee
+cornered_fox
+}
+}
+}
+ROM_char_id_6={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =ROM
+}
+name =ROM6
+cost =100
+removal_cost =150
+traits = {
+face_licker
+}
+}
+}
+ROM_char_id_7={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =ROM
+}
+name =ROM7
+cost =100
+removal_cost =150
+traits = {
+warrior_code
+warmonger
+}
+}
+}
+ROM_char_id_8={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =ROM
+}
+name =ROM8
+cost =100
+removal_cost =150
+traits = {
+dealbroker
+hawk
+}
+}
+}
+ROM_char_id_9={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =air_chief
+allowed  = {
+original_tag =ROM
+}
+name =ROM9
+cost =100
+removal_cost =150
+traits = {
+dealbroker
+face_licker
+}
+}
+}
+ROM_char_id_10={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =army_chief
+allowed  = {
+original_tag =ROM
+}
+name =ROM10
+cost =100
+removal_cost =150
+traits = {
+warmonger
+}
+}
+}
+ROM_char_id_11={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =navy_chief
+allowed  = {
+original_tag =ROM
+}
+name =ROM11
+cost =100
+removal_cost =150
+traits = {
+cornered_fox
+}
+}
+}
+ROM_char_id_12={
+portraits={
+civilian={
+large="gfx/leaders/RAV/fallan_heckmann.dds"
+}
+}
+country_leader={
+ideology =monarchy
+traits = {}
+expire="8000.1.1.1"
+id=-1
+}
+}
+ROM_char_id_13={
+name =ROM13
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+bearer_of_artillery
+media_personality
+trait_cautious
+inflexible_strategist
+infantry_officer
+}
+skill = 3
+attack_skill = 5
+defense_skill = 4
+planning_skill = 3
+logistics_skill = 1
+}
+}
+ROM_char_id_14={
+name =ROM14
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+inflexible_strategist
+brilliant_strategist
+trait_cautious
+}
+skill = 3
+attack_skill = 4
+defense_skill = 5
+planning_skill = 1
+logistics_skill = 4
+}
+}
+ROM_char_id_15={
+name =ROM15
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+inflexible_strategist
+war_hero
+brilliant_strategist
+infantry_officer
+}
+skill = 4
+attack_skill = 4
+defense_skill = 3
+planning_skill = 4
+logistics_skill = 2
+}
+}
+ROM_char_id_16={
+name =ROM16
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+armor_officer
+brilliant_strategist
+trait_reckless
+infantry_officer
+war_hero
+}
+skill = 3
+attack_skill = 4
+defense_skill = 1
+planning_skill = 3
+logistics_skill = 2
+}
+}
+ROM_char_id_17={
+name =ROM17
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+trait_reckless
+war_hero
+harsh_leader
+old_guard
+inflexible_strategist
+}
+skill = 5
+attack_skill = 1
+defense_skill = 3
+planning_skill = 4
+logistics_skill = 1
+}
+}
+ROM_char_id_18={
+name =ROM18
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+politically_connected
+bearer_of_artillery
+}
+skill = 3
+attack_skill = 3
+defense_skill = 4
+planning_skill = 3
+logistics_skill = 4
+}
+}
+ROM_char_id_19={
+name =ROM19
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+cavalry_officer
+inflexible_strategist
+}
+skill = 1
+attack_skill = 5
+defense_skill = 2
+planning_skill = 2
+logistics_skill = 5
+}
+}
+ROM_char_id_20={
+name =ROM20
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+media_personality
+brilliant_strategist
+politically_connected
+infantry_officer
+}
+skill = 5
+attack_skill = 4
+defense_skill = 3
+planning_skill = 1
+logistics_skill = 3
+}
+}
+ROM_char_id_21={
+name =ROM21
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+harsh_leader
+career_officer
+}
+skill = 4
+attack_skill = 5
+defense_skill = 2
+planning_skill = 1
+logistics_skill = 1
+}
+}
+ROM_char_id_22={
+name =ROM22
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+infantry_officer
+war_hero
+}
+skill = 1
+attack_skill = 2
+defense_skill = 5
+planning_skill = 3
+logistics_skill = 1
+}
+}
+ROM_char_id_23={
+name =ROM_char_id_23
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+superior_tactician
+fly_swatter
+}
+skill = 3
+attack_skill = 3
+defense_skill = 5
+maneuvering_skill = 4
+coordination_skill = 5
+}
+}
+ROM_char_id_24={
+name =ROM_char_id_24
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+lancer
+spotter
+}
+skill = 3
+attack_skill = 4
+defense_skill = 1
+maneuvering_skill = 1
+coordination_skill = 4
+}
+}
+ROM_char_id_25={
+name =ROM_char_id_25
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+seawolf
+fly_swatter
+}
+skill = 5
+attack_skill = 4
+defense_skill = 1
+maneuvering_skill = 5
+coordination_skill = 5
+}
+}
+ROM_char_id_26={
+name =ROM_char_id_26
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+lancer
+fleet_protector
+blockade_runner
+}
+skill = 2
+attack_skill = 2
+defense_skill = 5
+maneuvering_skill = 5
+coordination_skill = 3
+}
+}
+ROM_char_id_27={
+name =ROM_char_id_27
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+fleet_protector
+}
+skill = 2
+attack_skill = 5
+defense_skill = 5
+maneuvering_skill = 5
+coordination_skill = 4
+}
+}
+ROM_char_id_28={
+name =ROM_char_id_28
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+spotter
+blockade_runner
+fleet_protector
+}
+skill = 4
+attack_skill = 5
+defense_skill = 5
+maneuvering_skill = 1
+coordination_skill = 2
+}
+}
+ROM_char_id_29={
+name =ROM_char_id_29
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+ironside
+}
+skill = 2
+attack_skill = 5
+defense_skill = 2
+maneuvering_skill = 4
+coordination_skill = 4
+}
+}
+ROM_char_id_30={
+name =ROM_char_id_30
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+blockade_runner
+}
+skill = 2
+attack_skill = 4
+defense_skill = 5
+maneuvering_skill = 5
+coordination_skill = 3
+}
+}
+ROM_char_id_31={
+name =ROM_char_id_31
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+seawolf
+ironside
+loading_drill_master
+}
+skill = 4
+attack_skill = 5
+defense_skill = 1
+maneuvering_skill = 2
+coordination_skill = 3
+}
+}
+ROM_char_id_32={
+name =ROM_char_id_32
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+ironside
+}
+skill = 3
+attack_skill = 2
+defense_skill = 5
+maneuvering_skill = 2
+coordination_skill = 3
+}
+}
+}

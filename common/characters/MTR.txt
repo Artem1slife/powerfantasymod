@@ -1,0 +1,633 @@
+characters = {
+MTR_char_id_0={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =MTR
+}
+name =MTR0
+cost =100
+removal_cost =150
+traits = {
+railroad_enthusiast
+stammer
+}
+}
+}
+MTR_char_id_1={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =MTR
+}
+name =MTR1
+cost =100
+removal_cost =150
+traits = {
+railroad_enthusiast
+stammer
+}
+}
+}
+MTR_char_id_2={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =MTR
+}
+name =MTR2
+cost =100
+removal_cost =150
+traits = {
+warrior_code
+}
+}
+}
+MTR_char_id_3={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =MTR
+}
+name =MTR3
+cost =100
+removal_cost =150
+traits = {
+cornered_fox
+}
+}
+}
+MTR_char_id_4={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =MTR
+}
+name =MTR4
+cost =100
+removal_cost =150
+traits = {
+hawk
+stammer
+}
+}
+}
+MTR_char_id_5={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =MTR
+}
+name =MTR5
+cost =100
+removal_cost =150
+traits = {
+snuggler
+}
+}
+}
+MTR_char_id_6={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =MTR
+}
+name =MTR6
+cost =100
+removal_cost =150
+traits = {
+hawk
+}
+}
+}
+MTR_char_id_7={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =MTR
+}
+name =MTR7
+cost =100
+removal_cost =150
+traits = {
+humble
+face_licker
+}
+}
+}
+MTR_char_id_8={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =MTR
+}
+name =MTR8
+cost =100
+removal_cost =150
+traits = {
+warmonger
+}
+}
+}
+MTR_char_id_9={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =air_chief
+allowed  = {
+original_tag =MTR
+}
+name =MTR9
+cost =100
+removal_cost =150
+traits = {
+cornered_fox
+warrior_code
+}
+}
+}
+MTR_char_id_10={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =army_chief
+allowed  = {
+original_tag =MTR
+}
+name =MTR10
+cost =100
+removal_cost =150
+traits = {
+snuggler
+}
+}
+}
+MTR_char_id_11={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =navy_chief
+allowed  = {
+original_tag =MTR
+}
+name =MTR11
+cost =100
+removal_cost =150
+traits = {
+humble
+}
+}
+}
+MTR_char_id_12={
+portraits={
+civilian={
+large="gfx/leaders/RAV/fallan_heckmann.dds"
+}
+}
+country_leader={
+ideology =monarchy
+traits = {}
+expire="8000.1.1.1"
+id=-1
+}
+}
+MTR_char_id_13={
+name =MTR13
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+armor_officer
+engineer_officer
+career_officer
+trait_reckless
+}
+skill = 5
+attack_skill = 1
+defense_skill = 4
+planning_skill = 2
+logistics_skill = 2
+}
+}
+MTR_char_id_14={
+name =MTR14
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+inflexible_strategist
+inflexible_strategist
+media_personality
+}
+skill = 1
+attack_skill = 2
+defense_skill = 1
+planning_skill = 5
+logistics_skill = 5
+}
+}
+MTR_char_id_15={
+name =MTR15
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+old_guard
+career_officer
+harsh_leader
+}
+skill = 5
+attack_skill = 4
+defense_skill = 3
+planning_skill = 1
+logistics_skill = 4
+}
+}
+MTR_char_id_16={
+name =MTR16
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+bearer_of_artillery
+trait_cautious
+}
+skill = 5
+attack_skill = 5
+defense_skill = 3
+planning_skill = 4
+logistics_skill = 5
+}
+}
+MTR_char_id_17={
+name =MTR17
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+infantry_officer
+cavalry_officer
+inflexible_strategist
+harsh_leader
+}
+skill = 4
+attack_skill = 5
+defense_skill = 5
+planning_skill = 1
+logistics_skill = 4
+}
+}
+MTR_char_id_18={
+name =MTR18
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+trait_reckless
+infantry_officer
+}
+skill = 2
+attack_skill = 1
+defense_skill = 1
+planning_skill = 2
+logistics_skill = 1
+}
+}
+MTR_char_id_19={
+name =MTR19
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+politically_connected
+harsh_leader
+}
+skill = 2
+attack_skill = 2
+defense_skill = 5
+planning_skill = 2
+logistics_skill = 1
+}
+}
+MTR_char_id_20={
+name =MTR20
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+brilliant_strategist
+old_guard
+engineer_officer
+brilliant_strategist
+}
+skill = 3
+attack_skill = 1
+defense_skill = 5
+planning_skill = 5
+logistics_skill = 2
+}
+}
+MTR_char_id_21={
+name =MTR21
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+old_guard
+bearer_of_artillery
+}
+skill = 3
+attack_skill = 4
+defense_skill = 1
+planning_skill = 2
+logistics_skill = 5
+}
+}
+MTR_char_id_22={
+name =MTR_char_id_22
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+superior_tactician
+lancer
+}
+skill = 4
+attack_skill = 5
+defense_skill = 1
+maneuvering_skill = 3
+coordination_skill = 3
+}
+}
+MTR_char_id_23={
+name =MTR_char_id_23
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+seawolf
+superior_tactician
+loading_drill_master
+}
+skill = 1
+attack_skill = 3
+defense_skill = 1
+maneuvering_skill = 3
+coordination_skill = 4
+}
+}
+MTR_char_id_24={
+name =MTR_char_id_24
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+silent_hunter
+}
+skill = 2
+attack_skill = 1
+defense_skill = 5
+maneuvering_skill = 3
+coordination_skill = 2
+}
+}
+MTR_char_id_25={
+name =MTR_char_id_25
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+superior_tactician
+}
+skill = 5
+attack_skill = 2
+defense_skill = 2
+maneuvering_skill = 4
+coordination_skill = 2
+}
+}
+MTR_char_id_26={
+name =MTR_char_id_26
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+blockade_runner
+blockade_runner
+spotter
+}
+skill = 5
+attack_skill = 5
+defense_skill = 3
+maneuvering_skill = 1
+coordination_skill = 3
+}
+}
+MTR_char_id_27={
+name =MTR_char_id_27
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+silent_hunter
+}
+skill = 1
+attack_skill = 2
+defense_skill = 1
+maneuvering_skill = 5
+coordination_skill = 3
+}
+}
+MTR_char_id_28={
+name =MTR_char_id_28
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+blockade_runner
+}
+skill = 5
+attack_skill = 5
+defense_skill = 5
+maneuvering_skill = 3
+coordination_skill = 2
+}
+}
+MTR_char_id_29={
+name =MTR_char_id_29
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+lancer
+fly_swatter
+}
+skill = 1
+attack_skill = 5
+defense_skill = 4
+maneuvering_skill = 1
+coordination_skill = 2
+}
+}
+MTR_char_id_30={
+name =MTR_char_id_30
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+hunter_killer
+superior_tactician
+}
+skill = 4
+attack_skill = 3
+defense_skill = 4
+maneuvering_skill = 5
+coordination_skill = 4
+}
+}
+MTR_char_id_31={
+name =MTR_char_id_31
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+spotter
+}
+skill = 1
+attack_skill = 5
+defense_skill = 1
+maneuvering_skill = 3
+coordination_skill = 1
+}
+}
+}

@@ -1,0 +1,586 @@
+characters = {
+KSO_char_id_0={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =KSO
+}
+name =KSO0
+cost =100
+removal_cost =150
+traits = {
+railroad_enthusiast
+warmonger
+}
+}
+}
+KSO_char_id_1={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =KSO
+}
+name =KSO1
+cost =100
+removal_cost =150
+traits = {
+warmonger
+humble
+}
+}
+}
+KSO_char_id_2={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =political_advisor
+allowed  = {
+original_tag =KSO
+}
+name =KSO2
+cost =100
+removal_cost =150
+traits = {
+cornered_fox
+}
+}
+}
+KSO_char_id_3={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =KSO
+}
+name =KSO3
+cost =100
+removal_cost =150
+traits = {
+hawk
+humble
+}
+}
+}
+KSO_char_id_4={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =KSO
+}
+name =KSO4
+cost =100
+removal_cost =150
+traits = {
+warmonger
+face_licker
+}
+}
+}
+KSO_char_id_5={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =theorist
+allowed  = {
+original_tag =KSO
+}
+name =KSO5
+cost =100
+removal_cost =150
+traits = {
+warmonger
+humble
+}
+}
+}
+KSO_char_id_6={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =KSO
+}
+name =KSO6
+cost =100
+removal_cost =150
+traits = {
+warrior_code
+snuggler
+}
+}
+}
+KSO_char_id_7={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =KSO
+}
+name =KSO7
+cost =100
+removal_cost =150
+traits = {
+hawk
+cornered_fox
+}
+}
+}
+KSO_char_id_8={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =high_command
+allowed  = {
+original_tag =KSO
+}
+name =KSO8
+cost =100
+removal_cost =150
+traits = {
+snuggler
+}
+}
+}
+KSO_char_id_9={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =air_chief
+allowed  = {
+original_tag =KSO
+}
+name =KSO9
+cost =100
+removal_cost =150
+traits = {
+hawk
+}
+}
+}
+KSO_char_id_10={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =army_chief
+allowed  = {
+original_tag =KSO
+}
+name =KSO10
+cost =100
+removal_cost =150
+traits = {
+humble
+}
+}
+}
+KSO_char_id_11={
+portraits={
+civilian={
+small="GFX_idea_CHI_soong_mei_ling"
+}
+}
+advisor = {
+slot =navy_chief
+allowed  = {
+original_tag =KSO
+}
+name =KSO11
+cost =100
+removal_cost =150
+traits = {
+warrior_code
+hawk
+}
+}
+}
+KSO_char_id_12={
+portraits={
+civilian={
+large="gfx/leaders/RAV/fallan_heckmann.dds"
+}
+}
+country_leader={
+ideology =monarchy
+traits = {}
+expire="8000.1.1.1"
+id=-1
+}
+}
+KSO_char_id_13={
+name =KSO13
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+media_personality
+cavalry_officer
+trait_cautious
+}
+skill = 4
+attack_skill = 4
+defense_skill = 3
+planning_skill = 2
+logistics_skill = 1
+}
+}
+KSO_char_id_14={
+name =KSO14
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+politically_connected
+trait_cautious
+war_hero
+politically_connected
+trait_cautious
+}
+skill = 1
+attack_skill = 2
+defense_skill = 5
+planning_skill = 5
+logistics_skill = 1
+}
+}
+KSO_char_id_15={
+name =KSO15
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+trait_reckless
+old_guard
+career_officer
+bearer_of_artillery
+}
+skill = 5
+attack_skill = 1
+defense_skill = 2
+planning_skill = 3
+logistics_skill = 1
+}
+}
+KSO_char_id_16={
+name =KSO16
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+infantry_officer
+brilliant_strategist
+trait_cautious
+}
+skill = 4
+attack_skill = 1
+defense_skill = 1
+planning_skill = 5
+logistics_skill = 5
+}
+}
+KSO_char_id_17={
+name =KSO17
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+engineer_officer
+infantry_officer
+harsh_leader
+politically_connected
+}
+skill = 2
+attack_skill = 5
+defense_skill = 4
+planning_skill = 1
+logistics_skill = 4
+}
+}
+KSO_char_id_18={
+name =KSO18
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+politically_connected
+career_officer
+armor_officer
+}
+skill = 5
+attack_skill = 4
+defense_skill = 1
+planning_skill = 1
+logistics_skill = 2
+}
+}
+KSO_char_id_19={
+name =KSO19
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+infantry_officer
+career_officer
+bearer_of_artillery
+}
+skill = 4
+attack_skill = 4
+defense_skill = 2
+planning_skill = 1
+logistics_skill = 1
+}
+}
+KSO_char_id_20={
+name =KSO20
+portraits={
+army={
+large="GFX_portrait_USA_arleigh_burke"
+small="GFX_portrait_USA_arleigh_burke_small"
+}
+}
+corps_commander = {
+traits = {
+brilliant_strategist
+media_personality
+old_guard
+armor_officer
+}
+skill = 1
+attack_skill = 3
+defense_skill = 4
+planning_skill = 2
+logistics_skill = 5
+}
+}
+KSO_char_id_21={
+name =KSO_char_id_21
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+silent_hunter
+}
+skill = 3
+attack_skill = 1
+defense_skill = 3
+maneuvering_skill = 5
+coordination_skill = 1
+}
+}
+KSO_char_id_22={
+name =KSO_char_id_22
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+lancer
+fly_swatter
+superior_tactician
+}
+skill = 3
+attack_skill = 1
+defense_skill = 2
+maneuvering_skill = 2
+coordination_skill = 4
+}
+}
+KSO_char_id_23={
+name =KSO_char_id_23
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+loading_drill_master
+silent_hunter
+}
+skill = 3
+attack_skill = 5
+defense_skill = 5
+maneuvering_skill = 1
+coordination_skill = 5
+}
+}
+KSO_char_id_24={
+name =KSO_char_id_24
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+loading_drill_master
+fly_swatter
+}
+skill = 1
+attack_skill = 2
+defense_skill = 1
+maneuvering_skill = 3
+coordination_skill = 1
+}
+}
+KSO_char_id_25={
+name =KSO_char_id_25
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+spotter
+blockade_runner
+blockade_runner
+}
+skill = 4
+attack_skill = 5
+defense_skill = 1
+maneuvering_skill = 3
+coordination_skill = 1
+}
+}
+KSO_char_id_26={
+name =KSO_char_id_26
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+lancer
+fly_swatter
+}
+skill = 4
+attack_skill = 3
+defense_skill = 5
+maneuvering_skill = 3
+coordination_skill = 1
+}
+}
+KSO_char_id_27={
+name =KSO_char_id_27
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+superior_tactician
+fleet_protector
+lancer
+}
+skill = 3
+attack_skill = 1
+defense_skill = 3
+maneuvering_skill = 5
+coordination_skill = 3
+}
+}
+KSO_char_id_28={
+name =KSO_char_id_28
+portraits={
+army={
+large=GFX_portrait_USA_arleigh_burke
+small=GFX_portrait_USA_arleigh_burke_small
+}
+}
+corps_commander = {
+traits = {
+ironside
+ironside
+}
+skill = 2
+attack_skill = 5
+defense_skill = 3
+maneuvering_skill = 5
+coordination_skill = 2
+}
+}
+}
