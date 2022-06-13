@@ -1,16 +1,6 @@
 on_actions = {
 	on_startup = {
 		effect = {
-			###Русиш
-			274 = {
-				add_dynamic_modifier = { modifier = nation_russian }
-			}
-			278 = {
-				add_dynamic_modifier = { modifier = nation_russian }
-			}
-			307 = {
-				add_dynamic_modifier = { modifier = nation_russian }
-			}
 			###Гамальдор###
 			16 = {
 				add_dynamic_modifier = { modifier = nation_north_gamaldorian }
@@ -150,6 +140,54 @@ on_actions = {
 			321 = { add_dynamic_modifier = { modifier = nation_raviol } }
 			329 = { add_dynamic_modifier = { modifier = nation_raviol } }
 			###
+		}
+	}
+	on_monthly_TRC = { ###Странствующие города
+		effect = {
+			###Опсио
+			set_victory_points = { province = 3229 value = 0 }
+			set_victory_points = { province = 4558 value = 0 }
+			set_victory_points = { province = 711 value = 0 }
+			random_list = {
+				33 = { set_victory_points = { province = 3229 value = 10 } }
+				33 = { set_victory_points = { province = 4558 value = 10 } }
+				34 = { set_victory_points = { province = 711 value = 10 } }
+			}
+			###Спика
+			set_victory_points = { province = 2100 value = 0 }
+			set_victory_points = { province = 197 value = 0 }
+			set_victory_points = { province = 1202 value = 0 }
+			set_victory_points = { province = 4453 value = 0 }
+			random_list = {
+				25 = { set_victory_points = { province = 2100 value = 3 } }
+				25 = { set_victory_points = { province = 197 value = 3 } }
+				25 = { set_victory_points = { province = 1202 value = 3 } }
+				25 = { set_victory_points = { province = 4453 value = 3 } }
+			}
+			###Капелла
+			set_victory_points = { province = 5911 value = 0 }
+			set_victory_points = { province = 1651 value = 0 }
+			set_victory_points = { province = 5667 value = 0 }
+			set_victory_points = { province = 1164 value = 0 }
+			random_list = {
+				25 = { set_victory_points = { province = 5911 value = 5 } }
+				25 = { set_victory_points = { province = 1651 value = 5 } }
+				25 = { set_victory_points = { province = 5667 value = 5 } }
+				25 = { set_victory_points = { province = 1164 value = 5 } }
+			}
+			###Регор
+			set_victory_points = { province = 4586 value = 0 }
+			set_victory_points = { province = 24 value = 0 }
+			set_victory_points = { province = 8234 value = 0 }
+			set_victory_points = { province = 2611 value = 0 }
+			set_victory_points = { province = 4528 value = 0 }
+			random_list = {
+				20 = { set_victory_points = { province = 4586 value = 5 } }
+				20 = { set_victory_points = { province = 24 value = 5 } }
+				20 = { set_victory_points = { province = 8234 value = 5 } }
+				20 = { set_victory_points = { province = 2611 value = 5 } }
+				20 = { set_victory_points = { province = 4528 value = 5 } }
+			}
 		}
 	}
 }

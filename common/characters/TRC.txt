@@ -1,0 +1,14 @@
+characters = {
+	TRC_trsts = {
+		portraits={
+			civilian={
+				large="gfx/leaders/TRC/desert.dds"
+			}
+		}
+		country_leader={
+			ideology = gray_democracy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

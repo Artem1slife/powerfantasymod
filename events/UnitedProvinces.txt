@@ -28,18 +28,27 @@ country_event = {
 		create_faction = DGP_new_pact
 		set_cosmetic_tag = RAV_confederate
 		add_ideas = UP_confederation
-		every_state = {
-			if = {
-				limit = {
-					is_core_of = RAV
-					is_core_of = IST
-					is_core_of = EMF
-					is_core_of = ASP
-					is_core_of = DMT
-					is_core_of = DGP
-				}
-				add_core_of = DGP
-			}
+		DGP = {
+			add_state_core = 270
+			add_state_core = 286
+			add_state_core = 292
+			add_state_core = 301
+			add_state_core = 303
+			add_state_core = 304
+			add_state_core = 318
+			add_state_core = 321
+			add_state_core = 329
+		}
+		RAV = {
+			add_state_core = 270
+			add_state_core = 286
+			add_state_core = 292
+			add_state_core = 301
+			add_state_core = 303
+			add_state_core = 304
+			add_state_core = 318
+			add_state_core = 321
+			add_state_core = 329
 		}
 		create_wargoal = {
 			type = annex_everything

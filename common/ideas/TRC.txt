@@ -1,0 +1,21 @@
+ideas = {
+	country = {
+		TRC_travel_city = {
+			picture = FRA_motorized_focus
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				max_surrender_limit_offset = 0.05
+				acclimatization_hot_climate_gain_factor = 0.5
+				global_building_slots_factor = -0.5
+				industrial_capacity_factory = -0.15
+				production_speed_buildings_factor = -0.5
+				out_of_supply_factor = -0.9
+				supply_consumption_factor = -0.5
+			}
+		}
+	}
+}

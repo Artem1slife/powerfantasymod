@@ -4,16 +4,15 @@ state={
 	provinces={
 		24 117 220 252 260 401 656 664 719 858 1032 1068 1077 1590 1740 1742 2024 2611 2632 2996 3333 3407 3482 3548 3712 3905 4204 4528 4550 4586 5792 5882 8036 8041 8045 8087 8094 8099 8105 8124 8129 8157 8169 8178 8219 8232 8234 
 	}
-	manpower=1
+	manpower=277821
 	history={
 		owner = TRC
+		victory_points = { 24 5 }
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-			arms_factory = 2
+			infrastructure = 1
 		}
 		add_core_of = TRC
 	}
-	state_category = rural
+	state_category = wasteland
 	local_supplies=0.0 
 }
