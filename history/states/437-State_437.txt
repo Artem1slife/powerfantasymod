@@ -4,11 +4,21 @@ state={
 	provinces={
 		121 322 334 464 853 863 881 1107 1165 1193 1233 1277 1367 1519 1534 1871 1963 2022 2058 2190 2216 2251 2277 2310 2384 2488 2775 2933 3130 3309 3318 3396 3469 3573 3747 3779 4142 4494 4941 5165 5605 8050 8068 8073 8104 8108 8119 8149 8181 8194 8198 8217 8237 8284 
 	}
+	resources={
+		oil =  0
+		aluminium =  0
+		rubber =  0
+		tungsten =  0
+		steel =  20
+		chromium =  0
+	}
 	manpower=394485
 	history={
 		owner = ITR
 		buildings = {
 			infrastructure = 2
+			arms_factory =  1
+			industrial_complex =  2
 		}
 		add_core_of = ITR
 	}

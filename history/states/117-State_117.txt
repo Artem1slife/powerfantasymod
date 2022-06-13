@@ -4,13 +4,23 @@ state={
 	provinces={
 		8354 
 	}
+	resources={
+		oil =  0
+		aluminium =  0
+		rubber =  19
+		tungsten =  0
+		steel =  0
+		chromium =  0
+	}
 	manpower=1
 	history={
-		owner = TST
+		owner = NAV
 		buildings = {
 			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
 		}
-		add_core_of = TST
+		add_core_of = NAV
 	}
 	state_category = rural
 	local_supplies=0.0 

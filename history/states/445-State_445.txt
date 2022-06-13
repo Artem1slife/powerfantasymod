@@ -4,7 +4,7 @@ state={
 	provinces={
 		288 1034 2057 2308 3769 5340 5635 8113 8127 
 	}
-	manpower=1
+	
 	history={
 		owner = ZMK
 		buildings = {
@@ -14,4 +14,13 @@ state={
 	}
 	state_category = rural
 	local_supplies=0.0 
+manpower=636662
+resources={
+oil = 0
+aluminium = 0
+rubber = 0
+tungsten = 0
+steel = 0
+chromium = 7
+}
 }
