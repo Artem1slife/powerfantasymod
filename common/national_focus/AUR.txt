@@ -1,0 +1,187 @@
+focus_tree = {
+	id = AUR
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AUR
+		}
+	}
+	default = no
+	focus = {
+		id = AUR_not_my_first_year
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 9
+		y = 0
+
+	}
+	focus = {
+		id = AUR_what_is_next
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = AUR_not_my_first_year
+		}
+		x = 9
+		y = 1
+
+	}
+	focus = {
+		id = AUR_our_political_problem
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = AUR_what_is_next
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = AUR_who_is_feodalist
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = AUR_our_political_problem
+		}
+		x = 2
+		y = 3
+
+	}
+	focus = {
+		id = AUR_it_is_joke_right
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = AUR_who_is_feodalist
+		}
+		x = 2
+		y = 4
+
+	}
+	focus = {
+		id = AUR_our_HOME_problem
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = AUR_what_is_next
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = AUR_do_our_best
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = AUR_our_HOME_problem
+		}
+		x = 6
+		y = 3
+
+	}
+	focus = {
+		id = AUR_where_is_no_home_for_freeman
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = AUR_our_HOME_problem
+		}
+		x = 12
+		y = 3
+
+	}
+	focus = {
+		id = AUR_our_economic_problem
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = AUR_what_is_next
+		}
+		x = 17
+		y = 2
+
+	}
+	focus = {
+		id = AUR_more_social_less_politic
+		icon = GFX_goal_support_communism
+		cost = 0
+		prerequisite = {
+			focus = AUR_where_is_no_home_for_freeman
+		}
+		x = 12
+		y = 5
+
+	}
+	focus = {
+		id = AUR_crash_opposite
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = AUR_it_is_joke_right
+		}
+		x = 2
+		y = 5
+
+	}
+	focus = {
+		id = AUR_our_collective
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = AUR_where_is_no_home_for_freeman
+		}
+		x = 9
+		y = 5
+		completion_reward = {
+			load_focus_tree = AUR_fashism
+		}
+	}
+	focus = {
+		id = AUR_proud_of_democracy
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = AUR_do_our_best
+			focus = AUR_where_is_no_home_for_freeman
+		}
+		x = 6
+		y = 5
+
+	}
+	focus = {
+		id = AUR_build
+		icon = GFX_goal_generic_production
+		cost = 0
+		prerequisite = {
+			focus = AUR_our_economic_problem
+		}
+		x = 17
+		y = 3
+
+	}
+	focus = {
+		id = AUR_fix
+		icon = GFX_goal_generic_position_armies
+		cost = 0
+		prerequisite = {
+			focus = AUR_build
+		}
+		x = 17
+		y = 4
+
+	}
+	focus = {
+		id = AUR_torg
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 0
+		prerequisite = {
+			focus = AUR_fix
+		}
+		x = 17
+		y = 5
+
+	}
+}

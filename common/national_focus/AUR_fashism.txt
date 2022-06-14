@@ -1,0 +1,492 @@
+focus_tree = {
+	id = AUR_fashism
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = 
+		}
+	}
+	default = no
+	focus = {
+		id = get_ready
+		icon = GFX_goal_demand_sudetenland
+		cost = 0
+		x = 5
+		y = 0
+
+	}
+	focus = {
+		id = deal_with_friends
+		icon = GFX_goal_generic_air_doctrine
+		cost = 0
+		x = 16
+		y = 0
+
+	}
+	focus = {
+		id = battle_fortress
+		icon = GFX_goal_generic_defence
+		cost = 0
+		prerequisite = {
+			focus = get_ready
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = army_reform
+		icon = GFX_goal_generic_axis_build_infantry
+		cost = 0
+		prerequisite = {
+			focus = battle_fortress
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = mobilization_economy
+		icon = GFX_goal_generic_consumer_goods
+		cost = 0
+		prerequisite = {
+			focus = get_ready
+		}
+		x = 7
+		y = 1
+
+	}
+	focus = {
+		id = fleet_reform
+		icon = GFX_goal_generic_build_navy
+		cost = 0
+		prerequisite = {
+			focus = battle_fortress
+		}
+		prerequisite = {
+			focus = mobilization_economy
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = aviation_reform
+		icon = GFX_goal_generic_build_airforce
+		cost = 0
+		prerequisite = {
+			focus = mobilization_economy
+		}
+		x = 8
+		y = 2
+
+	}
+	focus = {
+		id = disadvantage_is_people
+		icon = GFX_goal_generic_secret_weapon
+		cost = 0
+		prerequisite = {
+			focus = army_reform
+		}
+		prerequisite = {
+			focus = fleet_reform
+		}
+		prerequisite = {
+			focus = aviation_reform
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = variation_of_power_up
+		icon = GFX_goal_generic_political_pressure
+		cost = 0
+		prerequisite = {
+			focus = disadvantage_is_people
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = genetics
+		icon = GFX_goal_demand_sudetenland
+		cost = 0
+		prerequisite = {
+			focus = variation_of_power_up
+		}
+		prerequisite = {
+			focus = variation_of_power_up
+		}
+		x = 2
+		y = 5
+
+	}
+	focus = {
+		id = contribution_to_future
+		icon = GFX_goal_generic_national_unity
+		cost = 0
+		prerequisite = {
+			focus = variation_of_power_up
+		}
+		x = 5
+		y = 5
+
+	}
+	focus = {
+		id = revive_generation
+		icon = GFX_goal_generic_national_unity
+		cost = 0
+		prerequisite = {
+			focus = contribution_to_future
+		}
+		x = 5
+		y = 6
+
+	}
+	focus = {
+		id = steroids
+		icon = GFX_goal_generic_demand_territory
+		cost = 0
+		prerequisite = {
+			focus = variation_of_power_up
+		}
+		x = 8
+		y = 5
+
+	}
+	focus = {
+		id = muscle_injector
+		icon = GFX_goal_generic_production2
+		cost = 0
+		prerequisite = {
+			focus = steroids
+		}
+		x = 8
+		y = 6
+
+	}
+	focus = {
+		id = more_doping
+		icon = GFX_goal_generic_build_tank
+		cost = 0
+		prerequisite = {
+			focus = muscle_injector
+		}
+		x = 8
+		y = 7
+
+	}
+	focus = {
+		id = grueling_workouts
+		icon = GFX_goal_generic_axis_build_infantry
+		cost = 0
+		prerequisite = {
+			focus = more_doping
+		}
+		prerequisite = {
+			focus = revive_generation
+		}
+		x = 5
+		y = 8
+
+	}
+	focus = {
+		id = we_need_more_genes
+		icon = GFX_goal_generic_CAS
+		cost = 0
+		prerequisite = {
+			focus = deal_with_friends
+		}
+		x = 13
+		y = 1
+
+	}
+	focus = {
+		id = no_more_raviolli
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 0
+		prerequisite = {
+			focus = we_need_more_genes
+		}
+		x = 11
+		y = 2
+
+	}
+	focus = {
+		id = no_more_dem
+		icon = GFX_goal_anti_comintern_pact
+		cost = 0
+		prerequisite = {
+			focus = no_more_raviolli
+		}
+		x = 11
+		y = 3
+
+	}
+	focus = {
+		id = rework_people
+		icon = GFX_goal_generic_CAS
+		cost = 0
+		prerequisite = {
+			focus = no_more_dem
+		}
+		x = 11
+		y = 4
+
+	}
+	focus = {
+		id = integrator_make_brrrr
+		icon = GFX_goal_generic_construction
+		cost = 0
+		prerequisite = {
+			focus = rework_people
+		}
+		x = 11
+		y = 5
+
+	}
+	focus = {
+		id = vassal_club_give_me_gen
+		icon = GFX_goal_generic_political_pressure
+		cost = 0
+		prerequisite = {
+			focus = rework_people
+		}
+		x = 13
+		y = 5
+
+	}
+	focus = {
+		id = i_eat_them
+		icon = GFX_goal_generic_army_tanks
+		cost = 0
+		prerequisite = {
+			focus = vassal_club_give_me_gen
+		}
+		prerequisite = {
+			focus = integrator_make_brrrr
+		}
+		prerequisite = {
+			focus = integrator_make_brrrr
+		}
+		x = 12
+		y = 6
+
+	}
+	focus = {
+		id = eat_NEF
+		icon = GFX_goal_generic_secret_weapon
+		cost = 0
+		prerequisite = {
+			focus = i_eat_them
+		}
+		x = 11
+		y = 7
+
+	}
+	focus = {
+		id = eat_HAR
+		icon = GFX_goal_generic_secret_weapon
+		cost = 0
+		prerequisite = {
+			focus = i_eat_them
+		}
+		x = 13
+		y = 7
+
+	}
+	focus = {
+		id = resettlement_peoples
+		icon = GFX_goal_generic_demand_territory
+		cost = 0
+		prerequisite = {
+			focus = eat_HAR
+		}
+		prerequisite = {
+			focus = eat_NEF
+		}
+		x = 12
+		y = 8
+
+	}
+	focus = {
+		id = kiltan_pride_is_a_monsters
+		icon = GFX_goal_generic_attack_allies
+		cost = 0
+		prerequisite = {
+			focus = we_need_more_genes
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = speak_w_order_state
+		icon = GFX_goal_generic_improve_relations
+		cost = 0
+		prerequisite = {
+			focus = deal_with_friends
+		}
+		x = 16
+		y = 1
+
+	}
+	focus = {
+		id = speak_w_ARG
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 0
+		prerequisite = {
+			focus = speak_w_order_state
+		}
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = speak_w_VEN
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 0
+		prerequisite = {
+			focus = speak_w_order_state
+		}
+		x = 18
+		y = 2
+
+	}
+	focus = {
+		id = war_w_kiltan_pride
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 0
+		prerequisite = {
+			focus = kiltan_pride_is_a_monsters
+		}
+		prerequisite = {
+			focus = speak_w_ARG
+		}
+		prerequisite = {
+			focus = speak_w_VEN
+		}
+		x = 16
+		y = 3
+
+	}
+	focus = {
+		id = integrator
+		icon = GFX_goal_generic_propaganda
+		cost = 0
+		prerequisite = {
+			focus = war_w_kiltan_pride
+		}
+		x = 16
+		y = 4
+
+	}
+	focus = {
+		id = intergrate_experiment
+		icon = GFX_goal_generic_production2
+		cost = 0
+		prerequisite = {
+			focus = integrator
+		}
+		x = 16
+		y = 5
+
+	}
+	focus = {
+		id = hig_is_kill
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 0
+		prerequisite = {
+			focus = intergrate_experiment
+		}
+		x = 16
+		y = 6
+
+	}
+	focus = {
+		id = thank_you_order_state
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 0
+		prerequisite = {
+			focus = hig_is_kill
+		}
+		x = 16
+		y = 7
+
+	}
+	focus = {
+		id = most_delicious_cauldron_peoples
+		icon = GFX_goal_generic_attack_allies
+		cost = 0
+		prerequisite = {
+			focus = resettlement_peoples
+		}
+		prerequisite = {
+			focus = thank_you_order_state
+		}
+		x = 15
+		y = 9
+
+	}
+	focus = {
+		id = gmo
+		icon = GFX_goal_generic_defence
+		cost = 0
+		prerequisite = {
+			focus = genetics
+		}
+		prerequisite = {
+			focus = grueling_workouts
+		}
+		x = 5
+		y = 9
+
+	}
+	focus = {
+		id = soldier_serum
+		icon = GFX_goal_generic_production2
+		cost = 0
+		prerequisite = {
+			focus = gmo
+		}
+		x = 5
+		y = 10
+
+	}
+	focus = {
+		id = mutants
+		icon = GFX_goal_generic_secret_weapon
+		cost = 0
+		prerequisite = {
+			focus = soldier_serum
+		}
+		x = 5
+		y = 11
+
+	}
+	focus = {
+		id = no_our_home
+		icon = GFX_goal_generic_CAS
+		cost = 0
+		prerequisite = {
+			focus = most_delicious_cauldron_peoples
+		}
+		x = 15
+		y = 10
+
+	}
+	focus = {
+		id = our_family
+		icon = GFX_goal_anschluss
+		cost = 0
+		prerequisite = {
+			focus = no_our_home
+		}
+		x = 15
+		y = 11
+
+	}
+}
