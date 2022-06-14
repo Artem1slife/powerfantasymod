@@ -16,4 +16,13 @@ state={
 	}
 	state_category = town
 	local_supplies=0.0 
+manpower=1300695
+resources={
+oil = 0
+aluminium = 0
+rubber = 0
+tungsten = 15
+steel = 0
+chromium = 0
+}
 }

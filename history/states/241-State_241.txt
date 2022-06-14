@@ -14,4 +14,13 @@ state={
 	}
 	state_category = rural
 	local_supplies=0.0 
+manpower=1552054
+resources={
+oil = 0
+aluminium = 0
+rubber = 0
+tungsten = 19
+steel = 14
+chromium = 0
+}
 }
