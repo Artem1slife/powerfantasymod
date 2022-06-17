@@ -1,0 +1,565 @@
+focus_tree = {
+	id = AUR_commie
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = 
+		}
+	}
+	default = no
+	focus = {
+		id = AUR_social_democracy
+		icon = GFX_goal_molotov_ribbentrop_pact
+		cost = 0
+		x = 9
+		y = 0
+
+	}
+	focus = {
+		id = AUR_beackon_of_freedom
+		icon = GFX_goal_generic_fortify_city
+		cost = 0
+		x = 21
+		y = 0
+
+	}
+	focus = {
+		id = AUR_new_constitution
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 21
+		y = 6
+
+	}
+	focus = {
+		id = AUR_open_politic_for_mass
+		icon = GFX_goal_generic_national_unity
+		cost = 0
+		prerequisite = {
+			focus = AUR_social_democracy
+			focus = AUR_social_democracy
+		}
+		x = 9
+		y = 1
+
+	}
+	focus = {
+		id = AUR_free_market
+		icon = GFX_goal_generic_major_alliance
+		cost = 0
+		prerequisite = {
+			focus = AUR_open_politic_for_mass
+			focus = AUR_open_politic_for_mass
+		}
+		x = 2
+		y = 2
+		completion_reward = {
+			country_event = AUR_events.1
+		}
+
+	}
+	focus = {
+		id = AUR_work_union
+		icon = GFX_goal_generic_demand_territory
+		cost = 0
+		prerequisite = {
+			focus = AUR_free_market
+			focus = AUR_free_market
+		}
+		x = 2
+		y = 3
+
+	}
+	focus = {
+		id = AUR_social_dotation
+		icon = GFX_goal_generic_consumer_goods
+		cost = 0
+		prerequisite = {
+			focus = AUR_work_union
+			focus = AUR_work_union
+		}
+		x = 2
+		y = 4
+
+	}
+	focus = {
+		id = AUR_charity
+		icon = GFX_goal_generic_construct_civilian
+		cost = 0
+		prerequisite = {
+			focus = AUR_social_dotation
+			focus = AUR_social_dotation
+		}
+		x = 2
+		y = 5
+
+	}
+	focus = {
+		id = AUR_all_in_middle_class
+		icon = GFX_goal_generic_improve_relations
+		cost = 0
+		prerequisite = {
+			focus = AUR_charity
+			focus = AUR_charity
+		}
+		x = 2
+		y = 6
+
+	}
+	focus = {
+		id = AUR_we_must_listen_people
+		icon = GFX_goal_tripartite_pact
+		cost = 0
+		prerequisite = {
+			focus = AUR_open_politic_for_mass
+			focus = AUR_open_politic_for_mass
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = AUR_young_and_proud
+		icon = GFX_goal_generic_demand_territory
+		cost = 0
+		prerequisite = {
+			focus = AUR_we_must_listen_people
+			focus = AUR_we_must_listen_people
+		}
+		x = 6
+		y = 3
+		completion_reward = {
+			deactivate_advisor = AUR_char_id_0
+			deactivate_advisor = AUR_char_id_1
+			deactivate_advisor = AUR_char_id_2
+			recruit_character = AUR_Tamara_Gana
+			recruit_character = AUR_Jorh_Nfold
+			recruit_character = AUR_Bethor_Marsk
+			activate_advisor = AUR_Tamara_Gana
+			activate_advisor = AUR_Jorh_Nfold
+			activate_advisor = AUR_Bethor_Marsk
+		}
+	}
+	focus = {
+		id = AUR_edu_reform
+		icon = GFX_focus_research
+		cost = 0
+		prerequisite = {
+			focus = AUR_young_and_proud
+			focus = AUR_young_and_proud
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = AUR_form_of_art
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 0
+		prerequisite = {
+			focus = AUR_edu_reform
+			focus = AUR_edu_reform
+		}
+		x = 7
+		y = 5
+
+	}
+	focus = {
+		id = AUR_culture_of_people
+		icon = GFX_goal_generic_more_territorial_claims
+		cost = 0
+		prerequisite = {
+			focus = AUR_edu_reform
+			focus = AUR_edu_reform
+		}
+		x = 5
+		y = 5
+
+	}
+	focus = {
+		id = AUR_Social_warrior
+		icon = GFX_goal_demand_sudetenland
+		cost = 0
+		prerequisite = {
+			focus = AUR_form_of_art
+			focus = AUR_form_of_art
+			focus = AUR_culture_of_people
+		}
+		prerequisite = {
+			focus = AUR_culture_of_people
+		}
+		x = 6
+		y = 6
+
+	}
+	focus = {
+		id = AUR_new_holidays
+		icon = GFX_goal_anschluss
+		cost = 0
+		prerequisite = {
+			focus = AUR_Social_warrior
+			focus = AUR_Social_warrior
+			focus = AUR_all_in_middle_class
+		}
+		prerequisite = {
+			focus = AUR_all_in_middle_class
+		}
+		x = 4
+		y = 7
+
+	}
+	focus = {
+		id = AUR_reorg_security
+		icon = GFX_goal_generic_production
+		cost = 0
+		prerequisite = {
+			focus = AUR_young_and_proud
+			focus = AUR_young_and_proud
+		}
+		x = 7
+		y = 4
+
+	}
+	focus = {
+		id = AUR_tech_for_cool_workers
+		icon = GFX_goal_generic_production2
+		cost = 0
+		prerequisite = {
+			focus = AUR_we_must_listen_people
+			focus = AUR_we_must_listen_people
+		}
+		x = 9
+		y = 3
+
+	}
+	focus = {
+		id = AUR_state_radio
+		icon = GFX_goal_generic_radar
+		cost = 0
+		prerequisite = {
+			focus = AUR_tech_for_cool_workers
+			focus = AUR_tech_for_cool_workers
+		}
+		x = 9
+		y = 4
+
+	}
+	focus = {
+		id = AUR_mass_social_party
+		icon = GFX_goal_generic_defence
+		cost = 0
+		prerequisite = {
+			focus = AUR_state_radio
+			focus = AUR_Social_warrior
+		}
+		prerequisite = {
+			focus = AUR_Social_warrior
+		}
+		x = 9
+		y = 7
+
+	}
+	focus = {
+		id = AUR_equality
+		icon = GFX_goal_generic_national_unity
+		cost = 0
+		prerequisite = {
+			focus = AUR_we_must_listen_people
+			focus = AUR_we_must_listen_people
+		}
+		x = 12
+		y = 3
+
+	}
+	focus = {
+		id = AUR_fight_w_monopoly
+		icon = GFX_goal_generic_demand_territory
+		cost = 0
+		prerequisite = {
+			focus = AUR_equality
+			focus = AUR_equality
+		}
+		x = 11
+		y = 4
+
+	}
+	focus = {
+		id = AUR_fight_w_corruption
+		icon = GFX_goal_generic_demand_territory
+		cost = 0
+		prerequisite = {
+			focus = AUR_equality
+			focus = AUR_equality
+		}
+		x = 13
+		y = 4
+
+	}
+	focus = {
+		id = AUR_region_movement
+		icon = GFX_goal_generic_demand_territory
+		cost = 0
+		prerequisite = {
+			focus = AUR_fight_w_monopoly
+			focus = AUR_fight_w_monopoly
+			focus = AUR_fight_w_corruption
+		}
+		prerequisite = {
+			focus = AUR_fight_w_corruption
+		}
+		x = 12
+		y = 5
+
+	}
+	focus = {
+		id = AUR_programm_of_minimum
+		icon = GFX_goal_generic_propaganda
+		cost = 0
+		prerequisite = {
+			focus = AUR_region_movement
+			focus = AUR_region_movement
+		}
+		x = 12
+		y = 6
+
+	}
+	focus = {
+		id = AUR_system_of_polit_advisors_for_companies
+		icon = GFX_goal_rhineland
+		cost = 0
+		prerequisite = {
+			focus = AUR_mass_social_party
+			focus = AUR_mass_social_party
+			focus = AUR_programm_of_minimum
+		}
+		prerequisite = {
+			focus = AUR_programm_of_minimum
+		}
+		x = 11
+		y = 8
+
+	}
+	focus = {
+		id = AUR_be_nice_w_friends
+		icon = GFX_goal_anschluss
+		cost = 0
+		prerequisite = {
+			focus = AUR_beackon_of_freedom
+			focus = AUR_beackon_of_freedom
+		}
+		x = 17
+		y = 1
+
+	}
+	focus = {
+		id = AUR_RAV_exp
+		icon = GFX_goal_generic_improve_relations
+		cost = 0
+		prerequisite = {
+			focus = AUR_be_nice_w_friends
+			focus = AUR_be_nice_w_friends
+		}
+		x = 15
+		y = 2
+
+	}
+	focus = {
+		id = AUR_kilt_exp
+		icon = GFX_goal_generic_consumer_goods
+		cost = 0
+		prerequisite = {
+			focus = AUR_be_nice_w_friends
+			focus = AUR_be_nice_w_friends
+		}
+		x = 17
+		y = 2
+
+	}
+	focus = {
+		id = AUR_castle_of_socialism
+		icon = GFX_goal_generic_fortify_city
+		cost = 0
+		prerequisite = {
+			focus = AUR_beackon_of_freedom
+			focus = AUR_beackon_of_freedom
+		}
+		x = 21
+		y = 2
+
+	}
+	focus = {
+		id = AUR_modernize_army
+		icon = GFX_goal_generic_army_tanks
+		cost = 0
+		prerequisite = {
+			focus = AUR_castle_of_socialism
+			focus = AUR_castle_of_socialism
+			focus = AUR_RAV_exp
+			focus = AUR_RAV_exp
+			focus = AUR_kilt_exp
+			focus = AUR_kilt_exp
+		}
+		x = 17
+		y = 3
+
+	}
+	focus = {
+		id = AUR_faster_and_stronger
+		icon = GFX_goal_generic_army_tanks
+		cost = 0
+		prerequisite = {
+			focus = AUR_modernize_army
+			focus = AUR_modernize_army
+		}
+		x = 17
+		y = 4
+
+	}
+	focus = {
+		id = AUR_FLY_exp
+		icon = GFX_goal_generic_army_motorized
+		cost = 0
+		prerequisite = {
+			focus = AUR_be_nice_w_friends
+			focus = AUR_be_nice_w_friends
+		}
+		x = 19
+		y = 2
+
+	}
+	focus = {
+		id = AUR_first_avia
+		icon = GFX_goal_generic_build_airforce
+		cost = 0
+		prerequisite = {
+			focus = AUR_FLY_exp
+			focus = AUR_FLY_exp
+			focus = AUR_castle_of_socialism
+		}
+		prerequisite = {
+			focus = AUR_castle_of_socialism
+		}
+		x = 21
+		y = 3
+
+	}
+	focus = {
+		id = AUR_avia_mania
+		icon = GFX_goal_generic_navy_carrier
+		cost = 0
+		prerequisite = {
+			focus = AUR_first_avia
+			focus = AUR_first_avia
+		}
+		x = 21
+		y = 4
+
+	}
+	focus = {
+		id = AUR_be_real_w_enemy
+		icon = GFX_goal_demand_sudetenland
+		cost = 0
+		prerequisite = {
+			focus = AUR_beackon_of_freedom
+			focus = AUR_beackon_of_freedom
+		}
+		x = 25
+		y = 1
+
+	}
+	focus = {
+		id = AUR_bad_words_for_king
+		icon = GFX_goal_anti_comintern_pact
+		cost = 0
+		prerequisite = {
+			focus = AUR_be_real_w_enemy
+			focus = AUR_be_real_w_enemy
+		}
+		x = 23
+		y = 2
+
+	}
+	focus = {
+		id = AUR_ARG_is_stupid
+		icon = GFX_goal_anti_comintern_pact
+		cost = 0
+		prerequisite = {
+			focus = AUR_be_real_w_enemy
+			focus = AUR_be_real_w_enemy
+		}
+		x = 25
+		y = 2
+
+	}
+	focus = {
+		id = AUR_VEN_is_lame
+		icon = GFX_goal_anti_comintern_pact
+		cost = 0
+		prerequisite = {
+			focus = AUR_be_real_w_enemy
+			focus = AUR_be_real_w_enemy
+		}
+		x = 27
+		y = 2
+
+	}
+	focus = {
+		id = AUR_modernize_float
+		icon = GFX_goal_generic_navy_battleship
+		cost = 0
+		prerequisite = {
+			focus = AUR_castle_of_socialism
+			focus = AUR_castle_of_socialism
+			focus = AUR_bad_words_for_king
+			focus = AUR_bad_words_for_king
+			focus = AUR_ARG_is_stupid
+			focus = AUR_ARG_is_stupid
+			focus = AUR_VEN_is_lame
+			focus = AUR_VEN_is_lame
+		}
+		x = 25
+		y = 3
+
+	}
+	focus = {
+		id = AUR_real_ship
+		icon = GFX_goal_generic_navy_submarine
+		cost = 0
+		prerequisite = {
+			focus = AUR_modernize_float
+			focus = AUR_modernize_float
+		}
+		x = 25
+		y = 4
+
+	}
+	focus = {
+		id = AUR_social_citizen_identity
+		icon = GFX_goal_generic_cavalry
+		cost = 0
+		prerequisite = {
+			focus = AUR_place_enlightenment
+			focus = AUR_place_enlightenment
+			focus = AUR_system_of_polit_advisors_for_companies
+		}
+		prerequisite = {
+			focus = AUR_system_of_polit_advisors_for_companies
+		}
+		x = 7
+		y = 9
+
+	}
+	focus = {
+		id = AUR_place_enlightenment
+		icon = GFX_goal_generic_propaganda
+		cost = 0
+		prerequisite = {
+			focus = AUR_new_holidays
+			focus = AUR_new_holidays
+		}
+		x = 4
+		y = 8
+
+	}
+}

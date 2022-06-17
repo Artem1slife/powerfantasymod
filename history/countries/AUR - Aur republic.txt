@@ -25,14 +25,12 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	fascism = 0
-	communism = 0
+	fascism = 5
+	communism = 5
 	democratic = 80
-	neutrality = 0
-	 liberal democratic = 10
-	conservative democratic = 5
-	corporatism = 5
+	neutrality = 10
 }
 
 recruit_character = AUR_char_id_0
@@ -56,8 +54,6 @@ recruit_character = AUR_char_id_17
 recruit_character = AUR_char_id_18
 recruit_character = AUR_char_id_19
 recruit_character = AUR_char_id_20
-recruit_character = AUR_char_id_21
-recruit_character = AUR_char_id_22
 recruit_character = AUR_char_id_23
 recruit_character = AUR_char_id_24
 recruit_character = AUR_char_id_25

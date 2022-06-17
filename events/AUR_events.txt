@@ -1,0 +1,156 @@
+add_namespace = AUR_events
+
+#Ослабить перспективного и молодого
+country_event = {
+	id = AUR_events.1
+	title = AUR_events.1.t
+	desc = AUR_events.1.d
+
+	picture = APO_xmsWYZap-448
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = AUR_events.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		retire_character = AUR_char_id_13
+		AUR = {
+			country_event = {
+				days = 14
+				id = AUR_events.2
+			}
+		}
+	}
+	option = {
+		name = AUR_events.1.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		remove_trait = {
+			character = AUR_char_id_13
+			trait = politically_connected
+		}
+		AUR = {
+			country_event = {
+				days = 14
+				id = AUR_events.2
+			}
+		}
+	}
+}
+
+#Герой войны или популярный защитник республики?
+country_event = {
+	id = AUR_events.2
+	title = AUR_events.2.t
+	desc = AUR_events.2.d
+
+	picture = APO_xmsWYZap-448
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = AUR_events.2.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		retire_character = AUR_char_id_14
+		AUR = {
+			country_event = {
+				days = 21
+				id = AUR_events.3
+			}
+		}
+	}
+	option = {
+		name = AUR_events.2.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		retire_character = AUR_char_id_15
+		AUR = {
+			country_event = {
+				days = 21
+				id = AUR_events.3
+			}
+		}
+	}
+}
+
+#Прощай старый пес
+country_event = {
+	id = AUR_events.3
+	title = AUR_events.3.t
+	desc = AUR_events.3.d
+
+	picture = APO_xmsWYZap-448
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = AUR_events.3.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		retire_character = AUR_char_id_17
+		AUR = {
+			country_event = {
+				days = 21
+				id = AUR_events.4
+			}
+		}
+	}
+}
+
+
+#За двух битых двух не битых дают
+country_event = {
+	id = AUR_events.4
+	title = AUR_events.4.t
+	desc = AUR_events.4.d
+
+	picture = APO_xmsWYZap-448
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = AUR_events.4.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		recruit_character = AUR_char_id_21
+		recruit_character = AUR_char_id_22
+		AUR = {
+			country_event = {
+				days = 14
+				id = AUR_events.5
+			}
+		}
+	}
+}
+
+#Очистить палубу - попросим двух уйти по собсвтенному желанию, а на их место возьмем близнецов
+country_event = {
+	id = AUR_events.5
+	title = AUR_events.5.t
+	desc = AUR_events.5.d
+
+	picture = APO_xmsWYZap-448
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = AUR_events.5.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		retire_character = AUR_char_id_27
+		retire_character = AUR_char_id_23
+		recruit_character = AUR_char_id_31
+		recruit_character = AUR_char_id_32
+	}
+}

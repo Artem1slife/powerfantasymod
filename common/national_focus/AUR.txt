@@ -8,14 +8,19 @@ focus_tree = {
 		}
 	}
 	default = no
+	
 	focus = {
 		id = AUR_not_my_first_year
 		icon = GFX_goal_unknown
 		cost = 0
 		x = 9
 		y = 0
-
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 125
+		}
 	}
+	
 	focus = {
 		id = AUR_what_is_next
 		icon = GFX_goal_unknown
@@ -25,8 +30,11 @@ focus_tree = {
 		}
 		x = 9
 		y = 1
-
+		completion_reward = {
+			add_stability = 0.05
+		}
 	}
+	
 	focus = {
 		id = AUR_our_political_problem
 		icon = GFX_goal_unknown
@@ -36,8 +44,15 @@ focus_tree = {
 		}
 		x = 2
 		y = 2
-
+		completion_reward = {
+			add_stability = -0.05
+			add_popularity = {
+				ideology = democratic
+				popularity = -0.05
+			}
+		}
 	}
+	
 	focus = {
 		id = AUR_who_is_feodalist
 		icon = GFX_goal_unknown
@@ -47,8 +62,15 @@ focus_tree = {
 		}
 		x = 2
 		y = 3
-
+		completion_reward = {
+			add_stability = -0.05
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.1
+			}
+		}
 	}
+	
 	focus = {
 		id = AUR_it_is_joke_right
 		icon = GFX_goal_unknown
@@ -58,8 +80,15 @@ focus_tree = {
 		}
 		x = 2
 		y = 4
-
+		completion_reward = {
+			add_stability = -0.1
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.05
+			}
+		}
 	}
+	
 	focus = {
 		id = AUR_our_HOME_problem
 		icon = GFX_goal_unknown
@@ -69,8 +98,13 @@ focus_tree = {
 		}
 		x = 9
 		y = 2
-
+		completion_reward = {
+			add_stability = -0.05
+			add_political_power = 50
+		}
 	}
+	
+	
 	focus = {
 		id = AUR_do_our_best
 		icon = GFX_goal_unknown
@@ -80,8 +114,12 @@ focus_tree = {
 		}
 		x = 6
 		y = 3
-
+		completion_reward = {
+			add_stability = 0.1
+			add_political_power = 100
+		}
 	}
+	
 	focus = {
 		id = AUR_where_is_no_home_for_freeman
 		icon = GFX_goal_unknown
@@ -91,8 +129,12 @@ focus_tree = {
 		}
 		x = 12
 		y = 3
-
+		completion_reward = {
+			add_stability = -0.1
+			add_political_power = 25
+		}
 	}
+	
 	focus = {
 		id = AUR_our_economic_problem
 		icon = GFX_goal_unknown
@@ -102,8 +144,11 @@ focus_tree = {
 		}
 		x = 17
 		y = 2
-
+		completion_reward = {
+			add_stability = 0.05
+		}
 	}
+	
 	focus = {
 		id = AUR_more_social_less_politic
 		icon = GFX_goal_support_communism
@@ -113,6 +158,9 @@ focus_tree = {
 		}
 		x = 12
 		y = 5
+		completion_reward = {
+			load_focus_tree = AUR_commie
+		}
 
 	}
 	focus = {
@@ -124,6 +172,10 @@ focus_tree = {
 		}
 		x = 2
 		y = 5
+		completion_reward = {
+			add_stability = -0.05
+			add_political_power = 25
+		}
 
 	}
 	focus = {
@@ -149,7 +201,9 @@ focus_tree = {
 		}
 		x = 6
 		y = 5
-
+		completion_reward = {
+			
+		}
 	}
 	focus = {
 		id = AUR_build
@@ -160,8 +214,16 @@ focus_tree = {
 		}
 		x = 17
 		y = 3
-
+		completion_reward = {
+			add_stability = 0.1
+			add_building_construction = {
+				type = fabric
+				level = 1
+				instant_build = yes
+			}
+		}
 	}
+	
 	focus = {
 		id = AUR_fix
 		icon = GFX_goal_generic_position_armies
@@ -171,7 +233,14 @@ focus_tree = {
 		}
 		x = 17
 		y = 4
-
+		completion_reward = {
+			add_stability = 0.1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
 	}
 	focus = {
 		id = AUR_torg
@@ -182,6 +251,8 @@ focus_tree = {
 		}
 		x = 17
 		y = 5
-
+		completion_reward = {
+			add_stability = 0.1
+		}
 	}
 }

@@ -1,0 +1,17 @@
+
+leader_traits = {
+	AUR_young_guard = {
+		random = no
+		communism_drift = 0.05
+		stability_factor = 0.05
+		communism_acceptance = 10
+		political_power_gain = 0.1
+		trade_laws_cost_factor = 0.1
+		economy_cost_factor = 0.1
+		mobilization_laws_cost_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+}
