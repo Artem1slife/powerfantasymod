@@ -1,581 +1,495 @@
 characters = {
-IPO_char_id_0={
-portraits={
-civilian={
-small="GFX_idea_CHI_soong_mei_ling"
-}
-}
-advisor = {
-slot =political_advisor
-allowed  = {
-original_tag =IPO
-}
-name =IPO0
-cost =100
-removal_cost =150
-traits = {
-warrior_code
-}
-}
-}
-IPO_char_id_1={
-portraits={
-civilian={
-small="GFX_idea_CHI_soong_mei_ling"
-}
-}
-advisor = {
-slot =political_advisor
-allowed  = {
-original_tag =IPO
-}
-name =IPO1
-cost =100
-removal_cost =150
-traits = {
-dealbroker
-}
-}
-}
-IPO_char_id_2={
-portraits={
-civilian={
-small="GFX_idea_CHI_soong_mei_ling"
-}
-}
-advisor = {
-slot =political_advisor
-allowed  = {
-original_tag =IPO
-}
-name =IPO2
-cost =100
-removal_cost =150
-traits = {
-conservative_grandee
-}
-}
-}
-IPO_char_id_3={
-portraits={
-civilian={
-small="GFX_idea_CHI_soong_mei_ling"
-}
-}
-advisor = {
-slot =theorist
-allowed  = {
-original_tag =IPO
-}
-name =IPO3
-cost =100
-removal_cost =150
-traits = {
-warrior_code
-}
-}
-}
-IPO_char_id_4={
-portraits={
-civilian={
-small="GFX_idea_CHI_soong_mei_ling"
-}
-}
-advisor = {
-slot =theorist
-allowed  = {
-original_tag =IPO
-}
-name =IPO4
-cost =100
-removal_cost =150
-traits = {
-snuggler
-}
-}
-}
-IPO_char_id_5={
-portraits={
-civilian={
-small="GFX_idea_CHI_soong_mei_ling"
-}
-}
-advisor = {
-slot =theorist
-allowed  = {
-original_tag =IPO
-}
-name =IPO5
-cost =100
-removal_cost =150
-traits = {
-dealbroker
-warmonger
-}
-}
-}
-IPO_char_id_6={
-portraits={
-civilian={
-small="GFX_idea_CHI_soong_mei_ling"
-}
-}
-advisor = {
-slot =high_command
-allowed  = {
-original_tag =IPO
-}
-name =IPO6
-cost =100
-removal_cost =150
-traits = {
-humble
-}
-}
-}
-IPO_char_id_7={
-portraits={
-civilian={
-small="GFX_idea_CHI_soong_mei_ling"
-}
-}
-advisor = {
-slot =high_command
-allowed  = {
-original_tag =IPO
-}
-name =IPO7
-cost =100
-removal_cost =150
-traits = {
-stammer
-cornered_fox
-}
-}
-}
-IPO_char_id_8={
-portraits={
-civilian={
-small="GFX_idea_CHI_soong_mei_ling"
-}
-}
-advisor = {
-slot =high_command
-allowed  = {
-original_tag =IPO
-}
-name =IPO8
-cost =100
-removal_cost =150
-traits = {
-warmonger
-warmonger
-}
-}
-}
-IPO_char_id_9={
-portraits={
-civilian={
-small="GFX_idea_CHI_soong_mei_ling"
-}
-}
-advisor = {
-slot =air_chief
-allowed  = {
-original_tag =IPO
-}
-name =IPO9
-cost =100
-removal_cost =150
-traits = {
-warmonger
-face_licker
-}
-}
-}
-IPO_char_id_10={
-portraits={
-civilian={
-small="GFX_idea_CHI_soong_mei_ling"
-}
-}
-advisor = {
-slot =army_chief
-allowed  = {
-original_tag =IPO
-}
-name =IPO10
-cost =100
-removal_cost =150
-traits = {
-stammer
-}
-}
-}
-IPO_char_id_11={
-portraits={
-civilian={
-small="GFX_idea_CHI_soong_mei_ling"
-}
-}
-advisor = {
-slot =navy_chief
-allowed  = {
-original_tag =IPO
-}
-name =IPO11
-cost =100
-removal_cost =150
-traits = {
-warmonger
-}
-}
-}
-IPO_char_id_12={
-portraits={
-civilian={
-large="gfx/leaders/RAV/fallan_heckmann.dds"
-}
-}
-country_leader={
-ideology =monarchy
-traits = {}
-expire="8000.1.1.1"
-id=-1
-}
-}
-IPO_char_id_13={
-name =IPO13
-portraits={
-army={
-large="GFX_portrait_USA_arleigh_burke"
-small="GFX_portrait_USA_arleigh_burke_small"
-}
-}
-corps_commander = {
-traits = {
-old_guard
-media_personality
-trait_reckless
-harsh_leader
-}
-skill = 5
-attack_skill = 5
-defense_skill = 4
-planning_skill = 3
-logistics_skill = 1
-}
-}
-IPO_char_id_14={
-name =IPO14
-portraits={
-army={
-large="GFX_portrait_USA_arleigh_burke"
-small="GFX_portrait_USA_arleigh_burke_small"
-}
-}
-corps_commander = {
-traits = {
-brilliant_strategist
-inflexible_strategist
-trait_cautious
-politically_connected
-trait_reckless
-}
-skill = 3
-attack_skill = 4
-defense_skill = 2
-planning_skill = 5
-logistics_skill = 3
-}
-}
-IPO_char_id_15={
-name =IPO15
-portraits={
-army={
-large="GFX_portrait_USA_arleigh_burke"
-small="GFX_portrait_USA_arleigh_burke_small"
-}
-}
-corps_commander = {
-traits = {
-brilliant_strategist
-old_guard
-politically_connected
-cavalry_officer
-career_officer
-}
-skill = 2
-attack_skill = 1
-defense_skill = 2
-planning_skill = 5
-logistics_skill = 1
-}
-}
-IPO_char_id_16={
-name =IPO16
-portraits={
-army={
-large="GFX_portrait_USA_arleigh_burke"
-small="GFX_portrait_USA_arleigh_burke_small"
-}
-}
-corps_commander = {
-traits = {
-cavalry_officer
-engineer_officer
-}
-skill = 5
-attack_skill = 3
-defense_skill = 2
-planning_skill = 1
-logistics_skill = 2
-}
-}
-IPO_char_id_17={
-name =IPO17
-portraits={
-army={
-large="GFX_portrait_USA_arleigh_burke"
-small="GFX_portrait_USA_arleigh_burke_small"
-}
-}
-corps_commander = {
-traits = {
-career_officer
-infantry_officer
-}
-skill = 3
-attack_skill = 1
-defense_skill = 2
-planning_skill = 3
-logistics_skill = 2
-}
-}
-IPO_char_id_18={
-name =IPO18
-portraits={
-army={
-large="GFX_portrait_USA_arleigh_burke"
-small="GFX_portrait_USA_arleigh_burke_small"
-}
-}
-corps_commander = {
-traits = {
-harsh_leader
-media_personality
-career_officer
-}
-skill = 5
-attack_skill = 3
-defense_skill = 4
-planning_skill = 4
-logistics_skill = 5
-}
-}
-IPO_char_id_19={
-name =IPO19
-portraits={
-army={
-large="GFX_portrait_USA_arleigh_burke"
-small="GFX_portrait_USA_arleigh_burke_small"
-}
-}
-corps_commander = {
-traits = {
-war_hero
-war_hero
-armor_officer
-}
-skill = 1
-attack_skill = 5
-defense_skill = 3
-planning_skill = 2
-logistics_skill = 1
-}
-}
-IPO_char_id_20={
-name =IPO20
-portraits={
-army={
-large="GFX_portrait_USA_arleigh_burke"
-small="GFX_portrait_USA_arleigh_burke_small"
-}
-}
-corps_commander = {
-traits = {
-bearer_of_artillery
-bearer_of_artillery
-inflexible_strategist
-war_hero
-}
-skill = 3
-attack_skill = 4
-defense_skill = 1
-planning_skill = 5
-logistics_skill = 2
-}
-}
-IPO_char_id_21={
-name =IPO21
-portraits={
-army={
-large="GFX_portrait_USA_arleigh_burke"
-small="GFX_portrait_USA_arleigh_burke_small"
-}
-}
-corps_commander = {
-traits = {
-infantry_officer
-armor_officer
-trait_reckless
-inflexible_strategist
-}
-skill = 4
-attack_skill = 2
-defense_skill = 4
-planning_skill = 5
-logistics_skill = 5
-}
-}
-IPO_char_id_22={
-name =IPO_char_id_22
-portraits={
-army={
-large=GFX_portrait_USA_arleigh_burke
-small=GFX_portrait_USA_arleigh_burke_small
-}
-}
-corps_commander = {
-traits = {
-superior_tactician
-lancer
-fleet_protector
-}
-skill = 4
-attack_skill = 3
-defense_skill = 2
-maneuvering_skill = 3
-coordination_skill = 2
-}
-}
-IPO_char_id_23={
-name =IPO_char_id_23
-portraits={
-army={
-large=GFX_portrait_USA_arleigh_burke
-small=GFX_portrait_USA_arleigh_burke_small
-}
-}
-corps_commander = {
-traits = {
-loading_drill_master
-hunter_killer
-}
-skill = 5
-attack_skill = 4
-defense_skill = 3
-maneuvering_skill = 5
-coordination_skill = 1
-}
-}
-IPO_char_id_24={
-name =IPO_char_id_24
-portraits={
-army={
-large=GFX_portrait_USA_arleigh_burke
-small=GFX_portrait_USA_arleigh_burke_small
-}
-}
-corps_commander = {
-traits = {
-lancer
-lancer
-}
-skill = 1
-attack_skill = 5
-defense_skill = 1
-maneuvering_skill = 4
-coordination_skill = 3
-}
-}
-IPO_char_id_25={
-name =IPO_char_id_25
-portraits={
-army={
-large=GFX_portrait_USA_arleigh_burke
-small=GFX_portrait_USA_arleigh_burke_small
-}
-}
-corps_commander = {
-traits = {
-fly_swatter
-}
-skill = 2
-attack_skill = 5
-defense_skill = 3
-maneuvering_skill = 1
-coordination_skill = 4
-}
-}
-IPO_char_id_26={
-name =IPO_char_id_26
-portraits={
-army={
-large=GFX_portrait_USA_arleigh_burke
-small=GFX_portrait_USA_arleigh_burke_small
-}
-}
-corps_commander = {
-traits = {
-fleet_protector
-}
-skill = 1
-attack_skill = 5
-defense_skill = 2
-maneuvering_skill = 2
-coordination_skill = 5
-}
-}
-IPO_char_id_27={
-name =IPO_char_id_27
-portraits={
-army={
-large=GFX_portrait_USA_arleigh_burke
-small=GFX_portrait_USA_arleigh_burke_small
-}
-}
-corps_commander = {
-traits = {
-lancer
-superior_tactician
-}
-skill = 2
-attack_skill = 2
-defense_skill = 4
-maneuvering_skill = 4
-coordination_skill = 4
-}
-}
-IPO_char_id_28={
-name =IPO_char_id_28
-portraits={
-army={
-large=GFX_portrait_USA_arleigh_burke
-small=GFX_portrait_USA_arleigh_burke_small
-}
-}
-corps_commander = {
-traits = {
-seawolf
-fleet_protector
-ironside
-}
-skill = 4
-attack_skill = 2
-defense_skill = 3
-maneuvering_skill = 2
-coordination_skill = 4
-}
-}
+	
+	#мастера на все руки - и генералы, и советники, не люди, а соль земли
+	IPO_Master={
+		name =IPO_Master
+		portraits={
+			civilian={
+				large="gfx/leaders/RAV/fallan_heckmann.dds"
+			}
+			army={
+				large="GFX_portrait_USA_arleigh_burke"
+				small="GFX_portrait_USA_arleigh_burke_small"
+			}
+		}
+		country_leader={
+			ideology = monarchy
+			traits = {
+				empire_builder
+			}
+			expire="8000.1.1.1"
+			id=-1
+		}
+		field_marshal = {
+			traits = {
+				old_guard
+				media_personality
+				harsh_leader
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	
+	IPO_Architect={
+		name =IPO_Architect
+		portraits={
+			civilian={
+				small="GFX_idea_CHI_soong_mei_ling"
+			}
+			army={
+				large="GFX_portrait_USA_arleigh_burke"
+				small="GFX_portrait_USA_arleigh_burke_small"
+			}
+		}
+		advisor = {
+			slot =political_advisor
+			allowed  = {
+				original_tag =IPO
+			}
+			name =IPO_Architect
+			cost = 50
+			removal_cost =500
+			traits = {
+				great_architect
+			}
+		}
+		corps_commander = {
+			traits = {
+				old_guard
+				media_personality
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	
+	IPO_Toymaker={
+		name =IPO_Toymaker
+		portraits={
+			civilian={
+				small="GFX_idea_CHI_soong_mei_ling"
+			}
+			army={
+				large="GFX_portrait_USA_arleigh_burke"
+				small="GFX_portrait_USA_arleigh_burke_small"
+			}
+		}
+		advisor = {
+			slot =political_advisor
+			allowed  = {
+				original_tag =IPO
+			}
+			name =IPO_Toymaker
+			cost = 50
+			removal_cost =500
+			traits = {
+				head_of_intelligence
+			}
+		}
+		corps_commander = {
+			traits = {
+				old_guard
+				media_personality
+			}
+			skill = 3
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+	
+	IPO_Strategist={
+		name =IPO_Strategist
+		portraits={
+			civilian={
+				small="GFX_idea_CHI_soong_mei_ling"
+			}
+			army={
+				large="GFX_portrait_USA_arleigh_burke"
+				small="GFX_portrait_USA_arleigh_burke_small"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			allowed  = {
+				original_tag =IPO
+			}
+			name =IPO_Strategist
+			cost = 50
+			removal_cost =500
+			traits = {
+				warmonger
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			allowed  = {
+				original_tag =IPO
+			}
+			name =IPO_Strategist
+			cost = 50
+			removal_cost =500
+			traits = {
+				warmonger
+			}
+		}
+		field_marshal = {
+			traits = {
+				old_guard
+				media_personality
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	
+	#генералы в Империи плохие, потому что обучение армейскому мастерству в Империи просто никакое - денег нет
+	#генералы - будущие варлорды
+	
+	IPO_char_id_14={
+		name =IPO14
+		portraits={
+			civilian = {
+				small = "GFX_idea_CHI_soong_mei_ling"
+			}
+			army={
+				large="GFX_portrait_USA_arleigh_burke"
+				small="GFX_portrait_USA_arleigh_burke_small"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_cautious
+				politically_connected
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		advisor = {
+			slot =theorist
+			allowed  = {
+				original_tag =IPO
+			}
+			name =IPO14
+			cost =100
+			removal_cost =150
+			traits = {
+				snuggler
+			}
+		}
+	}
+	
+	IPO_char_id_15={
+		name =IPO15
+		portraits={
+			civilian = {
+				small = "GFX_idea_CHI_soong_mei_ling"
+			}
+			army={
+				large="GFX_portrait_USA_arleigh_burke"
+				small="GFX_portrait_USA_arleigh_burke_small"
+			}
+		}
+		advisor = {
+			slot =theorist
+			allowed  = {
+				original_tag =IPO
+			}
+			name =IPO16
+			cost =100
+			removal_cost =150
+			traits = {
+				dealbroker
+			}
+		}
+		corps_commander = {
+			traits = {
+				politically_connected
+				cavalry_officer
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	
+	IPO_char_id_16={
+		name =IPO16
+		portraits={
+			civilian = {
+				small = "GFX_idea_CHI_soong_mei_ling"
+			}
+			army={
+				large="GFX_portrait_USA_arleigh_burke"
+				small="GFX_portrait_USA_arleigh_burke_small"
+			}
+		}
+		corps_commander = {
+			traits = {
+				engineer_officer
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+		advisor = {
+			slot =theorist
+			allowed  = {
+				original_tag =IPO
+			}
+			name =IPO16
+			cost =100
+			removal_cost =150
+			traits = {
+				humble
+			}
+		}
+	}
+	
+	IPO_char_id_17={
+		name =IPO17
+		portraits={
+			civilian = {
+				small = "GFX_idea_CHI_soong_mei_ling"
+			}
+			army={
+				large="GFX_portrait_USA_arleigh_burke"
+				small="GFX_portrait_USA_arleigh_burke_small"
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				infantry_officer
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		advisor = {
+			slot =theorist
+			allowed  = {
+				original_tag =IPO
+			}
+			name =IPO17
+			cost =100
+			removal_cost =150
+			traits = {
+				cornered_fox
+			}
+		}
+	}
+	
+	IPO_char_id_18={
+		name =IPO18
+		portraits={
+			civilian = {
+				small = "GFX_idea_CHI_soong_mei_ling"
+			}
+			army={
+				large="GFX_portrait_USA_arleigh_burke"
+				small="GFX_portrait_USA_arleigh_burke_small"
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 3
+		}
+		advisor = {
+			slot =high_command
+			allowed  = {
+				original_tag =IPO
+			}
+			name =IPO18
+			cost =100
+			removal_cost =150
+			traits = {
+				warmonger
+			}
+		}
+	}
+	IPO_char_id_19={
+		name =IPO19
+		portraits={
+			civilian = {
+				small = "GFX_idea_CHI_soong_mei_ling"
+			}
+			army={
+				large="GFX_portrait_USA_arleigh_burke"
+				small="GFX_portrait_USA_arleigh_burke_small"
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+		advisor = {
+			slot =high_command
+			allowed  = {
+				original_tag =IPO
+			}
+			name =IPO19
+			cost =100
+			removal_cost =150
+			traits = {
+				humble
+			}
+		}
+	}
+	
+	IPO_char_id_20={
+		name =IPO20
+		portraits={
+			civilian = {
+				small = "GFX_idea_CHI_soong_mei_ling"
+			}
+			army={
+				large="GFX_portrait_USA_arleigh_burke"
+				small="GFX_portrait_USA_arleigh_burke_small"
+			}
+		}
+		corps_commander = {
+			traits = {
+				bearer_of_artillery
+			}
+			skill = 1
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+		advisor = {
+			slot =high_command
+			allowed  = {
+				original_tag =IPO
+			}
+			name =IPO20
+			cost =100
+			removal_cost =150
+			traits = {
+				cornered_fox
+			}
+		}
+	}
+	
+	IPO_char_id_21={
+		name =IPO21
+		portraits={
+			army={
+				large="GFX_portrait_USA_arleigh_burke"
+				small="GFX_portrait_USA_arleigh_burke_small"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_reckless
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	
+	#флот - в Империи УЖАСНЫЙ флот, поэтому никаких адмиралов! Только двух.
+	
+	IPO_Kell_Kunts={
+	name =IPO_Kell_Kunts
+		portraits={
+			civilian={
+				small="GFX_idea_CHI_soong_mei_ling"
+			}
+			army={
+				large=GFX_portrait_USA_arleigh_burke
+				small=GFX_portrait_USA_arleigh_burke_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				fleet_protector
+			}
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 3
+		}
+		advisor = {
+			slot =navy_chief
+			allowed  = {
+				original_tag =IPO
+			}
+			name =IPO_Kell_Kunts
+			cost =100
+			removal_cost =150
+			traits = {
+				warrior_code
+			}
+		}
+	}
+	
+	IPO_Zack_Niels={
+		name =IPO_Zack_Niels
+		portraits={
+			civilian={
+				small="GFX_idea_CHI_soong_mei_ling"
+			}
+			army={
+				large=GFX_portrait_USA_arleigh_burke
+				small=GFX_portrait_USA_arleigh_burke_small
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+		advisor = {
+			slot =navy_chief
+			allowed  = {
+				original_tag =IPO
+			}
+			name =IPO_Zack_Niels
+			cost =100
+			removal_cost =150
+			traits = {
+				warrior_code
+			}
+		}
+	}
 }
