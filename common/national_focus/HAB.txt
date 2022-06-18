@@ -12,6 +12,9 @@ focus_tree = {
 		id = HAB_farmers
 		icon = GFX_goal_unknown
 		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
 		x = 6
 		y = 0
 		completion_reward = {
@@ -29,6 +32,9 @@ focus_tree = {
 		prerequisite = {
 			focus = HAB_farmers
 		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
 		x = 6
 		y = 1
 		completion_reward = {
@@ -42,6 +48,9 @@ focus_tree = {
 		cost = 5
 		prerequisite = {
 			focus = HAB_cook
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
 		}
 		x = 6
 		y = 2
@@ -59,6 +68,9 @@ focus_tree = {
 		}
 		x = 4
 		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
 		completion_reward = {
 			add_political_power = 50
 		}
@@ -70,6 +82,9 @@ focus_tree = {
 		cost = 5
 		prerequisite = {
 			focus = HAB_mukkbang
+		}
+		search_filters = {
+			FOCUS_FILTER_ARMY_XP
 		}
 		x = 8
 		y = 3
@@ -90,6 +105,9 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = HAB_mukkbang
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
 		}
 		x = 6
 		y = 4

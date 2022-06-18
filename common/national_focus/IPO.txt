@@ -1,0 +1,488 @@
+focus_tree = {
+	id = 3
+	continuous_focus_position = { x = -40 y = 1700 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = IPO
+		}
+	}
+	#Бесконечная история
+	focus = {
+		id = IPO_beskonechnayaistoriya
+		icon = GFX_goal_unknown
+		x = 8
+		y = 0
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			add_political_power = 50
+			
+		}
+	}
+
+	#Обращение к народу
+	focus = {
+		id = IPO_obrashchenieknarodu
+		icon = GFX_goal_unknown
+		x = 10
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_ktonashvrag  }
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+
+	#Охота
+	focus = {
+		id = IPO_ohota
+		icon = GFX_goal_unknown
+		x = 6
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_beskonechnayaistoriya  }
+		available = {
+			add_political_power = 50
+			
+		}
+	}
+
+	#Варгеймы
+	focus = {
+		id = IPO_vargeymy
+		icon = GFX_goal_unknown
+		x = 8
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_beskonechnayaistoriya  }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	#Бокс
+	focus = {
+		id = IPO_boks
+		icon = GFX_goal_unknown
+		x = 10
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_beskonechnayaistoriya  }
+		completion_reward = {
+			add_political_power = 50
+			
+		}
+	}
+
+	#Раут
+	focus = {
+		id = IPO_raut
+		icon = GFX_goal_unknown
+		x = 8
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_ohota  } prerequisite = { focus = IPO_vargeymy  } prerequisite = { focus = IPO_boks  }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	#Подготовка
+	focus = {
+		id = IPO_podgotovka
+		icon = GFX_goal_unknown
+		x = 6
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = IPO_raut  }
+		mutually_exclusive = { focus = IPO_ktonashvrag  }
+		ai_will_do = { factor = 50 }
+	}
+
+	#Кто наш враг?
+	focus = {
+		id = IPO_ktonashvrag
+		icon = GFX_goal_unknown
+		x = 10
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_raut  }
+		mutually_exclusive = { focus = IPO_podgotovka  }
+		ai_will_do = { factor = 50 }
+		completion_reward = {
+			add_political_power = 50
+			
+		}
+	}
+
+	#Поездка в Авалон
+	focus = {
+		id = IPO_poezdkavavalon
+		icon = GFX_goal_unknown
+		x = 9
+		y = 5
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_obrashchenieknarodu  }
+		completion_reward = {
+			add_political_power = -150
+		}
+	}
+
+	#Аграрная реформа
+	focus = {
+		id = IPO_agrarnayareforma
+		icon = GFX_goal_unknown
+		x = 11
+		y = 5
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = IPO_obrashchenieknarodu  }
+	}
+
+	#Еще больше ГРЕХА!
+	focus = {
+		id = IPO_eshchebolshegreha
+		icon = GFX_goal_unknown
+		x = 6
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_podgotovka  }
+	}
+
+	#Буква закона
+	focus = {
+		id = IPO_bukvazakona
+		icon = GFX_focus_eng_special_air_service
+		x = 11
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_agrarnayareforma  }
+		completion_reward = {
+			add_stability = 0.1
+			
+			
+		}
+	}
+
+	#Прекратить гонения на Свет
+	focus = {
+		id = IPO_prekratitgoneniyanasvet
+		icon = GFX_goal_unknown
+		x = 9
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_poezdkavavalon  }
+	}
+
+	#Отказ от изоляции
+	focus = {
+		id = IPO_otkazotizolyacii
+		icon = GFX_goal_unknown
+		x = 11
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_bukvazakona  }
+	}
+
+	#Отказ от греха
+	focus = {
+		id = IPO_otkazotgreha
+		icon = GFX_goal_unknown
+		x = 10
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_prekratitgoneniyanasvet  } prerequisite = { focus = IPO_otkazotizolyacii  }
+	}
+
+	#Усмирить магию
+	focus = {
+		id = IPO_usmiritmagiyu
+		icon = GFX_goal_unknown
+		x = 11
+		y = 10
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = IPO_otkazotgreha  }
+	}
+
+	#Показательный аскетизм двора
+	focus = {
+		id = IPO_pokazatelnyyasketizmdvora
+		icon = GFX_goal_unknown
+		x = 10
+		y = 9
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_otkazotgreha  }
+	}
+
+	#Гордыня
+	focus = {
+		id = IPO_gordynya
+		icon = GFX_IPO_gordynya-4
+		x = 4
+		y = 5
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_eshchebolshegreha  }
+	}
+
+	#Зависть
+	focus = {
+		id = IPO_zavist
+		icon = GFX_goal_unknown
+		x = 2
+		y = 5
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_eshchebolshegreha  }
+	}
+
+	#Чревоугодие
+	focus = {
+		id = IPO_chrevougodie
+		icon = GFX_goal_unknown
+		x = 5
+		y = 6
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_eshchebolshegreha  }
+	}
+
+	#Блуд
+	focus = {
+		id = IPO_blud
+		icon = GFX_goal_unknown
+		x = 6
+		y = 5
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_eshchebolshegreha  }
+	}
+
+	#Гнев
+	focus = {
+		id = IPO_gnev
+		icon = GFX_goal_unknown
+		x = 3
+		y = 6
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_eshchebolshegreha  }
+	}
+
+	#Уныние
+	focus = {
+		id = IPO_unynie
+		icon = GFX_goal_unknown
+		x = 7
+		y = 6
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_eshchebolshegreha  }
+	}
+
+	#Вернуть вирус в лабораторию!
+	focus = {
+		id = IPO_vernutvirusvlaboratoriyu
+		icon = GFX_goal_unknown
+		x = 4
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_gordynya  } prerequisite = { focus = IPO_zavist  } prerequisite = { focus = IPO_chrevougodie  } prerequisite = { focus = IPO_blud  } prerequisite = { focus = IPO_gnev  } prerequisite = { focus = IPO_unynie  } prerequisite = { focus = IPO_alchnost  }
+		completion_reward = {
+			declare_war_on = {
+				target = ROI
+				type = civil_war
+			}
+		}
+	}
+
+	#Алчность
+	focus = {
+		id = IPO_alchnost
+		icon = GFX_goal_unknown
+		x = 1
+		y = 6
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_eshchebolshegreha  }
+	}
+
+	#Вернуть весь остров!
+	focus = {
+		id = IPO_vernutvesostrov
+		icon = GFX_goal_unknown
+		x = 4
+		y = 8
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = IPO_vernutvirusvlaboratoriyu  }
+		completion_reward = {
+			declare_war_on = {
+				target = APO
+				type = civil_war
+			}
+		}
+	}
+
+	#Индустриализация
+	focus = {
+		id = IPO_industrializaciya
+		icon = GFX_goal_unknown
+		x = 12
+		y = 9
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = IPO_otkazotgreha  }
+	}
+
+	#Реформа образования
+	focus = {
+		id = IPO_reformaobrazovaniya
+		icon = GFX_goal_unknown
+		x = 14
+		y = 9
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_otkazotgreha  }
+	}
+
+	#"Новое мышление"
+	focus = {
+		id = IPO_novoemyshlenie
+		icon = GFX_goal_unknown
+		x = 8
+		y = 9
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_otkazotgreha  }
+	}
+
+	#Реформа медицины
+	focus = {
+		id = IPO_reformamediciny
+		icon = GFX_goal_unknown
+		x = 13
+		y = 10
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_otkazotgreha  }
+	}
+
+	#Отмена рабства
+	focus = {
+		id = IPO_otmenarabstva
+		icon = GFX_goal_unknown
+		x = 9
+		y = 10
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_otkazotgreha  }
+	}
+
+	#Покаяние
+	focus = {
+		id = IPO_pokayanie
+		icon = GFX_goal_unknown
+		x = 11
+		y = 11
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_usmiritmagiyu  } prerequisite = { focus = IPO_pokazatelnyyasketizmdvora  } prerequisite = { focus = IPO_industrializaciya  } prerequisite = { focus = IPO_reformaobrazovaniya  } prerequisite = { focus = IPO_novoemyshlenie  } prerequisite = { focus = IPO_reformamediciny  } prerequisite = { focus = IPO_otmenarabstva  }
+	}
+
+	#Империя Зла
+	focus = {
+		id = IPO_imperiyazla
+		icon = GFX_goal_unknown
+		x = 4
+		y = 9
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_vernutvesostrov  }
+	}
+
+}

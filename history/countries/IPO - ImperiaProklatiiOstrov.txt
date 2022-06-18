@@ -28,15 +28,6 @@ set_popularities = {
 
 add_ideas = { partial_economic_mobilisation IPO_desert_lands IPO_kingdom_of_sin IPO_wartime }
 
-declare_war_on = {
-	target = APO
-	type = civil_war
-}
-declare_war_on = {
-	target = ROI
-	type = civil_war
-}
-
 recruit_character = IPO_Master
 recruit_character = IPO_Architect
 recruit_character = IPO_Toymaker

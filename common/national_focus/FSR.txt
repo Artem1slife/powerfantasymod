@@ -8,6 +8,8 @@ focus_tree = {
 			tag = FSR
 		}
 	}
+	default = yes
+	
 	#Новое начало
 	focus = {
 		id = FSR_novoenachalo
@@ -17,6 +19,9 @@ focus_tree = {
 		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_political_power = 150
 		}
 	}
 
@@ -31,6 +36,12 @@ focus_tree = {
 			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
 		}
 		prerequisite = { focus = FSR_novoenachalo  }
+		completion_reward = {
+			add_popularity = {
+				ideology = fascism
+				popularity = -0.25
+			}
+		}
 	}
 
 	#Легализовать поклонение Свету
@@ -44,6 +55,12 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = FSR_izgnattmu  }
+		completion_reward = {
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.15
+			}
+		}
 	}
 
 	#Больше фабрик
@@ -72,7 +89,7 @@ focus_tree = {
 			 level = 1
 			 instant_build = yes
 			 }
-			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 set_state_flag = FSR
 			 }
 			
 		}
@@ -91,7 +108,6 @@ focus_tree = {
 		prerequisite = { focus = FSR_legalizovatpokloneniesvetu  }
 		completion_reward = {
 			add_stability = 0.05
-			
 			add_political_power = 50
 		}
 	}
@@ -109,7 +125,6 @@ focus_tree = {
 		prerequisite = { focus = FSR_nachalorazrabotkikonstitucii  }
 		completion_reward = {
 			add_stability = 0.05
-			
 			add_political_power = 50
 		}
 	}
@@ -127,7 +142,6 @@ focus_tree = {
 		prerequisite = { focus = FSR_nachalorazrabotkikonstitucii  }
 		completion_reward = {
 			add_stability = 0.05
-			
 			add_political_power = 50
 		}
 	}
@@ -145,9 +159,8 @@ focus_tree = {
 		prerequisite = { focus = FSR_nachalorazrabotkikonstitucii  }
 		completion_reward = {
 			add_stability = 0.05
-			
 			add_political_power = 50
-			
+			add_ideas = FSR_meetings
 		}
 	}
 
@@ -163,9 +176,8 @@ focus_tree = {
 		}
 		prerequisite = { focus = FSR_osnovykonstitucii  } prerequisite = { focus = FSR_sudebnayavlast  } prerequisite = { focus = FSR_sobranie  }
 		completion_reward = {
-			unlock_national_focus = focus_id
-			
-			
+			unlock_national_focus = FSR_nachalopodgotovkikvoennomupodhodu
+			#добавить трейт правителю
 		}
 	}
 
@@ -181,7 +193,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_war_support = 25
-			
+			army_experience = 15
+			navy_experience = 15
 		}
 	}
 
@@ -211,9 +224,8 @@ focus_tree = {
 			 level = 1
 			 instant_build = yes
 			 }
-			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 set_state_flag = FSR
 			 }
-			
 		}
 	}
 
@@ -230,7 +242,7 @@ focus_tree = {
 		prerequisite = { focus = FSR_nachalopodgotovkikvoennomupodhodu  }
 		completion_reward = {
 			set_research_slots = 3
-			
+			army_experience = 15
 		}
 	}
 
@@ -247,7 +259,7 @@ focus_tree = {
 		prerequisite = { focus = FSR_bolshevoennyhfabrik  } prerequisite = { focus = FSR_naukavoyny  }
 		completion_reward = {
 			army_experience = 100
-			
+			add_ideas = FSR_fighting_spirit
 		}
 	}
 
@@ -264,7 +276,6 @@ focus_tree = {
 		prerequisite = { focus = FSR_bolshevoennyhfabrik  } prerequisite = { focus = FSR_naukavoyny  }
 		completion_reward = {
 			navy_experience = 100
-			
 		}
 	}
 
@@ -279,6 +290,9 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = FSR_vspomnitopyttrenirovok  } prerequisite = { focus = FSR_polnoeobnovleniemorskoydoktriny  }
+		completion_reward = {
+			add_ideas = FSR_more_equp
+		}
 	}
 
 	#Молодые против Старых
@@ -292,6 +306,12 @@ focus_tree = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
 		prerequisite = { focus = FSR_bolsheoruzhiya  }
+		completion_reward = {
+			declare_war_on = {
+				target = IPO
+				type = civil_war
+			}
+		}
 	}
 
 }

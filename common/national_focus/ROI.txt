@@ -1,0 +1,1312 @@
+focus_tree = {
+	id = 01
+	continuous_focus_position = { x = 150 y = 2610 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ROI
+		}
+	}
+	#Основание Республики
+	focus = {
+		id = OPU_osnovanierespubliki
+		icon = GFX_goal_unknown
+		x = 25
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OPU_ukrepleniegosudarstvennosti  } prerequisite = { focus = OPU_znaniyaproshlogodlyazombi  }
+	}
+
+	#Очаги заражения в Коммуне
+	focus = {
+		id = OPU_ochagizarazheniyavkommune
+		icon = GFX_goal_unknown
+		x = 13
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = OPU_mutaciyabolezni  }
+	}
+
+	#Организация наступления
+	focus = {
+		id = OPU_organizaciyanastupleniya
+		icon = GFX_goal_unknown
+		x = 15
+		y = 0
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+	}
+
+	#"Мы продолжать заражать!"
+	focus = {
+		id = OPU_myprodolzhatzarazhat
+		icon = GFX_goal_unknown
+		x = 17
+		y = 0
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+	}
+
+	#Зомбирование учёных
+	focus = {
+		id = OPU_zombirovanieuchyonyh
+		icon = GFX_goal_unknown
+		x = 19
+		y = 0
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+	}
+
+	#Создание правительства
+	focus = {
+		id = OPU_sozdaniepravitelstva
+		icon = GFX_goal_unknown
+		x = 20
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OPU_osnovanierespubliki  }
+	}
+
+	#Ослабить давление на мозг
+	focus = {
+		id = OPU_oslabitdavlenienamozg
+		icon = GFX_goal_unknown
+		x = 16
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = OPU_myprodolzhatzarazhat  } prerequisite = { focus = OPU_organizaciyanastupleniya  }
+	}
+
+	#Разграбление местных складов
+	focus = {
+		id = OPU_razgrableniemestnyhskladov
+		icon = GFX_goal_unknown
+		x = 18
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = OPU_myprodolzhatzarazhat  } prerequisite = { focus = OPU_zombirovanieuchyonyh  }
+	}
+
+	#Даровать право мысли мертвецам
+	focus = {
+		id = OPU_darovatpravomyslimertvecam
+		icon = GFX_goal_unknown
+		x = 17
+		y = 2
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OPU_oslabitdavlenienamozg  } prerequisite = { focus = OPU_razgrableniemestnyhskladov  }
+	}
+
+	#Переосмысление битвы
+	focus = {
+		id = OPU_pereosmysleniebitvy
+		icon = GFX_goal_unknown
+		x = 20
+		y = 2
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = OPU_razgrableniemestnyhskladov  }
+	}
+
+	#Мутация болезни
+	focus = {
+		id = OPU_mutaciyabolezni
+		icon = GFX_goal_unknown
+		x = 14
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = OPU_oslabitdavlenienamozg  }
+	}
+
+	#Наш подчерк в Империи
+	focus = {
+		id = OPU_nashpodcherkvimperii
+		icon = GFX_goal_unknown
+		x = 15
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = OPU_mutaciyabolezni  }
+	}
+
+	#Напомнить базовые навыки
+	focus = {
+		id = OPU_napomnitbazovyenavyki
+		icon = GFX_goal_unknown
+		x = 17
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = OPU_ochagizarazheniyavkommune  } prerequisite = { focus = OPU_nashpodcherkvimperii  } prerequisite = { focus = OPU_darovatpravomyslimertvecam  }
+	}
+
+	#Заразить!
+	focus = {
+		id = OPU_zarazit
+		icon = GFX_goal_unknown
+		x = 19
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = OPU_pereosmysleniebitvy  }
+		mutually_exclusive = { focus = OPU_protivostoyat  }
+	}
+
+	#Противостоять!
+	focus = {
+		id = OPU_protivostoyat
+		icon = GFX_goal_unknown
+		x = 21
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = OPU_pereosmysleniebitvy  }
+	}
+
+	#Контроль над островом
+	focus = {
+		id = OPU_kontrolnadostrovom
+		icon = GFX_goal_unknown
+		x = 17
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = OPU_napomnitbazovyenavyki  }
+	}
+
+	#Новое государство мертвецов
+	focus = {
+		id = OPU_novoegosudarstvomertvecov
+		icon = GFX_goal_unknown
+		x = 25
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OPU_kontrolnadostrovom  }
+	}
+
+	#Суд над анархистами
+	focus = {
+		id = OPU_sudnadanarhistami
+		icon = GFX_goal_unknown
+		x = 26
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OPU_novoegosudarstvomertvecov  }
+	}
+
+	#Суд над имперцами
+	focus = {
+		id = OPU_sudnadimpercami
+		icon = GFX_goal_unknown
+		x = 28
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OPU_novoegosudarstvomertvecov  }
+	}
+
+	#Укрепление государственности
+	focus = {
+		id = OPU_ukrepleniegosudarstvennosti
+		icon = GFX_goal_unknown
+		x = 26
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = OPU_sudnadanarhistami  } prerequisite = { focus = OPU_sudnadimpercami  }
+	}
+
+	#Обсуждение прав нежити
+	focus = {
+		id = OPU_obsuzhdeniepravnezhiti
+		icon = GFX_goal_unknown
+		x = 22
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OPU_novoegosudarstvomertvecov  }
+	}
+
+	#Вопрос о роли Опухоли в обществе
+	focus = {
+		id = OPU_voprosoroliopuholivobshchestve
+		icon = GFX_goal_unknown
+		x = 24
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OPU_novoegosudarstvomertvecov  }
+	}
+
+	#Знания прошлого для зомби
+	focus = {
+		id = OPU_znaniyaproshlogodlyazombi
+		icon = GFX_goal_unknown
+		x = 24
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = OPU_voprosoroliopuholivobshchestve  } prerequisite = { focus = OPU_obsuzhdeniepravnezhiti  }
+	}
+
+	#Ставка на парламент
+	focus = {
+		id = OPU_stavkanaparlament
+		icon = GFX_goal_unknown
+		x = 21
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OPU_sozdaniepravitelstva  }
+	}
+
+	#Выборы президента
+	focus = {
+		id = OPU_vyboryprezidenta
+		icon = GFX_goal_unknown
+		x = 19
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OPU_sozdaniepravitelstva  }
+		mutually_exclusive = { focus = OPU_stavkanaparlament  }
+	}
+
+	#Народный лидер
+	focus = {
+		id = OPU_narodnyylider
+		icon = GFX_goal_unknown
+		x = 19
+		y = 12
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OPU_vyboryprezidenta  }
+	}
+
+	#Распространение коалиций
+	focus = {
+		id = OPU_rasprostraneniekoaliciy
+		icon = GFX_goal_unknown
+		x = 21
+		y = 12
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OPU_stavkanaparlament  }
+	}
+
+	#Основы демократии мертвецов
+	focus = {
+		id = OPU_osnovydemokratiimertvecov
+		icon = GFX_goal_unknown
+		x = 20
+		y = 13
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OPU_narodnyylider  focus = OPU_rasprostraneniekoaliciy  }
+	}
+
+	#Зарождающийся плюрализм
+	focus = {
+		id = OPU_zarozhdayushchiysyaplyuralizm
+		icon = GFX_goal_unknown
+		x = 22
+		y = 13
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OPU_rasprostraneniekoaliciy  }
+	}
+
+	#Утвердить особый путь Острова
+	focus = {
+		id = OPU_utverditosobyyputostrova
+		icon = GFX_goal_unknown
+		x = 18
+		y = 13
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OPU_narodnyylider  }
+	}
+
+	#Новый курс Республики
+	focus = {
+		id = OPU_novyykursrespubliki
+		icon = GFX_goal_unknown
+		x = 20
+		y = 14
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OPU_utverditosobyyputostrova  focus = OPU_osnovydemokratiimertvecov  focus = OPU_zarozhdayushchiysyaplyuralizm  }
+	}
+
+	#Показать миру настоящий Остров
+	focus = {
+		id = OPU_pokazatmirunastoyashchiyostrov
+		icon = GFX_goal_unknown
+		x = 25
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OPU_osnovanierespubliki  }
+	}
+
+	#Военная реформа
+	focus = {
+		id = OPU_voennayareforma
+		icon = GFX_goal_unknown
+		x = 23
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = OPU_pokazatmirunastoyashchiyostrov  }
+	}
+
+	#Новые офицерские кадры
+	focus = {
+		id = OPU_novyeoficerskiekadry
+		icon = GFX_goal_unknown
+		x = 23
+		y = 12
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = OPU_voennayareforma  }
+	}
+
+	#Возрождение флота
+	focus = {
+		id = OPU_vozrozhdenieflota
+		icon = GFX_goal_unknown
+		x = 25
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = OPU_pokazatmirunastoyashchiyostrov  }
+	}
+
+	#Обучение нежити
+	focus = {
+		id = OPU_obuchenienezhiti
+		icon = GFX_goal_unknown
+		x = 27
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = OPU_pokazatmirunastoyashchiyostrov  }
+	}
+
+	#Первые образовательные учреждения 
+	focus = {
+		id = OPU_pervyeobrazovatelnyeuchrezhdeniya
+		icon = GFX_goal_unknown
+		x = 27
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = OPU_obuchenienezhiti  }
+	}
+
+	#Разработка доктрины
+	focus = {
+		id = OPU_razrabotkadoktriny
+		icon = GFX_goal_unknown
+		x = 25
+		y = 12
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = OPU_vozrozhdenieflota  }
+	}
+
+	#Университет Республики мертвецов
+	focus = {
+		id = OPU_universitetrespublikimertvecov
+		icon = GFX_goal_unknown
+		x = 26
+		y = 13
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = OPU_razrabotkadoktriny  } prerequisite = { focus = OPU_pervyeobrazovatelnyeuchrezhdeniya  }
+	}
+
+	#Уроки гражданской войны
+	focus = {
+		id = OPU_urokigrazhdanskoyvoyny
+		icon = GFX_goal_unknown
+		x = 24
+		y = 13
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = OPU_razrabotkadoktriny  } prerequisite = { focus = OPU_novyeoficerskiekadry  }
+	}
+
+	#Новые исследования
+	focus = {
+		id = OPU_novyeissledovaniya
+		icon = GFX_goal_unknown
+		x = 25
+		y = 14
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = OPU_urokigrazhdanskoyvoyny  } prerequisite = { focus = OPU_universitetrespublikimertvecov  }
+	}
+
+	#Если ты в пекло, я - за тобой!
+	focus = {
+		id = OPU_eslityvpekloyazatoboy
+		icon = GFX_goal_unknown
+		x = 31
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = OPU_osnovanierespubliki  }
+	}
+
+	#Инвестиции в гражданский сектор
+	focus = {
+		id = OPU_investiciivgrazhdanskiysektor
+		icon = GFX_goal_unknown
+		x = 29
+		y = 11
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = OPU_eslityvpekloyazatoboy  }
+	}
+
+	#Освоение имперских предприятий
+	focus = {
+		id = OPU_osvoenieimperskihpredpriyatiy
+		icon = GFX_goal_unknown
+		x = 31
+		y = 11
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = OPU_eslityvpekloyazatoboy  }
+	}
+
+	#Развитие военной промышленности
+	focus = {
+		id = OPU_razvitievoennoypromyshlennosti
+		icon = GFX_goal_unknown
+		x = 33
+		y = 11
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = OPU_eslityvpekloyazatoboy  }
+	}
+
+	#Винтовка в каждый дом
+	focus = {
+		id = OPU_vintovkavkazhdyydom
+		icon = GFX_goal_unknown
+		x = 33
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = OPU_razvitievoennoypromyshlennosti  }
+	}
+
+	#Дорогу малому бизнесу
+	focus = {
+		id = OPU_dorogumalomubiznesu
+		icon = GFX_goal_unknown
+		x = 29
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = OPU_investiciivgrazhdanskiysektor  }
+	}
+
+	#Смерть в облаках
+	focus = {
+		id = OPU_smertvoblakah
+		icon = GFX_goal_unknown
+		x = 30
+		y = 13
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = OPU_dorogumalomubiznesu  } prerequisite = { focus = OPU_osvoenieimperskihpredpriyatiy  }
+	}
+
+	#Проклятые Верфи
+	focus = {
+		id = OPU_proklyatyeverfi
+		icon = GFX_goal_unknown
+		x = 32
+		y = 13
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = OPU_osvoenieimperskihpredpriyatiy  } prerequisite = { focus = OPU_vintovkavkazhdyydom  }
+	}
+
+	#Логистика региона
+	focus = {
+		id = OPU_logistikaregiona
+		icon = GFX_goal_unknown
+		x = 31
+		y = 14
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = OPU_smertvoblakah  } prerequisite = { focus = OPU_proklyatyeverfi  }
+	}
+
+	#Экономическое развитие
+	focus = {
+		id = OPU_ekonomicheskoerazvitie
+		icon = GFX_goal_unknown
+		x = 26
+		y = 15
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = OPU_novyykursrespubliki  } prerequisite = { focus = OPU_novyeissledovaniya  } prerequisite = { focus = OPU_logistikaregiona  }
+	}
+
+	#Интересы за рубежом
+	focus = {
+		id = OPU_interesyzarubezhom
+		icon = GFX_goal_unknown
+		x = 24
+		y = 15
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OPU_novyykursrespubliki  } prerequisite = { focus = OPU_novyeissledovaniya  } prerequisite = { focus = OPU_logistikaregiona  }
+	}
+
+	#Живее всех живых!
+	focus = {
+		id = OPU_zhiveevsehzhivyh
+		icon = GFX_goal_unknown
+		x = 25
+		y = 16
+		cost = 20
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = OPU_interesyzarubezhom  } prerequisite = { focus = OPU_ekonomicheskoerazvitie  }
+	}
+
+	#Расширение строек
+	focus = {
+		id = OPU_rasshireniestroek
+		icon = GFX_goal_unknown
+		x = 15
+		y = 12
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = OPU_nakormitordu  }
+	}
+
+	#Единый организм
+	focus = {
+		id = OPU_edinyyorganizm
+		icon = GFX_goal_unknown
+		x = 9
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OPU_nagieformyizbityhzvukov  } prerequisite = { focus = OPU_odinrazumnavseh  }
+	}
+
+	#"Государство - это я!"
+	focus = {
+		id = OPU_gosudarstvoetoya
+		icon = GFX_goal_unknown
+		x = 8
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OPU_diktaturaopuholi  }
+	}
+
+	#Диктатура Опухоли
+	focus = {
+		id = OPU_diktaturaopuholi
+		icon = GFX_goal_unknown
+		x = 9
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OPU_kontrolnadostrovom  }
+		mutually_exclusive = { focus = OPU_novoegosudarstvomertvecov  }
+	}
+
+	#Уничтожить врагов
+	focus = {
+		id = OPU_unichtozhitvragov
+		icon = GFX_goal_unknown
+		x = 10
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = OPU_diktaturaopuholi  }
+	}
+
+	#Один разум на всех
+	focus = {
+		id = OPU_odinrazumnavseh
+		icon = GFX_goal_unknown
+		x = 8
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OPU_gosudarstvoetoya  }
+	}
+
+	#Нагие формы избитых звуков
+	focus = {
+		id = OPU_nagieformyizbityhzvukov
+		icon = GFX_goal_unknown
+		x = 10
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OPU_unichtozhitvragov  }
+	}
+
+	#Привести всё в порядок
+	focus = {
+		id = OPU_privestivsyovporyadok
+		icon = GFX_goal_unknown
+		x = 13
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = OPU_edinyyorganizm  }
+	}
+
+	#Посмотреть за горизонт
+	focus = {
+		id = OPU_posmotretzagorizont
+		icon = GFX_goal_unknown
+		x = 12
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = OPU_privestivsyovporyadok  }
+	}
+
+	#Накормить орду
+	focus = {
+		id = OPU_nakormitordu
+		icon = GFX_goal_unknown
+		x = 14
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = OPU_privestivsyovporyadok  }
+	}
+
+	#Практика метода зомбирования
+	focus = {
+		id = OPU_praktikametodazombirovaniya
+		icon = GFX_goal_unknown
+		x = 13
+		y = 12
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_FRA_OCCUPATION_COST
+		}
+		prerequisite = { focus = OPU_posmotretzagorizont  } prerequisite = { focus = OPU_nakormitordu  }
+	}
+
+	#Развитие инфраструктуры
+	focus = {
+		id = OPU_razvitieinfrastruktury
+		icon = GFX_goal_unknown
+		x = 14
+		y = 13
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = OPU_rasshireniestroek  }
+	}
+
+	#Промышленность на нужды армии
+	focus = {
+		id = OPU_promyshlennostnanuzhdyarmii
+		icon = GFX_goal_unknown
+		x = 17
+		y = 12
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = OPU_nakormitordu  }
+	}
+
+	#Освоение воздуха и воды
+	focus = {
+		id = OPU_osvoenievozduhaivody
+		icon = GFX_goal_unknown
+		x = 16
+		y = 13
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = OPU_promyshlennostnanuzhdyarmii  }
+	}
+
+	#Восстановить имперский флот
+	focus = {
+		id = OPU_vosstanovitimperskiyflot
+		icon = GFX_goal_unknown
+		x = 11
+		y = 12
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = OPU_posmotretzagorizont  }
+	}
+
+	#Личный контроль строительства
+	focus = {
+		id = OPU_lichnyykontrolstroitelstva
+		icon = GFX_goal_unknown
+		x = 14
+		y = 14
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = OPU_razvitieinfrastruktury  } prerequisite = { focus = OPU_osvoenievozduhaivody  }
+	}
+
+	#Реконструкция армии
+	focus = {
+		id = OPU_rekonstrukciyaarmii
+		icon = GFX_goal_unknown
+		x = 9
+		y = 12
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = OPU_posmotretzagorizont  }
+	}
+
+	#Морские новшества
+	focus = {
+		id = OPU_morskienovshestva
+		icon = GFX_goal_unknown
+		x = 12
+		y = 13
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = OPU_vosstanovitimperskiyflot  }
+	}
+
+	#Подготовка интервенции
+	focus = {
+		id = OPU_podgotovkaintervencii
+		icon = GFX_goal_unknown
+		x = 10
+		y = 13
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = OPU_rekonstrukciyaarmii  }
+	}
+
+	#Знамя империализма
+	focus = {
+		id = OPU_znamyaimperializma
+		icon = GFX_goal_unknown
+		x = 12
+		y = 14
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = OPU_podgotovkaintervencii  } prerequisite = { focus = OPU_morskienovshestva  }
+	}
+
+	#Прогрессирующее заболевание
+	focus = {
+		id = OPU_progressiruyushcheezabolevanie
+		icon = GFX_goal_unknown
+		x = 13
+		y = 15
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OPU_znamyaimperializma  } prerequisite = { focus = OPU_lichnyykontrolstroitelstva  }
+	}
+
+	#Независимое мышление ГенШтаба
+	focus = {
+		id = OPU_nezavisimoemyshleniegenshtaba
+		icon = GFX_goal_unknown
+		x = 4
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = OPU_edinyyorganizm  }
+	}
+
+	#Подавить инакомыслие
+	focus = {
+		id = OPU_podavitinakomyslie
+		icon = GFX_goal_unknown
+		x = 6
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = OPU_nezavisimoemyshleniegenshtaba  }
+	}
+
+	#Принять мнение генералов
+	focus = {
+		id = OPU_prinyatmneniegeneralov
+		icon = GFX_goal_unknown
+		x = 2
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = OPU_nezavisimoemyshleniegenshtaba  }
+		mutually_exclusive = { focus = OPU_podavitinakomyslie  }
+	}
+
+	#Единоличное управление
+	focus = {
+		id = OPU_edinolichnoeupravlenie
+		icon = GFX_goal_unknown
+		x = 7
+		y = 14
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OPU_utebyalishtolkoimyasvoyo  }
+	}
+
+	#Опора на на военное руководство
+	focus = {
+		id = OPU_oporananavoennoerukovodstvo
+		icon = GFX_goal_unknown
+		x = 1
+		y = 14
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = OPU_postavitvyskocheknamesto  }
+	}
+
+	#Военный Совет
+	focus = {
+		id = OPU_voennyysovet
+		icon = GFX_goal_unknown
+		x = 1
+		y = 12
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = OPU_prinyatmneniegeneralov  }
+	}
+
+	#Анализ битвы за Остров
+	focus = {
+		id = OPU_analizbitvyzaostrov
+		icon = GFX_goal_unknown
+		x = 3
+		y = 13
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = OPU_centralizaciyavlasti  }
+	}
+
+	#Новое вооружение
+	focus = {
+		id = OPU_novoevooruzhenie
+		icon = GFX_goal_unknown
+		x = 5
+		y = 13
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = OPU_centralizaciyavlasti  }
+	}
+
+	#Централизация власти
+	focus = {
+		id = OPU_centralizaciyavlasti
+		icon = GFX_goal_unknown
+		x = 4
+		y = 12
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = OPU_podavitinakomyslie  } prerequisite = { focus = OPU_prinyatmneniegeneralov  }
+	}
+
+	#Армия - это тоже я!
+	focus = {
+		id = OPU_armiyaetotozheya
+		icon = GFX_goal_unknown
+		x = 7
+		y = 12
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = OPU_podavitinakomyslie  }
+	}
+
+	#Поставить выскочек на место!
+	focus = {
+		id = OPU_postavitvyskocheknamesto
+		icon = GFX_goal_unknown
+		x = 1
+		y = 13
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = OPU_voennyysovet  }
+	}
+
+	#У тебя лишь только имя своё...
+	focus = {
+		id = OPU_utebyalishtolkoimyasvoyo
+		icon = GFX_goal_unknown
+		x = 7
+		y = 13
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = OPU_armiyaetotozheya  }
+	}
+
+	#Армейские устои
+	focus = {
+		id = OPU_armeyskieustoi
+		icon = GFX_goal_unknown
+		x = 4
+		y = 14
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OPU_analizbitvyzaostrov  } prerequisite = { focus = OPU_novoevooruzhenie  }
+	}
+
+	#Военное государство
+	focus = {
+		id = OPU_voennoegosudarstvo
+		icon = GFX_goal_unknown
+		x = 4
+		y = 15
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OPU_armeyskieustoi  focus = OPU_edinolichnoeupravlenie  focus = OPU_oporananavoennoerukovodstvo  }
+	}
+
+	#Вырезать Опухоль!
+	focus = {
+		id = OPU_vyrezatopuhol
+		icon = GFX_goal_unknown
+		x = 9
+		y = 16
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Военная Хунта
+	focus = {
+		id = OPU_voennayahunta
+		icon = GFX_goal_unknown
+		x = 8
+		y = 17
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OPU_vyrezatopuhol  }
+		mutually_exclusive = { focus = OPU_sformirovatkabinetministrov  }
+	}
+
+	#Сформировать кабинет министров
+	focus = {
+		id = OPU_sformirovatkabinetministrov
+		icon = GFX_goal_unknown
+		x = 10
+		y = 17
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OPU_vyrezatopuhol  }
+	}
+
+	#Дезомбиезация
+	focus = {
+		id = OPU_dezombiezaciya
+		icon = GFX_goal_unknown
+		x = 9
+		y = 18
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OPU_voennayahunta  focus = OPU_sformirovatkabinetministrov  }
+	}
+
+	#Государственные органы
+	focus = {
+		id = OPU_gosudarstvennyeorgany
+		icon = GFX_goal_unknown
+		x = 9
+		y = 19
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OPU_dezombiezaciya  }
+	}
+
+	#Восстановить контроль над войсками
+	focus = {
+		id = OPU_vosstanovitkontrolnadvoyskami
+		icon = GFX_goal_unknown
+		x = 11
+		y = 19
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = OPU_dezombiezaciya  }
+	}
+
+	#Государство мертвецов
+	focus = {
+		id = OPU_gosudarstvomertvecov
+		icon = GFX_goal_unknown
+		x = 7
+		y = 19
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OPU_dezombiezaciya  }
+	}
+
+	#Утверждение независимости
+	focus = {
+		id = OPU_utverzhdenienezavisimosti
+		icon = GFX_goal_unknown
+		x = 7
+		y = 20
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = OPU_gosudarstvomertvecov  }
+	}
+
+	#Экономические реформы
+	focus = {
+		id = OPU_ekonomicheskiereformy
+		icon = GFX_goal_unknown
+		x = 9
+		y = 20
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = OPU_gosudarstvennyeorgany  }
+	}
+
+	#Гвардия нежити
+	focus = {
+		id = OPU_gvardiyanezhiti
+		icon = GFX_goal_unknown
+		x = 11
+		y = 20
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = OPU_vosstanovitkontrolnadvoyskami  }
+	}
+
+	#Международное признание 
+	focus = {
+		id = OPU_mezhdunarodnoepriznanie
+		icon = GFX_goal_unknown
+		x = 9
+		y = 21
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OPU_utverzhdenienezavisimosti  } prerequisite = { focus = OPU_ekonomicheskiereformy  } prerequisite = { focus = OPU_gvardiyanezhiti  }
+	}
+
+	#Новая эпоха для острова
+	focus = {
+		id = OPU_novayaepohadlyaostrova
+		icon = GFX_goal_unknown
+		x = 9
+		y = 22
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OPU_mezhdunarodnoepriznanie  }
+	}
+
+}
