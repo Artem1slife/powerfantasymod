@@ -11,7 +11,6 @@ country_event = {
 	is_triggered_only = yes
 	trigger = {
 		tag = IPO
-
 	}
 	option = {
 		name = IPO_imperium_events.1.a
@@ -78,5 +77,93 @@ country_event = {
 		hidden_effect = {
 			
 		}
+	}
+}
+
+#Отмена рабства
+country_event = {
+	id = IPO_imperium_events.4
+	title = IPO_imperium_events.4.t
+	desc = IPO_imperium_events.4.d
+
+	picture = IPO__-934
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = IPO_imperium_events.4.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+		swap_ideas = {
+				remove_idea = { slavery_allowed }
+				add_idea = { slavery_allowed_with_restrictions }
+			}
+	}
+	option = {
+		name = IPO_imperium_events.4.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+		swap_ideas = {
+				remove_idea = { slavery_forbidden }
+				add_idea = { slavery_allowed_with_restrictions }
+			}
+		swap_ideas = {
+				remove_idea = { more_50_poor }
+				add_idea = { more_75_poor }
+			}
+	}
+}
+
+#Новое мышление
+country_event = {
+	id = IPO_imperium_events.5
+	title = IPO_imperium_events.5.t
+	desc = IPO_imperium_events.5.d
+
+	picture = IPO__-934
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = IPO_imperium_events.5.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		swap_ideas = {
+				remove_idea = { tradition_state_of_sin }
+				add_idea = { tradition_high_kingdom }
+			}
+		swap_ideas = {
+				remove_idea = { tradition_isolitionalism }
+				add_idea = { tradition_open_for_world }
+			}
+	}
+	option = {
+		name = IPO_imperium_events.5.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		swap_ideas = {
+				remove_idea = { tradition_state_of_sin }
+				add_idea = { tradition_culture_of_help }
+			}
+		swap_ideas = {
+				remove_idea = { tradition_isolitionalism }
+				add_idea = { tradition_sceptics }
+			}
 	}
 }

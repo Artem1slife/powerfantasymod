@@ -942,5 +942,56 @@ ideas = {
 
 			cancel_if_invalid = no
 		}
+		
+		tradition_open_for_world = {
+			available = {
+				political_power_daily > 0
+				always = no
+			}
+			
+			removal_cost = 250
+			cost = 500
+
+			modifier = {
+				consumer_goods_factor = 0.2
+				production_speed_industrial_complex_factor = 0.25
+				production_speed_arms_factory_factor = 0.25
+				production_speed_dockyard_factor = 0.25
+				min_export = 0.1
+				civilian_intel_to_others = 25
+				navy_intel_to_others = 25
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		
+		tradition_sceptics = {
+			available = {
+				political_power_daily > 0
+				always = no
+			}
+			
+			removal_cost = 250
+			cost = 500
+
+			modifier = {
+				consumer_goods_factor = 0.2
+				production_speed_industrial_complex_factor = -0.1
+				production_speed_arms_factory_factor = -0.1
+				production_speed_dockyard_factor = -0.1
+				civilian_intel_to_others = 50
+				navy_intel_to_others = 50
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
 	}
 }

@@ -1,6 +1,6 @@
 focus_tree = {
 	id = 1
-	continuous_focus_position = { x = 0 y = 1000 } 
+	continuous_focus_position = { x = 0 y = 1800 } 
 	country = {
 		factor = 0
 		modifier = {
@@ -8,6 +8,7 @@ focus_tree = {
 			tag = APO
 		}
 	}
+	default = yes
 	
 	#Долгие годы
 	focus = {
@@ -32,7 +33,7 @@ focus_tree = {
 		icon = GFX_goal_generic_positive_trade_relations
 		x = 6
 		y = 3
-		cost = 20
+		cost = 15
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
@@ -40,8 +41,10 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 50
 			random_owned_controlled_state = { add_building_construction = {type = infrastructurelevel = 5 instant_build = yes} }
-			remove_ideas = { APO_economic_pizdets2 }
-			add_ideas = { APO_economic_pizdets }
+			swap_ideas = {
+				remove_idea = { APO_economic_pizdets2 }
+				add_idea = { APO_economic_pizdets }
+			}
 		}
 	}
 
@@ -59,8 +62,10 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 50
 			add_ideas = { APO_rev_soviet }
-			remove_ideas = { APO_political_pizdets3 }
-			add_ideas = { APO_political_pizdets2 }
+			swap_ideas = {
+				remove_idea = { APO_political_pizdets3 }
+				add_idea = { APO_political_pizdets2 }
+			}
 		}
 	}
 
@@ -78,8 +83,10 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 50
 			add_ideas = { APO_battle_with_famine }
-			remove_ideas = { APO_economic_pizdets3 }
-			add_ideas = { APO_economic_pizdets2 }
+			swap_ideas = {
+				remove_idea = { APO_economic_pizdets3 }
+				add_idea = { APO_economic_pizdets2 }
+			}
 		}
 	}
 
@@ -147,7 +154,10 @@ focus_tree = {
 		}
 		prerequisite = { focus = APO_sozyvrevvoensoveta  }
 		completion_reward = {
-			add_ideas = { APO_mobilisation }
+			add_timed_idea = {
+				idea = APO_mobilisation
+				days = 180
+			}
 		}
 	}
 
@@ -176,8 +186,12 @@ focus_tree = {
 		}
 		prerequisite = { focus = APO_ostanovitbanditizm  } prerequisite = { focus = APO_socialnayareforma  }
 		completion_reward = {
-			remove_ideas = { APO_political_pizdets2 }
-			add_ideas = { APO_political_pizdets1 }
+		
+			swap_ideas = {
+				remove_idea = { APO_political_pizdets2 }
+				add_idea = { APO_political_pizdets1 }
+			}
+			
 			create_wargoal = {
 				type = annex_everything
 				target = BBM
@@ -203,13 +217,14 @@ focus_tree = {
 		icon = GFX_focus_mex_restore_the_army_of_christ
 		x = 4
 		y = 6
-		cost = 14
+		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = APO_socialnayareforma  }
 		completion_reward = {
 			add_ideas = { APO_medicine_brigade }
+			recruit_character = APO_Albert_Slave
 		}
 	}
 
@@ -252,6 +267,7 @@ focus_tree = {
 		prerequisite = { focus = APO_medicinskiebrigady  }
 		completion_reward = {
 			add_ideas = { APO_education_brigade }
+			recruit_character = APO_Illion_Freedom
 		}
 	}
 
@@ -267,12 +283,18 @@ focus_tree = {
 		}
 		prerequisite = { focus = APO_zheleznyedorogikommuny  } prerequisite = { focus = APO_obrazovatelnayabrigada  }
 		completion_reward = {
-			remove_ideas = { tradition_exhaustion }
-			remove_ideas = { tradition_criminal_bands }
-			remove_ideas = { tradition_isolitionalism }
-			add_ideas = { tradition_free_harbor }
-			add_ideas = { tradition_autonomy }
-			add_ideas = { tradition_culture_of_help }
+			swap_ideas = {
+				 remove_idea = tradition_exhaustion
+				 add_idea = tradition_free_harbor
+			}
+			swap_ideas = {
+				 remove_idea = tradition_criminal_bands
+				 add_idea = tradition_autonomy
+			}
+			swap_ideas = {
+				 remove_idea = tradition_isolitionalism
+				 add_idea = tradition_culture_of_help
+			}
 		}
 	}
 
@@ -317,8 +339,11 @@ focus_tree = {
 		}
 		prerequisite = { focus = APO_zemelnayareforma  }
 		completion_reward = {
-			remove_ideas = { APO_economic_pizdets }
-			add_ideas = { APO_anarhyst_economic }
+			swap_ideas = {
+				remove_idea = { APO_economic_pizdets }
+				add_idea = { APO_anarhyst_economic }
+			}
+			
 		}
 	}
 
@@ -667,5 +692,4 @@ focus_tree = {
 		}
 		prerequisite = { focus = APO_eshcheodnasdelka  }
 	}
-
 }

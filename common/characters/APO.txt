@@ -1,8 +1,16 @@
 characters = {
+	
+	### POLITICAL LEADER OF GOOD GUYS ###
+	
 	APO_Kromer_Freeman = {
+		name = APO_Kromer_Freeman
 		portraits={
 			civilian={
 				large="gfx/leaders/APO/APO_leader.dds"
+			}
+			army={
+				large="GFX_portrait_USA_arleigh_burke"
+				small="GFX_portrait_USA_arleigh_burke_small"
 			}
 		}
 		country_leader={
@@ -10,6 +18,78 @@ characters = {
 			traits = {  }
 			expire="8000.1.1.1"
 			id=-1
+		}
+		field_marshal = {
+			traits = {
+				great_war_hero	
+				harsh_leader
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	
+	APO_Illion_Freedom = {
+		name = APO_Illion_Freedom
+		portraits={
+			civilian={
+				large="gfx/leaders/APO/APO_leader.dds"
+				small="GFX_idea_CHI_soong_mei_ling"
+			}
+			army={
+				large="GFX_portrait_USA_arleigh_burke"
+				small="GFX_portrait_USA_arleigh_burke_small"
+			}
+		}
+		advisor = {
+			slot =political_advisor
+			allowed  = {
+				original_tag =APO
+			}
+			name =APO_Illion_Freedom
+			cost = 0
+			removal_cost =500
+			traits = {
+				great_survivor
+			}
+		}
+		corps_commander = {
+			traits = {
+				old_guard
+				media_personality
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	
+	APO_Albert_Slave = {
+		portraits={
+			civilian={
+				large="gfx/leaders/RAV/fallan_heckmann.dds"
+			}
+			army={
+				large="GFX_portrait_USA_arleigh_burke"
+				small="GFX_portrait_USA_arleigh_burke_small"
+			}
+		}
+		advisor = {
+			slot =political_advisor
+			allowed  = {
+				original_tag =APO
+			}
+			name =APO_Albert_Slave
+			cost = 0
+			removal_cost =500
+			traits = {
+				great_war_hero
+			}
 		}
 	}
 	

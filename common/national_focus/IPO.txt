@@ -224,6 +224,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = IPO_bukvazakona  }
+		completion_reward = {
+			remove_idea = IPO_kingdom_of_sin
+		}
 	}
 
 	#Отказ от греха
@@ -276,6 +279,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = IPO_eshchebolshegreha  }
+		completion_reward = {
+			add_ideas = { IPO_pride }
+		}
 	}
 
 	#Зависть
@@ -289,6 +295,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = IPO_eshchebolshegreha  }
+		completion_reward = {
+			add_ideas = { IPO_envy }
+		}
 	}
 
 	#Чревоугодие
@@ -302,6 +311,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = IPO_eshchebolshegreha  }
+		completion_reward = {
+			add_ideas = { IPO_gluttony }
+		}
 	}
 
 	#Блуд
@@ -315,6 +327,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = IPO_eshchebolshegreha  }
+		completion_reward = {
+			add_ideas = { IPO_fornication }
+		}
 	}
 
 	#Гнев
@@ -328,6 +343,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = IPO_eshchebolshegreha  }
+		completion_reward = {
+			add_ideas = { IPO_anger }
+		}
 	}
 
 	#Уныние
@@ -341,6 +359,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = IPO_eshchebolshegreha  }
+		completion_reward = {
+			add_ideas = { IPO_despondency }
+		}
 	}
 
 	#Вернуть вирус в лабораторию!
@@ -418,6 +439,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = IPO_otkazotgreha  }
+		completion_reward = {
+			country_event = IPO_imperium_events.4
+		}
 	}
 
 	#"Новое мышление"
@@ -431,6 +455,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = IPO_otkazotgreha  }
+		completion_reward = {
+			country_event = IPO_imperium_events.5
+		}
 	}
 
 	#Реформа медицины
@@ -444,6 +471,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = IPO_otkazotgreha  }
+		completion_reward = {
+			
+		}
 	}
 
 	#Отмена рабства
