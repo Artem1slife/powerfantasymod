@@ -115,8 +115,8 @@ country_event = {
 			
 		}
 		swap_ideas = {
-				remove_idea = { slavery_forbidden }
-				add_idea = { slavery_allowed_with_restrictions }
+				remove_idea = { slavery_allowed }
+				add_idea = { slavery_forbidden }
 			}
 		swap_ideas = {
 				remove_idea = { more_50_poor }
@@ -165,5 +165,80 @@ country_event = {
 				remove_idea = { tradition_isolitionalism }
 				add_idea = { tradition_sceptics }
 			}
+	}
+}
+
+#Охота
+country_event = {
+	id = IPO_imperium_events.6
+	title = IPO_imperium_events.6.t
+	desc = IPO_imperium_events.6.d
+
+	picture = IPO__-934
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = IPO_imperium_events.6.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+#Варгеймы
+country_event = {
+	id = IPO_imperium_events.7
+	title = IPO_imperium_events.7.t
+	desc = IPO_imperium_events.7.d
+
+	picture = IPO__-934
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = IPO_imperium_events.7.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+#Бокс
+country_event = {
+	id = IPO_imperium_events.8
+	title = IPO_imperium_events.8.t
+	desc = IPO_imperium_events.8.d
+
+	picture = IPO__-934
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = IPO_imperium_events.8.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+#Раут
+country_event = {
+	id = IPO_imperium_events.9
+	title = IPO_imperium_events.9.t
+	desc = IPO_imperium_events.9.d
+
+	picture = IPO__-934
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = IPO_imperium_events.9.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+#Бесконечная история
+country_event = {
+	id = IPO_imperium_events.10
+	title = IPO_imperium_events.10.t
+	desc = IPO_imperium_events.10.d
+
+	picture = IPO__-934
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = IPO_imperium_events.10.a
+		ai_chance = { factor = 1 }
 	}
 }

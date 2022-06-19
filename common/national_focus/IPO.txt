@@ -8,6 +8,8 @@ focus_tree = {
 			tag = IPO
 		}
 	}
+	default= yes
+	
 	#Бесконечная история
 	focus = {
 		id = IPO_beskonechnayaistoriya
@@ -18,9 +20,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		available = {
+		completion_reward = {
 			add_political_power = 50
-			
+			country_event = IPO_imperium_events.10
 		}
 	}
 
@@ -51,9 +53,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = IPO_beskonechnayaistoriya  }
-		available = {
+		completion_reward = {
 			add_political_power = 50
-			
+			country_event = IPO_imperium_events.6
 		}
 	}
 
@@ -70,6 +72,7 @@ focus_tree = {
 		prerequisite = { focus = IPO_beskonechnayaistoriya  }
 		completion_reward = {
 			add_political_power = 50
+			country_event = IPO_imperium_events.7
 		}
 	}
 
@@ -86,7 +89,7 @@ focus_tree = {
 		prerequisite = { focus = IPO_beskonechnayaistoriya  }
 		completion_reward = {
 			add_political_power = 50
-			
+			country_event = IPO_imperium_events.8
 		}
 	}
 
@@ -103,6 +106,7 @@ focus_tree = {
 		prerequisite = { focus = IPO_ohota  } prerequisite = { focus = IPO_vargeymy  } prerequisite = { focus = IPO_boks  }
 		completion_reward = {
 			add_political_power = 50
+			country_event = IPO_imperium_events.9
 		}
 	}
 
@@ -194,7 +198,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = IPO_agrarnayareforma  }
 		completion_reward = {
-			add_stability = 0.1
+			add_stability = 0.3
 			
 			
 		}

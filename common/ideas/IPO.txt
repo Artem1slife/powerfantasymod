@@ -62,6 +62,7 @@ ideas = {
 		
 		#Army_sin
 		
+		#Гордыня
 		IPO_pride = {
 			picture = ztcnz
 			allowed = {
@@ -69,71 +70,92 @@ ideas = {
 			}
 			modifier = {
 				conscription_factor = 0.2
+				training_time_factor = -0.3
+				initiative_factor = 0.3
 			}
 		}
 		
+		#Зависть
 		IPO_envy = {
 			picture = ztcnz
 			allowed = {
 				original_tag = IPO
 			}
 			modifier = {
-				army_org = 5
-				army_morale_factor = 0.1
+				heat_attrition = -0.15
+				winter_attrition = -0.15
+				dig_in_speed_factor = 0.15
+				experience_gain_army_factor = 0.25
 			}
 		}
 		
+		#Чревоугодие
 		IPO_gluttony = {
 			picture = ztcnz
 			allowed = {
 				original_tag = IPO
 			}
 			modifier = {
-				army_org = 5
+				supply_factor = 0.3
+				army_org = 2
+				unit_upkeep_attrition_factor = 0.2
 				army_morale_factor = 0.1
+				land_night_attack = 0.25
 			}
 		}
 		
+		#Блуд
 		IPO_fornication = {
 			picture = ztcnz
 			allowed = {
 				original_tag = IPO
 			}
 			modifier = {
-				army_org = 5
-				army_morale_factor = 0.1
+				army_org = -1
+				weekly_manpower = 5000 
+				army_morale_factor = -0.1
 			}
 		}
 		
+		#Ненависть
 		IPO_anger = {
 			picture = ztcnz
 			allowed = {
 				original_tag = IPO
 			}
 			modifier = {
-				army_org = 5
-				army_morale_factor = 0.1
+				army_attack_factor = 0.25
+				army_attack_speed_factor = 0.25
+				army_strength_factor = 0.25
+				breakthrough_factor = 0.3
+				army_defence_factor = -0.1
+				army_org = -1
+				
 			}
 		}
 
+		#Уныние
 		IPO_despondency = {
 			picture = ztcnz
 			allowed = {
 				original_tag = IPO
 			}
 			modifier = {
-				army_org = 5
-				army_morale_factor = 0.1
+				army_org = 4
+				army_morale_factor = 0.05
 			}
 		}
+		
+		#Жадность
 		IPO_greed = {
 			picture = ztcnz
 			allowed = {
 				original_tag = IPO
 			}
 			modifier = {
-				army_org = 5
 				army_morale_factor = 0.1
+				recruitable_population = 0.03
+				mobilization_speed = 0.3
 			}
 		}
 	}
