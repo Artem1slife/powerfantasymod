@@ -1,0 +1,540 @@
+
+	shared_focus = {
+		id = NIF_zhirinovsky
+		icon = goal_unknown
+		x = -3
+		y = 1
+
+		relative_position_id = NIF_presidential_election_of_2000
+		cost = 10
+		
+		available = {
+			custom_trigger_tooltip = {
+				check_variable = { party_pop_array^20 > 0.30 }
+				tooltip = NIF_more_than_30_support_for_nationals_TT
+			}
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_global_flag = NIF_RISE_OF_RUSSIA_PATH
+				add = 50
+			}
+			modifier = {
+				has_country_flag = NIF_putin_elected_2000_flag
+				factor = 0
+			}
+			modifier = {
+				has_country_flag = NIF_zyungaov_elected_2000_flag
+				factor = 0
+			}
+			modifier = {
+				has_country_flag = NIF_yavlinsky_elected_2000_flag
+				factor = 0
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = NIF_arrest_zyuganov
+		icon = goal_unknown
+		x = 0
+		y = 1
+
+		relative_position_id = NIF_zhirinovsky
+		cost = 10
+
+		prerequisite = { focus = NIF_zhirinovsky }
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_political_purges
+		icon = free_chechens
+		x = 2
+		y = 1
+
+		relative_position_id = NIF_zhirinovsky
+		cost = 10
+
+		prerequisite = { focus = NIF_zhirinovsky }
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			
+		}
+
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_crush_the_communists
+		icon = RUS_Tsar_Eternal
+		x = 0
+		y = 2
+
+		relative_position_id = NIF_zhirinovsky
+		cost = 10
+
+		prerequisite = { focus = NIF_arrest_zyuganov }
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			
+		}
+
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_increase_military_spending
+		icon = restore_cossack_units
+		x = 2
+		y = 2
+
+		relative_position_id = NIF_zhirinovsky
+		cost = 10
+
+		prerequisite = { focus = NIF_political_purges }
+		available = {
+			NOT = { has_idea = no_military }
+		}
+
+		search_filters = { FOCUS_FILTER_MILITARY_LAWS }
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 0.25
+				threat > 0.25
+			}
+		}
+	}
+	shared_focus = {
+		id = NIF_hyper_nationalism
+		icon = panslavic_nationalism
+		x = 1
+		y = 3
+
+		relative_position_id = NIF_zhirinovsky
+		cost = 10
+
+		prerequisite = { focus = NIF_increase_military_spending }
+		prerequisite = { focus = NIF_crush_the_communists }
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_timed_idea = {
+				idea = idea_focus_generic_national_strength
+				days = 365
+			}
+			add_political_power = 50
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_punish_yeltsins_cronies
+		icon = RUS_Military_Coup
+		x = 0
+		y = 4
+
+		relative_position_id = NIF_zhirinovsky
+		cost = 10
+
+		prerequisite = { focus = NIF_hyper_nationalism }
+		available = {
+			
+		}
+		
+		
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			
+			add_political_power = 150
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_revoke_personal_freedoms
+		icon = ch_of_all_russia
+		x = 2
+		y = 4
+
+		relative_position_id = NIF_zhirinovsky
+		cost = 10
+
+		prerequisite = { focus = NIF_hyper_nationalism }
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_stability = -0.03
+			
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_execute_the_oligarchs
+		icon = zemsky_sobor
+		x = 0
+		y = 5
+
+		relative_position_id = NIF_zhirinovsky
+		cost = 10
+
+		prerequisite = { focus = NIF_punish_yeltsins_cronies }
+		mutually_exclusive = { }
+		available = {
+			
+		}
+		
+
+		search_filters = { FOCUS_FILTER_POLITICAL  FOCUS_FILTER_INTERNAL_FACTION }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NIF_execute_the_oligarchs"
+			hidden_effect = {
+				if = {
+					limit = { has_idea = oligarchs }
+					swap_ideas = {
+						remove_idea = oligarchs
+						add_idea = the_military
+					}
+				}
+			}
+			remove_ideas = NIF_corrupt_oligarchy
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_persecute_minorities
+		icon = transcaucasian_republic
+		x = 2
+		y = 5
+
+		relative_position_id = NIF_zhirinovsky
+		cost = 10
+
+		prerequisite = { focus = NIF_revoke_personal_freedoms }
+
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NIF_persecute_minorities"
+			add_war_support = 0.075
+			add_manpower = -10000
+			add_stability = -0.02
+			set_temp_variable = { party_index = 20 }
+			set_temp_variable = { party_popularity_increase = 0.02 }
+			set_temp_variable = { temp_outlook_increase = 0.02 }
+			add_relative_party_popularity = yes
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_the_end_of_the_republic
+		icon = Rus_wake_up
+		x = 1
+		y = 6
+
+		relative_position_id = NIF_zhirinovsky
+		cost = 10
+
+		prerequisite = { focus = NIF_execute_the_oligarchs }
+		prerequisite = { focus = NIF_persecute_minorities }
+		available = {
+			has_elections = yes
+		}
+		bypass = {
+			has_elections = no
+		}
+		cancel = {
+			has_elections = no
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NIF_the_end_of_the_republic"
+			hidden_effect = {
+				set_country_flag = no_leader_change
+				if = {
+					limit = {
+						has_government = nationalist
+					}
+					set_politics = {
+						ruling_party = nationalist
+						elections_allowed = no
+					}
+				}
+				clr_country_flag = no_leader_change
+			}
+			custom_effect_tooltip = NIF_end_of_republic_TT
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_encourage_foreign_cheap_laborers
+		icon = ivan_plays_baseball
+		x = 3
+		y = 6
+
+		relative_position_id = NIF_zhirinovsky
+		cost = 10
+
+		prerequisite = { focus = NIF_persecute_minorities }
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NIF_encourage_foreign_cheap_laborers"
+			add_ideas = NIF_cheap_foreign_labor_idea
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_dictatorial_coup
+		icon = russia1
+		x = 0
+		y = 7
+
+		relative_position_id = NIF_zhirinovsky
+		cost = 10
+
+		prerequisite = { focus = NIF_the_end_of_the_republic }
+		mutually_exclusive = { focus = NIF_claim_the_crown }
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NIF_dictatorial_coup"
+			add_ideas = NIF_russian_ceasar_idea
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_claim_the_crown
+		icon = imperial_russia
+		x = 2
+		y = 7
+
+		relative_position_id = NIF_zhirinovsky
+		cost = 10
+
+		prerequisite = { focus = NIF_the_end_of_the_republic }
+		mutually_exclusive = { focus = NIF_dictatorial_coup }
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_ideas = NIF_the_new_tsar_idea
+		}
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				is_historical_focus_on = no
+				add = 1.25
+			}
+		}
+	}
+	shared_focus = {
+		id = NIF_reinforce_the_one_party_state
+		icon = Focus_Romanov
+		x = -1
+		y = 8
+
+		relative_position_id = NIF_zhirinovsky
+		cost = 10
+
+		prerequisite = { focus = NIF_dictatorial_coup }
+		available = {
+			has_elections = no
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_popularity = { ideology = nationalist popularity = 0.05 }
+			recalculate_party = yes
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				nationalist < 0.50
+				add = 0.25
+			}
+		}
+	}
+	focus = {
+		id = NIF_ensure_military_loyalty
+		icon = my_brothers_keeper
+		x = 1
+		y = 8
+
+		relative_position_id = NIF_zhirinovsky
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_claim_the_crown
+			focus = NIF_dictatorial_coup
+		}
+		available = {
+			NOT = { has_idea = no_military }
+		}
+
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			
+			add_ideas = NIF_russian_militarism_idea
+			add_research_slot = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = NIF_honor_the_romanovs
+		icon = russian_monarchy
+		x = 3
+		y = 8
+
+		relative_position_id = NIF_zhirinovsky
+		cost = 10
+
+		prerequisite = { focus = NIF_claim_the_crown }
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			
+			add_popularity = { ideology = nationalist popularity = 0.10 }
+			recalculate_party = yes
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = NIF_secure_kazakhstan
+		icon = attack_kazakhstan
+		x = 1
+		y = 9
+
+		relative_position_id = NIF_zhirinovsky
+		cost = 10
+
+		prerequisite = { focus = NIF_ensure_military_loyalty }
+
+		will_lead_to_war_with = KAZ
+		cancel_if_invalid = yes
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			
+			every_state = {
+				limit = { is_owned_by = KAZ }
+				add_claim_by = NIF
+			}
+			create_wargoal = {
+				target = KAZ
+				type = puppet_wargoal_focus
+			}
+			
+			
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_ambitions_in_central_asia
+		icon = political_pressure
+		x = 0
+		y = 10
+
+		relative_position_id = NIF_zhirinovsky
+		cost = 10
+
+		prerequisite = { focus = NIF_dictatorial_coup }
+		prerequisite = { focus = NIF_secure_kazakhstan }
+		
+
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_secure_the_grand_duchy
+		icon = attack_finland
+		x = 2
+		y = 10
+
+		relative_position_id = NIF_zhirinovsky
+		cost = 10
+
+		will_lead_to_war_with = FIN
+		prerequisite = { focus = NIF_claim_the_crown }
+		prerequisite = { focus = NIF_secure_kazakhstan }
+		available = {
+			country_exists = FIN
+		}
+
+		search_filters = { FOCUS_FILTER_ANNEXATION FOCUS_FILTER_WAR_SUPPORT }
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

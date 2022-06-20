@@ -1,0 +1,37 @@
+add_namespace = ORS_events
+
+#Вопрос о добавлении NIF в союз
+country_event = {
+	id = ORS_events.1
+	title = ORS_events.1.t
+	desc = ORS_events.1.d
+
+	picture = IPO__-934
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = ORS
+	}
+	option = {
+		name = ORS_events.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		name = ORS_events.1.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		ORS = { add_to_faction = NIF }
+		hidden_effect = {
+			
+		}
+	}
+}

@@ -1,0 +1,676 @@
+
+	shared_focus = {
+		id = NIF_Gruner
+		icon = goal_unknown
+		x = 9
+		y = 1
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		#autocomplete by event
+		allow_branch = {
+			TAG = NIF
+			has_idea = NIF_new_president
+		}
+		available = {
+			has_idea = NIF_new_president
+		}
+
+	}
+	
+	shared_focus = {
+		id = NIF_deals_with_europe
+		icon = goal_unknown
+		x = -2
+		y = 1
+
+		relative_position_id = NIF_Gruner
+		cost = 10
+
+		prerequisite = { focus = NIF_Gruner }
+		
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_national_economic_goals
+		icon = goal_unknown
+		x = 0
+		y = 1
+
+		relative_position_id = NIF_Gruner
+		cost = 10
+
+		prerequisite = { focus = NIF_Gruner }
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_timed_idea = {
+				idea = idea_focus_industrial_development_program
+				days = 365
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_RAV_economic_cooperation
+		icon = money
+		x = 2
+		y = 1
+
+		relative_position_id = NIF_Gruner
+		cost = 10
+
+		prerequisite = { focus = NIF_Gruner }
+		
+
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				check_variable = { treasury > 29.99 }
+				add = 1
+			}
+		}
+	}
+	shared_focus = {
+		id = NIF_european_university_connections
+		icon = goal_unknown
+		x = -2
+		y = 2
+
+		relative_position_id = NIF_Gruner
+		cost = 10
+
+		prerequisite = { focus = NIF_deals_with_europe }
+
+		search_filters = { FOCUS_FILTER_EXPENDITURE }
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_russian_defensive_preparations
+		icon = goal_unknown
+		x = 0
+		y = 2
+
+		relative_position_id = NIF_Gruner
+		cost = 10
+
+		prerequisite = { focus = NIF_national_economic_goals }
+
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		completion_reward = {
+			
+			add_timed_idea = {
+				idea = defensive_constructions3
+				days = 730
+			}
+			add_war_support = 0.03
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_city_development
+		icon = goal_unknown
+		x = 2
+		y = 2
+
+		relative_position_id = NIF_Gruner
+		cost = 10
+
+		prerequisite = { focus = NIF_RAV_economic_cooperation }
+		mutually_exclusive = { }
+		available = { }
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+			1 = { #Kaliningrad
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_fight_the_elites
+		icon = goal_unknown
+		x = -1
+		y = 3
+
+		relative_position_id = NIF_Gruner
+		cost = 10
+
+		prerequisite = { focus = NIF_european_university_connections }
+		prerequisite = { focus = NIF_russian_defensive_preparations }
+
+		}
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_democratic_idealism
+		icon = goal_unknown
+		x = 1
+		y = 3
+
+		relative_position_id = NIF_Gruner
+		cost = 10
+
+		prerequisite = { focus = NIF_city_development }
+
+		
+		completion_reward = {
+			
+			
+			
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_kaliningrad_military_sector
+		icon = goal_unknown
+		x = 3
+		y = 3
+
+		relative_position_id = NIF_Gruner
+		cost = 10
+
+		prerequisite = { focus = NIF_city_development }
+		available = { }
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+			
+			1 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_expand_central_university
+		icon = goal_unknown
+		x = -2
+		y = 4
+
+		relative_position_id = NIF_Gruner
+		cost = 10
+
+		prerequisite = { focus = NIF_european_university_connections }
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_research_slot = 1
+			
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_trials
+		icon = goal_unknown
+		x = 1
+		y = 4
+
+		relative_position_id = NIF_Gruner
+		cost = 10
+
+		prerequisite = { focus = NIF_democratic_idealism }
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_reformed_armed_forces
+		icon = goal_unknown
+		x = 3
+		y = 4
+
+		relative_position_id = NIF_Gruner
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_MILITARY_LAWS }
+		prerequisite = { focus = NIF_kaliningrad_military_sector }
+		available = {
+			NOT = { has_idea = no_military }
+		}
+
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_russia_studies_abroad
+		icon = goal_unknown
+		x = -2
+		y = 5
+
+		relative_position_id = NIF_Gruner
+		cost = 10
+
+		prerequisite = { focus = NIF_expand_central_university }
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_ideas = NIF_studies_abroad_idea
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_infrastructure_program
+		icon = goal_unknown
+		x = 0
+		y = 5
+
+		relative_position_id = NIF_Gruner
+		cost = 10
+
+		prerequisite = { focus = NIF_fight_the_elites }
+
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_timed_idea = {
+				idea = infrastructure_project
+				days = 365
+			}
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_fight_communism
+		icon = goal_unknown
+		x = 2
+		y = 5
+
+		relative_position_id = NIF_Gruner
+		cost = 10
+
+		prerequisite = { focus = NIF_trials }
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			
+			add_stability = -0.02
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_fight_nationalism
+		icon = goal_unknown
+		x = 4
+		y = 5
+
+		relative_position_id = NIF_Gruner
+		cost = 10
+
+		prerequisite = { focus = NIF_trials }
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_support_home
+		icon = goal_unknown
+		x = -1
+		y = 6
+
+		relative_position_id = NIF_Gruner
+		cost = 10
+
+		prerequisite = { focus = NIF_expand_central_university }
+		mutually_exclusive = { focus = NIF_maintain_csto }
+
+		search_filters = { FOCUS_FILTER_NATO }
+		completion_reward = {
+			
+			#ивент для Общего дома о принятии нового члена
+			
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	shared_focus = {
+		id = NIF_maintain_csto
+		icon = goal_unknown
+		x = 1
+		y = 6
+
+		relative_position_id = NIF_Gruner
+		cost = 10
+
+		prerequisite = { focus = NIF_infrastructure_program }
+		prerequisite = { focus = NIF_fight_communism }
+		mutually_exclusive = { focus = NIF_support_home }
+		available = {
+			is_faction_leader = yes
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_bastion_of_democracy
+		icon = goal_unknown
+		x = 0
+		y = 7
+
+		relative_position_id = NIF_Gruner
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_support_home
+			focus = NIF_maintain_csto
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			#something
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_tradition_values
+		icon = goal_unknown
+		x = 3
+		y = 8
+
+		relative_position_id = NIF_Gruner
+		cost = 10
+
+		prerequisite = { focus = NIF_bastion_of_democracy }
+		mutually_exclusive = { focus = NIF_liberalize_russian_society }
+		available = { }
+		historical_ai = { }
+		select_effect = { }
+		bypass = { }
+		cancel = { }
+
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_war_support = 0.025
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_reform_the_oblasts
+		icon = goal_unknown
+		x = 2
+		y = 9
+
+		relative_position_id = NIF_Gruner
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_liberalize_russian_society
+			focus = NIF_tradition_values
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_encourage_free_thought
+		icon = goal_unknown
+		x = 1
+		y = 10
+
+		relative_position_id = NIF_Gruner
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_liberalize_russian_society
+		}
+
+		search_filters = { FOCUS_FILTER_EXPENDITURE }
+		completion_reward = {
+			increase_education_budget = yes
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_army_of_the_republic
+		icon = gentleman_officers
+		x = 3
+		y = 10
+
+		relative_position_id = NIF_Gruner
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_tradition_values
+		}
+
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_MILITARY_LAWS }
+		completion_reward = {
+			add_ideas = NIF_idea_army_of_the_republic
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_reform_the_army
+		icon = goal_unknown
+		x = 2
+		y = 11
+
+		relative_position_id = NIF_Gruner
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_encourage_free_thought
+			focus = NIF_army_of_the_republic
+		}
+		prerequisite = { focus = NIF_reform_the_oblasts }
+
+		search_filters = { FOCUS_FILTER_MILITARY_LAWS }
+		completion_reward = {
+			
+			if = {
+				limit = { has_idea = NIF_outdated_army_idea }
+				remove_ideas = NIF_outdated_army_idea
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_encourage_free_expression
+		icon = goal_unknown
+		x = 1
+		y = 12
+
+		relative_position_id = NIF_Gruner
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_encourage_free_thought
+		}
+		
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.05
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_embrace_the_light_church
+		icon = rebuild_the_savior_cathedral
+		x = 3
+		y = 12
+
+		relative_position_id = NIF_Gruner
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_army_of_the_republic
+		}
+
+		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT }
+		completion_reward = {
+			add_stability = 0.025
+			add_war_support = 0.025
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_more_universities
+		icon = goal_unknown
+		x = 2
+		y = 13
+
+		relative_position_id = NIF_Gruner
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_encourage_free_expression
+			focus = NIF_embrace_the_light_church
+		}
+		prerequisite = { focus = NIF_reform_the_army }
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_timed_idea = {
+				idea = scientific_advances3
+				days = 365
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shared_focus = {
+		id = NIF_religious_republicanism
+		icon = goal_unknown
+		x = 3
+		y = 14
+
+		relative_position_id = NIF_Gruner
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_embrace_the_light_church
+		}
+
+		completion_reward = {
+			if = {
+				limit = { has_idea = orthodox_christian }
+				swap_ideas = {
+					remove_idea = orthodox_christian
+					add_idea = NIF_russian_orthodox_church_idea
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

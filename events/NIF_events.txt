@@ -1,0 +1,365 @@
+add_namespace = NIF_events
+
+#Дебаты начинаются
+country_event = {
+	id = NIF_events.1
+	title = NIF_events.1.t
+	desc = NIF_events.1.d
+
+	picture = NIF__-934
+	fire_only_once = yes
+	is_triggered_only = no
+	trigger = {
+		tag = NIF
+		date > 7256.01.05
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = NIF_events.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			country_event = {
+				days = 7
+				id = NIF_events.2
+			}
+		}
+	}
+	
+}
+
+#Дебаты об экономике
+country_event = {
+	id = NIF_events.2
+	title = NIF_events.2.t
+	desc = NIF_events.2.d
+
+	picture = NIF__-934
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = NIF
+	}
+	option = {
+		#В экономике нужен план
+		name = NIF_events.2.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			add_to_variable = { com_auditorium = 5 }
+			subtract_from_variable = { fas_auditorium = 5 }
+			subtract_from_variable = { liberal_auditorium = 5 }
+			add_to_variable = { cons_auditorium = 5 }
+			country_event = {
+				days = 7
+				id = NIF_events.3
+			}
+		}
+	}
+	option = {
+		#Чем свободнее рынок, тем свободнее люди
+		name = NIF_events.2.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			subtract_from_variable = { com_auditorium = 5 }
+			add_to_variable = { fas_auditorium = 5 }
+			add_to_variable = { liberal_auditorium = 5 }
+			subtract_from_variable = { cons_auditorium = 5 }
+			country_event = {
+				days = 7
+				id = NIF_events.3
+			}
+		}
+	}
+}
+
+#Дебаты о меджународной политике
+country_event = {
+	id = NIF_events.3
+	title = NIF_events.3.t
+	desc = NIF_events.3.d
+
+	picture = NIF__-934
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = NIF
+	}
+	option = {
+		#Мы должны быть готовы к войне
+		name = NIF_events.3.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			add_to_variable = { com_auditorium = 5 }
+			add_to_variable = { fas_auditorium = 5 }
+			subtract_from_variable = { liberal_auditorium = 5 }
+			add_to_variable = { cons_auditorium = 5 }
+			country_event = {
+				days = 7
+				id = NIF_events.4
+			}
+		}
+	}
+	option = {
+		#Нам пора выбрать между двумя союзами
+		name = NIF_events.3.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			subtract_from_variable = { com_auditorium = 5 }
+			add_to_variable = { fas_auditorium = 5 }
+			add_to_variable = { liberal_auditorium = 5 }
+			subtract_from_variable = { cons_auditorium = 5 }
+			country_event = {
+				days = 7
+				id = NIF_events.4
+			}
+		}
+	}
+	option = {
+		#Войны буквально придумала буржуазия!
+		name = NIF_events.3.c
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			add_to_variable = { com_auditorium = 5 }
+			subtract_from_variable = { fas_auditorium = 5 }
+			subtract_from_variable = { liberal_auditorium = 0 }
+			subtract_from_variable = { cons_auditorium = 5 }
+			country_event = {
+				days = 7
+				id = NIF_events.4
+			}
+		}
+	}
+}
+
+#Дебаты о религии и культуре
+country_event = {
+	id = NIF_events.4
+	title = NIF_events.4.t
+	desc = NIF_events.4.d
+
+	picture = NIF__-934
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = NIF
+	}
+	option = {
+		#мы должны верить в Свет
+		name = NIF_events.4.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			subtract_from_variable = { com_auditorium = 5 }
+			add_to_variable = { fas_auditorium = 5 }
+			subtract_from_variable = { liberal_auditorium = 5 }
+			add_to_variable = { cons_auditorium = 0 }
+			country_event = {
+				days = 7
+				id = NIF_events.5
+			}
+		}
+	}
+	option = {
+		#Вера континента - лунный свет.
+		name = NIF_events.4.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			subtract_from_variable = { com_auditorium = 5 }
+			add_to_variable = { fas_auditorium = 5 }
+			subtract_from_variable = { liberal_auditorium = 5 }
+			add_to_variable = { cons_auditorium = 0 }
+			country_event = {
+				days = 7
+				id = NIF_events.5
+			}
+		}
+	}
+	option = {
+		#Я атеист
+		name = NIF_events.4.c
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			add_to_variable = { com_auditorium = 5 }
+			subtract_from_variable = { fas_auditorium = 5 }
+			subtract_from_variable = { liberal_auditorium = 5 }
+			add_to_variable = { cons_auditorium = 0 }
+			country_event = {
+				days = 7
+				id = NIF_events.5
+			}
+		}
+	}
+	option = {
+		#Пусть каждый решает сам
+		name = NIF_events.4.d
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			subtract_from_variable = { com_auditorium = 5 }
+			subtract_from_variable = { fas_auditorium = 5 }
+			subtract_from_variable = { liberal_auditorium = 5 }
+			add_to_variable = { cons_auditorium = 5 }
+			country_event = {
+				days = 7
+				id = NIF_events.5
+			}
+		}
+	}
+}
+
+#Завершение
+country_event = {
+	id = NIF_events.5
+	title = NIF_events.5.t
+	desc = NIF_events.5.d
+
+	picture = NIF__-934
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = NIF
+	}
+	option = {
+		name = NIF_events.5.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			if = {
+				limit = {
+					check_variable = { com_auditorium > liberal_auditorium }					
+					AND = {
+						check_variable = { com_auditorium > cons_auditorium }
+					}
+					AND = {
+						check_variable = { com_auditorium > fas_auditorium }
+					}
+				}
+				retire_country_leader = yes
+				create_country_leader = {
+						name = NIF_Molnin
+						desc = "NIF_Molnin_DESC"
+						picture = "gfx/leaders/RAV/fallan_heckmann.dds"
+						expire = "8000.1.1.1"
+						ideology = monarchy
+						traits = {}
+				}
+				add_ideas = { NIF_new_president }
+				mark_focus_tree_layout_dirty = yes
+			}
+			else_if = {
+				limit = {
+					check_variable = { liberal_auditorium > com_auditorium }					
+					AND = {
+						check_variable = { liberal_auditorium > cons_auditorium }
+					}
+					AND = {
+						check_variable = { liberal_auditorium > fas_auditorium }
+					}
+				}
+				retire_country_leader = yes
+				create_country_leader = {
+						name = NIF_Gruner
+						desc = "NIF_Gruner_DESC"
+						picture = "gfx/leaders/RAV/fallan_heckmann.dds"
+						expire = "8000.1.1.1"
+						ideology = monarchy
+						traits = {}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = { fas_auditorium > liberal_auditorium }					
+					AND = {
+						check_variable = { fas_auditorium > cons_auditorium }
+					}
+					AND = {
+						check_variable = { fas_auditorium > com_auditorium }
+					}
+				}
+				retire_country_leader = yes
+				create_country_leader = {
+						name = NIF_Hargin
+						desc = "NIF_Hargin_DESC"
+						picture = "gfx/leaders/RAV/fallan_heckmann.dds"
+						expire = "8000.1.1.1"
+						ideology = monarchy
+						traits = {}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = { cons_auditorium > liberal_auditorium }					
+					AND = {
+						check_variable = { cons_auditorium > fas_auditorium }
+					}
+					AND = {
+						check_variable = { cons_auditorium > com_auditorium }
+					}
+				}
+				retire_country_leader = yes
+				create_country_leader = {
+						name = NIF_Kelman
+						desc = "NIF_Kelman_DESC"
+						picture = "gfx/leaders/RAV/fallan_heckmann.dds"
+						expire = "8000.1.1.1"
+						ideology = monarchy
+						traits = {}
+				}
+			}
+			else = {
+				retire_country_leader = yes
+				create_country_leader = {
+						name = NIF_Kelman
+						desc = "NIF_Kelman_DESC"
+						picture = "gfx/leaders/RAV/fallan_heckmann.dds"
+						expire = "8000.1.1.1"
+						ideology = monarchy
+						traits = {}
+				}
+				
+			}
+		}
+	}
+}

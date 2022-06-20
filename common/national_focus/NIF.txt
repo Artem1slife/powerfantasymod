@@ -1,0 +1,1175 @@
+﻿focus_tree = {
+	id = NIF_main_focus
+	country = {
+		factor = 1
+		modifier = {
+			add = 30
+			tag = NIF
+		}
+	}
+	default = yes
+	
+	continuous_focus_position = { x = 2750 y = 950 }
+
+	#Military Reform
+	focus = {
+		id = NIF_military_reform
+		icon = goal_unknown
+		x = 18
+		y = 1
+		cost = 1
+
+		search_filters = { FOCUS_FILTER_MILITARY_LAWS }
+		completion_reward = {
+			army_experience = 5
+			navy_experience = 5
+			air_experience = 5
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	##Army Reform
+	focus = {
+		id = NIF_army_reform
+		icon = goal_unknown
+		x = -4
+		y = 1
+
+		relative_position_id = NIF_military_reform
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_military_reform
+		}
+
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		completion_reward = {
+			add_war_support = 0.05
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war_support < 0.10
+				add = 5
+			}
+		}
+	}
+	
+	focus = {
+		id = NIF_armored_reform
+		icon = goal_unknown
+		x = -2
+		y = 1
+
+		relative_position_id = NIF_army_reform
+		cost = 10
+
+		prerequisite = { focus = NIF_army_reform }
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_ideas = NIF_armored_production_idea
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				add = 30
+			}
+		}
+	}
+	
+	focus = {
+		id = NIF_infantry_modernization
+		icon = small_arms_east
+		x = 1
+		y = 1
+
+		relative_position_id = NIF_army_reform
+		cost = 10
+
+		prerequisite = { focus = NIF_army_reform }
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_tech_bonus = {
+				name = NIF_infantry_modernization
+				bonus = 0.5
+				uses = 1
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+	
+	focus = {
+		id = NIF_rifle_renovations
+		icon = goal_unknown
+		x = 0
+		y = 2
+
+		relative_position_id = NIF_army_reform
+		cost = 10
+
+		prerequisite = { focus = NIF_infantry_modernization }
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			#todo
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	focus = {
+		id = NIF_special_forces
+		icon = goal_unknown
+		x = 2
+		y = 2
+
+		relative_position_id = NIF_army_reform
+		cost = 10
+
+		prerequisite = { focus = NIF_infantry_modernization }
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			#todo
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	focus = {
+		id = NIF_more_tanks
+		icon = goal_unknown
+		x = -2
+		y = 2
+
+		relative_position_id = NIF_army_reform
+		cost = 10
+
+		prerequisite = { focus = NIF_armored_reform }
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			#todo
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = NIF_expand_the_special_forces
+		icon = goal_unknown
+		x = 1
+		y = 3
+
+		relative_position_id = NIF_army_reform
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_special_forces
+		}
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			#todo
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = NIF_amphibious_infantry
+		icon = goal_unknown
+		x = 3
+		y = 3
+
+		relative_position_id = NIF_army_reform
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_special_forces
+		}
+		prerequisite = {
+			focus = NIF_naval_reform
+		}
+
+		completion_reward = {
+			army_experience = 35
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	##Naval Reform
+	focus = {
+		id = NIF_naval_reform
+		icon = goal_unknown
+		x = 0
+		y = 1
+
+		relative_position_id = NIF_military_reform
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_military_reform
+		}
+
+		completion_reward = {
+			navy_experience = 50
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	focus = {
+		id = NIF_destroyer_reform
+		icon = goal_unknown
+		x = 0
+		y = 1
+
+		relative_position_id = NIF_naval_reform
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_naval_reform
+		}
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			#todo
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = NIF_carrier_modernization
+		icon = goal_unknown
+		x = 2
+		y = 1
+
+		relative_position_id = NIF_naval_reform
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_naval_reform
+			focus = NIF_air_force_reform
+		}
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			#todo
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = NIF_lada_class_submarines
+		icon = goal_unknown
+		x = 0
+		y = 2
+
+		relative_position_id = NIF_naval_reform
+		cost = 10
+
+		prerequisite = { focus = NIF_destroyer_reform }
+		
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			#todo
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	##Air Force Reform
+	focus = {
+		id = NIF_air_force_reform
+		icon = goal_unknown
+		x = 4
+		y = 1
+
+		relative_position_id = NIF_military_reform
+		cost = 10
+
+		prerequisite = { focus = NIF_military_reform }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NIF_air_force_reform"
+			add_timed_idea = {
+				idea = aircraft_investments
+				days = 365
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = NIF_fist_fly
+		icon = goal_unknown
+		x = 0
+		y = 1
+
+		relative_position_id = NIF_air_force_reform
+		cost = 10
+
+		prerequisite = { focus = NIF_air_force_reform }
+
+		completion_reward = {
+			air_experience = 25 #temp
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = NIF_second_fly
+		icon = goal_unknown
+		x = 0
+		y = 2
+
+		relative_position_id = NIF_air_force_reform
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_fist_fly
+		}
+		
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			#todo
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	# Economic Program - no in war time
+	focus = {
+		id = NIF_economic_programs
+		icon = goal_unknown
+		x = 30
+		y = 1
+		cost = 10
+
+		available = {
+			NOT = { has_war = yes }
+		}
+		
+		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_stability = 0.05
+			add_tech_bonus = {
+				name = NIF_economic_programs
+				bonus = 0.5
+				uses = 2
+				category = industry
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	focus = {
+		id = NIF_diversify_the_economy
+		icon = goal_unknown
+		x = -1
+		y = 1
+
+		relative_position_id = NIF_economic_programs
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_economic_programs
+		}
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			random_owned_controlled_state = {
+				if = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 1
+				}
+			}
+			
+			random_owned_controlled_state = {
+				if = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 1
+				}
+			}
+			random_owned_controlled_state = {
+				if = {
+					limit = {
+						free_building_slots = {
+							building = offices
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_building_construction = {
+						type = offices
+						level = 1
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 1
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = NIF_expansionary_monetary_policy
+		icon = goal_unknown
+		x = -1
+		y = 2
+
+		relative_position_id = NIF_economic_programs
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_diversify_the_economy
+		}
+
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			#todo
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = NIF_decree_no_585
+		icon = goal_unknown
+		x = 1
+		y = 1
+
+		relative_position_id = NIF_economic_programs
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_economic_programs
+		}
+		available = { }
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			random_owned_controlled_state = {
+				if = {
+					limit = {
+						free_building_slots = {
+							building = infrastructure
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+
+				}
+			}
+			random_owned_controlled_state = {
+				if = {
+					limit = {
+						free_building_slots = {
+							building = infrastructure
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+
+				}
+			}
+			random_owned_controlled_state = {
+				if = {
+					limit = {
+						free_building_slots = {
+							building = infrastructure
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	focus = {
+		id = NIF_regauge_the_sakhalin_railway
+		icon = goal_unknown
+		x = 1
+		y = 2
+
+		relative_position_id = NIF_economic_programs
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_decree_no_585
+		}
+		
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+			random_owned_controlled_state = {
+				if = {
+					limit = {
+						free_building_slots = {
+							building = infrastructure
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = NIF_economic_stimulus
+		icon = goal_unknown
+		x = 0
+		y = 3
+
+		relative_position_id = NIF_economic_programs
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_decree_no_585
+			focus = NIF_expansionary_monetary_policy
+		}
+		available = { }
+		cancel = { }
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_political_power = -100
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = NIF_stabilization_fund
+		icon = goal_unknown
+		x = -2
+		y = 1
+
+		relative_position_id = NIF_please_the_moscow_oligarchs
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_please_the_moscow_oligarchs
+		}
+
+		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_FACTION }
+		completion_reward = {
+			add_stability = 0.025
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	focus = {
+		id = NIF_overcome_the_1998_crisis
+		icon = goal_unknown
+		x = 0
+		y = 1
+
+		relative_position_id = NIF_please_the_moscow_oligarchs
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_please_the_moscow_oligarchs
+		}
+
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			#todo
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = NIF_heavy_industry_investments
+		icon = goal_unknown
+		x = -1
+		y = 2
+
+		relative_position_id = NIF_please_the_moscow_oligarchs
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_overcome_the_1998_crisis
+		}
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+			random_owned_controlled_state = {
+				if = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+
+				}
+			}
+			random_owned_controlled_state = {
+				if = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+
+				}
+			}
+			random_owned_controlled_state = {
+				if = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+
+				}
+			}
+
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = NIF_attract_international_investors
+		icon = goal_unknown
+		x = 1
+		y = 2
+
+		relative_position_id = NIF_please_the_moscow_oligarchs
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_overcome_the_1998_crisis
+		}
+
+		completion_reward = {
+			every_country = {
+				limit = {
+					NOT = { original_tag = NIF }
+					NOT = { has_war_with = NIF }
+					OR = {
+						is_puppet = no
+						is_puppet_of = NIF
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = NIF_international_oil_price_agreements
+		icon = goal_unknown
+		x = -3
+		y = 2
+
+		relative_position_id = NIF_please_the_moscow_oligarchs
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_stabilization_fund
+		}
+
+		search_filters = { FOCUS_FILTER_RESOURCE }
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					has_resources_amount = {
+						resource = oil
+						amount < 10
+					}
+					has_resources_amount = {
+						resource = oil
+						amount > 1
+					}
+				}
+				add_resource = {
+					type = oil
+					amount = 5
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					has_resources_amount = {
+						resource = oil
+						amount < 10
+					}
+					has_resources_amount = {
+						resource = oil
+						amount > 1
+					}
+				}
+				add_resource = {
+					type = oil
+					amount = 5
+				}
+			}
+			set_temp_variable = { treasury_change = -10 }
+			modify_treasury_effect = yes
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	##Sub Branch - Additional Interactions with the Economy
+	focus = {
+		id = NIF_rise_of_the_oligarchs
+		icon = goal_unknown
+		x = -5
+		y = 4
+
+		relative_position_id = NIF_economic_programs
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_heavy_industry_investments
+			focus = NIF_attract_international_investors
+		}
+		mutually_exclusive = {
+			focus = NIF_state_run_capitalism
+		}
+		available = {
+			OR = {
+				has_completed_focus = NIF_putin
+				has_completed_focus = NIF_zhirinovsky
+			}
+		}
+
+		search_filters = { FOCUS_FILTER_INTERNAL_FACTION }
+		completion_reward = {
+			#todo
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = NIF_state_run_capitalism
+		icon = goal_unknown
+		x = -1
+		y = 4
+
+		relative_position_id = NIF_economic_programs
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_attract_international_investors
+			focus = NIF_economic_stimulus
+		}
+		mutually_exclusive = {
+			focus = NIF_rise_of_the_oligarchs
+		}
+		available = {
+			OR = {
+				has_completed_focus = NIF_yavlinsky
+				has_completed_focus = NIF_zyuganov
+			}
+		}
+
+		search_filters = { FOCUS_FILTER_INTERNAL_FACTION }
+		completion_reward = {
+			#todo
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Rise of the Oligarch Focus Pathing
+	focus = {
+		id = NIF_intice_oligarchic_investment
+		icon = goal_unknown
+		x = -6
+		y = 5
+
+		relative_position_id = NIF_economic_programs
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_rise_of_the_oligarchs
+		}
+		available = {
+			oligarchs_at_least_positive_opinion = yes
+		}
+
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_CORRUPTION }
+		completion_reward = {
+			
+			random_owned_controlled_state = {
+				if = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+
+				}
+			}
+			random_owned_controlled_state = {
+				if = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = NIF_request_a_handout
+		icon = goal_unknown
+		x = -4
+		y = 5
+
+		relative_position_id = NIF_economic_programs
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_rise_of_the_oligarchs
+		}
+		available = {
+			oligarchs_at_least_positive_opinion = yes
+		}
+
+
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INTERNAL_FACTION }
+		completion_reward = {
+			#todo
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				check_variable = { treasury < 20.0 }
+				add = 2
+			}
+		}
+	}
+	focus = {
+		id = NIF_deregulation
+		icon = goal_unknown
+		x = -5
+		y = 6
+
+		relative_position_id = NIF_economic_programs
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_request_a_handout
+		}
+		prerequisite = {
+			focus = NIF_intice_oligarchic_investment
+		}
+		available = {
+			oligarchs_at_least_positive_opinion = yes
+		}
+
+		search_filters = { FOCUS_FILTER_INTERNAL_FACTION FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_stability = -0.05
+			add_political_power = 100
+			#todo
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	##State Run Capitalism
+	focus = {
+		id = NIF_regulate_the_market
+		icon = goal_unknown
+		x = -2
+		y = 5
+
+		relative_position_id = NIF_economic_programs
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_state_run_capitalism
+		}
+
+		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_FACTION }
+		completion_reward = {
+			add_stability = 0.025
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = NIF_nationalize_foreign_industry
+		icon = goal_unknown
+		x = 0
+		y = 5
+
+		relative_position_id = NIF_economic_programs
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_state_run_capitalism
+		}
+
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_INFLUENCE FOCUS_FILTER_INTERNAL_FACTION }
+		completion_reward = {
+			#todo
+			hidden_effect = {
+				random_owned_controlled_state = {
+					if = {
+						limit = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 0
+								include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					if = {
+						limit = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 0
+								include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					if = {
+						limit = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 0
+								include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = NIF_root_out_the_oligarchs
+		icon = goal_unknown
+		x = -1
+		y = 6
+
+		relative_position_id = NIF_economic_programs
+		cost = 10
+
+		prerequisite = {
+			focus = NIF_nationalize_foreign_industry
+		}
+		prerequisite = {
+			focus = NIF_regulate_the_market
+		}
+
+		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INFLUENCE }
+		completion_reward = {
+			add_stability = 0.05
+			
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#Фокусы Грюнера, становятся видны по ивенту
+	shared_focus = NIF_Gruner
+}
