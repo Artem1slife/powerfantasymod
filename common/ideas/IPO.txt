@@ -159,4 +159,158 @@ ideas = {
 			}
 		}
 	}
+	
+	institutes = {
+		law = yes
+		use_list_view = yes
+		
+		#################
+		#IPO insitutions#
+		#################
+		
+		#kingdom line - 1lv
+		tradition_broken_kingdom= {
+			removal_cost = 10
+			cost = 1
+
+			modifier = {
+				war_support_weekly = -0.01
+				stability_weekly = -0.01
+				consumer_goods_factor = 0.5
+				industry_repair_factor = -0.3
+				production_speed_buildings_factor = -0.5
+				production_speed_industrial_complex_factor = -0.25
+				drift_defence_factor = -0.3
+				neutrality_drift = 0.01
+				destruction_drift = 0.01
+			}
+			cancel_if_invalid = no
+			
+			allowed_to_remove = {
+				always = no
+			}
+			allowed = {
+				tag=IPO
+			}
+		}
+		
+		#kingdom line - 2lv
+		tradition_restored_kingdom= {
+			removal_cost = 10
+			cost = 1
+
+			modifier = {
+				stability_weekly = -0.01
+				consumer_goods_factor = 0.1
+				production_speed_buildings_factor = -0.1
+				production_speed_industrial_complex_factor = -0.1
+				drift_defence_factor = -0.1
+				neutrality_drift = 0.01
+				destruction_drift = 0.01
+			}
+			
+			cancel_if_invalid = no
+			
+			allowed_to_remove = {
+				always = no
+			}
+			allowed = {
+				tag=IPO
+			}
+		}
+		
+		#kingdom line - 3lv
+		tradition_strong_kingdom= {
+			removal_cost = 10
+			cost = 1
+
+			modifier = {
+				stability_weekly = 0.01
+				production_speed_buildings_factor = 0.25
+				production_speed_industrial_complex_factor = 0.25
+				drift_defence_factor = 0.1
+				neutrality_drift = -0.01
+			}
+			
+			cancel_if_invalid = no
+			
+			allowed_to_remove = {
+				always = no
+			}
+			allowed = {
+				tag=IPO
+			}
+		}
+		
+		
+		#State of sin - 1lv There is a real monsters between us
+		tradition_state_of_sin = {
+			removal_cost = 50
+			cost = 1
+
+			modifier = {
+				trade_opinion_factor = -0.75
+				min_export = -0.2
+				army_defence_factor = 0.1
+				army_attack_factor = 0.1
+				acclimatization_hot_climate_gain_factor = 0.1
+				acclimatization_cold_climate_gain_factor = 0.1
+				occupation_cost = -0.25
+			}
+
+			cancel_if_invalid = no
+			
+			allowed_to_remove = {
+				always = no
+			}
+			allowed = {
+				tag=IPO
+			}
+		}
+		
+		#State of sin - 2lv
+		tradition_empire_of_sin = {
+			removal_cost = 50
+			cost = 1
+
+			modifier = {
+				trade_opinion_factor = -0.75
+				min_export = -0.2
+				army_defence_factor = 0.25
+				army_attack_factor = 0.25
+				acclimatization_hot_climate_gain_factor = 0.5
+				acclimatization_cold_climate_gain_factor = 0.5
+				occupation_cost = -0.5
+			}
+			
+			cancel_if_invalid = no
+			
+			allowed_to_remove = {
+				always = no
+			}
+			allowed = {
+				tag=IPO
+			}
+		}
+		
+		#Haotic Portals - 1lv
+		tradition_haotic_portals = {
+			removal_cost = 50
+			cost = 1
+
+			modifier = {
+				stability_weekly = -0.001
+				refit_speed = -0.15 
+			}
+			
+			cancel_if_invalid = no
+			
+			allowed_to_remove = {
+				always = no
+			}
+			allowed = {
+				tag=IPO
+			}
+		}
+	}
 }

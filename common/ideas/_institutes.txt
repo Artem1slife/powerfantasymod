@@ -3,34 +3,25 @@ ideas = {
 	institutes = {
 		law = yes
 		use_list_view = yes
-
-		test_institute = {
-			available = {
-				political_power_daily > 0
-			}
-			
-			removal_cost = -1
-			cost = 500 #БЕСПЛАТНО
-
-			modifier = {
-				custom_modifier_tooltip = test_modifier
-			}
-			
-			allowed_to_remove = {
-				always = no				#институты нельзя снять, только поменять, лол
-			}
-
-			cancel_if_invalid = no
-		}
-
+		
+		
+		
+		##############
+		#Evil deities#
+		##############
+		
+		
+		
+		###################
+		#Reaction to world#
+		###################
+		
 		tradition_isolitionalism = {
 			available = {
-				political_power_daily > 0
-				always = no
+				tag=IPO
 			}
-			
-			removal_cost = 250
-			cost = 500
+			removal_cost = 50
+			cost = 1
 
 			modifier = {
 				consumer_goods_factor = 0.2
@@ -55,6 +46,35 @@ ideas = {
 
 			cancel_if_invalid = no
 		}
+		
+		tradition_free_harbor = {
+			available = {
+				tag=IPO
+			}
+			
+			removal_cost = 50
+			cost = 1
+
+			modifier = {
+				monthly_population = 0.01
+				consumer_goods_factor = 0.06
+				civilian_intel_to_others = 20.0
+				navy_intel_to_others = 8.0
+				army_intel_to_others = 6.0
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			cancel_if_invalid = no
+		}
+		
+		
+		
+		
+		
+		
+		
 		
 		tradition_monastery = {
 			available = {
@@ -261,53 +281,9 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		
-		tradition_free_harbor = {
-			available = {
-				political_power_daily > 0
-				always = no
-			}
-			
-			removal_cost = 250
-			cost = 500
-
-			modifier = {
-				monthly_population = 0.01
-				consumer_goods_factor = 0.06
-				civilian_intel_to_others = 20.0
-				navy_intel_to_others = 8.0
-				army_intel_to_others = 6.0
-			}
-			
-			allowed_to_remove = {
-				always = no
-			}
-
-			cancel_if_invalid = no
-		}
 		
-		tradition_state_of_sin = {
-			available = {
-				political_power_daily > 0
-				always = no
-			}
-			
-			removal_cost = 250
-			cost = 500
-
-			modifier = {
-				justify_war_goal_time = 2
-				lend_lease_tension = 1
-				guarantee_tension = 1
-				trade_opinion_factor = -0.75
-				min_export = -0.2
-			}
-			
-			allowed_to_remove = {
-				always = no
-			}
-
-			cancel_if_invalid = no
-		}
+		
+		
 		
 		tradition_dinosaurs = {
 			available = {
@@ -844,86 +820,6 @@ ideas = {
 		}
 		
 		tradition_big_mana_continent_family = {
-			available = {
-				political_power_daily > 0
-				always = no
-			}
-			
-			removal_cost = 250
-			cost = 500
-
-			modifier = {
-				
-			}
-			
-			allowed_to_remove = {
-				always = no
-			}
-
-			cancel_if_invalid = no
-		}
-		
-		tradition_criminal_bands= {
-			available = {
-				political_power_daily > 0
-				always = no
-			}
-			
-			removal_cost = 250
-			cost = 500
-
-			modifier = {
-				
-			}
-			
-			allowed_to_remove = {
-				always = no
-			}
-
-			cancel_if_invalid = no
-		}
-		
-		tradition_anarhist_culture = {
-			available = {
-				political_power_daily > 0
-				always = no
-			}
-			
-			removal_cost = 250
-			cost = 500
-
-			modifier = {
-				
-			}
-			
-			allowed_to_remove = {
-				always = no
-			}
-
-			cancel_if_invalid = no
-		}
-		
-		tradition_exhaustion = {
-			available = {
-				political_power_daily > 0
-				always = no
-			}
-			
-			removal_cost = 250
-			cost = 500
-
-			modifier = {
-				
-			}
-			
-			allowed_to_remove = {
-				always = no
-			}
-
-			cancel_if_invalid = no
-		}
-		
-		tradition_culture_of_help = {
 			available = {
 				political_power_daily > 0
 				always = no

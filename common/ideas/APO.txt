@@ -251,4 +251,107 @@ ideas = {
 		}
 		
 	}
+	
+	institutes = {
+		law = yes
+		use_list_view = yes
+		
+		#################
+		#APO insitutions#
+		#################
+		
+		#Criminal bands line - 1lv
+		tradition_criminal_bands= {
+			removal_cost = 50
+			cost = 1
+
+			modifier = {
+				stability_weekly = -0.01
+				industry_repair_factor = -0.5
+				production_speed_buildings_factor = -0.5
+				production_speed_industrial_complex_factor = -0.5
+				refit_speed = -0.25
+				weekly_manpower = -10
+				recruitable_population_factor = 0.8
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			cancel_if_invalid = no
+			
+			allowed = {
+				tag=APO
+			}
+		}
+		
+		#Criminal bands line - 2lv
+		tradition_culture_of_help= {
+			removal_cost = 50
+			cost = 1
+
+			modifier = {
+				stability_weekly = 0.01
+				industry_repair_factor = 0.5
+				refit_speed = 0.5
+				weekly_manpower = 10
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			cancel_if_invalid = no
+			
+			allowed = {
+				tag=APO
+			}
+		}
+		
+		#Anarhyst line - 1lv
+		tradition_anarhist_culture = {
+			removal_cost = 50
+			cost = 1
+
+			modifier = {
+				occupation_cost = -0.1
+				industry_free_repair_factor = 0.8
+				agency_upgrade_time = 10
+				army_org_factor = -0.25
+				army_org_regain = -0.1
+				coordination_bonus = -0.1
+				planning_speed = -0.2
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			cancel_if_invalid = no
+			allowed = {
+				tag=APO
+			}
+		}
+		
+		#Exhaustion - 1lv
+		tradition_exhaustion = {
+			removal_cost = 50
+			cost = 1
+
+			modifier = {
+				experience_gain_army_factor = -0.5
+				experience_gain_army_unit_factor = -0.5
+				weekly_manpower = -10
+				local_manpower = -0.25			
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			cancel_if_invalid = no
+			allowed = {
+				tag=APO
+			}
+		}
+		
+		#After exhaustion APO can have any 1 institute from common list
+	}
 }

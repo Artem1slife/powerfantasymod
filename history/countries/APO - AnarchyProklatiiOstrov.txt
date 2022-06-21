@@ -6,7 +6,6 @@ add_command_power = 20
 set_oob = APO
 
 add_ideas = {
-	tradition_isolitionalism
 	tradition_criminal_bands
 	tradition_anarhist_culture
 	tradition_exhaustion
