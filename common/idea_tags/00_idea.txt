@@ -62,24 +62,24 @@ idea_categories = {
 		removal_cost = 0
 	}
 	
-	institutes_idea_tag = {
-		slot = institutes
-		slot = institutes
-		slot = institutes
-		slot = institutes
-		slot = institutes
-		slot = institutes
-		
+	research_production = {
+		slot = tank_manufacturer
+		slot = naval_manufacturer
+		slot = aircraft_manufacturer
+		slot = materiel_manufacturer
+		slot = industrial_concern
+		character_slot = theorist
+
 		ledger = civilian
 		
 		cost = 150
 		removal_cost = 0
 	}
 	
-	artifacts_idea_tag = {
-		slot = artifacts
-		slot = artifacts
-		slot = artifacts
+	institutes_idea_tag = {
+		slot = institutes
+		slot = institutes
+		slot = institutes
 		slot = artifacts
 		slot = artifacts
 		slot = artifacts
@@ -97,13 +97,6 @@ idea_categories = {
 		character_slot = high_command
 		character_slot = high_command
 		character_slot = high_command
-		slot = none_slot
-		slot = tank_manufacturer
-		slot = naval_manufacturer
-		slot = aircraft_manufacturer
-		slot = materiel_manufacturer
-		slot = industrial_concern
-		character_slot = theorist
 		
 		ledger = hidden
 		

@@ -19,6 +19,7 @@ add_ideas = {
 	civilian_economy
 	closed_economy
 	
+	APO_cadres
 	APO_band_power
 	APO_economic_pizdets3
 	APO_political_pizdets3
@@ -37,15 +38,6 @@ set_popularities = {
 	neutrality = 5
 	destruction = 10
 	communism = 75
-}
-
-declare_war_on = {
-	target = ROI
-	type = civil_war
-}
-declare_war_on = {
-	target = IPO
-	type = civil_war
 }
 
 recruit_character = APO_Kromer_Freeman

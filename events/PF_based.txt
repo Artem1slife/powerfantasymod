@@ -1,0 +1,19 @@
+﻿####FUCK####
+
+add_namespace = pfbsd
+
+country_event = {
+	id = pfbsd.1
+	title = pfbsd.1.t
+	desc = pfbsd.1.d
+	picture = GFX_report_event_generic_conference
+	is_triggered_only = yes
+	option = {
+		name = pfbsd.1.a
+		ai_chance = { factor = 90 }
+	}
+	option = {
+		name = pfbsd.1.b
+		ai_chance = { factor = 90 }
+	}
+}

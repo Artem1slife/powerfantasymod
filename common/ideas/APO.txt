@@ -1,5 +1,22 @@
 ideas = {
 	country = {
+		APO_cadres = {
+			picture = MEX_revolutionary_army
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_core_morale_factor = -0.15
+				command_power_gain_mult = -0.5
+				experience_loss_factor = 0.25
+				max_command_power = -50
+				army_leader_cost_factor = 1000
+				send_volunteer_factor = -0.8
+				land_doctrine_cost_factor = 0.5
+			}
+		}
 		APO_band_power = {
 			picture = ztcnz
 			

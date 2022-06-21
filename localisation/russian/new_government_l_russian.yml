@@ -6,7 +6,7 @@
  priority_on_propaganda:0 "Приоритет на пропаганду"
  priority_on_industrialisation:0 "Приоритет на индустриализацию"
  political_advisors_based:0 "Администрация"
- institutes_idea_tag:0 "Традиции"
+ institutes_idea_tag:0 "Традиции и артефакты"
  institutes:0 "Традиции"
  test_institute:0 "Тестовый институт"
  test_institute_desc:0 "Он для теста, логично"
