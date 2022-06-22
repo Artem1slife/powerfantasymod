@@ -140,7 +140,21 @@ on_actions = {
 			318 = { add_dynamic_modifier = { modifier = nation_raviol } }
 			321 = { add_dynamic_modifier = { modifier = nation_raviol } }
 			329 = { add_dynamic_modifier = { modifier = nation_raviol } }
-			###
+			###Кхахахахар
+			430 = { add_dynamic_modifier = { modifier = nation_torks } }
+			451 = { add_dynamic_modifier = { modifier = nation_pikki } }
+			453 = { add_dynamic_modifier = { modifier = nation_coleus } }
+			456 = { add_dynamic_modifier = { modifier = nation_frugelus } }
+			458 = { add_dynamic_modifier = { modifier = nation_vrans } }
+			455 = { add_dynamic_modifier = { modifier = nation_kkhars } }
+			457 = { add_dynamic_modifier = { modifier = nation_kkhars } }
+			475 = { add_dynamic_modifier = { modifier = nation_kkhars } }
+			480 = { add_dynamic_modifier = { modifier = nation_kkhars } }
+			485 = { add_dynamic_modifier = { modifier = nation_kkhars } }
+			487 = { add_dynamic_modifier = { modifier = nation_kkhars } }
+			130 = { add_dynamic_modifier = { modifier = nation_kkhars } }
+			
+			373 = { add_dynamic_modifier = { modifier = nation_chloroisects } }
 		}
 	}
 	on_monthly_TRC = { ###Странствующие города

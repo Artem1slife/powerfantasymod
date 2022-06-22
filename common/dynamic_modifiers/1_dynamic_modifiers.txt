@@ -1,8 +1,4 @@
 
-nation_russian = {
-	enable = { always = yes }
-	icon = GFX_russians
-}
 nation_north_gamaldorian = {
 	enable = { always = yes }
 	icon = GFX_unkown_nation
@@ -45,7 +41,6 @@ nation_eski_vo = {
 nation_eski_go = {
 	enable = { always = yes }
 	icon = GFX_unkown_nation
-	recruitable_population_factor = 0.5
 	state_production_speed_infrastructure_factor = -0.5
 	state_production_speed_arms_factory_factor = -0.5
 	state_production_speed_industrial_complex_factor = -0.5
@@ -120,4 +115,42 @@ nation_darken = {
 nation_raviol = {
 	enable = { always = yes }
 	icon = GFX_raviol
+}
+###
+nation_torks = {
+	enable = { always = yes }
+	icon = GFX_unkown_nation
+}
+nation_pikki = {
+	enable = { always = yes }
+	icon = GFX_unkown_nation
+}
+nation_coleus = {
+	enable = { always = yes }
+	icon = GFX_unkown_nation
+}
+nation_kkhars = {
+	enable = { always = yes }
+	icon = GFX_unkown_nation
+}
+nation_vrans = {
+	enable = { always = yes }
+	icon = GFX_unkown_nation
+}
+nation_frugelus = {
+	enable = { always = yes }
+	icon = GFX_unkown_nation
+}
+###
+nation_chloroisects = {
+	enable = { always = yes }
+	icon = GFX_unkown_nation
+	state_production_speed_infrastructure_factor = 0.8
+	state_production_speed_arms_factory_factor = 0.8
+	state_production_speed_industrial_complex_factor = 0.8
+	state_production_speed_dockyard_factor = 0.8
+	non_core_manpower = -1
+	local_building_slots_factor = 2
+	mobilization_speed = 1
+	resistance_damage_to_garrison = 5
 }
