@@ -242,3 +242,15 @@ country_event = {
 		ai_chance = { factor = 1 }
 	}
 }
+
+news_event = {
+	id = IPO_imperium_events.11
+	title = IPO_imperium_events.11.t
+	desc = IPO_imperium_events.11.d
+	picture = GFX_news_event_romanian_soldiers
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = IPO_imperium_events.11.a
+	}
+}

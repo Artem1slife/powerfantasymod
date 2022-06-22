@@ -4,6 +4,9 @@ state={
 	provinces={
 		1783 1956 2363 2801 4396 5962 
 	}
+	resources = {
+		steel = 25
+	}
 	manpower=134839
 	history={
 		owner = ROI

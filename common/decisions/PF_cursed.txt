@@ -21,7 +21,8 @@ cursed_continent = {
 	
 	APO_demobilisation = {
 		icon = ger_military_buildup
-		available = { tag = IPO has_idea = IPO_wartime NOT = { country_exists = APO country_exists = ROI } }
+		available = { has_idea = IPO_wartime NOT = { country_exists = APO country_exists = ROI } }
+		visible = { tag = IPO }
 		days_remove = 70
 		cost = 150
 		fire_only_once = yes
@@ -31,6 +32,7 @@ cursed_continent = {
 			set_division_template_lock = { division_template = "Infantry Guards Division" is_locked = no }
 			add_timed_idea = { idea = IPO_recovering_from_the_civil_war days = 730 }
 			set_cosmetic_tag = IPO_end_fascism
+			news_event = { id = IPO_imperium_events.11 }
 		}
 	}
 }
