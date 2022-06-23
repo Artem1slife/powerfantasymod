@@ -208,6 +208,22 @@ focus_tree = {
 				type = annex_everything
 				target = BBB
 			}
+			declare_war_on = {
+				target = BBM
+				type = civil_war
+			}
+			declare_war_on = {
+				target = BEC
+				type = civil_war
+			}
+			declare_war_on = {
+				target = BBT
+				type = civil_war
+			}
+			declare_war_on = {
+				target = BBB
+				type = civil_war
+			}
 		}
 	}
 

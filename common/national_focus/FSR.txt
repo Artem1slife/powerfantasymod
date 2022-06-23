@@ -188,6 +188,9 @@ focus_tree = {
 		x = 7
 		y = 0
 		cost = 1
+		available = {
+			has_completed_focus = FSR_dazdravstvuetverhovnyypravitel
+		}
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
@@ -307,6 +310,10 @@ focus_tree = {
 		}
 		prerequisite = { focus = FSR_bolsheoruzhiya  }
 		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = IPO
+			}
 			declare_war_on = {
 				target = IPO
 				type = civil_war
