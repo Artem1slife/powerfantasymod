@@ -1,0 +1,249 @@
+focus_tree = {
+	id = ipo-united
+	continuous_focus_position = { x = 150 y = 920 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = IPO
+		}
+	}
+	#Подготовка к приходу Тьмы
+	focus = {
+		id = IPO_podgotovkakprihodutmy
+		icon = GFX_focus_generic_manpower
+		x = 4
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Культ личности Мастера
+	focus = {
+		id = IPO_kultlichnostimastera
+		icon = GFX_focus_generic_strike_at_democracy2
+		x = 1
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_podgotovkakprihodutmy  }
+	}
+
+	#Новая "хронология"
+	focus = {
+		id = IPO_novayahronologiya
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		x = 1
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = IPO_kultlichnostimastera  }
+	}
+
+	#Запереть их!
+	focus = {
+		id = IPO_zaperetih
+		icon = GFX_focus_hol_war_on_pacifism
+		x = 4
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_podgotovkakprihodutmy  }
+	}
+
+	#Церковь Тьмы
+	focus = {
+		id = IPO_cerkovtmy
+		icon = GFX_goal_generic_dangerous_deal
+		x = 3
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MEX_CHURCH_AUTHORITY
+		}
+		prerequisite = { focus = IPO_zaperetih  }
+	}
+
+	#Принуждение к единству
+	focus = {
+		id = IPO_prinuzhdeniekedinstvu
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		x = 1
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = IPO_novayahronologiya  }
+	}
+
+	#Безотходная жизнь
+	focus = {
+		id = IPO_bezothodnayazhizn
+		icon = GFX_goal_generic_air_production
+		x = 5
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = IPO_zaperetih  }
+	}
+
+	#Нас слишком мало...
+	focus = {
+		id = IPO_nasslishkommalo
+		icon = GFX_focus_chi_army_reform
+		x = 4
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = IPO_bezothodnayazhizn  }
+	}
+
+	#Их слишком много...
+	focus = {
+		id = IPO_ihslishkommnogo
+		icon = GFX_IPO_ihslishkommnogo-280
+		x = 6
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = IPO_bezothodnayazhizn  }
+	}
+
+	#Итоги практик зла
+	focus = {
+		id = IPO_itogipraktikzla
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 7
+		y = 1
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = IPO_podgotovkakprihodutmy  }
+	}
+
+	#Подбодрить солдат
+	focus = {
+		id = IPO_podbodritsoldat
+		icon = GFX_focus_generic_commonwealth_build_infantry
+		x = 7
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = IPO_itogipraktikzla  }
+	}
+
+	#Антихрам
+	focus = {
+		id = IPO_antihram
+		icon = GFX_focus_mex_triumph_over_the_cristeros
+		x = 9
+		y = 0
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_MEX_CHURCH_AUTHORITY
+		}
+		available = {
+			has_completed_focus = my_focus
+			
+			
+		}
+	}
+
+	#Отобрать худших
+	focus = {
+		id = IPO_otobrathudshih
+		icon = GFX_focus_generic_diplomatic_treaty
+		x = 9
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_MEX_CHURCH_AUTHORITY
+		}
+		prerequisite = { focus = IPO_antihram  }
+		available = {
+			has_completed_focus = my_focus
+			
+		}
+	}
+
+	#Спланировать церемонию
+	focus = {
+		id = IPO_splanirovatceremoniyu
+		icon = GFX_focus_generic_treaty
+		x = 9
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_otobrathudshih  }
+		available = {
+			has_completed_focus = my_focus
+			
+			
+		}
+	}
+
+	#Прочитать лекцию
+	focus = {
+		id = IPO_prochitatlekciyu
+		icon = GFX_focus_generic_military_academy
+		x = 9
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_MEX_CHURCH_AUTHORITY
+		}
+		prerequisite = { focus = IPO_splanirovatceremoniyu  }
+		available = {
+			has_completed_focus = my_focus
+			
+			
+		}
+	}
+
+	#Сильная столица
+	focus = {
+		id = IPO_silnayastolica
+		icon = GFX_goal_generic_build_tank
+		x = 3
+		y = 4
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = IPO_cerkovtmy  } prerequisite = { focus = IPO_nasslishkommalo  } prerequisite = { focus = IPO_ihslishkommnogo  }
+	}
+
+	#Да начнется церемония!
+	focus = {
+		id = IPO_danachnetsyaceremoniya
+		icon = GFX_IPO_danachnetsyaceremoniya-422
+		x = 9
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_MEX_CHURCH_AUTHORITY
+		}
+		prerequisite = { focus = IPO_prochitatlekciyu  }
+	}
+
+}

@@ -1,0 +1,242 @@
+focus_tree = {
+	id = IPO_shared
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = IPO
+		}
+	}
+	#Добыча ресурсов
+	focus = {
+		id = IPO_dobycharesursov
+		icon = GFX_goal_generic_oil_refinery
+		x = 14
+		y = 0
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+	}
+
+	#Снабжение
+	focus = {
+		id = IPO_snabzhenie
+		icon = GFX_goal_generic_army_motorized
+		x = 18
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = IPO_smirno  }
+	}
+
+	#Черные башни
+	focus = {
+		id = IPO_chernyebashni
+		icon = GFX_goal_generic_production
+		x = 14
+		y = 1
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = IPO_dobycharesursov  }
+	}
+
+	#Великий двор
+	focus = {
+		id = IPO_velikiydvor
+		icon = GFX_goal_generic_production2
+		x = 14
+		y = 2
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = IPO_chernyebashni  }
+	}
+
+	#Донжон
+	focus = {
+		id = IPO_donzhon
+		icon = GFX_goal_generic_position_armies
+		x = 14
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = IPO_velikiydvor  }
+	}
+
+	#Катакомбы
+	focus = {
+		id = IPO_katakomby
+		icon = GFX_goal_generic_air_production
+		x = 14
+		y = 4
+		cost = 12
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = IPO_donzhon  }
+	}
+
+	#Последний штрих
+	focus = {
+		id = IPO_posledniyshtrih
+		icon = GFX_focus_spa_save_the_alcazar
+		x = 14
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = IPO_katakomby  }
+	}
+
+	#Смирно!
+	focus = {
+		id = IPO_smirno
+		icon = GFX_goal_generic_army_doctrines
+		x = 18
+		y = 0
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+	}
+
+	#Линия обороны
+	focus = {
+		id = IPO_liniyaoborony
+		icon = GFX_focus_generic_tank_production
+		x = 18
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = IPO_snabzhenie  }
+	}
+
+	#Военные ученые
+	focus = {
+		id = IPO_voennyeuchenye
+		icon = GFX_goal_tfv_generic_tech_sharing
+		x = 18
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = IPO_liniyaoborony  }
+	}
+
+	#Флот
+	focus = {
+		id = IPO_flot
+		icon = GFX_goal_generic_navy_cruiser
+		x = 18
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = IPO_voennyeuchenye  }
+	}
+
+	#Самолеты
+	focus = {
+		id = IPO_samolety
+		icon = GFX_focus_jap_zero
+		x = 18
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = IPO_flot  }
+	}
+
+	#Марионетки
+	focus = {
+		id = IPO_marionetki
+		icon = GFX_focus_generic_commonwealth_build_infantry
+		x = 16
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+	}
+
+	#1
+	focus = {
+		id = IPO_1
+		icon = GFX_goal_unknown
+		x = 16
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = IPO_marionetki  }
+	}
+
+	#2
+	focus = {
+		id = IPO_2
+		icon = GFX_goal_unknown
+		x = 16
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = IPO_1  }
+	}
+
+	#3
+	focus = {
+		id = IPO_3
+		icon = GFX_goal_unknown
+		x = 16
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = IPO_2  }
+	}
+
+	#4
+	focus = {
+		id = IPO_4
+		icon = GFX_goal_unknown
+		x = 16
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_3  }
+	}
+
+	#5
+	focus = {
+		id = IPO_5
+		icon = GFX_goal_unknown
+		x = 16
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = IPO_4  }
+	}
+
+}
