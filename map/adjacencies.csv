@@ -1,5 +1,4 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
-8307;1528;sea;8620;-1;-1;-1;-1;;Cursed Islands 1
 8305;8309;sea;8901;-1;-1;-1;-1;;Cursed Islands 2
 8309;8308;sea;8476;-1;-1;-1;-1;;Cursed Islands 3
 8310;8308;sea;8901;-1;-1;-1;-1;;Cursed Islands 4
