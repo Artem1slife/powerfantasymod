@@ -70,3 +70,7 @@
  PF_securitocrat:0 "Секьюритократ"
  PF_industrialist:0 "Индустриалист"
  PF_nervous:0 "Нервный"
+ 
+ art_and_trad:0 "Традиции и артефакты"
+ CHANGE_aat_1:0 "Смена традици"
+ CHANGE_aat_taa_1:0 "Смена традиции, но написано в строчку"

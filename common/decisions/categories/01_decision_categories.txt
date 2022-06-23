@@ -22,3 +22,6 @@ cursed_continent = {
 		}
 	}
 }
+art_and_trad = {
+	icon = GRE_faction_management
+}

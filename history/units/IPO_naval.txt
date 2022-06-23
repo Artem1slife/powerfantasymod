@@ -1,0 +1,17 @@
+﻿units= {
+	fleet = {
+		name = "Imperial Fleet"
+		naval_base = 8307
+		task_force = {
+			name = "Svar-grupp"
+			location = 8307
+			ship = { name = "Great Defender" pride_of_the_fleet = yes definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = IPO version_name = "Centurios I"  } } }
+			ship = { name = "Crol" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IPO version_name = "Legios I" } } }
+			ship = { name = "Berkha" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IPO version_name = "Legios I" } } }
+			ship = { name = "Alsha" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IPO version_name = "Legios I" } } }
+			ship = { name = "Grem" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IPO version_name = "Legios I" } } }
+			ship = { name = "Pete-Osl" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IPO version_name = "Legios I" } } }
+			ship = { name = "Strat" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IPO version_name = "Legios I" } } }
+		}
+	}
+}

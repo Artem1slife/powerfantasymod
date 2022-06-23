@@ -175,7 +175,6 @@ ideas = {
 			cost = 1
 
 			modifier = {
-				war_support_weekly = -0.01
 				consumer_goods_factor = 0.5
 				industry_repair_factor = -0.3
 				production_speed_buildings_factor = -0.5
@@ -224,7 +223,6 @@ ideas = {
 			cost = 1
 
 			modifier = {
-				stability_weekly = 0.01
 				production_speed_buildings_factor = 0.25
 				production_speed_industrial_complex_factor = 0.25
 				drift_defence_factor = 0.1
@@ -298,7 +296,6 @@ ideas = {
 			cost = 1
 
 			modifier = {
-				stability_weekly = -0.001
 				refit_speed = -0.15 
 			}
 			

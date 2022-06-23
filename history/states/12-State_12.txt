@@ -7,12 +7,14 @@ state={
 	manpower=25899
 	history={
 		owner = IPO
-		victory_points = { 8307 10 }
+		victory_points = { 8307 5 }
 		buildings = {
-			infrastructure = 2
-			dockyard = 1
-			arms_factory = 2
-			industrial_complex = 2
+			infrastructure = 3
+			dockyard = 2
+			industrial_complex = 1
+			8307 = {
+				naval_base = 3
+			}
 		}
 		add_core_of = IPO
 		add_core_of = FSR

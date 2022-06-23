@@ -437,7 +437,7 @@ characters = {
 				small=GFX_portrait_USA_arleigh_burke_small
 			}
 		}
-		corps_commander = {
+		navy_leader = {
 			traits = {
 				fleet_protector
 			}
@@ -472,7 +472,7 @@ characters = {
 				small=GFX_portrait_USA_arleigh_burke_small
 			}
 		}
-		corps_commander = {
+		navy_leader = {
 			skill = 1
 			attack_skill = 2
 			defense_skill = 1
