@@ -264,7 +264,10 @@ focus_tree = {
 			has_completed_focus = IPO_kultdeteytmy
 		}
 		completion_reward = {
-			add_ideas = { IPO_pride }
+			add_timed_idea = {
+				idea = IPO_pride
+				days = 720
+			}
 		}
 	}
 
@@ -282,7 +285,10 @@ focus_tree = {
 			has_completed_focus = IPO_kultdeteytmy
 		}
 		completion_reward = {
-			add_ideas = { IPO_envy }
+			add_timed_idea = {
+				idea = IPO_envy
+				days = 720
+			}
 		}
 	}
 
@@ -300,7 +306,10 @@ focus_tree = {
 			has_completed_focus = IPO_kultdeteytmy
 		}
 		completion_reward = {
-			add_ideas = { IPO_gluttony }
+			add_timed_idea = {
+				idea = IPO_gluttony
+				days = 720
+			}
 		}
 	}
 
@@ -318,7 +327,10 @@ focus_tree = {
 			has_completed_focus = IPO_kultdeteytmy
 		}
 		completion_reward = {
-			add_ideas = { IPO_fornication }
+			add_timed_idea = {
+				idea = IPO_fornication
+				days = 720
+			}
 		}
 	}
 
@@ -336,7 +348,10 @@ focus_tree = {
 			has_completed_focus = IPO_kultdeteytmy
 		}
 		completion_reward = {
-			add_ideas = { IPO_anger }
+			add_timed_idea = {
+				idea = IPO_anger
+				days = 720
+			}
 		}
 	}
 
@@ -354,7 +369,10 @@ focus_tree = {
 			has_completed_focus = IPO_kultdeteytmy
 		}
 		completion_reward = {
-			add_ideas = { IPO_despondency }
+			add_timed_idea = {
+				idea = IPO_despondency
+				days = 720
+			}
 		}
 	}
 
@@ -391,7 +409,10 @@ focus_tree = {
 			has_completed_focus = IPO_kultdeteytmy
 		}
 		completion_reward = {
-			add_ideas = { IPO_greed }
+			add_timed_idea = {
+				idea = IPO_greed
+				days = 720
+			}
 		}
 	}
 
@@ -871,6 +892,12 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = IPO_pokazatelnyyasketizmdvora  } prerequisite = { focus = IPO_reformamediciny  }
+		completion_reward = {
+			set_political_party = {
+				ideology = destruction
+				popularity = 5
+			}
+		}
 	}
 
 }
