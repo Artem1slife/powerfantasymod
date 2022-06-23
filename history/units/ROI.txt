@@ -38,7 +38,7 @@ units = {
 		name = "1. Brigade of the Dead"
 		location = 4429
 		division_template = "Brigade of the Dead"
-		start_experience_factor = 0.2 #Опыт. 0 - зелёные, 1 - полуобученные, 2 - обстрелянные и т.д.
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.12 #Процент оснащения дивизии
 	}
 	division = {
@@ -57,7 +57,7 @@ units = {
 	}
 	division = {
 		name = "4. Brigade of the Dead"
-		location = 2363
+		location = 4396
 		division_template = "Brigade of the Dead"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -70,6 +70,34 @@ units = {
 		start_equipment_factor = 0.10
 	}
 	division = {
+		name = "6. Brigade of the Dead"
+		location = 1028
+		division_template = "Brigade of the Dead"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.78
+	}
+	division = {
+		name = "7. Brigade of the Dead"
+		location = 2363
+		division_template = "Brigade of the Dead"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.37
+	}
+	division = {
+		name = "8. Brigade of the Dead"
+		location = 3283
+		division_template = "Brigade of the Dead"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.53
+	}
+	division = {
+		name = "9. Brigade of the Dead"
+		location = 1104
+		division_template = "Brigade of the Dead"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.53
+	}
+	division = {
 		name = "1. Biomass Unit"
 		location = 2363
 		division_template = "Biomass Unit"
@@ -78,10 +106,24 @@ units = {
 	}
 	division = {
 		name = "2. Biomass Unit"
-		location = 1229
+		location = 591
 		division_template = "Biomass Unit"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.89
+	}
+	division = {
+		name = "3. Biomass Unit"
+		location = 1229
+		division_template = "Biomass Unit"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "4. Biomass Unit"
+		location = 4429
+		division_template = "Biomass Unit"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
 	}
 }
 instant_effect = {
