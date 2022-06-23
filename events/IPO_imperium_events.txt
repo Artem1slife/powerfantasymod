@@ -8,19 +8,22 @@ country_event = {
 
 	picture = IPO__-934
 	fire_only_once = yes
-	is_triggered_only = yes
+	is_triggered_only = no
 	trigger = {
 		tag = IPO
+		date > 7256.02.21
 	}
+	mean_time_to_happen = { days = 1 }
 	option = {
 		name = IPO_imperium_events.1.a
-		trigger = {
-			
-		}
+		
 		ai_chance = { factor = 1 }
 		
 		hidden_effect = {
-			
+			country_event = {
+				days = 21
+				id = IPO_imperium_events.2
+			}
 		}
 	}
 }
@@ -33,16 +36,16 @@ country_event = {
 
 	picture = IPO__-934
 	fire_only_once = yes
-	is_triggered_only = yes
+	is_triggered_only = no
 	option = {
 		name = IPO_imperium_events.2.a
-		trigger = {
-			
-		}
 		ai_chance = { factor = 1 }
 		
 		hidden_effect = {
-			
+			country_event = {
+				days = 21
+				id = IPO_imperium_events.3
+			}
 		}
 	}
 }
@@ -55,27 +58,21 @@ country_event = {
 
 	picture = IPO__-934
 	fire_only_once = yes
-	is_triggered_only = yes
+	is_triggered_only = no
 	option = {
 		name = IPO_imperium_events.3.a
-		trigger = {
-			
-		}
 		ai_chance = { factor = 1 }
-		
 		hidden_effect = {
-			
+			release = FSR
 		}
 	}
 	option = {
 		name = IPO_imperium_events.3.b
-		trigger = {
-			
-		}
 		ai_chance = { factor = 1 }
 		
 		hidden_effect = {
-			
+			release = FSR
+			tag = FSR
 		}
 	}
 }
