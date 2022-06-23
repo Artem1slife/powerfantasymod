@@ -532,7 +532,7 @@
  CHOOSE_INSIGNIA:0 "Выберите знак различия"
  CLICK_TO_ASSIGN_TRAITS:0 "§HЩелкните§!, чтобы дать новую §Hчерту§! этому §Hкомандиру боевой единицы§!"
  CLICK_TO_ASSIGN_TRAITS_DETAIL:0 "У командира $LEADER|H$ осталось не более $NUM|H$ ячеек для черт."
- category_special_forces:0 "Войска специального назначения"
+ category_special_forces:0 "Регулярные войска"
  LEADER_GAIN_TRAIT_LEVEL:0 "Количество уровней, за которые лидер может получить новую черту: $NUM|.0H$.\n"
  FM_GAIN_TRAIT_LEVEL:0 "Фельдмаршал может получить новую черту при повышении в звании.\n"
  DELETE_ARMY:0 "§RУдалить армию§!"

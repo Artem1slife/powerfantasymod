@@ -227,6 +227,7 @@ ideas = {
 					OR = {
 						has_idea = low_industrialisated
 						has_idea = hight_industrialisated
+						has_idea = no_industrialisated
 					}
 				}
 			}
