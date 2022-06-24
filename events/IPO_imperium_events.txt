@@ -240,7 +240,7 @@ country_event = {
 	}
 }
 
-news_event = {
+news_event = { #он новостной если что
 	id = IPO_imperium_events.11
 	title = IPO_imperium_events.11.t
 	desc = IPO_imperium_events.11.d
@@ -249,5 +249,47 @@ news_event = {
 	is_triggered_only = yes
 	option = {
 		name = IPO_imperium_events.11.a
+	}
+}
+
+country_event = {
+	id = IPO_imperium_events.12
+	title = IPO_imperium_events.12.t
+	desc = IPO_imperium_events.12.d
+	picture = GFX_report_event_ast_navy
+	major = yes
+	is_triggered_only = no
+	fire_only_once = yes
+	trigger = {
+		controls_state = 498
+		tag = FSR
+	}
+	option = {
+		name = IPO_imperium_events.12.a
+		ai_chance = { factor = 1 }
+		IPO = {
+			IPO_Master = { retire = yes }
+			IPO_Strategist = { retire = yes }
+		}
+		set_cosmetic_tag = IPO_new
+		set_capital = { state = 498 remember_old_capital = no }
+		swap_ideas = { remove_idea = IPO_fleet add_idea = IPO_wartime }
+		swap_ideas = { remove_idea = IPO_risk_of_famine add_idea = IPO_desert_lands }
+		add_ideas = { tradition_state_of_sin tradition_broken_kingdom tradition_haotic_portals }
+		IPO = { transfer_units_fraction = { target = FSR size = 1 stockpile_ratio = 1 army_ratio = 1 navy_ratio = 1 air_ratio = 1 } }
+		inherit_technology = IPO
+		annex_country = { target = IPO transfer_troops = yes }
+		if = {
+			limit = {
+				has_war_with = ROI
+			}
+			declare_war_on = { target = ROI type = annex_everything }
+		}
+		if = {
+			limit = {
+				has_war_with = APO
+			}
+			declare_war_on = { target = ROI type = annex_everything }
+		}
 	}
 }
