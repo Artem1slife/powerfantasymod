@@ -188,6 +188,73 @@ ideas = {
 			}
 		}
 		
+		
+		#последствия принятия практики греха в армии
+		#Обида resentment
+		IPO_resentment = {
+			picture = ztcnz
+			allowed = {
+				original_tag = IPO
+			}
+			modifier = {
+				conscription_factor = -0.7
+				training_time_factor = -0.7
+				initiative_factor = -0.7
+			}
+		}
+		
+		#Инфантилизм
+		IPO_infantilism = {
+			picture = ztcnz
+			allowed = {
+				original_tag = IPO
+			}
+			modifier = {
+				heat_attrition = 0.9
+				winter_attrition = 0.9
+				dig_in_speed_factor = -0.9
+				experience_gain_army_factor = -1
+			}
+		}
+		
+		#Ожирение
+		IPO_fatness = {
+			picture = ztcnz
+			allowed = {
+				original_tag = IPO
+			}
+			modifier = {
+				supply_factor = -0.9
+				army_org = -2
+				unit_upkeep_attrition_factor = 0.9
+				army_morale_factor = -0.6
+				land_night_attack = -0.9
+			}
+		}
+		
+		#Импотенция
+		IPO_impotence = {
+			picture = ztcnz
+			allowed = {
+				original_tag = IPO
+			}
+			modifier = {
+				weekly_manpower = -250
+			}
+		}
+
+		#Апатия
+		IPO_apathy = {
+			picture = ztcnz
+			allowed = {
+				original_tag = IPO
+			}
+			modifier = {
+				army_org = -4
+				army_morale_factor = -0.05
+			}
+		}
+		
 	}
 	
 	institutes = {
