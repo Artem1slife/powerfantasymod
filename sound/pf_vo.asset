@@ -3,11 +3,11 @@ category =
 {
  name = "Voices"
  soundeffects = {
-	IPO_infantry_idle
-	IPO_infantry_neutral_combat
-	IPO_infantry_positive_combat
-	IPO_infantry_retreat
-	IPO_infantry_move_out
+	FSR_infantry_idle
+	FSR_infantry_neutral_combat
+	FSR_infantry_positive_combat
+	FSR_infantry_retreat
+	FSR_infantry_move_out
  }
   compressor = 
  {
@@ -25,13 +25,12 @@ category =
 
 soundeffect = 
 {
-    name = "IPO_infantry_idle"
+    name = "FSR_infantry_idle"
     sounds = {
-		sound = im_sound_13
-		sound = im_sound_18
-		sound = im_sound_19
-		sound = im_sound_22
-		sound = im_sound_26
+		sound = fs_2
+		sound = fs_3
+		sound = fs_4
+		sound = fs_9
     }
 	max_audible = 1
 	max_audible_behaviour = fail
@@ -41,11 +40,12 @@ soundeffect =
 }
 soundeffect = 
 {
-    name = "IPO_infantry_neutral_combat"
+    name = "FSR_infantry_neutral_combat"
     sounds = {
-        sound = im_sound_1
-		sound = im_sound_14
-		sound = im_sound_21
+        sound = fs_1
+		sound = fs_10
+		sound = fs_11
+		sound = fs_12
     }
 	max_audible = 1
 	max_audible_behaviour = fail
@@ -55,12 +55,12 @@ soundeffect =
 }
 soundeffect = 
 {
-    name = "IPO_infantry_positive_combat"
+    name = "FSR_infantry_positive_combat"
     sounds = {
-        sound = im_sound_4
-        sound = im_sound_5
-		sound = im_sound_24
-		sound = im_sound_25
+        sound = fs_1
+		sound = fs_10
+		sound = fs_11
+		sound = fs_12
     }
 	max_audible = 1
 	max_audible_behaviour = fail
@@ -70,11 +70,11 @@ soundeffect =
 }
 soundeffect = 
 {
-    name = "IPO_infantry_retreat"
+    name = "FSR_infantry_retreat"
     sounds = {
-        sound = im_sound_6
-		sound = im_sound_17
-		sound = im_sound_15
+        sound = fs_2
+		sound = fs_11
+		sound = fs_12
     }
 	max_audible = 1
 	max_audible_behaviour = fail
@@ -84,11 +84,12 @@ soundeffect =
 }
 soundeffect = 
 {
-    name = "IPO_infantry_move_out"
+    name = "FSR_infantry_move_out"
     sounds = {
-		sound = im_sound_8
-		sound = im_sound_20
-		sound = im_sound_23
+		sound = fs_5
+		sound = fs_6
+		sound = fs_7
+		sound = fs_8
     }
 	max_audible = 1
 	max_audible_behaviour = fail
@@ -96,30 +97,16 @@ soundeffect =
 	volume_random_offset = { 0.0 -0.15 }
 	playbackrate_random_offset = { 0.0 -0.15}
 }
-sound = { name = "im_sound_1" file = "ipo/im_sound_1.wav" }
-sound = { name = "im_sound_2" file = "ipo/im_sound_2.wav" }
-sound = { name = "im_sound_3" file = "ipo/im_sound_3.wav" }
-sound = { name = "im_sound_4" file = "ipo/im_sound_4.wav" }
-sound = { name = "im_sound_5" file = "ipo/im_sound_5.wav" }
-sound = { name = "im_sound_6" file = "ipo/im_sound_6.wav" }
-sound = { name = "im_sound_7" file = "ipo/im_sound_7.wav" }
-sound = { name = "im_sound_8" file = "ipo/im_sound_8.wav" }
-sound = { name = "im_sound_9" file = "ipo/im_sound_9.wav" }
-sound = { name = "im_sound_10" file = "ipo/im_sound_10.wav" }
-sound = { name = "im_sound_11" file = "ipo/im_sound_11.wav" }
-sound = { name = "im_sound_12" file = "ipo/im_sound_12.wav" }
-sound = { name = "im_sound_13" file = "ipo/im_sound_13.wav" }
-sound = { name = "im_sound_14" file = "ipo/im_sound_14.wav" }
-sound = { name = "im_sound_15" file = "ipo/im_sound_15.wav" }
-sound = { name = "im_sound_16" file = "ipo/im_sound_16.wav" }
-sound = { name = "im_sound_17" file = "ipo/im_sound_17.wav" }
-sound = { name = "im_sound_18" file = "ipo/im_sound_18.wav" }
-sound = { name = "im_sound_19" file = "ipo/im_sound_19.wav" }
-sound = { name = "im_sound_20" file = "ipo/im_sound_20.wav" }
-sound = { name = "im_sound_21" file = "ipo/im_sound_21.wav" }
-sound = { name = "im_sound_22" file = "ipo/im_sound_22.wav" }
-sound = { name = "im_sound_23" file = "ipo/im_sound_23.wav" }
-sound = { name = "im_sound_24" file = "ipo/im_sound_24.wav" }
-sound = { name = "im_sound_25" file = "ipo/im_sound_25.wav" }
-sound = { name = "im_sound_26" file = "ipo/im_sound_26.wav" }
+sound = { name = "fs_1" file = "fsr/fs_1.wav" }
+sound = { name = "fs_2" file = "fsr/fs_2.wav" }
+sound = { name = "fs_3" file = "fsr/fs_3.wav" }
+sound = { name = "fs_4" file = "fsr/fs_4.wav" }
+sound = { name = "fs_5" file = "fsr/fs_5.wav" }
+sound = { name = "fs_6" file = "fsr/fs_6.wav" }
+sound = { name = "fs_7" file = "fsr/fs_7.wav" }
+sound = { name = "fs_8" file = "fsr/fs_8.wav" }
+sound = { name = "fs_9" file = "fsr/fs_9.wav" }
+sound = { name = "fs_10" file = "fsr/fs_10.wav" }
+sound = { name = "fs_11" file = "fsr/fs_11.wav" }
+sound = { name = "fs_12" file = "fsr/fs_12.wav" }
 
