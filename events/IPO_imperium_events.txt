@@ -267,12 +267,15 @@ country_event = {
 	option = {
 		name = IPO_imperium_events.12.a
 		ai_chance = { factor = 1 }
+		hidden_effect = {
+			set_state_owner = 498
+		}
+		set_capital = { state = 498 remember_old_capital = no }
 		IPO = {
 			IPO_Master = { retire = yes }
 			IPO_Strategist = { retire = yes }
 		}
 		set_cosmetic_tag = IPO_new
-		set_capital = { state = 498 remember_old_capital = no }
 		swap_ideas = { remove_idea = IPO_fleet add_idea = IPO_wartime }
 		swap_ideas = { remove_idea = IPO_risk_of_famine add_idea = IPO_desert_lands }
 		add_ideas = { tradition_state_of_sin tradition_broken_kingdom tradition_haotic_portals }
@@ -334,7 +337,8 @@ country_event = {
 		country_event = {
 				days = 21
 				id = IPO_imperium_events.15
-			}
+		}
+		IPO_Architect = { retire = yes }
 	}
 }
 
@@ -355,6 +359,7 @@ country_event = {
 				days = 21
 				id = IPO_imperium_events.16
 			}
+		IPO_Toymaker = { retire = yes }
 	}
 }
 
@@ -411,9 +416,6 @@ country_event = {
 	option = {
 		name = IPO_imperium_events.17.a
 		ai_chance = { factor = 1 }
-		country_event = {
-				days = 21
-				id = IPO_imperium_events.19
-			}
+		add_manpower = -473
 	}
 }
