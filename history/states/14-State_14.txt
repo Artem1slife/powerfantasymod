@@ -15,6 +15,7 @@ state={
 		}
 		add_core_of = IPO
 		add_core_of = FSR
+		add_claim_by = IPO
 	}
 	state_category = small_island
 	local_supplies=0.0 

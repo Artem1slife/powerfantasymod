@@ -11,6 +11,7 @@ state={
 			infrastructure = 1
 		}
 		add_core_of = ROI
+		add_claim_by = IPO
 	}
 	state_category = wasteland
 	local_supplies=0.0 

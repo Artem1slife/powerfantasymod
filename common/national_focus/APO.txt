@@ -8,7 +8,6 @@ focus_tree = {
 			tag = APO
 		}
 	}
-	default = yes
 	
 	#Долгие годы
 	focus = {
@@ -137,7 +136,7 @@ focus_tree = {
 			FOCUS_FILTER_STABILITY
 		}
 		prerequisite = { focus = APO_dolgiegody  }
-		ai_will_do = { factor = 100 }
+		ai_will_do = { factor = 50 }
 		completion_reward = {
 			add_stability = 0.05
 		}
@@ -153,6 +152,7 @@ focus_tree = {
 			FOCUS_FILTER_STABILITY
 		}
 		prerequisite = { focus = APO_sozyvrevvoensoveta  }
+		ai_will_do = { factor = 100 }
 		completion_reward = {
 			add_timed_idea = {
 				idea = APO_mobilisation
@@ -184,6 +184,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
+		ai_will_do = { factor = 100 }
 		prerequisite = { focus = APO_ostanovitbanditizm  } prerequisite = { focus = APO_socialnayareforma  }
 		completion_reward = {
 		
@@ -192,22 +193,6 @@ focus_tree = {
 				add_idea = { APO_political_pizdets1 }
 			}
 			
-			create_wargoal = {
-				type = annex_everything
-				target = BBM
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = BEC
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = BBT
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = BBB
-			}
 			declare_war_on = {
 				target = BBM
 				type = civil_war

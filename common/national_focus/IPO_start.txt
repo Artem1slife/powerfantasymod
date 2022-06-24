@@ -8,7 +8,6 @@ focus_tree = {
 			tag = IPO
 		}
 	}
-	default = yes
 	
 	#Бесконечная история
 	focus = {

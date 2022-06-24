@@ -13,6 +13,7 @@ state={
 		}
 		add_core_of = APO
 		add_core_of = BBT
+		add_claim_by = APO
 	}
 	state_category = town
 	local_supplies=0.0 
