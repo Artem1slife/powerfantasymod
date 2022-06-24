@@ -159,6 +159,35 @@ ideas = {
 			}
 		}
 		
+		#Имперское Адмирал-губернаторство
+		IPO_fleet = {
+			picture = generic_sea_focused_navy
+			modifier = {
+				conscription = 0.025
+				experience_gain_navy = 0.02
+				invasion_preparation = -0.25
+				naval_invasion_capacity = 5
+				navy_leader_start_level = 1
+			}
+		}
+		IPO_army_degradation = {
+			picture = generic_army_problems
+			modifier = {
+				max_command_power = -50
+				army_leader_cost_factor = 0.5
+				army_speed_factor = -0.25
+				army_org_factor = -0.15
+				breakthrough_factor = -0.1
+			}
+		}
+		IPO_risk_of_famine = {
+			picture = raj_risk_of_famine
+			modifier = {
+				monthly_population = -0.25
+				consumer_goods_factor = 0.05
+			}
+		}
+		
 	}
 	
 	institutes = {

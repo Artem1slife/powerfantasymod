@@ -21,4 +21,4 @@ set_popularities = {
 	neutrality = 50
 }
 
-
+add_ideas = { IPO_fleet IPO_army_degradation IPO_risk_of_famine }

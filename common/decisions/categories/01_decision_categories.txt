@@ -19,6 +19,7 @@ cursed_continent = {
 			original_tag = IPO
 			original_tag = APO
 			original_tag = ROI
+			original_tag = FSR
 		}
 	}
 }

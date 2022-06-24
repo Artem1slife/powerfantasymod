@@ -472,6 +472,14 @@ characters = {
 				small=GFX_portrait_USA_arleigh_burke_small
 			}
 		}
+		country_leader={
+			ideology = authoritarianism
+			traits = {
+				#
+			}
+			expire="8000.1.1.1"
+			id=-1
+		}
 		navy_leader = {
 			skill = 1
 			attack_skill = 2
