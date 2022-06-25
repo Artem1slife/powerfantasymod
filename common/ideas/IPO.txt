@@ -360,6 +360,7 @@ ideas = {
 				acclimatization_hot_climate_gain_factor = 0.1
 				acclimatization_cold_climate_gain_factor = 0.1
 				occupation_cost = -0.25
+				ai_get_ally_desire_factor = -5000
 			}
 
 			cancel_if_invalid = no
@@ -385,6 +386,7 @@ ideas = {
 				acclimatization_hot_climate_gain_factor = 0.5
 				acclimatization_cold_climate_gain_factor = 0.5
 				occupation_cost = -0.5
+				ai_get_ally_desire_factor = -5000
 			}
 			
 			cancel_if_invalid = no

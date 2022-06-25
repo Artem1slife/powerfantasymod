@@ -220,7 +220,23 @@ ideas = {
 		law = yes
 		use_list_view = yes
 		
-		
+		#Big ill - 1lv
+		tradition_big_ill = {
+			removal_cost = 50
+			cost = 1
+
+			modifier = {
+				ai_get_ally_desire_factor = -5000
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			cancel_if_invalid = no
+			allowed = {
+				tag=ROI
+			}
+		}
 		
 	}
 }

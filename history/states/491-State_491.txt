@@ -15,6 +15,9 @@ state={
 		}
 		add_core_of = APO
 		add_core_of = BBM
+		add_claim_by = IPO
+		add_claim_by = ROI
+		add_claim_by = FSR
 		add_claim_by = APO
 	}
 	state_category = wasteland
