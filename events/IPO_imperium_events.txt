@@ -700,3 +700,73 @@ country_event = {
 		add_manpower = -1784
 	}
 }
+country_event = {
+	id = IPO_imperium_events.33
+	title = IPO_imperium_events.33.t
+	desc = IPO_imperium_events.33.d
+	picture = GFX_report_event_sweden_tank
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = IPO_imperium_events.33.a
+		ai_chance = { factor = 1 }
+		create_equipment_variant = {
+			name = "Sindhaver"
+			type = heavy_tank_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_small_cannon
+				turret_type_slot = tank_medium_three_man_tank_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+				special_type_slot_1 = secondary_turret_hmg
+				special_type_slot_2 = secondary_turret_hmg
+				special_type_slot_3 = secondary_turret_small_cannon
+				special_type_slot_4 = secondary_turret_small_cannon
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 1
+				tank_nsb_armor_upgrade = 1
+			}
+			obsolete = no
+			icon = "GFX_JAP_advanced_heavy_tank_medium"
+		}
+		hidden_effect = {
+			country_event = {
+				days = 90
+				id = IPO_imperium_events.34
+			}
+		}
+	}
+}
+country_event = {
+	id = IPO_imperium_events.34
+	title = IPO_imperium_events.34.t
+	desc = IPO_imperium_events.34.d
+	picture = GFX_report_event_tank_factory
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = IPO_imperium_events.34.a
+		ai_chance = { factor = 1 }
+		add_equipment_to_stockpile = {
+			type = heavy_tank_chassis_0
+			amount = 100
+			producer = IPO
+			variant_name = "Sindhaver"
+		}
+		add_manpower = -5729
+		498 = {
+			add_manpower = -49461
+			damage_building = {
+				type = arms_factory
+				damage = 1
+			}
+		}
+	}
+}
