@@ -320,6 +320,7 @@ ideas = {
 				army_org_regain = -0.1
 				coordination_bonus = -0.1
 				planning_speed = -0.2
+				ai_get_ally_desire_factor = -5000
 			}
 			
 			allowed_to_remove = {

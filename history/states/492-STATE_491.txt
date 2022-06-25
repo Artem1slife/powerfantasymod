@@ -15,6 +15,8 @@ state={
 		}
 		add_core_of = ROI
 		add_claim_by = IPO
+		add_claim_by = APO
+		add_claim_by = FSR
 	}
 	state_category = rural
 	local_supplies=0.000

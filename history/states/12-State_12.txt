@@ -19,6 +19,8 @@ state={
 		add_core_of = IPO
 		add_core_of = FSR
 		add_claim_by = IPO
+		add_claim_by = ROI
+		add_claim_by = APO
 	}
 	state_category = town
 	local_supplies=0.0 
