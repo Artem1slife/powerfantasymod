@@ -2,9 +2,9 @@ focus_tree = {
 	id = IPO_start
 	continuous_focus_position = { x = 150 y = 2610 } 
 	country = {
-		factor = 1
+		factor = 0
 		modifier = {
-			add = 10
+			add = 30
 			tag = IPO
 		}
 	}

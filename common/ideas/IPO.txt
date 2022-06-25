@@ -59,6 +59,17 @@ ideas = {
 				consumer_goods_factor = 0.1
 			}
 		}
+		IPO_surrender = {
+			picture = SPA_recovering_from_the_civil_war
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				surrender_limit = -10
+			}
+		}
 		
 		#Army_sin
 		
