@@ -6377,6 +6377,14 @@ spriteTypes = {
 		name = "GFX_idea_senate"
 		texturefile = "gfx/interface/ideas/idea_senate.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_bad_army"
+		texturefile = "gfx/interface/ideas/idea_bad_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_desert_lands"
+		texturefile = "gfx/interface/ideas/idea_desert_lands.dds"
+	}
 	###
 	spriteType = {
 		name = "GFX_idea_educated_sosaiti"
