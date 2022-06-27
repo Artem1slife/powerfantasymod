@@ -994,5 +994,8 @@ focus_tree = {
 			}
 		}
 	}
+	
+	#Shared focuses
+	shared_focus = IPO_shared
 
 }

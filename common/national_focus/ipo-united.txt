@@ -8,6 +8,7 @@ focus_tree = {
 			tag = IPO
 		}
 	}
+	
 	#Подготовка к приходу Тьмы
 	focus = {
 		id = IPO_podgotovkakprihodutmy
@@ -17,6 +18,9 @@ focus_tree = {
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			remove_ideas = { IPO_wartime }
 		}
 	}
 
@@ -31,6 +35,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = IPO_podgotovkakprihodutmy  }
+		completion_reward = {
+			add_ideas = { IPO_cult_of_master }
+		}
 	}
 
 	#Новая "хронология"
@@ -44,6 +51,9 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = IPO_kultlichnostimastera  }
+		completion_reward = {
+			
+		}
 	}
 
 	#Запереть их!
@@ -57,6 +67,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = IPO_podgotovkakprihodutmy  }
+		completion_reward = {
+			
+		}
 	}
 
 	#Церковь Тьмы
@@ -70,6 +83,9 @@ focus_tree = {
 			FOCUS_FILTER_MEX_CHURCH_AUTHORITY
 		}
 		prerequisite = { focus = IPO_zaperetih  }
+		completion_reward = {
+			
+		}
 	}
 
 	#Принуждение к единству
@@ -83,6 +99,20 @@ focus_tree = {
 			FOCUS_FILTER_STABILITY
 		}
 		prerequisite = { focus = IPO_novayahronologiya  }
+		completion_reward = {
+			add_popularity = {
+				ideology = communism
+				popularity = -0.5
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = -0.5
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = -0.5
+			}
+		}
 	}
 
 	#Безотходная жизнь
@@ -134,7 +164,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
-		prerequisite = { focus = IPO_podgotovkakprihodutmy  }
+		prerequisite = { focus = IPO_podgotovkakprihodutmy }
+		
 	}
 
 	#Подбодрить солдат
@@ -231,6 +262,9 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = IPO_cerkovtmy  } prerequisite = { focus = IPO_nasslishkommalo  } prerequisite = { focus = IPO_ihslishkommnogo  }
+		completion_reward = {
+			
+		}
 	}
 
 	#Да начнется церемония!
@@ -244,6 +278,11 @@ focus_tree = {
 			FOCUS_FILTER_MEX_CHURCH_AUTHORITY
 		}
 		prerequisite = { focus = IPO_prochitatlekciyu  }
+		completion_reward = {
+			country_event = IPO_imperium_events.19
+		}
 	}
-
+	
+	#Shared focuses
+	shared_focus = IPO_shared
 }

@@ -16,21 +16,6 @@ ideas = {
 				industrial_capacity_dockyard = -0.15
 			}
 		}
-		IPO_kingdom_of_sin = {
-			picture = ztcnz
-			
-			allowed = {
-				always = no
-			}
-
-			modifier = {
-				justify_war_goal_time = 2
-				lend_lease_tension = 1
-				guarantee_tension = 1
-				trade_opinion_factor = -0.75
-				min_export = -0.2
-			}
-		}
 		
 		IPO_bad_law = {
 			picture = ztcnz
@@ -356,7 +341,18 @@ ideas = {
 				army_morale_factor = -0.05
 			}
 		}
-		
+		#Идеи для ЗЛОЙ Империи после объединения
+		IPO_cult_of_master = {
+			picture = ztcnz
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				
+			}
+		}
 	}
 	
 	institutes = {
@@ -444,6 +440,10 @@ ideas = {
 			cost = 1
 
 			modifier = {
+				justify_war_goal_time = 2
+				lend_lease_tension = 1
+				guarantee_tension = 1
+				
 				trade_opinion_factor = -0.75
 				min_export = -0.2
 				army_defence_factor = 0.1
@@ -470,6 +470,10 @@ ideas = {
 			cost = 1
 
 			modifier = {
+				justify_war_goal_time = 2
+				lend_lease_tension = 1
+				guarantee_tension = 1
+				
 				trade_opinion_factor = -0.75
 				min_export = -0.2
 				army_defence_factor = 0.25
@@ -509,4 +513,8 @@ ideas = {
 			}
 		}
 	}
+	
+	
+	
+	
 }
