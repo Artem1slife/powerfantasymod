@@ -800,3 +800,92 @@ country_event = {
 		complete_national_focus = IPO_ktonashvrag
 	}
 }
+
+country_event = {
+	id = IPO_imperium_events.36 #по первым ивентам на территориях варлордов будут добавлятся демилитаризированные территории, а потом так БАХ и развалилась империя нахер
+	title = IPO_imperium_events.36.t
+	desc = IPO_imperium_events.36.d
+	picture = GFX_report_event_generic_funeral
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = IPO_imperium_events.36.a
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			MYO = {
+				add_state_core = 7
+				add_state_core = 492
+				add_state_core = 493
+				add_state_core = 494
+				add_state_core = 497
+				add_state_core = 10
+				add_state_core = 12
+				add_state_core = 13
+				add_state_core = 14
+				add_state_core = 15
+				
+				transfer_state = 7
+				transfer_state = 493
+				transfer_state = 494
+				transfer_state = 497
+				
+				inherit_technology = IPO
+			}
+			FSR = {
+				transfer_state = 10
+				transfer_state = 12
+				transfer_state = 13
+				transfer_state = 14
+				transfer_state = 15
+				
+				inherit_technology = IPO
+				
+				set_cosmetic_tag = FSR_destroyed
+			}
+			SKT = {
+				add_state_core = 490
+				add_state_core = 496
+				add_state_core = 489
+				add_state_core = 492
+				add_state_core = 495
+				
+				transfer_state = 490
+				transfer_state = 496
+				transfer_state = 489
+				transfer_state = 492
+				transfer_state = 495
+				
+				inherit_technology = IPO
+			}
+			ICR = {
+				add_state_core = 498
+				add_state_core = 154
+				
+				transfer_state = 498
+				transfer_state = 154
+				
+				inherit_technology = IPO
+			}
+			STH = {
+				add_state_core = 171
+				add_state_core = 491
+				
+				transfer_state = 171
+				transfer_state = 491
+				
+				inherit_technology = IPO
+			}
+			transfer_units_fraction = { target = MYO size = 0.25 stockpile_ratio = 0.25 army_ratio = 0.25 navy_ratio = 0 air_ratio = 0.25 }
+			transfer_units_fraction = { target = FSR size = 0.25 stockpile_ratio = 0.25 army_ratio = 0.25 navy_ratio = 1 air_ratio = 0.25 }
+			transfer_units_fraction = { target = SKT size = 0.25 stockpile_ratio = 0.25 army_ratio = 0.25 navy_ratio = 0 air_ratio = 0.25 }
+			transfer_units_fraction = { target = ICR size = 0.25 stockpile_ratio = 0.25 army_ratio = 0.25 navy_ratio = 0 air_ratio = 0.25 }
+			transfer_units_fraction = { target = STH size = 1 stockpile_ratio = 1 army_ratio = 1 navy_ratio = 0 air_ratio = 1 }
+			STH = {
+				add_state_core = 488
+				transfer_state = 488
+			}
+		}
+	}
+}

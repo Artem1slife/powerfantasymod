@@ -20,6 +20,10 @@ cursed_continent = {
 			original_tag = APO
 			original_tag = ROI
 			original_tag = FSR
+			original_tag = MYO
+			original_tag = STH
+			original_tag = ICR
+			original_tag = SKT
 		}
 	}
 }

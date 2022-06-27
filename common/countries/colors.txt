@@ -453,3 +453,19 @@ FSR = {
 	color = rgb {0  20  120}
 	color_ui = rgb { 0 20 120 }
 }
+MYO = {
+	color = rgb {150  70  60}
+	color_ui = rgb { 139 20 20 }
+}
+ICR = {
+	color = rgb {52  70  84}
+	color_ui = rgb { 139 20 20 }
+}
+STH = {
+	color = rgb {163  86  84}
+	color_ui = rgb { 139 20 20 }
+}
+SKT = {
+	color = rgb {35  56  82}
+	color_ui = rgb { 139 20 20 }
+}
