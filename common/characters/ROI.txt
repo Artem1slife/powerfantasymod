@@ -18,7 +18,7 @@ characters = {
 	ROI_left_brain = {
 		portraits={
 			civilian={
-				small="GFX_idea_CHI_soong_mei_ling"
+				small="gfx/leaders/ROI/mini/mini_brain.tga"
 			}
 		}
 		advisor = {
@@ -52,7 +52,7 @@ characters = {
 		name=ROI_center_brain
 		portraits={
 			civilian={
-				small="GFX_idea_CHI_soong_mei_ling"
+				small="gfx/leaders/ROI/mini/mini_brain.tga"
 			}
 		}
 		gender = female
@@ -78,7 +78,7 @@ characters = {
 		name=ROI_right_brain
 		portraits={
 			civilian={
-				small="GFX_idea_CHI_lin_sen"
+				small="gfx/leaders/ROI/mini/mini_brain.tga"
 			}
 		}
 		advisor={
@@ -97,6 +97,91 @@ characters = {
 				
 				ideological_crusader
 			}
+		}
+	}
+	
+	#General
+	
+	ROI_MagicMan={
+		name =ROI_MagicMan
+		portraits={
+			army={
+				large="gfx/leaders/ROI/Magicman.tga"
+				small="GFX_portrait_USA_arleigh_burke_small"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_cautious
+				politically_connected
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	
+	ROI_Exelon={
+		name =ROI_Exelon
+		portraits={
+			army={
+				large="gfx/leaders/ROI/Exelon.tga"
+				small="GFX_portrait_USA_arleigh_burke_small"
+			}
+		}
+		corps_commander = {
+			traits = {
+				politically_connected
+				cavalry_officer
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	
+	ROI_Iraan={
+		name =ROI_Iraan
+		portraits={
+			army={
+				large="gfx/leaders/ROI/Iraan.tga"
+				small="GFX_portrait_USA_arleigh_burke_small"
+			}
+		}
+		corps_commander = {
+			traits = {
+				engineer_officer
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	
+	ROI_Chrisin={
+		name =ROI_Chrisin
+		portraits={
+			army={
+				large="gfx/leaders/ROI/Chrisin.tga"
+				small="GFX_portrait_USA_arleigh_burke_small"
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				infantry_officer
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 }

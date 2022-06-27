@@ -27,6 +27,10 @@ recruit_character = ROI_roy
 recruit_character = ROI_left_brain
 recruit_character = ROI_center_brain
 recruit_character = ROI_right_brain
+recruit_character = ROI_Chrisin
+recruit_character = ROI_Iraan
+recruit_character = ROI_Exelon
+recruit_character = ROI_MagicMan
 
 add_ideas = { ROI_death_live_conflict ROI_death_tsardoom ROI_vykhukhol ROI_zombie_revolt }
 remove_ideas = { volunteer_only export_focus civilian_economy }

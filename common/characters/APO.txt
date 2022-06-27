@@ -9,7 +9,7 @@ characters = {
 				large="gfx/leaders/APO/APO_leader.dds"
 			}
 			army={
-				large="GFX_portrait_USA_arleigh_burke"
+				large="gfx/leaders/APO/APO_leader.dds"
 				small="GFX_portrait_USA_arleigh_burke_small"
 			}
 		}
@@ -36,11 +36,11 @@ characters = {
 		name = APO_Illion_Freedom
 		portraits={
 			civilian={
-				large="gfx/leaders/APO/APO_leader.dds"
+				large="gfx/leaders/APO/Illion_Freedom.tga"
 				small="GFX_idea_CHI_soong_mei_ling"
 			}
 			army={
-				large="GFX_portrait_USA_arleigh_burke"
+				large="gfx/leaders/APO/Illion_Freedom.tga"
 				small="GFX_portrait_USA_arleigh_burke_small"
 			}
 		}
@@ -72,10 +72,10 @@ characters = {
 	APO_Albert_Slave = {
 		portraits={
 			civilian={
-				large="gfx/leaders/RAV/fallan_heckmann.dds"
+				large="gfx/leaders/APO/Albert_Slave.tga"
 			}
 			army={
-				large="GFX_portrait_USA_arleigh_burke"
+				large="gfx/leaders/APO/Albert_Slave.tga"
 				small="GFX_portrait_USA_arleigh_burke_small"
 			}
 		}

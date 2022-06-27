@@ -342,7 +342,7 @@ characters = {
 				small = "GFX_idea_CHI_soong_mei_ling"
 			}
 			army={
-				large="GFX_portrait_USA_arleigh_burke"
+				large="gfx/leaders/IPO/Eder.tga"
 				small="GFX_portrait_USA_arleigh_burke_small"
 			}
 		}
@@ -377,7 +377,7 @@ characters = {
 				small = "GFX_idea_CHI_soong_mei_ling"
 			}
 			army={
-				large="GFX_portrait_USA_arleigh_burke"
+				large="gfx/leaders/IPO/Agis.tga"
 				small="GFX_portrait_USA_arleigh_burke_small"
 			}
 		}
@@ -409,7 +409,7 @@ characters = {
 		name =IPO21
 		portraits={
 			army={
-				large="GFX_portrait_USA_arleigh_burke"
+				large="gfx/leaders/IPO/Seldon.tga"
 				small="GFX_portrait_USA_arleigh_burke_small"
 			}
 		}

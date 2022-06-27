@@ -40,3 +40,5 @@ set_popularities = {
 }
 
 recruit_character = APO_Kromer_Freeman
+recruit_character = APO_Illion_Freedom
+recruit_character = APO_Albert_Slave
