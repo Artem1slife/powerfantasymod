@@ -46,6 +46,13 @@ country_event = {
 				days = 21
 				id = IPO_imperium_events.3
 			}
+			FSR = {
+				add_state_core = 10
+				add_state_core = 12
+				add_state_core = 13
+				add_state_core = 14
+				add_state_core = 15
+			}
 		}
 	}
 }
