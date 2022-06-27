@@ -104,7 +104,7 @@ focus_tree = {
 		}
 	}
 
-	#Подготовка
+	#Подготовка  - авто выполнение
 	focus = {
 		id = IPO_podgotovka
 		icon = GFX_focus_generic_manpower
@@ -118,11 +118,11 @@ focus_tree = {
 		mutually_exclusive = { focus = IPO_ktonashvrag  }
 		ai_will_do = { factor = 50 }
 		completion_reward = {
-			
+			add_political_power = 50
 		}
 	}
 
-	#Кто наш враг?
+	#Кто наш враг? - авто выполнение
 	focus = {
 		id = IPO_ktonashvrag
 		icon = GFX_goal_unknown
@@ -136,8 +136,7 @@ focus_tree = {
 		mutually_exclusive = { focus = IPO_podgotovka  }
 		ai_will_do = { factor = 50 }
 		completion_reward = {
-			add_political_power = 50
-			
+			add_political_power = -100
 		}
 	}
 
@@ -167,7 +166,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = IPO_obrashchenieknarodu  }
+		prerequisite = { focus = IPO_obrashchenieknarodu }
 	}
 
 	#Буква закона
@@ -182,6 +181,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = IPO_obrashchenieknarodu  }
 		completion_reward = {
+			add_ideas = { IPO_law }
 			add_stability = 0.1
 		}
 	}
@@ -197,6 +197,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = IPO_poezdkavavalon  }
+		completion_reward = {
+			
+		}
 	}
 
 	#Допустить реформы
@@ -209,7 +212,10 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = IPO_bukvazakona  }
+		prerequisite = { focus = IPO_bukvazakona }
+		completion_reward = {
+			
+		}
 	}
 
 	#Отказ от греха
@@ -222,7 +228,10 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = IPO_prekratitgoneniyanasvet  } prerequisite = { focus = IPO_dopustitreformy  }
+		prerequisite = { focus = IPO_prekratitgoneniyanasvet } prerequisite = { focus = IPO_dopustitreformy  }
+		completion_reward = {
+			
+		}
 	}
 
 	#Усмирить магию
@@ -236,6 +245,9 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = IPO_reformaobrazovaniya  } prerequisite = { focus = IPO_reformamediciny  }
+		completion_reward = {
+			
+		}
 	}
 
 	#Показательный аскетизм двора
@@ -249,6 +261,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = IPO_otkazotgreha  }
+		completion_reward = {
+			add_ideas = { IPO_asceticism }
+		}
 	}
 
 	#Гордыня
@@ -387,6 +402,16 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		bypass = {
+			if = {
+				OR = {
+					NOT = {
+						country_exists = ROI
+					}
+					has_war_with = ROI
+				}
+			}
+		}
 		prerequisite = { focus = IPO_otkazotsocpolitiki  } prerequisite = { focus = IPO_kultdeteytmy  } prerequisite = { focus = IPO_vsenazavod  }
 		completion_reward = {
 			declare_war_on = {
@@ -427,6 +452,16 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
+		bypass = {
+			if = {
+				OR = {
+					NOT = {
+						country_exists = APO
+					}
+					has_war_with = APO
+				}	
+			}
+		}
 		prerequisite = { focus = IPO_vernutvirusvlaboratoriyu  }
 		completion_reward = {
 			declare_war_on = {
@@ -448,6 +483,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = IPO_otkazotgreha  }
 		completion_reward = {
+			add_political_power = -100
 			swap_ideas = {
 				 remove_idea = more_25_educated_sosaiti
 				 add_idea = more_50_educated_sosaiti
@@ -516,7 +552,10 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = IPO_vernutkontrolnadostrovom  }
+		prerequisite = { focus = IPO_vernutkontrolnadostrovom }
+		completion_reward = {
+			#load new focus_tree
+		}
 	}
 
 	#Империя Зла
@@ -529,7 +568,10 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = IPO_vernutvesostrov  }
+		prerequisite = { focus = IPO_vernutvesostrov }
+		completion_reward = {
+			load_focus_tree = ipo-united
+		}
 	}
 
 	#Крысы против корабля
@@ -544,6 +586,9 @@ focus_tree = {
 		}
 		prerequisite = { focus = IPO_podgotovka  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_ideas = { IPO_bad_law }
+		}
 	}
 
 	#Отмена экономики
@@ -576,6 +621,9 @@ focus_tree = {
 			FOCUS_FILTER_STABILITY
 		}
 		prerequisite = { focus = IPO_otmenaekonomiki  }
+		completion_reward = {
+			add_ideas = { IPO_talon }
+		}
 	}
 
 	#Наркотики
@@ -620,6 +668,9 @@ focus_tree = {
 			FOCUS_FILTER_MANPOWER
 		}
 		prerequisite = { focus = IPO_krysyprotivkorablya  }
+		completion_reward = {
+			add_ideas = { IPO_soldier_community }
+		}
 	}
 
 	#Гибкая система доносов
@@ -632,7 +683,10 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
-		prerequisite = { focus = IPO_krysyprotivkorablya  }
+		prerequisite = { focus = IPO_krysyprotivkorablya }
+		completion_reward = {
+			add_ideas = { IPO_denunciation }
+		}
 	}
 
 	#Отмена отличий
@@ -645,7 +699,10 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = IPO_talony  } prerequisite = { focus = IPO_soldatskayaobshchina  }
+		prerequisite = { focus = IPO_talony  } prerequisite = { focus = IPO_soldatskayaobshchina }
+		completion_reward = {
+			
+		}
 	}
 
 	#Отказ от соц. политики
@@ -659,6 +716,16 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = IPO_otmenaotlichiy  }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = more_25_educated_sosaiti
+				add_idea = not_educated_sosaiti
+			}
+			swap_ideas = {
+				remove_idea = yes_medicine
+				add_idea = no_medicine
+			}
+		}
 	}
 
 	#Все на завод!
@@ -674,37 +741,20 @@ focus_tree = {
 		prerequisite = { focus = IPO_narkotiki  }
 		completion_reward = {
 			random_owned_controlled_state = {
-			limit = {
-			free_building_slots = {
-			building = arms_factory
-			size > 0
-			include_locked = yes
-			}
-			}
-			add_extra_state_shared_building_slots = 1
-			add_building_construction = {
-			type = arms_factory
-			level = 1
-			instant_build = yes
-			}
-			set_state_flag = IPO
-			}
-			
-			random_owned_controlled_state = {
-			limit = {
-			free_building_slots = {
-			building = arms_factory
-			size > 0
-			include_locked = yes
-			}
-			}
-			add_extra_state_shared_building_slots = 1
-			add_building_construction = {
-			type = arms_factory
-			level = 1
-			instant_build = yes
-			}
-			set_state_flag = IPO
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = IPO
 			}
 		}
 	}
@@ -719,7 +769,10 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = IPO_gibkayasistemadonosov  }
+		prerequisite = { focus = IPO_gibkayasistemadonosov }
+		completion_reward = {
+			add_ideas = { IPO_church_of_cult }
+		}
 	}
 
 	#Одна судьба
@@ -732,7 +785,19 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
-		prerequisite = { focus = IPO_platazanashigrehi  } prerequisite = { focus = IPO_primerenie  }
+		prerequisite = { focus = IPO_platazanashigrehi }
+		prerequisite = { focus = IPO_primerenie }
+		completion_reward = {
+			add_popularity = {
+				ideology = fascism
+				popularity = -0.2
+			}
+			set_country_leader_ideology = neutrality
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.2
+			}
+		}
 	}
 
 	#Новые рабочие места
@@ -838,7 +903,39 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
+		bypass = {
+			if = {
+				AND = {
+					NOT = {
+						country_exists = ROI
+					}
+					NOT = {
+						country_exists = APO
+					}
+				}
+			}
+		}
 		prerequisite = { focus = IPO_otmenarabstva  } prerequisite = { focus = IPO_usmiritmagiyu  } prerequisite = { focus = IPO_zapretitradikalov  }
+		completion_reward = {
+			if = {
+				limit = {
+					country_exists = ROI
+				}
+				declare_war_on = {
+					target = ROI
+					type = civil_war
+				}
+			}
+			if = {
+				limit = {
+					country_exists = APO
+				}
+				declare_war_on = {
+					target = APO
+					type = civil_war
+				}
+			}
+		}
 	}
 
 	#Плата за наши грехи

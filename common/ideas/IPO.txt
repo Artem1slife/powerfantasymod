@@ -31,6 +31,95 @@ ideas = {
 				min_export = -0.2
 			}
 		}
+		
+		IPO_bad_law = {
+			picture = ztcnz
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_factor = 0.6
+				war_stability_factor = -0.3
+				stability_factor = -0.3
+			}
+		}
+		
+		IPO_law = {
+			picture = ztcnz
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_factor = -0.1
+				war_stability_factor = 0.3
+				stability_factor = 0.3
+			}
+		}
+		
+		IPO_talon = {
+			picture = ztcnz
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				
+			}
+		}
+		
+		IPO_asceticism = {
+			picture = ztcnz
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				
+			}
+		}
+		
+		IPO_denunciation = {
+			picture = ztcnz
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				
+			}
+		}
+		
+		IPO_church_of_cult = {
+			picture = ztcnz
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				
+			}
+		}
+		
+		IPO_soldier_community = {
+			picture = ztcnz
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				
+			}
+		}
+		
 		IPO_wartime = {
 			picture = ztcnz
 			
@@ -46,6 +135,7 @@ ideas = {
 				special_forces_min = 20
 			}
 		}
+		
 		IPO_recovering_from_the_civil_war = {
 			picture = SPA_recovering_from_the_civil_war
 			
@@ -59,6 +149,7 @@ ideas = {
 				consumer_goods_factor = 0.1
 			}
 		}
+		
 		IPO_surrender = {
 			picture = SPA_recovering_from_the_civil_war
 			

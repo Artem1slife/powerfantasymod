@@ -777,3 +777,26 @@ country_event = {
 		}
 	}
 }
+
+#Ивент на автовыполнение фокуса подготовка или же покаяние
+country_event = {
+	id = IPO_imperium_events.35
+	title = IPO_imperium_events.35.t
+	desc = IPO_imperium_events.35.d
+	picture = GFX_report_event_tank_factory
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = IPO_imperium_events.35.a
+		ai_chance = { factor = 1 }
+		complete_national_focus = IPO_ktonashvrag
+	}
+	
+	option = {
+		name = IPO_imperium_events.35.b
+		ai_chance = { factor = 1 }
+		complete_national_focus = IPO_ktonashvrag
+	}
+}

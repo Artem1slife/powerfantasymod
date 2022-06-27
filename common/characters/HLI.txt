@@ -233,64 +233,66 @@ hawk
 }
 }
 }
-HLI_char_id_12={
-portraits={
-civilian={
-large="gfx/leaders/RAV/fallan_heckmann.dds"
-}
-}
-country_leader={
-ideology =monarchy
-traits = {}
-expire="8000.1.1.1"
-id=-1
-}
-}
+	HLI_char_id_12={
+		portraits={
+			civilian={
+				large="gfx/leaders/HLI/HLI_leader.dds"
+			}
+		}
+		country_leader={
+			ideology = swarm
+			traits = {}
+			expire="8000.1.1.1"
+			id=-1
+		}
+	}
+	
 HLI_char_id_13={
-name =HLI13
-portraits={
-army={
-large="GFX_portrait_USA_arleigh_burke"
-small="GFX_portrait_USA_arleigh_burke_small"
+	name =HLI13
+	portraits={
+		army={
+			large="gfx/leaders/HLI/HLI_general_spider.dds"
+			small="GFX_portrait_USA_arleigh_burke_small"
+		}
+	}
+	corps_commander = {
+		traits = {
+			infantry_officer
+			cavalry_officer
+			politically_connected
+			old_guard
+			brilliant_strategist
+		}
+		skill = 4
+		attack_skill = 1
+		defense_skill = 4
+		planning_skill = 4
+		logistics_skill = 4
+	}
 }
-}
-corps_commander = {
-traits = {
-infantry_officer
-cavalry_officer
-politically_connected
-old_guard
-brilliant_strategist
-}
-skill = 4
-attack_skill = 1
-defense_skill = 4
-planning_skill = 4
-logistics_skill = 4
-}
-}
+
 HLI_char_id_14={
-name =HLI14
-portraits={
-army={
-large="GFX_portrait_USA_arleigh_burke"
-small="GFX_portrait_USA_arleigh_burke_small"
+	name = HLI14
+	portraits={
+		army={
+			large="gfx/leaders/HLI/HLI_general_flower"
+			small="GFX_portrait_USA_arleigh_burke_small"
+		}
+	}
+	corps_commander = {
+		traits = {
+		career_officer
+		infantry_officer
+		war_hero
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+	}
 }
-}
-corps_commander = {
-traits = {
-career_officer
-war_hero
-infantry_officer
-war_hero
-}
-skill = 1
-attack_skill = 1
-defense_skill = 3
-planning_skill = 2
-logistics_skill = 3
-}
-}
+
 HLI_char_id_15={
 name =HLI15
 portraits={

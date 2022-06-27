@@ -5,21 +5,22 @@ characters = {
 		name =IPO_Master
 		portraits={
 			civilian={
-				large="gfx/leaders/RAV/fallan_heckmann.dds"
+				large="gfx/leaders/IPO/IPO_master.dds"
 			}
 			army={
-				large="GFX_portrait_USA_arleigh_burke"
+				large="gfx/leaders/IPO/IPO_master.dds"
 				small="GFX_portrait_USA_arleigh_burke_small"
 			}
 		}
 		country_leader={
-			ideology = monarchy
+			ideology = dark_elatry
 			traits = {
 				empire_builder
 			}
 			expire="8000.1.1.1"
 			id=-1
 		}
+		
 		field_marshal = {
 			traits = {
 				old_guard
@@ -41,7 +42,7 @@ characters = {
 				small="GFX_idea_CHI_soong_mei_ling"
 			}
 			army={
-				large="GFX_portrait_USA_arleigh_burke"
+				large="gfx/leaders/IPO/IPO_Architector.png"
 				small="GFX_portrait_USA_arleigh_burke_small"
 			}
 		}
@@ -77,14 +78,14 @@ characters = {
 				small="GFX_idea_CHI_soong_mei_ling"
 			}
 			army={
-				large="GFX_portrait_USA_arleigh_burke"
+				large="gfx/leaders/IPO/IPO_toymaker.png"
 				small="GFX_portrait_USA_arleigh_burke_small"
 			}
 		}
 		advisor = {
 			slot =political_advisor
 			allowed  = {
-				original_tag =IPO
+				original_tag = IPO
 			}
 			name =IPO_Toymaker
 			cost = 50
@@ -113,7 +114,7 @@ characters = {
 				small="GFX_idea_CHI_soong_mei_ling"
 			}
 			army={
-				large="GFX_portrait_USA_arleigh_burke"
+				large="gfx/leaders/IPO/IPO_Strateg.dds"
 				small="GFX_portrait_USA_arleigh_burke_small"
 			}
 		}
@@ -164,7 +165,7 @@ characters = {
 				small = "GFX_idea_CHI_soong_mei_ling"
 			}
 			army={
-				large="GFX_portrait_USA_arleigh_burke"
+				large="gfx/leaders/IPO/IPO_gen_1.png"
 				small="GFX_portrait_USA_arleigh_burke_small"
 			}
 		}
@@ -200,7 +201,7 @@ characters = {
 				small = "GFX_idea_CHI_soong_mei_ling"
 			}
 			army={
-				large="GFX_portrait_USA_arleigh_burke"
+				large="gfx/leaders/IPO/IPO_gen_2.png"
 				small="GFX_portrait_USA_arleigh_burke_small"
 			}
 		}
@@ -465,10 +466,11 @@ characters = {
 		name =IPO_Zack_Niels
 		portraits={
 			civilian={
+				large="gfx/leaders/IPO/IPO_sailor_leader.dds"
 				small="GFX_idea_CHI_soong_mei_ling"
 			}
 			army={
-				large=GFX_portrait_USA_arleigh_burke
+				large="gfx/leaders/IPO/IPO_sailor_leader.dds"
 				small=GFX_portrait_USA_arleigh_burke_small
 			}
 		}

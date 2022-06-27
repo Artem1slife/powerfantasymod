@@ -3,34 +3,20 @@ ideas = {
 	artifacts = {
 		law = yes
 		use_list_view = yes
-
-		mapgen_2_2 = {
-			available = {
-				political_power_daily > 0
-			}
-			
-			allowed = {
-				tag = TST
-			}
-			
-			removal_cost = -1
-			cost = 75
-
-			modifier = {
-				political_power_gain = 0.01
-			}
-
-			cancel_if_invalid = yes
-		}
 		
 		artifact_glasteron = {
+			
 			available = {
 				political_power_daily > 0
 			}
 			
 			removal_cost = -1
 			cost = 0 #БЕСПЛАТНО
-
+			
+			allowed = {
+				tag = GAD
+			}
+			
 			modifier = {
 				global_building_slots = 1
 				industrial_capacity_factory = 0.3
@@ -39,7 +25,7 @@ ideas = {
 			}
 			
 			allowed_to_remove = {
-				always = no				#институты нельзя снять, только поменять, лол
+				always = no
 			}
 
 			cancel_if_invalid = no
@@ -48,6 +34,10 @@ ideas = {
 		artifact_ring_illusions = {
 			available = {
 				political_power_daily > 0
+			}
+			
+			allowed = {
+				tag = TST
 			}
 			
 			removal_cost = -1
@@ -79,6 +69,10 @@ ideas = {
 			removal_cost = -1
 			cost = 0 #БЕСПЛАТНО
 
+			allowed = {
+				tag = TST
+			}
+			
 			modifier = {
 				
 			}
@@ -97,7 +91,9 @@ ideas = {
 			
 			removal_cost = -1
 			cost = 0 #БЕСПЛАТНО
-
+			allowed = {
+				tag = TST
+			}
 			modifier = {
 				
 			}
@@ -113,7 +109,9 @@ ideas = {
 			available = {
 				political_power_daily > 0
 			}
-			
+			allowed = {
+				tag = TST
+			}
 			removal_cost = -1
 			cost = 0 #БЕСПЛАТНО
 
@@ -132,7 +130,9 @@ ideas = {
 			available = {
 				political_power_daily > 0
 			}
-			
+			allowed = {
+				tag = TST
+			}
 			removal_cost = -1
 			cost = 0 #БЕСПЛАТНО
 
@@ -151,7 +151,9 @@ ideas = {
 			available = {
 				political_power_daily > 0
 			}
-			
+			allowed = {
+				tag = TST
+			}
 			removal_cost = -1
 			cost = 0 #БЕСПЛАТНО
 
@@ -170,10 +172,14 @@ ideas = {
 			available = {
 				political_power_daily > 0
 			}
-			
+			allowed = {
+				tag = TST
+			}
 			removal_cost = -1
 			cost = 0 #БЕСПЛАТНО
-
+			allowed = {
+				tag = TST
+			}
 			modifier = {
 				
 			}
@@ -189,7 +195,9 @@ ideas = {
 			available = {
 				political_power_daily > 0
 			}
-			
+			allowed = {
+				tag = TST
+			}
 			removal_cost = -1
 			cost = 0 #БЕСПЛАТНО
 
@@ -208,7 +216,9 @@ ideas = {
 			available = {
 				political_power_daily > 0
 			}
-			
+			allowed = {
+				tag = TST
+			}
 			removal_cost = -1
 			cost = 0 #БЕСПЛАТНО
 
@@ -227,7 +237,9 @@ ideas = {
 			available = {
 				political_power_daily > 0
 			}
-			
+			allowed = {
+				tag = TST
+			}
 			removal_cost = -1
 			cost = 0 #БЕСПЛАТНО
 

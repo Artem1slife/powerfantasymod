@@ -152,8 +152,14 @@ ideologies = {
 				can_be_randomly_selected = no
 			}
 			total_state = {
+			
 			}
 			sect = {
+			
+			}
+			
+			dark_elatry = {
+				can_be_randomly_selected = no
 			}
 			
 			nazism = {

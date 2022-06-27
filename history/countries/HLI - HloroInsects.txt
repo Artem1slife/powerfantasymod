@@ -1,22 +1,21 @@
 ﻿capital = 16
 
-
-set_research_slots = 3
+set_research_slots = 2
 set_stability = 0.5
 add_command_power = 20
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = destruction
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	fascism = 25
-	democratic = 40
-	neutrality = 15
-	destruction = 20
+	fascism = 0
+	democratic = 0
+	neutrality = 0
+	destruction = 100
 }
 
 recruit_character = HLI_char_id_0
