@@ -9,7 +9,7 @@ characters = {
 			}
 			army={
 				large="gfx/leaders/IPO/IPO_master.dds"
-				small="GFX_portrait_USA_arleigh_burke_small"
+				small="gfx/leaders/IPO/mini/mini_IPO_master.tga"
 			}
 		}
 		country_leader={
@@ -39,11 +39,11 @@ characters = {
 		name =IPO_Architect
 		portraits={
 			civilian={
-				small="GFX_idea_CHI_soong_mei_ling"
+				small="gfx/leaders/IPO/mini/IPO_mini_architector.tga"
 			}
 			army={
 				large="gfx/leaders/IPO/IPO_Architector.png"
-				small="GFX_portrait_USA_arleigh_burke_small"
+				small="gfx/leaders/IPO/mini/IPO_mini_architector.tga"
 			}
 		}
 		advisor = {
@@ -75,11 +75,11 @@ characters = {
 		name =IPO_Toymaker
 		portraits={
 			civilian={
-				small="GFX_idea_CHI_soong_mei_ling"
+				small="gfx/leaders/IPO/mini/mini_IPO_toymaker.tga"
 			}
 			army={
 				large="gfx/leaders/IPO/IPO_toymaker.png"
-				small="GFX_portrait_USA_arleigh_burke_small"
+				small="gfx/leaders/IPO/mini/mini_IPO_toymaker.tga"
 			}
 		}
 		advisor = {
@@ -111,11 +111,11 @@ characters = {
 		name =IPO_Strategist
 		portraits={
 			civilian={
-				small="GFX_idea_CHI_soong_mei_ling"
+				small="gfx/leaders/IPO/mini/mini_IPO_strateg.tga"
 			}
 			army={
 				large="gfx/leaders/IPO/IPO_Strateg.dds"
-				small="GFX_portrait_USA_arleigh_burke_small"
+				small="gfx/leaders/IPO/mini/mini_IPO_strateg.tga"
 			}
 		}
 		advisor = {
@@ -158,15 +158,17 @@ characters = {
 	#генералы в Империи плохие, потому что обучение армейскому мастерству в Империи просто никакое - денег нет
 	#генералы - будущие варлорды
 	
+	#Варлорд Myonneria
 	IPO_char_id_14={
 		name =IPO14
 		portraits={
 			civilian = {
-				small = "GFX_idea_CHI_soong_mei_ling"
+				large="gfx/leaders/IPO/IPO_gen_1.png"
+				small = "gfx/leaders/IPO/mini/mini_gen1_IPO.png"
 			}
 			army={
 				large="gfx/leaders/IPO/IPO_gen_1.png"
-				small="GFX_portrait_USA_arleigh_burke_small"
+				small="gfx/leaders/IPO/mini/mini_gen1_IPO.png"
 			}
 		}
 		corps_commander = {
@@ -194,15 +196,17 @@ characters = {
 		}
 	}
 	
+	#Warlord SKT
 	IPO_char_id_15={
 		name =IPO15
 		portraits={
 			civilian = {
-				small = "GFX_idea_CHI_soong_mei_ling"
+				large="gfx/leaders/IPO/IPO_gen_2.png"
+				small = "gfx/leaders/IPO/mini/mini_gen2_IPO.tga"
 			}
 			army={
 				large="gfx/leaders/IPO/IPO_gen_2.png"
-				small="GFX_portrait_USA_arleigh_burke_small"
+				small="gfx/leaders/IPO/mini/mini_gen2_IPO.tga"
 			}
 		}
 		advisor = {
@@ -230,15 +234,17 @@ characters = {
 		}
 	}
 	
+	#Warlord SKT
 	IPO_char_id_16={
 		name =IPO16
 		portraits={
 			civilian = {
-				small = "GFX_idea_CHI_soong_mei_ling"
+				large = "gfx/leaders/IPO/IPO_SKT_leader_and_general.tga"
+				small = "gfx/leaders/IPO/mini/IPO_SKT_mini.tga"
 			}
 			army={
-				large="GFX_portrait_USA_arleigh_burke"
-				small="GFX_portrait_USA_arleigh_burke_small"
+				large="gfx/leaders/IPO/IPO_SKT_leader_and_general.tga"
+				small="gfx/leaders/IPO/mini/IPO_SKT_mini.tga"
 			}
 		}
 		corps_commander = {
@@ -265,15 +271,17 @@ characters = {
 		}
 	}
 	
+	#Warlord ICR
 	IPO_char_id_17={
 		name =IPO17
 		portraits={
 			civilian = {
-				small = "GFX_idea_CHI_soong_mei_ling"
+				large="gfx/leaders/IPO/IPO_ICR_leader_and_general.tga"
+				small = "gfx/leaders/IPO/mini/mini_IPO_ICR.tga"
 			}
 			army={
-				large="GFX_portrait_USA_arleigh_burke"
-				small="GFX_portrait_USA_arleigh_burke_small"
+				large="gfx/leaders/IPO/IPO_ICR_leader_and_general.tga"
+				small="gfx/leaders/IPO/mini/mini_IPO_ICR.tga"
 			}
 		}
 		corps_commander = {
@@ -301,15 +309,17 @@ characters = {
 		}
 	}
 	
+	#Warlord STH
 	IPO_char_id_18={
 		name =IPO18
 		portraits={
 			civilian = {
-				small = "GFX_idea_CHI_soong_mei_ling"
+				large="gfx/leaders/IPO/IPO_STH_leader_and_general.tga"
+				small="gfx/leaders/IPO/mini/IPO_STH_mini.tga"
 			}
 			army={
-				large="GFX_portrait_USA_arleigh_burke"
-				small="GFX_portrait_USA_arleigh_burke_small"
+				large="gfx/leaders/IPO/IPO_STH_leader_and_general.tga"
+				small="gfx/leaders/IPO/mini/IPO_STH_mini.tga"
 			}
 		}
 		corps_commander = {
@@ -339,11 +349,12 @@ characters = {
 		name =IPO19
 		portraits={
 			civilian = {
-				small = "GFX_idea_CHI_soong_mei_ling"
+				large="gfx/leaders/IPO/Eder.tga"
+				small = "gfx/leaders/IPO/mini/Eder_mini"
 			}
 			army={
 				large="gfx/leaders/IPO/Eder.tga"
-				small="GFX_portrait_USA_arleigh_burke_small"
+				small="gfx/leaders/IPO/mini/Eder_mini"
 			}
 		}
 		corps_commander = {
@@ -374,11 +385,12 @@ characters = {
 		name =IPO20
 		portraits={
 			civilian = {
-				small = "GFX_idea_CHI_soong_mei_ling"
+				large="gfx/leaders/IPO/Agis.tga"
+				small="gfx/leaders/IPO/mini/Agis_mini.tga"
 			}
 			army={
 				large="gfx/leaders/IPO/Agis.tga"
-				small="GFX_portrait_USA_arleigh_burke_small"
+				small="gfx/leaders/IPO/mini/Agis_mini.tga"
 			}
 		}
 		corps_commander = {
@@ -410,7 +422,6 @@ characters = {
 		portraits={
 			army={
 				large="gfx/leaders/IPO/Seldon.tga"
-				small="GFX_portrait_USA_arleigh_burke_small"
 			}
 		}
 		corps_commander = {
@@ -427,15 +438,17 @@ characters = {
 	
 	#флот - в Империи УЖАСНЫЙ флот, поэтому никаких адмиралов! Только двух.
 	
+	#Warlord FSR
 	IPO_Kell_Kunts={
 	name =IPO_Kell_Kunts
 		portraits={
 			civilian={
-				small="GFX_idea_CHI_soong_mei_ling"
+				large="gfx/leaders/IPO/Kell_Kunts.tga"
+				small="gfx/leaders/IPO/mini/Kell_Kunts_mini.tga"
 			}
 			army={
-				large=GFX_portrait_USA_arleigh_burke
-				small=GFX_portrait_USA_arleigh_burke_small
+				large="gfx/leaders/IPO/Kell_Kunts.tga"
+				small="gfx/leaders/IPO/mini/Kell_Kunts_mini.tga"
 			}
 		}
 		navy_leader = {
@@ -467,11 +480,11 @@ characters = {
 		portraits={
 			civilian={
 				large="gfx/leaders/IPO/IPO_sailor_leader.dds"
-				small="GFX_idea_CHI_soong_mei_ling"
+				small="gfx/leaders/IPO/mini/IPO_sailor_mini.tga"
 			}
 			army={
 				large="gfx/leaders/IPO/IPO_sailor_leader.dds"
-				small=GFX_portrait_USA_arleigh_burke_small
+				small="gfx/leaders/IPO/mini/IPO_sailor_mini.tga"
 			}
 		}
 		country_leader={

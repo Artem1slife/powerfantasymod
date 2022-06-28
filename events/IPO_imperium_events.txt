@@ -833,6 +833,21 @@ country_event = {
 				
 				inherit_technology = IPO
 			}
+			add_country_leader_role = {
+			  character = IPO_char_id_14
+			  promote_leader = yes
+			  country_leader = {
+				ideology = conservatism
+				expire = "8000.1.1.1"
+				traits = { war_industrialist }
+			  }
+			}
+			set_nationality = {
+				target_country = MYO
+				character = IPO_char_id_14
+			}
+			
+			
 			FSR = {
 				transfer_state = 10
 				transfer_state = 12
@@ -844,6 +859,21 @@ country_event = {
 				
 				set_cosmetic_tag = FSR_destroyed
 			}
+			add_country_leader_role = {
+			  character = IPO_Kell_Kunts
+			  promote_leader = yes
+			  country_leader = {
+				ideology = authoritarianism
+				expire = "8000.1.1.1"
+				traits = {  }
+			  }
+			}
+			set_nationality = {
+				target_country = FSR
+				character = IPO_Kell_Kunts
+			}
+			
+			
 			SKT = {
 				add_state_core = 490
 				add_state_core = 496
@@ -859,6 +889,20 @@ country_event = {
 				
 				inherit_technology = IPO
 			}
+			add_country_leader_role = {
+			  character = IPO_char_id_16
+			  promote_leader = yes
+			  country_leader = {
+				ideology = dark_elatry
+				expire = "8000.1.1.1"
+				traits = {  }
+			  }
+			}
+			set_nationality = {
+				target_country = SKT
+				character = IPO_char_id_16
+			}
+			
 			ICR = {
 				add_state_core = 498
 				add_state_core = 154
@@ -868,6 +912,20 @@ country_event = {
 				
 				inherit_technology = IPO
 			}
+			add_country_leader_role = {
+			  character = IPO_char_id_17
+			  promote_leader = yes
+			  country_leader = {
+				ideology = dark_elatry
+				expire = "8000.1.1.1"
+				traits = {  }
+			  }
+			}
+			set_nationality = {
+				target_country = ICR
+				character = IPO_char_id_17
+			}
+			
 			STH = {
 				add_state_core = 171
 				add_state_core = 491
@@ -877,6 +935,21 @@ country_event = {
 				
 				inherit_technology = IPO
 			}
+			add_country_leader_role = {
+			  character = IPO_char_id_18
+			  promote_leader = yes
+			  country_leader = {
+				ideology = authoritarianism
+				expire = "8000.1.1.1"
+				traits = {  }
+			  }
+			}
+			set_nationality = {
+				target_country = STH
+				character = IPO_char_id_18
+			}
+			
+			
 			transfer_units_fraction = { target = MYO size = 0.25 stockpile_ratio = 0.25 army_ratio = 0.25 navy_ratio = 0 air_ratio = 0.25 }
 			transfer_units_fraction = { target = FSR size = 0.25 stockpile_ratio = 0.25 army_ratio = 0.25 navy_ratio = 1 air_ratio = 0.25 }
 			transfer_units_fraction = { target = SKT size = 0.25 stockpile_ratio = 0.25 army_ratio = 0.25 navy_ratio = 0 air_ratio = 0.25 }
