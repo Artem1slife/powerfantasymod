@@ -107,7 +107,7 @@ characters = {
 		portraits={
 			army={
 				large="gfx/leaders/ROI/Magicman.tga"
-				small="GFX_portrait_USA_arleigh_burke_small"
+				small="gfx/leaders/ROI/mini/mini_ROI_magicman.tga"
 			}
 		}
 		corps_commander = {
