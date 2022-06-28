@@ -101,3 +101,26 @@ create_equipment_variant = {
 	}
 	obsolete = no
 }
+
+create_equipment_variant = {
+	name = "Hellhound"
+	type = light_tank_chassis_0
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_small_cannon
+		turret_type_slot = tank_light_two_man_tank_turret
+		suspension_type_slot = tank_shagopory_4_suspension
+		armor_type_slot = tank_riveted_armor
+		engine_type_slot = tank_gasoline_engine
+		special_type_slot_1 = secondary_turret_hmg
+	}
+	obsolete = no
+	icon = "GFX_IPO_hellhound"
+}
+
+#add_equipment_to_stockpile = {
+#	type = light_tank_chassis_0
+#	amount = 107
+#	producer = IPO
+#	variant_name = "Hellhound"
+#}
