@@ -117,10 +117,3 @@ create_equipment_variant = {
 	obsolete = no
 	icon = "GFX_IPO_hellhound"
 }
-
-#add_equipment_to_stockpile = {
-#	type = light_tank_chassis_0
-#	amount = 107
-#	producer = IPO
-#	variant_name = "Hellhound"
-#}

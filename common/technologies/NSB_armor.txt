@@ -1,17 +1,17 @@
 technologies = {
 
 
-	@1918 = 0
-	@1936 = 2
-	@1938 = 4
-	@1939 = 6
-	@1940 = 7
-	@1941 = 8
-	@1942 = 9
-	@1943 = 10
-	@1944 = 11
-	@1945 = 12
-	@1946 = 20
+	@7238 = 0
+	@7256 = 2
+	@7258 = 4
+	@7259 = 6
+	@7260 = 7
+	@7261 = 8
+	@7262 = 9
+	@7263 = 10
+	@7264 = 11
+	@7265 = 12
+	@7266 = 20
 
 	### GERMAN TANK NAMES IN COMMENTS SO YOU CAN FIND STUFF MORE EASILY
 	gwtank_chassis = { #Leichttraktor
@@ -111,7 +111,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1918
+		start_year = 7238
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 2 y = 0 }
@@ -196,7 +196,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1934
+		start_year = 7254
 		folder = {
 			name = nsb_armour_folder
 			position = { x = -4 y = 2 }
@@ -247,7 +247,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 7256
 
 		folder = {
 			name = nsb_armour_folder
@@ -320,7 +320,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1938
+		start_year = 7258
 
 		folder = {
 			name = nsb_armour_folder
@@ -383,7 +383,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1941
+		start_year = 7261
 
 		folder = {
 			name = nsb_armour_folder
@@ -430,7 +430,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1941
+		start_year = 7261
 
 		folder = {
 			name = nsb_armour_folder
@@ -516,11 +516,11 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 7256
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1936 }
+			position = { x = 2 y = @7256 }
 		}
 
 		ai_will_do = {
@@ -584,11 +584,11 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1940
+		start_year = 7260
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1940 }
+			position = { x = 2 y = @7260 }
 		}
 
 		ai_will_do = {
@@ -653,11 +653,11 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1943
+		start_year = 7263
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1943 }
+			position = { x = 2 y = @7263 }
 		}
 
 		ai_will_do = {
@@ -698,11 +698,11 @@ technologies = {
 		}
 
 		research_cost = 2.5
-		start_year = 1945
+		start_year = 7265
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1945 }
+			position = { x = 2 y = @7265 }
 		}
 
 		ai_will_do = {
@@ -776,7 +776,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1934
+		start_year = 7254
 
 		folder = {
 			name = nsb_armour_folder
@@ -837,11 +837,11 @@ technologies = {
 		}
 
 		research_cost = 2.5
-		start_year = 1940
+		start_year = 7260
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 5 y = @1940 }
+			position = { x = 5 y = @7260 }
 		}
 
 		ai_will_do = {
@@ -889,11 +889,11 @@ technologies = {
 		}
 
 		research_cost = 2.5
-		start_year = 1943
+		start_year = 7263
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 5 y = @1943 }
+			position = { x = 5 y = @7263 }
 		}
 
 		ai_will_do = {
@@ -939,10 +939,10 @@ technologies = {
 		}
 
 		research_cost = 2.5
-		start_year = 1943
+		start_year = 7263
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 8 y = @1943 }
+			position = { x = 8 y = @7263 }
 		}
 
 		ai_will_do = {
@@ -971,10 +971,10 @@ technologies = {
 		show_effect_as_desc = yes
 
 		research_cost = 1
-		start_year = 1934
+		start_year = 7254
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 3 y = @1936 }
+			position = { x = 3 y = @7256 }
 		}
 
 		ai_will_do = {
@@ -1026,10 +1026,10 @@ technologies = {
 		show_effect_as_desc = yes
 
 		research_cost = 1
-		start_year = 1936
+		start_year = 7256
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 3 y = @1938 }
+			position = { x = 3 y = @7258 }
 		}
 
 		ai_will_do = {
@@ -1079,10 +1079,10 @@ technologies = {
 		show_effect_as_desc = yes
 
 		research_cost = 1
-		start_year = 1941
+		start_year = 7261
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 3 y = @1941 }
+			position = { x = 3 y = @7261 }
 		}
 
 		ai_will_do = {
@@ -1121,10 +1121,10 @@ technologies = {
 	armor_tech_4 = {
 
 		research_cost = 1
-		start_year = 1944
+		start_year = 7264
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 3 y = @1944 }
+			position = { x = 3 y = @7264 }
 		}
 
 		on_research_complete = {
@@ -1177,10 +1177,10 @@ technologies = {
 		}
 		show_effect_as_desc = yes
 		research_cost = 1
-		start_year = 1934
+		start_year = 7254
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1936 }
+			position = { x = 2 y = @7256 }
 		}
 
 		ai_will_do = {
@@ -1230,10 +1230,10 @@ technologies = {
 		show_effect_as_desc = yes
 
 		research_cost = 1
-		start_year = 1936
+		start_year = 7256
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1938 }
+			position = { x = 2 y = @7258 }
 		}
 
 		ai_will_do = {
@@ -1281,10 +1281,10 @@ technologies = {
 		}
 		show_effect_as_desc = yes
 		research_cost = 1
-		start_year = 1941
+		start_year = 7261
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1941 }
+			position = { x = 2 y = @7261 }
 		}
 
 		ai_will_do = {
@@ -1323,10 +1323,10 @@ technologies = {
 	engine_tech_4 = {
 
 		research_cost = 1
-		start_year = 1944
+		start_year = 7264
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1944 }
+			position = { x = 2 y = @7264 }
 		}
 		on_research_complete = {
 			custom_effect_tooltip = engine_tech_4_tt
