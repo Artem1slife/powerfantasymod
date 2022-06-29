@@ -1,8 +1,8 @@
 state={
-	id=520
-	name="STATE_520"
+	id=524
+	name="STATE_524"
 	provinces={
-		348 671 790 2319 4344 
+		143 5935 
 	}
 	manpower=1
 	history={
@@ -14,4 +14,13 @@ state={
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+manpower=1174228
+resources={
+oil = 14
+aluminium = 19
+rubber = 0
+tungsten = 0
+steel = 0
+chromium = 0
+}
 }

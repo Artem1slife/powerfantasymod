@@ -1,31 +1,25 @@
-
 state={
-	id=162
-	name="STATE_162"
-
+	id=514
+	name="STATE_514"
+	provinces={
+		1114 1358 1387 4036 5506 5999 6011 
+	}
 	history={
-		owner = KSO
+		owner = KSM
 		buildings = {
 			infrastructure = 2
-
 		}
-		add_core_of = KSO
-
-	}
-
-	provinces={
-		1954 4720 8946 8954
+		add_core_of = KSM
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
-	state_category=rural
 	local_supplies=0.000
-manpower=4611775
+manpower=3670429
 resources={
-oil = 7
+oil = 0
 aluminium = 0
 rubber = 0
-tungsten = 0
+tungsten = 6
 steel = 0
 chromium = 0
 }

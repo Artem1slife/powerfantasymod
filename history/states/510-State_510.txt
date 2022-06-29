@@ -1,8 +1,8 @@
 state={
-	id=507
-	name="STATE_507"
+	id=510
+	name="STATE_510"
 	provinces={
-		28 219 3550 3834 6033 6050 
+		27 1095 2264 4289 4331 6019 6024 
 	}
 	manpower=1
 	history={
@@ -15,4 +15,13 @@ state={
 	state_category = rural
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+manpower=3413546
+resources={
+oil = 0
+aluminium = 0
+rubber = 16
+tungsten = 0
+steel = 14
+chromium = 0
+}
 }

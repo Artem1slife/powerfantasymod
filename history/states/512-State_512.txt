@@ -1,9 +1,10 @@
 state={
-	id=514
-	name="STATE_514"
+	id=512
+	name="STATE_512"
 	provinces={
-		1114 1358 1387 4036 5506 5999 6011 
+		892 985 1253 2413 4738 5989 
 	}
+	manpower=1
 	history={
 		owner = TST
 		buildings = {
@@ -11,7 +12,15 @@ state={
 		}
 		add_core_of = TST
 	}
-	manpower=1
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+manpower=5578220
+resources={
+oil = 0
+aluminium = 12
+rubber = 0
+tungsten = 0
+steel = 0
+chromium = 0
+}
 }

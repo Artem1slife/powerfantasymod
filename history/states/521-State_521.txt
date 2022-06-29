@@ -6,12 +6,21 @@ state={
 	}
 	manpower=1
 	history={
-		owner = TST
+		owner = KTO
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = TST
+		add_core_of = KTO
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+manpower=2597874
+resources={
+oil = 0
+aluminium = 10
+rubber = 0
+tungsten = 11
+steel = 0
+chromium = 16
+}
 }

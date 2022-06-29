@@ -6,13 +6,22 @@ state={
 	}
 	manpower=1
 	history={
-		owner = TST
+		owner = KSO
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = TST
+		add_core_of = KSO
 	}
 	state_category = rural
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+manpower=1951263
+resources={
+oil = 7
+aluminium = 0
+rubber = 0
+tungsten = 11
+steel = 0
+chromium = 0
+}
 }
