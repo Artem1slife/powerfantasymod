@@ -6,11 +6,11 @@ state={
 	}
 	manpower=1
 	history={
-		owner = TST
+		owner = DSA
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = TST
+		add_core_of = DSA
 	}
 	state_category = rural
 	buildings_max_level_factor=1.000

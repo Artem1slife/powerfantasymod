@@ -469,3 +469,39 @@ SKT = {
 	color = rgb {35  56  82}
 	color_ui = rgb { 139 20 20 }
 }
+HSM = {
+	color = rgb {127  102  127}
+	color_ui = rgb { 139 20 20 }
+}
+DOO = {
+	color = rgb {102  102  127}
+	color_ui = rgb { 139 20 20 }
+}
+DMA = {
+	color = rgb {102  102  127}
+	color_ui = rgb { 139 20 20 }
+}
+DSA = {
+	color = rgb {102  102  127}
+	color_ui = rgb { 139 20 20 }
+}
+SHA = {
+	color = rgb {102  102  127}
+	color_ui = rgb { 139 20 20 }
+}
+CPW = {
+	color = rgb {102  102  127}
+	color_ui = rgb { 139 20 20 }
+}
+CTW = {
+	color = rgb {102  102  127}
+	color_ui = rgb { 139 20 20 }
+}
+ORI = {
+	color = rgb {102  102  127}
+	color_ui = rgb { 139 20 20 }
+}
+PBT = {
+	color = rgb {102  102  127}
+	color_ui = rgb { 139 20 20 }
+}

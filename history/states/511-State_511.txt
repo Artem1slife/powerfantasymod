@@ -5,11 +5,11 @@ state={
 		2623 3679 3778 3820 
 	}
 	history={
-		owner = TST
+		owner = DSA
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = TST
+		add_core_of = DSA
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
