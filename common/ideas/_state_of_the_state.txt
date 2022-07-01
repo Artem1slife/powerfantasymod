@@ -393,48 +393,112 @@ ideas = {
 		law = yes
 		use_list_view = yes
 		
-		slavery_allowed = {
+		antiutopia_sosaiti = {
 			
 			removal_cost = -1
-			cost = 150
-			level = 3
-			default = yes
+			cost = 1000
+			level = 5
+			
+			available = {
+				has_government = destruction
+			}
 			
 			modifier = {
-				consumer_goods_factor = -0.05
-				industrial_capacity_dockyard = 0.1
-				industrial_capacity_factory = 0.1
-				line_change_production_efficiency_factor = -0.15
-				production_speed_buildings_factor = 0.1
-				stability_factor = -0.1
-				war_support_factor = -0.1
+				stability_factor = 0.5
+				war_support_factor = -0.5
+				consumer_goods_factor = -0.3
+				conscription_factor = 0.75
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
-		slavery_allowed_with_restrictions = {
+		
+		totalitar_sosaiti = {
+			
+			removal_cost = -1
+			cost = 300
+			level = 4
+			
+			available = {
+				OR = {
+					has_government = communism
+					has_government = fascism
+					has_government = destruction
+				}
+			}
+			
+			modifier = {
+				stability_factor = 0.3
+				war_support_factor = -0.3
+				consumer_goods_factor = -0.1
+				conscription_factor = 0.5
+			}
+			cancel_if_invalid = yes
+		}
+		
+		controled_sosaiti = {
+			
+			removal_cost = -1
+			cost = 300
+			level = 3
+			
+			available = {
+				OR = {
+					has_government = neutrality
+					has_government = communism
+					has_government = fascism
+				}
+			}
+			
+			modifier = {
+				stability_factor = 0.15
+				war_support_factor = -0.15
+				consumer_goods_factor = -0.05
+				conscription_factor = 0.25
+			}
+			cancel_if_invalid = yes
+		}
+		
+		ruled_sosaiti = {
 			
 			removal_cost = -1
 			cost = 300
 			level = 2
+			default = yes
+			
+			available = {
+				OR = {
+					has_government = democratic
+					has_government = neutrality
+					has_government = communism
+				}
+			}
 			
 			modifier = {
-				industrial_capacity_dockyard = 0.05
-				industrial_capacity_factory = 0.05
-				production_speed_buildings_factor = 0.05
-				line_change_production_efficiency_factor = -0.1
+				stability_factor = -0.15
+				war_support_factor = 0.15
+				research_speed_factor = 0.1
+				political_power_gain = -0.25
+				consumer_goods_factor = 0.05
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
-		slavery_forbidden = {
+		
+		free_sosaiti = {
 			
 			removal_cost = -1
-			cost = 500
+			cost = 300
 			level = 1
 			
+			available = {
+				has_government = democratic
+			}
+			
 			modifier = {
-				stability_factor = 0.05
-				war_support_factor = 0.1
-				political_power_gain = 0.1
+				stability_factor = -0.3
+				war_support_factor = 0.3
+				research_speed_factor = 0.15
+				political_power_gain = -0.5
+				consumer_goods_factor = 0.1
 			}
 			cancel_if_invalid = no
 		}
