@@ -6385,6 +6385,10 @@ spriteTypes = {
 		name = "GFX_idea_desert_lands"
 		texturefile = "gfx/interface/ideas/idea_desert_lands.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_FUCK_numbers"
+		texturefile = "gfx/interface/ideas/idea_FUCK_numbers.dds"
+	}
 	###
 	spriteType = {
 		name = "GFX_idea_educated_sosaiti"
@@ -6466,4 +6470,5 @@ spriteTypes = {
 		name = "GFX_idea_pf_poten_power"
 		texturefile = "gfx/interface/ideas/pf_poten_power.dds"
 	}
+
 }

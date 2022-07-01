@@ -167,6 +167,12 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = IPO_obrashchenieknarodu }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = IPO_desert_lands
+				add_idea = IPO_desert_lands_1
+			}
+		}
 	}
 
 	#Буква закона
@@ -198,7 +204,11 @@ focus_tree = {
 		}
 		prerequisite = { focus = IPO_poezdkavavalon  }
 		completion_reward = {
-			
+			add_stability = -0.05
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.05
+			}
 		}
 	}
 
@@ -214,7 +224,9 @@ focus_tree = {
 		}
 		prerequisite = { focus = IPO_bukvazakona }
 		completion_reward = {
-			
+			add_political_power = 150
+			add_stability = -0.05
+			add_war_support = -0.05
 		}
 	}
 
@@ -230,7 +242,10 @@ focus_tree = {
 		}
 		prerequisite = { focus = IPO_prekratitgoneniyanasvet } prerequisite = { focus = IPO_dopustitreformy  }
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = destruction
+				popularity = -0.1
+			}
 		}
 	}
 
@@ -416,7 +431,7 @@ focus_tree = {
 		completion_reward = {
 			declare_war_on = {
 				target = ROI
-				type = civil_war
+				type = annex_everything
 			}
 		}
 	}
@@ -452,6 +467,11 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
+		available = {
+			NOT = {
+				country_exists = ROI
+			}
+		}
 		bypass = {
 			if = {
 				OR = {
@@ -466,7 +486,43 @@ focus_tree = {
 		completion_reward = {
 			declare_war_on = {
 				target = APO
-				type = civil_war
+				type = annex_everything
+			}
+			if = {
+				limit = {
+					country_exists = BBB
+				}
+				declare_war_on = {
+					target = BBB
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					country_exists = BBT
+				}
+				declare_war_on = {
+					target = BBT
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					country_exists = BBM
+				}
+				declare_war_on = {
+					target = BBM
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					country_exists = BEC
+				}
+				declare_war_on = {
+					target = BEC
+					type = annex_everything
+				}
 			}
 		}
 	}
@@ -556,6 +612,11 @@ focus_tree = {
 		completion_reward = {
 			#load new focus_tree
 		}
+		available = {
+			NOT = {
+				has_idea = IPO_wartime
+			}
+		}
 	}
 
 	#Империя Зла
@@ -565,6 +626,11 @@ focus_tree = {
 		x = 8
 		y = 10
 		cost = 1
+		available = {
+			NOT = {
+				has_idea = IPO_wartime
+			}
+		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -701,7 +767,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = IPO_talony  } prerequisite = { focus = IPO_soldatskayaobshchina }
 		completion_reward = {
-			
+			add_ideas = IPO_n3152
 		}
 	}
 
@@ -861,6 +927,24 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = IPO_novyerabochiemesta  }
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = IPO
+			}
+		}
 	}
 
 	#Зачистить земли от болезни
@@ -874,9 +958,26 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
-			has_completed_focus = my_focus
-			
-			
+			has_completed_focus = IPO_ktonashvrag
+			controls_state = 492
+			controls_state = 493
+			controls_state = 494
+			controls_state = 7
+		}
+		completion_reward = {
+			492 = {
+				add_extra_state_shared_building_slots = 3
+			}
+			493 = {
+				add_extra_state_shared_building_slots = 2
+			}
+			494 = {
+				add_extra_state_shared_building_slots = 1
+			}
+			7 = {
+				add_extra_state_shared_building_slots = 1
+			}
+			add_stability = 0.05
 		}
 	}
 
@@ -891,6 +992,52 @@ focus_tree = {
 			FOCUS_FILTER_STABILITY
 		}
 		prerequisite = { focus = IPO_zachistitzemliotbolezni  }
+		available = {
+			controls_state = 498
+			controls_state = 492
+			controls_state = 493
+			controls_state = 494
+			controls_state = 7
+		}
+		completion_reward = {
+			add_war_support = -0.05
+			add_political_power = -300
+			498 = {
+				add_manpower = -222666
+			}
+			492 = {
+				add_manpower = 107842
+				custom_effect_tooltip = IPO_onimperian
+				hidden_effect = {
+					remove_dynamic_modifier = { modifier = nation_monneran }
+					add_dynamic_modifier = { modifier = nation_onimperian }
+				}
+			}
+			493 = {
+				add_manpower = 77926
+				custom_effect_tooltip = IPO_onimperian
+				hidden_effect = {
+					remove_dynamic_modifier = { modifier = nation_monneran }
+					add_dynamic_modifier = { modifier = nation_onimperian }
+				}
+			}
+			494 = {
+				add_manpower = 33278
+				custom_effect_tooltip = IPO_onimperian
+				hidden_effect = {
+					remove_dynamic_modifier = { modifier = nation_monneran }
+					add_dynamic_modifier = { modifier = nation_onimperian }
+				}
+			}
+			7 = {
+				add_manpower = 3622
+				custom_effect_tooltip = IPO_onimperian
+				hidden_effect = {
+					remove_dynamic_modifier = { modifier = nation_monneran }
+					add_dynamic_modifier = { modifier = nation_onimperian }
+				}
+			}
+		}
 	}
 
 	#Вернуть контроль над островом
@@ -923,7 +1070,7 @@ focus_tree = {
 				}
 				declare_war_on = {
 					target = ROI
-					type = civil_war
+					type = annex_everything
 				}
 			}
 			if = {
@@ -932,7 +1079,7 @@ focus_tree = {
 				}
 				declare_war_on = {
 					target = APO
-					type = civil_war
+					type = annex_everything
 				}
 			}
 		}
@@ -949,6 +1096,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = IPO_pomochzarazhennym  }
+		completion_reward = {
+			add_political_power = -50
+		}
 	}
 
 	#Дайте им сказать
@@ -960,6 +1110,22 @@ focus_tree = {
 		cost = 3
 		search_filters = {
 			FOCUS_FILTER_STABILITY
+		}
+		available = {
+			NOT = {
+				country_exists = APO
+				country_exists = BBB
+				country_exists = BBM
+				country_exists = BBT
+				country_exists = BEC
+			}
+			controls_state = 171
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
 		}
 	}
 
@@ -974,6 +1140,14 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = IPO_dayteimskazat  }
+		completion_reward = {
+			add_stability = 0.15
+			add_war_support = 0.15
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.05
+			}
+		}
 	}
 
 	#Запретить радикалов!
@@ -988,9 +1162,13 @@ focus_tree = {
 		}
 		prerequisite = { focus = IPO_pokazatelnyyasketizmdvora  } prerequisite = { focus = IPO_reformamediciny  }
 		completion_reward = {
-			set_political_party = {
+			add_popularity = {
 				ideology = destruction
-				popularity = 5
+				popularity = -0.3
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = -0.3
 			}
 		}
 	}

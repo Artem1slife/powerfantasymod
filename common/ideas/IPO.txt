@@ -33,6 +33,22 @@ ideas = {
 				industrial_capacity_dockyard = -0.15
 			}
 		}
+		IPO_desert_lands_1 = {
+			picture = desert_lands
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				max_surrender_limit_offset = -0.05
+				army_core_defence_factor = 0.05
+				acclimatization_hot_climate_gain_factor = 0.5
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.05
+				consumer_goods_factor = -0.05
+			}
+		}
 		IPO_kingdom_of_sin = {
 			picture = ztcnz
 			
@@ -374,6 +390,20 @@ ideas = {
 			}
 		}
 		
+		#Декрет n.3152-b
+		IPO_n3152 = {
+			picture = FUCK_numbers
+			allowed = {
+				original_tag = IPO
+			}
+			modifier = {
+				conscription = 0.01
+				political_power_gain = 0.25
+				stability_factor = 0.1
+				war_support_factor = -0.15
+				consumer_goods_factor = -0.05
+			}
+		}
 	}
 	
 	institutes = {
