@@ -1112,6 +1112,7 @@ focus_tree = {
 			FOCUS_FILTER_STABILITY
 		}
 		available = {
+			has_completed_focus = IPO_ktonashvrag
 			NOT = {
 				country_exists = APO
 				country_exists = BBB

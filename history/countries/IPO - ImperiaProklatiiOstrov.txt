@@ -1,6 +1,7 @@
 ﻿capital = 498
 
 set_research_slots = 2
+set_convoys = 30
 set_stability = 0.3
 add_command_power = 20
 set_oob = IPO

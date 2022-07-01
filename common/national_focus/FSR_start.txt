@@ -246,8 +246,15 @@ focus_tree = {
 		}
 		prerequisite = { focus = FSR_nachalopodgotovkikvoennomupodhodu  }
 		completion_reward = {
-			set_research_slots = 3
-			army_experience = 5
+			add_research_slot = 1
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 5
+				category = infantry_weapons
+				category = artillery
+				category = motorized_equipment
+				category = armor
+			}
 		}
 	}
 
@@ -264,7 +271,11 @@ focus_tree = {
 		prerequisite = { focus = FSR_bolshevoennyhfabrik  } prerequisite = { focus = FSR_naukavoyny  }
 		completion_reward = {
 			army_experience = 100
-			add_ideas = FSR_fighting_spirit
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = land_doctrine
+			}
 		}
 	}
 
@@ -281,7 +292,11 @@ focus_tree = {
 		prerequisite = { focus = FSR_bolshevoennyhfabrik  } prerequisite = { focus = FSR_naukavoyny  }
 		completion_reward = {
 			navy_experience = 100
-			
+			add_tech_bonus = {
+				bonus = 2
+				uses = 3
+				category = naval_doctrine
+			}
 		}
 	}
 
@@ -297,7 +312,11 @@ focus_tree = {
 		}
 		prerequisite = { focus = FSR_vspomnitopyttrenirovok  } prerequisite = { focus = FSR_polnoeobnovleniemorskoydoktriny  }
 		completion_reward = {
-			add_ideas = FSR_more_equp
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 500
+				producer = FSR
+			}
 		}
 	}
 
@@ -313,13 +332,9 @@ focus_tree = {
 		}
 		prerequisite = { focus = FSR_bolsheoruzhiya  }
 		completion_reward = {
-			create_wargoal = {
-				type = annex_everything
-				target = IPO
-			}
 			declare_war_on = {
 				target = IPO
-				type = civil_war
+				type = annex_everything
 			}
 		}
 	}
