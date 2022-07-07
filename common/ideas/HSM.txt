@@ -1,0 +1,14 @@
+ideas = {
+	country = {
+		
+		HSM_not_military_structure = {
+			allowed = {
+				original_tag = HSM
+			}
+			modifier = {
+				
+			}
+			picture = ztcnz
+		}
+	}
+}
