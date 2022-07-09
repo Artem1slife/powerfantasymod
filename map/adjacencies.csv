@@ -1,4 +1,5 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+8307;1069;sea;8620;-1;-1;-1;-1;;Cursed Islands 1 #1528
 8305;8309;sea;8901;-1;-1;-1;-1;;Cursed Islands 2
 8309;8308;sea;8476;-1;-1;-1;-1;;Cursed Islands 3
 8310;8308;sea;8901;-1;-1;-1;-1;;Cursed Islands 4
@@ -30,6 +31,11 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 3147;7199;sea;8566;-1;-1;-1;-1;;Asia 5
 7178;7199;sea;8566;-1;-1;-1;-1;;Asia 6
 7155;7199;sea;8566;-1;-1;-1;-1;;Asia 7
+8351;3494;sea;9019;-1;-1;-1;-1;;Asia 8
+1416;8345;sea;8882;-1;-1;-1;-1;;Asia 9
+8343;8345;sea;8882;-1;-1;-1;-1;;Asia 10
+8343;8344;sea;8882;-1;-1;-1;-1;;Asia 11
+3002;8344;sea;8749;-1;-1;-1;-1;;Asia 12
 6303;4701;sea;8837;-1;-1;-1;-1;;Islamskaya Respublica Aserbaidzhan 1
 2419;4701;sea;8837;-1;-1;-1;-1;;Islamskaya Respublica Aserbaidzhan 2
 2555;8316;sea;8904;-1;-1;-1;-1;;Islamskaya Respublica Aserbaidzhan 3
@@ -50,3 +56,21 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 8302;8301;sea;8899;-1;-1;-1;-1;;Islamskaya Respublica Aserbaidzhan 18
 8301;8303;sea;8899;-1;-1;-1;-1;;Islamskaya Respublica Aserbaidzhan 19
 8302;8303;sea;8899;-1;-1;-1;-1;;Islamskaya Respublica Aserbaidzhan 20
+8322;498;sea;8801;-1;-1;-1;-1;;Britanica 1
+8327;5866;sea;8853;-1;-1;-1;-1;;Britanica 2
+8336;5783;sea;8792;-1;-1;-1;-1;;Britanica 3
+8336;2215;sea;8792;-1;-1;-1;-1;;Britanica 4
+132;8338;sea;8792;-1;-1;-1;-1;;Britanica 5
+6118;8320;sea;8906;-1;-1;-1;-1;;Britanica 6
+6118;8325;sea;8906;-1;-1;-1;-1;;Britanica 7
+8325;8328;sea;8664;-1;-1;-1;-1;;Britanica 8
+8326;8328;sea;8664;-1;-1;-1;-1;;Britanica 9
+8326;6118;sea;8664;-1;-1;-1;-1;;Britanica 10
+6139;8329;sea;8664;-1;-1;-1;-1;;Britanica 11
+8329;8333;sea;8664;-1;-1;-1;-1;;Britanica 12
+8335;8333;sea;8664;-1;-1;-1;-1;;Britanica 12+1
+8329;8332;sea;8664;-1;-1;-1;-1;;Britanica 14
+8334;8332;sea;8664;-1;-1;-1;-1;;Britanica 15
+4737;8355;sea;8378;-1;-1;-1;-1;;Mama 1
+8353;8355;sea;8378;-1;-1;-1;-1;;Mama 2
+8353;8354;sea;8378;-1;-1;-1;-1;;Mama 2
