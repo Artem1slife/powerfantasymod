@@ -8,19 +8,18 @@ country_event = {
 
 	picture = GAM_HTvbhxfE-1
 	fire_only_once = yes
-	is_triggered_only = yes
+	is_triggered_only = no
 	trigger = {
-
+		tag = GAM
+		date > 7256.01.21
 	}
 	option = {
 		name = GAM_gamaldor.1.a
-		trigger = {
-			
-		}
-		ai_chance = { factor = 1 }
 		
 		hidden_effect = {
-			
+			country_event = {
+				id = GAM_gamaldor.5
+			}
 		}
 	}
 }
@@ -30,12 +29,15 @@ country_event = {
 	id = GAM_gamaldor.2
 	title = GAM_gamaldor.2.t
 	desc = GAM_gamaldor.2.d
-	is_triggered_only = yes
+	is_triggered_only = no
 	trigger = {
 		tag = GAM
-		date > 10.01.7258
+		date > 7256.04.21
 	}
 	picture = GAM__-1
+	option = {
+		name = GAM_gamaldor.2.a
+	}
 }
 
 #Новый наследник
@@ -43,12 +45,15 @@ country_event = {
 	id = GAM_gamaldor.3
 	title = GAM_gamaldor.3.t
 	desc = GAM_gamaldor.3.d
-	is_triggered_only = yes
+	is_triggered_only = no
 	trigger = {
 		tag = GAM
-		date > 20.01.7258
+		date > 7256.08.21
 	}
 	picture = GAM__-1
+	option = {
+		name = GAM_gamaldor.3.a
+	}
 }
 
 #Хитрый план
@@ -56,12 +61,18 @@ country_event = {
 	id = GAM_gamaldor.4
 	title = GAM_gamaldor.4.t
 	desc = GAM_gamaldor.4.d
-	is_triggered_only = yes
-
+	is_triggered_only = no
+	trigger = {
+		tag = GAM
+		date > 7256.08.27
+	}
+	option = {
+		name = GAM_gamaldor.4.a
+	}
 	picture = GAM__-1
 }
 
-#Свет истины
+#Отец и сын - второй ивент
 country_event = {
 	id = GAM_gamaldor.5
 	title = GAM_gamaldor.5.t
@@ -69,14 +80,24 @@ country_event = {
 	is_triggered_only = yes
 
 	picture = GAM__-1
+	option = {
+		name = GAM_gamaldor.5.a
+	}
 }
 
-#Поиски во тьме
+#Ки готовится к революции
 country_event = {
 	id = GAM_gamaldor.6
 	title = GAM_gamaldor.6.t
 	desc = GAM_gamaldor.6.d
-	is_triggered_only = yes
-
-	picture = GAM_KwNepGqS-1
+	is_triggered_only = no
+	trigger = {
+		tag = GAM
+		date > 7256.09.01
+	}
+	
+	picture = GAM__-1
+	option = {
+		name = GAM_gamaldor.6.a
+	}
 }

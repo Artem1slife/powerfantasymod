@@ -1,0 +1,78 @@
+focus_tree = {
+	id = GAM_start_focus
+	country = {
+		factor = 1
+		modifier = {
+			add = 10
+			tag = GAM
+		}
+	}
+	default = no
+
+	focus = {
+		id = Fabrics_for_Deliitsi
+		icon = GFX_goal_generic_production
+		cost = 10
+		x = 3
+		y = 0
+
+	}
+	focus = {
+		id = Make_port
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10
+		x = 5
+		y = 0
+
+	}
+	focus = {
+		id = Make_tech_university
+		icon = GFX_goal_generic_production2
+		cost = 10
+		x = 7
+		y = 0
+
+	}
+	focus = {
+		id = New_Castle
+		icon = GFX_goal_generic_fortify_city
+		cost = 10
+		prerequisite = {
+			focus = Fabrics_for_Deliitsi
+		}
+		prerequisite = {
+			focus = Make_port
+		}
+		x = 4
+		y = 1
+
+	}
+	focus = {
+		id = New_warfabric
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10
+		prerequisite = {
+			focus = Make_port
+		}
+		prerequisite = {
+			focus = Make_tech_university
+		}
+		x = 6
+		y = 1
+
+	}
+	focus = {
+		id = New_propaganda
+		icon = GFX_goal_generic_propaganda
+		cost = 0
+		prerequisite = {
+			focus = New_warfabric
+		}
+		prerequisite = {
+			focus = New_Castle
+		}
+		x = 5
+		y = 2
+
+	}
+}

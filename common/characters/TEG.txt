@@ -1,160 +1,262 @@
 characters = {
-TEG_char_id_0={
-portraits={
-civilian={
-small="GFX_idea_CHI_soong_mei_ling"
-}
-}
-advisor = {
-slot =political_advisor
-allowed  = {
-original_tag =TEG
-}
-name =TEG0
-cost =100
-removal_cost =150
-traits = {
-face_licker
-stammer
-}
-}
-}
-TEG_char_id_1={
-portraits={
-civilian={
-small="GFX_idea_CHI_soong_mei_ling"
-}
-}
-advisor = {
-slot =political_advisor
-allowed  = {
-original_tag =TEG
-}
-name =TEG1
-cost =100
-removal_cost =150
-traits = {
-dealbroker
-}
-}
-}
-TEG_char_id_2={
-portraits={
-civilian={
-small="GFX_idea_CHI_soong_mei_ling"
-}
-}
-advisor = {
-slot =political_advisor
-allowed  = {
-original_tag =TEG
-}
-name =TEG2
-cost =100
-removal_cost =150
-traits = {
-snuggler
-warrior_code
-}
-}
-}
-TEG_char_id_3={
-portraits={
-civilian={
-small="GFX_idea_CHI_soong_mei_ling"
-}
-}
-advisor = {
-slot =theorist
-allowed  = {
-original_tag =TEG
-}
-name =TEG3
-cost =100
-removal_cost =150
-traits = {
-conservative_grandee
-}
-}
-}
-TEG_char_id_4={
-portraits={
-civilian={
-small="GFX_idea_CHI_soong_mei_ling"
-}
-}
-advisor = {
-slot =theorist
-allowed  = {
-original_tag =TEG
-}
-name =TEG4
-cost =100
-removal_cost =150
-traits = {
-cornered_fox
-hawk
-}
-}
-}
-TEG_char_id_5={
-portraits={
-civilian={
-small="GFX_idea_CHI_soong_mei_ling"
-}
-}
-advisor = {
-slot =theorist
-allowed  = {
-original_tag =TEG
-}
-name =TEG5
-cost =100
-removal_cost =150
-traits = {
-dealbroker
-}
-}
-}
-TEG_char_id_6={
-portraits={
-civilian={
-small="GFX_idea_CHI_soong_mei_ling"
-}
-}
-advisor = {
-slot =high_command
-allowed  = {
-original_tag =TEG
-}
-name =TEG6
-cost =100
-removal_cost =150
-traits = {
-warmonger
-cornered_fox
-}
-}
-}
-TEG_char_id_7={
-portraits={
-civilian={
-small="GFX_idea_CHI_soong_mei_ling"
-}
-}
-advisor = {
-slot =high_command
-allowed  = {
-original_tag =TEG
-}
-name =TEG7
-cost =100
-removal_cost =150
-traits = {
-railroad_enthusiast
-}
-}
-}
+	
+	#administration only
+	
+	#Der Kanzler
+	TEG_char_id_0={
+		portraits={
+			civilian={
+				small="GFX_idea_CHI_soong_mei_ling"
+			}
+		}
+		advisor = {
+			slot =political_advisor
+			allowed  = {
+				original_tag =TEG
+			}
+			name = Der_Kanzler
+			cost = 100
+			removal_cost = 150
+			traits = {
+				sins_of_the_father
+			}
+		}
+	}
+	
+	#scummy trader
+	TEG_char_id_1={
+		portraits={
+			civilian={
+				small="GFX_idea_CHI_soong_mei_ling"
+			}
+		}
+		advisor = {
+			slot =political_advisor
+			allowed  = {
+				original_tag =TEG
+			}
+			name =TEG1
+			cost =100
+			removal_cost =150
+			traits = {
+				socialite_connections
+			}
+		}
+	}
+
+	#TEG church high priest with ring and criest
+	TEG_char_id_2={
+		portraits={
+			civilian={
+				small="GFX_idea_CHI_soong_mei_ling"
+			}
+		}
+		advisor = {
+			slot =political_advisor
+			allowed  = {
+				original_tag =TEG
+			}
+			name =TEG2
+			cost =100
+			removal_cost =150
+			traits = {
+				warrior_code
+			}
+		}
+	}
+	
+	#TEG church high priest with many rings
+	Cecil_Golden={
+		portraits={
+			civilian={
+				small="GFX_idea_CHI_soong_mei_ling"
+			}
+		}
+		advisor = {
+			slot =political_advisor
+			allowed  = {
+				original_tag = TEG
+			}
+			name =Cecil_Golden
+			cost =100
+			removal_cost =150
+			traits = {
+				autocratic_imperialist
+			}
+		}
+	}
+	
+	#very many army theorist and generals
+	
+	Ernest_Underwood={
+		portraits={
+			civilian={
+				small="GFX_idea_CHI_soong_mei_ling"
+			}
+			army={
+				large="GFX_portrait_USA_arleigh_burke"
+				small="GFX_portrait_USA_arleigh_burke_small"
+			}
+		}
+		advisor = {
+			slot = theorist
+				allowed  = {
+					original_tag = TEG
+				}
+			name = Ernest_Underwood
+			cost = 100
+			removal_cost = 150
+				traits = {
+					conservative_grandee
+				}
+		}
+		corps_commander = {
+			traits = {
+				ranger
+				invader
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	Ezra_Doyle={
+	portraits={
+		civilian={
+			small="GFX_idea_CHI_soong_mei_ling"
+		}
+		army={
+			large="GFX_portrait_USA_arleigh_burke"
+			small="GFX_portrait_USA_arleigh_burke_small"
+		}
+		}
+		advisor = {
+		slot = theorist
+			allowed  = {
+				original_tag =TEG
+			}
+		name = Ezra_Doyle
+		cost = 100
+		removal_cost = 150
+			traits = {
+				hawk
+			}
+		}
+		corps_commander = {
+		traits = {
+			hill_fighter
+			organizer
+		}
+		skill = 3
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 4
+		logistics_skill = 2
+		}
+	}
+	
+	Lenard_Stone={
+	portraits={
+		civilian={
+			small="GFX_idea_CHI_soong_mei_ling"
+		}
+		army={
+			large="GFX_portrait_USA_arleigh_burke"
+			small="GFX_portrait_USA_arleigh_burke_small"
+		}
+		}
+		advisor = {
+		slot = theorist
+			allowed  = {
+				original_tag =TEG
+			}
+		name = Lenard_Stone
+		cost = 100
+		removal_cost = 150
+			traits = {
+				cornered_fox
+			}
+		}
+		corps_commander = {
+		traits = {
+			organizer
+		}
+		skill = 2
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 2
+		}
+	}
+
+	#the guy who realy like religion of sun - in the TeGort its uniqe, not often
+	Augustus_Poole={
+		portraits={
+			civilian={
+				small="GFX_idea_CHI_soong_mei_ling"
+			}
+			army={
+				large="GFX_portrait_USA_arleigh_burke"
+				small="GFX_portrait_USA_arleigh_burke_small"
+			}
+		}
+		advisor = {
+			slot =high_command
+			allowed  = {
+				original_tag =TEG
+			}
+			name =Augustus_Poole
+			cost =100
+			removal_cost =150
+			traits = {
+				warmonger
+			}
+		}
+		field_marshal = {
+		traits = {
+			organizer
+			war_hero
+		}
+		skill = 4
+		attack_skill = 3
+		defense_skill = 5
+		planning_skill = 4
+		logistics_skill = 4
+		}
+	}
+	
+	TEG_char_id_7={
+		portraits={
+		civilian={
+		small="GFX_idea_CHI_soong_mei_ling"
+		}
+		}
+		advisor = {
+		slot =high_command
+		allowed  = {
+		original_tag =TEG
+		}
+		name =TEG7
+		cost =100
+		removal_cost =150
+		traits = {
+		railroad_enthusiast
+		}
+		}
+		corps_commander = {
+		traits = {
+			organizer
+		}
+		skill = 3
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 2
+		}
+	}
 TEG_char_id_8={
 portraits={
 civilian={
@@ -235,194 +337,142 @@ cornered_fox
 }
 }
 }
-TEG_char_id_12={
-portraits={
-civilian={
-large="gfx/leaders/RAV/fallan_heckmann.dds"
-}
-}
-country_leader={
-ideology =monarchy
-traits = {}
-expire="8000.1.1.1"
-id=-1
-}
-}
-TEG_char_id_13={
-name =TEG13
-portraits={
-army={
-large="GFX_portrait_USA_arleigh_burke"
-small="GFX_portrait_USA_arleigh_burke_small"
-}
-}
-corps_commander = {
-traits = {
-media_personality
-media_personality
-media_personality
-media_personality
-career_officer
-}
-skill = 5
-attack_skill = 3
-defense_skill = 5
-planning_skill = 1
-logistics_skill = 2
-}
-}
-TEG_char_id_14={
-name =TEG14
-portraits={
-army={
-large="GFX_portrait_USA_arleigh_burke"
-small="GFX_portrait_USA_arleigh_burke_small"
-}
-}
-corps_commander = {
-traits = {
-brilliant_strategist
-infantry_officer
-trait_reckless
-trait_reckless
-trait_reckless
-}
-skill = 2
-attack_skill = 2
-defense_skill = 4
-planning_skill = 4
-logistics_skill = 1
-}
-}
-TEG_char_id_15={
-name =TEG15
-portraits={
-army={
-large="GFX_portrait_USA_arleigh_burke"
-small="GFX_portrait_USA_arleigh_burke_small"
-}
-}
-corps_commander = {
-traits = {
-bearer_of_artillery
-trait_reckless
-}
-skill = 3
-attack_skill = 1
-defense_skill = 1
-planning_skill = 2
-logistics_skill = 5
-}
-}
-TEG_char_id_16={
-name =TEG16
-portraits={
-army={
-large="GFX_portrait_USA_arleigh_burke"
-small="GFX_portrait_USA_arleigh_burke_small"
-}
-}
-corps_commander = {
-traits = {
-old_guard
-trait_reckless
-}
-skill = 2
-attack_skill = 1
-defense_skill = 5
-planning_skill = 4
-logistics_skill = 5
-}
-}
-TEG_char_id_17={
-name =TEG17
-portraits={
-army={
-large="GFX_portrait_USA_arleigh_burke"
-small="GFX_portrait_USA_arleigh_burke_small"
-}
-}
-corps_commander = {
-traits = {
-bearer_of_artillery
-cavalry_officer
-armor_officer
-cavalry_officer
-}
-skill = 1
-attack_skill = 1
-defense_skill = 1
-planning_skill = 3
-logistics_skill = 5
-}
-}
-TEG_char_id_18={
-name =TEG18
-portraits={
-army={
-large="GFX_portrait_USA_arleigh_burke"
-small="GFX_portrait_USA_arleigh_burke_small"
-}
-}
-corps_commander = {
-traits = {
-war_hero
-harsh_leader
-cavalry_officer
-brilliant_strategist
-cavalry_officer
-}
-skill = 5
-attack_skill = 2
-defense_skill = 3
-planning_skill = 3
-logistics_skill = 3
-}
-}
-TEG_char_id_19={
-name =TEG19
-portraits={
-army={
-large="GFX_portrait_USA_arleigh_burke"
-small="GFX_portrait_USA_arleigh_burke_small"
-}
-}
-corps_commander = {
-traits = {
-media_personality
-bearer_of_artillery
-career_officer
-}
-skill = 2
-attack_skill = 1
-defense_skill = 5
-planning_skill = 3
-logistics_skill = 1
-}
-}
-TEG_char_id_20={
-name =TEG20
-portraits={
-army={
-large="GFX_portrait_USA_arleigh_burke"
-small="GFX_portrait_USA_arleigh_burke_small"
-}
-}
-corps_commander = {
-traits = {
-old_guard
-bearer_of_artillery
-inflexible_strategist
-trait_cautious
-war_hero
-}
-skill = 4
-attack_skill = 4
-defense_skill = 4
-planning_skill = 5
-logistics_skill = 1
-}
-}
+
+#leaders of country
+	#old leader
+	Antony_Curtis={
+		portraits={
+			civilian={
+				large="gfx/leaders/RAV/fallan_heckmann.dds"
+			}
+		}
+		country_leader={
+			ideology =monarchy
+			traits = {}
+			expire="8000.1.1.1"
+			id=-1
+		}
+	}
+	
+	#new leader - Global TeGort plan
+	Oscar_Arnold={
+		portraits={
+			civilian={
+				large="gfx/leaders/RAV/fallan_heckmann.dds"
+			}
+		}
+		country_leader={
+			ideology =monarchy
+			traits = {}
+			expire="8000.1.1.1"
+			id=-1
+		}
+	}
+
+#simple generals - green guard
+	TEG_char_id_14={
+		name =TEG14
+		portraits={
+			army={
+				large="GFX_portrait_USA_arleigh_burke"
+				small="GFX_portrait_USA_arleigh_burke_small"
+			}
+		}
+		corps_commander = {
+		traits = {
+			trait_reckless
+		}
+		skill = 2
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 1
+		}
+	}
+	
+	
+	TEG_char_id_15={
+		name =TEG15
+		portraits={
+			army={
+				large="GFX_portrait_USA_arleigh_burke"
+				small="GFX_portrait_USA_arleigh_burke_small"
+			}
+		}
+		corps_commander = {
+		traits = {
+			bearer_of_artillery
+		}
+		skill = 2
+		attack_skill = 1
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 1
+		}
+	}
+	
+	TEG_char_id_16={
+		name = TEG16
+		portraits={
+		army={
+			large="GFX_portrait_USA_arleigh_burke"
+			small="GFX_portrait_USA_arleigh_burke_small"
+		}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+	
+	TEG_char_id_17={
+		name =TEG17
+		portraits={
+			army={
+				large="GFX_portrait_USA_arleigh_burke"
+				small="GFX_portrait_USA_arleigh_burke_small"
+			}
+		}
+		corps_commander = {
+			traits = {
+				cavalry_officer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	
+	TEG_char_id_18={
+		name =TEG18
+		portraits={
+			army={
+				large="GFX_portrait_USA_arleigh_burke"
+				small="GFX_portrait_USA_arleigh_burke_small"
+			}
+		}
+		corps_commander = {
+			traits = {
+				cavalry_officer
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	
+#really many float generals and advisors
+
 TEG_char_id_21={
 name =TEG_char_id_21
 portraits={
