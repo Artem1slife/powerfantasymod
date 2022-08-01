@@ -1,0 +1,507 @@
+focus_tree = {
+	id = iron_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AEM
+		}
+	}
+	default = no
+	focus = {
+		id = AEM_iron_state
+		icon = GFX_goal_demand_sudetenland
+		cost = 5
+		x = 4
+		y = 0
+		completion_reward = {
+			add_political_power = 200
+			add_stability = 0.25
+			add_war_support = 0.25
+		}
+	}
+	focus = {
+		id = AEM_rascon_sklady
+		icon = GFX_goal_generic_construction2
+		cost = 5
+		x = 8
+		y = 0
+		available = {
+			has_completed_focus = AEM_time_to_work
+		}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = medium_tank_chassis_3
+				amount = 300
+				producer = AEM
+				variant_name = "Unknown Armor"
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_3
+				amount = 1500
+				producer = AEM
+			}
+		}
+	}
+	focus = {
+		id = AEM_voenkampan
+		icon = GFX_goal_generic_position_armies
+		cost = 3
+		x = 12
+		y = 0
+		available = {
+			has_completed_focus = AEM_road_to_new_world
+		}
+	}
+	focus = {
+		id = AEM_humanisation
+		icon = GFX_goal_generic_national_unity
+		cost = 5
+		prerequisite = {
+			focus = AEM_iron_state
+		}
+		mutually_exclusive = {
+			focus = AEM_cybernisation
+		}
+		x = 3
+		y = 1
+		completion_reward = {
+			hidden_effect = {
+				set_character_name = {
+					character = AEM_old_bebronyukh
+					name = zhiv_ae
+				}
+				set_cosmetic_tag = AEM_live
+			}
+			custom_effect_tooltip = AEM_HUMANISATION_tt
+		}
+
+	}
+	focus = {
+		id = AEM_positive1
+		icon = GFX_goal_generic_neutrality_focus
+		cost = 5
+		prerequisite = {
+			focus = AEM_humanisation
+		}
+		completion_reward = {
+			add_war_support = 0.2
+			add_political_power = 100
+		}
+		x = 3
+		y = 2
+
+	}
+	focus = {
+		id = AEM_positive2
+		icon = GFX_goal_generic_propaganda
+		cost = 5
+		prerequisite = {
+			focus = AEM_positive1
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = AEM_propagander
+				days = 2000
+			}
+		}
+		x = 3
+		y = 3
+
+	}
+	focus = {
+		id = AEM_cybernisation
+		icon = GFX_goal_generic_production2
+		cost = 5
+		prerequisite = {
+			focus = AEM_iron_state
+		}
+		mutually_exclusive = {
+			focus = AEM_humanisation
+		}
+		x = 5
+		y = 1
+		completion_reward = {
+			hidden_effect = {
+				set_character_name = {
+					character = AEM_old_bebronyukh
+					name = cyber_ae
+				}
+				set_cosmetic_tag = AEM_tech
+				create_faction = 47747693828887
+				remove_ideas = AEM_legions_of_iron
+				add_ideas = AEM_legions_of_iron_num
+				set_party_name = {
+					ideology = neutrality
+					long_name = AEM_neutrality_party_num
+					name = AEM_neutrality_party_num
+				}
+			}
+			custom_effect_tooltip = AEM_CYBERNISATION_tt
+		}
+	}
+	focus = {
+		id = AEM_cybernisation2
+		icon = GFX_goal_generic_production
+		cost = 5
+		prerequisite = {
+			focus = AEM_cybernisation
+		}
+		completion_reward = {
+			add_stability = 0.2
+			add_political_power = 100
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = AEM_cybernisation3
+		icon = GFX_goal_generic_army_motorized
+		cost = 5
+		prerequisite = {
+			focus = AEM_cybernisation2
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = AEM_5282757891878299749392829874
+				days = 2000
+			}
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = AEM_gprom
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 5
+		prerequisite = {
+			focus = AEM_rascon_sklady
+		}
+		x = 7
+		y = 1
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = AEM_mprom
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 5
+		prerequisite = {
+			focus = AEM_rascon_sklady
+		}
+		x = 9
+		y = 1
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = AEM_infrastructure
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 5
+		prerequisite = {
+			focus = AEM_mprom
+		}
+		prerequisite = {
+			focus = AEM_gprom
+		}
+		x = 8
+		y = 2
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = AEM_new_capital
+		icon = GFX_goal_generic_construct_civilian
+		cost = 10
+		prerequisite = {
+			focus = AEM_infrastructure
+		}
+		x = 8
+		y = 3
+		completion_reward = {
+			if = {
+				limit = {
+					has_completed_focus = AEM_cybernisation
+				}
+				set_province_name = {
+					id = 3217
+					name = AEM_capital_num
+				}
+			}
+			if = {
+				limit = {
+					has_completed_focus = AEM_humanisation
+				}
+				set_province_name = {
+					id = 3217
+					name = AEM_capital
+				}
+			}
+			set_victory_points = {
+				province = 3217
+				value = 20
+			}
+		}
+	}
+	focus = {
+		id = AEM_attack_north
+		icon = GFX_goal_generic_attack_allies
+		cost = 10
+		prerequisite = {
+			focus = AEM_voenkampan
+		}
+		x = 11
+		y = 1
+
+	}
+	focus = {
+		id = AEM_attack_south
+		icon = GFX_goal_generic_attack_allies
+		cost = 10
+		prerequisite = {
+			focus = AEM_voenkampan
+		}
+		x = 13
+		y = 1
+
+	}
+	focus = {
+		id = AEM_minus_zveri
+		icon = GFX_goal_generic_wolf_pack
+		cost = 5
+		prerequisite = {
+			focus = AEM_attack_north
+		}
+		prerequisite = {
+			focus = AEM_attack_south
+		}
+		x = 12
+		y = 2
+
+	}
+	focus = {
+		id = AEM_coring
+		icon = GFX_goal_demand_sudetenland
+		cost = 0
+		prerequisite = {
+			focus = AEM_minus_zveri
+		}
+		x = 12
+		y = 3
+
+	}
+	focus = {
+		id = AEM_time_to_work
+		icon = GFX_goal_generic_air_doctrine
+		cost = 5
+		prerequisite = {
+			focus = AEM_cybernisation3
+			focus = AEM_positive2
+		}
+		x = 4
+		y = 4
+
+	}
+	focus = {
+		id = AEM_road_to_new_world
+		icon = GFX_goal_generic_air_production
+		cost = 5
+		prerequisite = {
+			focus = AEM_new_capital
+		}
+		x = 8
+		y = 4
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = AEM_the_new_order
+		icon = GFX_goal_generic_fortify_city
+		cost = 1
+		prerequisite = {
+			focus = AEM_coring
+		}
+		x = 12
+		y = 4
+
+	}
+}

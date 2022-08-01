@@ -1,0 +1,85 @@
+﻿
+add_namespace = ancient_empire
+
+country_event = {
+	id = ancient_empire.1
+	title = ancient_empire.1.t
+	desc = ancient_empire.1.d
+
+	picture = GFX_report_event_china_ledo_road
+	is_triggered_only = yes
+	option = {
+		name = ancient_empire.1.a
+		ai_chance = { factor = 1 }
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_3
+			amount = 150
+			producer = AEM
+		}
+	}
+}
+country_event = {
+	id = ancient_empire.2
+	title = ancient_empire.2.t
+	desc = ancient_empire.2.d
+
+	picture = GFX_report_event_china_ledo_road
+	is_triggered_only = yes
+	option = {
+		name = ancient_empire.2.a
+		ai_chance = { factor = 1 }
+		add_equipment_to_stockpile = {
+			type = medium_tank_chassis_3
+			amount = 15
+			producer = AEM
+			variant_name = "Unknown Armor"
+		}
+	}
+}
+country_event = {
+	id = ancient_empire.3
+	title = ancient_empire.3.t
+	desc = ancient_empire.3.d
+
+	picture = GFX_report_event_china_ledo_road
+	is_triggered_only = yes
+	option = {
+		name = ancient_empire.3.a
+		create_equipment_variant = {
+			name = "Sonic"
+			type = medium_tank_chassis_3
+			parent_version = 0
+				modules = {
+					main_armament_slot = tank_small_cannon_2
+					turret_type_slot = tank_medium_two_man_tank_turret
+					suspension_type_slot = tank_christie_suspension
+					armor_type_slot = tank_welded_armor
+					engine_type_slot = tank_diesel_engine
+					special_type_slot_1 = sloped_armor
+				}
+				upgrades = {
+					tank_nsb_engine_upgrade = 1000
+					tank_nsb_armor_upgrade = 0
+				}
+			obsolete = no
+			icon = "GFX_ancient_armor"
+		}
+	}
+}
+country_event = {
+	id = ancient_empire.4
+	title = ancient_empire.4.t
+	desc = ancient_empire.4.d
+
+	picture = GFX_report_event_china_ledo_road
+	is_triggered_only = yes
+	option = {
+		name = ancient_empire.4.a
+		add_equipment_to_stockpile = {
+			type = medium_tank_chassis_3
+			amount = 500
+			producer = AEM
+			variant_name = "Gas gas gas"
+		}
+	}
+}

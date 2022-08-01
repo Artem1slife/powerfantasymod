@@ -1,0 +1,17 @@
+characters = {
+	
+	AEM_old_bebronyukh = {
+		name = AEM_old_bebronyukh
+		portraits = {
+			civilian = {
+				large="gfx/leaders/AEM/aeternus.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarianism
+			expire = "8000.1.1.1"
+			id = -1
+		}
+	}
+	
+}

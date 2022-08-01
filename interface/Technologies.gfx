@@ -6190,4 +6190,14 @@ spriteTypes = {
 		name = GFX_IPO_hellhound
 		texturefile = gfx/interface/technologies/ipo_hellhound.dds
 	}
+	
+	SpriteType = {
+		name = "GFX_AEM_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/AEM_infantry_equipment_3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ancient_armor"
+		texturefile = "gfx/interface/technologies/ancient_armor.dds"
+	}
 }

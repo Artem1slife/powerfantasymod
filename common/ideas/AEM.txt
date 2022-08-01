@@ -1,0 +1,38 @@
+ideas = {
+	country = {
+		AEM_legions_of_iron = {
+			modifier = {
+				weekly_manpower = 250
+				army_org_factor = 0.15
+				conscription_factor = -1
+			}
+			picture = legions_of_iron
+		}
+		AEM_legions_of_iron_num = {
+			modifier = {
+				weekly_manpower = 250
+				army_org_factor = 0.15
+				conscription_factor = -1
+			}
+			picture = legions_of_iron
+		}
+		AEM_propagander = {
+			modifier = {
+				stability_factor = 0.25
+				war_support_factor = 0.25
+				democratic_drift = 0.05
+				neutrality_drift = 0.05
+			}
+			picture = FRA_national_mobilization_focus
+		}
+		AEM_5282757891878299749392829874 = {
+			modifier = {
+				stability_factor = 0.25
+				war_support_factor = 0.25
+				fascism_drift = 0.05
+				neutrality_drift = 0.05
+			}
+			picture = generic_secret_police
+		}
+	}
+}

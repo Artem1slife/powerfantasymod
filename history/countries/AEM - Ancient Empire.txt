@@ -1,0 +1,52 @@
+capital = 1
+
+#Её так-то не должно существовать на карте, это типа наследие прошлого, но настолько далёкого, что название империи уже никто не помнит
+
+set_research_slots = 3
+set_stability = 0.1
+set_war_support = 0.1
+set_oob = "FRA_1936"
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 0
+	communism = 0
+	democratic = 0
+	neutrality = 100
+	destruction = 0
+}
+
+set_technology = {
+	infantry_weapons = 1
+	advanced_infantry_weapons = 1
+	gw_artillery = 1
+	basic_train = 1
+	advanced_medium_tank_chassis = 1
+}
+
+create_equipment_variant = {
+	name = "Unknown Armor"
+	type = medium_tank_chassis_3
+	parent_version = 0
+		modules = {
+			main_armament_slot = tank_small_cannon_2
+			turret_type_slot = tank_medium_two_man_tank_turret
+			suspension_type_slot = tank_christie_suspension
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_diesel_engine
+			special_type_slot_1 = sloped_armor
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 20
+			tank_nsb_armor_upgrade = 20
+		}
+	obsolete = no
+	icon = "GFX_ancient_armor"
+}
+
+recruit_character = AEM_old_bebronyukh
+add_ideas = { AEM_legions_of_iron }

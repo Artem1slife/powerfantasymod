@@ -6470,5 +6470,11 @@ spriteTypes = {
 		name = "GFX_idea_pf_poten_power"
 		texturefile = "gfx/interface/ideas/pf_poten_power.dds"
 	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_legions_of_iron"
+		texturefile = "gfx/interface/ideas/legions_of_iron.dds"
+	}
 
 }
