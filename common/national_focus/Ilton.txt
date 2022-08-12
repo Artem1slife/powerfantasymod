@@ -1,0 +1,155 @@
+focus_tree = {
+	id = Ilton
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GIL
+		}
+	}
+	default = no
+	focus = {
+		id = GIL_feb_const
+		icon = GFX_focus_hol_the_foundations_of_defense
+		cost = 5,00
+		mutually_exclusive = {
+			focus = GIL_race_with_par
+		}
+		x = 3
+		y = 0
+			completion_reward = {
+					add_stability = -0.2
+					add_political_power = 100
+					add_popularity = {
+							ideology = neutrality
+							popularity = -0.2
+						}
+				}
+
+	}
+	focus = {
+		id = GIL_race_with_par
+		icon = GFX_focus_generic_military_dictatorship
+		cost = 10,00
+		mutually_exclusive = {
+			focus = GIL_feb_const
+		}
+		x = 5
+		y = 0
+			completion_reward = {
+					add_stability = 0.2
+					add_political_power = -100
+					add_popularity = {
+							ideology = neutrality
+							popularity = 0.2
+						}
+				}
+
+	}
+	focus = {
+		id = GIL_bur_sup
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 10,00
+		prerequisite = {
+			focus = GIL_feb_const
+		}
+		x = 3
+		y = 1
+			completion_reward = {
+					add_stability = -0.15
+					add_political_power = -100
+				}
+
+	}
+	focus = {
+		id = GIL_ex_zas
+		icon = GFX_focus_generic_treaty
+		cost = 10,00
+		prerequisite = {
+			focus = GIL_bur_sup
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = GIL_sot_army
+		icon = GFX_focus_generic_military_mission
+		cost = 10,00
+		prerequisite = {
+			focus = GIL_race_with_par
+		}
+		x = 5
+		y = 1
+			completion_reward = {
+					add_timed_idea = {
+							idea = GIL_in_army
+							days = 180
+						}
+				}
+
+	}
+	focus = {
+		id = GIL_destroy_collectivist
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 10,00
+		prerequisite = {
+			focus = GIL_sot_army
+			focus = GIL_bur_sup
+		}
+		x = 4
+		y = 2
+
+	}
+	focus = {
+		id = GIL_mil_pol
+		icon = GFX_focus_generic_manpower
+		cost = 10,00
+		prerequisite = {
+			focus = GIL_sot_army
+		}
+		x = 6
+		y = 2
+			completion_reward = {
+					add_stability = -0.15
+					add_political_power = -200
+					add_popularity = {
+							ideology = neutrality
+							popularity = 0.2
+						}
+					add_popularity = {
+							ideology = democratic
+							popularity = -0.3
+						}
+				}
+
+	}
+	focus = {
+		id = GIL_shoot_in_adm
+		icon = GFX_focus_generic_strike_at_democracy1
+		cost = 10,00
+		prerequisite = {
+			focus = GIL_mil_pol
+		}
+		prerequisite = {
+			focus = GIL_destroy_collectivist
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = GIL_ins_204
+		icon = GFX_goal_generic_position_armies
+		cost = 10,00
+		prerequisite = {
+			focus = GIL_ex_zas
+		}
+		prerequisite = {
+			focus = GIL_destroy_collectivist
+		}
+		x = 3
+		y = 3
+
+	}
+}

@@ -7,7 +7,7 @@ focus_tree = {
 			tag = AUR
 		}
 	}
-	default = yes
+	default = no
 	
 	focus = {
 		id = AUR_not_my_first_year

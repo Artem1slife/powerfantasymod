@@ -672,5 +672,10 @@ spriteTypes = {
 		textureFile = "gfx/interface/autonomy/autonomy_autonomous_province.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_autonomy_clique_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_clique.dds"
+	}
+	
 	#####
 }

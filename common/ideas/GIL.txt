@@ -1,0 +1,19 @@
+ideas = {
+	country = {
+		GIL_in_army = {
+			picture = generic_army_problems
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_org_factor = -0.1
+				army_attack_factor = -0.1
+				army_defence_factor = -0.1
+				army_speed_factor = -0.3
+				max_command_power = -50
+			}
+		}
+	}
+}

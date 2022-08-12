@@ -7,7 +7,7 @@
 			tag = NIF
 		}
 	}
-	default = yes
+	default = no
 	
 	continuous_focus_position = { x = 2750 y = 950 }
 
