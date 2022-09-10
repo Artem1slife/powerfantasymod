@@ -1,0 +1,30 @@
+add_namespace = cle_events
+
+
+country_event = {
+	id = cle_events.1
+	title = cle_events.1.title
+	desc = cle_events.1.desc
+	
+	is_triggered_only = yes 
+	
+	option = {
+		name = cle_events.1.a 
+		trigger = {
+			original_tag = IPO
+		}
+	}
+	
+	option = {
+		name = cle_events.1.b 
+		trigger = {
+			original_tag = APO
+		}
+	}
+	
+	option = {
+		name = cle_events.1.c 
+		trigger = {
+			original_tag = ROI
+		}
+	}

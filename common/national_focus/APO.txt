@@ -130,7 +130,7 @@ focus_tree = {
 		id = APO_illegalizm
 		icon = GFX_APO_illegalizm
 		x = 7
-		y = 0
+		y = 1
 		cost = 2
 		search_filters = {
 			FOCUS_FILTER_STABILITY
