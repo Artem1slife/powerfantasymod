@@ -17,6 +17,17 @@ TST_black_market = {
 				}
 			}
 		}
+		visible = {
+			NOT = {
+				original_tag = APO
+				original_tag = IPO
+				original_tag = ROI
+				original_tag = BBB
+				original_tag = BBM
+				original_tag = BBT
+				original_tag = BEC
+			}
+		}
 		days_re_enable = 1
 		days_remove = 14
 		cost = 25
@@ -50,6 +61,17 @@ TST_black_market = {
 				PIR = {
 					infantry_equipment < 20000000
 				}
+			}
+		}
+		visible = {
+			NOT = {
+				original_tag = APO
+				original_tag = IPO
+				original_tag = ROI
+				original_tag = BBB
+				original_tag = BBM
+				original_tag = BBT
+				original_tag = BEC
 			}
 		}
 		days_re_enable = 1
@@ -87,6 +109,17 @@ TST_black_market = {
 				}
 			}
 		}
+		visible = {
+			NOT = {
+				original_tag = APO
+				original_tag = IPO
+				original_tag = ROI
+				original_tag = BBB
+				original_tag = BBM
+				original_tag = BBT
+				original_tag = BEC
+			}
+		}
 		days_re_enable = 1
 		days_remove = 14
 		cost = 25
@@ -120,6 +153,17 @@ TST_black_market = {
 				PIR = {
 					artillery_equipment < 9999
 				}
+			}
+		}
+		visible = {
+			NOT = {
+				original_tag = APO
+				original_tag = IPO
+				original_tag = ROI
+				original_tag = BBB
+				original_tag = BBM
+				original_tag = BBT
+				original_tag = BEC
 			}
 		}
 		days_re_enable = 1
@@ -157,6 +201,17 @@ TST_black_market = {
 				}
 			}
 		}
+		visible = {
+			NOT = {
+				original_tag = APO
+				original_tag = IPO
+				original_tag = ROI
+				original_tag = BBB
+				original_tag = BBM
+				original_tag = BBT
+				original_tag = BEC
+			}
+		}
 		days_re_enable = 1
 		days_remove = 14
 		cost = 25
@@ -190,6 +245,17 @@ TST_black_market = {
 				PIR = {
 					artillery_equipment < 9999
 				}
+			}
+		}
+		visible = {
+			NOT = {
+				original_tag = APO
+				original_tag = IPO
+				original_tag = ROI
+				original_tag = BBB
+				original_tag = BBM
+				original_tag = BBT
+				original_tag = BEC
 			}
 		}
 		days_re_enable = 1
@@ -227,6 +293,17 @@ TST_black_market = {
 				}
 			}
 		}
+		visible = {
+			NOT = {
+				original_tag = APO
+				original_tag = IPO
+				original_tag = ROI
+				original_tag = BBB
+				original_tag = BBM
+				original_tag = BBT
+				original_tag = BEC
+			}
+		}
 		days_re_enable = 1
 		days_remove = 14
 		cost = 25
@@ -260,6 +337,17 @@ TST_black_market = {
 				PIR = {
 					motorized_equipment < 9999
 				}
+			}
+		}
+		visible = {
+			NOT = {
+				original_tag = APO
+				original_tag = IPO
+				original_tag = ROI
+				original_tag = BBB
+				original_tag = BBM
+				original_tag = BBT
+				original_tag = BEC
 			}
 		}
 		days_re_enable = 1
@@ -297,6 +385,17 @@ TST_black_market = {
 				}
 			}
 		}
+		visible = {
+			NOT = {
+				original_tag = APO
+				original_tag = IPO
+				original_tag = ROI
+				original_tag = BBB
+				original_tag = BBM
+				original_tag = BBT
+				original_tag = BEC
+			}
+		}
 		days_re_enable = 1
 		days_remove = 14
 		cost = 25
@@ -330,6 +429,17 @@ TST_black_market = {
 				PIR = {
 					support_equipment < 9999
 				}
+			}
+		}
+		visible = {
+			NOT = {
+				original_tag = APO
+				original_tag = IPO
+				original_tag = ROI
+				original_tag = BBB
+				original_tag = BBM
+				original_tag = BBT
+				original_tag = BEC
 			}
 		}
 		days_re_enable = 1
@@ -367,6 +477,17 @@ TST_black_market = {
 				}
 			}
 		}
+		visible = {
+			NOT = {
+				original_tag = APO
+				original_tag = IPO
+				original_tag = ROI
+				original_tag = BBB
+				original_tag = BBM
+				original_tag = BBT
+				original_tag = BEC
+			}
+		}
 		days_re_enable = 1
 		days_remove = 14
 		cost = 25
@@ -400,6 +521,17 @@ TST_black_market = {
 				PIR = {
 					support_equipment < 9999
 				}
+			}
+		}
+		visible = {
+			NOT = {
+				original_tag = APO
+				original_tag = IPO
+				original_tag = ROI
+				original_tag = BBB
+				original_tag = BBM
+				original_tag = BBT
+				original_tag = BEC
 			}
 		}
 		days_re_enable = 1
@@ -437,6 +569,17 @@ TST_black_market = {
 				}
 			}
 		}
+		visible = {
+			NOT = {
+				original_tag = APO
+				original_tag = IPO
+				original_tag = ROI
+				original_tag = BBB
+				original_tag = BBM
+				original_tag = BBT
+				original_tag = BEC
+			}
+		}
 		days_re_enable = 1
 		days_remove = 14
 		cost = 25
@@ -472,6 +615,17 @@ TST_black_market = {
 				}
 			}
 		}
+		visible = {
+			NOT = {
+				original_tag = APO
+				original_tag = IPO
+				original_tag = ROI
+				original_tag = BBB
+				original_tag = BBM
+				original_tag = BBT
+				original_tag = BEC
+			}
+		}
 		days_re_enable = 1
 		days_remove = 14
 		cost = 25
@@ -505,6 +659,17 @@ TST_black_market = {
 				PIR = {
 					fighter_equipment < 9999
 				}
+			}
+		}
+		visible = {
+			NOT = {
+				original_tag = APO
+				original_tag = IPO
+				original_tag = ROI
+				original_tag = BBB
+				original_tag = BBM
+				original_tag = BBT
+				original_tag = BEC
 			}
 		}
 		days_re_enable = 1
