@@ -555,5 +555,21 @@ ideas = {
 				tag=IPO
 			}
 		}
+		
+		CC_desertion = {
+			picture = bad_army
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				max_planning = -100
+				max_dig_in_factor = -100
+				experience_gain_army_unit_factor = -1
+				dig_in_speed = -2
+				army_morale = -100
+			}
+		}
 	}
 }

@@ -1,19 +1,19 @@
 art_and_trad = {
 	##!!ПОСЛЕ ПРОЧТЕНИЯ ПОДСКАСКИ СЖЕЧЬ!!
 	##Я даю тебе два примера: в столбик, как обычно, и в строчку, что занимает меньше места. Выбор за тобой.
-	CHANGE_aat_1 = {
-		#available = { сюда ты можешь прописать любой триггер, который будет виден игроку, а можешь и нет, как хочешь }
-		visible = { has_idea = tradition_broken_kingdom } #триггер, который игрок не видет, и о котором не узнает. В случае невыполнения условий, решение не показывается
-		days_remove = 70 #сколько дней будет "удалятся" решение
-		cost = 150 #стоимость
-		fire_only_once = yes #доступно только 1 раз
-		ai_will_do = { base = 10 } #насколько сильно АИ будет хотеть прожать решение
-		remove_effect = { #сам, собственно, эффект, прописывай что хочешь
-			swap_ideas = {
-				remove_idea = tradition_broken_kingdom
-				add_idea = tradition_restored_kingdom
-			}
-		}
-	}
-	CHANGE_aat_taa_1 = { visible = { has_idea = tradition_broken_kingdom } days_remove = 70 cost = 150 fire_only_once = yes ai_will_do = { base = 10 } remove_effect = { swap_ideas = { remove_idea = tradition_broken_kingdom add_idea = tradition_restored_kingdom } } }
+	#CHANGE_aat_1 = {
+	#	#available = { сюда ты можешь прописать любой триггер, который будет виден игроку, а можешь и нет, как хочешь }
+	#	visible = { always = no #has_idea = tradition_broken_kingdom } #триггер, который игрок не видет, и о котором не узнает. В случае невыполнения условий, решение не показывается
+	#	days_remove = 70 #сколько дней будет "удалятся" решение
+	#	cost = 150 #стоимость
+	#	fire_only_once = yes #доступно только 1 раз
+	#	ai_will_do = { base = 10 } #насколько сильно АИ будет хотеть прожать решение
+	#	remove_effect = { #сам, собственно, эффект, прописывай что хочешь
+	#		swap_ideas = {
+	#			remove_idea = tradition_broken_kingdom
+	#			add_idea = tradition_restored_kingdom
+	#		}
+	#	}
+	#}
+	#CHANGE_aat_taa_1 = { visible = { always = no } days_remove = 70 cost = 150 fire_only_once = yes ai_will_do = { base = 10 } remove_effect = { swap_ideas = { remove_idea = tradition_broken_kingdom add_idea = tradition_restored_kingdom } } }
 }

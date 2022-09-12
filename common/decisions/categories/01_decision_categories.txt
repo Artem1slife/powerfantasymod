@@ -3,6 +3,13 @@ TST_black_market = {
 	visible = {
 		NOT = {
 			tag = PIR
+			original_tag = APO
+			original_tag = IPO
+			original_tag = ROI
+			original_tag = BBB
+			original_tag = BBM
+			original_tag = BBT
+			original_tag = BEC
 		}
 	}
 }
@@ -14,6 +21,7 @@ RAV_centralization = {
 }
 cursed_continent = {
 	icon = GRE_faction_management
+	picture = GFX_cursed_continent_cat # здесь может быть ваша картинка! находится по пути gfx/interface/decisions
 	visible = {
 		OR = {
 			original_tag = IPO

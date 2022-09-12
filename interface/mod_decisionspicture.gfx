@@ -1,0 +1,8 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_cursed_continent_cat"
+		texturefile = "gfx/interface/decisions/cursed_continent_cat.dds"
+	}
+
+}

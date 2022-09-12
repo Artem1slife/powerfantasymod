@@ -15,6 +15,50 @@ cursed_continent = {
 	PFCC_integrate_imperial_slands = { visible = { OR = { controls_state = 15 controls_state = 14 controls_state = 13 controls_state = 10 controls_state = 12 } 12 = { NOT = { is_core_of = ROOT } } } days_remove = 70 highlight_states = { highlight_state_targets = { state = 12 } } remove_effect = { add_state_core = 15 add_state_core = 14 add_state_core = 13  add_state_core = 12 add_state_core = 10 } cost = 50 ai_will_do = { base = 100 } }
 	PFCC_integrate_7 = { visible = { controls_state = 7 7 = { NOT = { is_core_of = ROOT } } } days_remove = 70 highlight_states = { highlight_state_targets = { state = 7 } } remove_effect = { add_state_core = 7 } cost = 50 ai_will_do = { base = 100 } }
 	
+	CC_announce_war = {
+		allowed = {
+			
+		}
+		
+		available = {
+			
+		}
+		
+		activation = {
+			OR = {
+				original_tag = IPO
+				original_tag = APO
+				original_tag = ROI
+				original_tag = FSR
+				original_tag = MYO
+				original_tag = STH
+				original_tag = ICR
+				original_tag = SKT
+			}
+			NOT = { has_idea = CC_desertion }
+		}
+		
+		is_good = no
+		
+		days_mission_timeout = 100
+		days_re_enable = 7
+
+		selectable_mission = yes
+		cost = 100
+		
+		timeout_effect = {
+			add_ideas = CC_desertion
+		}
+
+		cancel_effect = {
+			
+		}
+		
+		complete_effect = {
+			
+		}
+	}
+	
 	APO_demobilisation = {
 		icon = ger_military_buildup
 		available = { has_idea = IPO_wartime NOT = { country_exists = APO country_exists = ROI } }
