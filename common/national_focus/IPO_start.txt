@@ -1,6 +1,6 @@
 focus_tree = {
 	id = IPO_start
-	continuous_focus_position = { x = 150 y = 2610 } 
+	continuous_focus_position = { x = 150 y = 1205 } 
 	country = {
 		factor = 0
 		modifier = {
@@ -24,28 +24,13 @@ focus_tree = {
 		}
 	}
 
-	#Обращение к народу
-	focus = {
-		id = IPO_obrashchenieknarodu
-		icon = GFX_focus_generic_treaty
-		x = 16
-		y = 4
-		cost = 2
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = IPO_ktonashvrag  }
-		completion_reward = {
-			add_stability = 0.05
-		}
-	}
-
 	#Охота
 	focus = {
 		id = IPO_ohota
 		icon = GFX_focus_focus_fra_maquis
-		x = 10
+		x = -2
 		y = 1
+		relative_position_id = IPO_beskonechnayaistoriya
 		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -60,8 +45,9 @@ focus_tree = {
 	focus = {
 		id = IPO_vargeymy
 		icon = GFX_focus_generic_combined_arms
-		x = 12
+		x = 0
 		y = 1
+		relative_position_id = IPO_beskonechnayaistoriya
 		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -76,8 +62,9 @@ focus_tree = {
 	focus = {
 		id = IPO_boks
 		icon = GFX_focus_GRE_reviving_the_spartan_warrior_spirit
-		x = 14
+		x = 2
 		y = 1
+		relative_position_id = IPO_beskonechnayaistoriya
 		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -92,8 +79,9 @@ focus_tree = {
 	focus = {
 		id = IPO_raut
 		icon = GFX_focus_rom_parties_end
-		x = 12
+		x = 0
 		y = 2
+		relative_position_id = IPO_beskonechnayaistoriya
 		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -104,330 +92,576 @@ focus_tree = {
 		}
 	}
 
-	#Подготовка  - авто выполнение
+	#Военная машина империи
 	focus = {
-		id = IPO_podgotovka
+		id = IPO_woennaya_mashina_imperiyi
 		icon = GFX_focus_generic_manpower
-		x = 8
-		y = 3
+		x = -5
+		y = 1
+		relative_position_id = IPO_raut
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = IPO_raut  }
-		mutually_exclusive = { focus = IPO_ktonashvrag  }
 		ai_will_do = { factor = 50 }
-		completion_reward = {
-			add_political_power = 50
-		}
-	}
-
-	#Кто наш враг? - авто выполнение
-	focus = {
-		id = IPO_ktonashvrag
-		icon = GFX_goal_unknown
-		x = 16
-		y = 3
-		cost = 3
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = IPO_raut  }
-		mutually_exclusive = { focus = IPO_podgotovka  }
-		ai_will_do = { factor = 50 }
-		completion_reward = {
-			add_political_power = -100
-		}
-	}
-
-	#Поездка в Авалон
-	focus = {
-		id = IPO_poezdkavavalon
-		icon = GFX_focus_hol_prepare_the_inundation_lines
-		x = 14
-		y = 5
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = IPO_obrashchenieknarodu  }
-		completion_reward = {
-			add_political_power = -150
-		}
-	}
-
-	#Аграрная реформа
-	focus = {
-		id = IPO_agrarnayareforma
-		icon = GFX_goal_generic_position_armies
-		x = 16
-		y = 5
-		cost = 7
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		prerequisite = { focus = IPO_obrashchenieknarodu }
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = IPO_desert_lands
-				add_idea = IPO_desert_lands_1
-			}
-		}
-	}
-
-	#Буква закона
-	focus = {
-		id = IPO_bukvazakona
-		icon = GFX_focus_eng_special_air_service
-		x = 18
-		y = 5
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = IPO_obrashchenieknarodu  }
-		completion_reward = {
-			add_ideas = { IPO_law }
-			add_stability = 0.1
-		}
-	}
-
-	#Прекратить гонения на Свет
-	focus = {
-		id = IPO_prekratitgoneniyanasvet
-		icon = GFX_focus_focus_fra_national_resistance_council
-		x = 14
-		y = 8
-		cost = 3
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = IPO_poezdkavavalon  }
-		completion_reward = {
-			add_stability = -0.05
-			add_popularity = {
-				ideology = democratic
-				popularity = 0.05
-			}
-		}
-	}
-
-	#Допустить реформы
-	focus = {
-		id = IPO_dopustitreformy
-		icon = GFX_goal_generic_positive_trade_relations
-		x = 18
-		y = 8
-		cost = 3
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = IPO_bukvazakona }
-		completion_reward = {
-			add_political_power = 150
-			add_stability = -0.05
-			add_war_support = -0.05
-		}
-	}
-
-	#Отказ от греха
-	focus = {
-		id = IPO_otkazotgreha
-		icon = GFX_focus_spr_crush_the_revolution
-		x = 16
-		y = 9
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = IPO_prekratitgoneniyanasvet } prerequisite = { focus = IPO_dopustitreformy  }
-		completion_reward = {
-			add_popularity = {
-				ideology = destruction
-				popularity = -0.1
-			}
-		}
-	}
-
-	#Усмирить магию
-	focus = {
-		id = IPO_usmiritmagiyu
-		icon = GFX_focus_generic_air_defense
-		x = 18
-		y = 11
-		cost = 3
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		prerequisite = { focus = IPO_reformaobrazovaniya  } prerequisite = { focus = IPO_reformamediciny  }
 		completion_reward = {
 			
 		}
 	}
 
-	#Показательный аскетизм двора
+	#Внутренние интриги
 	focus = {
-		id = IPO_pokazatelnyyasketizmdvora
-		icon = GFX_goal_generic_propaganda
-		x = 15
-		y = 10
+		id = IPO_vnutrenniye_intrigi
+		icon = GFX_goal_unknown
+		x = 5
+		y = 1
+		relative_position_id = IPO_raut
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_raut  }
+		ai_will_do = { factor = 50 }
+		completion_reward = {
+			
+		}
+	}
+
+	#Посетить ставку
+	focus = {
+		id = IPO_posetit_stavku
+		icon = GFX_focus_hol_prepare_the_inundation_lines
+		x = 0
+		y = 1
+		relative_position_id = IPO_raut
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_ARMY_XP
+		}
+		prerequisite = { focus = IPO_raut  }
+		completion_reward = {
+			army_experience = 10
+			country_event = { id = IPO_stavka.1 days = 2 }
+		}
+	}
+
+	#Тяготы мобилизации
+	focus = {
+		id = IPO_tyagoty_mobilizatsiyi
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		relative_position_id = IPO_woennaya_mashina_imperiyi
+		cost = 20
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = IPO_woennaya_mashina_imperiyi }
+		completion_reward = {
+			
+		}
+	}
+
+	#Военная промышленность
+	focus = {
+		id = IPO_woennaya_promyshlennost
+		icon = GFX_focus_eng_special_air_service
+		x = 2
+		y = 1
+		relative_position_id = IPO_woennaya_mashina_imperiyi
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_woennaya_mashina_imperiyi  }
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = { is_core_of = ROOT }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Разговоры с идейными
+	focus = {
+		id = IPO_razgovory_s_ideynymi
+		icon = GFX_focus_focus_fra_national_resistance_council
+		x = -1
+		y = 1
+		relative_position_id = IPO_posetit_stavku
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ARMY_XP
+		}
+		prerequisite = { focus = IPO_posetit_stavku  }
+		completion_reward = {
+			army_experience = 20
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+
+	#Пресечь коррупцию
+	focus = {
+		id = IPO_presech_korruptsyu
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 1
+		y = 1
+		relative_position_id = IPO_posetit_stavku
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_posetit_stavku }
+		completion_reward = {
+			add_political_power = 100
+			# я бы сделал со старта нац.дух, связанный с коррупцией, но может есть другие планы
+		}
+	}
+
+	#Важно сохранять человечность
+	focus = {
+		id = IPO_wazjno_sohranyat_chelowechnost
+		icon = GFX_focus_POL_beck_ribbentrop
+		x = -2
+		y = 1
+		relative_position_id = IPO_vnutrenniye_intrigi
 		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = IPO_otkazotgreha  }
+		prerequisite = { focus = IPO_vnutrenniye_intrigi }
+		mutually_exclusive = { focus = IPO_naslediye_tyomnyh_sil }
 		completion_reward = {
-			add_ideas = { IPO_asceticism }
+			
 		}
 	}
 
-	#Гордыня
+	#Наследие темных сил
 	focus = {
-		id = IPO_gordynya
-		icon = GFX_focus_hol_united_netherlands
+		id = IPO_naslediye_tyomnyh_sil
+		icon = GFX_focus_spr_masters_of_our_own_fate
 		x = 2
-		y = 11
-		cost = 2
+		y = 1
+		relative_position_id = IPO_vnutrenniye_intrigi
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		available = {
-			has_completed_focus = IPO_kultdeteytmy
+		prerequisite = { focus = IPO_vnutrenniye_intrigi }
+		mutually_exclusive = { focus = IPO_wazjno_sohranyat_chelowechnost }
+		completion_reward = {
+			
+		}
+	}
+
+	#Расширение солдатских коммун
+	focus = {
+		id = IPO_rasshireniye_soldatskih_kommun
+		icon = GFX_focus_generic_little_entente
+		x = -1
+		y = 1
+		relative_position_id = IPO_tyagoty_mobilizatsiyi
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = IPO_tyagoty_mobilizatsiyi  }
+		mutually_exclusive = {
+			focus = IPO_svernut_shirokiy_prizyv
 		}
 		completion_reward = {
-			add_timed_idea = {
-				idea = IPO_pride
-				days = 720
+			random_owned_controlled_state = {
+				limit = { is_core_of = ROOT }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
 			}
 		}
 	}
 
-	#Зависть
+	#Свернуть широкий призыв
 	focus = {
-		id = IPO_zavist
-		icon = GFX_focus_prc_infiltration
+		id = IPO_svernut_shirokiy_prizyv
+		icon = GFX_focus_generic_treaty
+		x = 2
+		y = 1
+		relative_position_id = IPO_tyagoty_mobilizatsiyi
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = IPO_tyagoty_mobilizatsiyi  }
+		mutually_exclusive = {
+			focus = IPO_rasshireniye_soldatskih_kommun
+		}
+		completion_reward = {
+			every_state = {
+				limit = { 
+					is_core_of = ROOT 
+					is_controlled_by = ROOT
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			random_owned_controlled_state = {
+				limit = { is_core_of = ROOT }
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Реанимация гражданского производства
+	focus = {
+		id = IPO_reanimatsya_grazjdanskogo_proisvodstva
+		icon = GFX_focus_generic_industry_2
 		x = 1
-		y = 10
-		cost = 2
+		y = 1
+		relative_position_id = IPO_woennaya_promyshlennost
+		cost = 10
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INDUSTRY
 		}
-		available = {
-			has_completed_focus = IPO_kultdeteytmy
-		}
+		prerequisite = { focus = IPO_woennaya_promyshlennost  }
 		completion_reward = {
-			add_timed_idea = {
-				idea = IPO_envy
-				days = 720
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = industry
+			}
+			random_owned_controlled_state = {
+				limit = { is_core_of = ROOT }
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
 			}
 		}
 	}
 
-	#Чревоугодие
+	#Прихоти офицерства
 	focus = {
-		id = IPO_chrevougodie
-		icon = GFX_IPO_chrevougodie-4
-		x = 3
-		y = 9
-		cost = 2
+		id = IPO_prihoty_oficerstva
+		icon = GFX_focus_generic_military_dictatorship
+		x = 1
+		y = 1
+		relative_position_id = IPO_razgovory_s_ideynymi
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = IPO_razgovory_s_ideynymi }
+		prerequisite = { focus = IPO_presech_korruptsyu }
+		completion_reward = {
+			
+		}
+	}
+
+	#Исключить братания с зомби
+	focus = {
+		id = IPO_iskluchit_brataniya_s_zomby
+		icon = GFX_goal_generic_secret_weapon
+		x = -1
+		y = 1
+		relative_position_id = IPO_wazjno_sohranyat_chelowechnost
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = IPO_wazjno_sohranyat_chelowechnost  }
+		completion_reward = {
+			
+		}
+	}
+
+	#Спонсировать аристократию
+	focus = {
+		id = IPO_sponsirovat_aristokratiyu
+		icon = GFX_focus_mex_privatisation
+		x = 2
+		y = 1
+		relative_position_id = IPO_wazjno_sohranyat_chelowechnost
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		available = {
-			has_completed_focus = IPO_kultdeteytmy
+		prerequisite = { 
+			focus = IPO_wazjno_sohranyat_chelowechnost  
+			focus = IPO_naslediye_tyomnyh_sil
 		}
 		completion_reward = {
-			add_timed_idea = {
-				idea = IPO_gluttony
-				days = 720
+			
+		}
+	}
+
+	#Церковь греха поддержит войнов
+	focus = {
+		id = IPO_tserkov_greha_podderzjit_woinov
+		icon = GFX_focus_por_concordat
+		x = 1
+		y = 1
+		relative_position_id = IPO_naslediye_tyomnyh_sil
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ARMY_XP
+		}
+		prerequisite = { focus = IPO_naslediye_tyomnyh_sil }
+		completion_reward = {
+			custom_effect_tooltip = IPO_tserkov_greha_decisions_tooltip #триггера на появление решений не существует - нужно ставить условия в самих решениях
+		}
+	}
+
+	#Каждому оружие в руки!
+	focus = {
+		id = IPO_kazjdomu_oruzjiye_v_ruki
+		icon = GFX_focus_focus_fra_maquis
+		x = 0
+		y = 1
+		relative_position_id = IPO_rasshireniye_soldatskih_kommun
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_ARMY_XP
+		}
+		prerequisite = { focus = IPO_rasshireniye_soldatskih_kommun }
+		completion_reward = {
+			
+		}
+	}
+
+	#Качество, а не количество
+	focus = {
+		id = IPO_kachestvo_a_ne_kolichestvo
+		icon = GFX_focus_generic_combined_arms
+		x = 0
+		y = 1
+		relative_position_id = IPO_svernut_shirokiy_prizyv
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_ARMY_XP
+		}
+		prerequisite = { focus = IPO_svernut_shirokiy_prizyv }
+		completion_reward = {
+			
+		}
+	}
+
+	#Детский труд за станками
+	focus = {
+		id = IPO_detskiy_trud_za_stankamy
+		icon = GFX_focus_generic_industry_1
+		x = 0
+		y = 1
+		relative_position_id = IPO_reanimatsya_grazjdanskogo_proisvodstva
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = IPO_reanimatsya_grazjdanskogo_proisvodstva }
+		completion_reward = {
+			
+		}
+	}
+
+	#Элитный офицерский корпус
+	focus = {
+		id = IPO_elitny_oficersky_korpus
+		icon = GFX_focus_generic_military_academy
+		x = 0
+		y = 1
+		relative_position_id = IPO_prihoty_oficerstva
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ARMY_XP
+		}
+		prerequisite = { focus = IPO_prihoty_oficerstva }
+		prerequisite = { focus = IPO_reanimatsya_grazjdanskogo_proisvodstva }
+		completion_reward = {
+			
+		}
+	}
+
+	#Проповедовать превосходство человеческой расы
+	focus = {
+		id = IPO_propovedovat_prevoshodstvo_chelovecheskoy_rasy
+		icon = GFX_goal_generic_propaganda
+		x = 0
+		y = 1
+		relative_position_id = IPO_iskluchit_brataniya_s_zomby
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ARMY_XP
+		}
+		prerequisite = { focus = IPO_iskluchit_brataniya_s_zomby }
+		completion_reward = {
+			
+		}
+	}
+
+	#Мы бьемся против нечисти
+	focus = {
+		id = IPO_my_byomsya_protiv_nechisti
+		icon = GFX_goal_generic_secret_weapon
+		x = 2
+		y = 1
+		relative_position_id = IPO_iskluchit_brataniya_s_zomby
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ARMY_XP
+		}
+		prerequisite = { focus = IPO_iskluchit_brataniya_s_zomby  }
+		completion_reward = {
+			
+		}
+	}
+
+	#Война - это жертвоприношение
+	focus = {
+		id = IPO_voyna_eto_zjertvoprinosheniye
+		icon = GFX_goal_generic_attack_allies
+		x = -2
+		y = 1
+		relative_position_id = IPO_tserkov_greha_podderzjit_woinov
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ARMY_XP
+		}
+		prerequisite = { focus = IPO_tserkov_greha_podderzjit_woinov  }
+		completion_reward = {
+			swap_ideas = {
+				add_idea = IPO_dismoraled_army_1
+				remove_idea = IPO_dismoraled_army
 			}
 		}
 	}
 
-	#Блуд
+	#Культ детей тьмы
 	focus = {
-		id = IPO_blud
+		id = IPO_kult_detey_tmy
+		icon = GFX_focus_POL_sanation_right
+		x = 0
+		y = 1
+		relative_position_id = IPO_tserkov_greha_podderzjit_woinov
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ARMY_XP
+		}
+		prerequisite = { focus = IPO_tserkov_greha_podderzjit_woinov }
+		completion_reward = {
+			add_ideas = IPO_church_cult
+		}
+	}
+
+	#Сельскохозяйственные субсидии..
+	focus = {
+		id = IPO_sh_subsidiyi
 		icon = GFX_focus_generic_concessions
+		x = -5
+		y = 1
+		relative_position_id = IPO_detskiy_trud_za_stankamy
+		cost = 70
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = IPO_detskiy_trud_za_stankamy }
+		completion_reward = {
+			
+		}
+	}
+
+	#Заводские директории
+	focus = {
+		id = IPO_zavodskiye_directoriyi
+		icon = GFX_focus_SOV_merge_plants
+		x = -1
+		y = 1
+		relative_position_id = IPO_detskiy_trud_za_stankamy
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = IPO_detskiy_trud_za_stankamy }
+		completion_reward = {
+			
+		}
+	}
+
+	#Нелюди не имеют прав
+	focus = {
+		id = IPO_neludi_ne_imeyut_prav
+		icon = GFX_goal_generic_forceful_treaty
 		x = 1
-		y = 9
-		cost = 2
+		y = 1
+		relative_position_id = IPO_propovedovat_prevoshodstvo_chelovecheskoy_rasy
+		cost = 10
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_ARMY_XP
 		}
-		available = {
-			has_completed_focus = IPO_kultdeteytmy
-		}
+		prerequisite = { focus = IPO_propovedovat_prevoshodstvo_chelovecheskoy_rasy }
+		prerequisite = { focus = IPO_my_byomsya_protiv_nechisti }
 		completion_reward = {
-			add_timed_idea = {
-				idea = IPO_fornication
-				days = 720
-			}
+			
 		}
 	}
 
-	#Гнев
+	#Мы накормим каждого верного
 	focus = {
-		id = IPO_gnev
-		icon = GFX_focus_eng_expose_the_belly_of_the_bear
+		id = IPO_my_nakormim_kazjdogo_vernogo
+		icon = GFX_goal_generic_improve_relations
 		x = 1
-		y = 8
-		cost = 2
+		y = 1
+		relative_position_id = IPO_voyna_eto_zjertvoprinosheniye
+		cost = 10
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_ARMY_XP
 		}
-		available = {
-			has_completed_focus = IPO_kultdeteytmy
-		}
+		prerequisite = { focus = IPO_voyna_eto_zjertvoprinosheniye }
+		prerequisite = { focus = IPO_kult_detey_tmy }
 		completion_reward = {
-			add_timed_idea = {
-				idea = IPO_anger
-				days = 720
+			swap_ideas = {
+				add_idea = IPO_dismoraled_army_2
+				remove_idea = IPO_dismoraled_army_1
 			}
 		}
 	}
 
-	#Уныние
+	#Покончить с паразитом!
 	focus = {
-		id = IPO_unynie
-		icon = GFX_IPO_unynie-59
-		x = 3
-		y = 10
-		cost = 2
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available = {
-			has_completed_focus = IPO_kultdeteytmy
-		}
-		completion_reward = {
-			add_timed_idea = {
-				idea = IPO_despondency
-				days = 720
-			}
-		}
-	}
-
-	#Вернуть вирус в лабораторию!
-	focus = {
-		id = IPO_vernutvirusvlaboratoriyu
-		icon = GFX_IPO_vernutvirusvlaboratoriyu-412
-		x = 8
-		y = 8
+		id = IPO_pokonchit_s_parazitom
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 2
+		relative_position_id = IPO_elitny_oficersky_korpus
 		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		bypass = {
-			if = {
-				OR = {
-					NOT = {
-						country_exists = ROI
-					}
-					has_war_with = ROI
-				}
-			}
+		prerequisite = { focus = IPO_elitny_oficersky_korpus } 
+		prerequisite = { focus = IPO_zavodskiye_directoriyi }
+		prerequisite = { 
+			focus = IPO_neludi_ne_imeyut_prav 
+			focus = IPO_my_nakormim_kazjdogo_vernogo
 		}
-		prerequisite = { focus = IPO_otkazotsocpolitiki  } prerequisite = { focus = IPO_kultdeteytmy  } prerequisite = { focus = IPO_vsenazavod  }
+		will_lead_to_war_with = ROI
 		completion_reward = {
 			declare_war_on = {
 				target = ROI
@@ -436,741 +670,115 @@ focus_tree = {
 		}
 	}
 
-	#Алчность
+	#Воззвание к лоялистам
 	focus = {
-		id = IPO_alchnost
-		icon = GFX_focus_mex_privatisation
-		x = 3
-		y = 8
-		cost = 2
+		id = IPO_vozzvaniye_k_loyalistam
+		icon = GFX_goal_generic_demand_territory
+		x = -2
+		y = 1
+		relative_position_id = IPO_pokonchit_s_parazitom
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = IPO_pokonchit_s_parazitom }
+		completion_reward = {
+			
+		}
+	}
+
+	#Разобраться с западным бандитизмом
+	focus = {
+		id = IPO_razobratsya_s_zapadnym_banditismom
+		icon = GFX_goal_generic_political_pressure
+		x = 2
+		y = 1
+		relative_position_id = IPO_pokonchit_s_parazitom
+		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
-			has_completed_focus = IPO_kultdeteytmy
+			NOT = { has_war_with = ROI }
 		}
+		prerequisite = { focus = IPO_pokonchit_s_parazitom }
 		completion_reward = {
-			add_timed_idea = {
-				idea = IPO_greed
-				days = 720
-			}
+			
 		}
 	}
 
-	#Вернуть весь остров!
+	#Слабые места опухоли
 	focus = {
-		id = IPO_vernutvesostrov
-		icon = GFX_goal_generic_territory_or_war
-		x = 8
-		y = 9
-		cost = 1
+		id = IPO_slabye_mesta_opuholy
+		icon = GFX_focus_spa_eliminate_the_carlists
+		x = 0
+		y = 1
+		relative_position_id = IPO_vozzvaniye_k_loyalistam
+		cost = 5
 		search_filters = {
-			FOCUS_FILTER_WAR_SUPPORT
+			FOCUS_FILTER_POLITICAL
 		}
 		available = {
-			NOT = {
-				country_exists = ROI
-			}
+			has_war_with = ROI
 		}
 		bypass = {
-			if = {
-				OR = {
-					NOT = {
-						country_exists = APO
-					}
-					has_war_with = APO
-				}	
-			}
+			ROI = { exists = no }
 		}
-		prerequisite = { focus = IPO_vernutvirusvlaboratoriyu  }
+		prerequisite = { focus = IPO_vozzvaniye_k_loyalistam }
 		completion_reward = {
-			declare_war_on = {
-				target = APO
-				type = annex_everything
-			}
-			if = {
-				limit = {
-					country_exists = BBB
-				}
-				declare_war_on = {
-					target = BBB
-					type = annex_everything
-				}
-			}
-			if = {
-				limit = {
-					country_exists = BBT
-				}
-				declare_war_on = {
-					target = BBT
-					type = annex_everything
-				}
-			}
-			if = {
-				limit = {
-					country_exists = BBM
-				}
-				declare_war_on = {
-					target = BBM
-					type = annex_everything
-				}
-			}
-			if = {
-				limit = {
-					country_exists = BEC
-				}
-				declare_war_on = {
-					target = BEC
-					type = annex_everything
-				}
-			}
-		}
-	}
-
-	#Реформа образования
-	focus = {
-		id = IPO_reformaobrazovaniya
-		icon = GFX_focus_generic_coastal_fort
-		x = 19
-		y = 10
-		cost = 3
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = IPO_otkazotgreha  }
-		completion_reward = {
-			add_political_power = -100
-			swap_ideas = {
-				 remove_idea = more_25_educated_sosaiti
-				 add_idea = more_50_educated_sosaiti
-			}
-		}
-	}
-
-	#"Новое мышление"
-	focus = {
-		id = IPO_novoemyshlenie
-		icon = GFX_focus_generic_military_academy
-		x = 13
-		y = 10
-		cost = 3
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = IPO_otkazotgreha  }
-		completion_reward = {
-			country_event = IPO_imperium_events.5
-		}
-	}
-
-	#Реформа медицины
-	focus = {
-		id = IPO_reformamediciny
-		icon = GFX_focus_generic_self_management
-		x = 17
-		y = 10
-		cost = 3
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = IPO_otkazotgreha  }
-		completion_reward = {
-			swap_ideas = {
-				 remove_idea = yes_medicine
-				 add_idea = good_medicine
-			}
-		}
-	}
-
-	#Отмена рабства
-	focus = {
-		id = IPO_otmenarabstva
-		icon = GFX_focus_hol_the_foundations_of_defense
-		x = 14
-		y = 11
-		cost = 3
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = IPO_novoemyshlenie  } prerequisite = { focus = IPO_pokazatelnyyasketizmdvora  }
-		completion_reward = {
-			country_event = IPO_imperium_events.4
-		}
-	}
-
-	#Покаяние
-	focus = {
-		id = IPO_pokayanie
-		icon = GFX_IPO_pokayanie-59
-		x = 16
-		y = 13
-		cost = 2
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = IPO_vernutkontrolnadostrovom }
-		completion_reward = {
-			#load new focus_tree
-		}
-		available = {
-			NOT = {
-				has_idea = IPO_wartime
-			}
-		}
-	}
-
-	#Империя Зла
-	focus = {
-		id = IPO_imperiyazla
-		icon = GFX_focus_eng_special_air_service
-		x = 8
-		y = 10
-		cost = 1
-		available = {
-			NOT = {
-				has_idea = IPO_wartime
-			}
-		}
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = IPO_vernutvesostrov }
-		completion_reward = {
-			load_focus_tree = ipo-united
-		}
-	}
-
-	#Крысы против корабля
-	focus = {
-		id = IPO_krysyprotivkorablya
-		icon = GFX_focus_AST_rats_tobruk
-		x = 6
-		y = 4
-		cost = 2
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = IPO_podgotovka  }
-		ai_will_do = { factor = 1 }
-		completion_reward = {
-			add_ideas = { IPO_bad_law }
-		}
-	}
-
-	#Отмена экономики
-	focus = {
-		id = IPO_otmenaekonomiki
-		icon = GFX_focus_fra_devalue_the_franc
-		x = 10
-		y = 4
-		cost = 3
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		prerequisite = { focus = IPO_podgotovka  }
-		completion_reward = {
-			swap_ideas = {
-				 remove_idea = more_50_poor
-				 add_idea = more_75_poor
-			}
-		}
-	}
-
-	#Талоны
-	focus = {
-		id = IPO_talony
-		icon = GFX_focus_hol_abandon_the_gold_standard
-		x = 9
-		y = 5
-		cost = 3
-		search_filters = {
-			FOCUS_FILTER_STABILITY
-		}
-		prerequisite = { focus = IPO_otmenaekonomiki  }
-		completion_reward = {
-			add_ideas = { IPO_talon }
-		}
-	}
-
-	#Наркотики
-	focus = {
-		id = IPO_narkotiki
-		icon = GFX_goal_generic_construction
-		x = 11
-		y = 5
-		cost = 2
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		prerequisite = { focus = IPO_otmenaekonomiki  }
-		completion_reward = {
-			random_owned_controlled_state = {
-			limit = {
-			free_building_slots = {
-			building = industrial_complex
-			size > 0
-			include_locked = yes
-			}
-			}
-			add_extra_state_shared_building_slots = 1
-			add_building_construction = {
-			type = industrial_complex
-			level = 1
-			instant_build = yes
-			}
-			set_state_flag = IPO
-			}
-		}
-	}
-
-	#Солдатская община
-	focus = {
-		id = IPO_soldatskayaobshchina
-		icon = GFX_focus_generic_commonwealth_build_infantry
-		x = 7
-		y = 5
-		cost = 3
-		search_filters = {
-			FOCUS_FILTER_MANPOWER
-		}
-		prerequisite = { focus = IPO_krysyprotivkorablya  }
-		completion_reward = {
-			add_ideas = { IPO_soldier_community }
-		}
-	}
-
-	#Гибкая система доносов
-	focus = {
-		id = IPO_gibkayasistemadonosov
-		icon = GFX_focus_eng_concessions_to_the_trade_unions
-		x = 5
-		y = 5
-		cost = 2
-		search_filters = {
-			FOCUS_FILTER_STABILITY
-		}
-		prerequisite = { focus = IPO_krysyprotivkorablya }
-		completion_reward = {
-			add_ideas = { IPO_denunciation }
-		}
-	}
-
-	#Отмена отличий
-	focus = {
-		id = IPO_otmenaotlichiy
-		icon = GFX_focus_eng_move_to_secure_the_dominions
-		x = 8
-		y = 6
-		cost = 2
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = IPO_talony  } prerequisite = { focus = IPO_soldatskayaobshchina }
-		completion_reward = {
-			add_ideas = IPO_n3152
-		}
-	}
-
-	#Отказ от соц. политики
-	focus = {
-		id = IPO_otkazotsocpolitiki
-		icon = GFX_goal_generic_forceful_treaty
-		x = 8
-		y = 7
-		cost = 3
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = IPO_otmenaotlichiy  }
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = more_25_educated_sosaiti
-				add_idea = not_educated_sosaiti
-			}
-			swap_ideas = {
-				remove_idea = yes_medicine
-				add_idea = no_medicine
-			}
-		}
-	}
-
-	#Все на завод!
-	focus = {
-		id = IPO_vsenazavod
-		icon = GFX_goal_generic_air_production
-		x = 11
-		y = 7
-		cost = 3
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		prerequisite = { focus = IPO_narkotiki  }
-		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 0
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-				set_state_flag = IPO
-			}
-		}
-	}
-
-	#Культ детей Тьмы
-	focus = {
-		id = IPO_kultdeteytmy
-		icon = GFX_focus_spr_masters_of_our_own_fate
-		x = 5
-		y = 7
-		cost = 2
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = IPO_gibkayasistemadonosov }
-		completion_reward = {
-			add_ideas = { IPO_church_of_cult }
-		}
-	}
-
-	#Одна судьба
-	focus = {
-		id = IPO_odnasudba
-		icon = GFX_focus_generic_the_giant_wakes
-		x = 22
-		y = 11
-		cost = 3
-		search_filters = {
-			FOCUS_FILTER_STABILITY
-		}
-		prerequisite = { focus = IPO_platazanashigrehi }
-		prerequisite = { focus = IPO_primerenie }
-		completion_reward = {
-			add_popularity = {
-				ideology = fascism
-				popularity = -0.2
-			}
-			set_country_leader_ideology = neutrality
-			add_popularity = {
-				ideology = neutrality
-				popularity = 0.2
-			}
-		}
-	}
-
-	#Новые рабочие места
-	focus = {
-		id = IPO_novyerabochiemesta
-		icon = GFX_goal_generic_construct_civ_factory
-		x = 16
-		y = 6
-		cost = 3
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		prerequisite = { focus = IPO_agrarnayareforma  }
-		completion_reward = {
-			random_owned_controlled_state = {
-			limit = {
-			free_building_slots = {
-			building = industrial_complex
-			size > 0
-			include_locked = yes
-			}
-			}
-			add_extra_state_shared_building_slots = 1
-			add_building_construction = {
-			type = industrial_complex
-			level = 1
-			instant_build = yes
-			}
-			set_state_flag = IPO
-			}
-			
-			random_owned_controlled_state = {
-			limit = {
-			free_building_slots = {
-			building = industrial_complex
-			size > 0
-			include_locked = yes
-			}
-			}
-			add_extra_state_shared_building_slots = 1
-			add_building_construction = {
-			type = industrial_complex
-			level = 1
-			instant_build = yes
-			}
-			set_state_flag = IPO
-			}
-			
 			
 		}
 	}
 
-	#Обеспечить безопасность
+	#Вырезать болячку
 	focus = {
-		id = IPO_obespechitbezopasnost
-		icon = GFX_goal_generic_construct_mil_factory
-		x = 16
-		y = 7
-		cost = 7
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		prerequisite = { focus = IPO_novyerabochiemesta  }
-		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 0
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-				set_state_flag = IPO
-			}
-		}
-	}
-
-	#Зачистить земли от болезни
-	focus = {
-		id = IPO_zachistitzemliotbolezni
-		icon = GFX_focus_generic_strike_at_democracy1
-		x = 21
-		y = 8
-		cost = 3
+		id = IPO_vyrezat_bolyachku
+		icon = GFX_focus_RAJ_indian_gurkhas
+		x = 2
+		y = 1
+		relative_position_id = IPO_vozzvaniye_k_loyalistam
+		cost = 20
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		available = {
-			has_completed_focus = IPO_ktonashvrag
-			controls_state = 492
-			controls_state = 493
-			controls_state = 494
-			controls_state = 7
-		}
+		prerequisite = { focus = IPO_vozzvaniye_k_loyalistam }
 		completion_reward = {
-			492 = {
-				add_extra_state_shared_building_slots = 3
-			}
-			493 = {
-				add_extra_state_shared_building_slots = 2
-			}
-			494 = {
-				add_extra_state_shared_building_slots = 1
-			}
-			7 = {
-				add_extra_state_shared_building_slots = 1
-			}
-			add_stability = 0.05
+			
 		}
 	}
 
-	#Помочь зараженным
+	#Прикончить анархистов
 	focus = {
-		id = IPO_pomochzarazhennym
-		icon = GFX_goal_generic_consumer_goods
-		x = 21
-		y = 9
-		cost = 3
-		search_filters = {
-			FOCUS_FILTER_STABILITY
-		}
-		prerequisite = { focus = IPO_zachistitzemliotbolezni  }
-		available = {
-			controls_state = 498
-			controls_state = 492
-			controls_state = 493
-			controls_state = 494
-			controls_state = 7
-		}
-		completion_reward = {
-			add_war_support = -0.05
-			add_political_power = -300
-			498 = {
-				add_manpower = -222666
-			}
-			492 = {
-				add_manpower = 107842
-				custom_effect_tooltip = IPO_onimperian
-				hidden_effect = {
-					remove_dynamic_modifier = { modifier = nation_monneran }
-					add_dynamic_modifier = { modifier = nation_onimperian }
-				}
-			}
-			493 = {
-				add_manpower = 77926
-				custom_effect_tooltip = IPO_onimperian
-				hidden_effect = {
-					remove_dynamic_modifier = { modifier = nation_monneran }
-					add_dynamic_modifier = { modifier = nation_onimperian }
-				}
-			}
-			494 = {
-				add_manpower = 33278
-				custom_effect_tooltip = IPO_onimperian
-				hidden_effect = {
-					remove_dynamic_modifier = { modifier = nation_monneran }
-					add_dynamic_modifier = { modifier = nation_onimperian }
-				}
-			}
-			7 = {
-				add_manpower = 3622
-				custom_effect_tooltip = IPO_onimperian
-				hidden_effect = {
-					remove_dynamic_modifier = { modifier = nation_monneran }
-					add_dynamic_modifier = { modifier = nation_onimperian }
-				}
-			}
-		}
-	}
-
-	#Вернуть контроль над островом
-	focus = {
-		id = IPO_vernutkontrolnadostrovom
-		icon = GFX_goal_generic_major_war
-		x = 16
-		y = 12
-		cost = 3
-		search_filters = {
-			FOCUS_FILTER_WAR_SUPPORT
-		}
-		bypass = {
-			if = {
-				AND = {
-					NOT = {
-						country_exists = ROI
-					}
-					NOT = {
-						country_exists = APO
-					}
-				}
-			}
-		}
-		prerequisite = { focus = IPO_otmenarabstva  } prerequisite = { focus = IPO_usmiritmagiyu  } prerequisite = { focus = IPO_zapretitradikalov  }
-		completion_reward = {
-			if = {
-				limit = {
-					country_exists = ROI
-				}
-				declare_war_on = {
-					target = ROI
-					type = annex_everything
-				}
-			}
-			if = {
-				limit = {
-					country_exists = APO
-				}
-				declare_war_on = {
-					target = APO
-					type = annex_everything
-				}
-			}
-		}
-	}
-
-	#Плата за наши грехи
-	focus = {
-		id = IPO_platazanashigrehi
-		icon = GFX_focus_mex_privatisation
-		x = 21
-		y = 10
-		cost = 3
+		id = IPO_prikonchit_anarchistov
+		icon = GFX_goal_generic_more_territorial_claims
+		x = 0
+		y = 1
+		relative_position_id = IPO_razobratsya_s_zapadnym_banditismom
+		cost = 20
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = IPO_pomochzarazhennym  }
+		prerequisite = { focus = IPO_razobratsya_s_zapadnym_banditismom }
 		completion_reward = {
-			add_political_power = -50
+			
 		}
 	}
 
-	#Дайте им сказать
+	#Империя здесь навсегда
 	focus = {
-		id = IPO_dayteimskazat
-		icon = GFX_goal_generic_neutrality_focus
-		x = 23
-		y = 8
-		cost = 3
-		search_filters = {
-			FOCUS_FILTER_STABILITY
-		}
-		available = {
-			has_completed_focus = IPO_ktonashvrag
-			NOT = {
-				country_exists = APO
-				country_exists = BBB
-				country_exists = BBM
-				country_exists = BBT
-				country_exists = BEC
-			}
-			controls_state = 171
-		}
-		completion_reward = {
-			add_popularity = {
-				ideology = communism
-				popularity = 0.1
-			}
-		}
-	}
-
-	#Примерение
-	focus = {
-		id = IPO_primerenie
-		icon = GFX_goal_generic_national_unity
-		x = 23
-		y = 10
-		cost = 3
+		id = IPO_imperiya_zdes_navsegda
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		relative_position_id = IPO_vyrezat_bolyachku
+		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = IPO_dayteimskazat  }
+		prerequisite = { focus = IPO_vyrezat_bolyachku }
+		prerequisite = { focus = IPO_prikonchit_anarchistov }
 		completion_reward = {
-			add_stability = 0.15
-			add_war_support = 0.15
-			add_popularity = {
-				ideology = neutrality
-				popularity = 0.05
-			}
-		}
-	}
-
-	#Запретить радикалов!
-	focus = {
-		id = IPO_zapretitradikalov
-		icon = GFX_focus_eng_move_to_secure_the_dominions
-		x = 16
-		y = 11
-		cost = 3
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = IPO_pokazatelnyyasketizmdvora  } prerequisite = { focus = IPO_reformamediciny  }
-		completion_reward = {
-			add_popularity = {
-				ideology = destruction
-				popularity = -0.3
-			}
-			add_popularity = {
-				ideology = communism
-				popularity = -0.3
-			}
+			
 		}
 	}
 

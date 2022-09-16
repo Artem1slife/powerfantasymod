@@ -962,3 +962,22 @@ country_event = {
 		}
 	}
 }
+
+add_namespace = IPO_stavka
+#Посещение ставки (фокус)
+country_event = {
+	id = IPO_stavka.1
+	title = IPO_stavka.1.t
+	desc = IPO_stavka.1.d
+	picture = GFX_report_event_bul_boris_military
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = IPO_stavka.1.a
+		ai_chance = { factor = 100 }
+		
+		add_political_power = 75
+	}
+}
