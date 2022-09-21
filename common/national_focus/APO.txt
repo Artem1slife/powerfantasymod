@@ -1,6 +1,6 @@
 focus_tree = {
 	id = 1
-	continuous_focus_position = { x = 0 y = 1800 } 
+	continuous_focus_position = { x = 40 y = 2000 } 
 	country = {
 		factor = 0
 		modifier = {
@@ -13,7 +13,7 @@ focus_tree = {
 	focus = {
 		id = APO_dolgiegody
 		icon = GFX_APO_dolgiegody
-		x = 5
+		x = 4
 		y = 0
 		cost = 2
 		search_filters = {
@@ -26,45 +26,168 @@ focus_tree = {
 		}
 	}
 
-	#Рыболовство и кромпир
+	#Наша коммуна
 	focus = {
-		id = APO_rybolovstvoikrompir
-		icon = GFX_goal_generic_positive_trade_relations
-		x = 6
-		y = 3
-		cost = 15
+		id = APO_nashakommuna
+		icon = GFX_focus_BUL_support_macedonian_organizations
+		x = 0
+		y = 1
+		relative_position_id = APO_dolgiegody
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_dolgiegody }
+		completion_reward = { 
+			release = BBM 
+			release = BBT
+			release = BBB
+			release = BEC
+			remove_ideas = APO_band_power
+		}
+	}
+
+	#Учет нужд
+	focus = {
+		id = APO_uchetnuzjd
+		icon = GFX_focus_BUL_support_macedonian_organizations
+		x = 2
+		y = 1
+		relative_position_id = APO_nashakommuna
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_nashakommuna }
+		completion_reward = { 
+			
+		}
+	}
+
+	#Созыв народного совета
+	focus = {
+		id = APO_sozyvnarodnogosovieta
+		icon = GFX_focus_BUL_support_macedonian_organizations
+		x = 0
+		y = 1
+		relative_position_id = APO_nashakommuna
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_nashakommuna }
+		completion_reward = { 
+			
+		}
+	}
+
+	#Учет способностей
+	focus = {
+		id = APO_uchetsposobnostey
+		icon = GFX_focus_BUL_support_macedonian_organizations
+		x = -2
+		y = 1
+		relative_position_id = APO_nashakommuna
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_nashakommuna }
+		completion_reward = { 
+			
+		}
+	}
+
+	#Институционализация
+	focus = {
+		id = APO_institucionalizatia
+		icon = GFX_focus_BUL_support_macedonian_organizations
+		x = 0
+		y = 1
+		relative_position_id = APO_sozyvnarodnogosovieta
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_uchetsposobnostey }
+		prerequisite = { focus = APO_sozyvnarodnogosovieta }
+		prerequisite = { focus = APO_uchetnuzjd }
+		completion_reward = { 
+			
+		}
+	}
+
+	#Закон об экономическом развитии
+	focus = {
+		id = APO_zakonobeconomicheskomrazvitiyi
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 13
+		y = 0
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = APO_reshenievoprosagoloda  } prerequisite = { focus = APO_nalazhivaniekontaktov  }
-		completion_reward = {
-			add_political_power = 50
-			random_owned_controlled_state = { add_building_construction = {type = infrastructurelevel = 5 instant_build = yes} }
-			swap_ideas = {
-				remove_idea = { APO_economic_pizdets2 }
-				add_idea = { APO_economic_pizdets }
+		available = {
+			has_completed_focus = APO_institucionalizatia
+		}
+		completion_reward = { 
+			add_political_power = 100
+			add_stability = 0.05
+		}
+	}
+
+	#Инфраструктурный план
+	focus = {
+		id = APO_infrastructurnyplan
+		icon = GFX_goal_generic_construct_infrastructure
+		x = -4
+		y = 1
+		relative_position_id = APO_zakonobeconomicheskomrazvitiyi
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = APO_zakonobeconomicheskomrazvitiyi }
+		completion_reward = { 
+			add_timed_idea = { idea = APO_build_infrastructure days = 365 } #идея, дающая скорость строительство инфраструктуры
+		}
+	}
+
+	#Поиск ресурсов
+	focus = {
+		id = APO_poiskresursov
+		icon = GFX_goal_generic_construction2
+		x = 0
+		y = 1
+		relative_position_id = APO_infrastructurnyplan
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = APO_infrastructurnyplan }
+		completion_reward = { 
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = excavation_tech
 			}
 		}
 	}
 
-	#Созыв РевВоенСовета
+	#Бригада по добыче недр
 	focus = {
-		id = APO_sozyvrevvoensoveta
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		x = 6
-		y = 4
-		cost = 10
+		id = APO_brigadapodobychenedr
+		icon = GFX_goal_generic_construct_civilian
+		x = 0
+		y = 1
+		relative_position_id = APO_poiskresursov
+		cost = 5
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = APO_rybolovstvoikrompir  }
-		completion_reward = {
-			add_political_power = 50
-			add_ideas = { APO_rev_soviet }
-			swap_ideas = {
-				remove_idea = { APO_political_pizdets3 }
-				add_idea = { APO_political_pizdets2 }
-			}
+		prerequisite = { focus = APO_poiskresursov }
+		completion_reward = { 
+			custom_effect_tooltip = APO_brigadapodobychenedr_tooltip
 		}
 	}
 
@@ -72,13 +195,14 @@ focus_tree = {
 	focus = {
 		id = APO_reshenievoprosagoloda
 		icon = GFX_focus_hol_abandon_the_gold_standard
-		x = 5
-		y = 2
-		cost = 1
+		x = -1
+		y = 1
+		relative_position_id = APO_zakonobeconomicheskomrazvitiyi
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
-		prerequisite = { focus = APO_nashakommuna  }
+		prerequisite = { focus = APO_zakonobeconomicheskomrazvitiyi }
 		completion_reward = {
 			add_political_power = 50
 			add_ideas = { APO_battle_with_famine }
@@ -89,165 +213,202 @@ focus_tree = {
 		}
 	}
 
-	#Налаживание контактов
+	#Рыболовство и кромпир
 	focus = {
-		id = APO_nalazhivaniekontaktov
-		icon = GFX_APO_nalazhivaniekontaktov
-		x = 7
-		y = 2
-		cost = 20
+		id = APO_rybolovstvoikrompir
+		icon = GFX_goal_generic_positive_trade_relations
+		x = -1
+		y = 1
+		relative_position_id = APO_reshenievoprosagoloda
+		cost = 15
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = APO_nashakommuna  }
+		prerequisite = { focus = APO_reshenievoprosagoloda }
 		completion_reward = {
 			add_political_power = 50
+			random_owned_controlled_state = { 
+				add_building_construction = {
+					type = infrastructure
+					level = 3 # ОНО ТЕБЯ СОЖРЕТ! Нельзя ставить 5, оно же переполнится!
+					instant_build = yes
+				} 
+			}
+			swap_ideas = {
+				remove_idea = { APO_economic_pizdets2 }
+				add_idea = { APO_economic_pizdets }
+			}
 		}
 	}
 
-	#Наша коммуна
+	#Торговля по воде
 	focus = {
-		id = APO_nashakommuna
-		icon = GFX_focus_BUL_support_macedonian_organizations
-		x = 5
+		id = APO_torgovlyapowode
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 0
 		y = 1
-		cost = 2
+		relative_position_id = APO_rybolovstvoikrompir
+		cost = 15
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = APO_dolgiegody  }
-		completion_reward = { release = BBM }
-		completion_reward = { release = BBT }
-		completion_reward = { release = BBB }
-		completion_reward = { release = BEC }
+		prerequisite = { focus = APO_rybolovstvoikrompir }
 		completion_reward = {
-			remove_ideas = { APO_band_power }
+			171 = {
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					instant_build = yes
+					province = 2912
+				} 
+			}
 		}
 	}
 
-	#Иллегализм
+	#Колхоз
 	focus = {
-		id = APO_illegalizm
-		icon = GFX_APO_illegalizm
-		x = 7
+		id = APO_kolhoz
+		icon = GFX_focus_yug_pan_slavic_congress
+		x = 1
 		y = 1
-		cost = 2
+		relative_position_id = APO_reshenievoprosagoloda
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = APO_reshenievoprosagoloda }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+
+	#Колхоз
+	focus = {
+		id = APO_brigadapoobsluzjivaniyukohozov
+		icon = GFX_goal_generic_consumer_goods
+		x = 0
+		y = 1
+		relative_position_id = APO_kolhoz
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = APO_kolhoz }
+		completion_reward = {
+			custom_effect_tooltip = APO_brigadapoobsluzjivaniyukohozov_tooltip
+		}
+	}
+
+	#Новые деньги
+	focus = {
+		id = APO_novyedengi
+		icon = GFX_focus_mex_privatisation
+		x = 2
+		y = 1
+		relative_position_id = APO_zakonobeconomicheskomrazvitiyi
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
-		prerequisite = { focus = APO_dolgiegody  }
-		ai_will_do = { factor = 50 }
+		prerequisite = { focus = APO_zakonobeconomicheskomrazvitiyi }
 		completion_reward = {
 			add_stability = 0.05
 		}
 	}
 
-	#Остановить бандитизм
+	#Контроль расходов
 	focus = {
-		id = APO_ostanovitbanditizm
-		icon = GFX_goal_generic_major_war
+		id = APO_controlrashodov
+		icon = GFX_goal_generic_consumer_goods
 		x = 0
-		y = 5
+		y = 1
+		relative_position_id = APO_novyedengi
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
-		prerequisite = { focus = APO_sozyvrevvoensoveta  }
-		ai_will_do = { factor = 100 }
+		prerequisite = { focus = APO_novyedengi }
 		completion_reward = {
-			add_timed_idea = {
-				idea = APO_mobilisation
-				days = 180
-			}
+			add_timed_idea = { idea = APO_controlrashodov days = 730 }
 		}
 	}
 
-	#Социальная реформа
+	#Против коррупции
 	focus = {
-		id = APO_socialnayareforma
-		icon = GFX_focus_spa_the_spanish_miracle
+		id = APO_protivcorruptsiyi
+		icon = GFX_focus_hol_abandon_the_gold_standard
+		x = 0
+		y = 1
+		relative_position_id = APO_controlrashodov
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = APO_controlrashodov }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+
+	#Таможня
+	focus = {
+		id = APO_tamozjnya
+		icon = GFX_goal_generic_intelligence_exchange
 		x = 4
-		y = 5
-		cost = 2
+		y = 1
+		relative_position_id = APO_zakonobeconomicheskomrazvitiyi
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
-		prerequisite = { focus = APO_sozyvrevvoensoveta  }
+		prerequisite = { focus = APO_zakonobeconomicheskomrazvitiyi }
+		completion_reward = {
+			custom_effect_tooltip = Alliance_disliked_this
+			subtract_from_variable = { 
+				var = APO_alliance #да кто такая ваша переменная, последний раз спрашиваю
+				value = 2 #да кто такое ваше значение переменной...
+			}
+		}
 	}
 
-	#Хватит бойни!
+	#Миграционный контроль
 	focus = {
-		id = APO_hvatitboyni
-		icon = GFX_focus_generic_little_entente
-		x = 1
-		y = 6
-		cost = 10
+		id = APO_migrationnycontrol
+		icon = GFX_goal_generic_national_unity
+		x = 0
+		y = 1
+		relative_position_id = APO_tamozjnya
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
-		ai_will_do = { factor = 100 }
-		prerequisite = { focus = APO_ostanovitbanditizm  } prerequisite = { focus = APO_socialnayareforma  }
+		prerequisite = { focus = APO_tamozjnya }
 		completion_reward = {
-		
-			swap_ideas = {
-				remove_idea = { APO_political_pizdets2 }
-				add_idea = { APO_political_pizdets1 }
-			}
-			
-			declare_war_on = {
-				target = BBM
-				type = civil_war
-			}
-			declare_war_on = {
-				target = BEC
-				type = civil_war
-			}
-			declare_war_on = {
-				target = BBT
-				type = civil_war
-			}
-			declare_war_on = {
-				target = BBB
-				type = civil_war
+			custom_effect_tooltip = Alliance_disliked_this
+			subtract_from_variable = { 
+				var = APO_alliance #да кто такая ваша переменная, последний раз спрашиваю
+				value = 2 #да кто такое ваше значение переменной...
 			}
 		}
 	}
 
-	#Медицинские бригады
+	#Женщины на завод
 	focus = {
-		id = APO_medicinskiebrigady
-		icon = GFX_focus_mex_restore_the_army_of_christ
-		x = 4
-		y = 6
-		cost = 10
+		id = APO_womannazavod
+		icon = GFX_focus_generic_industry_3
+		x = 0
+		y = 1
+		relative_position_id = APO_migrationnycontrol
+		cost = 5
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_STABILITY
 		}
-		prerequisite = { focus = APO_socialnayareforma  }
+		prerequisite = { focus = APO_migrationnycontrol }
 		completion_reward = {
-			add_ideas = { APO_medicine_brigade }
-			recruit_character = APO_Albert_Slave
-		}
-	}
-
-	#Железные дороги коммуны
-	focus = {
-		id = APO_zheleznyedorogikommuny
-		icon = GFX_goal_generic_construct_infrastructure
-		x = 3
-		y = 7
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		prerequisite = { focus = APO_medicinskiebrigady  }
-		
-		completion_reward = {
-			every_owned_state = {
-				limit = {
-					is_controlled_by = ROOT
-				}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
-					type = infrastructure
+					type = industrial_complex
 					level = 1
 					instant_build = yes
 				}
@@ -255,442 +416,1942 @@ focus_tree = {
 		}
 	}
 
+	#Государственное строительство (государственное?!)
+	focus = {
+		id = APO_gosudarstvennoyestroitelstvo
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 23
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available = {
+			has_completed_focus = APO_institucionalizatia
+		}
+		completion_reward = { 
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
+
+	#Права людей
+	focus = {
+		id = APO_pravaludey
+		icon = GFX_goal_generic_major_alliance
+		x = -3
+		y = 1
+		relative_position_id = APO_gosudarstvennoyestroitelstvo
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = APO_gosudarstvennoyestroitelstvo }
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+
+	#Опора на профсоюзы
+	focus = {
+		id = APO_oporanaprofsoyuzy
+		icon = GFX_goal_generic_forceful_treaty
+		x = 0
+		y = 1
+		relative_position_id = APO_pravaludey
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = APO_pravaludey }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+
+	#Поддержка семей
+	focus = {
+		id = APO_podderzjkasemey
+		icon = GFX_goal_generic_national_unity
+		x = 0
+		y = 1
+		relative_position_id = APO_oporanaprofsoyuzy
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = APO_oporanaprofsoyuzy }
+		completion_reward = {
+			
+		}
+	}
+
 	#Образовательная бригада
 	focus = {
 		id = APO_obrazovatelnayabrigada
-		icon = GFX_focus_research
-		x = 5
-		y = 7
+		icon = GFX_focus_generic_military_academy
+		x = -1
+		y = 1
+		relative_position_id = APO_gosudarstvennoyestroitelstvo
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = APO_medicinskiebrigady  }
+		prerequisite = { focus = APO_gosudarstvennoyestroitelstvo }
 		completion_reward = {
 			add_ideas = { APO_education_brigade }
 			recruit_character = APO_Illion_Freedom
 		}
 	}
 
-	#Культура коммунны
+	#Медицинская бригада
 	focus = {
-		id = APO_kulturakommunny
-		icon = GFX_focus_spa_save_the_alcazar
-		x = 4
-		y = 8
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_MANPOWER
-		}
-		prerequisite = { focus = APO_zheleznyedorogikommuny  } prerequisite = { focus = APO_obrazovatelnayabrigada  }
-		completion_reward = {
-			swap_ideas = {
-				 remove_idea = tradition_exhaustion
-				 add_idea = tradition_free_harbor
-			}
-			swap_ideas = {
-				 remove_idea = tradition_criminal_bands
-				 add_idea = tradition_autonomy
-			}
-			swap_ideas = {
-				 remove_idea = tradition_isolitionalism
-				 add_idea = tradition_culture_of_help
-			}
-		}
-	}
-
-	#Большая коммуна!
-	focus = {
-		id = APO_bolshayakommuna
-		icon = GFX_APO_bolshayakommuna
+		id = APO_medicine_brigade
+		icon = GFX_focus_mex_restore_the_army_of_christ
 		x = 1
-		y = 7
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_STABILITY
-		}
-		prerequisite = { focus = APO_hvatitboyni  }
-	}
-
-	#Земельная реформа
-	focus = {
-		id = APO_zemelnayareforma
-		icon = GFX_APO_zemelnayareforma
-		x = 8
-		y = 5
+		y = 1
+		relative_position_id = APO_gosudarstvennoyestroitelstvo
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = APO_sozyvrevvoensoveta  }
+		prerequisite = { focus = APO_gosudarstvennoyestroitelstvo }
 		completion_reward = {
-			remove_ideas = { APO_political_pizdets1 }
-		}
-	}
-
-	#Денежная реформа 
-	focus = {
-		id = APO_denezhnayareforma
-		icon = GFX_focus_usa_reestablish_the_gold_standard
-		x = 7
-		y = 6
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		prerequisite = { focus = APO_zemelnayareforma  }
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = { APO_economic_pizdets }
-				add_idea = { APO_anarhyst_economic }
-			}
-			
-		}
-	}
-
-	#Местное самоуправление
-	focus = {
-		id = APO_mestnoesamoupravlenie
-		icon = GFX_focus_focus_fra_liberte_egalite_solidarite
-		x = 9
-		y = 6
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = APO_zemelnayareforma  }
-		completion_reward = {
-			add_ideas = { APO_community_politics }
+			add_ideas = { APO_medicine_brigade }
+			recruit_character = APO_Albert_Slave
 		}
 	}
 
 	#Общественные работы
 	focus = {
 		id = APO_obshchestvennyeraboty
-		icon = GFX_focus_eng_crush_the_dream
-		x = 8
-		y = 7
-		cost = 2
+		icon = GFX_goal_generic_improve_relations
+		x = 1
+		y = 1
+		relative_position_id = APO_obrazovatelnayabrigada
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = APO_denezhnayareforma  } prerequisite = { focus = APO_mestnoesamoupravlenie  }
+		prerequisite = { focus = APO_obrazovatelnayabrigada }
+		prerequisite = { focus = APO_medicine_brigade }
 		completion_reward = {
 			
 		}
 	}
 
-	#Создание народной милиции
+	#Административная реформа
 	focus = {
-		id = APO_sozdanienarodnoymilicii
-		icon = GFX_focus_eng_expose_the_belly_of_the_bear
-		x = 8
-		y = 8
+		id = APO_administrativnayareforma
+		icon = GFX_goal_generic_cavalry
+		x = 3
+		y = 1
+		relative_position_id = APO_gosudarstvennoyestroitelstvo
 		cost = 10
-		search_filters = {
-			FOCUS_FILTER_WAR_SUPPORT
-		}
-		prerequisite = { focus = APO_obshchestvennyeraboty  }
-		completion_reward = {
-			
-		}
-	}
-
-	#Триумф анархизма!
-	focus = {
-		id = APO_triumfanarhizma
-		icon = GFX_APO_triumfanarhizma
-		x = 6
-		y = 9
-		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = APO_kulturakommunny  } prerequisite = { focus = APO_sozdanienarodnoymilicii  }
+		prerequisite = { focus = APO_gosudarstvennoyestroitelstvo }
 		completion_reward = {
-			add_ideas = { APO_triumph }
+			
 		}
 	}
 
-	#Военные реформы
+	#Народная милиция
 	focus = {
-		id = APO_voennyereformy
-		icon = GFX_APO_voennyereformy
-		x = 12
+		id = APO_narodnayamilitsiya
+		icon = GFX_goal_generic_demand_territory
+		x = 0
+		y = 1
+		relative_position_id = APO_administrativnayareforma
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ARMY_XP
+		}
+		prerequisite = { focus = APO_administrativnayareforma }
+		completion_reward = {
+			
+		}
+	}
+
+	#Секретная служба
+	focus = {
+		id = APO_secretnayasluzjba
+		icon = GFX_goal_generic_radar
+		x = 0
+		y = 1
+		relative_position_id = APO_narodnayamilitsiya
+		cost = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_narodnayamilitsiya }
+		completion_reward = {
+			create_intelligence_agency = {
+				name = "Секретная служба Коммун"
+				icon = GFX_intelligence_agency_logo_agency
+			}
+		}
+	}
+
+	#Культура нации
+	focus = {
+		id = APO_kulturanatsiyi
+		icon = GFX_focus_SOV_womens_fascist_movement
+		x = 30
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available = {
+			has_completed_focus = APO_institucionalizatia
+		}
+		completion_reward = {
+			
+		}
+	}
+
+	#Культурная бригада
+	focus = {
+		id = APO_kulturnayabrigada
+		icon = GFX_focus_generic_military_mission
+		x = 0
+		y = 1
+		relative_position_id = APO_kulturanatsiyi
+		cost = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_kulturanatsiyi }
+		completion_reward = {
+			
+		}
+	}
+
+	#Создание культуры
+	focus = {
+		id = APO_sozdaniyekultury
+		icon = GFX_focus_generic_self_management
+		x = -1
+		y = 1
+		relative_position_id = APO_kulturnayabrigada
+		cost = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_kulturnayabrigada }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = tradition_criminal_bands
+				add_idea = tradition_autonomy
+		   	}
+		   	swap_ideas = {
+				remove_idea = tradition_isolitionalism
+				add_idea = tradition_culture_of_help
+		   	}
+		}
+	}
+
+	#Список разрешенных религий
+	focus = {
+		id = APO_spisokrazreshennyhreligiy
+		icon = GFX_focus_mex_triumph_over_the_cristeros
+		x = 1
+		y = 1
+		relative_position_id = APO_kulturnayabrigada
+		cost = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_kulturnayabrigada }
+		completion_reward = {
+			
+		}
+	}
+
+	#Наша история
+	focus = {
+		id = APO_nashaistoriya
+		icon = GFX_focus_POL_beck_ribbentrop
+		x = 0
+		y = 2
+		relative_position_id = APO_kulturnayabrigada
+		cost = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_kulturnayabrigada }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = tradition_exhaustion
+				add_idea = tradition_free_harbor
+		   }
+		}
+	}
+
+	#Политическая воля
+	focus = {
+		id = APO_politicheskayavolya
+		icon = GFX_goal_generic_support_democracy
+		x = 34
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			has_completed_focus = APO_institucionalizatia
+		}
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+
+	#Дисциплина в партии
+	focus = {
+		id = APO_distciplinavpartiyi
+		icon = GFX_goal_generic_national_unity
+		x = 0
+		y = 1
+		relative_position_id = APO_politicheskayavolya
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_politicheskayavolya }
+		completion_reward = {
+			
+		}
+	}
+
+	#Человек прежде всего
+	focus = {
+		id = APO_chelovekprezjdevsego
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = APO_distciplinavpartiyi
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_distciplinavpartiyi }
+		completion_reward = {
+			
+		}
+	}
+
+	#Репрессии против радикалов
+	focus = {
+		id = APO_repressiyiprotivradicalov
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = APO_distciplinavpartiyi
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_distciplinavpartiyi }
+		completion_reward = {
+			
+		}
+	}
+
+	#Пропаганда социализма
+	focus = {
+		id = APO_propagandasocializma
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = APO_chelovekprezjdevsego
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_chelovekprezjdevsego }
+		prerequisite = { focus = APO_repressiyiprotivradicalov }
+		completion_reward = {
+			
+		}
+	}
+
+	#Реорганизация соцдем партии
+	focus = {
+		id = APO_reorganizatsiyasocdempartiyi
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = APO_propagandasocializma
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_propagandasocializma }
+		completion_reward = {
+			
+		}
+	}
+
+	#Массовая партия
+	focus = {
+		id = APO_massovayapartiya
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = APO_reorganizatsiyasocdempartiyi
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_reorganizatsiyasocdempartiyi }
+		completion_reward = {
+			
+		}
+	}
+
+	#Запрет тьмы
+	focus = {
+		id = APO_zaprettmy
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = APO_massovayapartiya
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_massovayapartiya }
+		completion_reward = {
+			
+		}
+	}
+
+	#Пир Города
+	focus = {
+		id = APO_pirgoroda
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = APO_zaprettmy
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_zaprettmy }
+		completion_reward = {
+			
+		}
+	}
+
+	#Созыв РевВоенСовета
+	#focus = {
+	#	id = APO_sozyvrevvoensoveta
+	#	icon = GFX_focus_spr_torchbearers_of_tomorrow
+	#	x = 6
+	#	y = 4
+	#	cost = 10
+	#	search_filters = {
+	#		FOCUS_FILTER_POLITICAL
+	#	}
+	#	prerequisite = { focus = APO_rybolovstvoikrompir  }
+	#	completion_reward = {
+	#		add_political_power = 50
+	#		add_ideas = { APO_rev_soviet }
+	#		swap_ideas = {
+	#			remove_idea = { APO_political_pizdets3 }
+	#			add_idea = { APO_political_pizdets2 }
+	#		}
+	#	}
+	#}
+
+	#Решение вопроса голода
+	#focus = {
+	#	id = APO_reshenievoprosagoloda
+	#	icon = GFX_focus_hol_abandon_the_gold_standard
+	#	x = 5
+	#	y = 2
+	#	cost = 1
+	#	search_filters = {
+	#		FOCUS_FILTER_STABILITY
+	#	}
+	#	prerequisite = { focus = APO_nashakommuna  }
+	#	completion_reward = {
+	#		add_political_power = 50
+	#		add_ideas = { APO_battle_with_famine }
+	#		swap_ideas = {
+	#			remove_idea = { APO_economic_pizdets3 }
+	#			add_idea = { APO_economic_pizdets2 }
+	#		}
+	#	}
+	#}
+
+	#Земельная реформа
+	#focus = {
+	#	id = APO_zemelnayareforma
+	#	icon = GFX_APO_zemelnayareforma
+	#	x = 8
+	#	y = 5
+	#	cost = 10
+	#	search_filters = {
+	#		FOCUS_FILTER_POLITICAL
+	#	}
+	#	prerequisite = { focus = APO_sozyvrevvoensoveta  }
+	#	completion_reward = {
+	#		remove_ideas = { APO_political_pizdets1 }
+	#	}
+	#}
+
+	#Денежная реформа 
+	#focus = {
+	#	id = APO_denezhnayareforma
+	#	icon = GFX_focus_usa_reestablish_the_gold_standard
+	#	x = 7
+	#	y = 6
+	#	cost = 10
+	#	search_filters = {
+	#		FOCUS_FILTER_INDUSTRY
+	#	}
+	#	prerequisite = { focus = APO_zemelnayareforma  }
+	#	completion_reward = {
+	#		swap_ideas = {
+	#			remove_idea = { APO_economic_pizdets }
+	#			add_idea = { APO_anarhyst_economic }
+	#		}
+	#		
+	#	}
+	#}
+
+	#Наш путь к свободе!
+	focus = {
+		id = APO_nashputksvobode
+		icon = GFX_focus_focus_fra_liberte_egalite_solidarite
+		x = 2
 		y = 5
-		cost = 7
+		cost = 10
 		search_filters = {
-			FOCUS_FILTER_WAR_SUPPORT
+			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = APO_sozyvrevvoensoveta  }
-		
 		completion_reward = {
-			army_experience = 80
+			add_ideas = { APO_community_politics }
 		}
-		
 	}
 
-	#Опора на металл и порох
+	#Народный Государь
 	focus = {
-		id = APO_oporanametalliporoh
-		icon = GFX_APO_oporanametalliporoh
-		x = 11
-		y = 6
-		cost = 1
+		id = APO_narodnygosudar
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = APO_nashputksvobode
+		cost = 5
 		search_filters = {
-			FOCUS_FILTER_WAR_SUPPORT
+			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = APO_voennyereformy  }
-		
+		available = {
+			has_completed_focus = APO_pravaludey
+			has_completed_focus = APO_obrazovatelnayabrigada
+			has_completed_focus = APO_medicine_brigade
+			has_completed_focus = APO_administrativnayareforma
+			has_completed_focus = APO_kulturnayabrigada
+		}
+		prerequisite = { focus = APO_nashputksvobode }
 		completion_reward = {
-			army_experience = 80
+			
 		}
 	}
 
-	#Друг винтовка
+	#Без страха и упрека
 	focus = {
-		id = APO_drugvintovka
-		icon = GFX_APO_drugvintovka
+		id = APO_bezstrahaiupreka
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = APO_narodnygosudar
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			
+		}
+		prerequisite = { focus = APO_narodnygosudar }
+		completion_reward = {
+			army_expirience = 25
+		}
+	}
+
+	#Выход из распределения потребления
+	focus = {
+		id = APO_vyhodisraspredeleniyapotrebleniya
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = APO_bezstrahaiupreka
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			
+		}
+		prerequisite = { focus = APO_bezstrahaiupreka }
+		completion_reward = {
+			custom_effect_tooltip = Alliance_disliked_this
+			subtract_from_variable = { 
+				var = APO_alliance #да кто такая ваша переменная, последний раз спрашиваю
+				value = 5 #да кто такое ваше значение переменной...
+			}
+		}
+	}
+
+	#Выход из распределения воды
+	focus = {
+		id = APO_vyhodisraspredeleniyawody
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = APO_vyhodisraspredeleniyapotrebleniya
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			
+		}
+		prerequisite = { focus = APO_vyhodisraspredeleniyapotrebleniya }
+		completion_reward = {
+			custom_effect_tooltip = Alliance_disliked_this
+			subtract_from_variable = { 
+				var = APO_alliance #да кто такая ваша переменная, последний раз спрашиваю
+				value = 5 #да кто такое ваше значение переменной...
+			}
+		}
+	}
+
+	#Громкое заявление (пернул шоле?)
+	focus = {
+		id = APO_gromkoezayawleniye
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = APO_vyhodisraspredeleniyawody
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			
+		}
+		will_lead_to_war_with = BBM
+		will_lead_to_war_with = BBB
+		will_lead_to_war_with = BBT
+		will_lead_to_war_with = BEC
+		prerequisite = { focus = APO_vyhodisraspredeleniyawody }
+		completion_reward = {
+			custom_effect_tooltip = APO_exit_rules
+			custom_effect_tooltip = APO_declare_war_on_cities
+			hidden_effect = {
+				declare_war_on = {
+					target = BBM
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = BBB
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = BBT
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = BEC
+					type = annex_everything
+				}
+			}
+		}
+	}
+
+	#Прорвать изоляцию
+	focus = {
+		id = APO_prorvatisolatsiyu
+		icon = GFX_goal_unknown
 		x = 10
-		y = 7
-		cost = 7
+		y = 5
+		cost = 10
 		search_filters = {
-			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = APO_oporanametalliporoh  }
+		completion_reward = {
+			
+		}
 	}
 
-	#Пушки
 	focus = {
-		id = APO_pushki
-		icon = GFX_APO_pushki
-		x = 12
-		y = 7
-		cost = 7
+		id = APO_otnosheniyasimperiyey
+		icon = GFX_goal_unknown
+		x = -3
+		y = 1
+		relative_position_id = APO_prorvatisolatsiyu
+		cost = 5
 		search_filters = {
-			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = APO_oporanametalliporoh  }
+		prerequisite = { focus = APO_prorvatisolatsiyu }
+		completion_reward = {
+			
+		}
 	}
 
-	#Механика
 	focus = {
-		id = APO_mehanika
-		icon = GFX_APO_mehanika
-		x = 10
-		y = 8
-		cost = 7
+		id = APO_otnosheniyasgorodami
+		icon = GFX_goal_unknown
+		x = 3
+		y = 1
+		relative_position_id = APO_prorvatisolatsiyu
+		cost = 5
 		search_filters = {
-			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = APO_drugvintovka  }
+		prerequisite = { focus = APO_prorvatisolatsiyu }
+		completion_reward = {
+			
+		}
 	}
 
-	#Снаряжение
 	focus = {
-		id = APO_snaryazhenie
-		icon = GFX_focus_chi_army_reform
-		x = 12
-		y = 8
-		cost = 7
+		id = APO_pomoch
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = APO_otnosheniyasimperiyey
+		cost = 5
 		search_filters = {
-			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = APO_pushki  }
+		mutually_exclusive = { focus = APO_koryst }
+		prerequisite = { focus = APO_otnosheniyasimperiyey }
+		completion_reward = {
+			
+		}
 	}
 
-	#Опора на магию
 	focus = {
-		id = APO_oporanamagiyu
-		icon = GFX_APO_oporanamagiyu
-		x = 15
-		y = 6
-		cost = 1
+		id = APO_koryst
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		relative_position_id = APO_otnosheniyasimperiyey
+		cost = 5
 		search_filters = {
-			FOCUS_FILTER_WAR_SUPPORT
+			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = APO_voennyereformy  }
+		mutually_exclusive = { focus = APO_pomoch }
+		prerequisite = { focus = APO_otnosheniyasimperiyey }
+		completion_reward = {
+			
+		}
 	}
 
-	#Аккумулятивная магия
 	focus = {
-		id = APO_akkumulyativnayamagiya
-		icon = GFX_APO_akkumulyativnayamagiya
-		x = 14
-		y = 7
-		cost = 3
+		id = APO_dogovorobohraneokruzjayusheysredy
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = APO_otnosheniyasgorodami
+		cost = 5
 		search_filters = {
-			FOCUS_FILTER_WAR_SUPPORT
+			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = APO_oporanamagiyu  }
+		prerequisite = { focus = APO_otnosheniyasgorodami }
+		completion_reward = {
+			
+		}
 	}
 
-	#Квалдовство
 	focus = {
-		id = APO_kvaldovstvo
-		icon = GFX_APO_kvaldovstvo
-		x = 16
-		y = 7
-		cost = 3
+		id = APO_dogovorodorozjnomdvizjeniyi
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = APO_otnosheniyasgorodami
+		cost = 5
 		search_filters = {
-			FOCUS_FILTER_WAR_SUPPORT
+			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = APO_oporanamagiyu  }
+		prerequisite = { focus = APO_otnosheniyasgorodami }
+		completion_reward = {
+			
+		}
 	}
 
-	#Открытие первой школы магии
 	focus = {
-		id = APO_otkrytiepervoyshkolymagii
-		icon = GFX_APO_otkrytiepervoyshkolymagii
-		x = 15
-		y = 8
-		cost = 14
+		id = APO_dogovorosporte
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = APO_dogovorobohraneokruzjayusheysredy
+		cost = 5
 		search_filters = {
-			FOCUS_FILTER_RESEARCH
+			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = APO_kvaldovstvo  } prerequisite = { focus = APO_akkumulyativnayamagiya  }
+		prerequisite = { focus = APO_dogovorobohraneokruzjayusheysredy }
+		completion_reward = {
+			
+		}
 	}
 
-	#Ставка на темную магию
 	focus = {
-		id = APO_stavkanatemnuyumagiyu
-		icon = GFX_APO_stavkanatemnuyumagiyu
-		x = 14
-		y = 9
-		cost = 1
+		id = APO_dogovoroturisme
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = APO_dogovorodorozjnomdvizjeniyi
+		cost = 5
 		search_filters = {
-			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = APO_otkrytiepervoyshkolymagii  }
+		prerequisite = { focus = APO_dogovorodorozjnomdvizjeniyi }
+		completion_reward = {
+			
+		}
 	}
 
-	#Ставка на ментальную магию
 	focus = {
-		id = APO_stavkanamentalnuyumagiyu
-		icon = GFX_APO_stavkanamentalnuyumagiyu
-		x = 16
-		y = 9
-		cost = 1
+		id = APO_dogovorowydachepredateley
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = APO_dogovorosporte
+		cost = 5
 		search_filters = {
-			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = APO_otkrytiepervoyshkolymagii  }
+		prerequisite = { focus = APO_dogovorosporte }
+		prerequisite = { focus = APO_dogovoroturisme }
+		completion_reward = {
+			
+		}
 	}
 
-	#Некромантия
 	focus = {
-		id = APO_nekromantiya
-		icon = GFX_APO_nekromantiya
-		x = 12
-		y = 10
-		cost = 14
+		id = APO_obyavitgorodapobratimy
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = APO_dogovorowydachepredateley
+		cost = 5
 		search_filters = {
-			FOCUS_FILTER_STABILITY
+			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = APO_stavkanatemnuyumagiyu  }
+		prerequisite = { focus = APO_dogovorowydachepredateley }
+		completion_reward = {
+			
+		}
 	}
 
-	#Беспорядок
 	focus = {
-		id = APO_besporyadok
-		icon = GFX_APO_besporyadok
-		x = 14
-		y = 10
-		cost = 14
+		id = APO_sblizjeniye
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = APO_pomoch
+		cost = 5
 		search_filters = {
-			FOCUS_FILTER_STABILITY
+			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = APO_stavkanatemnuyumagiyu  }
+		prerequisite = { focus = APO_pomoch }
+		completion_reward = {
+			
+		}
 	}
 
-	#Магия духа
 	focus = {
-		id = APO_magiyaduha
-		icon = GFX_APO_magiyaduha
-		x = 16
-		y = 10
-		cost = 14
+		id = APO_pomochspredpriyatiyami
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = APO_sblizjeniye
+		cost = 5
 		search_filters = {
-			FOCUS_FILTER_WAR_SUPPORT
+			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = APO_stavkanamentalnuyumagiyu  }
+		prerequisite = { focus = APO_sblizjeniye }
+		completion_reward = {
+			custom_effect_tooltip = APO_pomochspredpriyatiyami_tooltip
+		}
 	}
 
-	#Магия иллюзий
 	focus = {
-		id = APO_magiyaillyuziy
-		icon = GFX_APO_magiyaillyuziy
-		x = 18
-		y = 10
-		cost = 14
+		id = APO_sovmestnyeucheniya
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = APO_pomochspredpriyatiyami
+		cost = 5
 		search_filters = {
-			FOCUS_FILTER_WAR_SUPPORT
+			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = APO_stavkanamentalnuyumagiyu  }
+		prerequisite = { focus = APO_pomochspredpriyatiyami }
+		completion_reward = {
+			army_expirience = 25
+		}
 	}
 
-	#Магия как часть быта
 	focus = {
-		id = APO_magiyakakchastbyta
-		icon = GFX_APO_magiyakakchastbyta
-		x = 15
-		y = 11
-		cost = 7
+		id = APO_kupitsnaryazjeniyesoskidkoy
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = APO_pomochspredpriyatiyami
+		cost = 5
 		search_filters = {
-			FOCUS_FILTER_STABILITY
+			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = APO_magiyaillyuziy  } prerequisite = { focus = APO_nekromantiya  } prerequisite = { focus = APO_magiyaduha  } prerequisite = { focus = APO_besporyadok  }
+		prerequisite = { focus = APO_pomochspredpriyatiyami }
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 5000
+				producer = IPO
+			}
+		}
 	}
 
-	#Истинное предназначение магии
 	focus = {
-		id = APO_istinnoeprednaznacheniemagii
-		icon = GFX_APO_istinnoeprednaznacheniemagii
-		x = 15
-		y = 12
-		cost = 3
+		id = APO_podderzjatihvlast
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		relative_position_id = APO_pomochspredpriyatiyami
+		cost = 5
 		search_filters = {
-			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = APO_magiyakakchastbyta  }
+		prerequisite = { focus = APO_pomochspredpriyatiyami }
+		completion_reward = {
+			IPO = { add_political_power = 100 }
+		}
 	}
 
-	#Сделка со Смертью
 	focus = {
-		id = APO_sdelkasosmertyu
-		icon = GFX_APO_sdelkasosmertyu
-		x = 15
-		y = 13
-		cost = 3
+		id = APO_pomoshnasheypromyshlennosty
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = APO_podderzjatihvlast
+		cost = 5
 		search_filters = {
-			FOCUS_FILTER_WAR_SUPPORT
+			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = APO_istinnoeprednaznacheniemagii  }
+		prerequisite = { focus = APO_podderzjatihvlast }
+		completion_reward = {
+			
+		}
 	}
 
-	#Еще одна сделка
 	focus = {
-		id = APO_eshcheodnasdelka
-		icon = GFX_APO_eshcheodnasdelka
-		x = 15
-		y = 14
-		cost = 1
+		id = APO_shedryeobeshaniya
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = APO_podderzjatihvlast
+		cost = 5
 		search_filters = {
-			FOCUS_FILTER_STABILITY
+			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = APO_sdelkasosmertyu  }
+		prerequisite = { focus = APO_podderzjatihvlast }
+		completion_reward = {
+			IPO = { add_stability = 0.15 }
+		}
 	}
 
-	#И еще одна сделка...
 	focus = {
-		id = APO_ieshcheodnasdelka
-		icon = GFX_APO_ieshcheodnasdelka
-		x = 15
-		y = 15
-		cost = 1
+		id = APO_prinyatimperskuyudelegatsiyu
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		relative_position_id = APO_podderzjatihvlast
+		cost = 5
 		search_filters = {
-			FOCUS_FILTER_STABILITY
+			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = APO_eshcheodnasdelka  }
+		prerequisite = { focus = APO_podderzjatihvlast }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_delegatyucheniye
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = APO_prinyatimperskuyudelegatsiyu
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_prinyatimperskuyudelegatsiyu }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_delegatywoennye
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = APO_prinyatimperskuyudelegatsiyu
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_prinyatimperskuyudelegatsiyu }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_zaigryvaniye
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = APO_koryst
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_koryst }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_pogovoritsgeneralamy
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = APO_zaigryvaniye
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_zaigryvaniye }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_kupitdoveriye
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = APO_pogovoritsgeneralamy
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_pogovoritsgeneralamy }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_poseyatsemenasomneniya
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = APO_kupitdoveriye
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_kupitdoveriye }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_poobsyatsya
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = APO_kupitdoveriye
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_kupitdoveriye }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_lest
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		relative_position_id = APO_kupitdoveriye
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_kupitdoveriye }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_wzrastitsomneniya
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		relative_position_id = APO_poseyatsemenasomneniya
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_poseyatsemenasomneniya }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_uznatlubimyekukly
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		relative_position_id = APO_poobsyatsya
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_poobsyatsya }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_unikalnycontract
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		relative_position_id = APO_lest
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_lest }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_pozjinatplody
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		relative_position_id = APO_wzrastitsomneniya
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_wzrastitsomneniya }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_troyanskykon
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		relative_position_id = APO_uznatlubimyekukly
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_uznatlubimyekukly }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_mnozjestvoobeshaniy
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		relative_position_id = APO_unikalnycontract
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_unikalnycontract }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_strategicheskayaoshibka
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		relative_position_id = APO_pozjinatplody
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_pozjinatplody }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_konetsigry
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		relative_position_id = APO_troyanskykon
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_troyanskykon }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_koshmararchitectora
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		relative_position_id = APO_mnozjestvoobeshaniy
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_mnozjestvoobeshaniy }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_mezjregionalnayapolitika
+		icon = GFX_goal_unknown
+		x = 24
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_chestnyrazgovor
+		icon = GFX_goal_unknown
+		x = -3
+		y = 1
+		relative_position_id = APO_mezjregionalnayapolitika
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_mezjregionalnayapolitika }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_razognat
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = APO_mezjregionalnayapolitika
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_mezjregionalnayapolitika }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_ustroitsud
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = APO_mezjregionalnayapolitika
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_mezjregionalnayapolitika }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_ostanovitnarkomaniyu
+		icon = GFX_goal_unknown
+		x = 3
+		y = 1
+		relative_position_id = APO_mezjregionalnayapolitika
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_mezjregionalnayapolitika }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_sjestpeshek
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = APO_chestnyrazgovor
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_chestnyrazgovor }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_lustratsija
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = APO_razognat
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_razognat }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_otobratneft
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = APO_ustroitsud
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_ustroitsud }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_trebovatsdatsvoyih
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = APO_ostanovitnarkomaniyu
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_ostanovitnarkomaniyu }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_korolbezsvity
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = APO_sjestpeshek
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_sjestpeshek }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_dogovor
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = APO_lustratsija
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_lustratsija }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_podchinitporyadku
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = APO_otobratneft
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_otobratneft }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_podnashimpristalnymwzorom
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = APO_trebovatsdatsvoyih
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_trebovatsdatsvoyih }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_confederatsiyagorodov
+		icon = GFX_goal_unknown
+		x = 0
+		y = 4
+		relative_position_id = APO_mezjregionalnayapolitika
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_korolbezsvity }
+		prerequisite = { focus = APO_dogovor }
+		prerequisite = { focus = APO_podchinitporyadku }
+		prerequisite = { focus = APO_podnashimpristalnymwzorom }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_vyrezatopuhol
+		icon = GFX_goal_unknown
+		x = -6
+		y = 1
+		relative_position_id = APO_confederatsiyagorodov
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_confederatsiyagorodov }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_fondspaseniya
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		relative_position_id = APO_vyrezatopuhol
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_vyrezatopuhol }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_chrezvychainyegospitali
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = APO_vyrezatopuhol
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_vyrezatopuhol }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_sozjeniyeostatkov
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		relative_position_id = APO_vyrezatopuhol
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_vyrezatopuhol }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_razdeleniyetyagot
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = APO_fondspaseniya
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_fondspaseniya }
+		prerequisite = { focus = APO_chrezvychainyegospitali }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_poiskostatkov
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = APO_sozjeniyeostatkov
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_sozjeniyeostatkov }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_datnezavisimostgorodam
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = APO_razdeleniyetyagot
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_razdeleniyetyagot }
+		prerequisite = { focus = APO_poiskostatkov }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_kollectivizatsiyaimperiyi
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = APO_confederatsiyagorodov
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_confederatsiyagorodov }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_slushaniye
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = APO_kollectivizatsiyaimperiyi
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_kollectivizatsiyaimperiyi }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_sudnadmasterom
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		relative_position_id = APO_slushaniye
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_slushaniye }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_zaprettserkvigreha
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = APO_slushaniye
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_slushaniye }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_sudnadaristocraciyey
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		relative_position_id = APO_slushaniye
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_slushaniye }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_snestinaslediye
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = APO_sudnadmasterom
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_sudnadmasterom }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_razdatgoroda
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = APO_sudnadaristocraciyey
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_sudnadaristocraciyey }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_primenitnashizakony
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		relative_position_id = APO_zaprettserkvigreha
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_zaprettserkvigreha }
+		prerequisite = { focus = APO_snestinaslediye }
+		prerequisite = { focus = APO_razdatgoroda }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_edynayavaluta
+		icon = GFX_goal_unknown
+		x = 4
+		y = 1
+		relative_position_id = APO_confederatsiyagorodov
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_confederatsiyagorodov }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_edynayanalogovayasistema
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = APO_edynayavaluta
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_edynayavaluta }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_sobratsoyuznyparlament
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = APO_edynayavaluta
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_edynayavaluta }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_edynayamigratsionnayasistema
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = APO_edynayanalogovayasistema
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_edynayanalogovayasistema }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_federalnoyezakonodatelstvo
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = APO_sobratsoyuznyparlament
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_sobratsoyuznyparlament }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_confederativnayakultura
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = APO_edynayamigratsionnayasistema
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_edynayamigratsionnayasistema }
+		prerequisite = { focus = APO_federalnoyezakonodatelstvo }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_infrastructurnayaset
+		icon = GFX_goal_unknown
+		x = 7
+		y = 1
+		relative_position_id = APO_confederatsiyagorodov
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_confederatsiyagorodov }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_vechnyegorodapobratimy
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = APO_infrastructurnayaset
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_infrastructurnayaset }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_programmavosstanovleniya
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = APO_vechnyegorodapobratimy
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_vechnyegorodapobratimy }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_sozdatshkoluofitserov
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = APO_programmavosstanovleniya
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_programmavosstanovleniya }
+		prerequisite = { focus = APO_edynayaspetssluzjba }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_edynayaarmiya
+		icon = GFX_goal_unknown
+		x = 9
+		y = 1
+		relative_position_id = APO_confederatsiyagorodov
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_confederatsiyagorodov }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_mezjgorpol
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = APO_edynayaarmiya
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_edynayaarmiya }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_edynayaspetssluzjba
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = APO_mezjgorpol
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_mezjgorpol }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = APO_edinstvovrazlichiyi
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		relative_position_id = APO_confederativnayakultura
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = APO_confederativnayakultura }
+		prerequisite = { focus = APO_sozdatshkoluofitserov }
+		completion_reward = {
+			
+		}
 	}
 }
