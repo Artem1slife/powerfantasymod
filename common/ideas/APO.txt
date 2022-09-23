@@ -250,6 +250,30 @@ ideas = {
 			}
 		}
 		
+		APO_build_infrastructure = {
+			picture = GFX_idea_generic_build_infrastructure
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_infrastructure_factor = 0.25
+			}
+		}
+		
+		APO_controlrashodov = {
+			picture = GFX_generic_goods_red_bonus
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = -0.07
+			}
+		}
+		
 	}
 	
 	institutes = {
