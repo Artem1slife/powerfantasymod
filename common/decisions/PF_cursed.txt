@@ -27,20 +27,15 @@ cursed_continent = {
 		activation = {
 			OR = {
 				original_tag = IPO
-				original_tag = APO
-				original_tag = ROI
-				original_tag = FSR
-				original_tag = MYO
-				original_tag = STH
-				original_tag = ICR
-				original_tag = SKT
 			}
 			NOT = { has_idea = CC_desertion }
+			has_idea = IPO_wartime
+			has_war = no
 		}
 		
 		is_good = no
 		
-		days_mission_timeout = 100
+		days_mission_timeout = 365
 		days_re_enable = 7
 
 		selectable_mission = yes
