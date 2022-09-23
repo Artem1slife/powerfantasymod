@@ -50,7 +50,7 @@ focus_tree = {
 	#Учет нужд
 	focus = {
 		id = APO_uchetnuzjd
-		icon = GFX_focus_BUL_support_macedonian_organizations
+		icon = GFX_focus_generic_self_management
 		x = 2
 		y = 1
 		relative_position_id = APO_nashakommuna
@@ -66,7 +66,7 @@ focus_tree = {
 
 	#Созыв народного совета
 	focus = {
-		id = APO_sozyvnarodnogosovieta
+		id = APO_focus_yug_pan_slavic_congress
 		icon = GFX_focus_BUL_support_macedonian_organizations
 		x = 0
 		y = 1
@@ -84,7 +84,7 @@ focus_tree = {
 	#Учет способностей
 	focus = {
 		id = APO_uchetsposobnostey
-		icon = GFX_focus_BUL_support_macedonian_organizations
+		icon = GFX_focus_generic_support_the_left_right
 		x = -2
 		y = 1
 		relative_position_id = APO_nashakommuna
@@ -101,7 +101,7 @@ focus_tree = {
 	#Институционализация
 	focus = {
 		id = APO_institucionalizatia
-		icon = GFX_focus_BUL_support_macedonian_organizations
+		icon = GFX_focus_generic_treaty
 		x = 0
 		y = 1
 		relative_position_id = APO_sozyvnarodnogosovieta
@@ -703,7 +703,7 @@ focus_tree = {
 	#Политическая воля
 	focus = {
 		id = APO_politicheskayavolya
-		icon = GFX_goal_generic_support_democracy
+		icon = GFX_goal_generic_territory_or_war
 		x = 34
 		y = 0
 		cost = 5
@@ -738,7 +738,7 @@ focus_tree = {
 	#Человек прежде всего
 	focus = {
 		id = APO_chelovekprezjdevsego
-		icon = GFX_goal_unknown
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
 		x = -1
 		y = 1
 		relative_position_id = APO_distciplinavpartiyi
@@ -755,7 +755,7 @@ focus_tree = {
 	#Репрессии против радикалов
 	focus = {
 		id = APO_repressiyiprotivradicalov
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rom_parties_end
 		x = 1
 		y = 1
 		relative_position_id = APO_distciplinavpartiyi
@@ -772,7 +772,7 @@ focus_tree = {
 	#Пропаганда социализма
 	focus = {
 		id = APO_propagandasocializma
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_soviet_politics
 		x = 1
 		y = 1
 		relative_position_id = APO_chelovekprezjdevsego
@@ -790,7 +790,7 @@ focus_tree = {
 	#Реорганизация соцдем партии
 	focus = {
 		id = APO_reorganizatsiyasocdempartiyi
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_army_doctrines
 		x = 0
 		y = 1
 		relative_position_id = APO_propagandasocializma
@@ -807,7 +807,7 @@ focus_tree = {
 	#Массовая партия
 	focus = {
 		id = APO_massovayapartiya
-		icon = GFX_goal_unknown
+		icon = GFX_focus_yug_pan_slavic_congress
 		x = 0
 		y = 1
 		relative_position_id = APO_reorganizatsiyasocdempartiyi
@@ -824,7 +824,7 @@ focus_tree = {
 	#Запрет тьмы
 	focus = {
 		id = APO_zaprettmy
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_political_pressure
 		x = 0
 		y = 1
 		relative_position_id = APO_massovayapartiya
@@ -841,7 +841,7 @@ focus_tree = {
 	#Пир Города
 	focus = {
 		id = APO_pirgoroda
-		icon = GFX_goal_unknown
+		icon = GFX_goal_anschluss
 		x = 0
 		y = 1
 		relative_position_id = APO_zaprettmy
@@ -873,7 +873,7 @@ focus_tree = {
 	#Народный Государь
 	focus = {
 		id = APO_narodnygosudar
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_monarchy_2
 		x = 0
 		y = 1
 		relative_position_id = APO_nashputksvobode
@@ -897,7 +897,7 @@ focus_tree = {
 	#Без страха и упрека
 	focus = {
 		id = APO_bezstrahaiupreka
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_little_entente
 		x = 0
 		y = 1
 		relative_position_id = APO_narodnygosudar
@@ -917,7 +917,7 @@ focus_tree = {
 	#Выход из распределения потребления
 	focus = {
 		id = APO_vyhodisraspredeleniyapotrebleniya
-		icon = GFX_goal_unknown
+		icon = GFX_focus_renounce_the_treaty_of_triannon
 		x = 0
 		y = 1
 		relative_position_id = APO_bezstrahaiupreka
@@ -941,7 +941,7 @@ focus_tree = {
 	#Выход из распределения воды
 	focus = {
 		id = APO_vyhodisraspredeleniyawody
-		icon = GFX_goal_unknown
+		icon = GFX_focus_renounce_the_treaty_of_triannon
 		x = 0
 		y = 1
 		relative_position_id = APO_vyhodisraspredeleniyapotrebleniya
@@ -965,7 +965,7 @@ focus_tree = {
 	#Громкое заявление (пернул шоле?)
 	focus = {
 		id = APO_gromkoezayawleniye
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_demand_territory
 		x = 0
 		y = 1
 		relative_position_id = APO_vyhodisraspredeleniyawody
@@ -1008,7 +1008,7 @@ focus_tree = {
 	#Прорвать изоляцию
 	focus = {
 		id = APO_prorvatisolatsiyu
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_intelligence_exchange
 		x = 10
 		y = 5
 		cost = 10
@@ -1029,7 +1029,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_otnosheniyasimperiyey
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_dangerous_deal
 		x = -3
 		y = 1
 		relative_position_id = APO_prorvatisolatsiyu
@@ -1045,7 +1045,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_otnosheniyasgorodami
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_national_unity
 		x = 3
 		y = 1
 		relative_position_id = APO_prorvatisolatsiyu
@@ -1061,7 +1061,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_pomoch
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_consumer_goods
 		x = -1
 		y = 1
 		relative_position_id = APO_otnosheniyasimperiyey
@@ -1078,7 +1078,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_koryst
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_neutrality_focus
 		x = 2
 		y = 1
 		relative_position_id = APO_otnosheniyasimperiyey
@@ -1095,7 +1095,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_dogovorobohraneokruzjayusheysredy
-		icon = GFX_goal_unknown
+		icon = GFX_focus_usa_tank_destroyer_doctrine
 		x = -1
 		y = 1
 		relative_position_id = APO_otnosheniyasgorodami
@@ -1111,7 +1111,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_dogovorodorozjnomdvizjeniyi
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_army_motorized
 		x = 1
 		y = 1
 		relative_position_id = APO_otnosheniyasgorodami
@@ -1127,7 +1127,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_dogovorosporte
-		icon = GFX_goal_unknown
+		icon = GFX_focus_RAJ_clamp_down_on_corruption
 		x = 0
 		y = 1
 		relative_position_id = APO_dogovorobohraneokruzjayusheysredy
@@ -1143,7 +1143,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_dogovoroturisme
-		icon = GFX_goal_unknown
+		icon = GFX_focus_eng_global_defense
 		x = 0
 		y = 1
 		relative_position_id = APO_dogovorodorozjnomdvizjeniyi
@@ -1159,7 +1159,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_dogovorowydachepredateley
-		icon = GFX_goal_unknown
+		icon = GFX_focus_eng_move_to_secure_the_dominions
 		x = 1
 		y = 1
 		relative_position_id = APO_dogovorosporte
@@ -1176,7 +1176,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_obyavitgorodapobratimy
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_support_the_left_right
 		x = 0
 		y = 1
 		relative_position_id = APO_dogovorowydachepredateley
@@ -1192,7 +1192,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_sblizjeniye
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_positive_trade_relations
 		x = 0
 		y = 1
 		relative_position_id = APO_pomoch
@@ -1208,7 +1208,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_pomochspredpriyatiyami
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_soviet_construction
 		x = 0
 		y = 1
 		relative_position_id = APO_sblizjeniye
@@ -1224,7 +1224,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_sovmestnyeucheniya
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_manpower
 		x = -1
 		y = 1
 		relative_position_id = APO_pomochspredpriyatiyami
@@ -1240,7 +1240,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_kupitsnaryazjeniyesoskidkoy
-		icon = GFX_goal_unknown
+		icon = GFX_focus_focus_fra_maquis
 		x = 1
 		y = 1
 		relative_position_id = APO_pomochspredpriyatiyami
@@ -1260,7 +1260,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_podderzjatihvlast
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_diplomatic_treaty
 		x = 0
 		y = 2
 		relative_position_id = APO_pomochspredpriyatiyami
@@ -1276,7 +1276,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_pomoshnasheypromyshlennosty
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_industry_2
 		x = -1
 		y = 1
 		relative_position_id = APO_podderzjatihvlast
@@ -1292,7 +1292,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_shedryeobeshaniya
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rom_parties_end
 		x = 1
 		y = 1
 		relative_position_id = APO_podderzjatihvlast
@@ -1308,7 +1308,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_prinyatimperskuyudelegatsiyu
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_improve_relations
 		x = 0
 		y = 2
 		relative_position_id = APO_podderzjatihvlast
@@ -1324,7 +1324,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_delegatyucheniye
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_scientific_exchange
 		x = -1
 		y = 1
 		relative_position_id = APO_prinyatimperskuyudelegatsiyu
@@ -1340,7 +1340,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_delegatywoennye
-		icon = GFX_goal_unknown
+		icon = GFX_goal_molotov_ribbentrop_pact
 		x = 1
 		y = 1
 		relative_position_id = APO_prinyatimperskuyudelegatsiyu
@@ -1356,7 +1356,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_zaigryvaniye
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_position_armies
 		x = 0
 		y = 1
 		relative_position_id = APO_koryst
@@ -1372,7 +1372,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_pogovoritsgeneralamy
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_military_dictatorship
 		x = 0
 		y = 1
 		relative_position_id = APO_zaigryvaniye
@@ -1388,7 +1388,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_kupitdoveriye
-		icon = GFX_goal_unknown
+		icon = GFX_focus_mex_privatisation
 		x = 0
 		y = 1
 		relative_position_id = APO_pogovoritsgeneralamy
@@ -1404,7 +1404,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_poseyatsemenasomneniya
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_dangerous_deal
 		x = -1
 		y = 1
 		relative_position_id = APO_kupitdoveriye
@@ -1420,7 +1420,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_poobsyatsya
-		icon = GFX_goal_unknown
+		icon = GFX_goal_anschluss
 		x = 1
 		y = 1
 		relative_position_id = APO_kupitdoveriye
@@ -1436,7 +1436,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_lest
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rom_royal_dictatorship
 		x = 0
 		y = 2
 		relative_position_id = APO_kupitdoveriye
@@ -1452,7 +1452,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_wzrastitsomneniya
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_military_deal
 		x = 0
 		y = 2
 		relative_position_id = APO_poseyatsemenasomneniya
@@ -1468,7 +1468,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_uznatlubimyekukly
-		icon = GFX_goal_unknown
+		icon = GFX_focus_prc_infiltration
 		x = 0
 		y = 2
 		relative_position_id = APO_poobsyatsya
@@ -1484,7 +1484,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_unikalnycontract
-		icon = GFX_goal_unknown
+		icon = GFX_focus_TUR_ratify_the_six_arrows
 		x = 0
 		y = 2
 		relative_position_id = APO_lest
@@ -1500,7 +1500,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_pozjinatplody
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_war_with_comintern
 		x = 0
 		y = 2
 		relative_position_id = APO_wzrastitsomneniya
@@ -1516,7 +1516,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_troyanskykon
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_cavalry
 		x = 0
 		y = 2
 		relative_position_id = APO_uznatlubimyekukly
@@ -1532,7 +1532,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_mnozjestvoobeshaniy
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_dangerous_deal
 		x = 0
 		y = 2
 		relative_position_id = APO_unikalnycontract
@@ -1548,7 +1548,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_strategicheskayaoshibka
-		icon = GFX_goal_unknown
+		icon = GFX_focus_TUR_reconfigure_turkish_foreign_policy
 		x = 0
 		y = 2
 		relative_position_id = APO_pozjinatplody
@@ -1564,7 +1564,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_konetsigry
-		icon = GFX_goal_unknown
+		icon = GFX_focus_focus_fra_fascist_threat
 		x = 0
 		y = 2
 		relative_position_id = APO_troyanskykon
@@ -1580,7 +1580,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_koshmararchitectora
-		icon = GFX_goal_unknown
+		icon = GFX_focus_LAT_suspend_constitution_of_latvia
 		x = 0
 		y = 2
 		relative_position_id = APO_mnozjestvoobeshaniy
@@ -1596,7 +1596,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_mezjregionalnayapolitika
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_demand_territory
 		x = 24
 		y = 5
 		cost = 10
@@ -1613,7 +1613,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_chestnyrazgovor
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_strike_at_democracy1
 		x = -3
 		y = 1
 		relative_position_id = APO_mezjregionalnayapolitika
@@ -1629,7 +1629,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_razognat
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_support_the_left_right
 		x = -1
 		y = 1
 		relative_position_id = APO_mezjregionalnayapolitika
@@ -1645,7 +1645,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_ustroitsud
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_neutrality_focus
 		x = 1
 		y = 1
 		relative_position_id = APO_mezjregionalnayapolitika
@@ -1661,7 +1661,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_ostanovitnarkomaniyu
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_secret_weapon
 		x = 3
 		y = 1
 		relative_position_id = APO_mezjregionalnayapolitika
@@ -1677,7 +1677,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_sjestpeshek
-		icon = GFX_goal_unknown
+		icon = GFX_focus_eng_move_to_secure_the_dominions
 		x = 0
 		y = 1
 		relative_position_id = APO_chestnyrazgovor
@@ -1709,7 +1709,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_otobratneft
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_oil_refinery
 		x = 0
 		y = 1
 		relative_position_id = APO_ustroitsud
@@ -1725,7 +1725,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_trebovatsdatsvoyih
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_military_mission
 		x = 0
 		y = 1
 		relative_position_id = APO_ostanovitnarkomaniyu
@@ -1741,7 +1741,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_korolbezsvity
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_self_management
 		x = 0
 		y = 1
 		relative_position_id = APO_sjestpeshek
@@ -1757,7 +1757,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_dogovor
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_treaty
 		x = 0
 		y = 1
 		relative_position_id = APO_lustratsija
@@ -1773,7 +1773,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_podchinitporyadku
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_political_pressure
 		x = 0
 		y = 1
 		relative_position_id = APO_otobratneft
@@ -1789,7 +1789,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_podnashimpristalnymwzorom
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_territory_or_war
 		x = 0
 		y = 1
 		relative_position_id = APO_trebovatsdatsvoyih
@@ -1805,7 +1805,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_confederatsiyagorodov
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_war_with_comintern
 		x = 0
 		y = 4
 		relative_position_id = APO_mezjregionalnayapolitika
@@ -1824,7 +1824,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_vyrezatopuhol
-		icon = GFX_goal_unknown
+		icon = GFX_focus_RAJ_indian_gurkhas
 		x = -6
 		y = 1
 		relative_position_id = APO_confederatsiyagorodov
@@ -1840,7 +1840,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_fondspaseniya
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_concessions
 		x = -2
 		y = 1
 		relative_position_id = APO_vyrezatopuhol
@@ -1856,7 +1856,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_chrezvychainyegospitali
-		icon = GFX_goal_unknown
+		icon = GFX_focus_por_concordat
 		x = 0
 		y = 1
 		relative_position_id = APO_vyrezatopuhol
@@ -1872,7 +1872,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_sozjeniyeostatkov
-		icon = GFX_goal_unknown
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		x = 2
 		y = 1
 		relative_position_id = APO_vyrezatopuhol
@@ -1888,7 +1888,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_razdeleniyetyagot
-		icon = GFX_goal_unknown
+		icon = GFX_goal_anti_comintern_pact
 		x = 1
 		y = 1
 		relative_position_id = APO_fondspaseniya
@@ -1905,7 +1905,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_poiskostatkov
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SOV_mobilization_plan
 		x = -1
 		y = 1
 		relative_position_id = APO_sozjeniyeostatkov
@@ -1921,7 +1921,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_datnezavisimostgorodam
-		icon = GFX_goal_unknown
+		icon = GFX_goal_anschluss
 		x = 1
 		y = 1
 		relative_position_id = APO_razdeleniyetyagot
@@ -1938,7 +1938,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_kollectivizatsiyaimperiyi
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SOV_bukharan_republic
 		x = -1
 		y = 1
 		relative_position_id = APO_confederatsiyagorodov
@@ -1954,7 +1954,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_slushaniye
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SOV_the_supreme_soviet
 		x = 0
 		y = 1
 		relative_position_id = APO_kollectivizatsiyaimperiyi
@@ -1970,7 +1970,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_sudnadmasterom
-		icon = GFX_goal_unknown
+		icon = GFX_focus_spa_eliminate_the_carlists
 		x = -2
 		y = 1
 		relative_position_id = APO_slushaniye
@@ -1986,7 +1986,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_zaprettserkvigreha
-		icon = GFX_goal_unknown
+		icon = GFX_focus_mex_triumph_over_the_cristeros
 		x = 0
 		y = 1
 		relative_position_id = APO_slushaniye
@@ -2002,7 +2002,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_sudnadaristocraciyey
-		icon = GFX_goal_unknown
+		icon = GFX_focus_spr_class_war
 		x = 2
 		y = 1
 		relative_position_id = APO_slushaniye
@@ -2018,7 +2018,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_snestinaslediye
-		icon = GFX_goal_unknown
+		icon = GFX_focus_spa_save_the_alcazar
 		x = 1
 		y = 1
 		relative_position_id = APO_sudnadmasterom
@@ -2034,7 +2034,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_razdatgoroda
-		icon = GFX_goal_unknown
+		icon = GFX_focus_spr_crush_the_revolution
 		x = -1
 		y = 1
 		relative_position_id = APO_sudnadaristocraciyey
@@ -2050,7 +2050,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_primenitnashizakony
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_forceful_treaty
 		x = 0
 		y = 2
 		relative_position_id = APO_zaprettserkvigreha
@@ -2068,7 +2068,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_edynayavaluta
-		icon = GFX_goal_unknown
+		icon = GFX_focus_mex_privatisation
 		x = 4
 		y = 1
 		relative_position_id = APO_confederatsiyagorodov
@@ -2084,7 +2084,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_edynayanalogovayasistema
-		icon = GFX_goal_unknown
+		icon = GFX_focus_renounce_the_treaty_of_triannon
 		x = -1
 		y = 1
 		relative_position_id = APO_edynayavaluta
@@ -2100,7 +2100,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_sobratsoyuznyparlament
-		icon = GFX_goal_unknown
+		icon = GFX_focus_usa_voter_registration_act
 		x = 1
 		y = 1
 		relative_position_id = APO_edynayavaluta
@@ -2116,7 +2116,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_edynayamigratsionnayasistema
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SOV_women_in_aviation
 		x = 0
 		y = 1
 		relative_position_id = APO_edynayanalogovayasistema
@@ -2132,7 +2132,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_federalnoyezakonodatelstvo
-		icon = GFX_goal_unknown
+		icon = GFX_focus_LAT_suspend_constitution_of_latvia
 		x = 0
 		y = 1
 		relative_position_id = APO_sobratsoyuznyparlament
@@ -2148,7 +2148,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_confederativnayakultura
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SOV_the_comecon
 		x = 1
 		y = 1
 		relative_position_id = APO_edynayamigratsionnayasistema
@@ -2165,7 +2165,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_infrastructurnayaset
-		icon = GFX_goal_unknown
+		icon = GFX_focus_POL_warsaw_main_station
 		x = 7
 		y = 1
 		relative_position_id = APO_confederatsiyagorodov
@@ -2181,7 +2181,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_vechnyegorodapobratimy
-		icon = GFX_goal_unknown
+		icon = GFX_focus_POL_support_global_falangism
 		x = 0
 		y = 1
 		relative_position_id = APO_infrastructurnayaset
@@ -2197,7 +2197,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_programmavosstanovleniya
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_construct_civilian
 		x = 0
 		y = 1
 		relative_position_id = APO_vechnyegorodapobratimy
@@ -2213,7 +2213,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_sozdatshkoluofitserov
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_military_academy
 		x = 1
 		y = 1
 		relative_position_id = APO_programmavosstanovleniya
@@ -2230,7 +2230,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_edynayaarmiya
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_little_entente
 		x = 9
 		y = 1
 		relative_position_id = APO_confederatsiyagorodov
@@ -2246,7 +2246,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_mezjgorpol
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_cavalry
 		x = 0
 		y = 1
 		relative_position_id = APO_edynayaarmiya
@@ -2262,7 +2262,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_edynayaspetssluzjba
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_CAS
 		x = 0
 		y = 1
 		relative_position_id = APO_mezjgorpol
@@ -2278,7 +2278,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_edinstvovrazlichiyi
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_national_unity
 		x = 2
 		y = 1
 		relative_position_id = APO_confederativnayakultura
@@ -2295,7 +2295,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_sozdatarmiyu
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SOV_mobilization_plan
 		x = 20
 		y = 15
 		cost = 5
@@ -2312,7 +2312,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_uvelichitrashody
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_major_alliance
 		x = -2
 		y = 1
 		relative_position_id = APO_sozdatarmiyu
@@ -2328,7 +2328,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_propaganda
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_propaganda
 		x = -1
 		y = 1
 		relative_position_id = APO_uvelichitrashody
@@ -2344,7 +2344,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_ispytaniyenovogooruzjiya
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_secret_weapon
 		x = 1
 		y = 1
 		relative_position_id = APO_uvelichitrashody
@@ -2360,7 +2360,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_sbordobrovoltsev
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_small_arms
 		x = 0
 		y = 1
 		relative_position_id = APO_propaganda
@@ -2376,7 +2376,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_novyemetodyproizvodstwa
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_soviet_construction
 		x = 0
 		y = 1
 		relative_position_id = APO_ispytaniyenovogooruzjiya
@@ -2392,7 +2392,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_stabilnost
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_neutrality_focus
 		x = 0
 		y = 1
 		relative_position_id = APO_sbordobrovoltsev
@@ -2408,7 +2408,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_zvonkayaartilleriya
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_army_artillery2
 		x = -1
 		y = 2
 		relative_position_id = APO_novyemetodyproizvodstwa
@@ -2424,7 +2424,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_drugwintovka
-		icon = GFX_goal_unknown
+		icon = GFX_focus_focus_fra_maquis
 		x = 0
 		y = 1
 		relative_position_id = APO_novyemetodyproizvodstwa
@@ -2440,7 +2440,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_uluchshitnavykioficerov
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_military_mission
 		x = 0
 		y = 2
 		relative_position_id = APO_drugwintovka
@@ -2457,7 +2457,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_sovremennayawoennayadoctrina
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_axis_build_infantry
 		x = 2
 		y = 1
 		relative_position_id = APO_sozdatarmiyu
@@ -2477,7 +2477,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_masshtabnyeucheniya
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_attack_allies
 		x = 0
 		y = 1
 		relative_position_id = APO_sovremennayawoennayadoctrina
@@ -2502,7 +2502,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_patrioticheskoedvizjeniye
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_build_tank
 		x = -1
 		y = 1
 		relative_position_id = APO_masshtabnyeucheniya
@@ -2518,7 +2518,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_womanwspomogatelnayasluzjba
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SOV_womens_fascist_movement
 		x = 1
 		y = 1
 		relative_position_id = APO_masshtabnyeucheniya
@@ -2534,7 +2534,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_nezabyvatprotyl
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_production2
 		x = 0
 		y = 1
 		relative_position_id = APO_patrioticheskoedvizjeniye
@@ -2557,7 +2557,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_ukrepitstolitsu
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_fortify_city
 		x = 1
 		y = 1
 		relative_position_id = APO_nezabyvatprotyl
@@ -2584,7 +2584,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_promyshlennyzapal
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 0
 		y = 1
 		relative_position_id = APO_ukrepitstolitsu
@@ -2600,7 +2600,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_stroitelnayastrategiya
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 0
 		y = 1
 		relative_position_id = APO_promyshlennyzapal
@@ -2616,7 +2616,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_mobilizirovateconomiku
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SOV_merge_plants
 		x = 6
 		y = 1
 		relative_position_id = APO_masshtabnyeucheniya
@@ -2651,7 +2651,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_woennizirovatflot
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_amphibious_assault
 		x = -3
 		y = 1
 		relative_position_id = APO_mobilizirovateconomiku
@@ -2670,7 +2670,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_vybormorskoydoctriny
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_build_nay
 		x = 0
 		y = 1
 		relative_position_id = APO_woennizirovatflot
@@ -2691,7 +2691,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_morskoydesant
-		icon = GFX_goal_unknown
+		icon = GFX_goal_marines
 		x = 0
 		y = 1
 		relative_position_id = APO_vybormorskoydoctriny
@@ -2711,7 +2711,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_motorizatsyawoisk
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_army_motorized
 		x = -1
 		y = 1
 		relative_position_id = APO_mobilizirovateconomiku
@@ -2731,7 +2731,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_bronirovannayapodderzjka
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_army_tanks
 		x = 0
 		y = 1
 		relative_position_id = APO_motorizatsyawoisk
@@ -2751,7 +2751,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_woennyefirmy
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 0
 		y = 1
 		relative_position_id = APO_bronirovannayapodderzjka
@@ -2767,7 +2767,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_kormitwoinu
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_more_territorial_claims
 		x = 1
 		y = 1
 		relative_position_id = APO_mobilizirovateconomiku
@@ -2783,7 +2783,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_neftehranilische
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_oil_refinery
 		x = 0
 		y = 1
 		relative_position_id = APO_kormitwoinu
@@ -2806,7 +2806,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_detalynazamenu
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_production2
 		x = 0
 		y = 1
 		relative_position_id = APO_neftehranilische
@@ -2822,7 +2822,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_woennizirovataviatsiyu
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_air_fighter2
 		x = 3
 		y = 1
 		relative_position_id = APO_mobilizirovateconomiku
@@ -2845,7 +2845,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_aerodrom
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_air_production
 		x = 0
 		y = 1
 		relative_position_id = APO_woennizirovataviatsiyu
@@ -2868,7 +2868,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_radiolocatsya
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_radar
 		x = 0
 		y = 1
 		relative_position_id = APO_aerodrom
@@ -2890,7 +2890,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_wyboraviatsyonnoydoctriny
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_air_doctrine
 		x = 2
 		y = 1
 		relative_position_id = APO_aerodrom
@@ -2910,7 +2910,7 @@ focus_tree = {
 
 	focus = {
 		id = APO_WDW
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_CAS
 		x = 1
 		y = 1
 		relative_position_id = APO_radiolocatsya
