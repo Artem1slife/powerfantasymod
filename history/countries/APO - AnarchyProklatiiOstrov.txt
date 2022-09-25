@@ -42,3 +42,14 @@ set_popularities = {
 recruit_character = APO_Kromer_Freeman
 recruit_character = APO_Illion_Freedom
 recruit_character = APO_Albert_Slave
+
+create_faction = APO_AFC
+add_to_faction = BEC
+add_to_faction = BBB
+add_to_faction = BBT
+add_to_faction = BBM
+
+set_autonomy = { target = BEC autonomous_state = autonomy_city freedom_level = 0 }
+set_autonomy = { target = BBB autonomous_state = autonomy_city freedom_level = 0 }
+set_autonomy = { target = BBT autonomous_state = autonomy_city freedom_level = 0 }
+set_autonomy = { target = BBM autonomous_state = autonomy_city freedom_level = 0 }
