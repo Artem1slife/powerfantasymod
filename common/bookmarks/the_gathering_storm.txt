@@ -7,36 +7,18 @@ bookmarks = {
 		default_country = "GAD"
 		default = yes
 		
-		"GAD"={
-			history = "TST_BOOKMARK_DESC"
-			ideology = fascism
-			ideas = {
-			}
-			focuses = {
-			}	
-		}
-		
 		"IPO"={
-			history = "TST_BOOKMARK_DESC"
+			history = "IPO_BOOKMARK_DESC"
 			ideology = neutrality
 			ideas = {
+				IPO_dismoraled_army
 				IPO_desert_lands
-				IPO_kingdom_of_sin
 				IPO_wartime
 			}
 			focuses = {
-			}	
-		}
-		
-		"ROI"={
-			history = "TST_BOOKMARK_DESC"
-			ideology = destruction
-			ideas = {
-				ROI_death_live_conflict
-				ROI_death_tsardoom
-				ROI_vykhukhol
-			}
-			focuses = {
+				IPO_wazjno_sohranyat_chelowechnost
+				IPO_detskiy_trud_za_stankamy
+				IPO_kult_detey_tmy
 			}	
 		}
 		
@@ -44,42 +26,35 @@ bookmarks = {
 			history = "TST_BOOKMARK_DESC"
 			ideology = communism
 			ideas = {
-				ROI_death_live_conflict
-				ROI_death_tsardoom
-				ROI_vykhukhol
+				APO_cadres
+				APO_band_power
+				APO_economic_pizdets3
 			}
 			focuses = {
+				APO_kulturanatsiyi
+				APO_politicheskayavolya
+				APO_confederatsiyagorodov
 			}	
 		}
 
-		"RAV"={
-			history = "TST_BOOKMARK_DESC"
-			ideology = democratic
-			ideas = {
-				UP_democratic
-				UP_senate
-				UP_death_of_bur
-			}
-			focuses = {
-			}	
+		"---"={
+			history = "SHIZOPHRENIA_DESC"
 		}
 		
-		"GIL"={
-			history = "TST_BOOKMARK_DESC"
-			ideology = democratic
-			ideas = {
-			}
-			focuses = {
-			}	
+		"---"={
+			history = "SHIZOPHRENIA_DESC"
 		}
-		
-		"CHI"={
-			history = "TST_BOOKMARK_DESC"
-			ideology = democratic
-			ideas = {
-			}
-			focuses = {
-			}	
+
+		"---"={
+			history = "SHIZOPHRENIA_DESC"
+		}
+
+		"---"={
+			history = "SHIZOPHRENIA_DESC"
+		}
+
+		"---"={
+			history = "SHIZOPHRENIA_DESC"
 		}
 
 		"---"={

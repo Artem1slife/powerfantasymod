@@ -175,14 +175,15 @@ ideas = {
 		}
 		
 		IPO_soldier_community = {
-			picture = ztcnz
+			picture = MEX_politicised_army_2
 			
 			allowed = {
 				always = no
 			}
 
 			modifier = {
-				
+				military_factory_donations = 2
+				political_power_gain = 0.2
 			}
 		}
 		
