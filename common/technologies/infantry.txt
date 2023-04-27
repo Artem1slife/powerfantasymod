@@ -8,9 +8,9 @@ technologies = {
 	@7261 = 10
 	@7262 = 12
 	@7263 = 14
-	@7264 = 16
-	@7265 = 18
-	@7266 = 20
+	@7265 = 16
+	@7266 = 18
+	@7267 = 20
 
 	infantry_weapons = {
 
@@ -26,7 +26,6 @@ technologies = {
 		
 		enable_subunits = {
 			infantry
-			militia_infanteria
 		}
 		
 		path = {
@@ -80,7 +79,7 @@ technologies = {
 				tag = CHI
 				
 				OR = {
-					date > "1937.1.1"
+					date > "7257.1.1"
 					JAP = { is_ai = no }
 				}
 			}
@@ -148,7 +147,7 @@ technologies = {
 
 			modifier = {
 				factor = 5
-				date > "1939.1.1"
+				date > "7259.1.1"
 			}
 		}
 	}
@@ -184,7 +183,7 @@ technologies = {
 						
 			modifier = {
 				factor = 10
-				date > "1939.1.1"
+				date > "7259.1.1"
 			}
 			modifier = {
 				num_of_military_factories < 50
@@ -194,9 +193,9 @@ technologies = {
 			#	factor = 0
 			#	tag = SOV
 			#	OR = {
-			#		date < "1944.1.1" # stock up on lots of rifles, we got the manpower
+			#		date < "7265.1.1" # stock up on lots of rifles, we got the manpower
 			#		AND = {
-			#			date > "1943.1.1"
+			#			date > "7263.1.1"
 			#			surrender_progress < 0.1 # if we arent losing badly its ok
 			#		}
 			#	}
@@ -245,17 +244,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1940.1.6"
+				date > "7260.1.6"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1941.1.1"
+				date > "7261.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1942.1.1"
+				date > "7262.1.1"
 			}
 		}
 	}
@@ -288,17 +287,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1942.1.6"
+				date > "7262.1.6"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1943.1.1"
+				date > "7263.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1944.1.1"
+				date > "7265.1.1"
 			}
 		}
 	}
@@ -326,17 +325,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1943.1.6"
+				date > "7263.1.6"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1944.1.1"
+				date > "7265.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1945.1.1"
+				date > "7266.1.1"
 			}
 		}
 	}
@@ -404,10 +403,10 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 7264
+		start_year = 7265
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @7264 }
+			position = { x = 0 y = @7265 }
 		}
 		
 		categories = {
@@ -419,17 +418,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1944.1.6"
+				date > "7265.1.6"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1945.1.1"
+				date > "7266.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1946.1.1"
+				date > "7267.1.1"
 			}
 		}
 	}
@@ -466,6 +465,7 @@ technologies = {
 		
 		categories = {
 			para_tech
+			cat_special_forces_generic
 		}
 		
 		ai_will_do = {
@@ -509,6 +509,7 @@ technologies = {
 		
 		categories = {
 			para_tech
+			cat_special_forces_generic
 		}
 		
 		ai_will_do = {
@@ -547,6 +548,7 @@ technologies = {
 		
 		categories = {
 			para_tech
+			cat_special_forces_generic
 		}
 		
 		ai_will_do = {
@@ -601,6 +603,7 @@ technologies = {
 		
 		categories = {
 			marine_tech
+			cat_special_forces_generic
 		}
 		
 		ai_will_do = {
@@ -639,6 +642,7 @@ technologies = {
 		
 		categories = {
 			marine_tech
+			cat_special_forces_generic
 		}
 		
 		ai_will_do = {
@@ -671,6 +675,7 @@ technologies = {
 		
 		categories = {
 			marine_tech
+			cat_special_forces_generic
 		}
 		
 		ai_will_do = {
@@ -721,6 +726,7 @@ technologies = {
 		categories = {
 			infantry_tech
 			mountaineers_tech
+			cat_special_forces_generic
 		}
 		
 		ai_will_do = {
@@ -750,6 +756,7 @@ technologies = {
 		categories = {
 			infantry_tech
 			mountaineers_tech
+			cat_special_forces_generic
 		}
 		
 		ai_will_do = {
@@ -772,6 +779,7 @@ technologies = {
 		categories = {
 			infantry_tech
 			mountaineers_tech
+			cat_special_forces_generic
 		}
 		
 		ai_will_do = {
@@ -814,6 +822,7 @@ technologies = {
 			mountaineers_tech
 			marine_tech
 			para_tech
+			cat_special_forces_generic
 		}
 		
 		ai_will_do = {
@@ -850,6 +859,7 @@ technologies = {
 			mountaineers_tech
 			marine_tech
 			para_tech
+			cat_special_forces_generic
 		}
 		
 		ai_will_do = {
@@ -881,6 +891,7 @@ technologies = {
 			mountaineers_tech
 			marine_tech
 			para_tech
+			cat_special_forces_generic
 		}
 		
 		ai_will_do = {
@@ -915,6 +926,7 @@ technologies = {
 			mountaineers_tech
 			marine_tech
 			para_tech
+			cat_special_forces_generic
 		}
 		
 		ai_will_do = {
@@ -948,6 +960,7 @@ technologies = {
 			mountaineers_tech
 			marine_tech
 			para_tech
+			cat_special_forces_generic
 		}
 		
 		ai_will_do = {
@@ -967,16 +980,17 @@ technologies = {
 		special_forces_no_supply_grace = 48
 
 		research_cost = 2
-		start_year = 7264
+		start_year = 7265
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = @7264 }
+			position = { x = 4 y = @7265 }
 		}
 		
 		categories = {
 			mountaineers_tech
 			marine_tech
 			para_tech
+			cat_special_forces_generic
 		}
 		
 		ai_will_do = {
@@ -1013,6 +1027,29 @@ technologies = {
 		paratrooper = {
 			jungle = {
 				attack = 0.05
+				movement = 0.1
+			}
+		}
+
+	}
+
+	SWI_mountaineer_paratroopers_tech = { #Unlocked in Swiss Focus SWI_mountaneer_paratroopers
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+		paratrooper = {  # CHANGE TOOLTIP WHEN NEEDED
+			mountain = {
+				attack = 0.35
+				defence = 0.1
+				movement = 0.2
+			}
+			hills = {
+				attack = 0.2
+				defence = 0.05
 				movement = 0.1
 			}
 		}
@@ -1112,22 +1149,22 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1942.1.9"
+				date > "7262.1.9"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1943.1.1"
+				date > "7263.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1943.1.6"
+				date > "7263.1.6"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1946.1.1"
+				date > "7267.1.1"
 			}
 		}
 	}
@@ -1137,10 +1174,10 @@ technologies = {
 		land_night_attack = 0.15	
 
 		research_cost = 2
-		start_year = 7266
+		start_year = 7267
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @7266 }
+			position = { x = 0 y = @7267 }
 		}
 		
 		categories = {
@@ -1152,17 +1189,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1945.1.9"
+				date > "7266.1.9"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1946.1.1"
+				date > "7267.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1946.1.6"
+				date > "7267.1.6"
 			}
 		}
 	}
@@ -1239,17 +1276,17 @@ technologies = {
 			}
 			modifier = {
 				factor = 2
-				date > "1937.1.1"
+				date > "7257.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1938.1.1"
+				date > "7258.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1939.1.1"
+				date > "7259.1.1"
 			}
 			modifier = {
 				has_war = yes
@@ -1331,22 +1368,22 @@ technologies = {
 			}
 			modifier = {
 				factor = 2
-				date > "1938.1.6"
+				date > "7258.1.6"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1939.1.1"
+				date > "7259.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1940.1.1"
+				date > "7260.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1941.1.1"
+				date > "7261.1.1"
 			}
 			modifier = {
 				has_war = yes
@@ -1415,22 +1452,22 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1940.1.6"
+				date > "7260.1.6"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1941.1.1"
+				date > "7261.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1942.1.1"
+				date > "7262.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1943.1.1"
+				date > "7263.1.1"
 			}
 			modifier = {
 				has_war = yes
@@ -1494,22 +1531,22 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1942.1.6"
+				date > "7262.1.6"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1943.1.1"
+				date > "7263.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1944.1.1"
+				date > "7265.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1945.1.1"
+				date > "7266.1.1"
 			}
 			modifier = {
 				has_war = yes
@@ -1580,17 +1617,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1937.1.1"
+				date > "7257.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1938.1.1"
+				date > "7258.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1939.1.1"
+				date > "7259.1.1"
 			}
 			modifier = {
 				is_major = no
@@ -1649,6 +1686,7 @@ technologies = {
 		categories = {
 			motorized_equipment
 			armor
+			cat_armored_cars
 		}
 		
 		ai_will_do = {
@@ -1656,17 +1694,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1937.1.1"
+				date > "7257.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1938.1.1"
+				date > "7258.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1939.1.1"
+				date > "7259.1.1"
 			}
 			modifier = {
 				is_major = no
@@ -1696,6 +1734,7 @@ technologies = {
 		categories = {
 			motorized_equipment
 			armor
+			cat_armored_cars
 		}
 		
 		ai_will_do = {
@@ -1703,17 +1742,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1937.1.1"
+				date > "7260.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1938.1.1"
+				date > "7261.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1939.1.1"
+				date > "7262.1.1"
 			}
 			modifier = {
 				is_major = no
@@ -1738,6 +1777,7 @@ technologies = {
 		categories = {
 			motorized_equipment
 			armor
+			cat_armored_cars
 		}
 		
 		sub_technologies = {
@@ -1749,17 +1789,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1937.1.1"
+				date > "7262.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1938.1.1"
+				date > "7263.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1939.1.1"
+				date > "7265.1.1"
 			}
 			modifier = {
 				is_major = no
@@ -1781,6 +1821,7 @@ technologies = {
 		categories = {
 			motorized_equipment
 			armor
+			cat_armored_cars
 		}
 
 		ai_will_do = {
@@ -1788,17 +1829,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1937.1.1"
+				date > "7262.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1938.1.1"
+				date > "7263.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1939.1.1"
+				date > "7265.1.1"
 			}
 			modifier = {
 				is_major = no
@@ -1975,10 +2016,10 @@ technologies = {
 		}
 
 		research_cost = 3
-		start_year = 7264
+		start_year = 7265
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @7264 }
+			position = { x = 0 y = @7265 }
 		}
 		
 		categories = {
@@ -2033,6 +2074,56 @@ technologies = {
 
 		enable_subunits = {
 			penal_battalion
+		}
+	}
+
+	######### FROM ITALIAN FOCUS ##########
+	blackshirt_assault_battalion_tech = {
+		
+		allow = {
+			always = no
+		}
+
+		research_cost = 1
+		start_year = 7256
+
+		enable_subunits = {
+			blackshirt_assault_battalion
+		}
+	}
+
+	mountain_warfare_militias_tech = { #Hidden tech showed as part of ITA_grande_rivolta_rurale_ns national spirit
+		
+		allow = {
+			always = no
+		}
+
+		research_cost = 1
+		start_year = 7256
+
+		militia = {
+			hills = {
+				attack = 0.05 
+				movement = 0.1
+			}
+			mountain = {
+				attack = 0.05 
+				movement = 0.1
+			}
+		}
+	}
+
+	### Improved Irregular Infantry Organization 
+
+	ETH_improved_irregular_infantry_tech = {
+		research_cost = 1
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+		irregular_infantry = {
+			max_organisation = 10
+			maximum_speed = 1.25 #TODO_TA for testing only, remove
 		}
 	}
 }

@@ -12,9 +12,9 @@ ideas = {
 			cost = 75
 
 			modifier = {
-				consumer_goods_factor = 0.05
+				consumer_goods_factor = 0.01
 				research_speed_factor = 0.15
-				political_power_gain = -0.25
+				political_power_gain = -0.1
 			}
 
 			cancel_if_invalid = yes
@@ -28,8 +28,8 @@ ideas = {
 			cost = 75
 
 			modifier = {
-				consumer_goods_factor = 0.05
-				political_power_gain = -0.25
+				consumer_goods_factor = 0.01
+				political_power_gain = -0.1
 				monthly_population = 0.25
 				conscription_factor = 0.15
 				weekly_manpower = 500
@@ -46,8 +46,8 @@ ideas = {
 			cost = 75
 
 			modifier = {
-				consumer_goods_factor = 0.05
-				political_power_gain = -0.25
+				consumer_goods_factor = 0.01
+				political_power_gain = -0.1
 				drift_defence_factor = 0.25
 				stability_factor = 0.1
 				political_advisor_cost_factor = -0.5
@@ -64,8 +64,8 @@ ideas = {
 			cost = 75
 
 			modifier = {
-				consumer_goods_factor = 0.05
-				political_power_gain = -0.25
+				consumer_goods_factor = 0.01
+				political_power_gain = -0.1
 				drift_defence_factor = 0.5
 				war_support_factor = 0.15
 				stability_factor = 0.1
@@ -84,8 +84,8 @@ ideas = {
 			cost = 75
 
 			modifier = {
-				consumer_goods_factor = 0.05
-				political_power_gain = -0.25
+				consumer_goods_factor = 0.01
+				political_power_gain = -0.1
 				conversion_cost_mil_to_civ_factor = -0.5
 				global_building_slots_factor = 0.15
 				industrial_capacity_dockyard = 0.1

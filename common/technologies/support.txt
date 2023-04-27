@@ -8,9 +8,9 @@ technologies = {
 	@7261 = 10
 	@7262 = 12
 	@7263 = 14
-	@7264 = 16
-	@7265 = 18
-	@7266 = 20
+	@7265 = 16
+	@7266 = 18
+	@7267 = 20
 
 
 	tech_support = {
@@ -66,17 +66,17 @@ technologies = {
 			
 			modifier = {
 				factor = 4
-				date > "1937.1.1"
+				date > "7257.1.1"
 			}
 			
 			modifier = {
 				factor = 4
-				date > "1938.1.1"
+				date > "7258.1.1"
 			}
 			
 			modifier = {
 				factor = 4
-				date > "1939.1.1"
+				date > "7259.1.1"
 			}
 		}
 	}
@@ -115,21 +115,21 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1937.1.1"
+				date > "7257.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1938.1.1"
+				date > "7258.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1939.1.1"
+				date > "7259.1.1"
 			}
 			modifier = {
 				factor = 10
-				date > "1940.1.1"
+				date > "7260.1.1"
 			}
 		}
 	}
@@ -156,6 +156,18 @@ technologies = {
 			heavy_flame_tank
 		}
 		
+		on_research_complete = {
+			hidden_effect = {
+				if = {
+					limit = {
+						has_dlc = "No Step Back"
+						original_tag = ITA
+						has_completed_focus = ITA_italian_tankettes
+					}
+					ITA_add_basic_light_flamethrower_template = yes
+				}
+			}
+		}
 		
 		path = {
 			leads_to_tech = tech_engineers3
@@ -179,17 +191,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1940.1.1"
+				date > "7260.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1941.1.1"
+				date > "7261.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1942.1.1"
+				date > "7262.1.1"
 			}
 		}
 	}
@@ -250,17 +262,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1943.1.1"
+				date > "7263.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1944.1.1"
+				date > "7265.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1945.1.1"
+				date > "7266.1.1"
 			}
 		}
 	}
@@ -299,10 +311,10 @@ technologies = {
 			}
 		}
 		research_cost = 1.5
-		start_year = 7265
+		start_year = 7266
 		folder = {
 			name = support_folder
-			position = { x = 0 y = @7265 }
+			position = { x = 0 y = @7266 }
 		}
 		
 		categories = {
@@ -315,17 +327,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1946.1.1"
+				date > "7267.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1947.1.1"
+				date > "7267.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1948.1.1"
+				date > "7268.1.1"
 			}
 		}
 	}	
@@ -366,21 +378,21 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1937.1.1"
+				date > "7257.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1938.1.1"
+				date > "7258.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1939.1.1"
+				date > "7259.1.1"
 			}
 			modifier = {
 				factor = 10
-				date > "1940.1.1"
+				date > "7260.1.1"
 			}
 		}
 	}
@@ -413,17 +425,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1940.1.1"
+				date > "7260.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1941.1.1"
+				date > "7261.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1942.1.1"
+				date > "7262.1.1"
 			}
 		}
 	}
@@ -455,17 +467,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1943.1.1"
+				date > "7263.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1944.1.1"
+				date > "7265.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1945.1.1"
+				date > "7266.1.1"
 			}
 		}
 	}
@@ -476,10 +488,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 7265
+		start_year = 7266
 		folder = {
 			name = support_folder
-			position = { x = 2 y = @7265 }
+			position = { x = 2 y = @7266 }
 		}
 		
 		categories = {
@@ -492,17 +504,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1946.1.1"
+				date > "7267.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1947.1.1"
+				date > "7267.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1948.1.1"
+				date > "7268.1.1"
 			}
 		}
 	}
@@ -645,10 +657,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 7265
+		start_year = 7266
 		folder = {
 			name = support_folder
-			position = { x = 4 y = @7265 }
+			position = { x = 4 y = @7266 }
 		}
 		
 		categories = {
@@ -663,6 +675,20 @@ technologies = {
 				factor = 2
 				has_war = yes
 			}
+		}
+	}
+
+	camicie_nere_security_militias = {
+
+		research_cost = 1
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+
+		military_police = {
+			suppression_factor = 0.05
 		}
 	}
 
@@ -694,17 +720,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1937.1.1"
+				date > "7257.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1938.1.1"
+				date > "7258.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1939.1.1"
+				date > "7259.1.1"
 			}
 		}
 	}
@@ -742,17 +768,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1940.1.1"
+				date > "7260.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1941.1.1"
+				date > "7261.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1942.1.1"
+				date > "7262.1.1"
 			}
 		}
 	}
@@ -785,17 +811,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1943.1.1"
+				date > "7263.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1944.1.1"
+				date > "7265.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1945.1.1"
+				date > "7266.1.1"
 			}
 		}
 	}
@@ -807,10 +833,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 7265
+		start_year = 7266
 		folder = {
 			name = support_folder
-			position = { x = 6 y = @7265 }
+			position = { x = 6 y = @7266 }
 		}
 		
 		categories = {
@@ -823,17 +849,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1946.1.1"
+				date > "7267.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1947.1.1"
+				date > "7267.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1948.1.1"
+				date > "7268.1.1"
 			}
 		}
 	}
@@ -871,17 +897,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1937.1.1"
+				date > "7257.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1938.1.1"
+				date > "7258.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1939.1.1"
+				date > "7259.1.1"
 			}
 		}
 	}
@@ -916,17 +942,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1940.1.1"
+				date > "7260.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1941.1.1"
+				date > "7261.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1942.1.1"
+				date > "7262.1.1"
 			}
 		}
 	}
@@ -960,17 +986,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1943.1.1"
+				date > "7263.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1944.1.1"
+				date > "7265.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1945.1.1"
+				date > "7266.1.1"
 			}
 		}
 	}
@@ -982,10 +1008,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 7265
+		start_year = 7266
 		folder = {
 			name = support_folder
-			position = { x = 8 y = @7265 }
+			position = { x = 8 y = @7266 }
 		}
 		
 		categories = {
@@ -999,18 +1025,27 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1946.1.1"
+				date > "7267.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1947.1.1"
+				date > "7267.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1948.1.1"
+				date > "7268.1.1"
 			}
+		}
+	}
+
+
+	SWI_saint_bernard_tech = { #Saint Bernard tech
+		allow = { always = no } #Only obtained through Focus
+		field_hospital = {
+			casualty_trickleback = 0.20 ## REMEMBER TO UPDATE THE TOOLTIP 
+			experience_loss_factor = -0.3
 		}
 	}
 
@@ -1047,21 +1082,21 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1937.1.1"
+				date > "7257.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1938.1.1"
+				date > "7258.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1939.1.1"
+				date > "7259.1.1"
 			}
 			modifier = {
 				factor = 5
-				date > "1940.1.1"
+				date > "7260.1.1"
 			}
 		}
 	}
@@ -1097,17 +1132,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1940.1.1"
+				date > "7260.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1941.1.1"
+				date > "7261.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1942.1.1"
+				date > "7262.1.1"
 			}
 
 			modifier = {
@@ -1146,17 +1181,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1943.1.1"
+				date > "7263.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1944.1.1"
+				date > "7265.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1945.1.1"
+				date > "7266.1.1"
 			}
 		}
 	}
@@ -1168,10 +1203,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 7265
+		start_year = 7266
 		folder = {
 			name = support_folder
-			position = { x = 10 y = @7265 }
+			position = { x = 10 y = @7266 }
 		}
 		
 		categories = {
@@ -1185,17 +1220,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1946.1.1"
+				date > "7267.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1947.1.1"
+				date > "7267.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1948.1.1"
+				date > "7268.1.1"
 			}
 		}
 	}
@@ -1236,7 +1271,7 @@ technologies = {
 			modifier = {
 				factor = 5
 				is_major = yes
-				date > "1940.1.1"
+				date > "7260.1.1"
 			}
 		}
 	}
@@ -1271,17 +1306,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1937.1.1"
+				date > "7257.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1938.1.1"
+				date > "7258.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1939.1.1"
+				date > "7259.1.1"
 			}
 		}
 	}
@@ -1314,17 +1349,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1943.1.1"
+				date > "7263.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1944.1.1"
+				date > "7265.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1945.1.1"
+				date > "7266.1.1"
 			}
 		}
 	}
@@ -1335,10 +1370,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 7265
+		start_year = 7266
 		folder = {
 			name = support_folder
-			position = { x = 12 y = @7265 }
+			position = { x = 12 y = @7266 }
 		}
 		
 		categories = {
@@ -1352,17 +1387,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1946.1.1"
+				date > "7267.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1947.1.1"
+				date > "7267.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1948.1.1"
+				date > "7268.1.1"
 			}
 		}
 	}
@@ -1406,12 +1441,12 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1937.1.1"
+				date > "7257.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1938.1.1"
+				date > "7258.1.1"
 			}
 		}
 	}
@@ -1476,17 +1511,17 @@ technologies = {
 			}
 			modifier = {
 				factor = 1.2
-				date > "1940.1.1"
+				date > "7260.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1941.1.1"
+				date > "7261.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1942.1.1"
+				date > "7262.1.1"
 			}
 		}
 	}
@@ -1533,17 +1568,17 @@ technologies = {
 			}
 			modifier = {
 				factor = 1.2
-				date > "1938.1.1"
+				date > "7258.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1939.1.1"
+				date > "7259.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1940.1.1"
+				date > "7260.1.1"
 			}
 		}
 	}

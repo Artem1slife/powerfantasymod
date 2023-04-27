@@ -1,4 +1,4 @@
-version="NOW"
+version="0.1"
 tags={
 	"Alternative History"
 	"Map"
@@ -15,6 +15,7 @@ tags={
 	"Ideologies"
 }
 name="PowerFantasy"
+path = "D:/Github/powerfantasymod"
 replace_path="common/ai_strategy_plans"
 replace_path="common/bookmarks"
 replace_path="common/characters"
