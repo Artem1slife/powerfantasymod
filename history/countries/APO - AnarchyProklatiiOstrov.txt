@@ -22,6 +22,8 @@ add_ideas = {
 	APO_band_power
 	APO_economic_pizdets3
 	APO_political_pizdets3
+	
+	CURSED_civil_war
 }
 
 set_politics = {

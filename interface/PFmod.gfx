@@ -1,0 +1,27 @@
+spriteTypes = {	
+
+	frameAnimatedSpriteType = {
+		name = "GFX_idea_ztcnz"
+		texturefile = "gfx/interface/ideas/idea_gif.dds"
+		noOfFrames = 30
+		animation_rate_fps = 12
+		looping = yes 
+		play_on_show = yes 
+		pause_on_loop = 0.0 
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua" 
+		legacy_lazy_load = no
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_idea_ztcnz_2"
+		texturefile = "gfx/interface/ideas/idea_gif.dds"
+		noOfFrames = 30
+		animation_rate_fps = 12
+		looping = yes 
+		play_on_show = yes 
+		pause_on_loop = 0.0 
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua" 
+		legacy_lazy_load = no
+	}
+
+}

@@ -449,14 +449,14 @@ ideas = {
 		#################
 		
 		#kingdom line - 1lv
-		tradition_broken_kingdom= {
+		tradition_broken_kingdom = {
 			removal_cost = 10
 			cost = 1
 
 			modifier = {
-				consumer_goods_factor = 0.5
+				consumer_goods_factor = 0.1
 				industry_repair_factor = -0.3
-				production_speed_buildings_factor = -0.5
+				production_speed_buildings_factor = -0.25
 				production_speed_industrial_complex_factor = -0.25
 				drift_defence_factor = -0.3
 				neutrality_drift = 0.01

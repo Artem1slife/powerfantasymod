@@ -34,4 +34,4 @@ recruit_character = ROI_MagicMan
 
 add_ideas = { ROI_death_live_conflict ROI_death_tsardoom ROI_vykhukhol ROI_zombie_revolt }
 remove_ideas = { volunteer_only export_focus civilian_economy }
-add_ideas = { mobilization_locked trade_locked ROI_10 }
+add_ideas = { mobilization_locked trade_locked ROI_10 CURSED_civil_war }

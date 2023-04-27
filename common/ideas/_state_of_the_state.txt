@@ -23,6 +23,9 @@ ideas = {
 				production_speed_buildings_factor = -0.5
 				supply_node_range = 0.5
 				special_forces_min = 400
+				industrial_capacity_dockyard = -0.3
+				industrial_capacity_factory = -0.3
+				production_lack_of_resource_penalty_factor = 0.5
 			}
 
 			cancel_if_invalid = yes
@@ -49,6 +52,7 @@ ideas = {
 				industrial_capacity_factory = -0.15
 				supply_node_range = 0.3
 				special_forces_min = 200
+				production_lack_of_resource_penalty_factor = 0.25
 			}
 
 			cancel_if_invalid = yes
@@ -70,8 +74,6 @@ ideas = {
 				research_speed_factor = 0.05
 				monthly_population = 0.15
 				nuclear_production_factor = -0.50
-				industrial_capacity_dockyard = -0.25
-				industrial_capacity_factory = -0.25
 				supply_node_range = 0.3
 				special_forces_min = 100
 			}
@@ -88,15 +90,13 @@ ideas = {
 			level = 1
 
 			modifier = {
-				political_power_gain = -0.5
+				political_power_gain = -0.25
 				#consumer_goods_factor = -0.1
-				research_speed_factor = -0.3
-				monthly_population = 0.50
-				nuclear_production_factor = -1
+				research_speed_factor = -0.25
+				monthly_population = 0.5
+				nuclear_production_factor = -0.9
 				stability_factor = 0.3
-				production_speed_buildings_factor = -0.5
-				industrial_capacity_dockyard = -0.5
-				industrial_capacity_factory = -0.5
+				production_speed_buildings_factor = -0.25
 				supply_node_range = 0.15
 				production_lack_of_resource_penalty_factor = -0.8
 			}
@@ -111,169 +111,44 @@ ideas = {
 		pf_great_power = {
 			
 			available = {
-				has_idea = hight_industrialisated
 				is_subject = no
-				is_faction_leader = yes
+				is_major = yes
 			}
 			
 			removal_cost = -1
-			cost = 500
-			level = 5
-
-			modifier = {
-				research_speed_factor = 0.15
-				trade_opinion_factor = 0.5
-				surrender_limit = -0.1
-				stability_factor = 0.3
-				war_support_factor = 0.3
-				drift_defence_factor = -0.5
-				enemy_declare_war_tension = 0.25
-				enemy_justify_war_goal_time = 0.25
-				generate_wargoal_tension = 0.25
-				guarantee_cost = -0.5
-				join_faction_tension = 0.25
-				lend_lease_tension = -0.5
-				annex_cost_factor = 1
-				puppet_cost_factor = -0.25
-				conscription_factor = -0.3
-				max_command_power = 100
-				air_volunteer_cap = 200
-				send_volunteer_factor = 0.5
-				send_volunteers_tension = -0.5
-				land_doctrine_cost_factor = 0.5
-				air_doctrine_cost_factor = 0.5
-				naval_doctrine_cost_factor = 0.5
-				encryption_factor = -0.25
-				operative_slot = 2
-				special_forces_min = 1000
-			}
-
-			cancel_if_invalid = yes
-		}
-		pf_poten_great_power = {
-			
-			available = {
-				has_idea = hight_industrialisated
-				is_subject = no
-			}
-			
-			removal_cost = -1
-			cost = 0
-			level = 4
-
-			modifier = {
-				research_speed_factor = 0.1
-				trade_opinion_factor = 0.25
-				surrender_limit = -0.05
-				stability_factor = 0.15
-				war_support_factor = 0.15
-				drift_defence_factor = -0.25
-				enemy_declare_war_tension = 0.1
-				enemy_justify_war_goal_time = 0.1
-				generate_wargoal_tension = 0.1
-				guarantee_cost = -0.25
-				join_faction_tension = 0.1
-				lend_lease_tension = -0.25
-				annex_cost_factor = 0.5
-				puppet_cost_factor = 0.1
-				conscription_factor = -0.15
-				max_command_power = 50
-				air_volunteer_cap = 100
-				send_volunteer_factor = 0.25
-				send_volunteers_tension = -0.25
-				land_doctrine_cost_factor = 0.25
-				air_doctrine_cost_factor = 0.25
-				naval_doctrine_cost_factor = 0.25
-				encryption_factor = -0.1
-				operative_slot = 1
-				special_forces_min = 300
-			}
-
-			cancel_if_invalid = yes
-		}
-		pf_large_power = {
-			
-			available = {
-				is_subject = no
-				has_idea = low_industrialisated
-			}
-			
-			removal_cost = -1
-			cost = 0
-			level = 3
-
-			modifier = {
-				research_speed_factor = 0.05
-				trade_opinion_factor = 0.1
-				stability_factor = 0.05
-				war_support_factor = 0.05
-				drift_defence_factor = -0.1
-				guarantee_cost = -0.1
-				join_faction_tension = -0.1
-				lend_lease_tension = 0.25
-				annex_cost_factor = -0.5
-				puppet_cost_factor = 0.5
-				max_command_power = 25
-				air_volunteer_cap = 50
-				special_forces_min = 200
-			}
-
-			cancel_if_invalid = yes
-		}
-		pf_awesome_power = {
-			
-			available = {
-				NOT = {
-					OR = {
-						has_idea = low_industrialisated
-						has_idea = hight_industrialisated
-						has_idea = no_industrialisated
-					}
-				}
-			}
-			
-			removal_cost = -1
-			cost = 0
 			level = 2
 
 			modifier = {
-				#бонусов нет хехехе))))
+				trade_opinion_factor = -0.5
+				surrender_limit = -0.1
+				operative_slot = 2
+				special_forces_min = 300
+				
+				enemy_declare_war_tension = 0.5
+				enemy_justify_war_goal_time = 0.5
 			}
 
 			cancel_if_invalid = yes
-			default = yes
 		}
 		pf_poten_power = {
 			
 			available = {
-				num_of_factories < 6
-				has_idea = no_industrialisated
+				is_major = no
 			}
 			
 			removal_cost = -1
-			cost = 0
 			level = 1
+			default = yes
 
 			modifier = {
-				research_speed_factor = -0.25
-				trade_opinion_factor = -0.5
-				surrender_limit = 0.15
-				stability_factor = -0.3
-				war_support_factor = -0.3
-				drift_defence_factor = 0.5
 				enemy_declare_war_tension = -0.5
 				enemy_justify_war_goal_time = -0.5
 				generate_wargoal_tension = -0.5
 				guarantee_cost = 0.5
-				join_faction_tension = 1
-				lend_lease_tension = 1
-				annex_cost_factor = -1
-				puppet_cost_factor = 1
-				conscription_factor = 0.3
-				land_doctrine_cost_factor = -0.75
-				air_doctrine_cost_factor = -0.75
-				naval_doctrine_cost_factor = -0.75
-				special_forces_min = 100
+				join_faction_tension = 0.5
+				lend_lease_tension = 0.5
+				annex_cost_factor = -0.5
+				puppet_cost_factor = 0.5
 			}
 
 			cancel_if_invalid = yes
@@ -284,9 +159,9 @@ ideas = {
 		law = yes
 		use_list_view = yes
 		educated_sosaiti = {
+			available = { custom_trigger_tooltip = { tooltip = cant_be_changed_manually always = no } }
 			
 			removal_cost = -1
-			cost = 300
 			level = 4
 
 			modifier = {
@@ -298,9 +173,9 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		more_50_educated_sosaiti = {
+			available = { custom_trigger_tooltip = { tooltip = cant_be_changed_manually always = no } }
 			
 			removal_cost = -1
-			cost = 300
 			level = 3
 
 			modifier = {
@@ -312,9 +187,9 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		more_25_educated_sosaiti = {
+			available = { custom_trigger_tooltip = { tooltip = cant_be_changed_manually always = no } }
 			
 			removal_cost = -1
-			cost = 300
 			level = 2
 			default = yes
 
@@ -326,9 +201,9 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		not_educated_sosaiti = {
+			available = { custom_trigger_tooltip = { tooltip = cant_be_changed_manually always = no } }
 			
 			removal_cost = -1
-			cost = 300
 			level = 1
 
 			modifier = {
@@ -346,6 +221,7 @@ ideas = {
 		use_list_view = yes
 		
 		not_poor_sosaiti = {
+			available = { custom_trigger_tooltip = { tooltip = cant_be_changed_manually always = no } }
 			
 			removal_cost = -1
 			cost = 300
@@ -359,6 +235,7 @@ ideas = {
 		}
 		
 		more_50_poor = {
+			available = { custom_trigger_tooltip = { tooltip = cant_be_changed_manually always = no } }
 			
 			removal_cost = -1
 			cost = 300
@@ -374,6 +251,7 @@ ideas = {
 		}
 		
 		more_75_poor = {
+			available = { custom_trigger_tooltip = { tooltip = cant_be_changed_manually always = no } }
 			
 			removal_cost = -1
 			cost = 300
@@ -509,6 +387,7 @@ ideas = {
 		use_list_view = yes
 		
 		good_medicine = {
+			available = { custom_trigger_tooltip = { tooltip = cant_be_changed_manually always = no } }
 			
 			removal_cost = -1
 			cost = 150
@@ -528,6 +407,7 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		yes_medicine = {
+			available = { custom_trigger_tooltip = { tooltip = cant_be_changed_manually always = no } }
 			
 			removal_cost = -1
 			cost = 150
@@ -546,6 +426,7 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		no_medicine = {
+			available = { custom_trigger_tooltip = { tooltip = cant_be_changed_manually always = no } }
 			
 			removal_cost = -1
 			cost = 150

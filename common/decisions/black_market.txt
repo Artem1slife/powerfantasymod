@@ -560,12 +560,12 @@ TST_black_market = {
 				has_idea = black_market_1_idea
 			}
 			has_equipment = {
-				fighter_equipment > 99
+				small_plane_airframe > 99
 			}
 			custom_trigger_tooltip = {
 				tooltip = PIR_empty
 				PIR = {
-					fighter_equipment < 9999
+					small_plane_airframe < 9999
 				}
 			}
 		}
@@ -589,7 +589,7 @@ TST_black_market = {
 			modifier = {
 				factor = 100
 				has_equipment = {
-					fighter_equipment > 20000000
+					small_plane_airframe > 20000000
 				}
 			}
 		}
@@ -606,12 +606,12 @@ TST_black_market = {
 				has_idea = black_market_1_idea
 			}
 			has_equipment = {
-				fighter_equipment > 299
+				small_plane_airframe > 299
 			}
 			custom_trigger_tooltip = {
 				tooltip = PIR_empty
 				PIR = {
-					fighter_equipment < 9999
+					small_plane_airframe < 9999
 				}
 			}
 		}
@@ -635,7 +635,7 @@ TST_black_market = {
 			modifier = {
 				factor = 100
 				has_equipment = {
-					fighter_equipment > 20000000
+					small_plane_airframe > 20000000
 				}
 			}
 		}
@@ -652,12 +652,12 @@ TST_black_market = {
 				has_idea = black_market_1_idea
 			}
 			has_equipment = {
-				fighter_equipment > 599
+				small_plane_airframe > 599
 			}
 			custom_trigger_tooltip = {
 				tooltip = PIR_empty
 				PIR = {
-					fighter_equipment < 9999
+					small_plane_airframe < 9999
 				}
 			}
 		}
@@ -681,7 +681,7 @@ TST_black_market = {
 			modifier = {
 				factor = 100
 				has_equipment = {
-					fighter_equipment > 20000000
+					small_plane_airframe > 20000000
 				}
 			}
 		}

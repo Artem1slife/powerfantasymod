@@ -1,19 +1,45 @@
 cursed_continent = {
-	PFCC_integrate_488 = { visible = { controls_state = 488 488 = { NOT = { is_core_of = ROOT } } } days_remove = 70 highlight_states = { highlight_state_targets = { state = 488 } } remove_effect = { add_state_core = 488 } cost = 50 ai_will_do = { base = 100 } }
-	PFCC_integrate_491 = { visible = { controls_state = 491 491 = { NOT = { is_core_of = ROOT } } } days_remove = 70 highlight_states = { highlight_state_targets = { state = 491 } } remove_effect = { add_state_core = 491 } cost = 50 ai_will_do = { base = 100 } }
-	PFCC_integrate_490 = { visible = { controls_state = 490 490 = { NOT = { is_core_of = ROOT } } } days_remove = 70 highlight_states = { highlight_state_targets = { state = 490 } } remove_effect = { add_state_core = 490 } cost = 50 ai_will_do = { base = 100 } }
-	PFCC_integrate_489 = { visible = { controls_state = 489 489 = { NOT = { is_core_of = ROOT } } } days_remove = 70 highlight_states = { highlight_state_targets = { state = 489 } } remove_effect = { add_state_core = 489 } cost = 50 ai_will_do = { base = 100 } }
-	PFCC_integrate_171 = { visible = { controls_state = 171 171 = { NOT = { is_core_of = ROOT } } } days_remove = 70 highlight_states = { highlight_state_targets = { state = 171 } } remove_effect = { add_state_core = 171 } cost = 50 ai_will_do = { base = 100 } }
-	PFCC_integrate_498 = { visible = { controls_state = 498 498 = { NOT = { is_core_of = ROOT } } } days_remove = 70 highlight_states = { highlight_state_targets = { state = 498 } } remove_effect = { add_state_core = 498 } cost = 50 ai_will_do = { base = 100 } }
-	PFCC_integrate_497 = { visible = { controls_state = 497 497 = { NOT = { is_core_of = ROOT } } } days_remove = 70 highlight_states = { highlight_state_targets = { state = 497 } } remove_effect = { add_state_core = 497 } cost = 50 ai_will_do = { base = 100 } }
-	PFCC_integrate_496 = { visible = { controls_state = 496 496 = { NOT = { is_core_of = ROOT } } } days_remove = 70 highlight_states = { highlight_state_targets = { state = 496 } } remove_effect = { add_state_core = 496 } cost = 50 ai_will_do = { base = 100 } }
-	PFCC_integrate_495 = { visible = { controls_state = 495 495 = { NOT = { is_core_of = ROOT } } } days_remove = 70 highlight_states = { highlight_state_targets = { state = 495 } } remove_effect = { add_state_core = 495 } cost = 50 ai_will_do = { base = 100 } }
-	PFCC_integrate_154 = { visible = { controls_state = 154 154 = { NOT = { is_core_of = ROOT } } } days_remove = 70 highlight_states = { highlight_state_targets = { state = 154 } } remove_effect = { add_state_core = 154 } cost = 50 ai_will_do = { base = 100 } }
-	PFCC_integrate_494 = { visible = { controls_state = 494 494 = { NOT = { is_core_of = ROOT } } } days_remove = 70 highlight_states = { highlight_state_targets = { state = 494 } } remove_effect = { add_state_core = 494 } cost = 50 ai_will_do = { base = 100 } }
-	PFCC_integrate_493 = { visible = { controls_state = 493 493 = { NOT = { is_core_of = ROOT } } } days_remove = 70 highlight_states = { highlight_state_targets = { state = 493 } } remove_effect = { add_state_core = 493 } cost = 50 ai_will_do = { base = 100 } }
-	PFCC_integrate_492 = { visible = { controls_state = 492 492 = { NOT = { is_core_of = ROOT } } } days_remove = 70 highlight_states = { highlight_state_targets = { state = 492 } } remove_effect = { add_state_core = 492 } cost = 50 ai_will_do = { base = 100 } }
-	PFCC_integrate_imperial_slands = { visible = { OR = { controls_state = 15 controls_state = 14 controls_state = 13 controls_state = 10 controls_state = 12 } 12 = { NOT = { is_core_of = ROOT } } } days_remove = 70 highlight_states = { highlight_state_targets = { state = 12 } } remove_effect = { add_state_core = 15 add_state_core = 14 add_state_core = 13  add_state_core = 12 add_state_core = 10 } cost = 50 ai_will_do = { base = 100 } }
-	PFCC_integrate_7 = { visible = { controls_state = 7 7 = { NOT = { is_core_of = ROOT } } } days_remove = 70 highlight_states = { highlight_state_targets = { state = 7 } } remove_effect = { add_state_core = 7 } cost = 50 ai_will_do = { base = 100 } }
+	
+	PFCC_integrate_state = {
+		icon = generic_police_action
+		visible = {
+			OR = {
+				tag = IPO
+				tag = ROI
+				tag = APO
+			}
+			FROM = {
+				is_fully_controlled_by = ROOT
+				is_owned_by = ROOT
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		
+		cost = 50
+		
+		modifier = {
+			consumer_goods_factor = 0.02
+		}
+		
+		days_remove = 70
+
+		remove_effect = {
+			FROM = {
+				any_country_with_core = { remove_core_of = PREV }
+				add_core_of = ROOT
+			}
+		}
+
+		state_target = yes
+
+		on_map_mode = map_only
+		
+		ai_will_do = {
+			base = 100
+		}
+	}
 	
 	CC_announce_war = {
 		allowed = {

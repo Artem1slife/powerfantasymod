@@ -46,7 +46,7 @@ set_popularities = {
 	destruction = 20
 }
 
-add_ideas = { partial_economic_mobilisation IPO_dismoraled_army IPO_desert_lands IPO_wartime }
+add_ideas = { partial_economic_mobilisation IPO_dismoraled_army IPO_desert_lands IPO_wartime CURSED_civil_war }
 add_ideas = { tradition_state_of_sin tradition_broken_kingdom tradition_haotic_portals }
 
 recruit_character = IPO_Master
