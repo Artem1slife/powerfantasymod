@@ -14,8 +14,7 @@ PF_mobilization = {
 		complete_effect = {
 			delete_units = { division_template = "Mobilized Division" disband = yes }
 			delete_units = { division_template = "Mobilized Division (art.)" disband = yes }
-			delete_unit = { template = "Mobilized Division" }
-			delete_unit = { template = "Mobilized Division (art.)" }
+			clr_country_flag = PF_mobilization
 		}
 		timeout_effect = {
 			add_political_power = -150

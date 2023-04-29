@@ -86,3 +86,4 @@
  
  PF_mobil_state:0 "Провести мобилизацию в провинции §G[FROM.GetName]§!"
  mobilisation:0 "Мобилизация"
+ PF_demobilization:0 "Демобилизация"
