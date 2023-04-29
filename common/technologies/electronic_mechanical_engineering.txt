@@ -1275,6 +1275,10 @@ technologies = {
 			building = nuclear_reactor
 			level = 1
 		}
+		
+		enable_equipment_modules = {
+			tank_atomic_engine
+		}
 	}
 
 	nukes = {

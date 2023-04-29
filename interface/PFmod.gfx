@@ -23,5 +23,136 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua" 
 		legacy_lazy_load = no
 	}
-
+	
+	###
+	spriteType = {
+		name = "GFX_idea_priority_on_population"
+		texturefile = "gfx/interface/ideas/idea_PF_demography.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_priority_on_education"
+		texturefile = "gfx/interface/ideas/idea_PF_education.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_priority_on_administration"
+		texturefile = "gfx/interface/ideas/idea_PF_government.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_priority_on_industrialisation"
+		texturefile = "gfx/interface/ideas/idea_PF_industrialisation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_priority_on_propaganda"
+		texturefile = "gfx/interface/ideas/idea_PF_propaganda.dds"
+	}
+	###
+	spriteType = {
+		name = "GFX_idea_senate"
+		texturefile = "gfx/interface/ideas/idea_senate.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bad_army"
+		texturefile = "gfx/interface/ideas/idea_bad_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_desert_lands"
+		texturefile = "gfx/interface/ideas/idea_desert_lands.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FUCK_numbers"
+		texturefile = "gfx/interface/ideas/idea_FUCK_numbers.dds"
+	}
+	###
+	spriteType = {
+		name = "GFX_idea_educated_sosaiti"
+		texturefile = "gfx/interface/ideas/idea_PF_educated_sosaiti.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_more_50_educated_sosaiti"
+		texturefile = "gfx/interface/ideas/idea_PF_more_50_educated_sosaiti.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_more_25_educated_sosaiti"
+		texturefile = "gfx/interface/ideas/idea_PF_more_25_educated_sosaiti.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_not_educated_sosaiti"
+		texturefile = "gfx/interface/ideas/idea_PF_not_educated_sosaiti.dds"
+	}
+	###
+	spriteType = {
+		name = "GFX_idea_hight_industrialisated"
+		texturefile = "gfx/interface/ideas/idea_PF_hight_industrialisated.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_low_industrialisated"
+		texturefile = "gfx/interface/ideas/idea_PF_low_industrialisated.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_not_industrialisated"
+		texturefile = "gfx/interface/ideas/idea_PF_not_industrialisated.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_no_industrialisated"
+		texturefile = "gfx/interface/ideas/idea_PF_no_industrialisated.dds"
+	}
+	###
+	spriteType = {
+		name = "GFX_idea_good_medicine"
+		texturefile = "gfx/interface/ideas/idea_PF_good_medicine.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_yes_medicine"
+		texturefile = "gfx/interface/ideas/idea_PF_yes_medicine.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_no_medicine"
+		texturefile = "gfx/interface/ideas/idea_PF_no_medicine.dds"
+	}
+	###
+	spriteType = {
+		name = "GFX_idea_not_poor_sosaiti"
+		texturefile = "gfx/interface/ideas/idea_PF_not_poor_sosaiti.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_more_50_poor"
+		texturefile = "gfx/interface/ideas/idea_PF_more_50_poor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_more_75_poor"
+		texturefile = "gfx/interface/ideas/idea_PF_more_75_poor.dds"
+	}
+	###
+	spriteType = {
+		name = "GFX_idea_pf_great_power"
+		texturefile = "gfx/interface/ideas/pf_great_power.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pf_poten_great_power"
+		texturefile = "gfx/interface/ideas/pf_poten_great_power.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pf_large_power"
+		texturefile = "gfx/interface/ideas/pf_large_power.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pf_awesome_power"
+		texturefile = "gfx/interface/ideas/pf_awesome_power.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pf_poten_power"
+		texturefile = "gfx/interface/ideas/pf_poten_power.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_legions_of_iron"
+		texturefile = "gfx/interface/ideas/legions_of_iron.dds"
+	}
+	
+	spriteType = { name = "GFX_idea_antiutopia_sosaiti" texturefile = "gfx/interface/ideas/antiutopia_sosaiti.dds" }
+	spriteType = { name = "GFX_idea_totalitar_sosaiti" texturefile = "gfx/interface/ideas/totalitar_sosaiti.dds" }
+	spriteType = { name = "GFX_idea_controled_sosaiti" texturefile = "gfx/interface/ideas/controled_sosaiti.dds" }
+	spriteType = { name = "GFX_idea_ruled_sosaiti" texturefile = "gfx/interface/ideas/ruled_sosaiti.dds" }
+	spriteType = { name = "GFX_idea_free_sosaiti" texturefile = "gfx/interface/ideas/free_sosaiti.dds" }
+	
 }

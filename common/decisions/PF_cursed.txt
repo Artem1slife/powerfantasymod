@@ -14,6 +14,15 @@ cursed_continent = {
 				NOT = {
 					is_core_of = ROOT
 				}
+				OR = {
+					is_core_of = IPO
+					is_core_of = ROI
+					is_core_of = APO
+					is_core_of = BEC
+					is_core_of = BBM
+					is_core_of = BBT
+					is_core_of = BBB
+				}
 			}
 		}
 		
@@ -90,6 +99,11 @@ cursed_continent = {
 		remove_effect = {
 			remove_ideas = IPO_wartime
 			delete_units = { division_template = "Home Guard Brigade" disband = yes }
+			delete_units = { division_template = "Mobilized Division" disband = yes }
+			delete_units = { division_template = "Mobilized Division (art.)" disband = yes }
+			delete_unit = { template = "Home Guard Brigade" }
+			delete_unit = { template = "Mobilized Division" }
+			delete_unit = { template = "Mobilized Division (art.)" }
 			set_division_template_lock = { division_template = "Infantry Guards Division" is_locked = no }
 			add_timed_idea = { idea = IPO_recovering_from_the_civil_war days = 730 }
 			set_cosmetic_tag = IPO_end_fascism

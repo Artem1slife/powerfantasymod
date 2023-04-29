@@ -21,7 +21,6 @@ RAV_centralization = {
 }
 cursed_continent = {
 	icon = GRE_faction_management
-	picture = GFX_cursed_continent_cat # здесь может быть ваша картинка! находится по пути gfx/interface/decisions
 	visible = {
 		OR = {
 			original_tag = IPO
@@ -37,4 +36,7 @@ cursed_continent = {
 }
 art_and_trad = {
 	icon = GRE_faction_management
+}
+PF_mobilization = {
+	icon = army_reform
 }

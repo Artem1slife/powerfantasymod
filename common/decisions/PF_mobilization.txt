@@ -1,0 +1,101 @@
+PF_mobilization = {
+	PF_demobilization = {
+	
+		activation = { has_war = no has_country_flag = PF_mobilization }
+		cancel_trigger  = {
+			hidden_trigger = { NOT = { has_country_flag = PF_mobilization } NOT = { has_idea = IPO_wartime } }
+		}
+		
+		icon = mission_icon
+		
+		is_good = no
+		days_mission_timeout = 180
+		selectable_mission = yes
+		complete_effect = {
+			delete_units = { division_template = "Mobilized Division" disband = yes }
+			delete_units = { division_template = "Mobilized Division (art.)" disband = yes }
+			delete_unit = { template = "Mobilized Division" }
+			delete_unit = { template = "Mobilized Division (art.)" }
+		}
+		timeout_effect = {
+			add_political_power = -150
+			add_stability = -0.1
+			add_war_support = -0.1
+		}
+		ai_will_do = {
+			base = 100
+		}
+	}
+	PF_mobilization = {
+		icon = GFX_decision_generic_reorganize_irregulars
+		visible = { has_war = yes NOT = { has_country_flag = PF_mobilization } NOT = { has_idea = IPO_wartime } }
+		available = {
+			any_enemy_country = {
+				strength_ratio = {
+					tag = ROOT
+					ratio > 0.75
+				}
+			}
+		}
+		complete_effect = {
+			set_country_flag = PF_mobilization
+			load_oob = mobilisation
+		}
+		cost = 100
+		ai_will_do = {
+			base = 100
+		}
+	}
+	PF_mobil_state = {
+		icon = generic_police_action
+		visible = { FROM = { is_core_of = ROOT is_fully_controlled_by = ROOT } has_war = yes OR = { has_country_flag = PF_mobilization has_idea = IPO_wartime } }
+		cost = 10
+		available = {
+			if = {
+				limit = { NOT = { has_tech = gw_artillery } }
+				has_manpower > 40000
+			}
+			if = {
+				limit = { has_tech = gw_artillery }
+				has_manpower > 41200
+			}
+			any_enemy_country = {
+				strength_ratio = {
+					tag = ROOT
+					ratio > 0.75
+				}
+			}
+		}
+		
+		days_remove = 70
+
+		remove_effect = {
+			if = {
+				limit = { NOT = { has_tech = gw_artillery } }
+				FROM = {
+					create_unit = { division = "name = \"Mobilized Division\" division_template = \"Mobilized Division\" start_equipment_factor = 0.01 start_manpower_factor = 0.01 start_experience_factor = 0.01" owner = ROOT }
+					create_unit = { division = "name = \"Mobilized Division\" division_template = \"Mobilized Division\" start_equipment_factor = 0.01 start_manpower_factor = 0.01 start_experience_factor = 0.01" owner = ROOT }
+					create_unit = { division = "name = \"Mobilized Division\" division_template = \"Mobilized Division\" start_equipment_factor = 0.01 start_manpower_factor = 0.01 start_experience_factor = 0.01" owner = ROOT }
+					create_unit = { division = "name = \"Mobilized Division\" division_template = \"Mobilized Division\" start_equipment_factor = 0.01 start_manpower_factor = 0.01 start_experience_factor = 0.01" owner = ROOT }
+				}
+			}
+			if = {
+				limit = { has_tech = gw_artillery }
+				FROM = {
+					create_unit = { division = "name = \"Mobilized Division\" division_template = \"Mobilized Division (art.)\" start_equipment_factor = 0.01 start_manpower_factor = 0.01 start_experience_factor = 0.01" owner = ROOT }
+					create_unit = { division = "name = \"Mobilized Division\" division_template = \"Mobilized Division (art.)\" start_equipment_factor = 0.01 start_manpower_factor = 0.01 start_experience_factor = 0.01" owner = ROOT }
+					create_unit = { division = "name = \"Mobilized Division\" division_template = \"Mobilized Division (art.)\" start_equipment_factor = 0.01 start_manpower_factor = 0.01 start_experience_factor = 0.01" owner = ROOT }
+					create_unit = { division = "name = \"Mobilized Division\" division_template = \"Mobilized Division (art.)\" start_equipment_factor = 0.01 start_manpower_factor = 0.01 start_experience_factor = 0.01" owner = ROOT }
+				}
+			}
+		}
+
+		state_target = yes
+
+		on_map_mode = map_only
+		
+		ai_will_do = {
+			base = 100
+		}
+	}
+}

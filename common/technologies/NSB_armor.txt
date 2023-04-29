@@ -62,6 +62,11 @@ technologies = {
 			wet_ammo_storage
 			smoke_launchers
 			expanded_fuel_tank
+			
+			tank_shagopory_2_suspension
+			tank_shagopory_3_suspension
+			tank_shagopory_4_suspension
+			tank_shagopory_6_suspension
 		}
 		enable_subunits = {
 			light_armor
