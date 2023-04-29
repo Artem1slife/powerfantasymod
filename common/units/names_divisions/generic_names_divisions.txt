@@ -1,0 +1,72 @@
+﻿
+GENERIC_INF_01 = {
+	name = "Infantry Divisions"
+
+	#for_countries = { BLR }
+	can_use = { always = yes }
+	division_types = { "infantry" }
+	fallback_name = "%d. Infantry Division"
+	
+	ordered = {
+		#1 = { "%dya Belaruskaya Stralkovaya Div." }
+	}
+}
+
+GENERIC_CAV_01 = {
+	name = "Cavalry Divisions"
+	can_use = { always = yes }
+	division_types = { "cavalry" }
+	fallback_name = "%d. Cavalry Division"
+}
+
+GENERIC_MOT_01 = {
+	name = "Motorised Divisions"
+	can_use = { always = yes }
+	division_types = { "motorized" }
+	link_numbering_with = { BLR_INF_01 }
+	fallback_name = "%d. Motorised Division"
+}
+
+GENERIC_BLR_01 = {
+	name = "Armored Divisions"
+	can_use = { always = yes }
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+	fallback_name = "%d. Armored Division"
+}
+
+GENERIC_MEC_01 = {
+	name = "Mechanized Divisions"
+	can_use = { always = yes }
+	division_types = { "mechanized"  }
+	link_numbering_with = { BLR_INF_01 }
+	fallback_name = "%d. Mechanized Division"
+}
+
+GENERIC_GAR_01 = {
+	name = "Garrison Divisions"
+	can_use = { always = yes }
+	division_types = { "infantry" }
+	link_numbering_with = { BLR_INF_01 }
+	fallback_name = "%d. Garrison Division"
+}
+
+GENERIC_MAR_01 = {
+	name = "Marine Divisions"
+	can_use = { always = yes }
+	division_types = { "marine" }
+	fallback_name = "%d. Marine Division"
+}
+
+GENERIC_MTN_01 = {
+	name = "Mountain Divisions"
+	can_use = { always = yes }
+	division_types = { "mountaineers" }
+	fallback_name = "%d. Mountain Division"
+}
+
+GENERIC_PAR_01 = {
+	name = "Paratrooper Divisions"
+	can_use = { always = yes }
+	division_types = { "paratrooper" }
+	fallback_name = "%d. Paratrooper Division"
+}

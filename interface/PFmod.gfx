@@ -155,4 +155,20 @@ spriteTypes = {
 	spriteType = { name = "GFX_idea_ruled_sosaiti" texturefile = "gfx/interface/ideas/ruled_sosaiti.dds" }
 	spriteType = { name = "GFX_idea_free_sosaiti" texturefile = "gfx/interface/ideas/free_sosaiti.dds" }
 	
+	spriteType = { name = "GFX_idea_tradition_free_harbor" texturefile = "gfx/interface/ideas/tradition_free_harbor.dds" }
+	spriteType = { name = "GFX_idea_tradition_isolitionalism" texturefile = "gfx/interface/ideas/tradition_isolitionalism.dds" }
+	spriteType = { name = "GFX_idea_tradition_monastery" texturefile = "gfx/interface/ideas/tradition_monastery.dds" }
+	spriteType = { name = "GFX_idea_tradition_moon_law" texturefile = "gfx/interface/ideas/tradition_moon_law.dds" }
+	spriteType = { name = "GFX_idea_tradition_religion_basis" texturefile = "gfx/interface/ideas/tradition_religion_basis.dds" }
+	
+	spriteType = { name = "GFX_idea_artifact_glasteron" texturefile = "gfx/interface/ideas/rings_artifact/ImageToStl.com_idea_pf_artifact_ring_of_speed.dds" }
+	spriteType = { name = "GFX_idea_artifact_ring_illusions" texturefile = "gfx/interface/ideas/rings_artifact/idea_PF_ring_illusions.dds" }
+	spriteType = { name = "GFX_idea_artifact_ring_power" texturefile = "gfx/interface/ideas/rings_artifact/ImageToStl.com_idea_pf_artifact_ring_power.dds" }
+	spriteType = { name = "GFX_idea_artifact_ring_telekinesis" texturefile = "gfx/interface/ideas/rings_artifact/ImageToStl.com_idea_pf_artifact_blue_ring.dds" }
+	spriteType = { name = "GFX_idea_artifact_ring_spirit" texturefile = "gfx/interface/ideas/rings_artifact/idea_PF_artifact_ring_spirit.dds" }
+	spriteType = { name = "GFX_idea_artifact_ring_time" texturefile = "gfx/interface/ideas/rings_artifact/idea_PF_artifact_ring_time.dds" }
+	spriteType = { name = "GFX_idea_artifact_ring_space" texturefile = "gfx/interface/ideas/rings_artifact/idea_PF_artifact_ring_space.dds" }
+	
+	spriteType = { name = "GFX_decision_cat_cursed_continent" texturefile = "gfx/interface/decisions/decision_cat_cursed_continent.dds" }
+	 
 }
