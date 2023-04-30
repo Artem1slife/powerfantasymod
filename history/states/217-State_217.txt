@@ -6,11 +6,11 @@ state={
 	}
 	manpower=19572345
 	history={
-		owner = OSI
+		owner = WST
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = OSI
+		add_core_of = WST
 	}
 	state_category = rural
 	local_supplies=0.0 

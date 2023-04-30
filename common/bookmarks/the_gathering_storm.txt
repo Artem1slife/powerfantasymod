@@ -37,11 +37,11 @@ bookmarks = {
 			}	
 		}
 
-		"---"={
+		"PRS"={
 			history = "SHIZOPHRENIA_DESC"
 		}
 		
-		"---"={
+		"RAV"={
 			history = "SHIZOPHRENIA_DESC"
 		}
 

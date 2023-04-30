@@ -23,7 +23,7 @@ GENERIC_MOT_01 = {
 	name = "Motorised Divisions"
 	can_use = { always = yes }
 	division_types = { "motorized" }
-	link_numbering_with = { BLR_INF_01 }
+	link_numbering_with = { GENERIC_INF_01 }
 	fallback_name = "%d. Motorised Division"
 }
 
@@ -38,7 +38,7 @@ GENERIC_MEC_01 = {
 	name = "Mechanized Divisions"
 	can_use = { always = yes }
 	division_types = { "mechanized"  }
-	link_numbering_with = { BLR_INF_01 }
+	link_numbering_with = { GENERIC_INF_01 }
 	fallback_name = "%d. Mechanized Division"
 }
 
@@ -46,7 +46,7 @@ GENERIC_GAR_01 = {
 	name = "Garrison Divisions"
 	can_use = { always = yes }
 	division_types = { "infantry" }
-	link_numbering_with = { BLR_INF_01 }
+	link_numbering_with = { GENERIC_INF_01 }
 	fallback_name = "%d. Garrison Division"
 }
 

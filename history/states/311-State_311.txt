@@ -4,14 +4,20 @@ state={
 	provinces={
 		564 600 637 1152 1349 1752 1997 2043 2111 2537 2588 3282 3384 3580 3827 3840 3843 4287 4478 5006 5026 5250 5507 5771 6991 7003 7005 7040 7083 7088 7091 7100 7119 7125 7154 7179 7180 7201 7217 7244 7249 7261 7321 
 	}
-	manpower=1
+	manpower=13372281
 	history={
 		owner = PRS
+		victory_points = { 2043 15 }
+		victory_points = { 3580 10 }
+		victory_points = { 600 5 }
+		victory_points = { 5006 10 }
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
 		}
 		add_core_of = PRS
 	}
-	state_category = rural
+	state_category = large_town
 	local_supplies=0.0 
 }

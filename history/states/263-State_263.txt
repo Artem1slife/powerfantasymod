@@ -11,6 +11,8 @@ state={
 			infrastructure = 2
 		}
 		add_core_of = OSI
+		add_core_of = UST
+		add_claim_by = PRS
 	}
 	state_category = rural
 	local_supplies=0.0 

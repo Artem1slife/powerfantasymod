@@ -204,11 +204,11 @@ ROM = {
 	color = rgb { 177 102 102}
 	color_ui = rgb { 139 20 20}
 }
-FRA = {
-	color = rgb { 96 181 87}
-	color_ui = rgb { 139 20 20}
+FRE = {
+	color = rgb { 40 60 100}
+	color_ui = rgb { 40 60 100}
 }
-DOM = {
+DMS = {
 	color = rgb { 137 111 87}
 	color_ui = rgb { 139 20 20}
 }
@@ -277,8 +277,8 @@ NIM = {
 	color_ui = rgb { 139 20 20}
 }
 OSI = {
-	color = rgb { 127 177 127}
-	color_ui = rgb { 139 20 20}
+	color = rgb { 90 130 130}
+	color_ui = rgb { 90 130 130}
 }
 TST = {
 	color = rgb { 50 50 50}
@@ -430,8 +430,8 @@ FSE = {
 }
 
 PRS = {
-	color = rgb {127  127  127}
-	color_ui = rgb { 139 20 20 }
+	color = rgb {140  130  120}
+	color_ui = rgb { 140  130  120}
 }
 KLM = {
 	color = rgb {127  127  127}
@@ -508,4 +508,48 @@ PBT = {
 AEM = {
 	color = rgb {1  1  1}
 	color_ui = rgb { 139 20 20 }
+}
+TRS = {
+	color = rgb {20  70  90}
+	color_ui = rgb { 139 20 20 }
+}
+BLM = {
+	color = rgb {75  70  90}
+	color_ui = rgb { 139 20 20 }
+}
+UGL = {
+	color = rgb {75  116  72}
+	color_ui = rgb { 139 20 20 }
+}
+VEI = {
+	color = rgb {75  49  72}
+	color_ui = rgb { 139 20 20 }
+}
+AVA = {
+	color = rgb {51  110  72}
+	color_ui = rgb { 139 20 20 }
+}
+GUR = {
+	color = rgb {70  111  86}
+	color_ui = rgb { 139 20 20 }
+}
+PRA = {
+	color = rgb {152  121  61}
+	color_ui = rgb { 139 20 20 }
+}
+PTL = {
+	color = rgb {54  94  41}
+	color_ui = rgb { 139 20 20 }
+}
+UST = {
+	color = rgb {54  55  68}
+	color_ui = rgb { 139 20 20 }
+}
+WST = {
+	color = rgb {105  91  75}
+	color_ui = rgb { 139 20 20 }
+}
+NAV = {
+	color = rgb {210  210  120}
+	color_ui = rgb { 210  210  120 }
 }

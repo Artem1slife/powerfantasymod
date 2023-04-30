@@ -1,0 +1,20 @@
+state={
+	id=526
+	name="STATE_526"
+	provinces={
+		5673 4351 1944 3523 3807 6964
+	}
+	manpower=1567289
+	history={
+		owner = OSI
+		victory_points = { 4351 3 }
+		victory_points = { 6964 1 }
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = UST
+		add_claim_by = PRS
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

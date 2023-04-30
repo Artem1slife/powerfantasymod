@@ -3,14 +3,16 @@ state={
 	name="STATE_2"
 	provinces={
 		512 604 1757 5934 5940 
+		4615 51 2683 1606 
+		8949
 	}
 	manpower=1
 	history={
-		owner = TST
+		owner = PTL
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = TST
+		add_core_of = PTL
 	}
 	state_category = rural
 	local_supplies=0.0 

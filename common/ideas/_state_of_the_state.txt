@@ -132,10 +132,6 @@ ideas = {
 		}
 		pf_poten_power = {
 			
-			available = {
-				is_major = no
-			}
-			
 			removal_cost = -1
 			level = 1
 			default = yes

@@ -1,0 +1,30 @@
+ideas = {
+	country = {
+		PRS_ordnung = {
+			picture = soviet_german_friendship
+			modifier = {
+				army_org_factor = 0.15
+				army_morale_factor = -0.05
+				conscription_factor = -0.15
+			}
+		}
+		PRS_blitzkrieg = {
+			picture = soviet_german_friendship
+			modifier = {
+				army_speed_factor = 0.25
+				cat_mobile_warfare_cost_factor = -0.25
+			}
+		}
+		PRS_militarization = {
+			picture = soviet_german_friendship
+			modifier = {
+				production_speed_industrial_complex_factor = -0.3
+				production_speed_arms_factory_factor = 0.15
+				consumer_goods_factor = -0.05
+				war_support_factor = 0.15
+				supply_node_range = 0.15
+				special_forces_min = 200
+			}
+		}
+	}
+}

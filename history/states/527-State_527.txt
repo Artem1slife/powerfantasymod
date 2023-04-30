@@ -1,0 +1,23 @@
+state={
+	id=527
+	name="STATE_527"
+	provinces={
+		4053 5871 1269
+	}
+	manpower=2371979
+	history={
+		owner = PRS
+		victory_points = { 4053 3 }
+		buildings = {
+			infrastructure = 2
+			arms_factory = 3
+			industrial_complex = 4
+		}
+		add_core_of = PRS
+		add_core_of = UST
+		add_claim_by = FRE
+	}
+	state_category = city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

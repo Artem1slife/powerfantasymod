@@ -1,13 +1,45 @@
-capital = 20
+capital = 276
+
 set_technology = {
 	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	basic_train = 1
+	mobile_warfare = 1
+	trade_interdiction = 1
+	formation_flying = 1
+	synth_oil_experiments = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	
+	aa_lmg = 1
+	aa_cannon_1 = 1
+	engines_1 = 1
+	engines_2 = 1
+	early_bombs = 1
+	aircraft_construction = 1
+	iw_small_airframe = 1
+	basic_small_airframe = 1
+	iw_medium_airframe = 1
+	basic_medium_airframe = 1
+	iw_large_airframe = 1
+	
+	gwtank_chassis = 1
+	engine_tech_1 = 1
 }
+
 set_convoys = 150
 add_political_power = 150
 set_research_slots = 3
 set_stability = 0.6
 set_war_support = 0.5
-set_oob = "FRA_1936"
+set_oob = "PRS"
 set_politics = {
 	ruling_party = fascism
 	last_election = "1936.1.1"
@@ -15,40 +47,30 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 5
-	communism = 20
-	democratic = 65
-	neutrality = 10
+	fascism = 75
+	communism = 5
+	democratic = 5
+	neutrality = 15
+	destruction = 0
 }
 
-recruit_character = PRS_char_id_0
-recruit_character = PRS_char_id_1
-recruit_character = PRS_char_id_2
-recruit_character = PRS_char_id_3
-recruit_character = PRS_char_id_4
-recruit_character = PRS_char_id_5
-recruit_character = PRS_char_id_6
-recruit_character = PRS_char_id_7
-recruit_character = PRS_char_id_8
-recruit_character = PRS_char_id_9
-recruit_character = PRS_char_id_10
-recruit_character = PRS_char_id_11
-recruit_character = PRS_char_id_12
-recruit_character = PRS_char_id_13
-recruit_character = PRS_char_id_14
-recruit_character = PRS_char_id_15
-recruit_character = PRS_char_id_16
-recruit_character = PRS_char_id_17
-recruit_character = PRS_char_id_18
-recruit_character = PRS_char_id_19
-recruit_character = PRS_char_id_20
-recruit_character = PRS_char_id_21
-recruit_character = PRS_char_id_22
-recruit_character = PRS_char_id_23
-recruit_character = PRS_char_id_24
-recruit_character = PRS_char_id_25
-recruit_character = PRS_char_id_26
-recruit_character = PRS_char_id_27
-recruit_character = PRS_char_id_28
-recruit_character = PRS_char_id_29
-recruit_character = PRS_char_id_30
+add_ideas = { war_economy extensive_conscription PRS_ordnung PRS_blitzkrieg PRS_militarization }
+
+create_equipment_variant = {
+	name = "Panzer I"
+	type = light_tank_chassis_0
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_small_cannon
+		turret_type_slot = tank_light_two_man_tank_turret
+		suspension_type_slot = tank_christie_suspension
+		armor_type_slot = tank_riveted_armor
+		engine_type_slot = tank_gasoline_engine
+		special_type_slot_1 = tank_radio_1
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 2
+		tank_nsb_armor_upgrade = 2
+	}
+	icon = "GFX_gwtank_medium"
+}

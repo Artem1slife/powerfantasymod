@@ -6,11 +6,11 @@ state={
 	}
 	manpower=2307143
 	history={
-		owner = PRS
+		owner = UST
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = PRS
+		add_core_of = UST
 	}
 	state_category = rural
 	local_supplies=0.0 

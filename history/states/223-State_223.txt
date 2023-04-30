@@ -4,13 +4,13 @@ state={
 	provinces={
 		3501 
 	}
-	manpower=1
+	manpower=576594
 	history={
-		owner = TST
+		owner = FRE
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = TST
+		add_core_of = FRE
 	}
 	state_category = rural
 	local_supplies=0.0 

@@ -6,11 +6,12 @@ state={
 	}
 	manpower=9173445
 	history={
-		owner = FRA
+		owner = FRE
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = FRA
+		add_core_of = FRE
+		add_core_of = UST
 	}
 	state_category = town
 	local_supplies=0.0 
