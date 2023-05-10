@@ -6,6 +6,7 @@ ideas = {
 				army_org_factor = 0.15
 				army_morale_factor = -0.05
 				conscription_factor = -0.15
+				ai_join_ally_desire_factor = 30
 			}
 		}
 		PRS_blitzkrieg = {
@@ -13,6 +14,7 @@ ideas = {
 			modifier = {
 				army_speed_factor = 0.25
 				cat_mobile_warfare_cost_factor = -0.25
+				ai_focus_aggressive_factor = 3
 			}
 		}
 		PRS_militarization = {
@@ -24,6 +26,7 @@ ideas = {
 				war_support_factor = 0.15
 				supply_node_range = 0.15
 				special_forces_min = 200
+				ai_focus_war_production_factor = 0.5
 			}
 		}
 	}

@@ -5,6 +5,10 @@ state={
 		4053 5871 1269
 	}
 	manpower=2371979
+	resources={
+		tungsten = 32
+		steel = 64
+	}
 	history={
 		owner = PRS
 		victory_points = { 4053 3 }

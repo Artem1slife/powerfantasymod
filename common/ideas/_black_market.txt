@@ -1,5 +1,5 @@
 ideas = {
-	country = {
+	hidden_ideas = {
 		black_market_1_idea = {
 			picture = SPR_seize_the_gold_reserves
 			allowed = {

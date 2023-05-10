@@ -548,6 +548,11 @@ technologies = {
 			leads_to_tech = basic_large_airframe
 			research_cost_coeff = 1
 		}
+	
+		path = {
+			leads_to_tech = PF_airship_0
+			research_cost_coeff = 1
+		}
 
 		research_cost = 2
 		start_year = 1926
@@ -748,7 +753,7 @@ technologies = {
 
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = 0 y = 2 }
+			position = { x = 3 y = 2 }
 		}
 
 		path = {
@@ -785,7 +790,7 @@ technologies = {
 
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = 0 y = 4 }
+			position = { x = 3 y = 4 }
 		}
 
 		allow_branch = { has_dlc = "La Resistance" }
@@ -820,7 +825,7 @@ technologies = {
 
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = 0 y = 2 }
+			position = { x = 1 y = 2 }
 		}
 
 		path = {
@@ -873,7 +878,7 @@ technologies = {
 
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = -2 y = 4 }
+			position = { x = 1 y = 4 }
 		}
 
 		categories = {
@@ -1370,5 +1375,85 @@ technologies = {
 			factor = 0
 		}
 		################
+	}
+
+	PF_airship_0 = {
+		enable_equipments = {
+			PF_airship_eqp_0
+		}
+		research_cost = 2
+		start_year = 1926
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 3 y = 2 }
+		}
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+		path = {
+			leads_to_tech = PF_airship_1
+			research_cost_coeff = 1
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 5
+				tag = PRS
+			}
+		}
+	}
+
+	PF_airship_1 = {
+		enable_equipments = {
+			PF_airship_eqp_1
+		}
+		research_cost = 2
+		start_year = 1926
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 3 y = 4 }
+		}
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+		path = {
+			leads_to_tech = PF_airship_2
+			research_cost_coeff = 1
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 5
+				tag = PRS
+			}
+		}
+	}
+
+	PF_airship_2 = {
+		enable_equipments = {
+			PF_airship_eqp_2
+		}
+		research_cost = 2
+		start_year = 1926
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 3 y = 6 }
+		}
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 5
+				tag = PRS
+			}
+		}
 	}
 }

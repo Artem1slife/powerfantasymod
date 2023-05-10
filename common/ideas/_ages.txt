@@ -1,0 +1,34 @@
+ideas = {
+	hidden_ideas = {
+		idea_age_of_tribes = {
+			allowed = {
+				always = no
+			}
+		}
+		idea_age_of_feodalism = {
+			allowed = {
+				always = no
+			}
+		}
+		idea_age_of_steam = {
+			allowed = {
+				always = no
+			}
+		}
+		idea_age_of_petrol = {
+			allowed = {
+				always = no
+			}
+		}
+		idea_age_of_disel = {
+			allowed = {
+				always = no
+			}
+		}
+		idea_age_of_atom = {
+			allowed = {
+				always = no
+			}
+		}
+	}
+}

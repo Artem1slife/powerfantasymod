@@ -1,0 +1,47 @@
+﻿air_wings = {
+	276 = { 
+		small_plane_airframe_0 =  {
+			owner = "PRS" 
+			amount = 100
+			version_name = "Jäger-I"
+		}
+		name = "Wings-I"
+	}
+	276 = { 
+		small_plane_airframe_0 =  {
+			owner = "PRS" 
+			amount = 100
+			version_name = "Jäger-I"
+		}
+		name = "Wings-II"
+	}
+	276 = { 
+		small_plane_airframe_0 =  {
+			owner = "PRS" 
+			amount = 100
+			version_name = "Jäger-I"
+		}
+		name = "Wings-III"
+	}
+	276 = { 
+		small_plane_airframe_0 =  {
+			owner = "PRS" 
+			amount = 100
+			version_name = "Jäger-I"
+		}
+		name = "Wings-IV"
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = small_plane_airframe_0
+			creator = "PRS" 
+			version_name = "Jäger-I"
+		}
+		requested_factories = 2
+		progress = 0.15
+		efficiency = 50
+	}
+}

@@ -1,0 +1,26 @@
+NDefines.NGraphics.CITY_SPRAWL_SHRINK_DISTANCE = 22000.0 			-- Start shrinking at this distance
+NDefines.NGraphics.CITY_SPRAWL_DRAW_DISTANCE = 250000.0 				-- Remove at this distance
+NDefines.NGraphics.CITY_SPRAWL_AMOUNT = 10.0 						-- Size of cities, higher gives larger cities
+NDefines.NGraphics.DRAW_MAP_OBJECTS_CUTOFF = 1070.0					-- Remove map objects at this distance
+NDefines.NGraphics.PROVINCE_NAME_DRAW_DISTANCE = 800.0 			-- Remove province names beyond this distance
+NDefines.NGraphics.BORDER_WIDTH = .25
+NDefines.NGraphics.PROVINCE_BORDER_FADE_NEAR = 215
+NDefines.NGraphics.PROVINCE_BORDER_FADE_FAR = 310
+NDefines.NGraphics.STATE_BORDER_FADE_NEAR = 410
+NDefines.NGraphics.STATE_BORDER_FADE_FAR = 550
+-- Currently not in use -- NDefines.NGraphics.GRADIENT_BORDERS_THICKNESS_COUNTRY_LOW = 0.1, -- thickness in pixels 0
+-- Currently not in use -- NDefines.NGraphics.GRADIENT_BORDERS_COUNTRY_CENTER_THICKNESS = 2.0, -- The center gradient is linear 1/255 per pixel for this many pixels.  This is the countries color opacity.  
+NDefines.NGraphics.GRADIENT_BORDERS_THICKNESS_COUNTRY_HIGH = 5  -- How blurry country borders are.  Less is finer.  
+NDefines.NGraphics.GRADIENT_BORDERS_THICKNESS_STATE = 0.0
+NDefines.NGraphics.GRADIENT_BORDERS_CAMERA_DISTANCE_OVERRIDE_COUNTRY = 0.0 -- 0 to 1 value for override filling when camera zooms in/out. 0 = override disabled
+NDefines.NGraphics.WEATHER_DISTANCE_CUTOFF = 1450 -- At what distance weather effects are hidden
+NDefines.NGraphics.WEATHER_DISTANCE_FADE_LENGTH = 400 -- How far the fade out distance should be
+-- Currently not in use -- NDefines.NGraphics.BLOOM_WIDTH = 1.5,
+--BLOOM_WIDTH = 1.0, -- night
+-- Currently not in use -- NDefines.NGraphics.BLOOM_SCALE = 0.9,
+--BLOOM_SCALE = 3.0, -- night
+NDefines.NGraphics.MOON_HEIGHT = 600 -- higher means softer shadows and more intense light
+NDefines.NGraphics.SUN_HEIGHT  = 1200 -- higher means softer shadows and more intense light
+NDefines.NGraphics.SUN_LATITUDE  = 295 --usually 848
+NDefines.NGraphics.SUN_INTENSITY = 1.0 -- 0.4 usually 1
+NDefines.NGraphics.MOON_INTENSITY = 1.0 --Usually 2.5

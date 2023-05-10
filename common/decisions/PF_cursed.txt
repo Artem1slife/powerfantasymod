@@ -98,6 +98,10 @@ cursed_continent = {
 			set_cosmetic_tag = IPO_end_fascism
 			news_event = { id = IPO_imperium_events.11 }
 		}
+		
+		ai_will_do = {
+			base = 1000
+		}
 	}
 	
     FSR_revolt = {

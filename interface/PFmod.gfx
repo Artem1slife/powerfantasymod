@@ -170,5 +170,5 @@ spriteTypes = {
 	spriteType = { name = "GFX_idea_artifact_ring_space" texturefile = "gfx/interface/ideas/rings_artifact/idea_PF_artifact_ring_space.dds" }
 	
 	spriteType = { name = "GFX_decision_cat_cursed_continent" texturefile = "gfx/interface/decisions/decision_cat_cursed_continent.dds" }
-	 
+	
 }

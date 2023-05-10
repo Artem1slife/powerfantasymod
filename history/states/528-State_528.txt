@@ -1,0 +1,22 @@
+state={
+	id=528
+	name="STATE_528"
+	provinces={
+		371 6561 6597 6583 
+	}
+	manpower=2371979
+	history={
+		owner = OSI
+		victory_points = { 371 1 }
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		add_core_of = OSI
+		add_claim_by = PRS
+	}
+	state_category = city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

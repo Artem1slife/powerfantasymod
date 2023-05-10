@@ -45,4 +45,20 @@ spriteTypes = {
 		name = "GFX_ancient_armor"
 		texturefile = "gfx/interface/technologies/ancient_armor.dds"
 	}
+	SpriteType = {
+		name = "GFX_PF_airship"
+		texturefile = "gfx/interface/technologies/ancient_armor.dds"
+	}
+	SpriteType = {
+		name = "GFX_PF_airship_eqp_0"
+		texturefile = "gfx/interface/technologies/ancient_armor.dds"
+	}
+	SpriteType = {
+		name = "GFX_PF_airship_eqp_1"
+		texturefile = "gfx/interface/technologies/ancient_armor.dds"
+	}
+	SpriteType = {
+		name = "GFX_PF_airship_eqp_2"
+		texturefile = "gfx/interface/technologies/ancient_armor.dds"
+	}
 }

@@ -694,12 +694,12 @@ suppression_generic = {
 			}
 			
 			regiments = {
-				militia_infanteria = 5
+				cavalry = 6
 			}
 		}
 		
 		allowed_types = {
-			militia_infanteria
+			cavalry
 			military_police
 		}
 	}
