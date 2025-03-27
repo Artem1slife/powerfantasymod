@@ -1,0 +1,17 @@
+state={
+	id=546
+	name="STATE_546"
+	provinces={
+		608 702 848 944 1082 2582 5732 6109 6119 6128 6138 6164 8979
+	}
+	manpower=1
+	history={
+		owner = UGL
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = UGL
+	}
+	state_category = rural
+	local_supplies=0.0 
+}

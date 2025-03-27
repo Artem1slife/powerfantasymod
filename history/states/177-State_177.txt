@@ -2,7 +2,7 @@ state={
 	id=177
 	name="STATE_177"
 	provinces={
-		347 2121 2564 3242 3950 
+		347 1759 2121 2564 3242 3950 
 	}
 	manpower=1
 	history={

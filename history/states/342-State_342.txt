@@ -2,9 +2,8 @@ state={
 	id=342
 	name="STATE_342"
 	provinces={
-		142 1035 2822 3424 3447 3758 3786 4060 4671 4724 5052 5065 5421 5445 5826 7424 7530 7538 7569 7583 
+		3424 3447 3758 4724 5445 5826 7530 7538 7569 7583 
 	}
-	manpower=1
 	history={
 		owner = DMS
 		buildings = {
@@ -13,23 +12,14 @@ state={
 		add_core_of = DMS
 	}
 	state_category = rural
-	local_supplies=0.0 
-manpower=1398567
-resources={
-oil = 0
-aluminium = 7
-rubber = 0
-tungsten = 0
-steel = 0
-chromium = 5
-}
-manpower=2429198
-resources={
-oil = 0
-aluminium = 0
-rubber = 0
-tungsten = 0
-steel = 12
-chromium = 0
-}
+	local_supplies=0.0
+	manpower=2429198
+	resources={
+		oil = 0
+		aluminium = 0
+		rubber = 0
+		tungsten = 0
+		steel = 12
+		chromium = 0
+	}
 }

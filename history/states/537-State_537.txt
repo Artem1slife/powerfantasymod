@@ -1,0 +1,17 @@
+state={
+	id=537
+	name="STATE_537"
+	provinces={
+		2508 2542 7405
+	}
+	manpower=2307143
+	history={
+		owner = UST
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = UST
+	}
+	state_category = rural
+	local_supplies=0.0 
+}

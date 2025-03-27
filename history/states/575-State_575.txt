@@ -1,0 +1,17 @@
+state={
+	id=575
+	name="STATE_575"
+	provinces={
+		45 1711 2736 3069 3651 3941 5060 5253 6468 6497 6507 6515 6537 6585
+	}
+	manpower=1
+	history={
+		owner = VEI
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = VEI
+	}
+	state_category = rural
+	local_supplies=0.0 
+}

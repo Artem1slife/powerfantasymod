@@ -1,0 +1,17 @@
+state={
+	id=569
+	name="STATE_569"
+	provinces={
+		393 1958 1969 2960 5410 6142 6146
+	}
+	manpower=1
+	history={
+		owner = GUR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = GUR
+	}
+	state_category = rural
+	local_supplies=0.0 
+}

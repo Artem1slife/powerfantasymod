@@ -1,0 +1,17 @@
+state={
+	id=553
+	name="STATE_553"
+	provinces={
+		177 792 1036 1407 1864 3289 6021 6036 6049
+	}
+	manpower=1
+	history={
+		owner = PRA
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = PRA
+	}
+	state_category = rural
+	local_supplies=0.0 
+}

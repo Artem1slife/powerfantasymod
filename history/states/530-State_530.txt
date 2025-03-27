@@ -1,0 +1,25 @@
+state={
+	id=530
+	name="STATE_530"
+	provinces={
+		142 1035 2822 3786 4060 4671 5052 5065 5421 7424 
+	}
+	history={
+		owner = DMS
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = DMS
+	}
+	state_category = rural
+	local_supplies=0.0 
+	manpower=1398567
+	resources={
+		oil = 0
+		aluminium = 7
+		rubber = 0
+		tungsten = 0
+		steel = 0
+		chromium = 5
+	}
+}

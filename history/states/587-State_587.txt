@@ -1,0 +1,17 @@
+state={
+	id=587
+	name="STATE_587"
+	provinces={
+		1344 1781 3926 4836 5027 5105 5237 5709 5730 7047 7080 7102 7163
+	}
+	manpower=18361911
+	history={
+		owner = NIM
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = NIM
+	}
+	state_category = rural
+	local_supplies=0.0 
+}

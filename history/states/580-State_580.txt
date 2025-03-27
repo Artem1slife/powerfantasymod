@@ -1,0 +1,17 @@
+state={
+	id=580
+	name="STATE_580"
+	provinces={
+		416 1779 2546 2891 5132 7174 7260 7302 7371
+	}
+	manpower=1825239
+	history={
+		owner = NIM
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = NIM
+	}
+	state_category = rural
+	local_supplies=0.0 
+}

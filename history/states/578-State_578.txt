@@ -1,0 +1,26 @@
+state={
+	id=578
+	name="STATE_578"
+	provinces={
+		18 873 2968 3087 3173 3415 3477 3792 3901 3967 4502 4963 6612 6629 6646 6656 6706 6736 6758
+	}
+	manpower=1
+	history={
+		owner = ROM
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ROM
+	}
+	state_category = rural
+	local_supplies=0.0 
+manpower=8137031
+resources={
+oil = 0
+aluminium = 0
+rubber = 9
+tungsten = 0
+steel = 0
+chromium = 0
+}
+}

@@ -1,0 +1,17 @@
+state={
+	id=585
+	name="STATE_585"
+	provinces={
+		521 1861 1981 2988 3203 4182 4490 5395 6802 6810 6844
+	}
+	manpower=1
+	history={
+		owner = WST
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = WST
+	}
+	state_category = rural
+	local_supplies=0.0 
+}

@@ -1,0 +1,23 @@
+state={
+	id=531
+	name="STATE_531"
+	provinces={
+		600 2588 3384 5026 5507 7154 7217 7261
+	}
+	manpower=13372281
+	history={
+		owner = PRS
+		victory_points = { 2043 15 }
+		victory_points = { 3580 10 }
+		victory_points = { 600 5 }
+		victory_points = { 5006 10 }
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
+		}
+		add_core_of = PRS
+	}
+	state_category = large_town
+	local_supplies=0.0 
+}

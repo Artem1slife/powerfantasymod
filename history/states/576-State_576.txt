@@ -1,0 +1,17 @@
+state={
+	id=576
+	name="STATE_576"
+	provinces={
+		236 2018 3098 5110 5633 5807 5858 6393 6516
+	}
+	manpower=1
+	history={
+		owner = VEI
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = VEI
+	}
+	state_category = rural
+	local_supplies=0.0 
+}
